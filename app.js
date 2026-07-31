@@ -6,7 +6,7 @@ if (heroDate) {
 const views = document.querySelectorAll('.view');
 const navItems = document.querySelectorAll('[data-view]');
 const pageTitle = document.querySelector('#page-title');
-const titles = { dashboard: 'Overview', live: 'Live scores', predictor: 'EPF predictor', performance: 'Performance tracker', fixtures: 'Fixtures', teams: 'Teams & players' };
+const titles = { dashboard: 'Overview', live: 'Live scores', fpl: 'FPL assistant', performance: 'Performance tracker', fixtures: 'Fixtures', teams: 'Teams & players' };
 
 function showView(viewName) {
   const target = document.querySelector(`#${viewName}-view`) || document.querySelector('#dashboard-view');
@@ -19,46 +19,10 @@ function showView(viewName) {
 navItems.forEach((item) => item.addEventListener('click', () => showView(item.dataset.view)));
 document.querySelectorAll('[data-view-link]').forEach((item) => item.addEventListener('click', (event) => { event.preventDefault(); showView(item.dataset.viewLink); }));
 
-const inputs = ['home-form', 'away-form', 'home-advantage'];
-inputs.forEach((inputId) => document.querySelector(`#${inputId}`).addEventListener('input', (event) => {
-  document.querySelector(`#${inputId}-value`).textContent = event.target.value;
-}));
-
-function runPrediction() {
-  const homeForm = Number(document.querySelector('#home-form').value);
-  const awayForm = Number(document.querySelector('#away-form').value);
-  const advantage = Number(document.querySelector('#home-advantage').value);
-  const homeTeam = document.querySelector('#home-team').value;
-  const awayTeam = document.querySelector('#away-team').value;
-  const rawHome = homeForm * 0.56 + advantage * 0.44;
-  const rawAway = awayForm;
-  let homeProbability = 38 + (rawHome - rawAway) * 0.45;
-  let drawProbability = 26 - Math.abs(homeForm - awayForm) * 0.08;
-  let awayProbability = 100 - homeProbability - drawProbability;
-
-  const MIN_AWAY = 8;
-  if (awayProbability < MIN_AWAY) {
-    const deficit = MIN_AWAY - awayProbability;
-    const scale = deficit / (homeProbability + drawProbability);
-    homeProbability -= homeProbability * scale;
-    drawProbability -= drawProbability * scale;
-    awayProbability = MIN_AWAY;
-  }
-
-  homeProbability = Math.round(homeProbability);
-  drawProbability = Math.round(drawProbability);
-  awayProbability = 100 - homeProbability - drawProbability;
-  document.querySelector('#home-probability').textContent = `${homeProbability}%`;
-  document.querySelector('#draw-probability').textContent = `${drawProbability}%`;
-  document.querySelector('#away-probability').textContent = `${awayProbability}%`;
-  const homeWins = homeProbability >= awayProbability;
-  document.querySelector('#prediction-title').textContent = homeWins ? `${homeTeam} to edge it` : `${awayTeam} to take the points`;
-  document.querySelector('#prediction-copy').textContent = homeWins ? `Strong home form and a consistent attacking profile give ${homeTeam} the advantage.` : `The away side's current form profile creates a narrow but meaningful edge in this fixture.`;
-  document.querySelector('#expected-score').textContent = homeWins ? `${Math.max(1.1, homeProbability / 25).toFixed(1)} — ${Math.max(.7, awayProbability / 25).toFixed(1)}` : `${Math.max(.8, homeProbability / 28).toFixed(1)} — ${Math.max(1.2, awayProbability / 25).toFixed(1)}`;
-  document.querySelector('#confidence').textContent = Math.abs(homeProbability - awayProbability) > 18 ? 'High' : 'Good';
-  document.querySelector('#model-edge').textContent = `+${Math.abs(homeProbability - awayProbability).toFixed(1)}%`;
+const initialView = window.location.hash.slice(1);
+if (titles[initialView]) {
+  showView(initialView);
 }
 
-document.querySelector('#predict-button').addEventListener('click', runPrediction);
 document.querySelectorAll('.tab').forEach((tab) => tab.addEventListener('click', () => { document.querySelectorAll('.tab').forEach((item) => item.classList.remove('active')); tab.classList.add('active'); }));
 lucide.createIcons();
