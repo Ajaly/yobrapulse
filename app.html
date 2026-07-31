@@ -39,7 +39,7 @@
           <p>Unlock advanced team models and exportable reports.</p>
           <button>Explore Pro <i data-lucide="arrow-up-right"></i></button>
         </div>
-        <button class="nav-item" aria-disabled="true" title="Coming soon"><i data-lucide="settings-2"></i><span>Settings</span><b class="nav-count">Soon</b></button>
+        <button class="nav-item" data-view="settings"><i data-lucide="settings-2"></i><span>Settings</span></button>
         <div class="user-profile"><div class="avatar">JD</div><div><strong>Jordan Davis</strong><small>Analyst account</small></div><i data-lucide="more-horizontal"></i></div>
       </div>
     </aside>
@@ -59,7 +59,7 @@
         <div class="hero-row">
           <div>
             <div class="eyebrow"><span class="pulse-dot"></span> <span id="hero-date">Saturday, 12 October 2024</span></div>
-            <h1><span id="greeting">Good morning</span>, Jordan<span class="accent">.</span></h1>
+            <h1><span id="greeting">Good morning</span>, <span id="hero-name">Jordan</span><span class="accent">.</span></h1>
             <p class="lede">Your football intelligence hub is ready. Here’s what’s happening across your watchlist.</p>
           </div>
           <button class="primary-button" data-view="fpl"><i data-lucide="sparkles"></i> Get FPL tips</button>
@@ -497,6 +497,74 @@
             </div>
           </article>
         </div>
+      </section>
+
+      <section class="view" id="settings-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Workspace</div>
+            <h1>Settings<span class="accent">.</span></h1>
+            <p class="lede">Manage your profile, alerts and watchlist.</p>
+          </div>
+        </div>
+
+        <div class="content-grid">
+          <section class="panel">
+            <div class="panel-header">
+              <div><span class="section-kicker">Profile</span><h2>Your details</h2></div>
+            </div>
+            <label class="field"><span>Display name</span><input type="text" id="settings-name" value="Jordan Davis"></label>
+            <label class="field"><span>Email</span><input type="email" id="settings-email" value="jordan.davis@yobrapulse.com"></label>
+            <button class="primary-button" id="settings-save"><i data-lucide="check"></i> Save changes</button>
+            <span class="positive" id="save-status" style="display:none;margin-left:12px">Saved</span>
+          </section>
+
+          <section class="panel">
+            <div class="panel-header">
+              <div><span class="section-kicker">Notifications</span><h2>Alerts &amp; emails</h2></div>
+            </div>
+            <div class="settings-list">
+              <div class="settings-row">
+                <div class="settings-row-label"><strong>Goal alerts</strong><small>Push notification when a tracked team scores</small></div>
+                <label class="switch"><input type="checkbox" data-pref="goalAlerts" checked><span class="switch-track"></span></label>
+              </div>
+              <div class="settings-row">
+                <div class="settings-row-label"><strong>FPL deadline reminders</strong><small>Reminder 2 hours before each gameweek deadline</small></div>
+                <label class="switch"><input type="checkbox" data-pref="fplReminders" checked><span class="switch-track"></span></label>
+              </div>
+              <div class="settings-row">
+                <div class="settings-row-label"><strong>Price change alerts</strong><small>Notify when a tracked player's price moves</small></div>
+                <label class="switch"><input type="checkbox" data-pref="priceAlerts"><span class="switch-track"></span></label>
+              </div>
+              <div class="settings-row">
+                <div class="settings-row-label"><strong>Weekly summary email</strong><small>A Monday recap of your watchlist and FPL rank</small></div>
+                <label class="switch"><input type="checkbox" data-pref="weeklyEmail" checked><span class="switch-track"></span></label>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">Watchlist</span><h2>Favorite teams</h2></div>
+          </div>
+          <p class="lede" style="margin:0 0 16px">Teams you select appear first across Live scores, Fixtures and Teams &amp; players.</p>
+          <div class="chip-grid" id="team-chips">
+            <button class="chip selected" data-team="Arsenal">Arsenal</button>
+            <button class="chip selected" data-team="Manchester City">Manchester City</button>
+            <button class="chip" data-team="Liverpool">Liverpool</button>
+            <button class="chip" data-team="Chelsea">Chelsea</button>
+            <button class="chip" data-team="Napoli">Napoli</button>
+            <button class="chip" data-team="Inter Milan">Inter Milan</button>
+            <button class="chip" data-team="Real Madrid">Real Madrid</button>
+            <button class="chip" data-team="Tottenham">Tottenham</button>
+          </div>
+        </section>
+
+        <section class="panel plan-panel">
+          <div><span class="section-kicker">Plan</span><h2 style="margin-top:6px">Free plan</h2><p class="lede" style="margin:8px 0 0">Upgrade to Pro for advanced team models and exportable reports.</p></div>
+          <button class="primary-button">Explore Pro <i data-lucide="arrow-up-right"></i></button>
+        </section>
       </section>
     </main>
   </div>
