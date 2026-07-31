@@ -12,7 +12,7 @@ if (greeting) {
 const views = document.querySelectorAll('.view');
 const navItems = document.querySelectorAll('[data-view]');
 const pageTitle = document.querySelector('#page-title');
-const titles = { dashboard: 'Overview', live: 'Live scores', fpl: 'FPL assistant', performance: 'Performance tracker', fixtures: 'Fixtures', teams: 'Teams & players', settings: 'Settings' };
+const titles = { dashboard: 'Overview', live: 'Live scores', fpl: 'FPL assistant', performance: 'Performance tracker', fixtures: 'Fixtures', teams: 'Teams & players', news: 'News', settings: 'Settings' };
 
 function showView(viewName) {
   const target = document.querySelector(`#${viewName}-view`) || document.querySelector('#dashboard-view');
@@ -29,7 +29,12 @@ if (titles[initialView]) {
   showView(initialView);
 }
 
-document.querySelectorAll('.tab').forEach((tab) => tab.addEventListener('click', () => { document.querySelectorAll('.tab').forEach((item) => item.classList.remove('active')); tab.classList.add('active'); }));
+document.querySelectorAll('.tabs').forEach((group) => {
+  group.querySelectorAll('.tab').forEach((tab) => tab.addEventListener('click', () => {
+    group.querySelectorAll('.tab').forEach((item) => item.classList.remove('active'));
+    tab.classList.add('active');
+  }));
+});
 
 const prefs = JSON.parse(localStorage.getItem('yp-prefs') || '{}');
 document.querySelectorAll('[data-pref]').forEach((input) => {
