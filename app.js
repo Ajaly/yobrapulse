@@ -1,3 +1,8 @@
+const heroDate = document.querySelector('#hero-date');
+if (heroDate) {
+  heroDate.textContent = new Date().toLocaleDateString('en-US', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+}
+
 const views = document.querySelectorAll('.view');
 const navItems = document.querySelectorAll('[data-view]');
 const pageTitle = document.querySelector('#page-title');
@@ -27,9 +32,22 @@ function runPrediction() {
   const awayTeam = document.querySelector('#away-team').value;
   const rawHome = homeForm * 0.56 + advantage * 0.44;
   const rawAway = awayForm;
-  const homeProbability = Math.round(38 + (rawHome - rawAway) * 0.45);
-  const drawProbability = Math.round(26 - Math.abs(homeForm - awayForm) * 0.08);
-  const awayProbability = Math.max(8, 100 - homeProbability - drawProbability);
+  let homeProbability = 38 + (rawHome - rawAway) * 0.45;
+  let drawProbability = 26 - Math.abs(homeForm - awayForm) * 0.08;
+  let awayProbability = 100 - homeProbability - drawProbability;
+
+  const MIN_AWAY = 8;
+  if (awayProbability < MIN_AWAY) {
+    const deficit = MIN_AWAY - awayProbability;
+    const scale = deficit / (homeProbability + drawProbability);
+    homeProbability -= homeProbability * scale;
+    drawProbability -= drawProbability * scale;
+    awayProbability = MIN_AWAY;
+  }
+
+  homeProbability = Math.round(homeProbability);
+  drawProbability = Math.round(drawProbability);
+  awayProbability = 100 - homeProbability - drawProbability;
   document.querySelector('#home-probability').textContent = `${homeProbability}%`;
   document.querySelector('#draw-probability').textContent = `${drawProbability}%`;
   document.querySelector('#away-probability').textContent = `${awayProbability}%`;
