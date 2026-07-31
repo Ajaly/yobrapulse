@@ -3,6 +3,12 @@ if (heroDate) {
   heroDate.textContent = new Date().toLocaleDateString('en-US', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
 }
 
+const greeting = document.querySelector('#greeting');
+if (greeting) {
+  const hour = new Date().getHours();
+  greeting.textContent = hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening';
+}
+
 const views = document.querySelectorAll('.view');
 const navItems = document.querySelectorAll('[data-view]');
 const pageTitle = document.querySelector('#page-title');
@@ -17,7 +23,6 @@ function showView(viewName) {
 }
 
 navItems.forEach((item) => item.addEventListener('click', () => showView(item.dataset.view)));
-document.querySelectorAll('[data-view-link]').forEach((item) => item.addEventListener('click', (event) => { event.preventDefault(); showView(item.dataset.viewLink); }));
 
 const initialView = window.location.hash.slice(1);
 if (titles[initialView]) {

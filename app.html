@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>YobraPulse | Football Intelligence</title>
+  <meta name="description" content="Your football intelligence dashboard — live scores, FPL captain picks, transfer advice and player performance analytics." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="YobraPulse" />
+  <meta property="og:title" content="YobraPulse | Football Intelligence" />
+  <meta property="og:description" content="Your football intelligence dashboard — live scores, FPL captain picks, transfer advice and player performance analytics." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2316b667'/%3E%3Ctext x='50' y='70' font-family='Arial,sans-serif' font-weight='700' font-size='58' fill='%23071a12' text-anchor='middle'%3EY%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -13,7 +19,7 @@
 <body>
   <div class="app-shell">
     <aside class="sidebar">
-      <a class="brand" href="#dashboard" data-view-link="dashboard">
+      <a class="brand" href="index.html">
         <span class="brand-mark"><i data-lucide="trophy"></i></span>
         <span>Yobra<span>Pulse</span></span>
       </a>
@@ -33,14 +39,14 @@
           <p>Unlock advanced team models and exportable reports.</p>
           <button>Explore Pro <i data-lucide="arrow-up-right"></i></button>
         </div>
-        <button class="nav-item"><i data-lucide="settings-2"></i><span>Settings</span></button>
+        <button class="nav-item" aria-disabled="true" title="Coming soon"><i data-lucide="settings-2"></i><span>Settings</span><b class="nav-count">Soon</b></button>
         <div class="user-profile"><div class="avatar">JD</div><div><strong>Jordan Davis</strong><small>Analyst account</small></div><i data-lucide="more-horizontal"></i></div>
       </div>
     </aside>
 
     <main class="main-content">
       <header class="topbar">
-        <div class="mobile-brand"><span class="brand-mark"><i data-lucide="trophy"></i></span><strong>Yobra<span>Pulse</span></strong></div>
+        <a class="mobile-brand" href="index.html"><span class="brand-mark"><i data-lucide="trophy"></i></span><strong>Yobra<span>Pulse</span></strong></a>
         <div class="breadcrumb"><span>Workspace</span><i data-lucide="chevron-right"></i><strong id="page-title">Overview</strong></div>
         <div class="top-actions">
           <button class="icon-button" aria-label="Search"><i data-lucide="search"></i></button>
@@ -53,7 +59,7 @@
         <div class="hero-row">
           <div>
             <div class="eyebrow"><span class="pulse-dot"></span> <span id="hero-date">Saturday, 12 October 2024</span></div>
-            <h1>Good morning, Jordan<span class="accent">.</span></h1>
+            <h1><span id="greeting">Good morning</span>, Jordan<span class="accent">.</span></h1>
             <p class="lede">Your football intelligence hub is ready. Here’s what’s happening across your watchlist.</p>
           </div>
           <button class="primary-button" data-view="fpl"><i data-lucide="sparkles"></i> Get FPL tips</button>
@@ -114,7 +120,7 @@
           <section class="panel focus-panel">
             <div class="panel-header">
               <div><span class="section-kicker">Your focus</span><h2>Performance pulse</h2></div>
-              <button class="icon-button"><i data-lucide="more-horizontal"></i></button>
+              <button class="icon-button" aria-label="More options"><i data-lucide="more-horizontal"></i></button>
             </div>
             <div class="chart-wrap">
               <div class="chart-y"><span>100</span><span>75</span><span>50</span><span>25</span><span>0</span></div>
@@ -146,21 +152,21 @@
               <span>Arsenal</span>
               <span class="form-bars"><i class="high"></i><i class="high"></i><i class="mid"></i><i class="high"></i><i class="high"></i></span>
               <strong>8.7</strong>
-              <button class="row-arrow"><i data-lucide="chevron-right"></i></button>
+              <button class="row-arrow" aria-label="View player"><i data-lucide="chevron-right"></i></button>
             </div>
             <div class="table-row">
               <div class="player-cell"><div class="player-avatar blue-avatar">JØ</div><strong>Erling Haaland<small>ST · Norway</small></strong></div>
               <span>Man City</span>
               <span class="form-bars"><i class="high"></i><i class="mid"></i><i class="high"></i><i class="high"></i><i class="low"></i></span>
               <strong>8.4</strong>
-              <button class="row-arrow"><i data-lucide="chevron-right"></i></button>
+              <button class="row-arrow" aria-label="View player"><i data-lucide="chevron-right"></i></button>
             </div>
             <div class="table-row">
               <div class="player-cell"><div class="player-avatar orange-avatar">KM</div><strong>Khvicha Kvaratskhelia<small>LW · Georgia</small></strong></div>
               <span>Napoli</span>
               <span class="form-bars"><i class="mid"></i><i class="high"></i><i class="high"></i><i class="mid"></i><i class="high"></i></span>
               <strong>8.2</strong>
-              <button class="row-arrow"><i data-lucide="chevron-right"></i></button>
+              <button class="row-arrow" aria-label="View player"><i data-lucide="chevron-right"></i></button>
             </div>
           </div>
         </section>
@@ -297,22 +303,22 @@
             <div class="table-row">
               <div class="player-cell"><div class="player-avatar blue-avatar">EH</div><strong>Erling Haaland<small>ST · Norway</small></strong></div>
               <span>Man City</span><span>£15.2m</span><span>68.4%</span><strong>18</strong>
-              <button class="row-arrow"><i data-lucide="chevron-right"></i></button>
+              <button class="row-arrow" aria-label="View player"><i data-lucide="chevron-right"></i></button>
             </div>
             <div class="table-row">
               <div class="player-cell"><div class="player-avatar pink-avatar">CP</div><strong>Cole Palmer<small>MID · England</small></strong></div>
               <span>Chelsea</span><span>£6.4m</span><span>41.2%</span><strong>15</strong>
-              <button class="row-arrow"><i data-lucide="chevron-right"></i></button>
+              <button class="row-arrow" aria-label="View player"><i data-lucide="chevron-right"></i></button>
             </div>
             <div class="table-row">
               <div class="player-cell"><div class="player-avatar">BS</div><strong>Bukayo Saka<small>RW · England</small></strong></div>
               <span>Arsenal</span><span>£9.1m</span><span>52.8%</span><strong>13</strong>
-              <button class="row-arrow"><i data-lucide="chevron-right"></i></button>
+              <button class="row-arrow" aria-label="View player"><i data-lucide="chevron-right"></i></button>
             </div>
             <div class="table-row">
               <div class="player-cell"><div class="player-avatar orange-avatar">MS</div><strong>Mohamed Salah<small>RW · Egypt</small></strong></div>
               <span>Liverpool</span><span>£12.8m</span><span>63.5%</span><strong>11</strong>
-              <button class="row-arrow"><i data-lucide="chevron-right"></i></button>
+              <button class="row-arrow" aria-label="View player"><i data-lucide="chevron-right"></i></button>
             </div>
           </div>
         </section>
