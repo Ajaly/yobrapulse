@@ -508,58 +508,58 @@
           <div>
             <div class="eyebrow"><span class="pulse-dot"></span> Transfers & injuries</div>
             <h1>News<span class="accent">.</span></h1>
-            <p class="lede">The latest transfer talk, injury updates and club news across your watchlist.</p>
+            <p class="lede">Real headlines from BBC Sport and Sky Sports, sorted into transfers, injuries and club news.</p>
           </div>
-          <div class="model-status"><span></span> Updated 12 min ago</div>
+          <div class="model-status"><span></span> <span id="news-updated-text">Updated 12 min ago</span></div>
         </div>
 
         <section class="panel news-panel">
           <div class="panel-header">
-            <div><span class="section-kicker">Live feed</span><h2>Latest bulletins</h2></div>
-            <div class="tabs">
-              <button class="tab active">All</button>
-              <button class="tab">Transfers</button>
-              <button class="tab">Injuries</button>
+            <div><span class="section-kicker">Live feed</span><h2>Latest bulletins</h2> <span class="live-badge" id="news-live-badge" hidden>Live data</span></div>
+            <div class="tabs" id="news-tabs">
+              <button class="tab active" data-filter="all">All</button>
+              <button class="tab" data-filter="transfer">Transfers</button>
+              <button class="tab" data-filter="injury">Injuries</button>
             </div>
           </div>
-          <div class="news-feed">
-            <article class="news-card">
+          <div class="news-feed" id="news-feed">
+            <article class="news-card" data-category="injury">
               <div class="news-card-head"><span class="news-tag injury">Injury</span><span class="news-time">38m ago</span></div>
               <h3>Saka a doubt for Sunday's trip to Newcastle</h3>
               <p>Arsenal's talisman missed training with a tight hamstring; Arteta says a late fitness call will be made before the squad travels north.</p>
               <div class="news-source"><span class="source-dot"></span> Sky Sports &middot; Arsenal</div>
             </article>
-            <article class="news-card">
+            <article class="news-card" data-category="transfer">
               <div class="news-card-head"><span class="news-tag transfer">Transfer</span><span class="news-time">1h ago</span></div>
               <h3>Napoli open talks over January move for backup striker</h3>
               <p>Napoli have made contact over a January loan with an option to buy, as they look to ease the goalscoring burden on Osimhen.</p>
               <div class="news-source"><span class="source-dot"></span> Fabrizio Romano &middot; Napoli</div>
             </article>
-            <article class="news-card">
+            <article class="news-card" data-category="injury">
               <div class="news-card-head"><span class="news-tag injury">Injury</span><span class="news-time">2h ago</span></div>
               <h3>Haaland to be assessed after tweaking hamstring in training</h3>
               <p>City's medical staff will run scans on Thursday; Guardiola sounded cautiously optimistic he'll be fit to face Southampton.</p>
               <div class="news-source"><span class="source-dot"></span> Manchester Evening News &middot; Man City</div>
             </article>
-            <article class="news-card">
+            <article class="news-card" data-category="transfer">
               <div class="news-card-head"><span class="news-tag transfer">Transfer</span><span class="news-time">3h ago</span></div>
               <h3>Chelsea eye Ligue 1 winger as Sterling exit edges closer</h3>
               <p>With Sterling's game time dwindling, Chelsea have begun scouting alternatives ahead of a possible January exit.</p>
               <div class="news-source"><span class="source-dot"></span> The Athletic &middot; Chelsea</div>
             </article>
-            <article class="news-card">
+            <article class="news-card" data-category="club">
               <div class="news-card-head"><span class="news-tag club">Club news</span><span class="news-time">4h ago</span></div>
               <h3>Arteta confirms Ødegaard is "ready to start" after rotation</h3>
               <p>The Arsenal captain was rested midweek but trained fully on Friday and is in contention to lead the side out this weekend.</p>
               <div class="news-source"><span class="source-dot"></span> BBC Sport &middot; Arsenal</div>
             </article>
-            <article class="news-card">
+            <article class="news-card" data-category="transfer">
               <div class="news-card-head"><span class="news-tag transfer">Transfer</span><span class="news-time">6h ago</span></div>
               <h3>Real Madrid step up interest in Serie A full-back</h3>
               <p>Madrid's scouts have watched the 22-year-old three times this month, with a January enquiry now considered likely.</p>
               <div class="news-source"><span class="source-dot"></span> Fabrizio Romano &middot; Real Madrid</div>
             </article>
-            <article class="news-card">
+            <article class="news-card" data-category="injury">
               <div class="news-card-head"><span class="news-tag injury">Injury</span><span class="news-time">8h ago</span></div>
               <h3>Trafford out for "a few weeks" with ankle knock, Burnley confirm</h3>
               <p>The goalkeeper was withdrawn at half-time on Saturday and will be assessed weekly; a scan ruled out ligament damage.</p>

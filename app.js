@@ -241,4 +241,42 @@ fetch('data/fpl.json')
   })
   .catch(() => { /* keep the illustrative fallback content already in the page */ });
 
+function relativeTime(iso) {
+  const mins = Math.max(1, Math.round((Date.now() - new Date(iso).getTime()) / 60000));
+  if (mins < 60) return mins + 'm ago';
+  const hours = Math.round(mins / 60);
+  if (hours < 24) return hours + 'h ago';
+  return Math.round(hours / 24) + 'd ago';
+}
+
+fetch('data/news.json')
+  .then((res) => (res.ok ? res.json() : Promise.reject(new Error('news.json ' + res.status))))
+  .then((data) => {
+    const feed = document.querySelector('#news-feed');
+    if (feed && data.items.length) {
+      feed.innerHTML = data.items.map((item) => `
+        <article class="news-card" data-category="${item.category}">
+          <div class="news-card-head"><span class="news-tag ${item.category}">${item.categoryLabel}</span><span class="news-time">${relativeTime(item.pubDateISO)}</span></div>
+          <h3><a href="${item.link}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${item.title}</a></h3>
+          <p>${item.description}</p>
+          <div class="news-source"><span class="source-dot"></span> ${item.source}</div>
+        </article>
+      `).join('');
+      const updatedText = document.querySelector('#news-updated-text');
+      if (updatedText) updatedText.textContent = 'Updated ' + relativeTime(data.generatedAt);
+      const badge = document.querySelector('#news-live-badge');
+      if (badge) badge.hidden = false;
+    }
+  })
+  .catch(() => { /* keep the illustrative fallback content already in the page */ });
+
+document.querySelectorAll('#news-tabs .tab').forEach((tab) => {
+  tab.addEventListener('click', () => {
+    const filter = tab.dataset.filter;
+    document.querySelectorAll('#news-feed .news-card').forEach((card) => {
+      card.style.display = (filter === 'all' || card.dataset.category === filter) ? '' : 'none';
+    });
+  });
+});
+
 lucide.createIcons();
