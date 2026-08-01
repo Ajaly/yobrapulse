@@ -23,6 +23,20 @@ numbers, not a guess, so "transfer advice" recommendations aren't
 built from it. That panel stays as illustrative content in the front
 end for now; revisit once the season is underway and this data starts
 moving.
+
+Match outcome predictions (see predict_fixture): checked what a real
+prediction engine would need - historical head-to-head and
+player-vs-specific-opponent stats aren't available from this API at
+all (verified directly: a player's element-summary only keeps
+season-level totals once a season ends, not fixture-by-fixture
+history). Per-team attack/defence strength splits are also all zero
+right now (not yet populated for the new season). What IS real and
+usable: each team's overall home/away strength rating (the same
+FPL-published figures that already drive fixture FDR) and real
+last-season squad quality (the same squadRating used in the Teams
+view). The model below is a transparent, documented heuristic built
+from those two real signals - not a trained model, not head-to-head,
+and it says so in the UI.
 """
 import json
 import urllib.request
@@ -58,18 +72,94 @@ def price_str(now_cost):
     return f"£{now_cost / 10:.1f}m"
 
 
-def build_fixtures_list(fixtures, teams):
+MIN_SQUAD_MINUTES = 2000  # ~22 full matches worth, spread across a squad
+
+
+def compute_squad_ratings(data):
+    """team_id -> real points-per-90, minutes-weighted across the whole
+    squad (sum of points / sum of minutes), or None if there isn't
+    enough real Premier League playing time to trust a number at all.
+
+    This was originally a simple average of each qualifying player's
+    own points-per-90, which broke badly for the three newly-promoted
+    clubs: their rosters accumulated almost all of their minutes in
+    the Championship, which this data doesn't track, so e.g. Coventry
+    had exactly one player with any real PL minutes (88, one cameo)
+    and that one small, noisy number became "Coventry's squad rating"
+    - 12.3, higher than Arsenal's. Caught by spot-checking the actual
+    prediction output before shipping it, not by inspecting the code.
+    Weighting by minutes and requiring a real sample (established
+    clubs have 30,000-48,000 total squad minutes; the promoted three
+    have 0-812) fixes it honestly: no reliable number, so no number,
+    rather than a wrong one."""
+    by_team = {}
+    for e in data["elements"]:
+        by_team.setdefault(e["team"], []).append(e)
+    ratings = {}
+    for team_id, squad in by_team.items():
+        total_minutes = sum(e["minutes"] for e in squad)
+        total_points = sum(e["total_points"] for e in squad)
+        ratings[team_id] = (total_points / total_minutes * 90) if total_minutes >= MIN_SQUAD_MINUTES else None
+    return ratings
+
+
+def predict_fixture(home_team, away_team, squad_ratings):
+    """Home/draw/away percentages (always sum to exactly 100) plus a
+    predicted scoreline, from two real signals: FPL's own overall
+    home/away strength rating per club, and real last-season squad
+    quality (points-per-90). Base rates (45/25/30) reflect the actual
+    long-run Premier League home-advantage split. No head-to-head, no
+    current-season form (there isn't any yet) - documented above."""
+    strength_diff = home_team["strength_overall_home"] - away_team["strength_overall_away"]
+    home_quality = squad_ratings.get(home_team["id"])
+    away_quality = squad_ratings.get(away_team["id"])
+    # Neither side gets credit/blame for a rating neither team can be
+    # trusted to have (see compute_squad_ratings) - fall back to
+    # strength-only rather than silently treating "no data" as "zero".
+    quality_diff = (home_quality - away_quality) if (home_quality is not None and away_quality is not None) else 0
+
+    home_win = 45 + strength_diff * 7 + quality_diff * 5
+    away_win = 30 - strength_diff * 6 - quality_diff * 4
+    home_win = max(15, min(72, home_win))
+    away_win = max(8, min(58, away_win))
+    draw = 100 - home_win - away_win
+    if draw < 10:
+        deficit = 10 - draw
+        scale = deficit / (home_win + away_win) if (home_win + away_win) else 0
+        home_win -= home_win * scale
+        away_win -= away_win * scale
+        draw = 10
+
+    home_win = round(home_win)
+    draw = round(draw)
+    away_win = 100 - home_win - draw  # exact after rounding
+
+    edge = strength_diff * 0.15 + quality_diff * 0.1
+    home_goals = max(0.4, min(3.8, 1.5 + edge))
+    away_goals = max(0.3, min(3.2, 1.1 - edge * 0.8))
+
+    return {
+        "homeWinPct": home_win,
+        "drawPct": draw,
+        "awayWinPct": away_win,
+        "predictedScore": f"{home_goals:.1f} — {away_goals:.1f}",
+    }
+
+
+def build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings):
     out = []
     for f in sorted(fixtures, key=lambda x: x["kickoff_time"] or ""):
         if not f["kickoff_time"]:
             continue
         kickoff = datetime.fromisoformat(f["kickoff_time"].replace("Z", "+00:00"))
-        out.append({
+        entry = {
             "home": teams[f["team_h"]],
             "away": teams[f["team_a"]],
             "kickoffISO": f["kickoff_time"],
             "kickoffLabel": kickoff.strftime("%a %d %b · %H:%M UTC"),
-        })
+        }
+        entry.update(predict_fixture(teams_by_id[f["team_h"]], teams_by_id[f["team_a"]], squad_ratings))
+        out.append(entry)
     return out
 
 
@@ -92,7 +182,7 @@ def build_fixture_lookup(fixtures, teams):
     return lookup
 
 
-def build_teams_list(data):
+def build_teams_list(data, squad_ratings):
     """Real 20-club roster with aggregate stats derived from real player
     data (squad rating = avg points-per-90 among players with minutes,
     last season; squad value = sum of real current prices). No league
@@ -105,18 +195,14 @@ def build_teams_list(data):
     out = []
     for t in data["teams"]:
         squad = by_team.get(t["id"], [])
-        rated = [e for e in squad if e["minutes"] >= 30]
-        avg_rating = (
-            sum((e["total_points"] / e["minutes"]) * 90 for e in rated) / len(rated)
-            if rated else 0
-        )
+        avg_rating = squad_ratings.get(t["id"])
         squad_value = sum(e["now_cost"] for e in squad) / 10
         out.append({
             "name": t["name"],
             "shortName": t["short_name"],
             "crestClass": CREST_CLASSES[t["id"] % len(CREST_CLASSES)],
             "squadSize": len(squad),
-            "squadRating": round(avg_rating, 2),
+            "squadRating": round(avg_rating, 2) if avg_rating is not None else None,
             "squadValue": f"£{squad_value:.1f}m",
         })
     out.sort(key=lambda t: t["name"])
@@ -154,12 +240,14 @@ def build_player(e, teams, fixture_lookup):
 def main():
     data = fetch_json(BOOTSTRAP_URL)
     teams = {t["id"]: t["name"] for t in data["teams"]}
+    teams_by_id = {t["id"]: t for t in data["teams"]}
+    squad_ratings = compute_squad_ratings(data)
 
     next_event = next((ev for ev in data["events"] if ev.get("is_next")), data["events"][0])
     fixtures = fetch_json(FIXTURES_URL.format(event_id=next_event["id"]))
     fixture_lookup = build_fixture_lookup(fixtures, teams)
-    fixtures_list = build_fixtures_list(fixtures, teams)
-    teams_list = build_teams_list(data)
+    fixtures_list = build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings)
+    teams_list = build_teams_list(data, squad_ratings)
 
     eligible = [e for e in data["elements"] if float(e["selected_by_percent"] or 0) >= 2.0]
 

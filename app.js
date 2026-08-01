@@ -173,6 +173,15 @@ function teamSpan(name) {
   return `<span class="${isFavorite ? 'favorite-team' : ''}">${name}</span>`;
 }
 
+function predictChip(f) {
+  const max = Math.max(f.homeWinPct, f.drawPct, f.awayWinPct);
+  let label = 'Draw';
+  if (max === f.homeWinPct) label = 'Home win';
+  else if (max === f.awayWinPct) label = 'Away win';
+  const title = `Home ${f.homeWinPct}% · Draw ${f.drawPct}% · Away ${f.awayWinPct}% · Predicted score ${f.predictedScore}`;
+  return `<div class="predict-chip" title="${title}"><i data-lucide="target"></i> ${max}% ${label}</div>`;
+}
+
 fetch('data/fpl.json')
   .then((res) => (res.ok ? res.json() : Promise.reject(new Error('fpl.json ' + res.status))))
   .then((data) => {
@@ -185,13 +194,17 @@ fetch('data/fpl.json')
         <article class="match-row">
           <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>${data.gameweek.name}</small></div></div>
           <div class="teams">${teamSpan(f.home)}<strong>VS</strong>${teamSpan(f.away)}</div>
-          <div class="match-status upcoming"><span></span> ${f.kickoffLabel}</div>
+          <div class="match-outcome">
+            <div class="match-status upcoming"><span></span> ${f.kickoffLabel}</div>
+            ${predictChip(f)}
+          </div>
         </article>
       `).join('');
       const fixturesKicker = document.querySelector('#fixtures-kicker');
       if (fixturesKicker) fixturesKicker.textContent = data.gameweek.name;
       const fixturesBadge = document.querySelector('#fixtures-live-badge');
       if (fixturesBadge) fixturesBadge.hidden = false;
+      lucide.createIcons();
     }
 
     const teamsGrid = document.querySelector('#teams-grid');
@@ -211,7 +224,7 @@ fetch('data/fpl.json')
             ${isFavorite ? '<i data-lucide="sparkles" class="team-card-favorite"></i>' : ''}
           </div>
           <div class="team-card-stats">
-            <div><small>Squad rating</small><strong>${t.squadRating.toFixed(1)}</strong></div>
+            <div><small>Squad rating</small><strong>${t.squadRating === null ? 'New to PL' : t.squadRating.toFixed(1)}</strong></div>
             <div><small>Squad size</small><strong>${t.squadSize}</strong></div>
             <div><small>Squad value</small><strong>${t.squadValue}</strong></div>
           </div>

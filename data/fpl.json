@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T17:30:53.957553+00:00",
+  "generatedAt": "2026-08-01T17:56:47.525203+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -24,61 +24,101 @@
       "home": "Arsenal",
       "away": "Coventry City",
       "kickoffISO": "2026-08-21T19:00:00Z",
-      "kickoffLabel": "Fri 21 Aug \u00b7 19:00 UTC"
+      "kickoffLabel": "Fri 21 Aug \u00b7 19:00 UTC",
+      "homeWinPct": 59,
+      "drawPct": 23,
+      "awayWinPct": 18,
+      "predictedScore": "1.8 \u2014 0.9"
     },
     {
       "home": "Hull City",
       "away": "Man Utd",
       "kickoffISO": "2026-08-22T11:30:00Z",
-      "kickoffLabel": "Sat 22 Aug \u00b7 11:30 UTC"
+      "kickoffLabel": "Sat 22 Aug \u00b7 11:30 UTC",
+      "homeWinPct": 31,
+      "drawPct": 27,
+      "awayWinPct": 42,
+      "predictedScore": "1.2 \u2014 1.3"
     },
     {
       "home": "Everton",
       "away": "Crystal Palace",
       "kickoffISO": "2026-08-22T14:00:00Z",
-      "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC"
+      "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC",
+      "homeWinPct": 46,
+      "drawPct": 25,
+      "awayWinPct": 29,
+      "predictedScore": "1.5 \u2014 1.1"
     },
     {
       "home": "Ipswich Town",
       "away": "Sunderland",
       "kickoffISO": "2026-08-22T14:00:00Z",
-      "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC"
+      "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC",
+      "homeWinPct": 38,
+      "drawPct": 26,
+      "awayWinPct": 36,
+      "predictedScore": "1.4 \u2014 1.2"
     },
     {
       "home": "Nott'm Forest",
       "away": "Leeds",
       "kickoffISO": "2026-08-22T14:00:00Z",
-      "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC"
+      "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC",
+      "homeWinPct": 43,
+      "drawPct": 25,
+      "awayWinPct": 32,
+      "predictedScore": "1.5 \u2014 1.1"
     },
     {
       "home": "Brentford",
       "away": "Spurs",
       "kickoffISO": "2026-08-22T16:30:00Z",
-      "kickoffLabel": "Sat 22 Aug \u00b7 16:30 UTC"
+      "kickoffLabel": "Sat 22 Aug \u00b7 16:30 UTC",
+      "homeWinPct": 46,
+      "drawPct": 25,
+      "awayWinPct": 29,
+      "predictedScore": "1.5 \u2014 1.1"
     },
     {
       "home": "Brighton",
       "away": "Aston Villa",
       "kickoffISO": "2026-08-23T13:00:00Z",
-      "kickoffLabel": "Sun 23 Aug \u00b7 13:00 UTC"
+      "kickoffLabel": "Sun 23 Aug \u00b7 13:00 UTC",
+      "homeWinPct": 32,
+      "drawPct": 27,
+      "awayWinPct": 41,
+      "predictedScore": "1.2 \u2014 1.3"
     },
     {
       "home": "Man City",
       "away": "Bournemouth",
       "kickoffISO": "2026-08-23T13:00:00Z",
-      "kickoffLabel": "Sun 23 Aug \u00b7 13:00 UTC"
+      "kickoffLabel": "Sun 23 Aug \u00b7 13:00 UTC",
+      "homeWinPct": 56,
+      "drawPct": 23,
+      "awayWinPct": 21,
+      "predictedScore": "1.7 \u2014 0.9"
     },
     {
       "home": "Newcastle",
       "away": "Liverpool",
       "kickoffISO": "2026-08-23T15:30:00Z",
-      "kickoffLabel": "Sun 23 Aug \u00b7 15:30 UTC"
+      "kickoffLabel": "Sun 23 Aug \u00b7 15:30 UTC",
+      "homeWinPct": 30,
+      "drawPct": 27,
+      "awayWinPct": 43,
+      "predictedScore": "1.2 \u2014 1.4"
     },
     {
       "home": "Fulham",
       "away": "Chelsea",
       "kickoffISO": "2026-08-24T19:00:00Z",
-      "kickoffLabel": "Mon 24 Aug \u00b7 19:00 UTC"
+      "kickoffLabel": "Mon 24 Aug \u00b7 19:00 UTC",
+      "homeWinPct": 28,
+      "drawPct": 28,
+      "awayWinPct": 44,
+      "predictedScore": "1.1 \u2014 1.4"
     }
   ],
   "teams": [
@@ -87,7 +127,7 @@
       "shortName": "ARS",
       "crestClass": "blue-crest",
       "squadSize": 28,
-      "squadRating": 5.39,
+      "squadRating": 5.19,
       "squadValue": "\u00a3173.0m"
     },
     {
@@ -95,7 +135,7 @@
       "shortName": "AVL",
       "crestClass": "orange-crest",
       "squadSize": 28,
-      "squadRating": 4.21,
+      "squadRating": 3.96,
       "squadValue": "\u00a3141.5m"
     },
     {
@@ -103,7 +143,7 @@
       "shortName": "BOU",
       "crestClass": "pink-crest",
       "squadSize": 25,
-      "squadRating": 5.22,
+      "squadRating": 4.41,
       "squadValue": "\u00a3131.0m"
     },
     {
@@ -111,7 +151,7 @@
       "shortName": "BRE",
       "crestClass": "",
       "squadSize": 26,
-      "squadRating": 4.29,
+      "squadRating": 4.15,
       "squadValue": "\u00a3134.5m"
     },
     {
@@ -119,7 +159,7 @@
       "shortName": "BHA",
       "crestClass": "blue-crest",
       "squadSize": 32,
-      "squadRating": 4.9,
+      "squadRating": 4.09,
       "squadValue": "\u00a3160.5m"
     },
     {
@@ -127,7 +167,7 @@
       "shortName": "CHE",
       "crestClass": "orange-crest",
       "squadSize": 33,
-      "squadRating": 3.97,
+      "squadRating": 4.27,
       "squadValue": "\u00a3181.0m"
     },
     {
@@ -135,7 +175,7 @@
       "shortName": "COV",
       "crestClass": "pink-crest",
       "squadSize": 28,
-      "squadRating": 12.27,
+      "squadRating": null,
       "squadValue": "\u00a3128.5m"
     },
     {
@@ -143,7 +183,7 @@
       "shortName": "CRY",
       "crestClass": "",
       "squadSize": 28,
-      "squadRating": 4.51,
+      "squadRating": 3.91,
       "squadValue": "\u00a3142.0m"
     },
     {
@@ -151,7 +191,7 @@
       "shortName": "EVE",
       "crestClass": "blue-crest",
       "squadSize": 23,
-      "squadRating": 4.46,
+      "squadRating": 4.2,
       "squadValue": "\u00a3121.0m"
     },
     {
@@ -159,7 +199,7 @@
       "shortName": "FUL",
       "crestClass": "orange-crest",
       "squadSize": 21,
-      "squadRating": 4.78,
+      "squadRating": 3.73,
       "squadValue": "\u00a3101.5m"
     },
     {
@@ -167,7 +207,7 @@
       "shortName": "HUL",
       "crestClass": "pink-crest",
       "squadSize": 29,
-      "squadRating": 0,
+      "squadRating": null,
       "squadValue": "\u00a3128.0m"
     },
     {
@@ -175,7 +215,7 @@
       "shortName": "IPS",
       "crestClass": "",
       "squadSize": 29,
-      "squadRating": 3.44,
+      "squadRating": null,
       "squadValue": "\u00a3135.5m"
     },
     {
@@ -183,7 +223,7 @@
       "shortName": "LEE",
       "crestClass": "blue-crest",
       "squadSize": 24,
-      "squadRating": 4.55,
+      "squadRating": 4.31,
       "squadValue": "\u00a3122.5m"
     },
     {
@@ -191,7 +231,7 @@
       "shortName": "LIV",
       "crestClass": "orange-crest",
       "squadSize": 34,
-      "squadRating": 4.85,
+      "squadRating": 4.46,
       "squadValue": "\u00a3183.5m"
     },
     {
@@ -199,7 +239,7 @@
       "shortName": "MCI",
       "crestClass": "pink-crest",
       "squadSize": 30,
-      "squadRating": 5.09,
+      "squadRating": 5.2,
       "squadValue": "\u00a3185.0m"
     },
     {
@@ -207,7 +247,7 @@
       "shortName": "MUN",
       "crestClass": "",
       "squadSize": 33,
-      "squadRating": 4.29,
+      "squadRating": 4.3,
       "squadValue": "\u00a3179.5m"
     },
     {
@@ -215,7 +255,7 @@
       "shortName": "NEW",
       "crestClass": "blue-crest",
       "squadSize": 25,
-      "squadRating": 4.39,
+      "squadRating": 4.27,
       "squadValue": "\u00a3132.5m"
     },
     {
@@ -223,7 +263,7 @@
       "shortName": "NFO",
       "crestClass": "orange-crest",
       "squadSize": 27,
-      "squadRating": 4.12,
+      "squadRating": 3.97,
       "squadValue": "\u00a3139.0m"
     },
     {
@@ -231,7 +271,7 @@
       "shortName": "TOT",
       "crestClass": "pink-crest",
       "squadSize": 36,
-      "squadRating": 4.05,
+      "squadRating": 3.86,
       "squadValue": "\u00a3183.5m"
     },
     {
@@ -239,7 +279,7 @@
       "shortName": "SUN",
       "crestClass": "",
       "squadSize": 25,
-      "squadRating": 3.78,
+      "squadRating": 4.03,
       "squadValue": "\u00a3123.0m"
     }
   ],
@@ -313,7 +353,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a312.0m",
-      "owned": "48.9%",
+      "owned": "48.8%",
       "points": 235,
       "epNext": 4.0,
       "form": 0.0,
