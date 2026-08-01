@@ -32,6 +32,7 @@
         <button class="nav-item" data-view="fixtures"><i data-lucide="calendar-days"></i><span>Fixtures</span></button>
         <button class="nav-item" data-view="teams"><i data-lucide="users-round"></i><span>Teams & players</span></button>
         <button class="nav-item" data-view="news"><i data-lucide="newspaper"></i><span>News</span></button>
+        <button class="nav-item" data-view="stats"><i data-lucide="award"></i><span>Stats</span></button>
       </nav>
       <div class="sidebar-bottom">
         <div class="upgrade-card">
@@ -572,6 +573,35 @@
         </section>
       </section>
 
+      <section class="view" id="stats-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Real season leaders</div>
+            <h1>Stats<span class="accent">.</span></h1>
+            <p class="lede">Real leaderboards from last season's Premier League data — points, assists, expected goals and best value-for-money.</p>
+          </div>
+          <span class="live-badge" id="stats-live-badge" hidden>Live data</span>
+        </div>
+        <div class="stats-grid">
+          <section class="panel">
+            <div class="panel-header"><div><span class="section-kicker">25/26 season</span><h2>Most points</h2></div></div>
+            <div class="leaderboard-list" id="leaderboard-points"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+          </section>
+          <section class="panel">
+            <div class="panel-header"><div><span class="section-kicker">25/26 season</span><h2>Most assists</h2></div></div>
+            <div class="leaderboard-list" id="leaderboard-assists"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+          </section>
+          <section class="panel">
+            <div class="panel-header"><div><span class="section-kicker">25/26 season</span><h2>Highest xG</h2></div></div>
+            <div class="leaderboard-list" id="leaderboard-xg"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+          </section>
+          <section class="panel">
+            <div class="panel-header"><div><span class="section-kicker">25/26 season</span><h2>Best value</h2></div></div>
+            <div class="leaderboard-list" id="leaderboard-value"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+          </section>
+        </div>
+      </section>
+
       <section class="view" id="settings-view">
         <div class="page-heading">
           <div>
@@ -664,6 +694,7 @@
         <div><small>Owned</small><strong id="pm-owned">52.8%</strong></div>
         <div><small id="pm-points-label">GW9 pts</small><strong id="pm-points">13</strong></div>
       </div>
+      <p class="modal-context" id="pm-context" hidden></p>
       <div class="modal-next">
         <span class="section-kicker" id="pm-next-kicker">Next fixture</span>
         <p id="pm-next">vs Southampton (H) &middot; Sun 20 Oct</p>

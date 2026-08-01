@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T17:56:47.525203+00:00",
+  "generatedAt": "2026-08-01T18:26:22.257447+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -19,6 +19,36 @@
     "480",
     "13"
   ],
+  "leaderboards": {
+    "points": [
+      "411",
+      "426",
+      "4",
+      "397",
+      "480"
+    ],
+    "assists": [
+      "426",
+      "399",
+      "12",
+      "13",
+      "165"
+    ],
+    "xg": [
+      "411",
+      "106",
+      "346",
+      "55",
+      "165"
+    ],
+    "value": [
+      "61",
+      "204",
+      "388",
+      "112",
+      "498"
+    ]
+  },
   "fixtures": [
     {
       "home": "Arsenal",
@@ -128,7 +158,10 @@
       "crestClass": "blue-crest",
       "squadSize": 28,
       "squadRating": 5.19,
-      "squadValue": "\u00a3173.0m"
+      "squadValue": "\u00a3173.0m",
+      "leagueRank": 2,
+      "strengthHome": 4,
+      "strengthAway": 5
     },
     {
       "name": "Aston Villa",
@@ -136,7 +169,10 @@
       "crestClass": "orange-crest",
       "squadSize": 28,
       "squadRating": 3.96,
-      "squadValue": "\u00a3141.5m"
+      "squadValue": "\u00a3141.5m",
+      "leagueRank": 14,
+      "strengthHome": 3,
+      "strengthAway": 4
     },
     {
       "name": "Bournemouth",
@@ -144,7 +180,10 @@
       "crestClass": "pink-crest",
       "squadSize": 25,
       "squadRating": 4.41,
-      "squadValue": "\u00a3131.0m"
+      "squadValue": "\u00a3131.0m",
+      "leagueRank": 4,
+      "strengthHome": 3,
+      "strengthAway": 3
     },
     {
       "name": "Brentford",
@@ -152,7 +191,10 @@
       "crestClass": "",
       "squadSize": 26,
       "squadRating": 4.15,
-      "squadValue": "\u00a3134.5m"
+      "squadValue": "\u00a3134.5m",
+      "leagueRank": 10,
+      "strengthHome": 3,
+      "strengthAway": 3
     },
     {
       "name": "Brighton",
@@ -160,7 +202,10 @@
       "crestClass": "blue-crest",
       "squadSize": 32,
       "squadRating": 4.09,
-      "squadValue": "\u00a3160.5m"
+      "squadValue": "\u00a3160.5m",
+      "leagueRank": 11,
+      "strengthHome": 2,
+      "strengthAway": 3
     },
     {
       "name": "Chelsea",
@@ -168,7 +213,10 @@
       "crestClass": "orange-crest",
       "squadSize": 33,
       "squadRating": 4.27,
-      "squadValue": "\u00a3181.0m"
+      "squadValue": "\u00a3181.0m",
+      "leagueRank": 8,
+      "strengthHome": 4,
+      "strengthAway": 4
     },
     {
       "name": "Coventry City",
@@ -176,7 +224,10 @@
       "crestClass": "pink-crest",
       "squadSize": 28,
       "squadRating": null,
-      "squadValue": "\u00a3128.5m"
+      "squadValue": "\u00a3128.5m",
+      "leagueRank": null,
+      "strengthHome": 2,
+      "strengthAway": 2
     },
     {
       "name": "Crystal Palace",
@@ -184,7 +235,10 @@
       "crestClass": "",
       "squadSize": 28,
       "squadRating": 3.91,
-      "squadValue": "\u00a3142.0m"
+      "squadValue": "\u00a3142.0m",
+      "leagueRank": 15,
+      "strengthHome": 3,
+      "strengthAway": 3
     },
     {
       "name": "Everton",
@@ -192,7 +246,10 @@
       "crestClass": "blue-crest",
       "squadSize": 23,
       "squadRating": 4.2,
-      "squadValue": "\u00a3121.0m"
+      "squadValue": "\u00a3121.0m",
+      "leagueRank": 9,
+      "strengthHome": 3,
+      "strengthAway": 3
     },
     {
       "name": "Fulham",
@@ -200,7 +257,10 @@
       "crestClass": "orange-crest",
       "squadSize": 21,
       "squadRating": 3.73,
-      "squadValue": "\u00a3101.5m"
+      "squadValue": "\u00a3101.5m",
+      "leagueRank": 17,
+      "strengthHome": 2,
+      "strengthAway": 3
     },
     {
       "name": "Hull City",
@@ -208,7 +268,10 @@
       "crestClass": "pink-crest",
       "squadSize": 29,
       "squadRating": null,
-      "squadValue": "\u00a3128.0m"
+      "squadValue": "\u00a3128.0m",
+      "leagueRank": null,
+      "strengthHome": 2,
+      "strengthAway": 2
     },
     {
       "name": "Ipswich Town",
@@ -216,7 +279,10 @@
       "crestClass": "",
       "squadSize": 29,
       "squadRating": null,
-      "squadValue": "\u00a3135.5m"
+      "squadValue": "\u00a3135.5m",
+      "leagueRank": null,
+      "strengthHome": 2,
+      "strengthAway": 2
     },
     {
       "name": "Leeds",
@@ -224,7 +290,10 @@
       "crestClass": "blue-crest",
       "squadSize": 24,
       "squadRating": 4.31,
-      "squadValue": "\u00a3122.5m"
+      "squadValue": "\u00a3122.5m",
+      "leagueRank": 5,
+      "strengthHome": 2,
+      "strengthAway": 3
     },
     {
       "name": "Liverpool",
@@ -232,7 +301,10 @@
       "crestClass": "orange-crest",
       "squadSize": 34,
       "squadRating": 4.46,
-      "squadValue": "\u00a3183.5m"
+      "squadValue": "\u00a3183.5m",
+      "leagueRank": 3,
+      "strengthHome": 4,
+      "strengthAway": 4
     },
     {
       "name": "Man City",
@@ -240,7 +312,10 @@
       "crestClass": "pink-crest",
       "squadSize": 30,
       "squadRating": 5.2,
-      "squadValue": "\u00a3185.0m"
+      "squadValue": "\u00a3185.0m",
+      "leagueRank": 1,
+      "strengthHome": 4,
+      "strengthAway": 5
     },
     {
       "name": "Man Utd",
@@ -248,7 +323,10 @@
       "crestClass": "",
       "squadSize": 33,
       "squadRating": 4.3,
-      "squadValue": "\u00a3179.5m"
+      "squadValue": "\u00a3179.5m",
+      "leagueRank": 6,
+      "strengthHome": 4,
+      "strengthAway": 4
     },
     {
       "name": "Newcastle",
@@ -256,7 +334,10 @@
       "crestClass": "blue-crest",
       "squadSize": 25,
       "squadRating": 4.27,
-      "squadValue": "\u00a3132.5m"
+      "squadValue": "\u00a3132.5m",
+      "leagueRank": 7,
+      "strengthHome": 2,
+      "strengthAway": 3
     },
     {
       "name": "Nott'm Forest",
@@ -264,7 +345,10 @@
       "crestClass": "orange-crest",
       "squadSize": 27,
       "squadRating": 3.97,
-      "squadValue": "\u00a3139.0m"
+      "squadValue": "\u00a3139.0m",
+      "leagueRank": 13,
+      "strengthHome": 3,
+      "strengthAway": 3
     },
     {
       "name": "Spurs",
@@ -272,7 +356,10 @@
       "crestClass": "pink-crest",
       "squadSize": 36,
       "squadRating": 3.86,
-      "squadValue": "\u00a3183.5m"
+      "squadValue": "\u00a3183.5m",
+      "leagueRank": 16,
+      "strengthHome": 3,
+      "strengthAway": 3
     },
     {
       "name": "Sunderland",
@@ -280,7 +367,10 @@
       "crestClass": "",
       "squadSize": 25,
       "squadRating": 4.03,
-      "squadValue": "\u00a3123.0m"
+      "squadValue": "\u00a3123.0m",
+      "leagueRank": 12,
+      "strengthHome": 2,
+      "strengthAway": 3
     }
   ],
   "players": {
@@ -300,6 +390,12 @@
       "minutes": 3330,
       "goals": 0,
       "assists": 0,
+      "xg": 0.0,
+      "xa": 0.07,
+      "valueScore": 27.0,
+      "positionPercentile": 100,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
       "fixture": "vs Coventry City (H)",
       "fdr": 2,
       "fdrClass": "easy"
@@ -320,6 +416,12 @@
       "minutes": 2750,
       "goals": 3,
       "assists": 5,
+      "xg": 2.94,
+      "xa": 1.75,
+      "valueScore": 26.1,
+      "positionPercentile": 100,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
       "fixture": "vs Coventry City (H)",
       "fdr": 2,
       "fdrClass": "easy"
@@ -340,6 +442,12 @@
       "minutes": 2953,
       "goals": 27,
       "assists": 8,
+      "xg": 25.5,
+      "xa": 2.67,
+      "valueScore": 15.4,
+      "positionPercentile": 100,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
       "fixture": "vs Bournemouth (H)",
       "fdr": 3,
       "fdrClass": "mid"
@@ -360,6 +468,12 @@
       "minutes": 3065,
       "goals": 9,
       "assists": 24,
+      "xg": 10.79,
+      "xa": 12.28,
+      "valueScore": 19.6,
+      "positionPercentile": 100,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
       "fixture": "vs Hull City (A)",
       "fdr": 2,
       "fdrClass": "easy"
@@ -380,6 +494,12 @@
       "minutes": 3200,
       "goals": 17,
       "assists": 6,
+      "xg": 11.1,
+      "xa": 3.12,
+      "valueScore": 23.8,
+      "positionPercentile": 86,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
       "fixture": "vs Bournemouth (H)",
       "fdr": 3,
       "fdrClass": "mid"
@@ -393,13 +513,19 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "12.1%",
+      "owned": "12.0%",
       "points": 188,
       "epNext": 2.8,
       "form": 0.0,
       "minutes": 3101,
       "goals": 15,
       "assists": 4,
+      "xg": 10.81,
+      "xa": 2.91,
+      "valueScore": 23.5,
+      "positionPercentile": 75,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
       "fixture": "vs Leeds (H)",
       "fdr": 2,
       "fdrClass": "easy"
@@ -420,9 +546,301 @@
       "minutes": 3093,
       "goals": 4,
       "assists": 9,
+      "xg": 3.15,
+      "xa": 7.32,
+      "valueScore": 24.5,
+      "positionPercentile": 67,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
       "fixture": "vs Coventry City (H)",
       "fdr": 2,
       "fdrClass": "easy"
+    },
+    "399": {
+      "id": 399,
+      "name": "Rayan Cherki",
+      "shortName": "Cherki",
+      "position": "MID",
+      "team": "Man City",
+      "avatar": "RC",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a37.5m",
+      "owned": "9.5%",
+      "points": 135,
+      "epNext": 2.6,
+      "form": 0.0,
+      "minutes": 1772,
+      "goals": 4,
+      "assists": 13,
+      "xg": 4.28,
+      "xa": 8.87,
+      "valueScore": 18.0,
+      "positionPercentile": 97,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Bournemouth (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
+    "12": {
+      "id": 12,
+      "name": "Bukayo Saka",
+      "shortName": "Saka",
+      "position": "MID",
+      "team": "Arsenal",
+      "avatar": "BS",
+      "avatarClass": "",
+      "price": "\u00a39.5m",
+      "owned": "10.7%",
+      "points": 157,
+      "epNext": 3.2,
+      "form": 0.0,
+      "minutes": 2218,
+      "goals": 7,
+      "assists": 10,
+      "xg": 7.57,
+      "xa": 7.16,
+      "valueScore": 16.5,
+      "positionPercentile": 94,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Coventry City (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
+    },
+    "165": {
+      "id": 165,
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "shortName": "Jo\u00e3o Pedro",
+      "position": "FWD",
+      "team": "Chelsea",
+      "avatar": "JP",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a37.5m",
+      "owned": "54.5%",
+      "points": 177,
+      "epNext": 2.3,
+      "form": 0.0,
+      "minutes": 2658,
+      "goals": 15,
+      "assists": 9,
+      "xg": 14.91,
+      "xa": 1.96,
+      "valueScore": 23.6,
+      "positionPercentile": 81,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Fulham (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
+    "106": {
+      "id": 106,
+      "name": "Igor Thiago Nascimento Rodrigues",
+      "shortName": "Thiago",
+      "position": "FWD",
+      "team": "Brentford",
+      "avatar": "IT",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a38.0m",
+      "owned": "15.9%",
+      "points": 181,
+      "epNext": 2.5,
+      "form": 0.0,
+      "minutes": 3282,
+      "goals": 22,
+      "assists": 1,
+      "xg": 20.6,
+      "xa": 1.83,
+      "valueScore": 22.6,
+      "positionPercentile": 44,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Spurs (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
+    "346": {
+      "id": 346,
+      "name": "Dominic Calvert-Lewin",
+      "shortName": "Calvert-Lewin",
+      "position": "FWD",
+      "team": "Leeds",
+      "avatar": "DC",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a36.0m",
+      "owned": "18.0%",
+      "points": 142,
+      "epNext": 2.0,
+      "form": 0.0,
+      "minutes": 2721,
+      "goals": 14,
+      "assists": 2,
+      "xg": 15.57,
+      "xa": 1.06,
+      "valueScore": 23.7,
+      "positionPercentile": 38,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 3,
+      "fixture": "vs Nott'm Forest (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
+    "55": {
+      "id": 55,
+      "name": "Ollie Watkins",
+      "shortName": "Watkins",
+      "position": "FWD",
+      "team": "Aston Villa",
+      "avatar": "OW",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a38.0m",
+      "owned": "12.3%",
+      "points": 167,
+      "epNext": 2.5,
+      "form": 0.0,
+      "minutes": 2833,
+      "goals": 16,
+      "assists": 4,
+      "xg": 15.4,
+      "xa": 1.18,
+      "valueScore": 20.9,
+      "positionPercentile": 62,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 4,
+      "fixture": "vs Brighton (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
+    "61": {
+      "id": 61,
+      "name": "Adrien Truffert",
+      "shortName": "Truffert",
+      "position": "DEF",
+      "team": "Bournemouth",
+      "avatar": "AT",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a35.5m",
+      "owned": "4.6%",
+      "points": 165,
+      "epNext": 2.5,
+      "form": 0.0,
+      "minutes": 3378,
+      "goals": 1,
+      "assists": 6,
+      "xg": 1.35,
+      "xa": 3.07,
+      "valueScore": 30.0,
+      "positionPercentile": 60,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Man City (A)",
+      "fdr": 5,
+      "fdrClass": "hard"
+    },
+    "204": {
+      "id": 204,
+      "name": "Tyrick Mitchell",
+      "shortName": "Mitchell",
+      "position": "DEF",
+      "team": "Crystal Palace",
+      "avatar": "TM",
+      "avatarClass": "",
+      "price": "\u00a34.5m",
+      "owned": "7.1%",
+      "points": 135,
+      "epNext": 1.7,
+      "form": 0.0,
+      "minutes": 3253,
+      "goals": 1,
+      "assists": 3,
+      "xg": 1.59,
+      "xa": 2.53,
+      "valueScore": 30.0,
+      "positionPercentile": 33,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Everton (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
+    "388": {
+      "id": 388,
+      "name": "Marc Gu\u00e9hi",
+      "shortName": "Gu\u00e9hi",
+      "position": "DEF",
+      "team": "Man City",
+      "avatar": "MG",
+      "avatarClass": "",
+      "price": "\u00a36.0m",
+      "owned": "24.2%",
+      "points": 179,
+      "epNext": 2.8,
+      "form": 0.0,
+      "minutes": 3150,
+      "goals": 3,
+      "assists": 5,
+      "xg": 4.05,
+      "xa": 2.37,
+      "valueScore": 29.8,
+      "positionPercentile": 86,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Bournemouth (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
+    "112": {
+      "id": 112,
+      "name": "Jan Paul van Hecke",
+      "shortName": "Van Hecke",
+      "position": "DEF",
+      "team": "Spurs",
+      "avatar": "JP",
+      "avatarClass": "",
+      "price": "\u00a35.0m",
+      "owned": "8.1%",
+      "points": 148,
+      "epNext": 2.2,
+      "form": 0.0,
+      "minutes": 3210,
+      "goals": 3,
+      "assists": 3,
+      "xg": 3.31,
+      "xa": 1.57,
+      "valueScore": 29.6,
+      "positionPercentile": 53,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Brentford (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
+    "498": {
+      "id": 498,
+      "name": "Marcos Senesi Bar\u00f3n",
+      "shortName": "Senesi",
+      "position": "DEF",
+      "team": "Spurs",
+      "avatar": "MS",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a36.0m",
+      "owned": "11.0%",
+      "points": 175,
+      "epNext": 2.8,
+      "form": 0.0,
+      "minutes": 3288,
+      "goals": 0,
+      "assists": 6,
+      "xg": 1.53,
+      "xa": 4.72,
+      "valueScore": 29.2,
+      "positionPercentile": 72,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Brentford (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
     }
   }
 }

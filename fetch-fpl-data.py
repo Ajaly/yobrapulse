@@ -192,6 +192,15 @@ def build_teams_list(data, squad_ratings):
     for e in data["elements"]:
         by_team.setdefault(e["team"], []).append(e)
 
+    # Rank only among teams with a trustworthy rating - a promoted club
+    # with no rating shouldn't get "rank #18" by default sort order.
+    ranked_ids = sorted(
+        (tid for tid, r in squad_ratings.items() if r is not None),
+        key=lambda tid: squad_ratings[tid],
+        reverse=True,
+    )
+    league_rank = {tid: i + 1 for i, tid in enumerate(ranked_ids)}
+
     out = []
     for t in data["teams"]:
         squad = by_team.get(t["id"], [])
@@ -204,15 +213,53 @@ def build_teams_list(data, squad_ratings):
             "squadSize": len(squad),
             "squadRating": round(avg_rating, 2) if avg_rating is not None else None,
             "squadValue": f"£{squad_value:.1f}m",
+            "leagueRank": league_rank.get(t["id"]),
+            "strengthHome": t["strength_overall_home"],
+            "strengthAway": t["strength_overall_away"],
         })
     out.sort(key=lambda t: t["name"])
     return out
 
 
-def build_player(e, teams, fixture_lookup):
+def compute_percentiles(eligible):
+    """element id -> percentile rank (0-100) of points-per-90 within the
+    player's own position group, among players with a real sample of
+    minutes (>=450, ~5 full matches - same small-sample caution as
+    compute_squad_ratings, just at player scale instead of team scale)."""
+    by_position = {}
+    for e in eligible:
+        if e["minutes"] >= 450:
+            by_position.setdefault(e["element_type"], []).append(e)
+
+    percentiles = {}
+    for pos, players in by_position.items():
+        rates = sorted((p["id"], (p["total_points"] / p["minutes"]) * 90) for p in players)
+        rates.sort(key=lambda pair: pair[1])
+        n = len(rates)
+        for rank, (pid, _) in enumerate(rates):
+            percentiles[pid] = round((rank + 1) / n * 100)
+    return percentiles
+
+
+def build_leaderboards(eligible):
+    """Real, transparent rankings for the Stats view - top 5 each, no
+    model involved, just sorting real fields. Value-for-money requires
+    a minutes floor (900, ~10 matches) for the same reason team/player
+    ratings elsewhere need one: a cheap player with a lucky start and
+    almost no minutes would otherwise top the list on noise."""
+    by_xg = sorted(eligible, key=lambda e: float(e["expected_goals"] or 0), reverse=True)[:5]
+    by_assists = sorted(eligible, key=lambda e: e["assists"], reverse=True)[:5]
+    by_points = sorted(eligible, key=lambda e: e["total_points"], reverse=True)[:5]
+    value_pool = [e for e in eligible if e["minutes"] >= 900]
+    by_value = sorted(value_pool, key=lambda e: e["total_points"] / (e["now_cost"] / 10), reverse=True)[:5]
+    return {"points": by_points, "assists": by_assists, "xg": by_xg, "value": by_value}
+
+
+def build_player(e, teams, fixture_lookup, teams_by_id, percentiles):
     name = e.get("web_name") or f"{e['first_name']} {e['second_name']}"
     full_name = f"{e['first_name']} {e['second_name']}".strip()
     fixture = fixture_lookup.get(e["team"])
+    team = teams_by_id[e["team"]]
     player = {
         "id": e["id"],
         "name": full_name or name,
@@ -229,6 +276,12 @@ def build_player(e, teams, fixture_lookup):
         "minutes": e["minutes"],
         "goals": e["goals_scored"],
         "assists": e["assists"],
+        "xg": round(float(e["expected_goals"] or 0), 2),
+        "xa": round(float(e["expected_assists"] or 0), 2),
+        "valueScore": round(e["total_points"] / (e["now_cost"] / 10), 1) if e["now_cost"] else 0,
+        "positionPercentile": percentiles.get(e["id"]),
+        "teamStrengthHome": team["strength_overall_home"],
+        "teamStrengthAway": team["strength_overall_away"],
     }
     if fixture:
         player["fixture"] = f"vs {fixture['opponent']} ({'H' if fixture['isHome'] else 'A'})"
@@ -250,6 +303,7 @@ def main():
     teams_list = build_teams_list(data, squad_ratings)
 
     eligible = [e for e in data["elements"] if float(e["selected_by_percent"] or 0) >= 2.0]
+    percentiles = compute_percentiles(eligible)
 
     # Captain picks: highest projected points next gameweek, must be
     # currently available (not injured/suspended).
@@ -259,11 +313,13 @@ def main():
     # Top performers: highest cumulative points (last completed season).
     top_performers = sorted(eligible, key=lambda e: e["total_points"], reverse=True)[:6]
 
+    leaderboards = build_leaderboards(eligible)
+
     deadline = datetime.fromisoformat(next_event["deadline_time"].replace("Z", "+00:00"))
 
     players_out = {}
     def register(e):
-        p = build_player(e, teams, fixture_lookup)
+        p = build_player(e, teams, fixture_lookup, teams_by_id, percentiles)
         players_out[str(p["id"])] = p
         return str(p["id"])
 
@@ -277,6 +333,7 @@ def main():
         },
         "captainPicks": [register(e) for e in captain_picks],
         "topPerformers": [register(e) for e in top_performers],
+        "leaderboards": {label: [register(e) for e in players] for label, players in leaderboards.items()},
         "fixtures": fixtures_list,
         "teams": teams_list,
         "players": players_out,

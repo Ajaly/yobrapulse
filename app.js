@@ -12,7 +12,7 @@ if (greeting) {
 const views = document.querySelectorAll('.view');
 const navItems = document.querySelectorAll('[data-view]');
 const pageTitle = document.querySelector('#page-title');
-const titles = { dashboard: 'Overview', live: 'Live scores', fpl: 'FPL assistant', performance: 'Performance tracker', fixtures: 'Fixtures', teams: 'Teams & players', news: 'News', settings: 'Settings' };
+const titles = { dashboard: 'Overview', live: 'Live scores', fpl: 'FPL assistant', performance: 'Performance tracker', fixtures: 'Fixtures', teams: 'Teams & players', news: 'News', stats: 'Stats', settings: 'Settings' };
 
 function showView(viewName) {
   const target = document.querySelector(`#${viewName}-view`) || document.querySelector('#dashboard-view');
@@ -134,6 +134,17 @@ function openPlayerModal(key, triggerEl) {
   const nextEl = document.querySelector('#pm-next');
   nextKicker.textContent = 'Next fixture';
   nextEl.textContent = p.fixture ? `${p.fixture} · Proj. ${p.epNext.toFixed(1)} pts` : p.next;
+  const contextEl = document.querySelector('#pm-context');
+  if (isReal && typeof p.positionPercentile === 'number') {
+    const topPercent = Math.max(1, Math.round(100 - p.positionPercentile));
+    const strengthText = typeof p.teamStrengthHome === 'number'
+      ? ` · ${p.team} strength ${p.teamStrengthHome}/5 (H) · ${p.teamStrengthAway}/5 (A)`
+      : '';
+    contextEl.textContent = `Top ${topPercent}% by pts/90 among ${p.position}s${strengthText}`;
+    contextEl.hidden = false;
+  } else {
+    contextEl.hidden = true;
+  }
   playerModal.hidden = false;
   document.body.classList.add('modal-open');
   playerModalClose.focus();
@@ -220,7 +231,7 @@ fetch('data/fpl.json')
         return `<article class="team-card${isFavorite ? ' favorited' : ''}" data-team="${t.name}">
           <div class="team-card-head">
             <span class="team-crest ${t.crestClass}">${t.shortName}</span>
-            <div><strong>${t.name}</strong><small>Premier League</small></div>
+            <div><strong>${t.name}</strong><small>Premier League${t.leagueRank ? ' · #' + t.leagueRank + ' rated' : ''}</small></div>
             ${isFavorite ? '<i data-lucide="sparkles" class="team-card-favorite"></i>' : ''}
           </div>
           <div class="team-card-stats">
@@ -233,6 +244,29 @@ fetch('data/fpl.json')
       const teamsBadge = document.querySelector('#teams-live-badge');
       if (teamsBadge) teamsBadge.hidden = false;
       lucide.createIcons();
+    }
+
+    function renderLeaderboard(containerId, ids, valueFn) {
+      const container = document.querySelector('#' + containerId);
+      if (!container || !ids || !ids.length) return;
+      container.innerHTML = ids.map((id, i) => {
+        const p = data.players[id];
+        return `<div class="leaderboard-row" data-player="fpl-${id}" tabindex="0" role="button" aria-label="View ${p.name}">
+          <span class="leaderboard-rank">${i + 1}</span>
+          <div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.team} · ${p.position}</small></strong></div>
+          <span class="leaderboard-value">${valueFn(p)}</span>
+        </div>`;
+      }).join('');
+      bindPlayerTriggers(container);
+    }
+
+    if (data.leaderboards) {
+      renderLeaderboard('leaderboard-points', data.leaderboards.points, (p) => `${p.points} pts`);
+      renderLeaderboard('leaderboard-assists', data.leaderboards.assists, (p) => `${p.assists} assists`);
+      renderLeaderboard('leaderboard-xg', data.leaderboards.xg, (p) => `${p.xg.toFixed(1)} xG`);
+      renderLeaderboard('leaderboard-value', data.leaderboards.value, (p) => `${p.valueScore.toFixed(1)} pts/£m`);
+      const statsBadge = document.querySelector('#stats-live-badge');
+      if (statsBadge) statsBadge.hidden = false;
     }
 
     Object.entries(data.players).forEach(([id, p]) => {
@@ -253,6 +287,9 @@ fetch('data/fpl.json')
         points: p.points,
         epNext: p.epNext,
         fixture: p.fixture,
+        positionPercentile: p.positionPercentile,
+        teamStrengthHome: p.teamStrengthHome,
+        teamStrengthAway: p.teamStrengthAway,
       };
     });
 
