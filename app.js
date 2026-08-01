@@ -109,12 +109,12 @@ let lastPlayerTrigger = null;
 function openPlayerModal(key, triggerEl) {
   const p = players[key];
   if (!p || !playerModal) return;
-  const isReal = !p.team;
+  const isReal = !!p.isReal;
   lastPlayerTrigger = triggerEl;
   document.querySelector('#pm-avatar').textContent = p.avatar;
   document.querySelector('#pm-avatar').className = 'modal-avatar' + (p.avatarClass ? ' ' + p.avatarClass : '');
   document.querySelector('#pm-name').textContent = p.name;
-  document.querySelector('#pm-meta').textContent = isReal ? p.position : `${p.position} · ${p.team} · ${p.nation}`;
+  document.querySelector('#pm-meta').textContent = isReal ? `${p.position} · ${p.team}` : `${p.position} · ${p.team} · ${p.nation}`;
   document.querySelector('#pm-rating').textContent = typeof p.rating === 'number' ? p.rating.toFixed(1) : p.rating;
   document.querySelector('#pm-minutes').textContent = p.minutes;
   document.querySelector('#pm-goals').textContent = p.goals;
@@ -132,13 +132,8 @@ function openPlayerModal(key, triggerEl) {
   }
   const nextKicker = document.querySelector('#pm-next-kicker');
   const nextEl = document.querySelector('#pm-next');
-  if (isReal) {
-    nextKicker.textContent = 'Outlook';
-    nextEl.textContent = `Projected ${p.epNext.toFixed(1)} pts next gameweek`;
-  } else {
-    nextKicker.textContent = 'Next fixture';
-    nextEl.textContent = p.next;
-  }
+  nextKicker.textContent = 'Next fixture';
+  nextEl.textContent = p.fixture ? `${p.fixture} · Proj. ${p.epNext.toFixed(1)} pts` : p.next;
   playerModal.hidden = false;
   document.body.classList.add('modal-open');
   playerModalClose.focus();
@@ -177,8 +172,10 @@ fetch('data/fpl.json')
 
     Object.entries(data.players).forEach(([id, p]) => {
       players['fpl-' + id] = {
+        isReal: true,
         name: p.name,
         position: p.position,
+        team: p.team,
         avatar: p.avatar,
         avatarClass: p.avatarClass,
         rating: p.points && p.minutes ? Math.round((p.points / Math.max(p.minutes, 1)) * 90 * 10) / 10 : 0,
@@ -190,8 +187,17 @@ fetch('data/fpl.json')
         owned: p.owned,
         points: p.points,
         epNext: p.epNext,
+        fixture: p.fixture,
       };
     });
+
+    if (data.topPerformers.length) {
+      const topScorer = data.players[data.topPerformers[0]];
+      const rankValue = document.querySelector('#rank-metric-value');
+      const rankSub = document.querySelector('#rank-metric-sub');
+      if (rankValue) rankValue.textContent = topScorer.points;
+      if (rankSub) rankSub.innerHTML = `<i data-lucide="trending-up"></i> ${topScorer.shortName} · 25/26`;
+    }
 
     const captainList = document.querySelector('#captain-list');
     if (captainList && data.captainPicks.length) {
@@ -199,8 +205,8 @@ fetch('data/fpl.json')
         const p = data.players[id];
         return `<article class="captain-row${i === 0 ? ' top-pick' : ''}" data-player="fpl-${id}" tabindex="0" role="button" aria-label="View ${p.name}">
           <span class="captain-rank">${i + 1}</span>
-          <div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.position} · ${p.owned} owned</small></strong></div>
-          <div class="captain-reason"><small>${p.points} pts last season</small><span class="fixture-tag easy">${p.epNext.toFixed(1)} proj.</span></div>
+          <div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.team} · ${p.position}</small></strong></div>
+          <div class="captain-reason"><small>${p.fixture || ''}</small><span class="fixture-tag ${p.fdrClass || 'easy'}">FDR ${p.fdr || '-'}</span></div>
           <strong class="captain-score">${p.epNext.toFixed(1)}</strong>
         </article>`;
       }).join('');
@@ -213,7 +219,7 @@ fetch('data/fpl.json')
     if (performersTable && data.topPerformers.length) {
       performersTable.querySelectorAll('.table-row').forEach((row) => row.remove());
       const colLabel = document.querySelector('#fpl-performers-col2');
-      if (colLabel) colLabel.textContent = 'Position';
+      if (colLabel) colLabel.textContent = 'Team';
       data.topPerformers.forEach((id) => {
         const p = data.players[id];
         const row = document.createElement('div');
@@ -223,7 +229,7 @@ fetch('data/fpl.json')
         row.setAttribute('role', 'button');
         row.setAttribute('aria-label', 'View ' + p.name);
         row.innerHTML = `<div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.position} · ${p.owned} owned</small></strong></div>
-          <span>${p.position}</span><span>${p.price}</span><span>${p.owned}</span><strong>${p.points}</strong>
+          <span>${p.team}</span><span>${p.price}</span><span>${p.owned}</span><strong>${p.points}</strong>
           <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>`;
         performersTable.appendChild(row);
       });

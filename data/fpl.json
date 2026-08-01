@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T16:12:03.124001+00:00",
+  "generatedAt": "2026-08-01T16:29:22.553909+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -25,6 +25,7 @@
       "name": "David Raya Mart\u00edn",
       "shortName": "Raya",
       "position": "GKP",
+      "team": "Arsenal",
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
@@ -34,13 +35,17 @@
       "form": 0.0,
       "minutes": 3330,
       "goals": 0,
-      "assists": 0
+      "assists": 0,
+      "fixture": "vs Coventry City (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
     },
     "4": {
       "id": 4,
       "name": "Gabriel dos Santos Magalh\u00e3es",
       "shortName": "Gabriel",
       "position": "DEF",
+      "team": "Arsenal",
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a38.0m",
@@ -50,13 +55,17 @@
       "form": 0.0,
       "minutes": 2750,
       "goals": 3,
-      "assists": 5
+      "assists": 5,
+      "fixture": "vs Coventry City (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
     },
     "411": {
       "id": 411,
       "name": "Erling Haaland",
       "shortName": "Haaland",
       "position": "FWD",
+      "team": "Man City",
       "avatar": "EH",
       "avatarClass": "pink-avatar",
       "price": "\u00a315.5m",
@@ -66,13 +75,17 @@
       "form": 0.0,
       "minutes": 2953,
       "goals": 27,
-      "assists": 8
+      "assists": 8,
+      "fixture": "vs Bournemouth (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
     },
     "426": {
       "id": 426,
       "name": "Bruno Borges Fernandes",
       "shortName": "B.Fernandes",
       "position": "MID",
+      "team": "Man Utd",
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a312.0m",
@@ -82,13 +95,17 @@
       "form": 0.0,
       "minutes": 3065,
       "goals": 9,
-      "assists": 24
+      "assists": 24,
+      "fixture": "vs Hull City (A)",
+      "fdr": 2,
+      "fdrClass": "easy"
     },
     "397": {
       "id": 397,
       "name": "Antoine Semenyo",
       "shortName": "Semenyo",
       "position": "MID",
+      "team": "Man City",
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.5m",
@@ -98,13 +115,17 @@
       "form": 0.0,
       "minutes": 3200,
       "goals": 17,
-      "assists": 6
+      "assists": 6,
+      "fixture": "vs Bournemouth (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
     },
     "480": {
       "id": 480,
       "name": "Morgan Gibbs-White",
       "shortName": "Gibbs-White",
       "position": "MID",
+      "team": "Nott'm Forest",
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a38.0m",
@@ -114,13 +135,17 @@
       "form": 0.0,
       "minutes": 3101,
       "goals": 15,
-      "assists": 4
+      "assists": 4,
+      "fixture": "vs Leeds (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
     },
     "13": {
       "id": 13,
       "name": "Declan Rice",
       "shortName": "Rice",
       "position": "MID",
+      "team": "Arsenal",
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
@@ -130,7 +155,10 @@
       "form": 0.0,
       "minutes": 3093,
       "goals": 4,
-      "assists": 9
+      "assists": 9,
+      "fixture": "vs Coventry City (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
     }
   }
 }
