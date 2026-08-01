@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-01T21:42:32.912106+00:00",
+  "generatedAt": "2026-08-01T22:47:45.929298+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Everton latest: Toffees agree \u00a37m deal to sign Arsenal's Norgaard",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-01T23:00:00+00:00"
+    },
+    {
+      "title": "Papers: Man Utd considering move for Arsenal's Lewis-Skelly",
+      "description": "The top stories and transfer rumours from Sunday's newspapers...",
+      "link": "https://www.skysports.com/football/news/12040/13569111/myles-lewis-skelly-transfer-news-man-utd-considering-move-for-arsenal-player-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-01T22:45:00+00:00"
+    },
+    {
+      "title": "Oshoala revives Nigeria's Wafcon and World Cup bid",
+      "description": "Asisat Oshoala scores the only goal as Nigeria beat Zambia at Wafcon 2026 to revive the West Africans' hopes of reaching the 2027 Women's World Cup.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-01T22:23:37+00:00"
+    },
+    {
+      "title": "Oshoala revives Nigeria's Wafcon and World Cup bid",
+      "description": "Asisat Oshoala scores the only goal as Nigeria beat Zambia at Wafcon 2026 to revive the West Africans' hopes of reaching the 2027 Women's World Cup.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-01T22:23:37+00:00"
+    },
+    {
+      "title": "A bruising 24 hours - what next for Fifa and under-pressure Infantino?",
+      "description": "The pressure is building on Gianni Infantino. Can he survive as Fifa president?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9w0djx2g92o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-01T22:23:20+00:00"
+    },
     {
       "title": "Highlights: Aberdeen score twice after ninety minutes to beat Hearts",
       "description": "Highlights from the Scottish Premiership match between Aberdeen and Hearts.",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-01T19:39:00+00:00"
-    },
-    {
-      "title": "Hearts concede two late goals to lose at Aberdeen",
-      "description": "Hearts&#8217; miserable summer continued as they conceded two late goals to lose 2-1 to Aberdeen in their Scottish Premiership opener at Pittodrie.",
-      "link": "https://www.skysports.com/football/aberdeen-vs-hearts/report/558334",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-01T19:20:00+00:00"
-    },
-    {
-      "title": "'I played like a 10-handicapper!' - Hull fights back to stay in major hunt",
-      "description": "Charley Hull is relishing the opportunity to make a late push for major victory after a spectacular late third-round fightback at the AIG Women&#8217;s Open.",
-      "link": "https://www.skysports.com/golf/news/12040/13568980/aig-womens-open-charley-hull-and-lottie-woad-chase-final-round-push-for-elusive-major-victory-at-royal-lytham-st-annes",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-01T19:15:00+00:00"
-    },
-    {
-      "title": "Highlights: Noh takes three-shot lead into final day following Ryu's nightmare round",
-      "description": "Highlights from the third round of the AIG Women's Open at Royal Lytham & St Annes.",
-      "link": "https://www.skysports.com/watch/video/13569087/aig-womens-open-day-three-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-01T19:13:00+00:00"
-    },
-    {
-      "title": "Woad, Hull chase Noh after Ryu blows big AIG Women's Open lead",
-      "description": "Yealimi Noh capitalised on Haeran Ryu's stumble to grab the third-round lead at the AIG Women&#8217;s Open, where Lottie Woad and Charley Hull stayed in title contention.",
-      "link": "https://www.skysports.com/golf/news/12040/13568979/aig-womens-open-yealimi-noh-snatches-lead-after-haeran-ryus-stumble-as-lottie-woad-charley-hull-stay-in-major-hunt",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-01T18:54:00+00:00"
-    },
-    {
-      "title": "Evening Saigon wins Stewards' Cup at Goodwood",
-      "description": "James Doyle picked the right one from three choices as his bosses at Wathnan Racing topped an amazing week at Glorious Goodwood with victory in the Coral Stewards' Cup with Evening Saigon.",
-      "link": "https://www.skysports.com/racing/news/12040/13569075/goodwood-evening-saigon-continues-magical-week-for-wathnan-racing-with-stewards-cup-win-as-goodie-two-shoes-also-prevails",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-01T18:00:00+00:00"
     }
   ]
 }
