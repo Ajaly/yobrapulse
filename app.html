@@ -221,9 +221,9 @@
           <div>
             <div class="eyebrow"><span class="pulse-dot"></span> Fantasy Premier League</div>
             <h1>FPL assistant<span class="accent">.</span></h1>
-            <p class="lede">Captain picks, transfer advice and top performers for Gameweek 9 — built from form, fixtures and price trends.</p>
+            <p class="lede">Captain picks and top performers are pulled from real Fantasy Premier League data. Transfer advice below is illustrative — see note.</p>
           </div>
-          <div class="model-status"><span></span> GW9 deadline · Sat 14:00</div>
+          <div class="model-status"><span></span> <span id="fpl-deadline-text">GW9 deadline · Sat 14:00</span></div>
         </div>
 
         <div class="metric-grid compact-grid">
@@ -238,7 +238,7 @@
             <small class="muted">2 free transfers</small>
           </article>
           <article class="metric-card">
-            <span class="metric-label">GW9 points</span>
+            <span class="metric-label">Gameweek points</span>
             <strong>67</strong>
             <small class="positive">Above average (58)</small>
           </article>
@@ -248,8 +248,9 @@
           <section class="panel captain-panel">
             <div class="panel-header">
               <div><span class="section-kicker">Armband pick</span><h2>Captain recommendations</h2></div>
+              <span class="live-badge" id="captain-live-badge" hidden>Live data</span>
             </div>
-            <div class="captain-list">
+            <div class="captain-list" id="captain-list">
               <article class="captain-row top-pick">
                 <span class="captain-rank">1</span>
                 <div class="player-cell"><div class="player-avatar blue-avatar">EH</div><strong>Erling Haaland<small>Man City · ST</small></strong></div>
@@ -275,6 +276,7 @@
             <div class="panel-header">
               <div><span class="section-kicker">This gameweek</span><h2>Transfer advice</h2></div>
             </div>
+            <p class="lede" style="margin:0 0 14px;font-size:11.5px">Illustrative for now — real transfer/price-movement data is flat pre-season, so there's no live signal to base this on yet.</p>
             <div class="transfer-list">
               <article class="transfer-row">
                 <span class="transfer-tag in">IN</span>
@@ -297,10 +299,11 @@
 
         <section class="panel table-panel">
           <div class="panel-header">
-            <div><span class="section-kicker">Gameweek 9</span><h2>Top performers</h2></div>
+            <div><span class="section-kicker">Season leaders</span><h2>Top performers</h2></div>
+            <span class="live-badge" id="performers-live-badge" hidden>Live data</span>
           </div>
-          <div class="player-table wide">
-            <div class="table-head"><span>Player</span><span>Team</span><span>Price</span><span>Owned</span><span>Points</span><span></span></div>
+          <div class="player-table wide" id="fpl-performers-table">
+            <div class="table-head"><span>Player</span><span id="fpl-performers-col2">Team</span><span>Price</span><span>Owned</span><span>Points</span><span></span></div>
             <div class="table-row" data-player="haaland" tabindex="0" role="button" aria-label="View Erling Haaland">
               <div class="player-cell"><div class="player-avatar blue-avatar">EH</div><strong>Erling Haaland<small>ST · Norway</small></strong></div>
               <span>Man City</span><span>£15.2m</span><span>68.4%</span><strong>18</strong>
@@ -656,10 +659,10 @@
       <div class="modal-stats">
         <div><small>Price</small><strong id="pm-price">£9.1m</strong></div>
         <div><small>Owned</small><strong id="pm-owned">52.8%</strong></div>
-        <div><small>GW9 pts</small><strong id="pm-points">13</strong></div>
+        <div><small id="pm-points-label">GW9 pts</small><strong id="pm-points">13</strong></div>
       </div>
       <div class="modal-next">
-        <span class="section-kicker">Next fixture</span>
+        <span class="section-kicker" id="pm-next-kicker">Next fixture</span>
         <p id="pm-next">vs Southampton (H) &middot; Sun 20 Oct</p>
       </div>
     </div>

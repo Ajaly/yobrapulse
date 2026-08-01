@@ -109,20 +109,36 @@ let lastPlayerTrigger = null;
 function openPlayerModal(key, triggerEl) {
   const p = players[key];
   if (!p || !playerModal) return;
+  const isReal = !p.team;
   lastPlayerTrigger = triggerEl;
   document.querySelector('#pm-avatar').textContent = p.avatar;
   document.querySelector('#pm-avatar').className = 'modal-avatar' + (p.avatarClass ? ' ' + p.avatarClass : '');
   document.querySelector('#pm-name').textContent = p.name;
-  document.querySelector('#pm-meta').textContent = `${p.position} · ${p.team} · ${p.nation}`;
-  document.querySelector('#pm-rating').textContent = p.rating;
+  document.querySelector('#pm-meta').textContent = isReal ? p.position : `${p.position} · ${p.team} · ${p.nation}`;
+  document.querySelector('#pm-rating').textContent = typeof p.rating === 'number' ? p.rating.toFixed(1) : p.rating;
   document.querySelector('#pm-minutes').textContent = p.minutes;
   document.querySelector('#pm-goals').textContent = p.goals;
   document.querySelector('#pm-assists').textContent = p.assists;
   document.querySelector('#pm-price').textContent = p.price;
   document.querySelector('#pm-owned').textContent = p.owned;
   document.querySelector('#pm-points').textContent = p.points;
-  document.querySelector('#pm-next').textContent = p.next;
-  document.querySelector('#pm-form').innerHTML = p.form.map((level) => `<i class="${level}"></i>`).join('');
+  document.querySelector('#pm-points-label').textContent = isReal ? 'Points (25/26)' : 'GW9 pts';
+  const formEl = document.querySelector('#pm-form');
+  if (Array.isArray(p.form)) {
+    formEl.innerHTML = p.form.map((level) => `<i class="${level}"></i>`).join('');
+  } else {
+    const level = p.form >= 5 ? 'high' : p.form >= 2.5 ? 'mid' : 'low';
+    formEl.innerHTML = Array(5).fill(`<i class="${level}"></i>`).join('');
+  }
+  const nextKicker = document.querySelector('#pm-next-kicker');
+  const nextEl = document.querySelector('#pm-next');
+  if (isReal) {
+    nextKicker.textContent = 'Outlook';
+    nextEl.textContent = `Projected ${p.epNext.toFixed(1)} pts next gameweek`;
+  } else {
+    nextKicker.textContent = 'Next fixture';
+    nextEl.textContent = p.next;
+  }
   playerModal.hidden = false;
   document.body.classList.add('modal-open');
   playerModalClose.focus();
@@ -135,18 +151,88 @@ function closePlayerModal() {
   if (lastPlayerTrigger) lastPlayerTrigger.focus();
 }
 
-document.querySelectorAll('[data-player]').forEach((row) => {
-  row.addEventListener('click', () => openPlayerModal(row.dataset.player, row));
-  row.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      openPlayerModal(row.dataset.player, row);
-    }
+function bindPlayerTriggers(scope) {
+  scope.querySelectorAll('[data-player]').forEach((row) => {
+    row.addEventListener('click', () => openPlayerModal(row.dataset.player, row));
+    row.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openPlayerModal(row.dataset.player, row);
+      }
+    });
   });
-});
+}
+
+bindPlayerTriggers(document);
 
 if (playerModalClose) playerModalClose.addEventListener('click', closePlayerModal);
 if (playerModal) playerModal.addEventListener('click', (event) => { if (event.target === playerModal) closePlayerModal(); });
 document.addEventListener('keydown', (event) => { if (event.key === 'Escape') closePlayerModal(); });
+
+fetch('data/fpl.json')
+  .then((res) => (res.ok ? res.json() : Promise.reject(new Error('fpl.json ' + res.status))))
+  .then((data) => {
+    const deadlineText = document.querySelector('#fpl-deadline-text');
+    if (deadlineText) deadlineText.textContent = `${data.gameweek.name} deadline · ${data.gameweek.deadlineLabel}`;
+
+    Object.entries(data.players).forEach(([id, p]) => {
+      players['fpl-' + id] = {
+        name: p.name,
+        position: p.position,
+        avatar: p.avatar,
+        avatarClass: p.avatarClass,
+        rating: p.points && p.minutes ? Math.round((p.points / Math.max(p.minutes, 1)) * 90 * 10) / 10 : 0,
+        minutes: p.minutes,
+        goals: p.goals,
+        assists: p.assists,
+        form: p.form,
+        price: p.price,
+        owned: p.owned,
+        points: p.points,
+        epNext: p.epNext,
+      };
+    });
+
+    const captainList = document.querySelector('#captain-list');
+    if (captainList && data.captainPicks.length) {
+      captainList.innerHTML = data.captainPicks.map((id, i) => {
+        const p = data.players[id];
+        return `<article class="captain-row${i === 0 ? ' top-pick' : ''}" data-player="fpl-${id}" tabindex="0" role="button" aria-label="View ${p.name}">
+          <span class="captain-rank">${i + 1}</span>
+          <div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.position} · ${p.owned} owned</small></strong></div>
+          <div class="captain-reason"><small>${p.points} pts last season</small><span class="fixture-tag easy">${p.epNext.toFixed(1)} proj.</span></div>
+          <strong class="captain-score">${p.epNext.toFixed(1)}</strong>
+        </article>`;
+      }).join('');
+      bindPlayerTriggers(captainList);
+      const badge = document.querySelector('#captain-live-badge');
+      if (badge) badge.hidden = false;
+    }
+
+    const performersTable = document.querySelector('#fpl-performers-table');
+    if (performersTable && data.topPerformers.length) {
+      performersTable.querySelectorAll('.table-row').forEach((row) => row.remove());
+      const colLabel = document.querySelector('#fpl-performers-col2');
+      if (colLabel) colLabel.textContent = 'Position';
+      data.topPerformers.forEach((id) => {
+        const p = data.players[id];
+        const row = document.createElement('div');
+        row.className = 'table-row';
+        row.dataset.player = 'fpl-' + id;
+        row.tabIndex = 0;
+        row.setAttribute('role', 'button');
+        row.setAttribute('aria-label', 'View ' + p.name);
+        row.innerHTML = `<div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.position} · ${p.owned} owned</small></strong></div>
+          <span>${p.position}</span><span>${p.price}</span><span>${p.owned}</span><strong>${p.points}</strong>
+          <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>`;
+        performersTable.appendChild(row);
+      });
+      bindPlayerTriggers(performersTable);
+      const badge = document.querySelector('#performers-live-badge');
+      if (badge) badge.hidden = false;
+      lucide.createIcons();
+    }
+  })
+  .catch(() => { /* keep the illustrative fallback content already in the page */ });
 
 lucide.createIcons();
