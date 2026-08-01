@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YobraPulse | Football Intelligence</title>
+  <meta name="description" content="Your football intelligence dashboard — live scores, FPL captain picks, transfer advice and player performance analytics." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="YobraPulse" />
+  <meta property="og:title" content="YobraPulse | Football Intelligence" />
+  <meta property="og:description" content="Your football intelligence dashboard — live scores, FPL captain picks, transfer advice and player performance analytics." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2316b667'/%3E%3Ctext x='50' y='70' font-family='Arial,sans-serif' font-weight='700' font-size='58' fill='%23071a12' text-anchor='middle'%3EY%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@1.28.0"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="index.html">
+        <span class="brand-mark"><i data-lucide="trophy"></i></span>
+        <span>Yobra<span>Pulse</span></span>
+      </a>
+      <div class="workspace-label">Workspace</div>
+      <nav class="side-nav" aria-label="Primary navigation">
+        <button class="nav-item active" data-view="dashboard"><i data-lucide="layout-dashboard"></i><span>Overview</span></button>
+        <button class="nav-item" data-view="live"><i data-lucide="radio"></i><span>Live scores</span><b class="nav-count" id="live-nav-count">12</b></button>
+        <button class="nav-item" data-view="fpl"><i data-lucide="sparkles"></i><span>FPL assistant</span><span class="new-dot"></span></button>
+        <button class="nav-item" data-view="performance"><i data-lucide="activity"></i><span>Performance</span></button>
+        <button class="nav-item" data-view="fixtures"><i data-lucide="calendar-days"></i><span>Fixtures</span></button>
+        <button class="nav-item" data-view="teams"><i data-lucide="users-round"></i><span>Teams & players</span></button>
+        <button class="nav-item" data-view="news"><i data-lucide="newspaper"></i><span>News</span></button>
+        <button class="nav-item" data-view="stats"><i data-lucide="award"></i><span>Stats</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="upgrade-card">
+          <i data-lucide="zap"></i>
+          <strong>Pro analytics</strong>
+          <p>Unlock advanced team models and exportable reports.</p>
+          <button>Explore Pro <i data-lucide="arrow-up-right"></i></button>
+        </div>
+        <button class="nav-item" data-view="settings"><i data-lucide="settings-2"></i><span>Settings</span></button>
+        <div class="user-profile"><div class="avatar">JD</div><div><strong>Jordan Davis</strong><small>Analyst account</small></div><i data-lucide="more-horizontal"></i></div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <a class="mobile-brand" href="index.html"><span class="brand-mark"><i data-lucide="trophy"></i></span><strong>Yobra<span>Pulse</span></strong></a>
+        <div class="breadcrumb"><span>Workspace</span><i data-lucide="chevron-right"></i><strong id="page-title">Overview</strong></div>
+        <div class="top-actions">
+          <button class="icon-button" aria-label="Search"><i data-lucide="search"></i></button>
+          <button class="icon-button has-alert" aria-label="Notifications"><i data-lucide="bell"></i></button>
+          <button class="live-pill"><span></span> Live data</button>
+        </div>
+      </header>
+
+      <section class="view active" id="dashboard-view">
+        <div class="hero-row">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> <span id="hero-date">Saturday, 12 October 2024</span></div>
+            <h1><span id="greeting">Good morning</span>, <span id="hero-name">Jordan</span><span class="accent">.</span></h1>
+            <p class="lede">Your football intelligence hub is ready. Here’s what’s happening across your watchlist.</p>
+          </div>
+          <button class="primary-button" data-view="fpl"><i data-lucide="sparkles"></i> Get FPL tips</button>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric-card">
+            <div class="metric-icon green"><i data-lucide="radio"></i></div>
+            <span class="metric-label">Live matches</span>
+            <strong id="live-metric-count">12</strong>
+            <small class="positive" id="live-metric-sub"><i data-lucide="trending-up"></i> 4 started recently</small>
+          </article>
+          <article class="metric-card">
+            <div class="metric-icon orange"><i data-lucide="target"></i></div>
+            <span class="metric-label">Prediction accuracy</span>
+            <strong>78.4<em>%</em></strong>
+            <small class="positive"><i data-lucide="arrow-up-right"></i> 3.2% this month</small>
+          </article>
+          <article class="metric-card">
+            <div class="metric-icon blue"><i data-lucide="bar-chart-3"></i></div>
+            <span class="metric-label">Tracked players</span>
+            <strong>248</strong>
+            <small class="muted">Across 18 competitions</small>
+          </article>
+          <article class="metric-card">
+            <div class="metric-icon purple"><i data-lucide="bell-ring"></i></div>
+            <span class="metric-label">Alerts today</span>
+            <strong>07</strong>
+            <small class="muted">2 need your attention</small>
+          </article>
+        </div>
+
+        <div class="content-grid">
+          <section class="panel matches-panel">
+            <div class="panel-header">
+              <div><span class="section-kicker">Live now</span><h2>Matches on your radar</h2></div>
+              <button class="text-button" data-view="live">View all <i data-lucide="arrow-up-right"></i></button>
+            </div>
+            <div class="match-list" id="dashboard-live-list">
+              <article class="match-row">
+                <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 8 · 62'</small></div></div>
+                <div class="teams"><span>Arsenal</span><strong>2 <small>—</small> 1</strong><span>Southampton</span></div>
+                <div class="match-status live-status"><span></span> Live</div>
+              </article>
+              <article class="match-row">
+                <div class="competition"><span class="competition-badge la">SA</span><div><strong>Serie A</strong><small>Matchday 8 · 1H 34'</small></div></div>
+                <div class="teams"><span>Inter Milan</span><strong>0 <small>—</small> 0</strong><span>Juventus</span></div>
+                <div class="match-status live-status"><span></span> Live</div>
+              </article>
+              <article class="match-row">
+                <div class="competition"><span class="competition-badge cl">CL</span><div><strong>Champions League</strong><small>Group stage · 21'</small></div></div>
+                <div class="teams"><span>Real Madrid</span><strong>1 <small>—</small> 0</strong><span>Dortmund</span></div>
+                <div class="match-status live-status"><span></span> Live</div>
+              </article>
+            </div>
+          </section>
+
+          <section class="panel focus-panel">
+            <div class="panel-header">
+              <div><span class="section-kicker">Your focus</span><h2>Performance pulse</h2></div>
+              <button class="icon-button" aria-label="More options"><i data-lucide="more-horizontal"></i></button>
+            </div>
+            <div class="chart-wrap">
+              <div class="chart-y"><span>100</span><span>75</span><span>50</span><span>25</span><span>0</span></div>
+              <svg class="line-chart" viewBox="0 0 430 190" preserveAspectRatio="none" aria-label="Performance accuracy chart">
+                <defs>
+                  <linearGradient id="chartFill" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0" stop-color="#18b56a" stop-opacity=".28"/>
+                    <stop offset="1" stop-color="#18b56a" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+                <path class="chart-area" d="M0 140 C30 133 39 110 70 121 S110 107 135 122 S160 78 198 91 S235 101 261 71 S300 84 327 49 S365 65 390 38 S414 48 430 20 V190 H0 Z"/>
+                <path class="chart-line" d="M0 140 C30 133 39 110 70 121 S110 107 135 122 S160 78 198 91 S235 101 261 71 S300 84 327 49 S365 65 390 38 S414 48 430 20"/>
+                <circle cx="327" cy="49" r="5" class="chart-point"/>
+              </svg>
+            </div>
+            <div class="chart-foot"><strong>84.6%</strong><span class="positive">+8.2% <i data-lucide="arrow-up-right"></i></span><small>Last 30 days</small></div>
+          </section>
+        </div>
+
+        <section class="panel table-panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">Watchlist</span><h2>Player performance</h2></div>
+            <button class="text-button" data-view="performance">Full tracker <i data-lucide="arrow-up-right"></i></button>
+          </div>
+          <div class="player-table">
+            <div class="table-head"><span>Player</span><span>Team</span><span>Form</span><span>Rating</span><span></span></div>
+            <div class="table-row" data-player="saka" tabindex="0" role="button" aria-label="View Bukayo Saka">
+              <div class="player-cell"><div class="player-avatar">BS</div><strong>Bukayo Saka<small>RW · England</small></strong></div>
+              <span>Arsenal</span>
+              <span class="form-bars"><i class="high"></i><i class="high"></i><i class="mid"></i><i class="high"></i><i class="high"></i></span>
+              <strong>8.7</strong>
+              <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>
+            </div>
+            <div class="table-row" data-player="haaland" tabindex="0" role="button" aria-label="View Erling Haaland">
+              <div class="player-cell"><div class="player-avatar blue-avatar">EH</div><strong>Erling Haaland<small>ST · Norway</small></strong></div>
+              <span>Man City</span>
+              <span class="form-bars"><i class="high"></i><i class="mid"></i><i class="high"></i><i class="high"></i><i class="low"></i></span>
+              <strong>8.4</strong>
+              <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>
+            </div>
+            <div class="table-row" data-player="kvaratskhelia" tabindex="0" role="button" aria-label="View Khvicha Kvaratskhelia">
+              <div class="player-cell"><div class="player-avatar orange-avatar">KM</div><strong>Khvicha Kvaratskhelia<small>LW · Georgia</small></strong></div>
+              <span>Napoli</span>
+              <span class="form-bars"><i class="mid"></i><i class="high"></i><i class="high"></i><i class="mid"></i><i class="high"></i></span>
+              <strong>8.2</strong>
+              <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="live-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Live right now</div>
+            <h1>Live scores<span class="accent">.</span></h1>
+            <p class="lede">Real Premier League, Champions League and Serie A scores, polled live from ESPN's public scoreboard.</p>
+          </div>
+          <div class="model-status"><span></span> <span id="live-status-text">12 matches live</span></div>
+        </div>
+        <section class="panel matches-panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">All competitions</span><h2>Live matches</h2></div>
+            <span class="live-badge" id="live-scores-badge" hidden>Live data</span>
+          </div>
+          <div class="match-list" id="live-scores-list">
+            <article class="match-row">
+              <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 8 · 62'</small></div></div>
+              <div class="teams"><span>Arsenal</span><strong>2 <small>—</small> 1</strong><span>Southampton</span></div>
+              <div class="match-status live-status"><span></span> Live</div>
+            </article>
+            <article class="match-row">
+              <div class="competition"><span class="competition-badge la">SA</span><div><strong>Serie A</strong><small>Matchday 8 · 1H 34'</small></div></div>
+              <div class="teams"><span>Inter Milan</span><strong>0 <small>—</small> 0</strong><span>Juventus</span></div>
+              <div class="match-status live-status"><span></span> Live</div>
+            </article>
+            <article class="match-row">
+              <div class="competition"><span class="competition-badge cl">CL</span><div><strong>Champions League</strong><small>Group stage · 21'</small></div></div>
+              <div class="teams"><span>Real Madrid</span><strong>1 <small>—</small> 0</strong><span>Dortmund</span></div>
+              <div class="match-status live-status"><span></span> Live</div>
+            </article>
+            <article class="match-row">
+              <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 8 · 55'</small></div></div>
+              <div class="teams"><span>Chelsea</span><strong>1 <small>—</small> 1</strong><span>Newcastle</span></div>
+              <div class="match-status live-status"><span></span> Live</div>
+            </article>
+            <article class="match-row">
+              <div class="competition"><span class="competition-badge cl">CL</span><div><strong>Champions League</strong><small>Group stage · 38'</small></div></div>
+              <div class="teams"><span>PSG</span><strong>2 <small>—</small> 2</strong><span>Bayern Munich</span></div>
+              <div class="match-status live-status"><span></span> Live</div>
+            </article>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="fpl-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Fantasy Premier League</div>
+            <h1>FPL assistant<span class="accent">.</span></h1>
+            <p class="lede">Captain picks and top performers are pulled from real Fantasy Premier League data. Transfer advice below is illustrative — see note.</p>
+          </div>
+          <div class="model-status"><span></span> <span id="fpl-deadline-text">GW9 deadline · Sat 14:00</span></div>
+        </div>
+
+        <div class="metric-grid compact-grid">
+          <article class="metric-card">
+            <span class="metric-label">Top scorer</span>
+            <strong id="rank-metric-value">239</strong>
+            <small class="positive" id="rank-metric-sub"><i data-lucide="trending-up"></i> Erling Haaland &middot; 25/26</small>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Squad value</span>
+            <strong>£102.4<em>m</em></strong>
+            <small class="muted">2 free transfers</small>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Gameweek points</span>
+            <strong>67</strong>
+            <small class="positive">Above average (58)</small>
+          </article>
+        </div>
+
+        <div class="content-grid">
+          <section class="panel captain-panel">
+            <div class="panel-header">
+              <div><span class="section-kicker">Armband pick</span><h2>Captain recommendations</h2></div>
+              <span class="live-badge" id="captain-live-badge" hidden>Live data</span>
+            </div>
+            <div class="captain-list" id="captain-list">
+              <article class="captain-row top-pick">
+                <span class="captain-rank">1</span>
+                <div class="player-cell"><div class="player-avatar blue-avatar">EH</div><strong>Erling Haaland<small>Man City · ST</small></strong></div>
+                <div class="captain-reason"><small>vs Tottenham (H)</small><span class="fixture-tag easy">FDR 2</span></div>
+                <strong class="captain-score">9.4</strong>
+              </article>
+              <article class="captain-row">
+                <span class="captain-rank">2</span>
+                <div class="player-cell"><div class="player-avatar">BS</div><strong>Bukayo Saka<small>Arsenal · RW</small></strong></div>
+                <div class="captain-reason"><small>vs Southampton (H)</small><span class="fixture-tag easy">FDR 2</span></div>
+                <strong class="captain-score">8.6</strong>
+              </article>
+              <article class="captain-row">
+                <span class="captain-rank">3</span>
+                <div class="player-cell"><div class="player-avatar orange-avatar">MS</div><strong>Mohamed Salah<small>Liverpool · RW</small></strong></div>
+                <div class="captain-reason"><small>vs Chelsea (H)</small><span class="fixture-tag mid">FDR 3</span></div>
+                <strong class="captain-score">8.1</strong>
+              </article>
+            </div>
+          </section>
+
+          <section class="panel transfer-panel">
+            <div class="panel-header">
+              <div><span class="section-kicker">This gameweek</span><h2>Transfer advice</h2></div>
+            </div>
+            <p class="lede" style="margin:0 0 14px;font-size:11.5px">Illustrative for now — real transfer/price-movement data is flat pre-season, so there's no live signal to base this on yet.</p>
+            <div class="transfer-list">
+              <article class="transfer-row">
+                <span class="transfer-tag in">IN</span>
+                <div class="player-cell"><div class="player-avatar pink-avatar">CP</div><strong>Cole Palmer<small>Chelsea · MID</small></strong></div>
+                <div class="transfer-meta"><small>£6.4m</small><span class="positive"><i data-lucide="trending-up"></i> +18% owned</span></div>
+              </article>
+              <article class="transfer-row">
+                <span class="transfer-tag out">OUT</span>
+                <div class="player-cell"><div class="player-avatar">RS</div><strong>Raheem Sterling<small>Chelsea · MID</small></strong></div>
+                <div class="transfer-meta"><small>£6.9m</small><span class="negative"><i data-lucide="trending-down"></i> -6.1% owned</span></div>
+              </article>
+              <article class="transfer-row">
+                <span class="transfer-tag in">IN</span>
+                <div class="player-cell"><div class="player-avatar blue-avatar">JT</div><strong>James Trafford<small>Burnley · GK</small></strong></div>
+                <div class="transfer-meta"><small>£4.5m</small><span class="positive"><i data-lucide="trending-up"></i> Great fixtures</span></div>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <section class="panel table-panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">Season leaders</span><h2>Top performers</h2></div>
+            <span class="live-badge" id="performers-live-badge" hidden>Live data</span>
+          </div>
+          <div class="player-table wide" id="fpl-performers-table">
+            <div class="table-head"><span>Player</span><span id="fpl-performers-col2">Team</span><span>Price</span><span>Owned</span><span>Points</span><span></span></div>
+            <div class="table-row" data-player="haaland" tabindex="0" role="button" aria-label="View Erling Haaland">
+              <div class="player-cell"><div class="player-avatar blue-avatar">EH</div><strong>Erling Haaland<small>ST · Norway</small></strong></div>
+              <span>Man City</span><span>£15.2m</span><span>68.4%</span><strong>18</strong>
+              <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>
+            </div>
+            <div class="table-row" data-player="palmer" tabindex="0" role="button" aria-label="View Cole Palmer">
+              <div class="player-cell"><div class="player-avatar pink-avatar">CP</div><strong>Cole Palmer<small>MID · England</small></strong></div>
+              <span>Chelsea</span><span>£6.4m</span><span>41.2%</span><strong>15</strong>
+              <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>
+            </div>
+            <div class="table-row" data-player="saka" tabindex="0" role="button" aria-label="View Bukayo Saka">
+              <div class="player-cell"><div class="player-avatar">BS</div><strong>Bukayo Saka<small>RW · England</small></strong></div>
+              <span>Arsenal</span><span>£9.1m</span><span>52.8%</span><strong>13</strong>
+              <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>
+            </div>
+            <div class="table-row" data-player="salah" tabindex="0" role="button" aria-label="View Mohamed Salah">
+              <div class="player-cell"><div class="player-avatar orange-avatar">MS</div><strong>Mohamed Salah<small>RW · Egypt</small></strong></div>
+              <span>Liverpool</span><span>£12.8m</span><span>63.5%</span><strong>11</strong>
+              <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="performance-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Player intelligence</div>
+            <h1>Performance tracker<span class="accent">.</span></h1>
+            <p class="lede">See who is trending up, who needs a closer look, and why.</p>
+          </div>
+          <button class="secondary-button"><i data-lucide="download"></i> Export report</button>
+        </div>
+        <div class="metric-grid compact-grid">
+          <article class="metric-card">
+            <span class="metric-label">Avg. squad rating</span>
+            <strong>7.86</strong>
+            <small class="positive"><i data-lucide="trending-up"></i> 0.24 vs last week</small>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Goals tracked</span>
+            <strong>186</strong>
+            <small class="positive">Across 248 players</small>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Rising players</span>
+            <strong>24</strong>
+            <small class="positive">+6 this week</small>
+          </article>
+        </div>
+        <section class="panel table-panel tracker-panel">
+          <div class="filter-row">
+            <div class="tabs">
+              <button class="tab active">All players</button>
+              <button class="tab">Rising</button>
+              <button class="tab">Needs attention</button>
+            </div>
+            <div class="filter-actions">
+              <button class="filter-button"><i data-lucide="filter"></i> Filter</button>
+              <button class="filter-button"><i data-lucide="sliders-horizontal"></i> Metrics</button>
+            </div>
+          </div>
+          <div class="player-table wide">
+            <div class="table-head"><span>Player</span><span>Team</span><span>Minutes</span><span>Goals</span><span>Assists</span><span>Rating</span></div>
+            <div class="table-row" data-player="saka" tabindex="0" role="button" aria-label="View Bukayo Saka">
+              <div class="player-cell"><div class="player-avatar">BS</div><strong>Bukayo Saka<small>RW · England</small></strong></div>
+              <span>Arsenal</span><span>612</span><span>5</span><span>4</span><strong>8.7</strong>
+            </div>
+            <div class="table-row" data-player="haaland" tabindex="0" role="button" aria-label="View Erling Haaland">
+              <div class="player-cell"><div class="player-avatar blue-avatar">EH</div><strong>Erling Haaland<small>ST · Norway</small></strong></div>
+              <span>Man City</span><span>648</span><span>8</span><span>2</span><strong>8.4</strong>
+            </div>
+            <div class="table-row" data-player="kvaratskhelia" tabindex="0" role="button" aria-label="View Khvicha Kvaratskhelia">
+              <div class="player-cell"><div class="player-avatar orange-avatar">KM</div><strong>Khvicha Kvaratskhelia<small>LW · Georgia</small></strong></div>
+              <span>Napoli</span><span>570</span><span>4</span><span>5</span><strong>8.2</strong>
+            </div>
+            <div class="table-row" data-player="odegaard" tabindex="0" role="button" aria-label="View Martin Ødegaard">
+              <div class="player-cell"><div class="player-avatar pink-avatar">MO</div><strong>Martin Ødegaard<small>CM · Norway</small></strong></div>
+              <span>Arsenal</span><span>598</span><span>2</span><span>6</span><strong>8.1</strong>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="fixtures-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Upcoming schedule</div>
+            <h1>Fixtures<span class="accent">.</span></h1>
+            <p class="lede">Real Premier League fixtures for the upcoming gameweek, with predicted outcomes from a model built on real team strength ratings and squad quality — not head-to-head history, which isn't available in this data source. Hover a prediction for the full breakdown.</p>
+          </div>
+        </div>
+        <section class="panel matches-panel">
+          <div class="panel-header">
+            <div><span class="section-kicker" id="fixtures-kicker">This week</span><h2>Scheduled matches</h2></div>
+            <span class="live-badge" id="fixtures-live-badge" hidden>Live data</span>
+          </div>
+          <div class="match-list" id="fixtures-list">
+            <article class="match-row">
+              <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 9</small></div></div>
+              <div class="teams"><span>Liverpool</span><strong>VS</strong><span>Chelsea</span></div>
+              <div class="match-status upcoming"><span></span> Sat, 19 Oct · 17:30</div>
+            </article>
+            <article class="match-row">
+              <div class="competition"><span class="competition-badge cl">CL</span><div><strong>Champions League</strong><small>Group stage</small></div></div>
+              <div class="teams"><span>Bayern Munich</span><strong>VS</strong><span>PSG</span></div>
+              <div class="match-status upcoming"><span></span> Tue, 22 Oct · 20:00</div>
+            </article>
+            <article class="match-row">
+              <div class="competition"><span class="competition-badge la">SA</span><div><strong>Serie A</strong><small>Matchday 9</small></div></div>
+              <div class="teams"><span>AC Milan</span><strong>VS</strong><span>Napoli</span></div>
+              <div class="match-status upcoming"><span></span> Sun, 20 Oct · 18:00</div>
+            </article>
+            <article class="match-row">
+              <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 9</small></div></div>
+              <div class="teams"><span>Manchester City</span><strong>VS</strong><span>Tottenham</span></div>
+              <div class="match-status upcoming"><span></span> Sun, 20 Oct · 16:30</div>
+            </article>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="teams-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Squads & rosters</div>
+            <h1>Teams & players<span class="accent">.</span></h1>
+            <p class="lede">All 20 real Premier League clubs, with squad size and value pulled from the FPL API. Your favorites (set in Settings) are pinned to the top.</p>
+          </div>
+          <span class="live-badge" id="teams-live-badge" hidden>Live data</span>
+        </div>
+        <div class="team-grid" id="teams-grid">
+          <article class="team-card" data-team="Arsenal">
+            <div class="team-card-head">
+              <span class="team-crest">ARS</span>
+              <div><strong>Arsenal</strong><small>Premier League · 2nd</small></div>
+            </div>
+            <div class="team-card-stats">
+              <div><small>Squad rating</small><strong>7.86</strong></div>
+              <div><small>Tracked players</small><strong>24</strong></div>
+              <div><small>Form</small><span class="form-bars"><i class="high"></i><i class="high"></i><i class="mid"></i><i class="high"></i><i class="high"></i></span></div>
+            </div>
+          </article>
+          <article class="team-card" data-team="Manchester City">
+            <div class="team-card-head">
+              <span class="team-crest blue-crest">MCI</span>
+              <div><strong>Manchester City</strong><small>Premier League · 1st</small></div>
+            </div>
+            <div class="team-card-stats">
+              <div><small>Squad rating</small><strong>8.02</strong></div>
+              <div><small>Tracked players</small><strong>23</strong></div>
+              <div><small>Form</small><span class="form-bars"><i class="high"></i><i class="mid"></i><i class="high"></i><i class="high"></i><i class="low"></i></span></div>
+            </div>
+          </article>
+          <article class="team-card" data-team="Napoli">
+            <div class="team-card-head">
+              <span class="team-crest orange-crest">NAP</span>
+              <div><strong>Napoli</strong><small>Serie A · 3rd</small></div>
+            </div>
+            <div class="team-card-stats">
+              <div><small>Squad rating</small><strong>7.64</strong></div>
+              <div><small>Tracked players</small><strong>22</strong></div>
+              <div><small>Form</small><span class="form-bars"><i class="mid"></i><i class="high"></i><i class="high"></i><i class="mid"></i><i class="high"></i></span></div>
+            </div>
+          </article>
+          <article class="team-card" data-team="Inter Milan">
+            <div class="team-card-head">
+              <span class="team-crest pink-crest">INT</span>
+              <div><strong>Inter Milan</strong><small>Serie A · 1st</small></div>
+            </div>
+            <div class="team-card-stats">
+              <div><small>Squad rating</small><strong>7.71</strong></div>
+              <div><small>Tracked players</small><strong>23</strong></div>
+              <div><small>Form</small><span class="form-bars"><i class="high"></i><i class="high"></i><i class="high"></i><i class="mid"></i><i class="high"></i></span></div>
+            </div>
+          </article>
+          <article class="team-card" data-team="Real Madrid">
+            <div class="team-card-head">
+              <span class="team-crest">RMA</span>
+              <div><strong>Real Madrid</strong><small>La Liga · 1st</small></div>
+            </div>
+            <div class="team-card-stats">
+              <div><small>Squad rating</small><strong>8.11</strong></div>
+              <div><small>Tracked players</small><strong>25</strong></div>
+              <div><small>Form</small><span class="form-bars"><i class="high"></i><i class="high"></i><i class="high"></i><i class="high"></i><i class="mid"></i></span></div>
+            </div>
+          </article>
+          <article class="team-card" data-team="Liverpool">
+            <div class="team-card-head">
+              <span class="team-crest blue-crest">LIV</span>
+              <div><strong>Liverpool</strong><small>Premier League · 3rd</small></div>
+            </div>
+            <div class="team-card-stats">
+              <div><small>Squad rating</small><strong>7.79</strong></div>
+              <div><small>Tracked players</small><strong>23</strong></div>
+              <div><small>Form</small><span class="form-bars"><i class="mid"></i><i class="high"></i><i class="mid"></i><i class="high"></i><i class="high"></i></span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="view" id="news-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Transfers & injuries</div>
+            <h1>News<span class="accent">.</span></h1>
+            <p class="lede">Real headlines from BBC Sport and Sky Sports, sorted into transfers, injuries and club news.</p>
+          </div>
+          <div class="model-status"><span></span> <span id="news-updated-text">Updated 12 min ago</span></div>
+        </div>
+
+        <section class="panel news-panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">Live feed</span><h2>Latest bulletins</h2> <span class="live-badge" id="news-live-badge" hidden>Live data</span></div>
+            <div class="tabs" id="news-tabs">
+              <button class="tab active" data-filter="all">All</button>
+              <button class="tab" data-filter="transfer">Transfers</button>
+              <button class="tab" data-filter="injury">Injuries</button>
+            </div>
+          </div>
+          <div class="news-feed" id="news-feed">
+            <article class="news-card" data-category="injury">
+              <div class="news-card-head"><span class="news-tag injury">Injury</span><span class="news-time">38m ago</span></div>
+              <h3>Saka a doubt for Sunday's trip to Newcastle</h3>
+              <p>Arsenal's talisman missed training with a tight hamstring; Arteta says a late fitness call will be made before the squad travels north.</p>
+              <div class="news-source"><span class="source-dot"></span> Sky Sports &middot; Arsenal</div>
+            </article>
+            <article class="news-card" data-category="transfer">
+              <div class="news-card-head"><span class="news-tag transfer">Transfer</span><span class="news-time">1h ago</span></div>
+              <h3>Napoli open talks over January move for backup striker</h3>
+              <p>Napoli have made contact over a January loan with an option to buy, as they look to ease the goalscoring burden on Osimhen.</p>
+              <div class="news-source"><span class="source-dot"></span> Fabrizio Romano &middot; Napoli</div>
+            </article>
+            <article class="news-card" data-category="injury">
+              <div class="news-card-head"><span class="news-tag injury">Injury</span><span class="news-time">2h ago</span></div>
+              <h3>Haaland to be assessed after tweaking hamstring in training</h3>
+              <p>City's medical staff will run scans on Thursday; Guardiola sounded cautiously optimistic he'll be fit to face Southampton.</p>
+              <div class="news-source"><span class="source-dot"></span> Manchester Evening News &middot; Man City</div>
+            </article>
+            <article class="news-card" data-category="transfer">
+              <div class="news-card-head"><span class="news-tag transfer">Transfer</span><span class="news-time">3h ago</span></div>
+              <h3>Chelsea eye Ligue 1 winger as Sterling exit edges closer</h3>
+              <p>With Sterling's game time dwindling, Chelsea have begun scouting alternatives ahead of a possible January exit.</p>
+              <div class="news-source"><span class="source-dot"></span> The Athletic &middot; Chelsea</div>
+            </article>
+            <article class="news-card" data-category="club">
+              <div class="news-card-head"><span class="news-tag club">Club news</span><span class="news-time">4h ago</span></div>
+              <h3>Arteta confirms Ødegaard is "ready to start" after rotation</h3>
+              <p>The Arsenal captain was rested midweek but trained fully on Friday and is in contention to lead the side out this weekend.</p>
+              <div class="news-source"><span class="source-dot"></span> BBC Sport &middot; Arsenal</div>
+            </article>
+            <article class="news-card" data-category="transfer">
+              <div class="news-card-head"><span class="news-tag transfer">Transfer</span><span class="news-time">6h ago</span></div>
+              <h3>Real Madrid step up interest in Serie A full-back</h3>
+              <p>Madrid's scouts have watched the 22-year-old three times this month, with a January enquiry now considered likely.</p>
+              <div class="news-source"><span class="source-dot"></span> Fabrizio Romano &middot; Real Madrid</div>
+            </article>
+            <article class="news-card" data-category="injury">
+              <div class="news-card-head"><span class="news-tag injury">Injury</span><span class="news-time">8h ago</span></div>
+              <h3>Trafford out for "a few weeks" with ankle knock, Burnley confirm</h3>
+              <p>The goalkeeper was withdrawn at half-time on Saturday and will be assessed weekly; a scan ruled out ligament damage.</p>
+              <div class="news-source"><span class="source-dot"></span> Sky Sports &middot; Burnley</div>
+            </article>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="stats-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Real season leaders</div>
+            <h1>Stats<span class="accent">.</span></h1>
+            <p class="lede">Real leaderboards from last season's Premier League data — points, assists, expected goals and best value-for-money.</p>
+          </div>
+          <span class="live-badge" id="stats-live-badge" hidden>Live data</span>
+        </div>
+        <div class="stats-grid">
+          <section class="panel">
+            <div class="panel-header"><div><span class="section-kicker">25/26 season</span><h2>Most points</h2></div></div>
+            <div class="leaderboard-list" id="leaderboard-points"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+          </section>
+          <section class="panel">
+            <div class="panel-header"><div><span class="section-kicker">25/26 season</span><h2>Most assists</h2></div></div>
+            <div class="leaderboard-list" id="leaderboard-assists"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+          </section>
+          <section class="panel">
+            <div class="panel-header"><div><span class="section-kicker">25/26 season</span><h2>Highest xG</h2></div></div>
+            <div class="leaderboard-list" id="leaderboard-xg"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+          </section>
+          <section class="panel">
+            <div class="panel-header"><div><span class="section-kicker">25/26 season</span><h2>Best value</h2></div></div>
+            <div class="leaderboard-list" id="leaderboard-value"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view" id="settings-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Workspace</div>
+            <h1>Settings<span class="accent">.</span></h1>
+            <p class="lede">Manage your profile, alerts and watchlist.</p>
+          </div>
+        </div>
+
+        <div class="content-grid">
+          <section class="panel">
+            <div class="panel-header">
+              <div><span class="section-kicker">Profile</span><h2>Your details</h2></div>
+            </div>
+            <label class="field"><span>Display name</span><input type="text" id="settings-name" value="Jordan Davis"></label>
+            <label class="field"><span>Email</span><input type="email" id="settings-email" value="jordan.davis@yobrapulse.com"></label>
+            <button class="primary-button" id="settings-save"><i data-lucide="check"></i> Save changes</button>
+            <span class="positive" id="save-status" style="display:none;margin-left:12px">Saved</span>
+          </section>
+
+          <section class="panel">
+            <div class="panel-header">
+              <div><span class="section-kicker">Notifications</span><h2>Alerts &amp; emails</h2></div>
+            </div>
+            <div class="settings-list">
+              <div class="settings-row">
+                <div class="settings-row-label"><strong>Goal alerts</strong><small>Push notification when a tracked team scores</small></div>
+                <label class="switch"><input type="checkbox" data-pref="goalAlerts" checked><span class="switch-track"></span></label>
+              </div>
+              <div class="settings-row">
+                <div class="settings-row-label"><strong>FPL deadline reminders</strong><small>Reminder 2 hours before each gameweek deadline</small></div>
+                <label class="switch"><input type="checkbox" data-pref="fplReminders" checked><span class="switch-track"></span></label>
+              </div>
+              <div class="settings-row">
+                <div class="settings-row-label"><strong>Price change alerts</strong><small>Notify when a tracked player's price moves</small></div>
+                <label class="switch"><input type="checkbox" data-pref="priceAlerts"><span class="switch-track"></span></label>
+              </div>
+              <div class="settings-row">
+                <div class="settings-row-label"><strong>Weekly summary email</strong><small>A Monday recap of your watchlist and FPL rank</small></div>
+                <label class="switch"><input type="checkbox" data-pref="weeklyEmail" checked><span class="switch-track"></span></label>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">Watchlist</span><h2>Favorite teams</h2></div>
+          </div>
+          <p class="lede" style="margin:0 0 16px">Teams you select appear first across Live scores, Fixtures and Teams &amp; players.</p>
+          <div class="chip-grid" id="team-chips">
+            <button class="chip selected" data-team="Arsenal">Arsenal</button>
+            <button class="chip selected" data-team="Man City">Man City</button>
+            <button class="chip" data-team="Liverpool">Liverpool</button>
+            <button class="chip" data-team="Chelsea">Chelsea</button>
+            <button class="chip" data-team="Spurs">Spurs</button>
+            <button class="chip" data-team="Newcastle">Newcastle</button>
+            <button class="chip" data-team="Aston Villa">Aston Villa</button>
+            <button class="chip" data-team="Brighton">Brighton</button>
+          </div>
+        </section>
+
+        <section class="panel plan-panel">
+          <div><span class="section-kicker">Plan</span><h2 style="margin-top:6px">Free plan</h2><p class="lede" style="margin:8px 0 0">Upgrade to Pro for advanced team models and exportable reports.</p></div>
+          <button class="primary-button">Explore Pro <i data-lucide="arrow-up-right"></i></button>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal-overlay" id="player-modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="pm-name">
+      <button class="modal-close" id="player-modal-close" aria-label="Close"><i data-lucide="x"></i></button>
+      <div class="modal-head">
+        <div class="modal-avatar" id="pm-avatar">BS</div>
+        <div>
+          <h2 id="pm-name">Bukayo Saka</h2>
+          <p id="pm-meta">RW &middot; Arsenal &middot; England</p>
+        </div>
+        <div class="modal-rating"><small>Rating</small><strong id="pm-rating">8.7</strong></div>
+      </div>
+      <div class="modal-stats">
+        <div><small>Minutes</small><strong id="pm-minutes">612</strong></div>
+        <div><small>Goals</small><strong id="pm-goals">5</strong></div>
+        <div><small>Assists</small><strong id="pm-assists">4</strong></div>
+        <div><small>Form</small><span class="form-bars" id="pm-form"></span></div>
+      </div>
+      <div class="modal-stats">
+        <div><small>Price</small><strong id="pm-price">£9.1m</strong></div>
+        <div><small>Owned</small><strong id="pm-owned">52.8%</strong></div>
+        <div><small id="pm-points-label">GW9 pts</small><strong id="pm-points">13</strong></div>
+      </div>
+      <p class="modal-context" id="pm-context" hidden></p>
+      <div class="modal-next">
+        <span class="section-kicker" id="pm-next-kicker">Next fixture</span>
+        <p id="pm-next">vs Southampton (H) &middot; Sun 20 Oct</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
