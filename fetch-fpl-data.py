@@ -44,7 +44,9 @@ from datetime import datetime, timezone
 
 BOOTSTRAP_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/?event={event_id}"
+ALL_FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
+SWING_WINDOW = 6  # gameweeks looked at for fixture-swing analysis
 
 POSITIONS = {1: "GKP", 2: "DEF", 3: "MID", 4: "FWD"}
 AVATAR_CLASSES = ["", "blue-avatar", "orange-avatar", "pink-avatar"]
@@ -182,6 +184,55 @@ def build_fixture_lookup(fixtures, teams):
     return lookup
 
 
+def compute_fixture_swing(all_fixtures, next_event_id, teams):
+    """team_id -> {nearFdr, laterFdr, swing, direction, fixtures: [...]} over
+    a SWING_WINDOW-gameweek horizon starting at the next gameweek.
+
+    'swing' is nearFdr - laterFdr: positive means the near-term run is
+    HARDER than what follows (fixtures are about to improve - classic
+    transfer-in / wildcard-in signal); negative means the opposite
+    (fixtures about to get tougher - transfer-out / bench signal).
+
+    Checked before building this: the current full-season fixture list
+    has no blank or double gameweeks yet (every gameweek has exactly 20
+    teams playing once) - those come from mid-season cup reschedules
+    that haven't happened yet, not something this data can show this
+    early. Fixture-swing (get easier/harder) is a real, available
+    signal in the meantime and is the standard basis real FPL advice
+    uses anyway."""
+    window_end = next_event_id + SWING_WINDOW - 1
+    window_fixtures = [f for f in all_fixtures if f["event"] and next_event_id <= f["event"] <= window_end]
+
+    by_team = {}
+    for f in sorted(window_fixtures, key=lambda x: x["event"]):
+        for side, opp_side, is_home in (("team_h", "team_a", True), ("team_a", "team_h", False)):
+            team_id = f[side]
+            fdr = f[f"{side}_difficulty"]
+            by_team.setdefault(team_id, []).append({
+                "event": f["event"],
+                "opponent": teams[f[opp_side]],
+                "isHome": is_home,
+                "fdr": fdr,
+            })
+
+    swing = {}
+    half = max(1, SWING_WINDOW // 2)
+    for team_id, fixtures in by_team.items():
+        fixtures.sort(key=lambda x: x["event"])
+        near = fixtures[:half]
+        later = fixtures[half:]
+        near_fdr = sum(f["fdr"] for f in near) / len(near) if near else None
+        later_fdr = sum(f["fdr"] for f in later) / len(later) if later else None
+        swing_score = (near_fdr - later_fdr) if (near_fdr is not None and later_fdr is not None) else 0
+        swing[team_id] = {
+            "nearFdr": round(near_fdr, 2) if near_fdr is not None else None,
+            "laterFdr": round(later_fdr, 2) if later_fdr is not None else None,
+            "swing": round(swing_score, 2),
+            "fixtures": [f"{'vs' if f['isHome'] else '@'} {f['opponent']}" for f in fixtures],
+        }
+    return swing
+
+
 def build_teams_list(data, squad_ratings):
     """Real 20-club roster with aggregate stats derived from real player
     data (squad rating = avg points-per-90 among players with minutes,
@@ -252,7 +303,65 @@ def build_leaderboards(eligible):
     by_points = sorted(eligible, key=lambda e: e["total_points"], reverse=True)[:5]
     value_pool = [e for e in eligible if e["minutes"] >= 900]
     by_value = sorted(value_pool, key=lambda e: e["total_points"] / (e["now_cost"] / 10), reverse=True)[:5]
-    return {"points": by_points, "assists": by_assists, "xg": by_xg, "value": by_value}
+    by_tackles = sorted(eligible, key=lambda e: e["tackles"], reverse=True)[:5]
+    goalkeepers = [e for e in eligible if e["element_type"] == 1 and e["minutes"] >= 900]
+    by_saves = sorted(goalkeepers, key=lambda e: e["saves"], reverse=True)[:5]
+    return {
+        "points": by_points, "assists": by_assists, "xg": by_xg, "value": by_value,
+        "tackles": by_tackles, "saves": by_saves,
+    }
+
+
+def build_wildcard_watch(swing, teams, top_n=3):
+    """Top N teams whose fixtures are about to improve the most - the
+    real, available half of "when to wildcard" (see compute_fixture_swing
+    for why blank/double gameweeks aren't in this yet)."""
+    ranked = sorted(swing.items(), key=lambda kv: kv[1]["swing"], reverse=True)[:top_n]
+    return [{
+        "team": teams[tid],
+        "swing": s["swing"],
+        "nearFdr": s["nearFdr"],
+        "laterFdr": s["laterFdr"],
+        "fixtures": s["fixtures"],
+    } for tid, s in ranked]
+
+
+def build_transfer_advice(eligible, swing, teams_by_id):
+    """Real transfer IN/OUT candidates from real fixture-swing + squad
+    quality - not fabricated reasoning. IN: best point-scorer from each
+    of the top-3 improving-fixture teams. OUT: the most-owned player
+    from the team with the worst (most-worsening) fixture swing, since
+    "transfer out" only makes sense for someone plausibly already
+    owned. Requires a real minutes sample (>=450) so a fringe player
+    with a lucky cameo doesn't get recommended."""
+    sample = [e for e in eligible if e["minutes"] >= 450]
+    by_team = {}
+    for e in sample:
+        by_team.setdefault(e["team"], []).append(e)
+
+    improving = sorted(swing.items(), key=lambda kv: kv[1]["swing"], reverse=True)
+    transfers_in = []
+    for team_id, _ in improving:
+        squad = by_team.get(team_id, [])
+        if not squad:
+            continue
+        best = max(squad, key=lambda e: e["total_points"])
+        transfers_in.append(best)
+        if len(transfers_in) == 2:
+            break
+
+    worsening = sorted(swing.items(), key=lambda kv: kv[1]["swing"])
+    transfers_out = []
+    in_ids = {e["id"] for e in transfers_in}
+    for team_id, _ in worsening:
+        squad = [e for e in by_team.get(team_id, []) if e["id"] not in in_ids]
+        if not squad:
+            continue
+        most_owned = max(squad, key=lambda e: float(e["selected_by_percent"] or 0))
+        transfers_out.append(most_owned)
+        break
+
+    return transfers_in, transfers_out
 
 
 def build_player(e, teams, fixture_lookup, teams_by_id, percentiles):
@@ -279,6 +388,11 @@ def build_player(e, teams, fixture_lookup, teams_by_id, percentiles):
         "xg": round(float(e["expected_goals"] or 0), 2),
         "xa": round(float(e["expected_assists"] or 0), 2),
         "valueScore": round(e["total_points"] / (e["now_cost"] / 10), 1) if e["now_cost"] else 0,
+        "tackles": e["tackles"],
+        "clearancesBlocksInterceptions": e["clearances_blocks_interceptions"],
+        "recoveries": e["recoveries"],
+        "saves": e["saves"],
+        "cleanSheets": e["clean_sheets"],
         "positionPercentile": percentiles.get(e["id"]),
         "teamStrengthHome": team["strength_overall_home"],
         "teamStrengthAway": team["strength_overall_away"],
@@ -302,8 +416,13 @@ def main():
     fixtures_list = build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings)
     teams_list = build_teams_list(data, squad_ratings)
 
+    all_fixtures = fetch_json(ALL_FIXTURES_URL)
+    fixture_swing = compute_fixture_swing(all_fixtures, next_event["id"], teams)
+    wildcard_watch = build_wildcard_watch(fixture_swing, teams)
+
     eligible = [e for e in data["elements"] if float(e["selected_by_percent"] or 0) >= 2.0]
     percentiles = compute_percentiles(eligible)
+    transfers_in_raw, transfers_out_raw = build_transfer_advice(eligible, fixture_swing, teams_by_id)
 
     # Captain picks: highest projected points next gameweek, must be
     # currently available (not injured/suspended).
@@ -334,6 +453,22 @@ def main():
         "captainPicks": [register(e) for e in captain_picks],
         "topPerformers": [register(e) for e in top_performers],
         "leaderboards": {label: [register(e) for e in players] for label, players in leaderboards.items()},
+        # Full ~2%-owned-or-more pool, registered for the player comparison
+        # tool - richer than the handful of players leaderboards need, but
+        # still bounded to players with a real ownership footprint rather
+        # than exposing all 500+ pros, most of whom nobody's tracking.
+        "comparisonPool": [register(e) for e in sorted(eligible, key=lambda e: -e["total_points"])],
+        "transferAdvice": {
+            "in": [
+                {"id": register(e), "reason": f"{teams[e['team']]}'s fixtures ease up over the next {SWING_WINDOW} gameweeks"}
+                for e in transfers_in_raw
+            ],
+            "out": [
+                {"id": register(e), "reason": f"{teams[e['team']]}'s fixtures get tougher over the next {SWING_WINDOW} gameweeks"}
+                for e in transfers_out_raw
+            ],
+        },
+        "wildcardWatch": wildcard_watch,
         "fixtures": fixtures_list,
         "teams": teams_list,
         "players": players_out,

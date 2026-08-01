@@ -1,0 +1,57 @@
+name: Refresh live data
+
+# Runs the same fetch scripts you'd otherwise run by hand, on a schedule,
+# and commits the results. Netlify is git-linked (see repo setup notes),
+# so a push here triggers an automatic redeploy - no manual "drop the
+# folder" step needed once this is wired up.
+#
+# Hourly keeps News feeling current without wasting Actions minutes:
+# public repos get unlimited free minutes; private repos get 2,000/month
+# free, and this job (~1-2 min x 24 runs/day) uses well under that.
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: # lets you trigger a refresh on demand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # continue-on-error on each fetch: if one source is temporarily
+      # down, the others still refresh instead of the whole run failing
+      # and nothing updating.
+      - name: Fetch FPL data
+        run: python fetch-fpl-data.py
+        continue-on-error: true
+
+      - name: Fetch news
+        run: python fetch-news.py
+        continue-on-error: true
+
+      - name: Fetch league standings
+        run: python fetch-league-data.py
+        continue-on-error: true
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes, skipping commit."
+          else
+            git commit -m "Automated data refresh"
+            git push
+          fi

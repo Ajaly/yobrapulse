@@ -41,6 +41,14 @@
           <p>Unlock advanced team models and exportable reports.</p>
           <button>Explore Pro <i data-lucide="arrow-up-right"></i></button>
         </div>
+        <!-- Placeholder ad slot - swap for a real ad network snippet (e.g. AdSense) once an account/publisher ID exists -->
+        <div class="ad-slot" id="ad-slot-sidebar">
+          <span class="ad-slot-label">Advertisement</span>
+          <div class="ad-slot-box">
+            <i data-lucide="image"></i>
+            <span>Ad space</span>
+          </div>
+        </div>
         <button class="nav-item" data-view="settings"><i data-lucide="settings-2"></i><span>Settings</span></button>
         <div class="user-profile"><div class="avatar">JD</div><div><strong>Jordan Davis</strong><small>Analyst account</small></div><i data-lucide="more-horizontal"></i></div>
       </div>
@@ -276,10 +284,11 @@
 
           <section class="panel transfer-panel">
             <div class="panel-header">
-              <div><span class="section-kicker">This gameweek</span><h2>Transfer advice</h2></div>
+              <div><span class="section-kicker">Fixture swing</span><h2>Transfer advice</h2></div>
+              <span class="live-badge" id="transfer-live-badge" hidden>Live data</span>
             </div>
-            <p class="lede" style="margin:0 0 14px;font-size:11.5px">Illustrative for now — real transfer/price-movement data is flat pre-season, so there's no live signal to base this on yet.</p>
-            <div class="transfer-list">
+            <p class="lede" style="margin:0 0 14px;font-size:11.5px">Based on real fixture-difficulty swing over the next 6 gameweeks, not transfer-market momentum (still flat pre-season).</p>
+            <div class="transfer-list" id="transfer-list">
               <article class="transfer-row">
                 <span class="transfer-tag in">IN</span>
                 <div class="player-cell"><div class="player-avatar pink-avatar">CP</div><strong>Cole Palmer<small>Chelsea · MID</small></strong></div>
@@ -298,6 +307,15 @@
             </div>
           </section>
         </div>
+
+        <section class="panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">Fixture swing · next 6 GWs</span><h2>Wildcard watch</h2></div>
+            <span class="live-badge" id="wildcard-live-badge" hidden>Live data</span>
+          </div>
+          <p class="lede" style="margin:0 0 14px;font-size:11.5px">Teams whose fixtures are about to get easier — worth targeting if you're planning a wildcard. Blank/double gameweek timing isn't shown: none exist in the schedule yet this early in the season, not a data gap.</p>
+          <div class="leaderboard-list" id="wildcard-watch-list"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+        </section>
 
         <section class="panel table-panel">
           <div class="panel-header">
@@ -578,7 +596,7 @@
           <div>
             <div class="eyebrow"><span class="pulse-dot"></span> Real season leaders</div>
             <h1>Stats<span class="accent">.</span></h1>
-            <p class="lede">Real leaderboards from last season's Premier League data — points, assists, expected goals and best value-for-money.</p>
+            <p class="lede">Real leaderboards, defensive stats, multi-league tables and head-to-head player comparison — all from real data, documented as it's used.</p>
           </div>
           <span class="live-badge" id="stats-live-badge" hidden>Live data</span>
         </div>
@@ -599,7 +617,49 @@
             <div class="panel-header"><div><span class="section-kicker">25/26 season</span><h2>Best value</h2></div></div>
             <div class="leaderboard-list" id="leaderboard-value"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
           </section>
+          <section class="panel">
+            <div class="panel-header"><div><span class="section-kicker">25/26 season</span><h2>Most tackles</h2></div></div>
+            <div class="leaderboard-list" id="leaderboard-tackles"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+          </section>
+          <section class="panel">
+            <div class="panel-header"><div><span class="section-kicker">25/26 season · GKPs</span><h2>Most saves</h2></div></div>
+            <div class="leaderboard-list" id="leaderboard-saves"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+          </section>
         </div>
+
+        <section class="panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">5 real leagues</span><h2>League tables</h2></div>
+            <div class="tabs" id="season-tabs">
+              <button class="tab active" data-season="current">Current</button>
+              <button class="tab" data-season="lastSeason">2025/26</button>
+            </div>
+          </div>
+          <div class="tabs" id="league-tabs" style="margin-bottom:16px">
+            <button class="tab active" data-league="eng.1">Premier League</button>
+            <button class="tab" data-league="esp.1">La Liga</button>
+            <button class="tab" data-league="ita.1">Serie A</button>
+            <button class="tab" data-league="ger.1">Bundesliga</button>
+            <button class="tab" data-league="fra.1">Ligue 1</button>
+          </div>
+          <p class="lede" id="league-table-note" style="margin:0 0 12px;font-size:11.5px" hidden>Current season shows zeros until real matches are played — this isn't a bug, the 2026/27 season doesn't kick off until 21 Aug.</p>
+          <div class="league-table" id="league-table-body">
+            <div class="league-table-head"><span>#</span><span>Team</span><span>P</span><span>W</span><span>D</span><span>L</span><span>Pts</span></div>
+            <p class="lede" style="margin:9px;font-size:12px">Fetching live standings&hellip;</p>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">Head to head</span><h2>Compare players</h2></div>
+          </div>
+          <div class="compare-selects">
+            <select id="compare-a"><option value="">Select a player&hellip;</option></select>
+            <span class="compare-vs">VS</span>
+            <select id="compare-b"><option value="">Select a player&hellip;</option></select>
+          </div>
+          <div class="compare-table" id="compare-table" hidden></div>
+        </section>
       </section>
 
       <section class="view" id="settings-view">
