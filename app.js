@@ -170,6 +170,21 @@ fetch('data/fpl.json')
     const deadlineText = document.querySelector('#fpl-deadline-text');
     if (deadlineText) deadlineText.textContent = `${data.gameweek.name} deadline · ${data.gameweek.deadlineLabel}`;
 
+    const fixturesList = document.querySelector('#fixtures-list');
+    if (fixturesList && data.fixtures && data.fixtures.length) {
+      fixturesList.innerHTML = data.fixtures.map((f) => `
+        <article class="match-row">
+          <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>${data.gameweek.name}</small></div></div>
+          <div class="teams"><span>${f.home}</span><strong>VS</strong><span>${f.away}</span></div>
+          <div class="match-status upcoming"><span></span> ${f.kickoffLabel}</div>
+        </article>
+      `).join('');
+      const fixturesKicker = document.querySelector('#fixtures-kicker');
+      if (fixturesKicker) fixturesKicker.textContent = data.gameweek.name;
+      const fixturesBadge = document.querySelector('#fixtures-live-badge');
+      if (fixturesBadge) fixturesBadge.hidden = false;
+    }
+
     Object.entries(data.players).forEach(([id, p]) => {
       players['fpl-' + id] = {
         isReal: true,

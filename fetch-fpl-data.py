@@ -57,6 +57,21 @@ def price_str(now_cost):
     return f"£{now_cost / 10:.1f}m"
 
 
+def build_fixtures_list(fixtures, teams):
+    out = []
+    for f in sorted(fixtures, key=lambda x: x["kickoff_time"] or ""):
+        if not f["kickoff_time"]:
+            continue
+        kickoff = datetime.fromisoformat(f["kickoff_time"].replace("Z", "+00:00"))
+        out.append({
+            "home": teams[f["team_h"]],
+            "away": teams[f["team_a"]],
+            "kickoffISO": f["kickoff_time"],
+            "kickoffLabel": kickoff.strftime("%a %d %b · %H:%M UTC"),
+        })
+    return out
+
+
 def build_fixture_lookup(fixtures, teams):
     """team_id -> {opponent, isHome, fdr, fdrClass} for the given gameweek's fixtures."""
     lookup = {}
@@ -111,6 +126,7 @@ def main():
     next_event = next((ev for ev in data["events"] if ev.get("is_next")), data["events"][0])
     fixtures = fetch_json(FIXTURES_URL.format(event_id=next_event["id"]))
     fixture_lookup = build_fixture_lookup(fixtures, teams)
+    fixtures_list = build_fixtures_list(fixtures, teams)
 
     eligible = [e for e in data["elements"] if float(e["selected_by_percent"] or 0) >= 2.0]
 
@@ -140,6 +156,7 @@ def main():
         },
         "captainPicks": [register(e) for e in captain_picks],
         "topPerformers": [register(e) for e in top_performers],
+        "fixtures": fixtures_list,
         "players": players_out,
     }
 

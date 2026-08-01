@@ -393,14 +393,15 @@
           <div>
             <div class="eyebrow"><span class="pulse-dot"></span> Upcoming schedule</div>
             <h1>Fixtures<span class="accent">.</span></h1>
-            <p class="lede">Everything coming up across the competitions on your watchlist.</p>
+            <p class="lede">Real Premier League fixtures for the upcoming gameweek.</p>
           </div>
         </div>
         <section class="panel matches-panel">
           <div class="panel-header">
-            <div><span class="section-kicker">This week</span><h2>Scheduled matches</h2></div>
+            <div><span class="section-kicker" id="fixtures-kicker">This week</span><h2>Scheduled matches</h2></div>
+            <span class="live-badge" id="fixtures-live-badge" hidden>Live data</span>
           </div>
-          <div class="match-list">
+          <div class="match-list" id="fixtures-list">
             <article class="match-row">
               <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 9</small></div></div>
               <div class="teams"><span>Liverpool</span><strong>VS</strong><span>Chelsea</span></div>
