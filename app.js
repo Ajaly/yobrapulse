@@ -265,8 +265,14 @@ fetch('data/fpl.json')
       renderLeaderboard('leaderboard-assists', data.leaderboards.assists, (p) => `${p.assists} assists`);
       renderLeaderboard('leaderboard-xg', data.leaderboards.xg, (p) => `${p.xg.toFixed(1)} xG`);
       renderLeaderboard('leaderboard-value', data.leaderboards.value, (p) => `${p.valueScore.toFixed(1)} pts/£m`);
+      renderLeaderboard('leaderboard-tackles', data.leaderboards.tackles, (p) => `${p.tackles} tackles`);
+      renderLeaderboard('leaderboard-saves', data.leaderboards.saves, (p) => `${p.saves} saves`);
       const statsBadge = document.querySelector('#stats-live-badge');
       if (statsBadge) statsBadge.hidden = false;
+    }
+
+    if (data.comparisonPool) {
+      setupPlayerComparison(data.comparisonPool, data.players);
     }
 
     Object.entries(data.players).forEach(([id, p]) => {
@@ -466,5 +472,94 @@ function loadLiveScores() {
 
 loadLiveScores();
 setInterval(loadLiveScores, 60000);
+
+function setupPlayerComparison(pool, playersMap) {
+  const selectA = document.querySelector('#compare-a');
+  const selectB = document.querySelector('#compare-b');
+  const table = document.querySelector('#compare-table');
+  if (!selectA || !selectB || !table) return;
+
+  const optionsHTML = pool.map((id) => {
+    const p = playersMap[id];
+    return `<option value="${id}">${p.name} (${p.team})</option>`;
+  }).join('');
+  selectA.innerHTML = '<option value="">Select a player&hellip;</option>' + optionsHTML;
+  selectB.innerHTML = '<option value="">Select a player&hellip;</option>' + optionsHTML;
+
+  function renderComparison() {
+    const idA = selectA.value;
+    const idB = selectB.value;
+    if (!idA || !idB || idA === idB) {
+      table.hidden = true;
+      return;
+    }
+    const a = playersMap[idA];
+    const b = playersMap[idB];
+    const rows = [
+      { label: 'Points', a: a.points, b: b.points },
+      { label: 'Goals', a: a.goals, b: b.goals },
+      { label: 'Assists', a: a.assists, b: b.assists },
+      { label: 'xG', a: a.xg, b: b.xg },
+      { label: 'Minutes', a: a.minutes, b: b.minutes },
+      { label: 'Tackles', a: a.tackles, b: b.tackles },
+      { label: 'Price', a: a.price, b: b.price, noWinner: true },
+    ];
+    table.innerHTML = rows.map((r) => {
+      const aBetter = !r.noWinner && Number(r.a) > Number(r.b);
+      const bBetter = !r.noWinner && Number(r.b) > Number(r.a);
+      return `<div class="compare-row">
+        <span class="compare-value left${aBetter ? ' better' : ''}">${r.a}</span>
+        <span class="compare-label">${r.label}</span>
+        <span class="compare-value right${bBetter ? ' better' : ''}">${r.b}</span>
+      </div>`;
+    }).join('');
+    table.hidden = false;
+  }
+
+  selectA.addEventListener('change', renderComparison);
+  selectB.addEventListener('change', renderComparison);
+}
+
+fetch('data/leagues.json')
+  .then((res) => (res.ok ? res.json() : Promise.reject(new Error('leagues.json ' + res.status))))
+  .then((data) => {
+    let currentLeague = 'eng.1';
+    let currentSeason = 'current';
+
+    function renderLeagueTable() {
+      const league = data.leagues.find((l) => l.code === currentLeague);
+      const body = document.querySelector('#league-table-body');
+      if (!league || !body) return;
+      const rows = currentSeason === 'current' ? league.current : league.lastSeason;
+      const note = document.querySelector('#league-table-note');
+      if (note) note.hidden = !(currentSeason === 'current' && rows.every((r) => r.played === 0));
+      body.innerHTML = '<div class="league-table-head"><span>#</span><span>Team</span><span>P</span><span>W</span><span>D</span><span>L</span><span>Pts</span></div>' +
+        rows.map((r) => `<div class="league-table-row">
+          <span>${r.rank}</span>
+          <strong>${r.team}</strong>
+          <span>${r.played}</span>
+          <span>${r.wins}</span>
+          <span>${r.draws}</span>
+          <span>${r.losses}</span>
+          <strong>${r.points}</strong>
+        </div>`).join('');
+    }
+
+    document.querySelectorAll('#league-tabs .tab').forEach((tab) => {
+      tab.addEventListener('click', () => { currentLeague = tab.dataset.league; renderLeagueTable(); });
+    });
+    document.querySelectorAll('#season-tabs .tab').forEach((tab) => {
+      tab.addEventListener('click', () => { currentSeason = tab.dataset.season; renderLeagueTable(); });
+    });
+
+    renderLeagueTable();
+  })
+  .catch(() => {
+    const body = document.querySelector('#league-table-body');
+    if (body) {
+      const fetching = body.querySelector('p');
+      if (fetching) fetching.textContent = 'Live standings unavailable right now.';
+    }
+  });
 
 lucide.createIcons();

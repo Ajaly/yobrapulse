@@ -252,7 +252,13 @@ def build_leaderboards(eligible):
     by_points = sorted(eligible, key=lambda e: e["total_points"], reverse=True)[:5]
     value_pool = [e for e in eligible if e["minutes"] >= 900]
     by_value = sorted(value_pool, key=lambda e: e["total_points"] / (e["now_cost"] / 10), reverse=True)[:5]
-    return {"points": by_points, "assists": by_assists, "xg": by_xg, "value": by_value}
+    by_tackles = sorted(eligible, key=lambda e: e["tackles"], reverse=True)[:5]
+    goalkeepers = [e for e in eligible if e["element_type"] == 1 and e["minutes"] >= 900]
+    by_saves = sorted(goalkeepers, key=lambda e: e["saves"], reverse=True)[:5]
+    return {
+        "points": by_points, "assists": by_assists, "xg": by_xg, "value": by_value,
+        "tackles": by_tackles, "saves": by_saves,
+    }
 
 
 def build_player(e, teams, fixture_lookup, teams_by_id, percentiles):
@@ -279,6 +285,11 @@ def build_player(e, teams, fixture_lookup, teams_by_id, percentiles):
         "xg": round(float(e["expected_goals"] or 0), 2),
         "xa": round(float(e["expected_assists"] or 0), 2),
         "valueScore": round(e["total_points"] / (e["now_cost"] / 10), 1) if e["now_cost"] else 0,
+        "tackles": e["tackles"],
+        "clearancesBlocksInterceptions": e["clearances_blocks_interceptions"],
+        "recoveries": e["recoveries"],
+        "saves": e["saves"],
+        "cleanSheets": e["clean_sheets"],
         "positionPercentile": percentiles.get(e["id"]),
         "teamStrengthHome": team["strength_overall_home"],
         "teamStrengthAway": team["strength_overall_away"],
@@ -334,6 +345,11 @@ def main():
         "captainPicks": [register(e) for e in captain_picks],
         "topPerformers": [register(e) for e in top_performers],
         "leaderboards": {label: [register(e) for e in players] for label, players in leaderboards.items()},
+        # Full ~2%-owned-or-more pool, registered for the player comparison
+        # tool - richer than the handful of players leaderboards need, but
+        # still bounded to players with a real ownership footprint rather
+        # than exposing all 500+ pros, most of whom nobody's tracking.
+        "comparisonPool": [register(e) for e in sorted(eligible, key=lambda e: -e["total_points"])],
         "fixtures": fixtures_list,
         "teams": teams_list,
         "players": players_out,
