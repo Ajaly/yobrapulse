@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T17:00:13.383904+00:00",
+  "generatedAt": "2026-08-01T17:30:53.957553+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -79,6 +79,168 @@
       "away": "Chelsea",
       "kickoffISO": "2026-08-24T19:00:00Z",
       "kickoffLabel": "Mon 24 Aug \u00b7 19:00 UTC"
+    }
+  ],
+  "teams": [
+    {
+      "name": "Arsenal",
+      "shortName": "ARS",
+      "crestClass": "blue-crest",
+      "squadSize": 28,
+      "squadRating": 5.39,
+      "squadValue": "\u00a3173.0m"
+    },
+    {
+      "name": "Aston Villa",
+      "shortName": "AVL",
+      "crestClass": "orange-crest",
+      "squadSize": 28,
+      "squadRating": 4.21,
+      "squadValue": "\u00a3141.5m"
+    },
+    {
+      "name": "Bournemouth",
+      "shortName": "BOU",
+      "crestClass": "pink-crest",
+      "squadSize": 25,
+      "squadRating": 5.22,
+      "squadValue": "\u00a3131.0m"
+    },
+    {
+      "name": "Brentford",
+      "shortName": "BRE",
+      "crestClass": "",
+      "squadSize": 26,
+      "squadRating": 4.29,
+      "squadValue": "\u00a3134.5m"
+    },
+    {
+      "name": "Brighton",
+      "shortName": "BHA",
+      "crestClass": "blue-crest",
+      "squadSize": 32,
+      "squadRating": 4.9,
+      "squadValue": "\u00a3160.5m"
+    },
+    {
+      "name": "Chelsea",
+      "shortName": "CHE",
+      "crestClass": "orange-crest",
+      "squadSize": 33,
+      "squadRating": 3.97,
+      "squadValue": "\u00a3181.0m"
+    },
+    {
+      "name": "Coventry City",
+      "shortName": "COV",
+      "crestClass": "pink-crest",
+      "squadSize": 28,
+      "squadRating": 12.27,
+      "squadValue": "\u00a3128.5m"
+    },
+    {
+      "name": "Crystal Palace",
+      "shortName": "CRY",
+      "crestClass": "",
+      "squadSize": 28,
+      "squadRating": 4.51,
+      "squadValue": "\u00a3142.0m"
+    },
+    {
+      "name": "Everton",
+      "shortName": "EVE",
+      "crestClass": "blue-crest",
+      "squadSize": 23,
+      "squadRating": 4.46,
+      "squadValue": "\u00a3121.0m"
+    },
+    {
+      "name": "Fulham",
+      "shortName": "FUL",
+      "crestClass": "orange-crest",
+      "squadSize": 21,
+      "squadRating": 4.78,
+      "squadValue": "\u00a3101.5m"
+    },
+    {
+      "name": "Hull City",
+      "shortName": "HUL",
+      "crestClass": "pink-crest",
+      "squadSize": 29,
+      "squadRating": 0,
+      "squadValue": "\u00a3128.0m"
+    },
+    {
+      "name": "Ipswich Town",
+      "shortName": "IPS",
+      "crestClass": "",
+      "squadSize": 29,
+      "squadRating": 3.44,
+      "squadValue": "\u00a3135.5m"
+    },
+    {
+      "name": "Leeds",
+      "shortName": "LEE",
+      "crestClass": "blue-crest",
+      "squadSize": 24,
+      "squadRating": 4.55,
+      "squadValue": "\u00a3122.5m"
+    },
+    {
+      "name": "Liverpool",
+      "shortName": "LIV",
+      "crestClass": "orange-crest",
+      "squadSize": 34,
+      "squadRating": 4.85,
+      "squadValue": "\u00a3183.5m"
+    },
+    {
+      "name": "Man City",
+      "shortName": "MCI",
+      "crestClass": "pink-crest",
+      "squadSize": 30,
+      "squadRating": 5.09,
+      "squadValue": "\u00a3185.0m"
+    },
+    {
+      "name": "Man Utd",
+      "shortName": "MUN",
+      "crestClass": "",
+      "squadSize": 33,
+      "squadRating": 4.29,
+      "squadValue": "\u00a3179.5m"
+    },
+    {
+      "name": "Newcastle",
+      "shortName": "NEW",
+      "crestClass": "blue-crest",
+      "squadSize": 25,
+      "squadRating": 4.39,
+      "squadValue": "\u00a3132.5m"
+    },
+    {
+      "name": "Nott'm Forest",
+      "shortName": "NFO",
+      "crestClass": "orange-crest",
+      "squadSize": 27,
+      "squadRating": 4.12,
+      "squadValue": "\u00a3139.0m"
+    },
+    {
+      "name": "Spurs",
+      "shortName": "TOT",
+      "crestClass": "pink-crest",
+      "squadSize": 36,
+      "squadRating": 4.05,
+      "squadValue": "\u00a3183.5m"
+    },
+    {
+      "name": "Sunderland",
+      "shortName": "SUN",
+      "crestClass": "",
+      "squadSize": 25,
+      "squadRating": 3.78,
+      "squadValue": "\u00a3123.0m"
     }
   ],
   "players": {

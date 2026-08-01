@@ -164,6 +164,15 @@ if (playerModalClose) playerModalClose.addEventListener('click', closePlayerModa
 if (playerModal) playerModal.addEventListener('click', (event) => { if (event.target === playerModal) closePlayerModal(); });
 document.addEventListener('keydown', (event) => { if (event.key === 'Escape') closePlayerModal(); });
 
+function getFavoriteTeams() {
+  return JSON.parse(localStorage.getItem('yp-teams') || 'null') || [];
+}
+
+function teamSpan(name) {
+  const isFavorite = getFavoriteTeams().includes(name);
+  return `<span class="${isFavorite ? 'favorite-team' : ''}">${name}</span>`;
+}
+
 fetch('data/fpl.json')
   .then((res) => (res.ok ? res.json() : Promise.reject(new Error('fpl.json ' + res.status))))
   .then((data) => {
@@ -175,7 +184,7 @@ fetch('data/fpl.json')
       fixturesList.innerHTML = data.fixtures.map((f) => `
         <article class="match-row">
           <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>${data.gameweek.name}</small></div></div>
-          <div class="teams"><span>${f.home}</span><strong>VS</strong><span>${f.away}</span></div>
+          <div class="teams">${teamSpan(f.home)}<strong>VS</strong>${teamSpan(f.away)}</div>
           <div class="match-status upcoming"><span></span> ${f.kickoffLabel}</div>
         </article>
       `).join('');
@@ -183,6 +192,34 @@ fetch('data/fpl.json')
       if (fixturesKicker) fixturesKicker.textContent = data.gameweek.name;
       const fixturesBadge = document.querySelector('#fixtures-live-badge');
       if (fixturesBadge) fixturesBadge.hidden = false;
+    }
+
+    const teamsGrid = document.querySelector('#teams-grid');
+    if (teamsGrid && data.teams && data.teams.length) {
+      const favorites = getFavoriteTeams();
+      const sorted = data.teams.slice().sort((a, b) => {
+        const fa = favorites.includes(a.name) ? 0 : 1;
+        const fb = favorites.includes(b.name) ? 0 : 1;
+        return fa - fb || a.name.localeCompare(b.name);
+      });
+      teamsGrid.innerHTML = sorted.map((t) => {
+        const isFavorite = favorites.includes(t.name);
+        return `<article class="team-card${isFavorite ? ' favorited' : ''}" data-team="${t.name}">
+          <div class="team-card-head">
+            <span class="team-crest ${t.crestClass}">${t.shortName}</span>
+            <div><strong>${t.name}</strong><small>Premier League</small></div>
+            ${isFavorite ? '<i data-lucide="sparkles" class="team-card-favorite"></i>' : ''}
+          </div>
+          <div class="team-card-stats">
+            <div><small>Squad rating</small><strong>${t.squadRating.toFixed(1)}</strong></div>
+            <div><small>Squad size</small><strong>${t.squadSize}</strong></div>
+            <div><small>Squad value</small><strong>${t.squadValue}</strong></div>
+          </div>
+        </article>`;
+      }).join('');
+      const teamsBadge = document.querySelector('#teams-live-badge');
+      if (teamsBadge) teamsBadge.hidden = false;
+      lucide.createIcons();
     }
 
     Object.entries(data.players).forEach(([id, p]) => {
@@ -337,7 +374,7 @@ function matchRowHTML(m) {
   const scoreHTML = m.state === 'pre' ? '<strong>VS</strong>' : `<strong>${m.homeScore} <small>—</small> ${m.awayScore}</strong>`;
   return `<article class="match-row">
     <div class="competition"><span class="competition-badge ${m.competitionBadge}">${m.competitionCode}</span><div><strong>${m.competitionName}</strong><small>${smallText}</small></div></div>
-    <div class="teams"><span>${m.home}</span>${scoreHTML}<span>${m.away}</span></div>
+    <div class="teams">${teamSpan(m.home)}${scoreHTML}${teamSpan(m.away)}</div>
     ${statusHTML}
   </article>`;
 }

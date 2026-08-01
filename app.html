@@ -432,11 +432,12 @@
           <div>
             <div class="eyebrow"><span class="pulse-dot"></span> Squads & rosters</div>
             <h1>Teams & players<span class="accent">.</span></h1>
-            <p class="lede">Browse the clubs you track and jump into their player pool.</p>
+            <p class="lede">All 20 real Premier League clubs, with squad size and value pulled from the FPL API. Your favorites (set in Settings) are pinned to the top.</p>
           </div>
+          <span class="live-badge" id="teams-live-badge" hidden>Live data</span>
         </div>
-        <div class="team-grid">
-          <article class="team-card">
+        <div class="team-grid" id="teams-grid">
+          <article class="team-card" data-team="Arsenal">
             <div class="team-card-head">
               <span class="team-crest">ARS</span>
               <div><strong>Arsenal</strong><small>Premier League · 2nd</small></div>
@@ -447,7 +448,7 @@
               <div><small>Form</small><span class="form-bars"><i class="high"></i><i class="high"></i><i class="mid"></i><i class="high"></i><i class="high"></i></span></div>
             </div>
           </article>
-          <article class="team-card">
+          <article class="team-card" data-team="Manchester City">
             <div class="team-card-head">
               <span class="team-crest blue-crest">MCI</span>
               <div><strong>Manchester City</strong><small>Premier League · 1st</small></div>
@@ -458,7 +459,7 @@
               <div><small>Form</small><span class="form-bars"><i class="high"></i><i class="mid"></i><i class="high"></i><i class="high"></i><i class="low"></i></span></div>
             </div>
           </article>
-          <article class="team-card">
+          <article class="team-card" data-team="Napoli">
             <div class="team-card-head">
               <span class="team-crest orange-crest">NAP</span>
               <div><strong>Napoli</strong><small>Serie A · 3rd</small></div>
@@ -469,7 +470,7 @@
               <div><small>Form</small><span class="form-bars"><i class="mid"></i><i class="high"></i><i class="high"></i><i class="mid"></i><i class="high"></i></span></div>
             </div>
           </article>
-          <article class="team-card">
+          <article class="team-card" data-team="Inter Milan">
             <div class="team-card-head">
               <span class="team-crest pink-crest">INT</span>
               <div><strong>Inter Milan</strong><small>Serie A · 1st</small></div>
@@ -480,7 +481,7 @@
               <div><small>Form</small><span class="form-bars"><i class="high"></i><i class="high"></i><i class="high"></i><i class="mid"></i><i class="high"></i></span></div>
             </div>
           </article>
-          <article class="team-card">
+          <article class="team-card" data-team="Real Madrid">
             <div class="team-card-head">
               <span class="team-crest">RMA</span>
               <div><strong>Real Madrid</strong><small>La Liga · 1st</small></div>
@@ -491,7 +492,7 @@
               <div><small>Form</small><span class="form-bars"><i class="high"></i><i class="high"></i><i class="high"></i><i class="high"></i><i class="mid"></i></span></div>
             </div>
           </article>
-          <article class="team-card">
+          <article class="team-card" data-team="Liverpool">
             <div class="team-card-head">
               <span class="team-crest blue-crest">LIV</span>
               <div><strong>Liverpool</strong><small>Premier League · 3rd</small></div>
@@ -623,13 +624,13 @@
           <p class="lede" style="margin:0 0 16px">Teams you select appear first across Live scores, Fixtures and Teams &amp; players.</p>
           <div class="chip-grid" id="team-chips">
             <button class="chip selected" data-team="Arsenal">Arsenal</button>
-            <button class="chip selected" data-team="Manchester City">Manchester City</button>
+            <button class="chip selected" data-team="Man City">Man City</button>
             <button class="chip" data-team="Liverpool">Liverpool</button>
             <button class="chip" data-team="Chelsea">Chelsea</button>
-            <button class="chip" data-team="Napoli">Napoli</button>
-            <button class="chip" data-team="Inter Milan">Inter Milan</button>
-            <button class="chip" data-team="Real Madrid">Real Madrid</button>
-            <button class="chip" data-team="Tottenham">Tottenham</button>
+            <button class="chip" data-team="Spurs">Spurs</button>
+            <button class="chip" data-team="Newcastle">Newcastle</button>
+            <button class="chip" data-team="Aston Villa">Aston Villa</button>
+            <button class="chip" data-team="Brighton">Brighton</button>
           </div>
         </section>
 

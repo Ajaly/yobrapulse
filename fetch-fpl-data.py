@@ -34,6 +34,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 POSITIONS = {1: "GKP", 2: "DEF", 3: "MID", 4: "FWD"}
 AVATAR_CLASSES = ["", "blue-avatar", "orange-avatar", "pink-avatar"]
+CREST_CLASSES = ["", "blue-crest", "orange-crest", "pink-crest"]
 FDR_CLASS = {1: "easy", 2: "easy", 3: "mid", 4: "hard", 5: "hard"}
 
 
@@ -91,6 +92,37 @@ def build_fixture_lookup(fixtures, teams):
     return lookup
 
 
+def build_teams_list(data):
+    """Real 20-club roster with aggregate stats derived from real player
+    data (squad rating = avg points-per-90 among players with minutes,
+    last season; squad value = sum of real current prices). No league
+    position/form here - both are genuinely 0/null pre-season (0 games
+    played), not a data gap, just nothing to report yet."""
+    by_team = {}
+    for e in data["elements"]:
+        by_team.setdefault(e["team"], []).append(e)
+
+    out = []
+    for t in data["teams"]:
+        squad = by_team.get(t["id"], [])
+        rated = [e for e in squad if e["minutes"] >= 30]
+        avg_rating = (
+            sum((e["total_points"] / e["minutes"]) * 90 for e in rated) / len(rated)
+            if rated else 0
+        )
+        squad_value = sum(e["now_cost"] for e in squad) / 10
+        out.append({
+            "name": t["name"],
+            "shortName": t["short_name"],
+            "crestClass": CREST_CLASSES[t["id"] % len(CREST_CLASSES)],
+            "squadSize": len(squad),
+            "squadRating": round(avg_rating, 2),
+            "squadValue": f"£{squad_value:.1f}m",
+        })
+    out.sort(key=lambda t: t["name"])
+    return out
+
+
 def build_player(e, teams, fixture_lookup):
     name = e.get("web_name") or f"{e['first_name']} {e['second_name']}"
     full_name = f"{e['first_name']} {e['second_name']}".strip()
@@ -127,6 +159,7 @@ def main():
     fixtures = fetch_json(FIXTURES_URL.format(event_id=next_event["id"]))
     fixture_lookup = build_fixture_lookup(fixtures, teams)
     fixtures_list = build_fixtures_list(fixtures, teams)
+    teams_list = build_teams_list(data)
 
     eligible = [e for e in data["elements"] if float(e["selected_by_percent"] or 0) >= 2.0]
 
@@ -157,6 +190,7 @@ def main():
         "captainPicks": [register(e) for e in captain_picks],
         "topPerformers": [register(e) for e in top_performers],
         "fixtures": fixtures_list,
+        "teams": teams_list,
         "players": players_out,
     }
 
