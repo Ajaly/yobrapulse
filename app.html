@@ -284,10 +284,11 @@
 
           <section class="panel transfer-panel">
             <div class="panel-header">
-              <div><span class="section-kicker">This gameweek</span><h2>Transfer advice</h2></div>
+              <div><span class="section-kicker">Fixture swing</span><h2>Transfer advice</h2></div>
+              <span class="live-badge" id="transfer-live-badge" hidden>Live data</span>
             </div>
-            <p class="lede" style="margin:0 0 14px;font-size:11.5px">Illustrative for now — real transfer/price-movement data is flat pre-season, so there's no live signal to base this on yet.</p>
-            <div class="transfer-list">
+            <p class="lede" style="margin:0 0 14px;font-size:11.5px">Based on real fixture-difficulty swing over the next 6 gameweeks, not transfer-market momentum (still flat pre-season).</p>
+            <div class="transfer-list" id="transfer-list">
               <article class="transfer-row">
                 <span class="transfer-tag in">IN</span>
                 <div class="player-cell"><div class="player-avatar pink-avatar">CP</div><strong>Cole Palmer<small>Chelsea · MID</small></strong></div>
@@ -306,6 +307,15 @@
             </div>
           </section>
         </div>
+
+        <section class="panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">Fixture swing · next 6 GWs</span><h2>Wildcard watch</h2></div>
+            <span class="live-badge" id="wildcard-live-badge" hidden>Live data</span>
+          </div>
+          <p class="lede" style="margin:0 0 14px;font-size:11.5px">Teams whose fixtures are about to get easier — worth targeting if you're planning a wildcard. Blank/double gameweek timing isn't shown: none exist in the schedule yet this early in the season, not a data gap.</p>
+          <div class="leaderboard-list" id="wildcard-watch-list"><p class="lede" style="margin:0;font-size:12px">Fetching live stats&hellip;</p></div>
+        </section>
 
         <section class="panel table-panel">
           <div class="panel-header">

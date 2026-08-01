@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T19:55:27.720558+00:00",
+  "generatedAt": "2026-08-01T20:40:33.160124+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -192,6 +192,68 @@
     "305",
     "321",
     "362"
+  ],
+  "transferAdvice": {
+    "in": [
+      {
+        "id": "229",
+        "reason": "Everton's fixtures ease up over the next 6 gameweeks"
+      },
+      {
+        "id": "452",
+        "reason": "Newcastle's fixtures ease up over the next 6 gameweeks"
+      }
+    ],
+    "out": [
+      {
+        "id": "552",
+        "reason": "Sunderland's fixtures get tougher over the next 6 gameweeks"
+      }
+    ]
+  },
+  "wildcardWatch": [
+    {
+      "team": "Coventry City",
+      "swing": 1.67,
+      "nearFdr": 4.0,
+      "laterFdr": 2.33,
+      "fixtures": [
+        "@ Arsenal",
+        "vs Hull City",
+        "@ Man City",
+        "vs Brighton",
+        "@ Nott'm Forest",
+        "vs Newcastle"
+      ]
+    },
+    {
+      "team": "Everton",
+      "swing": 1.0,
+      "nearFdr": 3.33,
+      "laterFdr": 2.33,
+      "fixtures": [
+        "vs Crystal Palace",
+        "@ Bournemouth",
+        "vs Man Utd",
+        "@ Spurs",
+        "vs Ipswich Town",
+        "@ Hull City"
+      ]
+    },
+    {
+      "team": "Newcastle",
+      "swing": 1.0,
+      "nearFdr": 3.33,
+      "laterFdr": 2.33,
+      "fixtures": [
+        "vs Liverpool",
+        "@ Spurs",
+        "vs Bournemouth",
+        "@ Leeds",
+        "vs Hull City",
+        "@ Coventry City"
+      ]
+    }
   ],
   "fixtures": [
     {
@@ -1395,7 +1457,7 @@
       "avatar": "MR",
       "avatarClass": "",
       "price": "\u00a37.5m",
-      "owned": "31.8%",
+      "owned": "31.7%",
       "points": 169,
       "epNext": 2.6,
       "form": 0.0,
@@ -1581,7 +1643,7 @@
       "avatar": "MN",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "5.2%",
+      "owned": "5.1%",
       "points": 154,
       "epNext": 2.8,
       "form": 0.0,
@@ -1705,7 +1767,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "14.4%",
+      "owned": "14.5%",
       "points": 148,
       "epNext": 2.8,
       "form": 0.0,
@@ -1767,7 +1829,7 @@
       "avatar": "MS",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "15.1%",
+      "owned": "15.0%",
       "points": 143,
       "epNext": 2.8,
       "form": 0.0,
@@ -2046,7 +2108,7 @@
       "avatar": "VG",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "13.3%",
+      "owned": "13.2%",
       "points": 128,
       "epNext": 2.3,
       "form": 0.0,
@@ -2077,7 +2139,7 @@
       "avatar": "IN",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "18.0%",
+      "owned": "17.9%",
       "points": 128,
       "epNext": 2.1,
       "form": 0.0,
@@ -2449,7 +2511,7 @@
       "avatar": "IS",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "10.6%",
+      "owned": "10.5%",
       "points": 117,
       "epNext": 2.3,
       "form": 0.0,
@@ -2759,7 +2821,7 @@
       "avatar": "JK",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.5m",
-      "owned": "7.7%",
+      "owned": "7.6%",
       "points": 113,
       "epNext": 0.0,
       "form": 0.0,
@@ -2976,7 +3038,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "14.3%",
+      "owned": "14.4%",
       "points": 109,
       "epNext": 2.5,
       "form": 0.0,
@@ -3069,7 +3131,7 @@
       "avatar": "JM",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "2.8%",
+      "owned": "2.7%",
       "points": 103,
       "epNext": 2.0,
       "form": 0.0,
@@ -3100,7 +3162,7 @@
       "avatar": "EK",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "17.8%",
+      "owned": "17.7%",
       "points": 100,
       "epNext": 1.7,
       "form": 0.0,
@@ -3906,7 +3968,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "17.7%",
+      "owned": "17.8%",
       "points": 20,
       "epNext": 2.0,
       "form": 0.0,

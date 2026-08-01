@@ -323,6 +323,44 @@ fetch('data/fpl.json')
       if (badge) badge.hidden = false;
     }
 
+    const transferList = document.querySelector('#transfer-list');
+    if (transferList && data.transferAdvice && (data.transferAdvice.in.length || data.transferAdvice.out.length)) {
+      const inRows = data.transferAdvice.in.map((item) => {
+        const p = data.players[item.id];
+        return `<article class="transfer-row" data-player="fpl-${item.id}" tabindex="0" role="button" aria-label="View ${p.name}">
+          <span class="transfer-tag in">IN</span>
+          <div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.team} · ${p.position}</small></strong></div>
+          <div class="transfer-meta"><small>${p.price}</small><span class="positive"><i data-lucide="trending-up"></i> ${item.reason}</span></div>
+        </article>`;
+      });
+      const outRows = data.transferAdvice.out.map((item) => {
+        const p = data.players[item.id];
+        return `<article class="transfer-row" data-player="fpl-${item.id}" tabindex="0" role="button" aria-label="View ${p.name}">
+          <span class="transfer-tag out">OUT</span>
+          <div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.team} · ${p.position}</small></strong></div>
+          <div class="transfer-meta"><small>${p.price}</small><span class="negative"><i data-lucide="trending-down"></i> ${item.reason}</span></div>
+        </article>`;
+      });
+      transferList.innerHTML = inRows.concat(outRows).join('');
+      bindPlayerTriggers(transferList);
+      const transferBadge = document.querySelector('#transfer-live-badge');
+      if (transferBadge) transferBadge.hidden = false;
+      lucide.createIcons();
+    }
+
+    const wildcardList = document.querySelector('#wildcard-watch-list');
+    if (wildcardList && data.wildcardWatch && data.wildcardWatch.length) {
+      wildcardList.innerHTML = data.wildcardWatch.map((w, i) => `
+        <div class="leaderboard-row">
+          <span class="leaderboard-rank">${i + 1}</span>
+          <div><strong>${w.team}</strong><small style="display:block;color:#7f8e96;font-size:10px;margin-top:2px">Next 6: ${w.fixtures.join(', ')}</small></div>
+          <span class="leaderboard-value">+${w.swing.toFixed(1)}</span>
+        </div>
+      `).join('');
+      const wildcardBadge = document.querySelector('#wildcard-live-badge');
+      if (wildcardBadge) wildcardBadge.hidden = false;
+    }
+
     const performersTable = document.querySelector('#fpl-performers-table');
     if (performersTable && data.topPerformers.length) {
       performersTable.querySelectorAll('.table-row').forEach((row) => row.remove());
