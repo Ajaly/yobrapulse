@@ -26,7 +26,7 @@
       <div class="workspace-label">Workspace</div>
       <nav class="side-nav" aria-label="Primary navigation">
         <button class="nav-item active" data-view="dashboard"><i data-lucide="layout-dashboard"></i><span>Overview</span></button>
-        <button class="nav-item" data-view="live"><i data-lucide="radio"></i><span>Live scores</span><b class="nav-count">12</b></button>
+        <button class="nav-item" data-view="live"><i data-lucide="radio"></i><span>Live scores</span><b class="nav-count" id="live-nav-count">12</b></button>
         <button class="nav-item" data-view="fpl"><i data-lucide="sparkles"></i><span>FPL assistant</span><span class="new-dot"></span></button>
         <button class="nav-item" data-view="performance"><i data-lucide="activity"></i><span>Performance</span></button>
         <button class="nav-item" data-view="fixtures"><i data-lucide="calendar-days"></i><span>Fixtures</span></button>
@@ -70,8 +70,8 @@
           <article class="metric-card">
             <div class="metric-icon green"><i data-lucide="radio"></i></div>
             <span class="metric-label">Live matches</span>
-            <strong>12</strong>
-            <small class="positive"><i data-lucide="trending-up"></i> 4 started recently</small>
+            <strong id="live-metric-count">12</strong>
+            <small class="positive" id="live-metric-sub"><i data-lucide="trending-up"></i> 4 started recently</small>
           </article>
           <article class="metric-card">
             <div class="metric-icon orange"><i data-lucide="target"></i></div>
@@ -99,7 +99,7 @@
               <div><span class="section-kicker">Live now</span><h2>Matches on your radar</h2></div>
               <button class="text-button" data-view="live">View all <i data-lucide="arrow-up-right"></i></button>
             </div>
-            <div class="match-list">
+            <div class="match-list" id="dashboard-live-list">
               <article class="match-row">
                 <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 8 · 62'</small></div></div>
                 <div class="teams"><span>Arsenal</span><strong>2 <small>—</small> 1</strong><span>Southampton</span></div>
@@ -178,15 +178,16 @@
           <div>
             <div class="eyebrow"><span class="pulse-dot"></span> Live right now</div>
             <h1>Live scores<span class="accent">.</span></h1>
-            <p class="lede">Every match kicking off across your tracked competitions, updated in real time.</p>
+            <p class="lede">Real Premier League, Champions League and Serie A scores, polled live from ESPN's public scoreboard.</p>
           </div>
-          <div class="model-status"><span></span> 12 matches live</div>
+          <div class="model-status"><span></span> <span id="live-status-text">12 matches live</span></div>
         </div>
         <section class="panel matches-panel">
           <div class="panel-header">
             <div><span class="section-kicker">All competitions</span><h2>Live matches</h2></div>
+            <span class="live-badge" id="live-scores-badge" hidden>Live data</span>
           </div>
-          <div class="match-list">
+          <div class="match-list" id="live-scores-list">
             <article class="match-row">
               <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 8 · 62'</small></div></div>
               <div class="teams"><span>Arsenal</span><strong>2 <small>—</small> 1</strong><span>Southampton</span></div>

@@ -294,4 +294,90 @@ document.querySelectorAll('#news-tabs .tab').forEach((tab) => {
   });
 });
 
+const LIVE_COMPETITIONS = [
+  { slug: 'eng.1', badge: 'pl', code: 'PL', name: 'Premier League' },
+  { slug: 'uefa.champions', badge: 'cl', code: 'CL', name: 'Champions League' },
+  { slug: 'ita.1', badge: 'la', code: 'SA', name: 'Serie A' },
+];
+
+function fetchScoreboard(comp) {
+  return fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${comp.slug}/scoreboard`)
+    .then((res) => (res.ok ? res.json() : Promise.reject(new Error('scoreboard ' + res.status))))
+    .then((data) => (data.events || []).map((ev) => {
+      const c = ev.competitions[0];
+      const home = c.competitors.find((t) => t.homeAway === 'home');
+      const away = c.competitors.find((t) => t.homeAway === 'away');
+      return {
+        competitionCode: comp.code,
+        competitionBadge: comp.badge,
+        competitionName: comp.name,
+        home: home.team.shortDisplayName,
+        away: away.team.shortDisplayName,
+        homeScore: home.score,
+        awayScore: away.score,
+        state: c.status.type.state,
+        clock: c.status.type.shortDetail,
+        kickoff: new Date(ev.date),
+      };
+    }))
+    .catch(() => []);
+}
+
+function matchRowHTML(m) {
+  const smallText = m.state === 'in' ? m.clock : m.state === 'post' ? 'Full-time' : 'Upcoming';
+  let statusHTML;
+  if (m.state === 'in') {
+    statusHTML = '<div class="match-status live-status"><span></span> Live</div>';
+  } else if (m.state === 'post') {
+    statusHTML = '<div class="match-status upcoming"><span></span> Full-time</div>';
+  } else {
+    const kickoffLabel = m.kickoff.toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' }) + ' UTC';
+    statusHTML = `<div class="match-status upcoming"><span></span> ${kickoffLabel}</div>`;
+  }
+  const scoreHTML = m.state === 'pre' ? '<strong>VS</strong>' : `<strong>${m.homeScore} <small>—</small> ${m.awayScore}</strong>`;
+  return `<article class="match-row">
+    <div class="competition"><span class="competition-badge ${m.competitionBadge}">${m.competitionCode}</span><div><strong>${m.competitionName}</strong><small>${smallText}</small></div></div>
+    <div class="teams"><span>${m.home}</span>${scoreHTML}<span>${m.away}</span></div>
+    ${statusHTML}
+  </article>`;
+}
+
+function loadLiveScores() {
+  Promise.all(LIVE_COMPETITIONS.map(fetchScoreboard)).then((results) => {
+    const all = [].concat(...results);
+    if (!all.length) return;
+    const rank = { in: 0, pre: 1, post: 2 };
+    all.sort((a, b) => (rank[a.state] - rank[b.state]) || (a.kickoff - b.kickoff));
+
+    const liveCount = all.filter((m) => m.state === 'in').length;
+
+    const dashboardList = document.querySelector('#dashboard-live-list');
+    if (dashboardList) dashboardList.innerHTML = all.slice(0, 3).map(matchRowHTML).join('');
+
+    const fullList = document.querySelector('#live-scores-list');
+    if (fullList) fullList.innerHTML = all.slice(0, 12).map(matchRowHTML).join('');
+
+    const statusText = document.querySelector('#live-status-text');
+    if (statusText) statusText.textContent = liveCount > 0 ? `${liveCount} match${liveCount === 1 ? '' : 'es'} live` : 'No matches live right now';
+
+    const navCount = document.querySelector('#live-nav-count');
+    if (navCount) navCount.textContent = liveCount;
+
+    const metricCount = document.querySelector('#live-metric-count');
+    const metricSub = document.querySelector('#live-metric-sub');
+    if (metricCount) metricCount.textContent = liveCount;
+    if (metricSub) metricSub.innerHTML = liveCount > 0
+      ? '<i data-lucide="trending-up"></i> Updating live'
+      : `${all.length} scheduled this gameweek`;
+
+    const badge = document.querySelector('#live-scores-badge');
+    if (badge) badge.hidden = false;
+
+    lucide.createIcons();
+  }).catch(() => { /* keep the illustrative fallback content already in the page */ });
+}
+
+loadLiveScores();
+setInterval(loadLiveScores, 60000);
+
 lucide.createIcons();
