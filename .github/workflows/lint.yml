@@ -1,0 +1,34 @@
+name: Lint
+
+# Catches the two bug classes that have actually bitten this project:
+# a JS syntax error shipping to production, and app.js referencing a DOM
+# id that doesn't exist in app.html (dead nav / broken wiring).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: JS syntax check
+        run: node --check app.js
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cross-check DOM ids referenced in app.js exist in app.html
+        run: python scripts/check-ids.py

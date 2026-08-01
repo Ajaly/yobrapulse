@@ -37,14 +37,24 @@ document.querySelectorAll('.tabs').forEach((group) => {
 });
 
 const prefs = JSON.parse(localStorage.getItem('yp-prefs') || '{}');
+function updateAlertsMetric() {
+  const alertInputs = document.querySelectorAll('[data-pref]');
+  const enabled = Array.from(alertInputs).filter((input) => input.checked).length;
+  const countEl = document.querySelector('#dash-alerts-count');
+  const subEl = document.querySelector('#dash-alerts-sub');
+  if (countEl) countEl.textContent = String(enabled).padStart(2, '0');
+  if (subEl) subEl.textContent = `${enabled} of ${alertInputs.length} alert types active`;
+}
 document.querySelectorAll('[data-pref]').forEach((input) => {
   const key = input.dataset.pref;
   if (key in prefs) input.checked = prefs[key];
   input.addEventListener('change', () => {
     prefs[key] = input.checked;
     localStorage.setItem('yp-prefs', JSON.stringify(prefs));
+    updateAlertsMetric();
   });
 });
+updateAlertsMetric();
 
 const teamChips = document.querySelectorAll('#team-chips .chip');
 const savedTeams = JSON.parse(localStorage.getItem('yp-teams') || 'null');
@@ -56,6 +66,16 @@ teamChips.forEach((chip) => chip.addEventListener('click', () => {
   const selected = Array.from(teamChips).filter((c) => c.classList.contains('selected')).map((c) => c.dataset.team);
   localStorage.setItem('yp-teams', JSON.stringify(selected));
 }));
+
+function refreshIcons() {
+  if (window.lucide && typeof window.lucide.createIcons === 'function') {
+    window.lucide.createIcons();
+  }
+}
+
+function playerRating(p) {
+  return p.points && p.minutes ? Math.round((p.points / Math.max(p.minutes, 1)) * 90 * 10) / 10 : 0;
+}
 
 function initials(name) {
   return name.trim().split(/\s+/).map((word) => word[0]).join('').slice(0, 2).toUpperCase();
@@ -215,7 +235,7 @@ fetch('data/fpl.json')
       if (fixturesKicker) fixturesKicker.textContent = data.gameweek.name;
       const fixturesBadge = document.querySelector('#fixtures-live-badge');
       if (fixturesBadge) fixturesBadge.hidden = false;
-      lucide.createIcons();
+      refreshIcons();
     }
 
     const teamsGrid = document.querySelector('#teams-grid');
@@ -243,7 +263,7 @@ fetch('data/fpl.json')
       }).join('');
       const teamsBadge = document.querySelector('#teams-live-badge');
       if (teamsBadge) teamsBadge.hidden = false;
-      lucide.createIcons();
+      refreshIcons();
     }
 
     function renderLeaderboard(containerId, ids, valueFn) {
@@ -275,6 +295,110 @@ fetch('data/fpl.json')
       setupPlayerComparison(data.comparisonPool, data.players);
     }
 
+    // Dashboard metric-grid: replace illustrative cards with real figures
+    // derived from this same fpl.json payload (no fabricated trend data -
+    // see code review notes for why "prediction accuracy" and "alerts"
+    // were dropped in favour of numbers this data can actually back up).
+    const dashFixturesCount = document.querySelector('#dash-fixtures-count');
+    const dashFixturesSub = document.querySelector('#dash-fixtures-sub');
+    if (dashFixturesCount && data.fixtures) {
+      dashFixturesCount.textContent = data.fixtures.length;
+      if (dashFixturesSub) dashFixturesSub.innerHTML = `<i data-lucide="calendar-days"></i> ${data.gameweek.name} &middot; model-based`;
+    }
+    const dashTrackedCount = document.querySelector('#dash-tracked-count');
+    if (dashTrackedCount && data.comparisonPool) {
+      dashTrackedCount.textContent = data.comparisonPool.length;
+    }
+
+    const performancePool = (data.comparisonPool || []).map((id) => ({ id, ...data.players[id] }));
+
+    const dashWatchlist = document.querySelector('#dashboard-watchlist-table');
+    if (dashWatchlist && data.topPerformers.length) {
+      dashWatchlist.querySelectorAll('.table-row').forEach((row) => row.remove());
+      data.topPerformers.slice(0, 3).forEach((id) => {
+        const p = data.players[id];
+        const formLevel = p.form >= 6 ? 'high' : p.form >= 3 ? 'mid' : 'low';
+        const row = document.createElement('div');
+        row.className = 'table-row';
+        row.dataset.player = 'fpl-' + id;
+        row.tabIndex = 0;
+        row.setAttribute('role', 'button');
+        row.setAttribute('aria-label', 'View ' + p.name);
+        row.innerHTML = `<div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.position} &middot; ${p.team}</small></strong></div>
+          <span>${p.team}</span>
+          <span class="form-bars">${Array(5).fill(`<i class="${formLevel}"></i>`).join('')}</span>
+          <strong>${playerRating(p).toFixed(1)}</strong>
+          <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>`;
+        dashWatchlist.appendChild(row);
+      });
+      bindPlayerTriggers(dashWatchlist);
+      refreshIcons();
+    }
+
+    // Performance tracker: real squad-rating average, real goal tally
+    // across tracked players, and a real "in-form" count (current FPL
+    // form rating, not a fabricated week-over-week trend this snapshot
+    // data can't support).
+    const perfAvgRating = document.querySelector('#perf-avg-rating');
+    const perfAvgRatingSub = document.querySelector('#perf-avg-rating-sub');
+    if (perfAvgRating && data.teams) {
+      const rated = data.teams.filter((t) => typeof t.squadRating === 'number');
+      if (rated.length) {
+        const avg = rated.reduce((sum, t) => sum + t.squadRating, 0) / rated.length;
+        perfAvgRating.textContent = avg.toFixed(2);
+        if (perfAvgRatingSub) perfAvgRatingSub.textContent = `Across ${rated.length} Premier League clubs`;
+      }
+    }
+    const perfGoalsTracked = document.querySelector('#perf-goals-tracked');
+    const perfGoalsSub = document.querySelector('#perf-goals-sub');
+    if (perfGoalsTracked && data.players) {
+      const allPlayers = Object.values(data.players);
+      const totalGoals = allPlayers.reduce((sum, p) => sum + (p.goals || 0), 0);
+      perfGoalsTracked.textContent = totalGoals;
+      if (perfGoalsSub) perfGoalsSub.textContent = `Across ${allPlayers.length} tracked players`;
+    }
+    const perfInFormCount = document.querySelector('#perf-inform-count');
+    const perfInFormSub = document.querySelector('#perf-inform-sub');
+    if (perfInFormCount) {
+      const inForm = performancePool.filter((p) => p.form >= 6);
+      perfInFormCount.textContent = inForm.length;
+      if (perfInFormSub) perfInFormSub.textContent = 'Form rating 6.0+';
+    }
+
+    function renderPerformanceTable(filter) {
+      const table = document.querySelector('#performance-table');
+      if (!table) return;
+      let rows = performancePool.slice();
+      if (filter === 'rising') {
+        rows = rows.filter((p) => p.form >= 6).sort((a, b) => b.form - a.form);
+      } else if (filter === 'attention') {
+        rows = rows.filter((p) => p.minutes >= 450 && p.form <= 3).sort((a, b) => a.form - b.form);
+      } else {
+        rows = rows.sort((a, b) => b.points - a.points);
+      }
+      rows = rows.slice(0, 12);
+      table.querySelectorAll('.table-row').forEach((row) => row.remove());
+      rows.forEach((p) => {
+        const row = document.createElement('div');
+        row.className = 'table-row';
+        row.dataset.player = 'fpl-' + p.id;
+        row.tabIndex = 0;
+        row.setAttribute('role', 'button');
+        row.setAttribute('aria-label', 'View ' + p.name);
+        row.innerHTML = `<div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.position} &middot; ${p.team}</small></strong></div>
+          <span>${p.team}</span><span>${p.minutes}</span><span>${p.goals}</span><span>${p.assists}</span><strong>${playerRating(p).toFixed(1)}</strong>`;
+        table.appendChild(row);
+      });
+      bindPlayerTriggers(table);
+    }
+
+    if (performancePool.length) {
+      renderPerformanceTable('all');
+      document.querySelectorAll('#performance-tabs .tab').forEach((tab) => {
+        tab.addEventListener('click', () => renderPerformanceTable(tab.dataset.filter));
+      });
+    }
+
     Object.entries(data.players).forEach(([id, p]) => {
       players['fpl-' + id] = {
         isReal: true,
@@ -283,7 +407,7 @@ fetch('data/fpl.json')
         team: p.team,
         avatar: p.avatar,
         avatarClass: p.avatarClass,
-        rating: p.points && p.minutes ? Math.round((p.points / Math.max(p.minutes, 1)) * 90 * 10) / 10 : 0,
+        rating: playerRating(p),
         minutes: p.minutes,
         goals: p.goals,
         assists: p.assists,
@@ -345,7 +469,7 @@ fetch('data/fpl.json')
       bindPlayerTriggers(transferList);
       const transferBadge = document.querySelector('#transfer-live-badge');
       if (transferBadge) transferBadge.hidden = false;
-      lucide.createIcons();
+      refreshIcons();
     }
 
     const wildcardList = document.querySelector('#wildcard-watch-list');
@@ -382,10 +506,10 @@ fetch('data/fpl.json')
       bindPlayerTriggers(performersTable);
       const badge = document.querySelector('#performers-live-badge');
       if (badge) badge.hidden = false;
-      lucide.createIcons();
+      refreshIcons();
     }
   })
-  .catch(() => { /* keep the illustrative fallback content already in the page */ });
+  .catch((err) => { console.error('[YobraPulse] fpl.json failed to load, showing fallback content', err); });
 
 function relativeTime(iso) {
   const mins = Math.max(1, Math.round((Date.now() - new Date(iso).getTime()) / 60000));
@@ -414,7 +538,7 @@ fetch('data/news.json')
       if (badge) badge.hidden = false;
     }
   })
-  .catch(() => { /* keep the illustrative fallback content already in the page */ });
+  .catch((err) => { console.error('[YobraPulse] news.json failed to load, showing fallback content', err); });
 
 document.querySelectorAll('#news-tabs .tab').forEach((tab) => {
   tab.addEventListener('click', () => {
@@ -451,7 +575,7 @@ function fetchScoreboard(comp) {
         kickoff: new Date(ev.date),
       };
     }))
-    .catch(() => []);
+    .catch((err) => { console.warn(`[YobraPulse] scoreboard fetch failed for ${comp.slug}`, err); return []; });
 }
 
 function matchRowHTML(m) {
@@ -504,8 +628,8 @@ function loadLiveScores() {
     const badge = document.querySelector('#live-scores-badge');
     if (badge) badge.hidden = false;
 
-    lucide.createIcons();
-  }).catch(() => { /* keep the illustrative fallback content already in the page */ });
+    refreshIcons();
+  }).catch((err) => { console.error('[YobraPulse] live scores failed to load, showing fallback content', err); });
 }
 
 loadLiveScores();
@@ -592,7 +716,8 @@ fetch('data/leagues.json')
 
     renderLeagueTable();
   })
-  .catch(() => {
+  .catch((err) => {
+    console.error('[YobraPulse] leagues.json failed to load', err);
     const body = document.querySelector('#league-table-body');
     if (body) {
       const fetching = body.querySelector('p');
@@ -600,4 +725,4 @@ fetch('data/leagues.json')
     }
   });
 
-lucide.createIcons();
+refreshIcons();
