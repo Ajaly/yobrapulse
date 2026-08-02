@@ -1,12 +1,93 @@
 {
-  "generatedAt": "2026-08-02T17:01:37.769313+00:00",
+  "generatedAt": "2026-08-02T19:00:30.495718+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "AIG Women's Open LIVE! Hull, Woad stumble as Henseleit chases major win",
+      "title": "Boxer Reeves in stable but critical condition after suffering knockout",
+      "description": "Boxer Lee reeves is in a \"stable but critical condition\" after suffering a knockout in his fight with Gary Cully at the 3Arena in Dublin on Saturday night.",
+      "link": "https://www.skysports.com/boxing/news/12040/13569252/boxer-lee-reeves-in-stable-but-critical-condition-after-suffering-knockout-in-fight-with-gary-cully",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-02T19:34:00+00:00"
+    },
+    {
+      "title": "Kuwaki pips Henseleit to major play-off win after extraordinary finish",
+      "description": "Shiho Kuwaki snatched a dramatic play-off victory over Esther Henseleit after an extraordinary finish to the AIG Women&#8217;s Open, as Charley Hull and Lottie Woad fell short on the final day.",
+      "link": "https://www.skysports.com/golf/news/12040/13569167/aig-womens-open-shiho-kuwaki-snatches-play-off-win-over-esther-henseleit-after-remarkable-finish-at-royal-lytham",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T19:30:00+00:00"
+    },
+    {
+      "title": "'Oh my word!' | Henseleit sinks MONSTER birdie putt to force play-off",
+      "description": "Esther Henseleit sunk a huge putt on the 18th to force a playoff in the AIG Women's Open.",
+      "link": "https://www.skysports.com/watch/video/13569242/womens-open-henseleit-sinks-monster-putt-to-force-playoff",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T18:56:00+00:00"
+    },
+    {
+      "title": "Isak and Wirtz start for Liverpool vs Leeds LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/liverpool-vs-leeds-united/live/554987",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T18:47:00+00:00"
+    },
+    {
+      "title": "What could full season of O'Neill at Celtic look like?",
+      "description": "Martin O'Neill has vowed to \"drive forward together\" and \"not rest on past success\", so what could a full season with the Northern Irishman at the helm look like?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8j2ngnevz3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T18:41:27+00:00"
+    },
+    {
+      "title": "What could full season of O'Neill at Celtic look like?",
+      "description": "Martin O'Neill has vowed to \"drive forward together\" and \"not rest on past success\", so what could a full season with the Northern Irishman at the helm look like?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8j2ngnevz3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T18:41:27+00:00"
+    },
+    {
+      "title": "Said earns Motherwell victory at Hibernian",
+      "description": "Ibrahim Said netted a late winner as Motherwell started their Scottish Premiership season as they left off by beating Hibernian at Easter Road.",
+      "link": "https://www.skysports.com/football/hibernian-vs-motherwell/report/558336",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T18:40:00+00:00"
+    },
+    {
+      "title": "Chelsea sign Strasbourg midfielder Barco",
+      "description": "Chelsea complete the signing of Argentina and Strasbourg midfielder Valentin Barco on a seven-year deal.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cdrv6e5m87no",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-02T18:38:05+00:00"
+    },
+    {
+      "title": "Goals galore as Motherwell and St Johnstone start with wins",
+      "description": "The new season continues with St Johnstone and Motherwell winning their opening matches.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p28x45",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T18:17:00+00:00"
+    },
+    {
+      "title": "AIG Women's Open LIVE! Kuwaki pips Henseleit to major after play-off drama",
       "description": "",
       "link": "https://www.skysports.com/golf/live-blog/12040/13568986/aig-womens-open-live-latest-scores-updates-highlights-from-final-round-as-lottie-woad-charley-hull-chase-major-win",
       "source": "Sky Sports",
@@ -31,87 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T16:15:00+00:00"
-    },
-    {
-      "title": "Alonso heals Real Madrid scars to lead Chelsea's senior revolution",
-      "description": "Xabi Alonso on healing from his Real Madrid exit, his gut feeling to join Chelsea and why he sees his new club as an exciting opportunity.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cz7d138ew59o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-02T16:00:36+00:00"
-    },
-    {
-      "title": "Nordqvist 'crushed' by juggle of mid-major Solheim calls",
-      "description": "Team Europe captain Anna Nordqvist has admitted juggling playing with Solheim Cup captaincy during the qualification campaign has been tougher than expected.",
-      "link": "https://www.skysports.com/golf/news/12040/13569173/solheim-cup-team-europe-captain-anna-nordqvist-discusses-struggles-balancing-playing-during-qualification-campaign",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T16:00:00+00:00"
-    },
-    {
-      "title": "Draper calls for patience amid 'perfect storm' of injuries",
-      "description": "Jack Draper has called for his fans to be patient with his return after the former world No 4 withdrew from the DC Open with an arm injury.",
-      "link": "https://www.skysports.com/tennis/news/12040/13569164/jack-draper-former-world-no-4-calls-for-patience-amid-perfect-storm-of-injuries-ahead-of-possible-us-open-return",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-02T14:13:00+00:00"
-    },
-    {
-      "title": "Dunkley leads Trent Rockets past SunRisers Leeds as MI London remain winless",
-      "description": "Sophia Dunkley's 56 off 33 balls fired the Trent Rockets past SunRisers Leeds in an impressive victory by five runs in The Hundred at Trent Bridge.",
-      "link": "https://www.skysports.com/cricket/news/12040/13569158/the-hundred-sophia-dunkley-fifty-fires-trent-rockets-past-sunrisers-leeds-despite-annabel-sutherland-heroics",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T14:00:00+00:00"
-    },
-    {
-      "title": "Bournemouth close in on \u00a311.1m Juanlu",
-      "description": "Bournemouth are finalising an \u00a311.1m move for Sevilla right-back Juanlu as new manager Marco Rose's squad nears completion.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjwx77l1lg9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T12:44:37+00:00"
-    },
-    {
-      "title": "England defeated by Australia in netball bronze-medal match",
-      "description": "England will leave the Commonwealth Games without a medal in netball after suffering a comprehensive 68-50 defeat to Australia at the Hydro in Glasgow.",
-      "link": "https://www.skysports.com/netball/news/12040/13569143/commonwealth-games-australia-68-50-england-roses-suffer-comprehensive-defeat-to-diamonds-in-netball-bronze-medal-match",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T11:00:00+00:00"
-    },
-    {
-      "title": "Celtic to make new bid for Gineitis - gossip",
-      "description": "Celtic up their offer for Serie A midfielder as Rangers open talks for winger from newly-promoted Premier League team...",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvg9q171y8qo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T09:54:06+00:00"
-    },
-    {
-      "title": "O'Leary stopped by Chamberlain in Dublin thriller",
-      "description": "Pierce O'Leary suffered his first professional defeat when he was stopped by Mark Chamberlain in a thrilling fight in Dublin.",
-      "link": "https://www.skysports.com/boxing/news/12040/13569126/pierce-oleary-suffers-first-professional-loss-after-being-stopped-by-mark-chamberlain-in-thrilling-dublin-fight",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T07:02:00+00:00"
-    },
-    {
-      "title": "Today on Sky Sports Racing: Blue Bolt and Precise clash again in Prix Rothschild",
-      "description": "We have a busy day's racing on Sunday with Flat action from Chester, Yarmouth and Deauville, live on Sky Sports Racing...",
-      "link": "https://www.skysports.com/racing/news/12040/13568987/today-on-sky-sports-racing-chester-yarmouth-and-deauville-feature-live-on-sunday",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T07:00:00+00:00"
     }
   ]
 }
