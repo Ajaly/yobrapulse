@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-02T22:49:05.847616+00:00",
+  "generatedAt": "2026-08-02T23:53:06.158396+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Tale of two halves leaves Iraola with plenty to ponder",
+      "description": "On the overnight flight from Chicago back to England, Andoni Iraola will have plenty of thinking to do after the conclusion of Liverpool's pre-season US tour.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr7k03gy028o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T23:18:36+00:00"
+    },
     {
       "title": "Papers: Man Utd edging closer to winning race for Hall",
       "description": "The top stories and transfer rumours from Monday's newspapers...",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T19:30:00+00:00"
-    },
-    {
-      "title": "Watch highlights of Sunday's goal-laden Premiership action",
-      "description": "St Johnstone make their top flight return against Kilmarnock and Hibs face Motherwell",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T19:00:48+00:00"
     }
   ]
 }
