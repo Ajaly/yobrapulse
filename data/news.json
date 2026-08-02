@@ -1,18 +1,27 @@
 {
-  "generatedAt": "2026-08-02T10:28:42.667834+00:00",
+  "generatedAt": "2026-08-02T11:57:02.463950+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "AIG Women's Open LIVE! Have your say on winner as early starters chase Noh",
+      "title": "Listen: Off the Ball with Stuart & Tam",
+      "description": "The most petty and ill-informed football show on radio.",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T12:30:00+00:00"
+    },
+    {
+      "title": "AIG Women's Open LIVE! Early starters chase down Noh for major victory",
       "description": "",
       "link": "https://www.skysports.com/golf/live-blog/12040/13568986/aig-womens-open-live-latest-scores-updates-highlights-from-final-round-as-lottie-woad-charley-hull-chase-major-win",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T11:00:00+00:00"
+      "pubDateISO": "2026-08-02T12:30:00+00:00"
     },
     {
       "title": "England defeated by Australia in netball bronze-medal match",
@@ -99,15 +108,6 @@
       "title": "York Knights claim first win over St Helens in 80 years",
       "description": "Highlights of York Knights against St Helens in the Betfred Super League.",
       "link": "https://www.skysports.com/watch/video/13569096/york-knights-34-32-st-helens-rugby-super-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T00:00:00+00:00"
-    },
-    {
-      "title": "Wolves move into fourth with dominant display over Tigers",
-      "description": "Highlights of Castleford Tigers against Warrington Wolves in Super League.",
-      "link": "https://www.skysports.com/watch/video/13569073/castleford-tigers-18-48-warrington-wolves-rugby-super-league-highlights",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
