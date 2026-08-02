@@ -563,6 +563,8 @@ function fetchScoreboard(comp) {
       const home = c.competitors.find((t) => t.homeAway === 'home');
       const away = c.competitors.find((t) => t.homeAway === 'away');
       return {
+        id: ev.id,
+        leagueSlug: comp.slug,
         competitionCode: comp.code,
         competitionBadge: comp.badge,
         competitionName: comp.name,
@@ -578,6 +580,46 @@ function fetchScoreboard(comp) {
     .catch((err) => { console.warn(`[YobraPulse] scoreboard fetch failed for ${comp.slug}`, err); return []; });
 }
 
+// Live match events (goals, bookings, substitutions): ESPN's scoreboard
+// endpoint above only carries the score, not what happened - that detail
+// (with real player names, minute and team) lives on a separate
+// per-match summary endpoint, confirmed CORS-open the same as the
+// scoreboard. Only fetched for matches currently in progress, so this
+// scales with how many games are live right now, not the full schedule.
+const MATCH_EVENT_ICONS = { goal: '⚽', ownGoal: '⚽', card: '🟨', redCard: '🟥', sub: '🔁' };
+
+function classifyMatchEvent(typeText) {
+  const lower = (typeText || '').toLowerCase();
+  if (lower.includes('red card')) return 'redCard';
+  if (lower.includes('yellow card')) return 'card';
+  if (lower.includes('substitution')) return 'sub';
+  if (lower.includes('own goal')) return 'ownGoal';
+  if (lower.includes('goal') || lower.includes('penalty')) return 'goal';
+  return null;
+}
+
+function fetchMatchEvents(match) {
+  return fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${match.leagueSlug}/summary?event=${match.id}`)
+    .then((res) => (res.ok ? res.json() : Promise.reject(new Error('summary ' + res.status))))
+    .then((data) => (data.keyEvents || [])
+      .map((e) => ({
+        kind: classifyMatchEvent(e.type && e.type.text),
+        minute: e.clock && e.clock.displayValue,
+        clockValue: e.clock ? e.clock.value : 0,
+        text: e.text || e.shortText || '',
+      }))
+      .filter((e) => e.kind && e.text)
+      .sort((a, b) => a.clockValue - b.clockValue))
+    .catch((err) => { console.warn(`[YobraPulse] match summary failed for event ${match.id}`, err); return []; });
+}
+
+function matchEventsHTML(events) {
+  if (!events || !events.length) return '';
+  return `<ul class="match-events">${events.map((e) => `
+    <li><span class="match-event-icon">${MATCH_EVENT_ICONS[e.kind] || ''}</span><span class="match-event-minute">${e.minute || ''}</span><span class="match-event-text">${e.text}</span></li>
+  `).join('')}</ul>`;
+}
+
 function matchRowHTML(m) {
   const smallText = m.state === 'in' ? m.clock : m.state === 'post' ? 'Full-time' : 'Upcoming';
   let statusHTML;
@@ -590,10 +632,11 @@ function matchRowHTML(m) {
     statusHTML = `<div class="match-status upcoming"><span></span> ${kickoffLabel}</div>`;
   }
   const scoreHTML = m.state === 'pre' ? '<strong>VS</strong>' : `<strong>${m.homeScore} <small>—</small> ${m.awayScore}</strong>`;
-  return `<article class="match-row">
+  return `<article class="match-row${m.events && m.events.length ? ' has-events' : ''}">
     <div class="competition"><span class="competition-badge ${m.competitionBadge}">${m.competitionCode}</span><div><strong>${m.competitionName}</strong><small>${smallText}</small></div></div>
     <div class="teams">${teamSpan(m.home)}${scoreHTML}${teamSpan(m.away)}</div>
     ${statusHTML}
+    ${matchEventsHTML(m.events)}
   </article>`;
 }
 
@@ -604,31 +647,43 @@ function loadLiveScores() {
     const rank = { in: 0, pre: 1, post: 2 };
     all.sort((a, b) => (rank[a.state] - rank[b.state]) || (a.kickoff - b.kickoff));
 
-    const liveCount = all.filter((m) => m.state === 'in').length;
+    const liveMatches = all.filter((m) => m.state === 'in');
 
-    const dashboardList = document.querySelector('#dashboard-live-list');
-    if (dashboardList) dashboardList.innerHTML = all.slice(0, 3).map(matchRowHTML).join('');
+    function render() {
+      const liveCount = liveMatches.length;
 
-    const fullList = document.querySelector('#live-scores-list');
-    if (fullList) fullList.innerHTML = all.slice(0, 12).map(matchRowHTML).join('');
+      const dashboardList = document.querySelector('#dashboard-live-list');
+      if (dashboardList) dashboardList.innerHTML = all.slice(0, 3).map(matchRowHTML).join('');
 
-    const statusText = document.querySelector('#live-status-text');
-    if (statusText) statusText.textContent = liveCount > 0 ? `${liveCount} match${liveCount === 1 ? '' : 'es'} live` : 'No matches live right now';
+      const fullList = document.querySelector('#live-scores-list');
+      if (fullList) fullList.innerHTML = all.slice(0, 12).map(matchRowHTML).join('');
 
-    const navCount = document.querySelector('#live-nav-count');
-    if (navCount) navCount.textContent = liveCount;
+      const statusText = document.querySelector('#live-status-text');
+      if (statusText) statusText.textContent = liveCount > 0 ? `${liveCount} match${liveCount === 1 ? '' : 'es'} live` : 'No matches live right now';
 
-    const metricCount = document.querySelector('#live-metric-count');
-    const metricSub = document.querySelector('#live-metric-sub');
-    if (metricCount) metricCount.textContent = liveCount;
-    if (metricSub) metricSub.innerHTML = liveCount > 0
-      ? '<i data-lucide="trending-up"></i> Updating live'
-      : `${all.length} scheduled this gameweek`;
+      const navCount = document.querySelector('#live-nav-count');
+      if (navCount) navCount.textContent = liveCount;
 
-    const badge = document.querySelector('#live-scores-badge');
-    if (badge) badge.hidden = false;
+      const metricCount = document.querySelector('#live-metric-count');
+      const metricSub = document.querySelector('#live-metric-sub');
+      if (metricCount) metricCount.textContent = liveCount;
+      if (metricSub) metricSub.innerHTML = liveCount > 0
+        ? '<i data-lucide="trending-up"></i> Updating live'
+        : `${all.length} scheduled this gameweek`;
 
-    refreshIcons();
+      const badge = document.querySelector('#live-scores-badge');
+      if (badge) badge.hidden = false;
+
+      refreshIcons();
+    }
+
+    if (!liveMatches.length) {
+      render();
+      return;
+    }
+    Promise.all(liveMatches.map((m) => fetchMatchEvents(m).then((events) => { m.events = events; })))
+      .then(render)
+      .catch(render);
   }).catch((err) => { console.error('[YobraPulse] live scores failed to load, showing fallback content', err); });
 }
 
