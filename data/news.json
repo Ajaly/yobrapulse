@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-02T15:58:19.013037+00:00",
+  "generatedAt": "2026-08-02T17:01:37.769313+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "AIG Women's Open LIVE! Noh bogeys give Woad, Hull hope in major thriller",
+      "title": "AIG Women's Open LIVE! Hull, Woad stumble as Henseleit chases major win",
       "description": "",
       "link": "https://www.skysports.com/golf/live-blog/12040/13568986/aig-womens-open-live-latest-scores-updates-highlights-from-final-round-as-lottie-woad-charley-hull-chase-major-win",
       "source": "Sky Sports",
@@ -22,6 +22,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T16:28:00+00:00"
+    },
+    {
+      "title": "St Johnstone edge Kilmarnock in seven-goal thriller",
+      "description": "St Johnstone twice gave up a lead before storming back to edge a seven-goal thriller on their Scottish Premiership return at home to Kilmarnock.",
+      "link": "https://www.skysports.com/football/st-johnstone-vs-kilmarnock/report/558337",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T16:15:00+00:00"
+    },
+    {
+      "title": "Alonso heals Real Madrid scars to lead Chelsea's senior revolution",
+      "description": "Xabi Alonso on healing from his Real Madrid exit, his gut feeling to join Chelsea and why he sees his new club as an exciting opportunity.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cz7d138ew59o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-02T16:00:36+00:00"
     },
     {
       "title": "Nordqvist 'crushed' by juggle of mid-major Solheim calls",
@@ -42,7 +60,7 @@
       "pubDateISO": "2026-08-02T14:13:00+00:00"
     },
     {
-      "title": "Dunkley leads Trent Rockets past SunRisers Leeds",
+      "title": "Dunkley leads Trent Rockets past SunRisers Leeds as MI London remain winless",
       "description": "Sophia Dunkley's 56 off 33 balls fired the Trent Rockets past SunRisers Leeds in an impressive victory by five runs in The Hundred at Trent Bridge.",
       "link": "https://www.skysports.com/cricket/news/12040/13569158/the-hundred-sophia-dunkley-fifty-fires-trent-rockets-past-sunrisers-leeds-despite-annabel-sutherland-heroics",
       "source": "Sky Sports",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T07:00:00+00:00"
-    },
-    {
-      "title": "New boss Maresca is perfect for Man City - Gvardiol",
-      "description": "New manager Enzo Maresca is a \"perfect one\" for Manchester City, says defender Josko Gvardiol.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8rny130kzpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T06:01:41+00:00"
-    },
-    {
-      "title": "Who am I? Guess Premier League star No 13",
-      "description": "Work out the identity of today's player in as few attempts as possible.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqx7er2vlzyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T06:00:32+00:00"
     }
   ]
 }
