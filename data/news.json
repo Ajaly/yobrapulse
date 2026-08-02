@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-02T20:45:19.248486+00:00",
+  "generatedAt": "2026-08-02T21:49:14.234143+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Man Utd edging closer to winning race for Hall",
+      "description": "The top stories and transfer rumours from Monday's newspapers...",
+      "link": "https://www.skysports.com/football/news/12040/13569280/manchester-united-edging-closer-to-winning-transfer-race-for-lewis-hall-after-left-back-rejects-chelsea-return-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-02T22:45:00+00:00"
+    },
+    {
+      "title": "Henseleit denies Tamburlini Solheim spot after dramatic last-hole birdie",
+      "description": "Esther Henseleit denied Chiara Tamburlini an automatic Solheim Cup pick for a Team Europe debut after an extraordinary finish to the AIG Women&#8217;s Open.",
+      "link": "https://www.skysports.com/golf/news/12040/13569215/solheim-cup-team-europes-automatic-qualifiers-confirmed-as-esther-henseleit-denies-chiara-tamburlini-debut-appearance",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T21:31:00+00:00"
+    },
+    {
+      "title": "Spurs make Osimhen approach - Monday's gossip",
+      "description": "Tottenham make an approach for Victor Osimhen, Atletico Madrid consider a move for Manchester City winger Jack Grealish, Liverpool forward Cody Gakpo has positive talks with Spurs, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn7n66edplno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T20:51:23+00:00"
+    },
     {
       "title": "Highlights: Kuwaki wins first major title in tense play-off",
       "description": "Highlights from the final day of the AIG Women's Open at Royal Lytham & St Annes.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T18:56:00+00:00"
-    },
-    {
-      "title": "Liverpool take the lead vs Leeds LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/liverpool-vs-leeds-united/live/554987",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T18:47:00+00:00"
-    },
-    {
-      "title": "What could full season of O'Neill at Celtic look like?",
-      "description": "Martin O'Neill has vowed to \"drive forward together\" and \"not rest on past success\", so what could a full season with the Northern Irishman at the helm look like?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8j2ngnevz3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T18:41:27+00:00"
-    },
-    {
-      "title": "What could full season of O'Neill at Celtic look like?",
-      "description": "Martin O'Neill has vowed to \"drive forward together\" and \"not rest on past success\", so what could a full season with the Northern Irishman at the helm look like?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8j2ngnevz3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T18:41:27+00:00"
     }
   ]
 }
