@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-02T08:11:07.131048+00:00",
+  "generatedAt": "2026-08-02T10:28:42.667834+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "AIG Women's Open LIVE! Have your say on winner as early starters chase Noh",
+      "description": "",
+      "link": "https://www.skysports.com/golf/live-blog/12040/13568986/aig-womens-open-live-latest-scores-updates-highlights-from-final-round-as-lottie-woad-charley-hull-chase-major-win",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T11:00:00+00:00"
+    },
+    {
+      "title": "England defeated by Australia in netball bronze-medal match",
+      "description": "England will leave the Commonwealth Games without a medal in netball after suffering a comprehensive 68-50 defeat to Australia at the Hydro in Glasgow.",
+      "link": "https://www.skysports.com/netball/news/12040/13569143/commonwealth-games-australia-68-50-england-roses-suffer-comprehensive-defeat-to-diamonds-in-netball-bronze-medal-match",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T11:00:00+00:00"
+    },
+    {
+      "title": "Celtic to make new bid for Gineitis - gossip",
+      "description": "Celtic up their offer for Serie A midfielder as Rangers open talks for winger from newly-promoted Premier League team...",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg9q171y8qo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T09:54:06+00:00"
+    },
+    {
+      "title": "Tottenham latest: Juventus eye loan move for Vicario",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-02T09:30:00+00:00"
+    },
     {
       "title": "O'Leary stopped by Chamberlain in Dublin thriller",
       "description": "Pierce O'Leary suffered his first professional defeat when he was stopped by Mark Chamberlain in a thrilling fight in Dublin.",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T00:00:00+00:00"
-    },
-    {
-      "title": "Everton latest: Toffees agree \u00a37m deal to sign Arsenal's Norgaard",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-01T23:00:00+00:00"
-    },
-    {
-      "title": "Papers: Man Utd considering move for Arsenal's Lewis-Skelly",
-      "description": "The top stories and transfer rumours from Sunday's newspapers...",
-      "link": "https://www.skysports.com/football/news/12040/13569111/myles-lewis-skelly-transfer-news-man-utd-considering-move-for-arsenal-player-paper-talk",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-01T22:45:00+00:00"
-    },
-    {
-      "title": "Oshoala revives Nigeria's Wafcon and World Cup bid",
-      "description": "Asisat Oshoala scores the only goal as Nigeria beat Zambia at Wafcon 2026 to revive the West Africans' hopes of reaching the 2027 Women's World Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-01T22:23:37+00:00"
-    },
-    {
-      "title": "Oshoala revives Nigeria's Wafcon and World Cup bid",
-      "description": "Asisat Oshoala scores the only goal as Nigeria beat Zambia at Wafcon 2026 to revive the West Africans' hopes of reaching the 2027 Women's World Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-01T22:23:37+00:00"
     }
   ]
 }
