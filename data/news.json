@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:49:14.234143+00:00",
+  "generatedAt": "2026-08-02T22:49:05.847616+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -60,6 +60,15 @@
       "pubDateISO": "2026-08-02T20:24:15+00:00"
     },
     {
+      "title": "Liverpool collapse as Leeds come from 2-0 down to win",
+      "description": "Liverpool threw away a two-goal lead in spectacular fashion as Leeds won the final match of both teams' United States tour 4-2.",
+      "link": "https://www.skysports.com/football/liverpool-vs-leeds-united/report/554987",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T20:04:00+00:00"
+    },
+    {
       "title": "Game of the season in Premiership's opening weekend?",
       "description": "Newly-promoted St Johnstone block out summer \"noise\" to thrill fans with a goal-laden win over Kilmarnock on the Premiership opening weekend.",
       "link": "https://www.bbc.co.uk/sport/football/articles/ce8l46wjdpjo",
@@ -98,20 +107,11 @@
     {
       "title": "Watch highlights of Sunday's goal-laden Premiership action",
       "description": "St Johnstone make their top flight return against Kilmarnock and Hibs face Motherwell",
-      "link": "https://www.bbc.co.uk/iplayer/episode/m002zxw9",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T19:00:48+00:00"
-    },
-    {
-      "title": "'Oh my word!' | Henseleit sinks MONSTER birdie putt to force play-off",
-      "description": "Esther Henseleit sinks a huge birdie putt on the 72nd hole to force a play-off with Shiho Kuwaki in the AIG Women's Open.",
-      "link": "https://www.skysports.com/watch/video/13569242/womens-open-henseleit-sinks-monster-putt-to-force-playoff",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T18:56:00+00:00"
     }
   ]
 }
