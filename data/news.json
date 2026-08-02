@@ -1,21 +1,66 @@
 {
-  "generatedAt": "2026-08-02T19:00:30.495718+00:00",
+  "generatedAt": "2026-08-02T20:45:19.248486+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
+      "title": "Highlights: Kuwaki wins first major title in tense play-off",
+      "description": "Highlights from the final day of the AIG Women's Open at Royal Lytham & St Annes.",
+      "link": "https://www.skysports.com/watch/video/13569261/aig-womens-open-day-four-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T20:26:00+00:00"
+    },
+    {
+      "title": "How Johansson is rising to daunting Motherwell challenge",
+      "description": "With significant departures on and off the field, new Motherwell boss Alfred Johansson appeared to have a daunting task on his hands this season, but he has started in fine style.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2elj1ldgp1o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-02T20:24:15+00:00"
+    },
+    {
+      "title": "How Johansson is rising to daunting Motherwell challenge",
+      "description": "With significant departures on and off the field, new Motherwell boss Alfred Johansson appeared to have a daunting task on his hands this season, but he has started in fine style.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2elj1ldgp1o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-02T20:24:15+00:00"
+    },
+    {
+      "title": "Game of the season in Premiership's opening weekend?",
+      "description": "Newly-promoted St Johnstone block out summer \"noise\" to thrill fans with a goal-laden win over Kilmarnock on the Premiership opening weekend.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce8l46wjdpjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T19:55:37+00:00"
+    },
+    {
+      "title": "Game of the season in Premiership's opening weekend?",
+      "description": "Newly-promoted St Johnstone block out summer \"noise\" to thrill fans with a goal-laden win over Kilmarnock on the Premiership opening weekend.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce8l46wjdpjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T19:55:37+00:00"
+    },
+    {
       "title": "Boxer Reeves in stable but critical condition after suffering knockout",
-      "description": "Boxer Lee reeves is in a \"stable but critical condition\" after suffering a knockout in his fight with Gary Cully at the 3Arena in Dublin on Saturday night.",
-      "link": "https://www.skysports.com/boxing/news/12040/13569252/boxer-lee-reeves-in-stable-but-critical-condition-after-suffering-knockout-in-fight-with-gary-cully",
+      "description": "Boxer Lee Reeves is in a \"stable but critical condition\" after suffering a knockout in his fight with Gary Cully at the 3Arena in Dublin on Saturday night.",
+      "link": "https://www.skysports.com/boxing/news/12040/13569252/lee-reeves-boxer-in-critical-but-stable-condition-after-suffering-knockout-in-fight-with-gary-cully",
       "source": "Sky Sports",
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-08-02T19:34:00+00:00"
     },
     {
-      "title": "Kuwaki pips Henseleit to major play-off win after extraordinary finish",
+      "title": "Kuwaki pips Henseleit to Women's Open play-off win after extraordinary finish",
       "description": "Shiho Kuwaki snatched a dramatic play-off victory over Esther Henseleit after an extraordinary finish to the AIG Women&#8217;s Open, as Charley Hull and Lottie Woad fell short on the final day.",
       "link": "https://www.skysports.com/golf/news/12040/13569167/aig-womens-open-shiho-kuwaki-snatches-play-off-win-over-esther-henseleit-after-remarkable-finish-at-royal-lytham",
       "source": "Sky Sports",
@@ -24,8 +69,17 @@
       "pubDateISO": "2026-08-02T19:30:00+00:00"
     },
     {
+      "title": "Watch highlights of Sunday's goal-laden Premiership action",
+      "description": "St Johnstone make their top flight return against Kilmarnock and Hibs face Motherwell",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m002zxw9",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T19:00:48+00:00"
+    },
+    {
       "title": "'Oh my word!' | Henseleit sinks MONSTER birdie putt to force play-off",
-      "description": "Esther Henseleit sunk a huge putt on the 18th to force a playoff in the AIG Women's Open.",
+      "description": "Esther Henseleit sinks a huge birdie putt on the 72nd hole to force a play-off with Shiho Kuwaki in the AIG Women's Open.",
       "link": "https://www.skysports.com/watch/video/13569242/womens-open-henseleit-sinks-monster-putt-to-force-playoff",
       "source": "Sky Sports",
       "category": "club",
@@ -33,7 +87,7 @@
       "pubDateISO": "2026-08-02T18:56:00+00:00"
     },
     {
-      "title": "Isak and Wirtz start for Liverpool vs Leeds LIVE!",
+      "title": "Liverpool take the lead vs Leeds LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/liverpool-vs-leeds-united/live/554987",
       "source": "Sky Sports",
@@ -58,60 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T18:41:27+00:00"
-    },
-    {
-      "title": "Said earns Motherwell victory at Hibernian",
-      "description": "Ibrahim Said netted a late winner as Motherwell started their Scottish Premiership season as they left off by beating Hibernian at Easter Road.",
-      "link": "https://www.skysports.com/football/hibernian-vs-motherwell/report/558336",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T18:40:00+00:00"
-    },
-    {
-      "title": "Chelsea sign Strasbourg midfielder Barco",
-      "description": "Chelsea complete the signing of Argentina and Strasbourg midfielder Valentin Barco on a seven-year deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdrv6e5m87no",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-02T18:38:05+00:00"
-    },
-    {
-      "title": "Goals galore as Motherwell and St Johnstone start with wins",
-      "description": "The new season continues with St Johnstone and Motherwell winning their opening matches.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p28x45",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T18:17:00+00:00"
-    },
-    {
-      "title": "AIG Women's Open LIVE! Kuwaki pips Henseleit to major after play-off drama",
-      "description": "",
-      "link": "https://www.skysports.com/golf/live-blog/12040/13568986/aig-womens-open-live-latest-scores-updates-highlights-from-final-round-as-lottie-woad-charley-hull-chase-major-win",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T16:40:00+00:00"
-    },
-    {
-      "title": "Blue Bolt confirms superiority over Precise at Deauville",
-      "description": "Blue Bolt continued her faultless campaign with victory in the Prix Rothschild at Deauville.",
-      "link": "https://www.skysports.com/racing/news/12040/13569200/prix-rothschild-blue-bolt-confirms-superiority-over-precise-in-deauville-group-1",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T16:28:00+00:00"
-    },
-    {
-      "title": "St Johnstone edge Kilmarnock in seven-goal thriller",
-      "description": "St Johnstone twice gave up a lead before storming back to edge a seven-goal thriller on their Scottish Premiership return at home to Kilmarnock.",
-      "link": "https://www.skysports.com/football/st-johnstone-vs-kilmarnock/report/558337",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T16:15:00+00:00"
     }
   ]
 }
