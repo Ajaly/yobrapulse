@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-02T02:06:46.523903+00:00",
+  "generatedAt": "2026-08-02T05:49:53.062591+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "What happened to star signings your club never made?",
+      "description": "BBC Sport takes a look at some star players who were close to moving to the Premier League, only for the deals to fall through.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5y32lgr67no",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-02T05:42:58+00:00"
+    },
     {
       "title": "Everton latest: Toffees agree \u00a37m deal to sign Arsenal's Norgaard",
       "description": "",
@@ -43,7 +52,7 @@
     },
     {
       "title": "A bruising 24 hours - what next for Fifa and under-pressure Infantino?",
-      "description": "The pressure is building on Gianni Infantino. Can he survive as Fifa president?",
+      "description": "Pressure is building on Gianni Infantino. Can he survive as Fifa president after the implosion of the controversial World Cup investment plan?",
       "link": "https://www.bbc.co.uk/sport/football/articles/c9w0djx2g92o",
       "source": "BBC Sport",
       "category": "club",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-01T19:58:27+00:00"
-    },
-    {
-      "title": "Podcast: Late drama at Pittodrie on Premiership opening weekend",
-      "description": "Reaction to big wins for St Mirren away to Falkirk and Aberdeen's dramatic late show",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p25q60",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-01T19:39:00+00:00"
     }
   ]
 }
