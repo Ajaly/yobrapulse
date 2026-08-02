@@ -37,6 +37,20 @@ last-season squad quality (the same squadRating used in the Teams
 view). The model below is a transparent, documented heuristic built
 from those two real signals - not a trained model, not head-to-head,
 and it says so in the UI.
+
+Match history accumulation (see build_match_history /
+update_match_history_file): the gap above exists because the API only
+keeps fixture-by-fixture detail for the season currently in progress -
+once a season ends, it collapses into a single season-total row and
+that detail is gone for good. The /fixtures/ endpoint we already fetch
+for fixture-swing includes a real per-match "stats" block (goals,
+assists, own goals, penalties, cards) for every finished fixture, so
+each run now appends any newly-finished match to a permanent,
+append-only data/match-history.json (deduped by fixture id, never
+overwritten). This can't be backfilled - it only accumulates from
+whichever run first sees a given match as finished - but run hourly
+through a full season it builds exactly the real head-to-head and
+match-log data this model doesn't have today.
 """
 import json
 import urllib.request
@@ -47,6 +61,13 @@ FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/?event={event_id}
 ALL_FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 SWING_WINDOW = 6  # gameweeks looked at for fixture-swing analysis
+CURRENT_SEASON = "2026/27"
+MATCH_HISTORY_PATH = "data/match-history.json"
+MATCH_EVENT_TYPES = {
+    "goals_scored", "assists", "own_goals",
+    "penalties_saved", "penalties_missed",
+    "yellow_cards", "red_cards",
+}
 
 POSITIONS = {1: "GKP", 2: "DEF", 3: "MID", 4: "FWD"}
 AVATAR_CLASSES = ["", "blue-avatar", "orange-avatar", "pink-avatar"]
@@ -231,6 +252,79 @@ def compute_fixture_swing(all_fixtures, next_event_id, teams):
             "fixtures": [f"{'vs' if f['isHome'] else '@'} {f['opponent']}" for f in fixtures],
         }
     return swing
+
+
+def extract_match_events(fixture, elements_by_id):
+    """Real per-match events (scorer, assister, cards, etc.) from the
+    fixture's own "stats" block - each entry names a real player id and
+    a real value, straight from the API, not derived."""
+    events = []
+    for stat in fixture.get("stats") or []:
+        identifier = stat.get("identifier")
+        if identifier not in MATCH_EVENT_TYPES:
+            continue
+        for side, side_label in (("h", "home"), ("a", "away")):
+            for entry in stat.get(side) or []:
+                element = elements_by_id.get(entry["element"])
+                if not element:
+                    continue
+                events.append({
+                    "type": identifier,
+                    "player": element.get("web_name"),
+                    "side": side_label,
+                    "value": entry["value"],
+                })
+    return events
+
+
+def build_match_history(all_fixtures, teams, elements_by_id):
+    """Real finished-fixture results (score + events) for this run's
+    snapshot of all_fixtures - see update_match_history_file for how
+    these get merged into a permanent, append-only archive."""
+    matches = []
+    for f in all_fixtures:
+        if not f.get("finished"):
+            continue
+        matches.append({
+            "id": f["id"],
+            "gameweek": f["event"],
+            "kickoffISO": f["kickoff_time"],
+            "home": teams[f["team_h"]],
+            "away": teams[f["team_a"]],
+            "homeScore": f["team_h_score"],
+            "awayScore": f["team_a_score"],
+            "events": extract_match_events(f, elements_by_id),
+        })
+    return matches
+
+
+def update_match_history_file(new_matches, season_label):
+    """Merge this run's finished matches into data/match-history.json,
+    deduped by fixture id so re-running never creates duplicates and a
+    match already recorded is never overwritten. Returns the number of
+    genuinely new matches added, for the run's own log output."""
+    try:
+        with open(MATCH_HISTORY_PATH, "r", encoding="utf-8") as f:
+            archive = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        archive = {"season": season_label, "matches": []}
+
+    existing_ids = {m["id"] for m in archive.get("matches", [])}
+    added = 0
+    for m in new_matches:
+        if m["id"] not in existing_ids:
+            archive["matches"].append(m)
+            existing_ids.add(m["id"])
+            added += 1
+
+    archive["season"] = season_label
+    archive["matches"].sort(key=lambda m: m["kickoffISO"] or "")
+    archive["generatedAt"] = datetime.now(timezone.utc).isoformat()
+
+    with open(MATCH_HISTORY_PATH, "w", encoding="utf-8") as f:
+        json.dump(archive, f, indent=2)
+
+    return added, len(archive["matches"])
 
 
 def build_teams_list(data, squad_ratings):
@@ -419,6 +513,11 @@ def main():
     all_fixtures = fetch_json(ALL_FIXTURES_URL)
     fixture_swing = compute_fixture_swing(all_fixtures, next_event["id"], teams)
     wildcard_watch = build_wildcard_watch(fixture_swing, teams)
+
+    elements_by_id = {e["id"]: e for e in data["elements"]}
+    finished_matches = build_match_history(all_fixtures, teams, elements_by_id)
+    added, total = update_match_history_file(finished_matches, CURRENT_SEASON)
+    print(f"data/match-history.json: {added} new finished match(es) added, {total} total")
 
     eligible = [e for e in data["elements"] if float(e["selected_by_percent"] or 0) >= 2.0]
     percentiles = compute_percentiles(eligible)
