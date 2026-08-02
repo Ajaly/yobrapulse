@@ -219,9 +219,9 @@ fetch('data/fpl.json')
     const deadlineText = document.querySelector('#fpl-deadline-text');
     if (deadlineText) deadlineText.textContent = `${data.gameweek.name} deadline · ${data.gameweek.deadlineLabel}`;
 
-    const fixturesList = document.querySelector('#fixtures-list');
-    if (fixturesList && data.fixtures && data.fixtures.length) {
-      fixturesList.innerHTML = data.fixtures.map((f) => `
+    const fplFixturesList = document.querySelector('#fpl-fixtures-list');
+    if (fplFixturesList && data.fixtures && data.fixtures.length) {
+      fplFixturesList.innerHTML = data.fixtures.map((f) => `
         <article class="match-row">
           <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>${data.gameweek.name}</small></div></div>
           <div class="teams">${teamSpan(f.home)}<strong>VS</strong>${teamSpan(f.away)}</div>
@@ -231,10 +231,10 @@ fetch('data/fpl.json')
           </div>
         </article>
       `).join('');
-      const fixturesKicker = document.querySelector('#fixtures-kicker');
-      if (fixturesKicker) fixturesKicker.textContent = data.gameweek.name;
-      const fixturesBadge = document.querySelector('#fixtures-live-badge');
-      if (fixturesBadge) fixturesBadge.hidden = false;
+      const fplFixturesKicker = document.querySelector('#fpl-fixtures-kicker');
+      if (fplFixturesKicker) fplFixturesKicker.textContent = data.gameweek.name;
+      const fplFixturesBadge = document.querySelector('#fpl-fixtures-live-badge');
+      if (fplFixturesBadge) fplFixturesBadge.hidden = false;
       refreshIcons();
     }
 
@@ -549,37 +549,74 @@ document.querySelectorAll('#news-tabs .tab').forEach((tab) => {
   });
 });
 
-const LIVE_COMPETITIONS = [
+// Every competition Live Scores and Fixtures both draw from. club.friendly
+// is ESPN's single global bucket of every pre-season club friendly
+// worldwide, not scoped to any league, so it's filtered below to only
+// matches involving a club from the other five. Filtering by real ESPN
+// team id (not name) since matching team names across two different ESPN
+// endpoints is fragile (kit sponsors, short names etc. can differ); ids
+// are stable.
+const TRACKED_COMPETITIONS = [
   { slug: 'eng.1', badge: 'pl', code: 'PL', name: 'Premier League' },
-  { slug: 'uefa.champions', badge: 'cl', code: 'CL', name: 'Champions League' },
+  { slug: 'esp.1', badge: 'll', code: 'LL', name: 'La Liga' },
   { slug: 'ita.1', badge: 'la', code: 'SA', name: 'Serie A' },
+  { slug: 'ger.1', badge: 'bl', code: 'BL', name: 'Bundesliga' },
+  { slug: 'fra.1', badge: 'l1', code: 'L1', name: 'Ligue 1' },
+  { slug: 'uefa.champions', badge: 'cl', code: 'CL', name: 'Champions League' },
   { slug: 'club.friendly', badge: 'fr', code: 'FR', name: 'Club friendly', filterToTrackedTeams: true },
 ];
+const TRACKED_LEAGUE_SLUGS = ['eng.1', 'esp.1', 'ita.1', 'ger.1', 'fra.1'];
 
-// ESPN's "club.friendly" competition is a single global bucket of every
-// pre-season club friendly worldwide, not scoped to any league - so it's
-// filtered below to only matches involving a club from the five leagues
-// asked for. Filtering by real ESPN team id (not name) since matching
-// team names across two different ESPN endpoints is fragile (kit
-// sponsors, short names etc. can differ); ids are stable. Fetched once
-// per session, not on every 60s poll - team rosters don't change mid-session.
-const TRACKED_LEAGUES_FOR_FRIENDLIES = ['eng.1', 'esp.1', 'ita.1', 'ger.1', 'fra.1'];
-
-function fetchLeagueTeamIds(slug) {
+// Real club rosters (id + name) for all five leagues, fetched once per
+// session - not refetched on every poll, since rosters don't change
+// mid-session. Powers both the friendly-match id filter above and the
+// Fixtures team-search dropdown.
+function fetchLeagueTeams(slug, leagueLabel) {
   return fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/teams?limit=50`)
     .then((res) => (res.ok ? res.json() : Promise.reject(new Error('teams ' + res.status))))
     .then((data) => {
       const teams = (((data.sports || [])[0] || {}).leagues || [{}])[0].teams || [];
-      return teams.map((t) => String(t.team.id));
+      return teams.map((t) => ({ id: String(t.team.id), name: t.team.displayName, league: leagueLabel }));
     })
     .catch((err) => { console.warn(`[YobraPulse] team list fetch failed for ${slug}`, err); return []; });
 }
 
-const trackedTeamIdsPromise = Promise.all(TRACKED_LEAGUES_FOR_FRIENDLIES.map(fetchLeagueTeamIds))
-  .then((lists) => new Set([].concat(...lists)));
+const trackedTeamsPromise = Promise.all(
+  TRACKED_COMPETITIONS.filter((c) => TRACKED_LEAGUE_SLUGS.includes(c.slug)).map((c) => fetchLeagueTeams(c.slug, c.name))
+).then((lists) => [].concat(...lists).sort((a, b) => a.name.localeCompare(b.name)));
 
-function fetchScoreboard(comp) {
-  return fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${comp.slug}/scoreboard`)
+const trackedTeamIdsPromise = trackedTeamsPromise.then((teams) => new Set(teams.map((t) => t.id)));
+
+// Date helpers - everything here works in UTC (matching ESPN's kickoff
+// timestamps and the kickoff labels already shown elsewhere) so "today"
+// means the same thing consistently regardless of the viewer's own
+// timezone.
+function ymd(date) {
+  return date.toISOString().slice(0, 10).replace(/-/g, '');
+}
+function addDays(date, n) {
+  const d = new Date(date);
+  d.setUTCDate(d.getUTCDate() + n);
+  return d;
+}
+function isSameUTCDay(a, b) {
+  return ymd(a) === ymd(b);
+}
+function dayLabel(date) {
+  const today = new Date();
+  if (isSameUTCDay(date, today)) return 'Today';
+  if (isSameUTCDay(date, addDays(today, 1))) return 'Tomorrow';
+  if (isSameUTCDay(date, addDays(today, -1))) return 'Yesterday';
+  return date.toLocaleDateString('en-GB', { weekday: 'short', timeZone: 'UTC' });
+}
+function dateNavLabel(date) {
+  return `${dayLabel(date)} · ${date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' })}`;
+}
+
+// datesParam is either 'YYYYMMDD' (a single day) or 'YYYYMMDD-YYYYMMDD'
+// (a range) - ESPN's scoreboard endpoint supports both directly.
+function fetchCompetitionMatches(comp, datesParam) {
+  return fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${comp.slug}/scoreboard?dates=${datesParam}`)
     .then((res) => (res.ok ? res.json() : Promise.reject(new Error('scoreboard ' + res.status))))
     .then((data) => {
       const events = data.events || [];
@@ -599,6 +636,8 @@ function fetchScoreboard(comp) {
             competitionCode: comp.code,
             competitionBadge: comp.badge,
             competitionName: comp.name,
+            homeId: String(home.team.id),
+            awayId: String(away.team.id),
             home: home.team.shortDisplayName,
             away: away.team.shortDisplayName,
             homeScore: home.score,
@@ -610,7 +649,12 @@ function fetchScoreboard(comp) {
         });
       return comp.filterToTrackedTeams ? trackedTeamIdsPromise.then(build) : build(new Set());
     })
-    .catch((err) => { console.warn(`[YobraPulse] scoreboard fetch failed for ${comp.slug}`, err); return []; });
+    .catch((err) => { console.warn(`[YobraPulse] scoreboard fetch failed for ${comp.slug} (${datesParam})`, err); return []; });
+}
+
+function fetchMatchesForDates(datesParam, competitions) {
+  return Promise.all((competitions || TRACKED_COMPETITIONS).map((comp) => fetchCompetitionMatches(comp, datesParam)))
+    .then((results) => [].concat(...results));
 }
 
 // Live match events (goals, bookings, substitutions): ESPN's scoreboard
@@ -654,74 +698,180 @@ function matchEventsHTML(events) {
 }
 
 function matchRowHTML(m) {
-  const smallText = m.state === 'in' ? m.clock : m.state === 'post' ? 'Full-time' : 'Upcoming';
+  const kickoffLabel = m.kickoff.toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' }) + ' UTC';
   let statusHTML;
   if (m.state === 'in') {
-    statusHTML = '<div class="match-status live-status"><span></span> Live</div>';
+    statusHTML = `<div class="match-status live-status"><span></span> ${m.clock || 'Live'}</div>`;
   } else if (m.state === 'post') {
     statusHTML = '<div class="match-status upcoming"><span></span> Full-time</div>';
   } else {
-    const kickoffLabel = m.kickoff.toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' }) + ' UTC';
     statusHTML = `<div class="match-status upcoming"><span></span> ${kickoffLabel}</div>`;
   }
+  const smallText = m.state === 'in' ? (m.clock || 'Live') : m.state === 'post' ? 'Full-time' : 'Upcoming';
   const scoreHTML = m.state === 'pre' ? '<strong>VS</strong>' : `<strong>${m.homeScore} <small>—</small> ${m.awayScore}</strong>`;
+  const kickoffNoteHTML = m.state !== 'pre' ? `<small class="match-kickoff-note">Kick-off ${kickoffLabel}</small>` : '';
   return `<article class="match-row${m.events && m.events.length ? ' has-events' : ''}">
     <div class="competition"><span class="competition-badge ${m.competitionBadge}">${m.competitionCode}</span><div><strong>${m.competitionName}</strong><small>${smallText}</small></div></div>
     <div class="teams">${teamSpan(m.home)}${scoreHTML}${teamSpan(m.away)}</div>
     ${statusHTML}
+    ${kickoffNoteHTML}
     ${matchEventsHTML(m.events)}
   </article>`;
 }
 
-function loadLiveScores() {
-  Promise.all(LIVE_COMPETITIONS.map(fetchScoreboard)).then((results) => {
-    const all = [].concat(...results);
-    if (!all.length) return;
+// Renders a flat match list as sections grouped by competition - shared
+// by Live Scores and Fixtures so "grouped by competition" behaves the
+// same way in both places.
+function renderMatchGroups(container, matches, emptyMessage) {
+  if (!container) return;
+  if (!matches.length) {
+    container.innerHTML = `<p class="lede" style="margin:0;font-size:12px">${emptyMessage}</p>`;
+    return;
+  }
+  const order = [];
+  const groups = {};
+  matches.forEach((m) => {
+    if (!groups[m.competitionName]) {
+      groups[m.competitionName] = { badge: m.competitionBadge, code: m.competitionCode, items: [] };
+      order.push(m.competitionName);
+    }
+    groups[m.competitionName].items.push(m);
+  });
+  container.innerHTML = order.map((name) => {
+    const g = groups[name];
+    return `<div class="competition-group">
+      <div class="competition-group-head"><span class="competition-badge ${g.badge}">${g.code}</span><strong>${name}</strong><span class="competition-group-count">${g.items.length} match${g.items.length === 1 ? '' : 'es'}</span></div>
+      <div class="match-list">${g.items.map((m) => matchRowHTML(m)).join('')}</div>
+    </div>`;
+  }).join('');
+  refreshIcons();
+}
+
+// ---- Live Scores: one day at a time, grouped by competition, with a
+// date nav to browse other days. Auto-refreshes every 60s only while
+// looking at today - past/future days don't change in real time.
+let liveScoresDate = new Date();
+
+function loadLiveScoresForDate(date) {
+  const label = document.querySelector('#live-date-label');
+  if (label) label.textContent = dateNavLabel(date);
+
+  fetchMatchesForDates(ymd(date)).then((all) => {
     const rank = { in: 0, pre: 1, post: 2 };
     all.sort((a, b) => (rank[a.state] - rank[b.state]) || (a.kickoff - b.kickoff));
-
     const liveMatches = all.filter((m) => m.state === 'in');
 
     function render() {
+      renderMatchGroups(document.querySelector('#live-scores-groups'), all, 'No matches scheduled on this date.');
+
+      if (isSameUTCDay(date, new Date())) {
+        const dashboardList = document.querySelector('#dashboard-live-list');
+        if (dashboardList) dashboardList.innerHTML = all.slice(0, 3).map((m) => matchRowHTML(m)).join('');
+      }
+
       const liveCount = liveMatches.length;
-
-      const dashboardList = document.querySelector('#dashboard-live-list');
-      if (dashboardList) dashboardList.innerHTML = all.slice(0, 3).map(matchRowHTML).join('');
-
-      const fullList = document.querySelector('#live-scores-list');
-      if (fullList) fullList.innerHTML = all.slice(0, 12).map(matchRowHTML).join('');
-
       const statusText = document.querySelector('#live-status-text');
       if (statusText) statusText.textContent = liveCount > 0 ? `${liveCount} match${liveCount === 1 ? '' : 'es'} live` : 'No matches live right now';
-
       const navCount = document.querySelector('#live-nav-count');
       if (navCount) navCount.textContent = liveCount;
-
       const metricCount = document.querySelector('#live-metric-count');
       const metricSub = document.querySelector('#live-metric-sub');
       if (metricCount) metricCount.textContent = liveCount;
       if (metricSub) metricSub.innerHTML = liveCount > 0
         ? '<i data-lucide="trending-up"></i> Updating live'
-        : `${all.length} scheduled this gameweek`;
-
+        : `${all.length} scheduled today`;
       const badge = document.querySelector('#live-scores-badge');
       if (badge) badge.hidden = false;
-
       refreshIcons();
     }
 
-    if (!liveMatches.length) {
-      render();
-      return;
-    }
+    if (!liveMatches.length) { render(); return; }
     Promise.all(liveMatches.map((m) => fetchMatchEvents(m).then((events) => { m.events = events; })))
       .then(render)
       .catch(render);
   }).catch((err) => { console.error('[YobraPulse] live scores failed to load, showing fallback content', err); });
 }
 
-loadLiveScores();
-setInterval(loadLiveScores, 60000);
+function refreshLiveScoresView() {
+  loadLiveScoresForDate(liveScoresDate);
+}
+
+document.querySelectorAll('#live-date-prev').forEach((el) => el.addEventListener('click', () => { liveScoresDate = addDays(liveScoresDate, -1); refreshLiveScoresView(); }));
+document.querySelectorAll('#live-date-next').forEach((el) => el.addEventListener('click', () => { liveScoresDate = addDays(liveScoresDate, 1); refreshLiveScoresView(); }));
+document.querySelectorAll('#live-date-today').forEach((el) => el.addEventListener('click', () => { liveScoresDate = new Date(); refreshLiveScoresView(); }));
+
+refreshLiveScoresView();
+setInterval(() => {
+  if (isSameUTCDay(liveScoresDate, new Date())) refreshLiveScoresView();
+}, 60000);
+
+// ---- Fixtures: browse by date + competition (default), or search a
+// specific team's schedule (a -14d..+70d window across all competitions,
+// since ESPN's own per-team schedule endpoint returned nothing during
+// pre-season testing - a wide scoreboard range proved reliable instead).
+let fixturesDate = new Date();
+let fixturesCompetitionFilter = '';
+let fixturesTeamFilter = '';
+
+function competitionsForFilter() {
+  return fixturesCompetitionFilter
+    ? TRACKED_COMPETITIONS.filter((c) => c.slug === fixturesCompetitionFilter)
+    : TRACKED_COMPETITIONS;
+}
+
+function renderFixtures() {
+  const dateNav = document.querySelector('#fixtures-date-nav');
+  const heading = document.querySelector('#fixtures-heading');
+  const kicker = document.querySelector('#fixtures-kicker');
+  const badge = document.querySelector('#fixtures-live-badge');
+
+  if (fixturesTeamFilter) {
+    if (dateNav) dateNav.style.visibility = 'hidden';
+    trackedTeamsPromise.then((teams) => {
+      const t = teams.find((x) => x.id === fixturesTeamFilter);
+      if (heading) heading.textContent = t ? `${t.name} fixtures` : 'Team fixtures';
+      if (kicker) kicker.textContent = 'Next 70 days & last 14 days';
+    });
+    const start = addDays(new Date(), -14);
+    const end = addDays(new Date(), 70);
+    fetchMatchesForDates(`${ymd(start)}-${ymd(end)}`, competitionsForFilter()).then((all) => {
+      const filtered = all.filter((m) => m.homeId === fixturesTeamFilter || m.awayId === fixturesTeamFilter);
+      filtered.sort((a, b) => a.kickoff - b.kickoff);
+      renderMatchGroups(document.querySelector('#fixtures-groups'), filtered, 'No fixtures found for this team in the current window.');
+      if (badge) badge.hidden = false;
+    });
+    return;
+  }
+
+  if (dateNav) dateNav.style.visibility = 'visible';
+  if (heading) heading.textContent = 'Fixtures';
+  if (kicker) kicker.textContent = 'Grouped by competition';
+  const label = document.querySelector('#fixtures-date-label');
+  if (label) label.textContent = dateNavLabel(fixturesDate);
+
+  fetchMatchesForDates(ymd(fixturesDate), competitionsForFilter()).then((all) => {
+    all.sort((a, b) => a.kickoff - b.kickoff);
+    renderMatchGroups(document.querySelector('#fixtures-groups'), all, 'No fixtures scheduled on this date.');
+    if (badge) badge.hidden = false;
+  });
+}
+
+document.querySelectorAll('#fixtures-date-prev').forEach((el) => el.addEventListener('click', () => { fixturesDate = addDays(fixturesDate, -1); renderFixtures(); }));
+document.querySelectorAll('#fixtures-date-next').forEach((el) => el.addEventListener('click', () => { fixturesDate = addDays(fixturesDate, 1); renderFixtures(); }));
+document.querySelectorAll('#fixtures-date-today').forEach((el) => el.addEventListener('click', () => { fixturesDate = new Date(); renderFixtures(); }));
+
+const fixturesCompetitionSelect = document.querySelector('#fixtures-competition-filter');
+if (fixturesCompetitionSelect) fixturesCompetitionSelect.addEventListener('change', (e) => { fixturesCompetitionFilter = e.target.value; renderFixtures(); });
+
+const fixturesTeamSelect = document.querySelector('#fixtures-team-filter');
+if (fixturesTeamSelect) {
+  trackedTeamsPromise.then((teams) => {
+    fixturesTeamSelect.innerHTML = '<option value="">All teams</option>' + teams.map((t) => `<option value="${t.id}">${t.name} (${t.league})</option>`).join('');
+  });
+  fixturesTeamSelect.addEventListener('change', (e) => { fixturesTeamFilter = e.target.value; renderFixtures(); });
+}
+
+renderFixtures();
 
 function setupPlayerComparison(pool, playersMap) {
   const selectA = document.querySelector('#compare-a');

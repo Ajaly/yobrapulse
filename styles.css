@@ -591,6 +591,102 @@ h2 {
 .match-event-text {
   flex:1
 }
+.match-kickoff-note {
+  grid-column:1 / -1;
+  font-size:10px;
+  color:#75838c;
+  margin-top:2px
+}
+.ll {
+  color:#e8a33d;
+  background:#3d2c14
+}
+.bl {
+  color:#ff7a7a;
+  background:#3d1f1f
+}
+.l1 {
+  color:#5ad1c9;
+  background:#163634
+}
+.date-nav {
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:16px
+}
+.date-nav-btn {
+  display:grid;
+  place-items:center;
+  width:32px;
+  height:32px;
+  background:var(--panel);
+  border:1px solid #273139;
+  border-radius:7px;
+  color:#9ca8ae
+}
+.date-nav-btn:hover {
+  background:#202a30;
+  color:#e6ece9
+}
+.date-nav-btn svg {
+  width:16px
+}
+.date-nav-label {
+  background:transparent;
+  color:#77d9a2;
+  font-size:11px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+  padding:6px 10px;
+  border:1px solid #273139;
+  border-radius:7px
+}
+.date-nav-label:hover {
+  background:var(--panel)
+}
+.date-nav-value {
+  font-size:14px;
+  font-weight:600;
+  color:#e6ece9
+}
+.fixtures-filters {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:12px;
+  margin-bottom:16px
+}
+.filter-select {
+  background:#202a30;
+  color:#e6ece9;
+  border:1px solid #354148;
+  border-radius:7px;
+  padding:9px 12px;
+  outline:none;
+  font-size:12.5px
+}
+.competition-group {
+  margin-bottom:22px
+}
+.competition-group:last-child {
+  margin-bottom:0
+}
+.competition-group-head {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:6px
+}
+.competition-group-head strong {
+  font-size:13px
+}
+.competition-group-count {
+  color:#75838c;
+  font-size:10.5px;
+  margin-left:auto
+}
 .chart-wrap {
   height:190px;
   display:flex;
@@ -1639,6 +1735,13 @@ body.modal-open {
 @media(max-width:700px) {
   .team-grid {
     grid-template-columns:1fr
+  }
+  .date-nav,.fixtures-filters {
+    flex-wrap:wrap
+  }
+  .filter-select {
+    flex:1;
+    min-width:140px
   }
   .sidebar {
     display:none
