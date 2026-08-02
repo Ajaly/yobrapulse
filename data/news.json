@@ -1,18 +1,36 @@
 {
-  "generatedAt": "2026-08-02T14:56:40.662006+00:00",
+  "generatedAt": "2026-08-02T15:58:19.013037+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "AIG Women's Open LIVE! Woad chases Noh as Hull makes NIGHTMARE start",
+      "title": "AIG Women's Open LIVE! Noh bogeys give Woad, Hull hope in major thriller",
       "description": "",
       "link": "https://www.skysports.com/golf/live-blog/12040/13568986/aig-womens-open-live-latest-scores-updates-highlights-from-final-round-as-lottie-woad-charley-hull-chase-major-win",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T14:23:00+00:00"
+      "pubDateISO": "2026-08-02T16:40:00+00:00"
+    },
+    {
+      "title": "Blue Bolt confirms superiority over Precise at Deauville",
+      "description": "Blue Bolt continued her faultless campaign with victory in the Prix Rothschild at Deauville.",
+      "link": "https://www.skysports.com/racing/news/12040/13569200/prix-rothschild-blue-bolt-confirms-superiority-over-precise-in-deauville-group-1",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T16:28:00+00:00"
+    },
+    {
+      "title": "Nordqvist 'crushed' by juggle of mid-major Solheim calls",
+      "description": "Team Europe captain Anna Nordqvist has admitted juggling playing with Solheim Cup captaincy during the qualification campaign has been tougher than expected.",
+      "link": "https://www.skysports.com/golf/news/12040/13569173/solheim-cup-team-europe-captain-anna-nordqvist-discusses-struggles-balancing-playing-during-qualification-campaign",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T16:00:00+00:00"
     },
     {
       "title": "Draper calls for patience amid 'perfect storm' of injuries",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T06:00:32+00:00"
-    },
-    {
-      "title": "What happened to star signings your club never made?",
-      "description": "BBC Sport takes a look at some star players who were close to moving to the Premier League, only for the deals to fall through.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5y32lgr67no",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-02T05:42:58+00:00"
-    },
-    {
-      "title": "Wakefield see off Dragons to climb back to second",
-      "description": "Highlights from Catalans Dragons against Wakefield Trinity in Super League.",
-      "link": "https://www.skysports.com/watch/video/13569121/catalans-dragons-12-32-wakefield-trinity-super-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T00:33:00+00:00"
     }
   ]
 }
