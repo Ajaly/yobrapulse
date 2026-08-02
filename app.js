@@ -553,30 +553,63 @@ const LIVE_COMPETITIONS = [
   { slug: 'eng.1', badge: 'pl', code: 'PL', name: 'Premier League' },
   { slug: 'uefa.champions', badge: 'cl', code: 'CL', name: 'Champions League' },
   { slug: 'ita.1', badge: 'la', code: 'SA', name: 'Serie A' },
+  { slug: 'club.friendly', badge: 'fr', code: 'FR', name: 'Club friendly', filterToTrackedTeams: true },
 ];
+
+// ESPN's "club.friendly" competition is a single global bucket of every
+// pre-season club friendly worldwide, not scoped to any league - so it's
+// filtered below to only matches involving a club from the five leagues
+// asked for. Filtering by real ESPN team id (not name) since matching
+// team names across two different ESPN endpoints is fragile (kit
+// sponsors, short names etc. can differ); ids are stable. Fetched once
+// per session, not on every 60s poll - team rosters don't change mid-session.
+const TRACKED_LEAGUES_FOR_FRIENDLIES = ['eng.1', 'esp.1', 'ita.1', 'ger.1', 'fra.1'];
+
+function fetchLeagueTeamIds(slug) {
+  return fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/teams?limit=50`)
+    .then((res) => (res.ok ? res.json() : Promise.reject(new Error('teams ' + res.status))))
+    .then((data) => {
+      const teams = (((data.sports || [])[0] || {}).leagues || [{}])[0].teams || [];
+      return teams.map((t) => String(t.team.id));
+    })
+    .catch((err) => { console.warn(`[YobraPulse] team list fetch failed for ${slug}`, err); return []; });
+}
+
+const trackedTeamIdsPromise = Promise.all(TRACKED_LEAGUES_FOR_FRIENDLIES.map(fetchLeagueTeamIds))
+  .then((lists) => new Set([].concat(...lists)));
 
 function fetchScoreboard(comp) {
   return fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${comp.slug}/scoreboard`)
     .then((res) => (res.ok ? res.json() : Promise.reject(new Error('scoreboard ' + res.status))))
-    .then((data) => (data.events || []).map((ev) => {
-      const c = ev.competitions[0];
-      const home = c.competitors.find((t) => t.homeAway === 'home');
-      const away = c.competitors.find((t) => t.homeAway === 'away');
-      return {
-        id: ev.id,
-        leagueSlug: comp.slug,
-        competitionCode: comp.code,
-        competitionBadge: comp.badge,
-        competitionName: comp.name,
-        home: home.team.shortDisplayName,
-        away: away.team.shortDisplayName,
-        homeScore: home.score,
-        awayScore: away.score,
-        state: c.status.type.state,
-        clock: c.status.type.shortDetail,
-        kickoff: new Date(ev.date),
-      };
-    }))
+    .then((data) => {
+      const events = data.events || [];
+      const build = (trackedIds) => events
+        .filter((ev) => {
+          if (!comp.filterToTrackedTeams) return true;
+          const c = ev.competitions[0];
+          return c.competitors.some((t) => trackedIds.has(String(t.team.id)));
+        })
+        .map((ev) => {
+          const c = ev.competitions[0];
+          const home = c.competitors.find((t) => t.homeAway === 'home');
+          const away = c.competitors.find((t) => t.homeAway === 'away');
+          return {
+            id: ev.id,
+            leagueSlug: comp.slug,
+            competitionCode: comp.code,
+            competitionBadge: comp.badge,
+            competitionName: comp.name,
+            home: home.team.shortDisplayName,
+            away: away.team.shortDisplayName,
+            homeScore: home.score,
+            awayScore: away.score,
+            state: c.status.type.state,
+            clock: c.status.type.shortDetail,
+            kickoff: new Date(ev.date),
+          };
+        });
+      return comp.filterToTrackedTeams ? trackedTeamIdsPromise.then(build) : build(new Set());
+    })
     .catch((err) => { console.warn(`[YobraPulse] scoreboard fetch failed for ${comp.slug}`, err); return []; });
 }
 
