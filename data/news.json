@@ -1,11 +1,101 @@
 {
-  "generatedAt": "2026-08-03T16:17:04.265163+00:00",
+  "generatedAt": "2026-08-03T18:45:19.909409+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
+      "title": "Eala beats Pegula at DC Open to claim first WTA Tour title",
+      "description": "Rising Filipina star Alexandra Eala came from a set down against Jessica Pegula to claim the first WTA Tour singles title of her career at the DC Open.",
+      "link": "https://www.skysports.com/tennis/news/12040/13569516/alexandra-eala-rising-filipina-star-beats-jessica-pegula-in-dc-open-final-to-claim-first-wta-tour-title",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T19:20:00+00:00"
+    },
+    {
+      "title": "Serena to resume comeback alongside sister Venus in Cincinnati",
+      "description": "Serena and Venus Williams are set to play at the Cincinnati Open after being awarded a wild card for the women's doubles draw.",
+      "link": "https://www.skysports.com/tennis/news/12040/13569496/serena-williams-given-wild-card-for-cincinnati-open-womens-doubles-alongside-sister-venus-as-comeback-continues",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T18:50:00+00:00"
+    },
+    {
+      "title": "FREE STREAM: Watch The Transfer Show on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-03T18:45:00+00:00"
+    },
+    {
+      "title": "Can Rashford be reintergrated at Man Utd?",
+      "description": "Marcus Rashford's future at Manchester United remains up in the air.",
+      "link": "https://www.skysports.com/football/news/12040/13569445/man-utd-transfers-can-marcus-rashford-be-reintegrated-at-old-trafford-or-will-he-leave-before-the-end-of-the-window",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T18:42:00+00:00"
+    },
+    {
+      "title": "Graham stars as Welsh Fire upset Southern Brave in last-ball thriller",
+      "description": "Welsh Fire turned the form table on its head to defeat The Hundred table-toppers Southern Brave in a last-ball thriller in Cardiff.",
+      "link": "https://www.skysports.com/cricket/news/12040/13569492/the-hundred-welsh-fire-upset-southern-brave-in-last-ball-thriller-as-heather-graham-stars-with-bat-and-ball",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T18:40:00+00:00"
+    },
+    {
+      "title": "West Ham co-owner Sullivan advised to stay away from home matches",
+      "description": "London Stadium recommends West Ham's co-owner stay away amid fears of fan unrest following sexual misconduct claims.",
+      "link": "https://www.bbc.co.uk/news/articles/c77gzjjmgleo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T18:21:53+00:00"
+    },
+    {
+      "title": "Raducanu to miss US Open",
+      "description": "Emma Raducanu's stress fracture will force her to miss the US Open.",
+      "link": "https://www.skysports.com/tennis/news/12040/13569501/emma-raducanu-former-champion-to-miss-2026-us-open-with-stress-fracture-in-right-leg-as-injury-woes-continue",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T18:00:00+00:00"
+    },
+    {
+      "title": "Hogh misses big chance on debut as Celtic kick off season vs Dundee LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/celtic-vs-dundee/live/558338",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T18:00:00+00:00"
+    },
+    {
+      "title": "Real to resume talks with Arsenal target Vinicius Jr",
+      "description": "Real Madrid and Vinicius Jr will resume contract talks this week as Arsenal wait in the wings.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckge3g8dl95o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T17:30:32+00:00"
+    },
+    {
+      "title": "Hearn wants \u00a31m per-year deal for Pollock from Northampton",
+      "description": "England star Henry Pollock is expected to seek a significant pay rise to remain at Northampton after agent Eddie Hearn said he is worth at least &#163;1 million a year.",
+      "link": "https://www.skysports.com/rugby-union/news/12040/13569479/henry-pollock-eddie-hearn-says-england-star-is-worth-1m-per-year-deal-amid-contract-talks-with-northampton",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-03T17:30:00+00:00"
+    },
+    {
       "title": "Palace sign Tottenham defender Bartrip",
       "description": "Newly promoted Women's Super League club Crystal Palace have signed Tottenham defender Molly Bartrip for an undisclosed fee.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c0qvpzd80qlo",
@@ -22,96 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-03T16:00:37+00:00"
-    },
-    {
-      "title": "'Couldn't turn it down' - Chelsea confirm Henderson signing",
-      "description": "Chelsea have confirmed the signing of England midfielder Jordan Henderson.",
-      "link": "https://www.skysports.com/football/news/12040/13569179/jordan-henderson-transfer-news-chelsea-confirm-signing-of-midfielder-following-brentford-exit",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-03T16:00:00+00:00"
-    },
-    {
-      "title": "Como agree \u00a331m deal to sign Chalobah from Chelsea",
-      "description": "Como agree a deal worth more than \u00a330m to sign Chelsea defender Trevoh Chalobah.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgljgk65j25o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-03T15:39:32+00:00"
-    },
-    {
-      "title": "All you need to know about the 2026 Solheim Cup",
-      "description": "Where and when will the next Solheim Cup take place? How does the scoring system work? Which players can qualify? All you need to know about the 2026 edition...",
-      "link": "https://www.skysports.com/golf/news/12040/13313909/solheim-cup-2026-teams-captains-venue-format-and-how-players-will-qualify-for-europe-vs-usa-in-the-netherlands",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-03T15:38:00+00:00"
-    },
-    {
-      "title": "Ex-Man City striker Dzeko, 40, pens new Schalke deal",
-      "description": "Bosnia and Herzegovina captain Edin Dzeko, 40, signs a one-year contract extension at newly promoted Bundesliga side Schalke.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwymplydl82o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-03T15:37:14+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-03T15:29:19+00:00"
-    },
-    {
-      "title": "England midfielder Henderson joins Chelsea",
-      "description": "Free agent Jordan Henderson signs a two-year deal with Chelsea after his contract with Premier League rivals Brentford is mutually terminated.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62qnnrzqk5o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-03T15:17:56+00:00"
-    },
-    {
-      "title": "Maguire handed Solheim Cup return as Europe's captain's picks revealed",
-      "description": "Leona Maguire has been included among Team Europe's captain's picks for next month's Solheim Cup, with Anna Nordqvist adding three more rookies to her line-up.",
-      "link": "https://www.skysports.com/golf/news/12040/13569331/solheim-cup-2026-leona-maguire-handed-team-europe-captains-pick-as-anna-nordqvist-adds-three-rookies-to-her-line-up",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-03T15:15:00+00:00"
-    },
-    {
-      "title": "Why Akliouche? Monaco man is a pressing monster as well as a creator",
-      "description": "\"If you have a player like that who puts in so much defensive effort &#8211; not just tracking back but also pushing forward since he is the one who wins back the most balls high up the pitch in Ligue 1 &#8211; it means he is an atypical and modern player.\"",
-      "link": "https://www.skysports.com/football/news/12040/13566394/maghnes-akliouche-transfer-to-psg-monaco-forwards-pressing-is-as-good-as-his-creativity-and-makes-him-a-big-asset",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-03T15:00:00+00:00"
-    },
-    {
-      "title": "FA set to withdraw support for Infantino as UEFA considers legal action",
-      "description": "The Football Association is set to withdraw support for FIFA president Gianni Infantino.",
-      "link": "https://www.skysports.com/football/news/12040/13569337/gianni-infantino-english-fa-set-to-withdraw-support-for-fifa-president-as-uefa-considers-legal-action",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-03T14:45:00+00:00"
-    },
-    {
-      "title": "Have Man Utd lost faith in their women's team?",
-      "description": "With a month to go before the start of the Women's Super League season, Manchester United are without a manager and have a thin squad.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c78gn8e3v47o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-03T14:16:18+00:00"
     }
   ]
 }
