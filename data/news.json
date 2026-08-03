@@ -1,18 +1,99 @@
 {
-  "generatedAt": "2026-08-03T02:09:03.679600+00:00",
+  "generatedAt": "2026-08-03T06:14:13.745490+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Tale of two halves leaves Iraola with plenty to ponder",
-      "description": "On the overnight flight from Chicago back to England, Andoni Iraola will have plenty of thinking to do after the conclusion of Liverpool's pre-season US tour.",
+      "title": "'Just me and him' - McKenna receives warning ahead of title fight",
+      "description": "Etinosa Oliha says Aaron McKenna cannot offer \"anything new\" in their world title fight and has vowed to inflict a punishing defeat on the Irishman.",
+      "link": "https://www.skysports.com/boxing/news/12040/13569170/aaron-mckenna-etinosa-oliha-gives-irish-boxer-warning-ahead-of-ibf-world-title-fight-in-dublin-on-august-8",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T07:00:00+00:00"
+    },
+    {
+      "title": "Pegula leads Eala as rain suspends DC Open final",
+      "description": "Jessica Pegula holds a one-set lead over Alexandra Eala in a rain-affected DC Open final that saw play suspended until Monday.",
+      "link": "https://www.skysports.com/tennis/news/12040/13569195/jessica-pegula-leads-alexandra-eala-in-rain-affected-dc-open-final-as-kristina-liutova-16-wins-memphis-classic",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T06:53:00+00:00"
+    },
+    {
+      "title": "Thorbjornsen shoots 63 to win maiden PGA Tour title at Rocket Classic",
+      "description": "Highlights from the final round of the Rocket Classic at the Detroit Golf Club in Michigan.",
+      "link": "https://www.skysports.com/watch/video/13569300/rocket-classic-day-four-highlights-michael-thorbjornsen-shoots-63-to-win-maiden-pga-tour-title-at-rocket-classic",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T06:17:00+00:00"
+    },
+    {
+      "title": "Who am I? Guess Premier League star No 14",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5y3k026j1zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T06:06:03+00:00"
+    },
+    {
+      "title": "Semenyo hails Maresca style of play as 'music to my ears'",
+      "description": "Manchester City forward Antoine Semenyo hails new manager Enzo Maresca's style of play as \"music to my ears\" after showcasing early signs of his role under the Italian.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cglj1zz5g92o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-03T06:00:26+00:00"
+    },
+    {
+      "title": "Will Verstappen, Alonso trigger F1 'silly season' chaos?",
+      "description": "With Formula 1's summer break upon us, the sport's 'silly season' of speculation around - and possible movement in - the driver market is officially under way.",
+      "link": "https://www.skysports.com/f1/news/12040/13568774/how-max-verstappen-and-fernando-alonso-could-trigger-formula-1-silly-season-chaos-if-either-departs-current-seat",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T06:00:00+00:00"
+    },
+    {
+      "title": "Today on Sky Sports Racing: Dark Cloud Rising and Lord Roxby clash at Ripon",
+      "description": "We have a full day of action on Monday with Flat action from Ripon and Windsor, live on Sky Sports Racing...",
+      "link": "https://www.skysports.com/racing/news/12040/13569078/today-on-sky-sports-racing-ripon-and-windsor-feature-live-on-monday",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T06:00:00+00:00"
+    },
+    {
+      "title": "'Nothing is strange' - how clubs prepare for the transfer window",
+      "description": "Premier League clubs have already spent more than \u00a31bn in the transfer window, but are expected to only get busier.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c87nxvyq4yqo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-03T05:43:49+00:00"
+    },
+    {
+      "title": "Liverpool ship four second-half goals to leave Iraola with much to ponder",
+      "description": "Liverpool conclude their pre-season US tour with a 4-2 defeat against Leeds, having held a two-goal half-time lead in Chicago.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cr7k03gy028o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T23:18:36+00:00"
+    },
+    {
+      "title": "Thorbjornsen wins first PGA Tour title by two shots at Rocket Classic",
+      "description": "Michael Thorbjornsen made a 26-foot putt for birdie on his last hole to shoot a seven-under 63 and reach 18 under to win his first PGA Tour title by two shots at the final Rocket Classic on Sunday.&#160;",
+      "link": "https://www.skysports.com/golf/news/12040/13569197/rocket-classic-michael-thorbjornsen-wins-first-pga-tour-title-by-two-shots-at-the-eighth-and-final-staging-of-event",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-02T23:00:00+00:00"
     },
     {
       "title": "Papers: Man Utd edging closer to winning race for Hall",
@@ -31,87 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-02T21:31:00+00:00"
-    },
-    {
-      "title": "Spurs make Osimhen approach - Monday's gossip",
-      "description": "Tottenham make an approach for Victor Osimhen, Atletico Madrid consider a move for Manchester City winger Jack Grealish, Liverpool forward Cody Gakpo has positive talks with Spurs, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn7n66edplno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T20:51:23+00:00"
-    },
-    {
-      "title": "Highlights: Kuwaki wins first major title in tense play-off",
-      "description": "Highlights from the final day of the AIG Women's Open at Royal Lytham & St Annes.",
-      "link": "https://www.skysports.com/watch/video/13569261/aig-womens-open-day-four-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T20:26:00+00:00"
-    },
-    {
-      "title": "How Johansson is rising to daunting Motherwell challenge",
-      "description": "With significant departures on and off the field, new Motherwell boss Alfred Johansson appeared to have a daunting task on his hands this season, but he has started in fine style.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2elj1ldgp1o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-02T20:24:15+00:00"
-    },
-    {
-      "title": "How Johansson is rising to daunting Motherwell challenge",
-      "description": "With significant departures on and off the field, new Motherwell boss Alfred Johansson appeared to have a daunting task on his hands this season, but he has started in fine style.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2elj1ldgp1o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-02T20:24:15+00:00"
-    },
-    {
-      "title": "Liverpool collapse as Leeds come from 2-0 down to win",
-      "description": "Liverpool threw away a two-goal lead in spectacular fashion as Leeds won the final match of both teams' United States tour 4-2.",
-      "link": "https://www.skysports.com/football/liverpool-vs-leeds-united/report/554987",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T20:04:00+00:00"
-    },
-    {
-      "title": "Game of the season in Premiership's opening weekend?",
-      "description": "Newly-promoted St Johnstone block out summer \"noise\" to thrill fans with a goal-laden win over Kilmarnock on the Premiership opening weekend.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8l46wjdpjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T19:55:37+00:00"
-    },
-    {
-      "title": "Game of the season in Premiership's opening weekend?",
-      "description": "Newly-promoted St Johnstone block out summer \"noise\" to thrill fans with a goal-laden win over Kilmarnock on the Premiership opening weekend.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8l46wjdpjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T19:55:37+00:00"
-    },
-    {
-      "title": "Boxer Reeves in stable but critical condition after suffering knockout",
-      "description": "Boxer Lee Reeves is in a \"stable but critical condition\" after suffering a knockout in his fight with Gary Cully at the 3Arena in Dublin on Saturday night.",
-      "link": "https://www.skysports.com/boxing/news/12040/13569252/lee-reeves-boxer-in-critical-but-stable-condition-after-suffering-knockout-in-fight-with-gary-cully",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-02T19:34:00+00:00"
-    },
-    {
-      "title": "Kuwaki pips Henseleit to Women's Open play-off win after extraordinary finish",
-      "description": "Shiho Kuwaki snatched a dramatic play-off victory over Esther Henseleit after an extraordinary finish to the AIG Women&#8217;s Open, as Charley Hull and Lottie Woad fell short on the final day.",
-      "link": "https://www.skysports.com/golf/news/12040/13569167/aig-womens-open-shiho-kuwaki-snatches-play-off-win-over-esther-henseleit-after-remarkable-finish-at-royal-lytham",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-02T19:30:00+00:00"
     }
   ]
 }
