@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-03T18:45:19.909409+00:00",
+  "generatedAt": "2026-08-03T20:22:12.898722+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Perfect ball' | Nygren nods Celtic in front from Tierney's superb delivery",
+      "description": "Benjamin Nygren scores Celtic's first goal of the season with a header from a great cross from Kieran Tierney to give the home side the lead against Dundee.",
+      "link": "https://www.skysports.com/watch/video/13569537/benjamin-nygren-puts-celtic-in-from-with-a-header-after-a-perfect-cross-from-kieran-tierney",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T20:45:00+00:00"
+    },
+    {
+      "title": "West Ham co-owner Sullivan advised to stay away from home matches",
+      "description": "London Stadium recommends West Ham's co-owner stay away amid fears of fan unrest following sexual misconduct claims.",
+      "link": "https://www.bbc.co.uk/news/articles/c77gzjjmgleo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T20:09:46+00:00"
+    },
     {
       "title": "Eala beats Pegula at DC Open to claim first WTA Tour title",
       "description": "Rising Filipina star Alexandra Eala came from a set down against Jessica Pegula to claim the first WTA Tour singles title of her career at the DC Open.",
@@ -22,15 +40,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-03T18:50:00+00:00"
-    },
-    {
-      "title": "FREE STREAM: Watch The Transfer Show on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-03T18:45:00+00:00"
     },
     {
       "title": "Can Rashford be reintergrated at Man Utd?",
@@ -51,15 +60,6 @@
       "pubDateISO": "2026-08-03T18:40:00+00:00"
     },
     {
-      "title": "West Ham co-owner Sullivan advised to stay away from home matches",
-      "description": "London Stadium recommends West Ham's co-owner stay away amid fears of fan unrest following sexual misconduct claims.",
-      "link": "https://www.bbc.co.uk/news/articles/c77gzjjmgleo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-03T18:21:53+00:00"
-    },
-    {
       "title": "Raducanu to miss US Open",
       "description": "Emma Raducanu's stress fracture will force her to miss the US Open.",
       "link": "https://www.skysports.com/tennis/news/12040/13569501/emma-raducanu-former-champion-to-miss-2026-us-open-with-stress-fracture-in-right-leg-as-injury-woes-continue",
@@ -69,7 +69,7 @@
       "pubDateISO": "2026-08-03T18:00:00+00:00"
     },
     {
-      "title": "Hogh misses big chance on debut as Celtic kick off season vs Dundee LIVE!",
+      "title": "Dundee go close to late leveller at Celtic LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/celtic-vs-dundee/live/558338",
       "source": "Sky Sports",
