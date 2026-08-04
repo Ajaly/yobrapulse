@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-08-04T19:22:03.383864+00:00",
+  "generatedAt": "2026-08-04T21:04:49.901349+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "FIFA boss Infantino to hold crisis meeting with senior staff tomorrow",
+      "title": "RECORD-BREAKERS! Best of Sunrisers' 241-run innings!",
+      "description": "Watch as Sunrisers Leeds clear the current standing highest total Hundred runs against London Spirit.",
+      "link": "https://www.skysports.com/watch/video/13569863/the-hundred-sunrisers-leeds-smash-hundred-runs-record-by-seventeen",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-04T21:12:00+00:00"
+    },
+    {
+      "title": "Forest target Reijnders - Wednesday's gossip",
+      "description": "Nottingham Forest eye Tijjani Reijnders, Spurs want Savinho and Nicolas Jackson, Real Madrid resume Vinicius Jr contract talks, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy8mvgp179po",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-04T20:52:35+00:00"
+    },
+    {
+      "title": "Several athletes 'unaccounted for' after Commonwealth Games in Glasgow",
+      "description": "Several athletes are \"unaccounted for\" after the Glasgow 2026 Commonwealth Games, according to Police Scotland.",
+      "link": "https://www.skysports.com/athletics/news/12040/13569853/commonwealth-games-several-athletes-unaccounted-for-after-glasgow-event-according-to-police-scotland",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-04T20:20:00+00:00"
+    },
+    {
+      "title": "Infantino calls executive meeting as criticism mounts",
+      "description": "Gianni Infantino summons senior leaders to a meeting on Wednesday, after facing more fierce criticism of his plan to sell off Fifa's commercial and event operations.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2k7p4nxdy4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-04T20:13:03+00:00"
+    },
+    {
+      "title": "Infantino to hold crisis meeting with senior FIFA staff",
       "description": "Under-pressure FIFA president Gianni Infantino will hold a crisis meeting with senior staff in Morocco on Wednesday.",
       "link": "https://www.skysports.com/football/news/12040/13569849/gianni-infantino-fifa-president-asks-senior-staff-to-attend-crisis-meeting-in-morocco-on-wednesday",
       "source": "Sky Sports",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-04T18:47:49+00:00"
-    },
-    {
-      "title": "Tough Champions League challenge awaits Hearts and Rangers",
-      "description": "Heart of Midlothan and Rangers start their new season in the Champions League qualifying group stage on Wednesday, but how are they are prepared?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8rn01gd4jdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-04T18:47:49+00:00"
-    },
-    {
-      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-04T18:45:00+00:00"
-    },
-    {
-      "title": "Falcons make Robinson highest-paid running back in NFL history",
-      "description": "The Atlanta Falcons have agreed to a three-year contract extension with Bijan Robinson that will make him the highest-paid running back in NFL history.",
-      "link": "https://www.skysports.com/nfl/news/12040/13569829/atlanta-falcons-agree-deal-to-make-bijan-robinson-highest-paid-running-back-in-nfl-history",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-04T18:40:00+00:00"
-    },
-    {
-      "title": "Ipswich sign midfielder Florentino from Burnley",
-      "description": "Newly promoted Ipswich Town complete the signing of Portuguese midfielder Florentino Luis from Burnley for an undisclosed fee.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjrv0pxvqx1o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-04T18:09:27+00:00"
     }
   ]
 }
