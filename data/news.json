@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-04T21:04:49.901349+00:00",
+  "generatedAt": "2026-08-04T22:56:19.060550+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Draper in tears amid injury concern during defeat in Montreal",
+      "description": "Jack Draper was left in tears after losing to Terence Atmane as the Brit's long-term arm injury appeared to resurface and hamper him on his return to action at the Canadian Open.",
+      "link": "https://www.skysports.com/tennis/news/12040/13569819/jack-draper-in-tears-amid-injury-concern-during-defeat-to-terence-atmane-on-return-to-action-in-montreal",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-04T22:30:00+00:00"
+    },
+    {
+      "title": "Papers: Chelsea eyeing move for Porto goalkeeper Costa",
+      "description": "The top stories and transfer rumours from Wednesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/12040/13569788/diogo-costa-transfer-news-chelsea-eyeing-move-for-porto-goalkeeper-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-04T22:30:00+00:00"
+    },
+    {
+      "title": "Brook stars as SunRisers thrash Spirit after setting record Hundred total",
+      "description": "SunRisers Leeds posted 241-2, the highest score in the history of The Hundred, before cruising to a comfortable victory over London Spirit.",
+      "link": "https://www.skysports.com/cricket/news/12040/13569782/the-hundred-sunrisers-leeds-thrash-london-spirit-after-scoring-241-to-set-highest-total-in-tournament-history",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-04T21:50:00+00:00"
+    },
+    {
+      "title": "Turkish club Trabzonspor begin talks to sign Salah",
+      "description": "Turkish club Trabzonspor say they have begun negotiations to sign Mohamed Salah.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckgdkd5ggg7o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-04T21:39:08+00:00"
+    },
     {
       "title": "RECORD-BREAKERS! Best of Sunrisers' 241-run innings!",
       "description": "Watch as Sunrisers Leeds clear the current standing highest total Hundred runs against London Spirit.",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-04T18:51:49+00:00"
-    },
-    {
-      "title": "Man Utd to name ex-Hearts boss Olid women's manager",
-      "description": "Manchester United are set to appoint former Hearts boss Eva Olid as their women's manager to replace Marc Skinner.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c86n72316g1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-04T18:51:49+00:00"
-    },
-    {
-      "title": "Man Utd set to appoint ex-Hearts boss Olid as women's manager",
-      "description": "Manchester United are set to appoint former Hearts boss Eva Olid as their women's manager to replace Marc Skinner.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c86n72316g1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-04T18:51:49+00:00"
-    },
-    {
-      "title": "Tough Champions League challenge awaits Hearts and Rangers",
-      "description": "Heart of Midlothan and Rangers start their new season in the Champions League qualifying group stage on Wednesday, but how are they are prepared?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8rn01gd4jdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-04T18:47:49+00:00"
-    },
-    {
-      "title": "Tough Champions League challenge awaits Hearts and Rangers",
-      "description": "Heart of Midlothan and Rangers start their new season in the Champions League qualifying group stage on Wednesday, but how are they are prepared?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8rn01gd4jdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-04T18:47:49+00:00"
     }
   ]
 }
