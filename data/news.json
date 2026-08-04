@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-03T22:01:40.204126+00:00",
+  "generatedAt": "2026-08-04T00:02:43.146627+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Nygren header hands Celtic all three points in title defence opener",
+      "description": "Watch highlights from the Scottish Premiership match between Celtic and Dundee.",
+      "link": "https://www.skysports.com/watch/video/13569554/celtic-1-0-dundee-scottish-premiership-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T23:15:00+00:00"
+    },
     {
       "title": "Papers: Turkish side eyeing shock Rashford move",
       "description": "The top stories and transfer rumours from Tuesday's newspapers...",
@@ -15,13 +24,22 @@
       "pubDateISO": "2026-08-03T22:30:00+00:00"
     },
     {
-      "title": "Watch: Sportscene highlights - Celtic v Dundee",
-      "description": "Sportscene brings you extended highlights of Celtic against Dundee.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "title": "Tierney shows value as Celtic title defence begins with win",
+      "description": "BBC Scotland looks at the impact of Kieran Tierney in Celtic's win over Dundee in the Scottish Premiership.",
+      "link": "https://www.bbc.co.uk/sport/articles/cpd72xwyjw9o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-03T22:16:10+00:00"
+      "pubDateISO": "2026-08-03T22:18:02+00:00"
+    },
+    {
+      "title": "Tierney shows value as Celtic title defence begins",
+      "description": "BBC Scotland looks at the impact of Kieran Tierney in Celtic's win over Dundee in the Scottish Premiership.",
+      "link": "https://www.bbc.co.uk/sport/articles/cpd72xwyjw9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T22:18:02+00:00"
     },
     {
       "title": "Short guides Welsh Fire to crucial win over Southern Brave",
@@ -49,6 +67,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-03T21:18:39+00:00"
+    },
+    {
+      "title": "Sportsound: Reaction as Celtic kick-off title defence",
+      "description": "Kenny Macintyre, Tom English, Scott Brown and Rory Loy review Celtic 1-0 Dundee",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p2h288",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-03T21:05:00+00:00"
     },
     {
       "title": "All done deals in August 2026",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-03T20:21:00+00:00"
-    },
-    {
-      "title": "West Ham co-owner Sullivan advised to stay away from home matches",
-      "description": "London Stadium recommends West Ham's co-owner stay away amid fears of fan unrest following sexual misconduct claims.",
-      "link": "https://www.bbc.co.uk/news/articles/c77gzjjmgleo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-03T20:09:46+00:00"
-    },
-    {
-      "title": "Eala beats Pegula at DC Open to claim first WTA Tour title",
-      "description": "Rising Filipina star Alexandra Eala came from a set down against Jessica Pegula to claim the first WTA Tour singles title of her career at the DC Open.",
-      "link": "https://www.skysports.com/tennis/news/12040/13569516/alexandra-eala-rising-filipina-star-beats-jessica-pegula-in-dc-open-final-to-claim-first-wta-tour-title",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-03T19:20:00+00:00"
-    },
-    {
-      "title": "Serena to resume comeback alongside sister Venus in Cincinnati",
-      "description": "Serena and Venus Williams are set to play at the Cincinnati Open after being awarded a wild card for the women's doubles draw.",
-      "link": "https://www.skysports.com/tennis/news/12040/13569496/serena-williams-given-wild-card-for-cincinnati-open-womens-doubles-alongside-sister-venus-as-comeback-continues",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-03T18:50:00+00:00"
     }
   ]
 }
