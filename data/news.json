@@ -1,10 +1,64 @@
 {
-  "generatedAt": "2026-08-05T19:20:13.618438+00:00",
+  "generatedAt": "2026-08-05T21:01:03.415520+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Arsenal beaten by Real Betis in Dublin friendly",
+      "description": "Arsenal produced a sloppy performance as they were beaten 3-1 by LaLiga side Real Betis in a pre-season friendly in Dublin.",
+      "link": "https://www.skysports.com/football/arsenal-vs-real-betis/report/555716",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T21:44:00+00:00"
+    },
+    {
+      "title": "Castleford head coach Carr to miss the game against Hull KR",
+      "description": "Castleford Tigers head coach Ryan Carr will not be in attendance at the Hull KR game due to personal reasons.",
+      "link": "https://www.skysports.com/rugby-league/news/12040/13570199/ryan-carr-castleford-tigers-head-coach-to-miss-hull-kr-clash-due-to-personal-reasons",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T21:38:00+00:00"
+    },
+    {
+      "title": "Vinicius Jr set to stay at Real after positive contract talks",
+      "description": "Arsenal target Vinicus Junior is expected to stay at Real Madrid after positive talks over a contract renewal on Wednesday.",
+      "link": "https://www.skysports.com/football/news/12040/13570198/vinicius-junior-future-arsenal-target-set-to-stay-at-real-madrid-after-positive-contract-talks-over-new-deal",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T21:15:00+00:00"
+    },
+    {
+      "title": "Pakistan end eight-match away Test losing streak ahead of England clash",
+      "description": "Pakistan ended their eight-match away Test losing streak in emphatic fashion on Wednesday, securing an eight-wicket victory over the West Indies.",
+      "link": "https://www.skysports.com/cricket/news/12040/13570191/pakistan-end-eight-match-overseas-test-drought-with-west-indies-victory",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T20:50:00+00:00"
+    },
+    {
+      "title": "Norrie notches another win in Montreal as Fonseca marks return in style",
+      "description": "British No 2 Cameron Norrie claimed a comfortable victory at the National Bank Open in Montreal to set up a third-round meeting with Katie Boulter's new husband Alex De Minaur.",
+      "link": "https://www.skysports.com/tennis/news/12040/13570115/national-bank-open-british-no-2-cameron-norrie-wins-again-in-montreal-as-joao-fonseca-marks-return-in-style",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T20:25:00+00:00"
+    },
+    {
+      "title": "Real Madrid agree \u00a3120m Diomande deal - Thursday gossip",
+      "description": "Real Madrid reach \u00a3120m agreement for Yan Diomande, Liverpool explore move for Ibrahim Mbaye and Aston Villa reach agreement to sign Matteo Ruggeri.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr59z307my1o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-05T20:17:47+00:00"
+    },
     {
       "title": "Newcastle appoint Jaissle as Howe's successor",
       "description": "Newcastle have appointed Matthias Jaissle as their new head coach following Eddie Howe's exit.",
@@ -33,7 +87,7 @@
       "pubDateISO": "2026-08-05T18:30:18+00:00"
     },
     {
-      "title": "Arsenal concede second goal against Real Betis LIVE!",
+      "title": "Arsenal suffer pre-season defeat to Real Betis LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/arsenal-vs-real-betis/live/555716",
       "source": "Sky Sports",
@@ -58,60 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-05T17:50:00+00:00"
-    },
-    {
-      "title": "Man City latest: Teenager Monga reveals why he joined City over Arsenal",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-05T17:42:00+00:00"
-    },
-    {
-      "title": "Argentina fly-half Albornoz hit with four-game ban over ugly England scenes",
-      "description": "Tomas Albornoz has been suspended for four matches after being hit with a misconduct charge following Argentina's Nations Championship defeat against England last month.",
-      "link": "https://www.skysports.com/rugby-union/news/12040/13570147/nations-championship-argentina-fly-half-albornoz-hit-with-four-game-ban-over-ugly-england-scenes-in-santiago-del-estero",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T17:35:00+00:00"
-    },
-    {
-      "title": "Bournemouth latest: Striker attracting interest after impressing in pre-season",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T16:22:00+00:00"
-    },
-    {
-      "title": "Celtic boss O'Neill in hospital after undergoing 'small procedure'",
-      "description": "Martin O'Neill remains in hospital after undergoing \"a small procedure\", Celtic have confirmed.",
-      "link": "https://www.skysports.com/football/news/12040/13570119/martin-oneill-celtic-manager-in-hospital-after-small-procedure-as-club-expect-return-home-in-coming-days",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T16:21:00+00:00"
-    },
-    {
-      "title": "Cardiff City sign Lincoln midfielder Moylan",
-      "description": "Lincoln City midfielder Jack Moylan joins Championship rivals Cardiff City after an impressive last season in League One.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c935ng14xv0o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-05T16:20:17+00:00"
-    },
-    {
-      "title": "Chelsea lose friendly as Juventus score stunning winner",
-      "description": "Watch highlights as Chelsea suffer a narrow defeat in a friendly match by Juventus in Hong Kong thanks to a wonderful goal by Edon Zhegrova.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c62qvzn4zx1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T16:16:08+00:00"
     }
   ]
 }
