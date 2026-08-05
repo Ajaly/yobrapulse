@@ -1,18 +1,54 @@
 {
-  "generatedAt": "2026-08-05T17:37:21.221908+00:00",
+  "generatedAt": "2026-08-05T19:20:13.618438+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Tzolis, Dowman start again for Arsenal vs Real Betis LIVE!",
+      "title": "Newcastle appoint Jaissle as Howe's successor",
+      "description": "Newcastle have appointed Matthias Jaissle as their new head coach following Eddie Howe's exit.",
+      "link": "https://www.skysports.com/football/news/12040/13568428/newcastle-united-appoint-matthias-jaissle-as-head-coach-following-eddie-howes-departure-from-st-james-park",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T19:00:00+00:00"
+    },
+    {
+      "title": "Newcastle appoint Jaissle - what should fans expect?",
+      "description": "Newcastle United appoint Matthias Jaissle, 38, as head coach to succeed Eddie Howe - but what will the German bring to the club?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn4n0ypyx31o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T18:32:43+00:00"
+    },
+    {
+      "title": "Wrexham sign Preston captain Whiteman",
+      "description": "Wrexham complete the signing of Preston North End captain Ben Whiteman on a three-year deal.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czxqkkyxe9vo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-05T18:30:18+00:00"
+    },
+    {
+      "title": "Arsenal concede second goal against Real Betis LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/arsenal-vs-real-betis/live/555716",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-05T18:00:00+00:00"
+    },
+    {
+      "title": "Real Madrid make Vinicius Jr improved contract offer",
+      "description": "Real Madrid make Vinicius Jr an improved contract offer as they look to keep the Brazil winger at the Bernabeu.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2dpejpv70o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T17:59:01+00:00"
     },
     {
       "title": "Fulham latest: Talks advancing over Southampton midfielder",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-05T16:16:08+00:00"
-    },
-    {
-      "title": "LIV Golf reaches agreement with new 'lead investor'",
-      "description": "LIV Golf has reached an agreement with a new unnamed investor after Saudi Arabia's Public Investment Fund (PIF) announced in April it was ending funding to the breakaway league at the end of 2026.",
-      "link": "https://www.skysports.com/golf/news/12040/13570123/liv-golf-reaches-agreement-with-new-lead-investor-after-saudi-pif-withdrew-funding-from-breakaway-league",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T16:16:00+00:00"
-    },
-    {
-      "title": "Aston Villa latest: Deal close for Atletico left-back",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T16:07:00+00:00"
-    },
-    {
-      "title": "Parkinson gets England-U20s call before World Cup",
-      "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T16:03:10+00:00"
-    },
-    {
-      "title": "Parkinson gets England-U20s call before World Cup",
-      "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T16:03:10+00:00"
     }
   ]
 }
