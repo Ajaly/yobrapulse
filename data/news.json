@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-05T21:01:03.415520+00:00",
+  "generatedAt": "2026-08-05T22:52:02.529743+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Rockets march on after easy win while Buttler makes history in The Hundred",
+      "description": "Trent Rockets extended their lead at the top of The Hundred table with a near-perfect performance that secured their fifth win in six games, leaving Birmingham Phoenix rooted to the bottom.",
+      "link": "https://www.skysports.com/cricket/news/12040/13570084/the-hundred-trent-rockets-continue-dominant-form-with-fifth-straight-win-as-jos-buttler-makes-history-for-manchester-super-giants",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T22:03:00+00:00"
+    },
     {
       "title": "Arsenal beaten by Real Betis in Dublin friendly",
       "description": "Arsenal produced a sloppy performance as they were beaten 3-1 by LaLiga side Real Betis in a pre-season friendly in Dublin.",
@@ -24,13 +33,49 @@
       "pubDateISO": "2026-08-05T21:38:00+00:00"
     },
     {
-      "title": "Vinicius Jr set to stay at Real after positive contract talks",
-      "description": "Arsenal target Vinicus Junior is expected to stay at Real Madrid after positive talks over a contract renewal on Wednesday.",
+      "title": "Infantino sorry for errors but stays Fifa president",
+      "description": "Gianni Infantino will remain as Fifa president after receiving the backing of senior executives, but \"sincerely apologises\" for errors made in his controversial private investment plans.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyq3el5gkqo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T21:37:08+00:00"
+    },
+    {
+      "title": "Everton sign midfielder Norgaard from Arsenal",
+      "description": "Everton sign Denmark midfielder Christian Norgaard from Arsenal on a two-year contract for a reported fee of \u00a37m.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm2gvlnjndpo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-05T21:18:29+00:00"
+    },
+    {
+      "title": "Defender Walker 'at ease' with England retirement",
+      "description": "Former England defender Kyle Walker says he is \"at ease\" with his decision to quit international football and hoped it could lead to an extended club career, similar to that enjoyed by James Milner.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T21:18:14+00:00"
+    },
+    {
+      "title": "Real Madrid improve Vinicius Jr offer amid Arsenal interest",
+      "description": "Real Madrid have improved their contract offer to Vinicius Junior amid interest from Arsenal.",
       "link": "https://www.skysports.com/football/news/12040/13570198/vinicius-junior-future-arsenal-target-set-to-stay-at-real-madrid-after-positive-contract-talks-over-new-deal",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-05T21:15:00+00:00"
+    },
+    {
+      "title": "Infantino remains FIFA president following crisis meeting",
+      "description": "Under-fire FIFA president Gianni Infantino has shaken off calls to resign - for now - with the backing of the governing body's leaders, though apologised for \"mistakes\" in his botched attempts to sell off a stake in the World Cup.",
+      "link": "https://www.skysports.com/football/news/12040/13570210/gianni-infantino-fifa-leaders-back-under-fire-president-following-crisis-meeting-as-he-apologises-for-mistakes-over-world-cup-sell-off",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-05T20:58:00+00:00"
     },
     {
       "title": "Pakistan end eight-match away Test losing streak ahead of England clash",
@@ -51,7 +96,7 @@
       "pubDateISO": "2026-08-05T20:25:00+00:00"
     },
     {
-      "title": "Real Madrid agree \u00a3120m Diomande deal - Thursday gossip",
+      "title": "Real Madrid agree \u00a3120m Diomande deal - Thursday's gossip",
       "description": "Real Madrid reach \u00a3120m agreement for Yan Diomande, Liverpool explore move for Ibrahim Mbaye and Aston Villa reach agreement to sign Matteo Ruggeri.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cr59z307my1o",
       "source": "BBC Sport",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-05T19:00:00+00:00"
-    },
-    {
-      "title": "Newcastle appoint Jaissle - what should fans expect?",
-      "description": "Newcastle United appoint Matthias Jaissle, 38, as head coach to succeed Eddie Howe - but what will the German bring to the club?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn4n0ypyx31o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T18:32:43+00:00"
-    },
-    {
-      "title": "Wrexham sign Preston captain Whiteman",
-      "description": "Wrexham complete the signing of Preston North End captain Ben Whiteman on a three-year deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czxqkkyxe9vo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-05T18:30:18+00:00"
-    },
-    {
-      "title": "Arsenal suffer pre-season defeat to Real Betis LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/arsenal-vs-real-betis/live/555716",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T18:00:00+00:00"
-    },
-    {
-      "title": "Real Madrid make Vinicius Jr improved contract offer",
-      "description": "Real Madrid make Vinicius Jr an improved contract offer as they look to keep the Brazil winger at the Bernabeu.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2dpejpv70o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T17:59:01+00:00"
-    },
-    {
-      "title": "Fulham latest: Talks advancing over Southampton midfielder",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279313/fulham-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T17:50:00+00:00"
     }
   ]
 }
