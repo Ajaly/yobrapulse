@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-05T02:53:03.634105+00:00",
+  "generatedAt": "2026-08-05T05:40:22.390283+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Silca Bay and Sea Suite face off as Brighton Festival begins",
+      "description": "Slica Bay, Sea Suite and Ben Nevis line up for the Brighton Mile this afternoon, live on Sky Sports Racing.",
+      "link": "https://www.skysports.com/racing/news/12040/13569452/today-on-sky-sports-racing-silca-bay-and-sea-suite-face-off-as-brighton-festival-begins",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T06:00:00+00:00"
+    },
+    {
+      "title": "The dangerous jobs of Callum Walsh \u2013 the making of a fighter",
+      "description": "Callum Walsh doesn&#8217;t shy away from danger. The unbeaten contender from Ireland is looking to break through into the highest echelons of the middleweight division.",
+      "link": "https://www.skysports.com/boxing/news/12040/13569883/callum-walsh-from-working-on-fishing-boats-to-ferocious-sparring-at-the-wild-card-gym-the-making-of-a-fighter",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T06:00:00+00:00"
+    },
+    {
+      "title": "Verstappen reveals what's impressed him most about Antonelli",
+      "description": "Max Verstappen has praised the \"rock solid\" performances that have taken Kimi Antonelli to the top of Formula 1's Drivers' Championship over the first half of the 2026 season.",
+      "link": "https://www.skysports.com/f1/news/12040/13569419/max-verstappen-reveals-what-has-impressed-him-most-about-mercedes-kimi-antonelli-so-far-in-2026-f1-season",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T06:00:00+00:00"
+    },
+    {
+      "title": "Why Liverpool are ready to make Barcola third \u00a3100m signing",
+      "description": "With Liverpool prepared to make Bradley Barcola their third \u00a3100m signing, BBC Sport looks at what the France and Paris St-Germain winger would bring to Anfield.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5y3pd5xvpzo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-05T05:28:08+00:00"
+    },
+    {
+      "title": "Who am I? Guess Premier League star No 16",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd7l8wd3748o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-05T05:17:57+00:00"
+    },
     {
       "title": "Draper in tears amid injury concern during defeat in Montreal",
       "description": "Jack Draper was left in tears after losing to Terence Atmane as the Brit's long-term arm injury appeared to resurface and hamper him on his return to action at the Canadian Open.",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-04T20:20:00+00:00"
-    },
-    {
-      "title": "Infantino calls executive meeting as criticism mounts",
-      "description": "Gianni Infantino summons senior leaders to a meeting on Wednesday, after facing more fierce criticism of his plan to sell off Fifa's commercial and event operations.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2k7p4nxdy4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-04T20:13:03+00:00"
-    },
-    {
-      "title": "Infantino to hold crisis meeting with senior FIFA staff",
-      "description": "Under-pressure FIFA president Gianni Infantino will hold a crisis meeting with senior staff in Morocco on Wednesday.",
-      "link": "https://www.skysports.com/football/news/12040/13569849/gianni-infantino-fifa-president-asks-senior-staff-to-attend-crisis-meeting-in-morocco-on-wednesday",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-04T20:04:00+00:00"
-    },
-    {
-      "title": "Sutherland leads SunRisers to tight win over Spirit",
-      "description": "SunRisers Leeds kept their faint hopes of progression from The Hundred group stage alive with a hard-fought five-wicket victory over London Spirit at Headingley.",
-      "link": "https://www.skysports.com/cricket/news/12040/13569781/the-hundred-sunrisers-leeds-claim-tight-win-over-london-spirit-as-annabel-sutherland-stars-with-bat-at-headingley",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-04T19:20:00+00:00"
-    },
-    {
-      "title": "\u2018It\u2019s inevitable\u2019 | All the latest on Arsenal's Guimaraes deal",
-      "description": "Sky Sports' Dharmesh Sheth and Michael Bridge explain all the latest on Bruno Guimaraes' potential transfer to Arsenal.",
-      "link": "https://www.skysports.com/watch/video/13569837/all-the-latest-on-bruno-guimaraes-to-arsenal-explained-its-inevitable",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-04T19:10:00+00:00"
-    },
-    {
-      "title": "Man Utd set to appoint ex-Hearts boss Olid as women's manager",
-      "description": "Manchester United are set to appoint former Hearts boss Eva Olid as their women's manager to replace Marc Skinner.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c86n72316g1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-04T18:51:49+00:00"
     }
   ]
 }
