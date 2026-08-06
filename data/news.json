@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-06T01:57:20.271301+00:00",
+  "generatedAt": "2026-08-06T05:17:05.524104+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Joe Ward: The unluckiest man in Irish boxing",
+      "description": "Joe Ward had the world at his feet. He was an amateur boxing sensation, he had a golden future laid out before him. Until disaster struck, over and over again.",
+      "link": "https://www.skysports.com/boxing/news/12040/13570207/joe-ward-the-unluckiest-man-in-irish-boxing-ive-been-through-it-all-and-now-i-can-fight-through-this",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-06T06:00:00+00:00"
+    },
     {
       "title": "Rockets march on after easy win while Buttler makes history in The Hundred",
       "description": "Trent Rockets extended their lead at the top of The Hundred table with a near-perfect performance that secured their fifth win in six games, leaving Birmingham Phoenix rooted to the bottom.",
@@ -103,15 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-05T20:17:47+00:00"
-    },
-    {
-      "title": "Newcastle appoint Jaissle as Howe's successor",
-      "description": "Newcastle have appointed Matthias Jaissle as their new head coach following Eddie Howe's exit.",
-      "link": "https://www.skysports.com/football/news/12040/13568428/newcastle-united-appoint-matthias-jaissle-as-head-coach-following-eddie-howes-departure-from-st-james-park",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-05T19:00:00+00:00"
     }
   ]
 }
