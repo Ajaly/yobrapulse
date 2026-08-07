@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-07T03:44:43.388170+00:00",
+  "generatedAt": "2026-08-07T05:29:24.500657+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Britain's best prospect? Hickey is a real showman",
+      "description": "Sam Hickey is a real showman. In fact, he&#8217;s a member of the guild.",
+      "link": "https://www.skysports.com/boxing/news/12040/13570550/sam-hickey-the-rising-middleweight-star-is-a-real-showman-and-could-be-the-best-prospect-in-british-boxing",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T06:00:00+00:00"
+    },
     {
       "title": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
       "description": "Fifa's backing of president Gianni Infantino at a meeting on Wednesday \"changes nothing\", says European governing body Uefa.",
@@ -103,15 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-06T21:26:51+00:00"
-    },
-    {
-      "title": "Reaction to mixed results for Scottish clubs in Europe",
-      "description": "A night of European action saw Rangers and Hearts lose, Motherwell draw and Hibernian win",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p34mbk",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-06T21:21:00+00:00"
     }
   ]
 }
