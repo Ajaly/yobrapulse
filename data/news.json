@@ -1,18 +1,45 @@
 {
-  "generatedAt": "2026-08-07T08:50:19.797352+00:00",
+  "generatedAt": "2026-08-07T09:54:49.137209+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "title": "Atletico in talks to sign Spurs captain Romero",
+      "description": "Atletico Madrid are in talks to sign Tottenham captain Cristian Romero.",
+      "link": "https://www.skysports.com/football/news/12040/13570615/cristian-romero-transfer-news-atletico-madrid-in-talks-to-sign-tottenham-captain-amid-inter-milan-interest",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T08:50:00+00:00"
+      "pubDateISO": "2026-08-07T10:15:00+00:00"
+    },
+    {
+      "title": "England striker Toney charged with assault",
+      "description": "England striker Ivan Toney has been charged with assault causing actual bodily harm, following a nightclub incident in December 2025.",
+      "link": "https://www.skysports.com/football/news/12040/13570613/ivan-toney-england-striker-charged-with-assault-causing-actual-bodily-harm",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T10:12:00+00:00"
+    },
+    {
+      "title": "England forward Toney charged with assault in Soho",
+      "description": "The 30-year-old former Brentford striker is due to appear in court next month.",
+      "link": "https://www.bbc.co.uk/news/articles/cpw9nz7qwyqo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T09:30:30+00:00"
+    },
+    {
+      "title": "Liverpool not pursuing Spence move - Friday's gossip",
+      "description": "Liverpool have no intention of pursuing Djed Spence this summer, Juventus looking to secure Joshua Zirkzee on loan, Arsenal and Manchester United send scouts to watch Kaua Elias, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqlxkxken3po",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T09:05:44+00:00"
     },
     {
       "title": "Mexico break ranks to join Argentina in backing Infantino",
@@ -60,6 +87,15 @@
       "pubDateISO": "2026-08-07T08:00:00+00:00"
     },
     {
+      "title": "National League returns - how can it live up to last season's drama?",
+      "description": "The National League kicks off on Saturday with a lot to live up to following the most dramatic end to the 2025-26 campaign.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c78gzlkm0xko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T07:35:19+00:00"
+    },
+    {
       "title": "Gibbs' Lions deal makes him NFL's highest-paid running back ever",
       "description": "Jahmyr Gibbs is set to become the highest-paid running back in NFL history having agreed to a new three-year deal worth up to $75.7m (&#163;56.3m) with the Detroit Lions.",
       "link": "https://www.skysports.com/nfl/news/12040/13570572/jahmyr-gibbs-new-detroit-lions-deal-makes-him-nfls-highest-paid-running-back-in-history-days-after-bijan-robinsons-falcons-contract",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T07:00:00+00:00"
-    },
-    {
-      "title": "Tenbob Tommy chases hat-trick at Brighton",
-      "description": "We have a competitive day's racing at Brighton on Friday, live on Sky Sports Racing...",
-      "link": "https://www.skysports.com/racing/news/12040/13570134/today-on-sky-sports-racing-brighton-summer-festival",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T07:00:00+00:00"
-    },
-    {
-      "title": "Old Firm bid for wingers as Anderlecht hold Ferry talks - gossip",
-      "description": "Celtic and Rangers submit offers for wingers as Anderlecht hold advanced talks with Dundee United over Will Ferry.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cglj670g0j4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T06:50:17+00:00"
-    },
-    {
-      "title": "Undrafted King leads Panthers to comeback win vs Cardinals in\u00a0Hall of Fame game",
-      "description": "Undrafted rookie quarterback Haynes King ran in on the final play to give the Carolina Panthers a 33-30 victory over the Arizona Cardinals in the Hall of Fame game that kicked off the NFL preseason on Thursday night.&#160;",
-      "link": "https://www.skysports.com/nfl/news/12040/13570561/nfl-undrafted-quarterback-haynes-king-leads-carolina-panthers-to-33-30-comeback-win-vs-arizona-cardinals-in160hall-of-fame-game",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T06:36:00+00:00"
-    },
-    {
-      "title": "Caldentey embraces 'cool' pressure as Arsenal target Treble",
-      "description": "Midfielder Mariona Caldentey explains why Arsenal, strengthened by seven new players, are talking up their chances of winning the Treble this season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c87nlvj2zy9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T06:27:36+00:00"
     }
   ]
 }
