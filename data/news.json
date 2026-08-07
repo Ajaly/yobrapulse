@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-07T22:28:06.002086+00:00",
+  "generatedAt": "2026-08-07T23:27:40.544587+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Arsenal could hijack Liverpool's move for Barcola",
+      "description": "The top stories and transfer rumours from Saturday's newspapers...",
+      "link": "https://www.skysports.com/football/news/12040/13570879/bradley-barcola-transfer-news-arsenal-could-hijack-liverpools-move-for-psg-winger-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T23:30:00+00:00"
+    },
     {
       "title": "Leeds pull off comeback to beat Wakefield, KR and Leigh pick up crucial wins",
       "description": "Leeds underlined their Super League title credentials as Chris Hankinson's converted try capped a thrilling comeback 24-22 win over Wakefield at a packed-out DIY Kitchens Stadium.",
@@ -15,6 +24,15 @@
       "pubDateISO": "2026-08-07T23:00:00+00:00"
     },
     {
+      "title": "Liverpool close to signing Barcelona's Araujo on loan",
+      "description": "Liverpool are close to signing Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to purchase.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gxvvxldewo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T22:54:13+00:00"
+    },
+    {
       "title": "Araujo set for surprise Liverpool loan move",
       "description": "Liverpool have agreed a surprise deal for Barcelona defender Ronald Araujo to join on loan for the season.",
       "link": "https://www.skysports.com/football/news/12040/13570871/ronald-araujo-transfer-news-liverpool-agree-loan-deal-for-barcelona-defender-to-add-depth-at-centre-back",
@@ -22,6 +40,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-07T22:51:00+00:00"
+    },
+    {
+      "title": "Infantino denies claims Uefa paid off alleged 'lover'",
+      "description": "Gianni Infantino's alleged lover was given a severance payment over the affair by Uefa while he was its general secretary, according to a Daily Telegraph investigation.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2vw5z0q7no",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T22:50:58+00:00"
     },
     {
       "title": "UEFA aware of allegation it paid off Infantino's 'mistress' while he worked for them",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T21:25:41+00:00"
-    },
-    {
-      "title": "'His dad is so proud!' | Sinfield scores in front of famous father",
-      "description": "Jack Sinfield scored for Wakefield against his father's former side Leeds as rugby league legend Kevin watched on proudly.",
-      "link": "https://www.skysports.com/watch/video/13570827/super-league-jack-sinfield-scores-in-front-of-famous-father-kevin",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T21:12:00+00:00"
-    },
-    {
-      "title": "Man City explore Fernandez move - Saturday's gossip",
-      "description": "Manchester City explore Enzo Fernandez move, Arsenal could battle Manchester United for Pio Esposito and Liverpool yet to agree Bradley Barcola fee, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T21:07:46+00:00"
-    },
-    {
-      "title": "Fulham latest: Garcia and Palacios make losing debuts in loss to Palace",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279313/fulham-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T20:54:00+00:00"
     }
   ]
 }
