@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-07T00:37:25.799318+00:00",
+  "generatedAt": "2026-08-07T03:44:43.388170+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
+      "description": "Fifa's backing of president Gianni Infantino at a meeting on Wednesday \"changes nothing\", says European governing body Uefa.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2k74yevgzwo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T01:57:02+00:00"
+    },
     {
       "title": "Is red-hot Norrie now favourite to win Montreal? Brit dumps out third seed De Minaur",
       "description": "Five years on from winning his biggest title in Indian Wells, Britain's Cameron Norrie has found his form to dump out third seed Alex de Minaur and reach the fourth round of the National Bank Open in Montreal.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-06T21:21:00+00:00"
-    },
-    {
-      "title": "Liverpool not pursuing Spence move - Friday's gossip",
-      "description": "Liverpool have no intention of pursuing Djed Spence this summer, Juventus looking to secure Joshua Zirkzee on loan, Arsenal and Manchester United send scouts to watch Kaua Elias, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqlxkxken3po",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-06T21:01:47+00:00"
     }
   ]
 }
