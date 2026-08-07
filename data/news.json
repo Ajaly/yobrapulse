@@ -1,10 +1,100 @@
 {
-  "generatedAt": "2026-08-07T14:07:50.629326+00:00",
+  "generatedAt": "2026-08-07T15:49:26.774596+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Gay injures shoulder to add to England worries",
+      "description": "England opener Emilio Gay suffered an injury scare on Friday, retiring hurt with a shoulder injury while batting for Durham.",
+      "link": "https://www.skysports.com/cricket/news/12040/13570730/england-opener-emilio-gay-retires-hurt-with-shoulder-injury-in-durham-fixture",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-07T16:23:00+00:00"
+    },
+    {
+      "title": "Diaz's stunner helps Bayern win as new Aston Villa signing scores",
+      "description": "Highlights from Aston Villa's pre-season defeat to Bayern Munich in Hong Kong.",
+      "link": "https://www.skysports.com/watch/video/13570716/aston-villa-lose-to-bayern-munich-as-luis-diazs-fine-strike-separates-two-sides",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T15:45:00+00:00"
+    },
+    {
+      "title": "France set to take part in U20 Women's World Cup despite Uefa boycott threat",
+      "description": "France say they are still planning to compete in the Under-20 Women's World Cup next month despite a threat from Uefa to boycott Fifa competitions.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c87nrpwg20vo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T15:35:22+00:00"
+    },
+    {
+      "title": "France set to take part in U20 Women's World Cup",
+      "description": "France say they are still planning to compete in the Under-20 Women's World Cup next month despite a threat from Uefa to boycott Fifa competitions.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c87nrpwg20vo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T15:35:22+00:00"
+    },
+    {
+      "title": "Shergar Cup Sprint tips: Kate, Sam and Jamie are taking on Ascot favourite",
+      "description": "Kate Tracey, Sam Boswell and Jamie Lynch reconvene to discuss the best betting angles for the Shergar Cup Sprint at Ascot on Saturday,<em> live on Sky Sports Racing.</em>",
+      "link": "https://www.skysports.com/racing/news/12040/13570705/weekend-winners-kate-tracey-sam-boswell-and-jamie-lynch-have-their-say-on-saturdays-shergar-cup-sprint-at-ascot",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T15:21:00+00:00"
+    },
+    {
+      "title": "Doyle: Thunder Call a big player in Ascot's Shergar Cup",
+      "description": "Our ambassador Hollie Doyle, who was the leading rider at the 2023 Shergar Cup, runs the rule over Saturday's international contest at Ascot - <em>live on Sky Sports Racing.</em>",
+      "link": "https://www.skysports.com/racing/news/12040/13570698/hollie-doyle-expect-thunder-call-to-play-a-part-in-shergar-cup-at-ascot-live-on-sky-sports-racing-on-saturday",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T15:15:00+00:00"
+    },
+    {
+      "title": "Newcastle stand firm on Hall after rejecting Man Utd approach",
+      "description": "Newcastle United have told Manchester United that full-back Lewis Hall is not for sale this summer, after an initial enquiry was rejected.",
+      "link": "https://www.skysports.com/football/news/12040/13570700/lewis-hall-transfer-news-newcastle-tell-man-utd-left-back-is-not-for-sale-this-summer",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T15:13:00+00:00"
+    },
+    {
+      "title": "Barca cancel friendly in Morocco after Ceuta border crisis",
+      "description": "Barcelona cancel pre-season friendly in Morocco because of the ongoing border crisis in Ceuta.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn0nyrdq1r1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T15:11:48+00:00"
+    },
+    {
+      "title": "Palace sign defender Tomiyasu after pre-season trial",
+      "description": "Crystal Palace complete the signing of Japan defender Takehiro Tomiyasu following a successful pre-season trial.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c07rxpj2ln9o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T15:08:25+00:00"
+    },
+    {
+      "title": "Celtic boss O'Neill in 'good form' after being released from hospital",
+      "description": "Shaun Maloney revealed that Celtic manager Martin O'Neill is out of hospital and in \"good form\".",
+      "link": "https://www.skysports.com/football/news/12040/13570712/martin-oneill-celtic-manager-out-of-hospital-and-in-good-form-after-undergoing-small-procedure",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T15:00:00+00:00"
+    },
     {
       "title": "Draper will play Cincinnati Open despite arm injury fears",
       "description": "Jack Draper has been confirmed for next week's Cincinnati Open despite being left in a flood of tears following defeat at the National Bank Open in Montreal.",
@@ -15,103 +105,13 @@
       "pubDateISO": "2026-08-07T14:35:00+00:00"
     },
     {
-      "title": "Draper confirmed for Cincinnati Open ahead of US Open",
-      "description": "",
-      "link": "https://www.skysports.com/tennis/live-blog/12040/13523297/jack-draper-tennis-results-next-match-news-ranking-video-and-how-to-watch-on-sky-sports-tennis",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T14:07:00+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "title": "Hjerto-Dahl joins Hull in 'biggest challenge' yet",
+      "description": "Hull City sign Norwegian midfielder Jens Hjerto-Dahl on a five-year contract from Tromso.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cdrve3k5xv0o",
       "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T13:45:21+00:00"
-    },
-    {
-      "title": "Man City reject Barcelona offer for Rodri",
-      "description": "Manchester City have knocked back an initial offer from Barcelona for Rodri that is considered far too low.&#160;",
-      "link": "https://www.skysports.com/football/news/12040/13570585/rodri-transfer-news-man-city-reject-initial-barcelona-off-for-spain-midfielder-with-bid-considered-far-too-low",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-07T13:45:00+00:00"
-    },
-    {
-      "title": "Bayern hold off late surge from Villa to win in Hong Kong",
-      "description": "Bayern Munich held off a late fightback from Aston Villa to secure a 2-1 victory in Hong Kong, bringing the pre-season tours of Asia for both sides to a close.",
-      "link": "https://www.skysports.com/football/bayern-munich-vs-aston-villa/report/555764",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T13:45:00+00:00"
-    },
-    {
-      "title": "Perimeter walls around pitches banned after Vigar death",
-      "description": "The Football Association has banned solid perimeter walls around pitches after a safety review following the death of former Arsenal youth player Billy Vigar.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c74gwz54jedo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T13:24:10+00:00"
-    },
-    {
-      "title": "Why can't the Premier League attract the world's best players?",
-      "description": "Vinicius Jr chose to stay at Real Madrid, but why does the Premier League rarely attract global superstars at their peak?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gw03rqwkwo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T13:22:20+00:00"
-    },
-    {
-      "title": "When is the EFL Cup second-round draw?",
-      "description": "The second-round draw of the EFL Cup takes place on Monday, with 11 Premier League teams entering the competition.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyegmmvr4vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T13:17:27+00:00"
-    },
-    {
-      "title": "A secret invite and other 'pinch-me' moments before Leicester woke up",
-      "description": "Leicester are gearing up for League One but 10 years ago they were defending Premier League champions. The dream moments haven't been forgotten.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy7j72nvzmzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T12:41:51+00:00"
-    },
-    {
-      "title": "Man City reject Barcelona's \u00a338.5m bid for Rodri",
-      "description": "Manchester City are open to selling midfielder Rodri but would demand more than \u00a360m for the Spain captain.",
-      "link": "https://www.bbc.co.uk/sport/articles/clyj1rgdnpxo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T12:20:52+00:00"
-    },
-    {
-      "title": "Gallagher ready to show what he can do under De Zerbi at Spurs",
-      "description": "Timing in sport often defines a career and for Conor Gallagher and Tottenham, it probably could not have been worse.",
-      "link": "https://www.skysports.com/football/news/12040/13570633/conor-gallagher-exclusive-spurs-midfielder-ready-to-show-what-he-can-do-under-roberto-de-zerbi-this-season",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T12:20:00+00:00"
-    },
-    {
-      "title": "Image of Spygate 'far from truth' says Eckert",
-      "description": "Southampton head coach Tonda Eckert says he is \"grateful\" to owner Dragon Solak for backing him in the wake of the Spygate scandal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp8x051jjz8o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-07T12:06:03+00:00"
+      "pubDateISO": "2026-08-07T14:10:20+00:00"
     }
   ]
 }
