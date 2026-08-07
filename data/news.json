@@ -1,18 +1,72 @@
 {
-  "generatedAt": "2026-08-07T11:40:05.506121+00:00",
+  "generatedAt": "2026-08-07T12:46:51.880111+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T12:42:44+00:00"
+    },
+    {
+      "title": "A secret invite and other 'pinch-me' moments before Leicester woke up",
+      "description": "Leicester are gearing up for League One but 10 years ago they were defending Premier League champions. The dream moments haven't been forgotten.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy7j72nvzmzo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T12:41:51+00:00"
+    },
+    {
+      "title": "Man City reject Barcelona's \u00a338.5m bid for Rodri",
+      "description": "Manchester City are open to selling midfielder Rodri but would demand more than \u00a360m for the Spain captain.",
+      "link": "https://www.bbc.co.uk/sport/articles/clyj1rgdnpxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T12:20:52+00:00"
+    },
+    {
       "title": "Gallagher ready to show what he can do under De Zerbi at Spurs",
-      "description": "Timing in sport often defines a career and for Conor Gallagher and Tottenham Hotspur, it probably could not have been worse.",
+      "description": "Timing in sport often defines a career and for Conor Gallagher and Tottenham, it probably could not have been worse.",
       "link": "https://www.skysports.com/football/news/12040/13570633/conor-gallagher-exclusive-spurs-midfielder-ready-to-show-what-he-can-do-under-roberto-de-zerbi-this-season",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T12:20:00+00:00"
+    },
+    {
+      "title": "Image of Spygate 'far from truth' says Eckert",
+      "description": "Southampton head coach Tonda Eckert says he is \"grateful\" to owner Dragon Solak for backing him in the wake of the Spygate scandal.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp8x051jjz8o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-07T12:06:03+00:00"
+    },
+    {
+      "title": "Norway call for Infantino to resign as Mexico and Argentina back president",
+      "description": "The Norwegian Football Federation calls for Fifa president Gianni Infantino to resign after he attempted to sell off stakes in the World Cup.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g6l3gnv0go",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T12:04:25+00:00"
+    },
+    {
+      "title": "Emotional Guimaraes wanted Arsenal move, says Newcastle chief",
+      "description": "Newcastle United sporting director Ross Wilson says the club did not plan to sell Bruno Guimaraes, but their \"very emotional\" captain wanted to join Arsenal.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0m7knennd3o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T12:00:16+00:00"
     },
     {
       "title": "McKenna: Once I become world champion I\u2019m going to take over",
@@ -33,7 +87,7 @@
       "pubDateISO": "2026-08-07T12:00:00+00:00"
     },
     {
-      "title": "Seventeen-year-old Madjo leads line for Villa vs Bayern LIVE!",
+      "title": "Kim header gives Bayern Munich the lead vs Aston Villa LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/12040/13570609/bayern-munich-vs-aston-villa-live-pre-season-friendly-commentary-updates-scores-and-team-news",
       "source": "Sky Sports",
@@ -58,60 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T11:30:00+00:00"
-    },
-    {
-      "title": "Assistant referee Massey-Ellis retires to take FA role",
-      "description": "Assistant referee Sian Massey\u2011Ellis announces her retirement from officiating to take up a position with the Football Association.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T11:26:23+00:00"
-    },
-    {
-      "title": "Assistant referee Massey-Ellis retires to take FA role",
-      "description": "Assistant referee Sian Massey\u2011Ellis announces her retirement from officiating to take up a position with the Football Association.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crl7ed7gerzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T11:26:23+00:00"
-    },
-    {
-      "title": "Massey-Ellis retires from officiating to take up new role with FA",
-      "description": "Assistant referee Sian Massey-Ellis has retired from officiating and will take up a new role with the Football Association.",
-      "link": "https://www.skysports.com/football/news/12040/13570628/sian-massey-ellis",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T11:05:00+00:00"
-    },
-    {
-      "title": "Scot Prem: Rangers' bid for PSV winger rejected as Celtic target Egypt star",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T11:05:00+00:00"
-    },
-    {
-      "title": "The Hundred permutations: Who needs what to qualify?",
-      "description": "We are into crunch time in the 2026 edition of The Hundred, with knockout spots up for grabs in the men's and women's competitions. But who will claim them, and who needs what?",
-      "link": "https://www.skysports.com/cricket/news/12040/13570124/the-hundred-2026-permutations-who-needs-what-to-qualify-for-final-stages-of-mens-and-womens-competitions",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-07T11:00:00+00:00"
-    },
-    {
-      "title": "Atletico hold talks with Spurs captain Romero",
-      "description": "Atletico Madrid hold talks over a move for Tottenham captain Cristian Romero, who is expected to leave the club this summer.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c0qv4g0x79go",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T10:51:46+00:00"
     }
   ]
 }
