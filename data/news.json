@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-07T17:43:00.915734+00:00",
+  "generatedAt": "2026-08-07T18:44:27.348341+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T18:50:00+00:00"
+    },
+    {
+      "title": "Coventry latest: Ghana midfielder Yirenkyi joins in \u00a326m deal",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13541482/coventry-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T18:41:00+00:00"
+    },
+    {
+      "title": "Coventry sign Ghana's Yirenkyi for record fee",
+      "description": "Premier League newcomers Coventry City have completed the club-record signing of Ghana midfielder Caleb Yirenkyi.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy4kgprjzx2o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T18:37:55+00:00"
+    },
     {
       "title": "Flintoff steps down as England Lions head coach",
       "description": "Andrew Flintoff has stepped down as head coach of the England Lions.",
@@ -13,6 +40,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T18:15:00+00:00"
+    },
+    {
+      "title": "Hull beats pro course record at Centurion! | Story of her round",
+      "description": "The story of Charley Hull's record-breaking second round at the PIF London Championship from the Centurion Club.",
+      "link": "https://www.skysports.com/watch/video/13570772/charley-hull-beats-pro-course-record-at-centurion-story-of-her-round",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T18:12:00+00:00"
     },
     {
       "title": "Liverpool Barcola deal difficult to complete after talks with PSG",
@@ -24,6 +60,15 @@
       "pubDateISO": "2026-08-07T18:00:00+00:00"
     },
     {
+      "title": "Politicians, private jets and power - the life of a Fifa president",
+      "description": "Fifa president Gianni Infantino appears to be trying to return to business as usual after the failed World Cup private investment plan - but it may not be that easy.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2rp0n9pydo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T17:45:06+00:00"
+    },
+    {
       "title": "Undisputed Johnson bids to dethrone \u2018bantamweight queen\u2019 Thorslund",
       "description": "Cherneka Johnson may be the undisputed bantamweight champion, but she admits Dina Thorslund still occupies the division's throne.",
       "link": "https://www.skysports.com/boxing/news/12040/13570747/cherneka-johnson-vs-dina-thorsland-undisputed-bantamweight-battle-for-the-ages-headlines-mvpw-05-live-on-sky-sports",
@@ -31,15 +76,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T17:45:00+00:00"
-    },
-    {
-      "title": "FREE STREAM: McKenna vs Oliha weigh-in ahead of world title fight",
-      "description": "",
-      "link": "https://www.skysports.com/boxing/news/12040/13570621/aaron-mckenna-vs-etinosa-oliha-free-live-stream-of-weigh-in-ahead-saturdays-middleweight-world-title-fight-in-dublin",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T17:30:00+00:00"
     },
     {
       "title": "'Critically important' summit called on future of Scottish football",
@@ -76,42 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-08-07T16:23:00+00:00"
-    },
-    {
-      "title": "White: I know where the Fury-AJ venue is - I did the deal!",
-      "description": "The long-awaited heavyweight showdown between Tyson Fury and Anthony Joshua will take place \"where the money is\", says Dana White.",
-      "link": "https://www.skysports.com/boxing/news/12040/13570724/dana-white-i-know-where-the-tyson-fury-vs-anthony-joshua-venue-is-i-did-the-deal",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T16:11:00+00:00"
-    },
-    {
-      "title": "Diaz's stunner helps Bayern win as new Aston Villa signing scores",
-      "description": "Highlights from Aston Villa's pre-season defeat to Bayern Munich in Hong Kong.",
-      "link": "https://www.skysports.com/watch/video/13570716/aston-villa-lose-to-bayern-munich-as-luis-diazs-fine-strike-separates-two-sides",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T15:45:00+00:00"
-    },
-    {
-      "title": "France set to take part in U20 Women's World Cup despite Uefa boycott threat",
-      "description": "France say they are still planning to compete in the Under-20 Women's World Cup next month despite a threat from Uefa to boycott Fifa competitions.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c87nrpwg20vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T15:35:22+00:00"
-    },
-    {
-      "title": "France set to take part in U20 Women's World Cup",
-      "description": "France say they are still planning to compete in the Under-20 Women's World Cup next month despite a threat from Uefa to boycott Fifa competitions.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c87nrpwg20vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T15:35:22+00:00"
     }
   ]
 }
