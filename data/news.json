@@ -1,13 +1,67 @@
 {
-  "generatedAt": "2026-08-07T09:54:49.137209+00:00",
+  "generatedAt": "2026-08-07T10:45:23.517714+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Atletico in talks to sign Spurs captain Romero",
-      "description": "Atletico Madrid are in talks to sign Tottenham captain Cristian Romero.",
+      "title": "EFL latest: Wilder confirms Coventry bid for Hamer being considered by owners",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T11:30:00+00:00"
+    },
+    {
+      "title": "Massey-Ellis retires from officiating to take up new role with FA",
+      "description": "Assistant referee Sian Massey-Ellis has retired from officiating and will take up a new role with the Football Association.",
+      "link": "https://www.skysports.com/football/news/12040/13570628/sian-massey-ellis",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T11:05:00+00:00"
+    },
+    {
+      "title": "Scot Prem: Rangers' bid for PSV winger rejected as Celtic target Egypt star",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T11:05:00+00:00"
+    },
+    {
+      "title": "Norway call for Infantino to resign as Mexico and Argentina back president",
+      "description": "The Norwegian Football Federation calls for Fifa president Gianni Infantino to resign after he attempted to sell off stakes in the World Cup.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g6l3gnv0go",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T10:29:38+00:00"
+    },
+    {
+      "title": "Scottish summer malaise continues but some room for optimism",
+      "description": "Supporters and former Hibs player Scott Allan react to a mixed night for Scottish clubs in Europe.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c39e4jryjn2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T10:28:54+00:00"
+    },
+    {
+      "title": "Why is the EFL Cup being played on a weekend?",
+      "description": "The bulk of the EFL cup's first round fixtures will take place on a weekend, despite traditionally being a midweek cup competition.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8r44gx5prvo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T10:27:26+00:00"
+    },
+    {
+      "title": "Atletico in talks with Spurs to sign captain Romero",
+      "description": "Atletico Madrid are in talks with Tottenham over signing their captain Cristian Romero.",
       "link": "https://www.skysports.com/football/news/12040/13570615/cristian-romero-transfer-news-atletico-madrid-in-talks-to-sign-tottenham-captain-amid-inter-milan-interest",
       "source": "Sky Sports",
       "category": "transfer",
@@ -24,94 +78,40 @@
       "pubDateISO": "2026-08-07T10:12:00+00:00"
     },
     {
-      "title": "England forward Toney charged with assault in Soho",
-      "description": "The 30-year-old former Brentford striker is due to appear in court next month.",
-      "link": "https://www.bbc.co.uk/news/articles/cpw9nz7qwyqo",
+      "title": "Lewis-Skelly's push to start in midfield for Arsenal",
+      "description": "Myles Lewis-Skelly broke into the Arsenal first team at left-back, but the teenager's preference has always been to play in midfield.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c15171py593o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T09:30:30+00:00"
+      "pubDateISO": "2026-08-07T10:07:49+00:00"
     },
     {
-      "title": "Liverpool not pursuing Spence move - Friday's gossip",
-      "description": "Liverpool have no intention of pursuing Djed Spence this summer, Juventus looking to secure Joshua Zirkzee on loan, Arsenal and Manchester United send scouts to watch Kaua Elias, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqlxkxken3po",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T09:05:44+00:00"
-    },
-    {
-      "title": "Mexico break ranks to join Argentina in backing Infantino",
-      "description": "Mexico goes against its regional governing body Concacaf to publicly support under-fire Fifa president Gianni Infantino.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g6l3gnv0go",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T08:42:12+00:00"
-    },
-    {
-      "title": "Must-win Hossler fires 61 to lead Wyndham after day one",
-      "description": "Highlights from day one of the Wyndham Championship held at Sedgefield Country Club in Greensboro, North Carolina.",
-      "link": "https://www.skysports.com/watch/video/13570587/wyndham-championship-day-one-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T08:42:00+00:00"
-    },
-    {
-      "title": "Stanway deal boosts Partick Thistle promotion push",
-      "description": "Mark Wilson believes the aim of returning Partick Thistle to the Scottish Premiership was a huge factor in Ben Stanway signing a surprise new contract as Livingston visit in Friday's live BBC Scotland match.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvg9pe0jv7zo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T08:00:11+00:00"
-    },
-    {
-      "title": "Stanway boosts Partick Thistle promotion push as Livingston visit in live BBC Scotland match",
-      "description": "Mark Wilson believes the aim of returning Partick Thistle to the Scottish Premiership was a huge factor in Ben Stanway signing a surprise new contract as Livingston visit in Friday's live BBC Scotland match.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvg9pe0jv7zo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T08:00:11+00:00"
-    },
-    {
-      "title": "Why Liverpool are ready to put their faith in the 'real deal' Jacquet",
-      "description": "Liverpool have big hopes for Jeremy Jacquet having invested &#163;60m to bring the highly-regarded young central defender to Anfield this summer. An injury has disrupted his pre-season but the Frenchman looks worth the wait.",
-      "link": "https://www.skysports.com/football/news/12040/13570137/jeremy-jacquet-why-liverpool-are-ready-to-put-their-faith-in-60m-france-centre-back",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-07T08:00:00+00:00"
-    },
-    {
-      "title": "National League returns - how can it live up to last season's drama?",
-      "description": "The National League kicks off on Saturday with a lot to live up to following the most dramatic end to the 2025-26 campaign.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c78gzlkm0xko",
+      "title": "What are the key dates for the women's football season?",
+      "description": "BBC Sport's Ask Me Anything team details the key dates are for the 2026-27 women's football season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czxe311vkw9o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T07:35:19+00:00"
+      "pubDateISO": "2026-08-07T10:03:52+00:00"
     },
     {
-      "title": "Gibbs' Lions deal makes him NFL's highest-paid running back ever",
-      "description": "Jahmyr Gibbs is set to become the highest-paid running back in NFL history having agreed to a new three-year deal worth up to $75.7m (&#163;56.3m) with the Detroit Lions.",
-      "link": "https://www.skysports.com/nfl/news/12040/13570572/jahmyr-gibbs-new-detroit-lions-deal-makes-him-nfls-highest-paid-running-back-in-history-days-after-bijan-robinsons-falcons-contract",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T07:34:00+00:00"
-    },
-    {
-      "title": "Podcast: European reaction & big predictions before massive Scottish football weekend",
-      "description": "Scottish Premiership preview with Charlotte Cohen, Scott Allan and Cammy Kerr",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p35yh7",
+      "title": "What are the key dates for the women's football season?",
+      "description": "BBC Sport's Ask Me Anything team details the key dates are for the 2026-27 women's football season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czxe311vkw9o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T07:00:00+00:00"
+      "pubDateISO": "2026-08-07T10:03:52+00:00"
+    },
+    {
+      "title": "Sullivan expected to attend West Ham EFL Cup tie despite advice not to",
+      "description": "David Sullivan is expected to attend Saturday's EFL Cup first-round tie against Portsmouth despite being advised to stay away from home matches at the London Stadium.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c36d8w5g080o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T10:03:32+00:00"
     }
   ]
 }
