@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-07T15:49:26.774596+00:00",
+  "generatedAt": "2026-08-07T16:45:34.869750+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "FREE STREAM: McKenna vs Oliha weigh-in ahead of world title fight",
+      "description": "",
+      "link": "https://www.skysports.com/boxing/news/12040/13570621/aaron-mckenna-vs-etinosa-oliha-free-live-stream-of-weigh-in-ahead-saturdays-middleweight-world-title-fight-in-dublin",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T17:30:00+00:00"
+    },
     {
       "title": "Gay injures shoulder to add to England worries",
       "description": "England opener Emilio Gay suffered an injury scare on Friday, retiring hurt with a shoulder injury while batting for Durham.",
@@ -13,6 +22,15 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-08-07T16:23:00+00:00"
+    },
+    {
+      "title": "White: I know where the Fury-AJ venue is - I did the deal!",
+      "description": "The long-awaited heavyweight showdown between Tyson Fury and Anthony Joshua will take place \"where the money is\", says Dana White.",
+      "link": "https://www.skysports.com/boxing/news/12040/13570724/dana-white-i-know-where-the-tyson-fury-vs-anthony-joshua-venue-is-i-did-the-deal",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T16:11:00+00:00"
     },
     {
       "title": "Diaz's stunner helps Bayern win as new Aston Villa signing scores",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T15:00:00+00:00"
-    },
-    {
-      "title": "Draper will play Cincinnati Open despite arm injury fears",
-      "description": "Jack Draper has been confirmed for next week's Cincinnati Open despite being left in a flood of tears following defeat at the National Bank Open in Montreal.",
-      "link": "https://www.skysports.com/tennis/news/12040/13570654/jack-draper-confirmed-for-cincinnati-open-despite-being-left-in-tears-following-defeat-at-the-national-bank-open-in-montreal",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-07T14:35:00+00:00"
-    },
-    {
-      "title": "Hjerto-Dahl joins Hull in 'biggest challenge' yet",
-      "description": "Hull City sign Norwegian midfielder Jens Hjerto-Dahl on a five-year contract from Tromso.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdrve3k5xv0o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T14:10:20+00:00"
     }
   ]
 }
