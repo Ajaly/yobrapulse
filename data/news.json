@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-07T18:44:27.348341+00:00",
+  "generatedAt": "2026-08-07T19:47:46.196326+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "title": "Hull surges up leaderboard with course-record 62 at PIF London Championship",
+      "description": "Charley Hull has surged up the leaderboard at the PIF London Championship after a brilliant course record 62 in the second round at the Centurion Club.",
+      "link": "https://www.skysports.com/golf/news/12040/13570796/pif-london-championship-charley-hull-surges-into-second-with-course-record-as-anna-huang-leads-after-day-two",
       "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T18:50:00+00:00"
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T19:29:00+00:00"
     },
     {
       "title": "Coventry latest: Ghana midfielder Yirenkyi joins in \u00a326m deal",
@@ -78,6 +78,24 @@
       "pubDateISO": "2026-08-07T17:45:00+00:00"
     },
     {
+      "title": "Euro navel gazing & early troubles for Scottish title hopefuls",
+      "description": "Already it is looking like the Scottish title might be won again by the best of a bad bunch, but what can we look forward to this weekend?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce8kr3y5xp4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T17:34:26+00:00"
+    },
+    {
+      "title": "Euro navel gazing & early troubles for Scottish title hopefuls",
+      "description": "Already it is looking like the Scottish title might be won again by the best of a bad bunch, but what can we look forward to this weekend?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce8kr3y5xp4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T17:34:26+00:00"
+    },
+    {
       "title": "'Critically important' summit called on future of Scottish football",
       "description": "The Scottish Football Association is to hold a \"critically important\" summit around the future of the national game.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cglj813z9rro",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T17:06:48+00:00"
-    },
-    {
-      "title": "Litchfield scores fastest 50 in Hundred history as SunRisers eliminate Phoenix",
-      "description": "A masterclass from Phoebe Litchfield, as she hit the fastest fifty in the history of The Hundred women's competition, headlined SunRisers Leeds' straightforward chase of &#160;Birmingham Phoenix's underwhelming 107-9 to see her side to victory in Birmingham and keep them alive in the competition.",
-      "link": "https://www.skysports.com/cricket/news/12040/13570735/the-hundred-phoebe-litchfield-scores-fastest-50-in-womens-competition-history-as-sunrisers-leeds-eliminate-birmingham-phoenix",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T16:42:00+00:00"
-    },
-    {
-      "title": "Gay injures shoulder to add to England worries",
-      "description": "England opener Emilio Gay suffered an injury scare on Friday, retiring hurt with a shoulder injury while batting for Durham.",
-      "link": "https://www.skysports.com/cricket/news/12040/13570730/england-opener-emilio-gay-retires-hurt-with-shoulder-injury-in-durham-fixture",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-07T16:23:00+00:00"
     }
   ]
 }
