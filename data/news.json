@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-07T16:45:34.869750+00:00",
+  "generatedAt": "2026-08-07T17:43:00.915734+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Flintoff steps down as England Lions head coach",
+      "description": "Andrew Flintoff has stepped down as head coach of the England Lions.",
+      "link": "https://www.skysports.com/cricket/news/12040/13570774/andrew-flintoff-steps-down-as-england-lions-head-coach",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T18:15:00+00:00"
+    },
+    {
+      "title": "Liverpool Barcola deal difficult to complete after talks with PSG",
+      "description": "Liverpool have held preliminary talks with Paris Saint-Germain over the possibility of signing Bradley Barcola.",
+      "link": "https://www.skysports.com/football/news/12040/13570766/bradley-barcola-transfer-news-liverpool-deal-for-psg-winger-difficult-to-complete-after-talks",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-07T18:00:00+00:00"
+    },
+    {
+      "title": "Undisputed Johnson bids to dethrone \u2018bantamweight queen\u2019 Thorslund",
+      "description": "Cherneka Johnson may be the undisputed bantamweight champion, but she admits Dina Thorslund still occupies the division's throne.",
+      "link": "https://www.skysports.com/boxing/news/12040/13570747/cherneka-johnson-vs-dina-thorsland-undisputed-bantamweight-battle-for-the-ages-headlines-mvpw-05-live-on-sky-sports",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T17:45:00+00:00"
+    },
     {
       "title": "FREE STREAM: McKenna vs Oliha weigh-in ahead of world title fight",
       "description": "",
@@ -13,6 +40,33 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T17:30:00+00:00"
+    },
+    {
+      "title": "'Critically important' summit called on future of Scottish football",
+      "description": "The Scottish Football Association is to hold a \"critically important\" summit around the future of the national game.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cglj813z9rro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T17:06:48+00:00"
+    },
+    {
+      "title": "'Critically important' summit called on future of Scottish football",
+      "description": "The Scottish Football Association is to hold a \"critically important\" summit around the future of the national game.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cglj813z9rro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T17:06:48+00:00"
+    },
+    {
+      "title": "Litchfield scores fastest 50 in Hundred history as SunRisers eliminate Phoenix",
+      "description": "A masterclass from Phoebe Litchfield, as she hit the fastest fifty in the history of The Hundred women's competition, headlined SunRisers Leeds' straightforward chase of &#160;Birmingham Phoenix's underwhelming 107-9 to see her side to victory in Birmingham and keep them alive in the competition.",
+      "link": "https://www.skysports.com/cricket/news/12040/13570735/the-hundred-phoebe-litchfield-scores-fastest-50-in-womens-competition-history-as-sunrisers-leeds-eliminate-birmingham-phoenix",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T16:42:00+00:00"
     },
     {
       "title": "Gay injures shoulder to add to England worries",
@@ -58,60 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T15:35:22+00:00"
-    },
-    {
-      "title": "Shergar Cup Sprint tips: Kate, Sam and Jamie are taking on Ascot favourite",
-      "description": "Kate Tracey, Sam Boswell and Jamie Lynch reconvene to discuss the best betting angles for the Shergar Cup Sprint at Ascot on Saturday,<em> live on Sky Sports Racing.</em>",
-      "link": "https://www.skysports.com/racing/news/12040/13570705/weekend-winners-kate-tracey-sam-boswell-and-jamie-lynch-have-their-say-on-saturdays-shergar-cup-sprint-at-ascot",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T15:21:00+00:00"
-    },
-    {
-      "title": "Doyle: Thunder Call a big player in Ascot's Shergar Cup",
-      "description": "Our ambassador Hollie Doyle, who was the leading rider at the 2023 Shergar Cup, runs the rule over Saturday's international contest at Ascot - <em>live on Sky Sports Racing.</em>",
-      "link": "https://www.skysports.com/racing/news/12040/13570698/hollie-doyle-expect-thunder-call-to-play-a-part-in-shergar-cup-at-ascot-live-on-sky-sports-racing-on-saturday",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T15:15:00+00:00"
-    },
-    {
-      "title": "Newcastle stand firm on Hall after rejecting Man Utd approach",
-      "description": "Newcastle United have told Manchester United that full-back Lewis Hall is not for sale this summer, after an initial enquiry was rejected.",
-      "link": "https://www.skysports.com/football/news/12040/13570700/lewis-hall-transfer-news-newcastle-tell-man-utd-left-back-is-not-for-sale-this-summer",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T15:13:00+00:00"
-    },
-    {
-      "title": "Barca cancel friendly in Morocco after Ceuta border crisis",
-      "description": "Barcelona cancel pre-season friendly in Morocco because of the ongoing border crisis in Ceuta.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn0nyrdq1r1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T15:11:48+00:00"
-    },
-    {
-      "title": "Palace sign defender Tomiyasu after pre-season trial",
-      "description": "Crystal Palace complete the signing of Japan defender Takehiro Tomiyasu following a successful pre-season trial.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c07rxpj2ln9o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T15:08:25+00:00"
-    },
-    {
-      "title": "Celtic boss O'Neill in 'good form' after being released from hospital",
-      "description": "Shaun Maloney revealed that Celtic manager Martin O'Neill is out of hospital and in \"good form\".",
-      "link": "https://www.skysports.com/football/news/12040/13570712/martin-oneill-celtic-manager-out-of-hospital-and-in-good-form-after-undergoing-small-procedure",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T15:00:00+00:00"
     }
   ]
 }
