@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-07T20:33:46.349222+00:00",
+  "generatedAt": "2026-08-07T21:32:36.951515+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Would you believe it?!' | Leeds score late winning try to break Wakefield hearts",
+      "description": "Chris Hankinson's late try saw Leeds Rhinos complete a dramatic comeback as they beat title rivals Wakefield Trinity to remain top of the table.",
+      "link": "https://www.skysports.com/watch/video/13570857/super-league-leeds-rhinos-score-late-winning-try-to-break-wakefield-trinity-hearts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T22:04:00+00:00"
+    },
+    {
+      "title": "Watch as Partick Thistle beat Livingston in Scottish Championship",
+      "description": "An early Robbie Crawford back-heel and a Cammy MacPherson own goal give Partick Thistle victory over Livingston as two of the promotion favourites meet in the Scottish Championship at Firhill.",
+      "link": "https://www.bbc.co.uk/sport/videos/c98vppyny3go",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T21:25:41+00:00"
+    },
+    {
+      "title": "'His dad is so proud!' | Sinfield scores in front of famous father",
+      "description": "Jack Sinfield scored for Wakefield against his father's former side Leeds as rugby league legend Kevin watched on proudly.",
+      "link": "https://www.skysports.com/watch/video/13570827/super-league-jack-sinfield-scores-in-front-of-famous-father-kevin",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T21:12:00+00:00"
+    },
+    {
+      "title": "Man City explore Fernandez move - Saturday's gossip",
+      "description": "Manchester City explore Enzo Fernandez move, Arsenal could battle Manchester United for Pio Esposito and Liverpool yet to agree Bradley Barcola fee, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0l5x67wl67o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T21:07:46+00:00"
+    },
     {
       "title": "Fulham latest: Garcia and Palacios make losing debuts in loss to Palace",
       "description": "",
@@ -13,6 +49,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-07T20:54:00+00:00"
+    },
+    {
+      "title": "'What a run, what an impact!' | Faatili's moment of magic sets up Uele try",
+      "description": "Caius Faatili produced an incredible run as he set up Caleb Hamlin-Uele's try, extending Wakefield's lead over Leeds in the Super League.",
+      "link": "https://www.skysports.com/watch/video/13570819/super-league-caius-faatilis-moment-of-magic-sets-up-caleb-hamlin-uele-try",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-07T20:53:00+00:00"
     },
     {
       "title": "Hull surges up leaderboard with course-record 62 at PIF London Championship",
@@ -67,51 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-07T18:00:00+00:00"
-    },
-    {
-      "title": "Politicians, private jets and power - the life of a Fifa president",
-      "description": "Fifa president Gianni Infantino appears to be trying to return to business as usual after the failed World Cup private investment plan - but it may not be that easy.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2rp0n9pydo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T17:45:06+00:00"
-    },
-    {
-      "title": "Undisputed Johnson bids to dethrone \u2018bantamweight queen\u2019 Thorslund",
-      "description": "Cherneka Johnson may be the undisputed bantamweight champion, but she admits Dina Thorslund still occupies the division's throne.",
-      "link": "https://www.skysports.com/boxing/news/12040/13570747/cherneka-johnson-vs-dina-thorsland-undisputed-bantamweight-battle-for-the-ages-headlines-mvpw-05-live-on-sky-sports",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T17:45:00+00:00"
-    },
-    {
-      "title": "Euro navel gazing & early troubles for Scottish title hopefuls",
-      "description": "Already it is looking like the Scottish title might be won again by the best of a bad bunch, but what can we look forward to this weekend?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8kr3y5xp4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T17:34:26+00:00"
-    },
-    {
-      "title": "Euro navel gazing & early troubles for Scottish title hopefuls",
-      "description": "Already it is looking like the Scottish title might be won again by the best of a bad bunch, but what can we look forward to this weekend?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8kr3y5xp4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T17:34:26+00:00"
-    },
-    {
-      "title": "'Critically important' summit called on future of Scottish football",
-      "description": "The Scottish Football Association is to hold a \"critically important\" summit around the future of the national game.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cglj813z9rro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T17:06:48+00:00"
     }
   ]
 }
