@@ -568,13 +568,38 @@ document.querySelectorAll('#news-tabs .tab').forEach((tab) => {
 // none had any real matches scheduled, so emirates_cup is the only one
 // worth tracking right now. If this keeps happening, it's a sign ESPN
 // just doesn't have one single feed that covers every club friendly.
+// Domestic cups, super cups and secondary European competitions all
+// include clubs well beyond our five tracked leagues (the FA Cup alone
+// has 700+ possible entrants across every English tier; Europa League
+// mixes in Portuguese, Dutch, Scottish, Turkish etc. clubs) - every one
+// of these gets filterToTrackedTeams: true for the same reason
+// club.friendly does. Champions League gets the same treatment now too:
+// it was shipped without a tracked-team filter originally, which meant
+// a match between two non-tracked clubs (e.g. Benfica vs Ajax) would
+// show up alongside real tracked-club fixtures - same bug class,
+// just never caught until doing this pass properly.
 const TRACKED_COMPETITIONS = [
   { slug: 'eng.1', badge: 'pl', code: 'PL', name: 'Premier League' },
   { slug: 'esp.1', badge: 'll', code: 'LL', name: 'La Liga' },
   { slug: 'ita.1', badge: 'la', code: 'SA', name: 'Serie A' },
   { slug: 'ger.1', badge: 'bl', code: 'BL', name: 'Bundesliga' },
   { slug: 'fra.1', badge: 'l1', code: 'L1', name: 'Ligue 1' },
-  { slug: 'uefa.champions', badge: 'cl', code: 'CL', name: 'Champions League' },
+  { slug: 'uefa.champions', badge: 'cl', code: 'CL', name: 'Champions League', filterToTrackedTeams: true },
+  { slug: 'uefa.europa', badge: 'eu', code: 'EL', name: 'Europa League', filterToTrackedTeams: true },
+  { slug: 'uefa.europa.conf', badge: 'eu', code: 'ECL', name: 'Europa Conference League', filterToTrackedTeams: true },
+  { slug: 'uefa.super_cup', badge: 'eu', code: 'USC', name: 'UEFA Super Cup', filterToTrackedTeams: true },
+  { slug: 'eng.fa', badge: 'cup', code: 'FAC', name: 'FA Cup', filterToTrackedTeams: true },
+  { slug: 'eng.league_cup', badge: 'cup', code: 'EFL', name: 'EFL Cup', filterToTrackedTeams: true },
+  { slug: 'eng.charity', badge: 'cup', code: 'CS', name: 'Community Shield', filterToTrackedTeams: true },
+  { slug: 'esp.copa_del_rey', badge: 'cup', code: 'CDR', name: 'Copa del Rey', filterToTrackedTeams: true },
+  { slug: 'esp.super_cup', badge: 'cup', code: 'SSC', name: 'Spanish Super Cup', filterToTrackedTeams: true },
+  { slug: 'esp.joan_gamper', badge: 'fr', code: 'JG', name: 'Joan Gamper Trophy', filterToTrackedTeams: true },
+  { slug: 'ita.coppa_italia', badge: 'cup', code: 'CI', name: 'Coppa Italia', filterToTrackedTeams: true },
+  { slug: 'ita.super_cup', badge: 'cup', code: 'SCI', name: 'Supercoppa Italiana', filterToTrackedTeams: true },
+  { slug: 'ger.dfb_pokal', badge: 'cup', code: 'DFB', name: 'DFB-Pokal', filterToTrackedTeams: true },
+  { slug: 'ger.super_cup', badge: 'cup', code: 'DSC', name: 'DFL-Supercup', filterToTrackedTeams: true },
+  { slug: 'fra.coupe_de_france', badge: 'cup', code: 'CDF', name: 'Coupe de France', filterToTrackedTeams: true },
+  { slug: 'fra.super_cup', badge: 'cup', code: 'TDC', name: 'Trophee des Champions', filterToTrackedTeams: true },
   { slug: 'club.friendly', badge: 'fr', code: 'FR', name: 'Club friendly', filterToTrackedTeams: true },
   { slug: 'friendly.emirates_cup', badge: 'fr', code: 'FR', name: 'Emirates Cup', filterToTrackedTeams: true },
 ];

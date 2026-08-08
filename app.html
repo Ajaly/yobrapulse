@@ -187,7 +187,7 @@
           <div>
             <div class="eyebrow"><span class="pulse-dot"></span> Live right now</div>
             <h1>Live scores<span class="accent">.</span></h1>
-            <p class="lede">Real Premier League, Champions League and Serie A scores, plus pre-season club friendlies involving Premier League, La Liga, Serie A, Bundesliga or Ligue 1 teams - polled live from ESPN's data. Matches in progress also show real goals, bookings and substitutions as they happen.</p>
+            <p class="lede">Every competition your five tracked leagues' clubs play in - domestic league, cups, super cups, Europe and friendlies - polled live from ESPN's data. Matches in progress also show real goals, bookings and substitutions as they happen.</p>
           </div>
           <div class="model-status"><span></span> <span id="live-status-text">12 matches live</span></div>
         </div>
@@ -410,7 +410,7 @@
           <div>
             <div class="eyebrow"><span class="pulse-dot"></span> Schedule browser</div>
             <h1>Fixtures<span class="accent">.</span></h1>
-            <p class="lede">Real fixtures across the Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League and club friendlies - browse by date, filter by competition or search a specific team's schedule.</p>
+            <p class="lede">Real fixtures across 23 competitions - the 5 domestic leagues, Champions League, Europa League, Europa Conference League, domestic cups and super cups, and club friendlies - browse by date, filter by competition or search a specific team's schedule.</p>
           </div>
         </div>
         <div class="fixtures-filters">
@@ -422,13 +422,37 @@
           </div>
           <select id="fixtures-competition-filter" class="filter-select">
             <option value="">All competitions</option>
-            <option value="eng.1">Premier League</option>
-            <option value="esp.1">La Liga</option>
-            <option value="ita.1">Serie A</option>
-            <option value="ger.1">Bundesliga</option>
-            <option value="fra.1">Ligue 1</option>
-            <option value="uefa.champions">Champions League</option>
-            <option value="club.friendly">Club friendlies</option>
+            <optgroup label="Leagues">
+              <option value="eng.1">Premier League</option>
+              <option value="esp.1">La Liga</option>
+              <option value="ita.1">Serie A</option>
+              <option value="ger.1">Bundesliga</option>
+              <option value="fra.1">Ligue 1</option>
+            </optgroup>
+            <optgroup label="Europe">
+              <option value="uefa.champions">Champions League</option>
+              <option value="uefa.europa">Europa League</option>
+              <option value="uefa.europa.conf">Europa Conference League</option>
+              <option value="uefa.super_cup">UEFA Super Cup</option>
+            </optgroup>
+            <optgroup label="Domestic cups &amp; super cups">
+              <option value="eng.fa">FA Cup</option>
+              <option value="eng.league_cup">EFL Cup</option>
+              <option value="eng.charity">Community Shield</option>
+              <option value="esp.copa_del_rey">Copa del Rey</option>
+              <option value="esp.super_cup">Spanish Super Cup</option>
+              <option value="ita.coppa_italia">Coppa Italia</option>
+              <option value="ita.super_cup">Supercoppa Italiana</option>
+              <option value="ger.dfb_pokal">DFB-Pokal</option>
+              <option value="ger.super_cup">DFL-Supercup</option>
+              <option value="fra.coupe_de_france">Coupe de France</option>
+              <option value="fra.super_cup">Trophée des Champions</option>
+            </optgroup>
+            <optgroup label="Friendlies">
+              <option value="club.friendly">Club friendlies</option>
+              <option value="friendly.emirates_cup">Emirates Cup</option>
+              <option value="esp.joan_gamper">Joan Gamper Trophy</option>
+            </optgroup>
           </select>
           <select id="fixtures-team-filter" class="filter-select">
             <option value="">All teams</option>
