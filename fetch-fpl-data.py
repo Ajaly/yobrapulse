@@ -571,6 +571,19 @@ def main():
         "fixtures": fixtures_list,
         "teams": teams_list,
         "players": players_out,
+        # "Squad value" and "free transfers" are per-manager facts - the API
+        # only has them for a specific manager's own team (entry/{id}), which
+        # requires a real, logged-in FPL Team ID this app doesn't have yet
+        # (that's the deferred accounts/sign-up work, not a data gap here).
+        # Rather than keep showing a fabricated squad value, these two
+        # front-end metric cards were repointed at real, always-available,
+        # non-personal facts from the same bootstrap-static response:
+        # total_players is FPL's own name for the global manager count
+        # (despite the name, it's managers, not footballers - kept the
+        # clearer name below), and len(elements) is the real number of
+        # footballers in the game this season.
+        "totalManagers": data["total_players"],
+        "totalPlayers": len(data["elements"]),
     }
 
     with open("data/fpl.json", "w", encoding="utf-8") as f:

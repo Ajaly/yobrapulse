@@ -431,6 +431,18 @@ fetch('data/fpl.json')
       if (rankSub) rankSub.innerHTML = `<i data-lucide="trending-up"></i> ${topScorer.shortName} · 25/26`;
     }
 
+    // Real, always-available, non-personal FPL facts - not a stand-in for
+    // "your squad value", which needs a real logged-in FPL Team ID this
+    // app doesn't have (deferred accounts work, not a data gap).
+    if (typeof data.totalManagers === 'number') {
+      const managersValue = document.querySelector('#managers-metric-value');
+      if (managersValue) managersValue.innerHTML = `${(data.totalManagers / 1000000).toFixed(1)}<em>m</em>`;
+    }
+    if (typeof data.totalPlayers === 'number') {
+      const playersValue = document.querySelector('#players-metric-value');
+      if (playersValue) playersValue.textContent = data.totalPlayers;
+    }
+
     const captainList = document.querySelector('#captain-list');
     if (captainList && data.captainPicks.length) {
       captainList.innerHTML = data.captainPicks.map((id, i) => {
