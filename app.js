@@ -556,6 +556,18 @@ document.querySelectorAll('#news-tabs .tab').forEach((tab) => {
 // team id (not name) since matching team names across two different ESPN
 // endpoints is fragile (kit sponsors, short names etc. can differ); ids
 // are stable.
+//
+// ESPN's own friendly coverage is itself inconsistent: some tournaments
+// (e.g. the Premier League Summer Series) show up inside club.friendly,
+// but others get their own separate competition slug entirely and never
+// appear in club.friendly at all - found this the hard way when
+// Arsenal's Emirates Cup match against Dortmund was missing from
+// Fixtures despite club.friendly being correctly fixed. Checked ESPN's
+// full leagues list for every other named preseason-tournament slug
+// (global.club_challenge, global.pinatar_cup, jpn.world_challenge) -
+// none had any real matches scheduled, so emirates_cup is the only one
+// worth tracking right now. If this keeps happening, it's a sign ESPN
+// just doesn't have one single feed that covers every club friendly.
 const TRACKED_COMPETITIONS = [
   { slug: 'eng.1', badge: 'pl', code: 'PL', name: 'Premier League' },
   { slug: 'esp.1', badge: 'll', code: 'LL', name: 'La Liga' },
@@ -564,6 +576,7 @@ const TRACKED_COMPETITIONS = [
   { slug: 'fra.1', badge: 'l1', code: 'L1', name: 'Ligue 1' },
   { slug: 'uefa.champions', badge: 'cl', code: 'CL', name: 'Champions League' },
   { slug: 'club.friendly', badge: 'fr', code: 'FR', name: 'Club friendly', filterToTrackedTeams: true },
+  { slug: 'friendly.emirates_cup', badge: 'fr', code: 'FR', name: 'Emirates Cup', filterToTrackedTeams: true },
 ];
 // Real club rosters (id + name) for all five leagues, read from
 // data/leagues.json - the same file the Stats page's League Tables
