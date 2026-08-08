@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-08T09:30:55.057396+00:00",
+  "generatedAt": "2026-08-08T10:24:40.060138+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Don't say that!' \ud83d\ude05 New subs rule catches out Boro star",
+      "description": "Middlesbrough were briefly forced to play with ten after Will Lankshear took too long to exit the field of play against Wrexham in the Carabao Cup.",
+      "link": "https://www.skysports.com/watch/video/13570920/middlesborough-new-signing-will-lankshear-was-caught-by-the-new-substitution-rule-change",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T10:45:00+00:00"
+    },
     {
       "title": "Araujo set for medical ahead of surprise Liverpool loan move",
       "description": "Liverpool have agreed a surprise deal for Barcelona defender Ronald Araujo to join on loan for the season.",
@@ -103,15 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-08T05:15:34+00:00"
-    },
-    {
-      "title": "Papers: Arsenal could hijack Liverpool's move for Barcola",
-      "description": "The top stories and transfer rumours from Saturday's newspapers...",
-      "link": "https://www.skysports.com/football/news/12040/13570879/bradley-barcola-transfer-news-arsenal-could-hijack-liverpools-move-for-psg-winger-paper-talk",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-07T23:30:00+00:00"
     }
   ]
 }
