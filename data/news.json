@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-08T16:24:45.792852+00:00",
+  "generatedAt": "2026-08-08T17:23:06.522470+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Mbeumo scores in encouraging Man Utd draw with PSG but Mount injured",
+      "description": "Bryan Mbeumo earned Man Utd a 1-1 draw with Paris St-Germain in Gothenburg but Mason Mount's injury was a cause for concern.",
+      "link": "https://www.skysports.com/football/paris-saint-germain-vs-manchester-united/report/555766",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-08T18:00:00+00:00"
+    },
+    {
+      "title": "Huang holds narrow lead over Hull at PIF London Championship",
+      "description": "Anna Huang maintained her narrow lead over Charley Hull in the third round of the PIF London Championship.",
+      "link": "https://www.skysports.com/golf/news/12040/13571126/pif-london-championship-anna-huang-holds-narrow-lead-over-englands-charley-hull-heading-into-final-round",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T17:22:00+00:00"
+    },
+    {
+      "title": "Moore helps GB and Ireland to Shergar Cup crown",
+      "description": "Ryan Moore bagged a Shergar Cup double on his return to the competition following a 20-year absence to help his Great Britain and Ireland team win the team event while he was also crowned leading rider over the six races.",
+      "link": "https://www.skysports.com/racing/news/12040/13571076/shergar-cup-ryan-moore-helps-great-britain-and-ireland-to-ascot-crown",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T17:00:00+00:00"
+    },
     {
       "title": "McKenna vs Etinosa Oliha LIVE! World title clash in Dublin",
       "description": "",
@@ -13,6 +40,33 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-08T17:00:00+00:00"
+    },
+    {
+      "title": "Phillips hits winner against St Johnstone as St Mirren go top",
+      "description": "Killian Phillips was on target again to keep St Mirren on top of the Premiership for a second Saturday night.",
+      "link": "https://www.skysports.com/football/st-mirren-vs-st-johnstone/report/558342",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T16:50:00+00:00"
+    },
+    {
+      "title": "Bevan dazzles as Dundee crush sorry Aberdeen",
+      "description": "Joe Bevan tormented Aberdeen as Dundee got their first Premiership points on the board with a deserved 2-0 victory at Dens Park.",
+      "link": "https://www.skysports.com/football/dundee-vs-aberdeen/report/558339",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T16:50:00+00:00"
+    },
+    {
+      "title": "Garcia hopes long-term friend Alonso's Chelsea finish second to Liverpool",
+      "description": "As two Liverpool legends meet in pre-season, Luis Garcia says he hopes Xabi Alonso's Chelsea finish behind their former club in the Premier League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gj9j7yv9do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T16:45:47+00:00"
     },
     {
       "title": "FREE STREAM: McKenna vs Oliha undercard LIVE!",
@@ -58,60 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-08T14:56:00+00:00"
-    },
-    {
-      "title": "Sullivan attends West Ham game despite advice not to",
-      "description": "Former West Ham co-chairman David Sullivan attends their Carabao Cup match against Portsmouth despite being advised he should stay away.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c07rx4r40ngo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T14:23:56+00:00"
-    },
-    {
-      "title": "Rockets clinch qualification for women's knockouts in The Hundred",
-      "description": "Trent Rockets booked a place in the knockouts of The Hundred women's competition with a thumping nine-wicket win over already-eliminated MI London.",
-      "link": "https://www.skysports.com/cricket/news/12040/13570938/the-hundred-trent-rockets-continue-dominance-of-womens-competition-as-qualification-for-knockouts-is-clinched",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-08T14:15:00+00:00"
-    },
-    {
-      "title": "Australia survive late Japan rally as new coach Kiss makes winning start",
-      "description": "Australia held on for a tight 35-32 victory over Japan, despite a first-half red card for Miles Amatosero, as they made a winning start in head coach Les Kiss' first match in charge.&#160;",
-      "link": "https://www.skysports.com/rugby-union/news/12040/13570951/australia-edge-japan-35-32-to-give-les-kiss-winning-start-in-first-match-as-head-coach",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T13:44:00+00:00"
-    },
-    {
-      "title": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
-      "description": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable?",
-      "link": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T13:41:32+00:00"
-    },
-    {
-      "title": "'Critically important' summit called on future of Scottish football",
-      "description": "The Scottish Football Association is to hold a \"critically important\" summit around the future of the national game.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cglj813z9rro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T13:40:39+00:00"
-    },
-    {
-      "title": "'Critically important' summit called on future of Scottish football",
-      "description": "The Scottish Football Association is to hold a \"critically important\" summit around the future of the national game.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cglj813z9rro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T13:40:39+00:00"
     }
   ]
 }
