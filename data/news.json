@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T14:25:18.589770+00:00",
+  "generatedAt": "2026-08-08T15:23:01.572332+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -22,6 +22,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-08T14:56:00+00:00"
+    },
+    {
+      "title": "Sullivan attends West Ham game despite advice not to",
+      "description": "Former West Ham co-chairman David Sullivan attends their Carabao Cup match against Portsmouth despite being advised he should stay away.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c07rx4r40ngo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T14:23:56+00:00"
     },
     {
       "title": "Rockets clinch qualification for women's knockouts in The Hundred",
@@ -69,7 +78,7 @@
       "pubDateISO": "2026-08-08T13:40:39+00:00"
     },
     {
-      "title": "Bowen starts for West Ham while Norwich lead early | All Carabao Cup on Sky LIVE!",
+      "title": "Bowen strikes as West Ham hit back to lead! Norwich lead | All Carabao Cup on Sky LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/12040/13570685/carabao-cup-first-round-live-scores-match-updates-and-free-highlights",
       "source": "Sky Sports",
@@ -85,15 +94,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-08T13:21:00+00:00"
-    },
-    {
-      "title": "Ipswich sign midfielder Lukic from Fulham",
-      "description": "Ipswich Town sign Serbia midfielder Sasa Lukic from Fulham for an undisclosed fee.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2lqg5jdjn0o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-08T12:43:31+00:00"
     },
     {
       "title": "Wolves legend Parkes dies aged 79",
