@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-08T21:22:58.951551+00:00",
+  "generatedAt": "2026-08-08T22:21:10.623776+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Wissa double gives Newcastle boss Jaissle winning start at 10-man Valencia",
+      "description": "Substitute Yoane Wissa scored twice to give Matthias Jaissle a winning start as Newcastle boss with a 2-1 comeback pre-season win at 10-man Valencia.",
+      "link": "https://www.skysports.com/football/news/12040/13571236/valencia-1-2-newcastle-yoane-wissas-double-gives-matthias-jaissle-winning-start-as-anthony-elanga-stretchered-off",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T22:26:00+00:00"
+    },
+    {
+      "title": "South Africa edge Argentina in thriller but Kolisi suffers injury",
+      "description": "South Africa scraped past Argentina 17-10 in Test rugby at the possible expense of inspirational captain Siya Kolisi in Buenos Aires on Saturday.",
+      "link": "https://www.skysports.com/rugby-union/news/12040/13571253/argentina-10-17-south-africa-springboks-win-buenos-aires-thriller-but-siya-kolisi-suffers-injury-ahead-of-new-zealand-series",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-08T22:09:00+00:00"
+    },
+    {
+      "title": "Fifa criticises campaign to oust president Infantino",
+      "description": "Fifa strongly criticises what it calls a \"concerted and ongoing effort\" to \"undermine\" the organisation and its president Gianni Infantino.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T22:06:44+00:00"
+    },
     {
       "title": "Wissa & Toure star as Jaissle wins first Newcastle friendly - ratings",
       "description": "Newcastle United forward Yoane Wissa scores twice in a 2-1 win against Valencia in Matthias Jaissle's first game in charge - but how did the Magpies players perform?",
@@ -51,7 +78,7 @@
       "pubDateISO": "2026-08-08T19:31:31+00:00"
     },
     {
-      "title": "St Mirren start strongly using relegation scare as 'fuel'",
+      "title": "Tipped for drop but sitting top - St Mirren defying expectations",
       "description": "St Mirren were many people's favourites for relegation, so how come they have started with two opening wins in the Scottish Premiership?",
       "link": "https://www.bbc.co.uk/sport/football/articles/c1k1g7ylyrko",
       "source": "BBC Sport",
@@ -69,7 +96,7 @@
       "pubDateISO": "2026-08-08T19:15:24+00:00"
     },
     {
-      "title": "Wissa's double gives Newcastle'sJaissle winning start at 10-man Valencia LIVE!",
+      "title": "Wissa's double gives Newcastle's Jaissle winning start at 10-man Valencia LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/valencia-vs-newcastle-united/live/568647",
       "source": "Sky Sports",
@@ -78,40 +105,13 @@
       "pubDateISO": "2026-08-08T19:01:00+00:00"
     },
     {
-      "title": "Ward rescues career with valiant Kasparian win",
-      "description": "Joe Ward staved off disaster, beating Artjom Kasparian on a unanimous decision after 10 ferocious rounds at the 3Arena in Dublin.",
-      "link": "https://www.skysports.com/boxing/news/12040/13571046/joe-ward-rescues-career-with-valiant-artjom-kasparian-win-as-stevie-mckenna-and-sam-hickey-take-stunning-one-punch-finishes",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T19:00:00+00:00"
-    },
-    {
-      "title": "'Took him off both his feet!' | Stevie McKenna with HUGE first-round KO",
-      "description": "Stevie McKenna stopped Owen O'Neill with a devastating right hand in the opening round of their contest at Zuffa Boxing 10.",
-      "link": "https://www.skysports.com/watch/video/13571184/zuffa-boxing-10-stevie-mckenna-with-huge-first-round-knockout",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T18:30:00+00:00"
-    },
-    {
-      "title": "Trent Rockets seal knockout stage place with win over MI London",
-      "description": "Trent Rockets pair Mitch Santner and Tim David helped steer their side into the knockout stage with a 78-run partnership in a six-wicket win over MI London.",
-      "link": "https://www.skysports.com/cricket/news/12040/13571185/the-hundred-mitch-santner-and-tim-david-78-run-partnership-fires-trent-rockets-to-victory-over-mi-london-to-seal-knockout-place",
+      "title": "Walsh battles through cuts and knockdown to drop Denny and take victory",
+      "description": "Callum Walsh maintained his unbeaten record and top contender status with a unanimous decision victory over Tyler Denny.",
+      "link": "https://www.skysports.com/boxing/news/12040/13571055/callum-walsh-comes-through-cuts-and-knockdown-to-drop-denny-and-take-battling-decision-victory-in-dublin-contest",
       "source": "Sky Sports",
       "category": "injury",
       "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-08T18:28:00+00:00"
-    },
-    {
-      "title": "'Good signs' for Man Utd as Mbeumo scores in encouraging  draw with PSG",
-      "description": "Bryan Mbeumo earned Man Utd a 1-1 draw with Paris St-Germain in Gothenburg, a pre-season friendly which left boss Michael Carrick encouraged by the \"good signs\" from his side.",
-      "link": "https://www.skysports.com/football/paris-saint-germain-vs-manchester-united/report/555766",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-08T18:00:00+00:00"
+      "pubDateISO": "2026-08-08T19:00:00+00:00"
     }
   ]
 }
