@@ -613,22 +613,28 @@ const TRACKED_COMPETITIONS = [
   { slug: 'fra.coupe_de_france', badge: 'cup', code: 'CDF', name: 'Coupe de France', filterToTrackedTeams: true },
   { slug: 'fra.super_cup', badge: 'cup', code: 'TDC', name: 'Trophee des Champions', filterToTrackedTeams: true },
   { slug: 'club.friendly', badge: 'fr', code: 'FR', name: 'Club friendly', filterToTrackedTeams: true },
-  { slug: 'friendly.emirates_cup', badge: 'fr', code: 'FR', name: 'Emirates Cup', filterToTrackedTeams: true },
+  { slug: 'friendly.emirates_cup', badge: 'fr', code: 'EC', name: 'Emirates Cup', filterToTrackedTeams: true },
 ];
-// Real club rosters (id + name) for all five leagues, read from
-// data/leagues.json - the same file the Stats page's League Tables
-// already use, fetched hourly server-side by fetch-league-data.py.
-// This exists instead of calling ESPN's own /teams endpoint directly
-// from the browser: that endpoint sends no CORS header at all (found
-// via a real browser console - curl-based checks never catch this,
-// since curl doesn't enforce CORS and the endpoint still returns a
-// normal 200), so every fetch of it silently failed in production
-// while looking fine in every server-side test. leagues.json's
-// standings entries already carry each team's real id, and the
-// standings endpoint they come from is confirmed CORS-open, so this
-// avoids the broken endpoint entirely rather than working around it.
-const trackedTeamsPromise = fetch('data/leagues.json')
-  .then((res) => (res.ok ? res.json() : Promise.reject(new Error('leagues.json ' + res.status))))
+// Single shared fetch of data/leagues.json - both the League Tables
+// panel (Stats page) and the tracked-team roster below need it, and a
+// plain Promise only ever runs its underlying fetch once no matter how
+// many .then() chains hang off it, so this avoids requesting the same
+// file twice on every page load.
+const leaguesJsonPromise = fetch('data/leagues.json')
+  .then((res) => (res.ok ? res.json() : Promise.reject(new Error('leagues.json ' + res.status))));
+
+// Real club rosters (id + name) for all five leagues, from that same
+// file - fetched hourly server-side by fetch-league-data.py. This
+// exists instead of calling ESPN's own /teams endpoint directly from
+// the browser: that endpoint sends no CORS header at all (found via a
+// real browser console - curl-based checks never catch this, since
+// curl doesn't enforce CORS and the endpoint still returns a normal
+// 200), so every fetch of it silently failed in production while
+// looking fine in every server-side test. leagues.json's standings
+// entries already carry each team's real id, and the standings
+// endpoint they come from is confirmed CORS-open, so this avoids the
+// broken endpoint entirely rather than working around it.
+const trackedTeamsPromise = leaguesJsonPromise
   .then((data) => [].concat(...data.leagues.map((l) => l.teams.map((t) => ({ id: String(t.id), name: t.name, league: l.name }))))
     .sort((a, b) => a.name.localeCompare(b.name)))
   .catch((err) => { console.error('[YobraPulse] tracked team list failed to load', err); return []; });
@@ -827,7 +833,7 @@ function loadLiveScoresForDate(date) {
       if (metricCount) metricCount.textContent = liveCount;
       if (metricSub) metricSub.innerHTML = liveCount > 0
         ? '<i data-lucide="trending-up"></i> Updating live'
-        : `${all.length} scheduled today`;
+        : `${all.length} match${all.length === 1 ? '' : 'es'} today`;
       const badge = document.querySelector('#live-scores-badge');
       if (badge) badge.hidden = false;
       refreshIcons();
@@ -844,9 +850,12 @@ function refreshLiveScoresView() {
   loadLiveScoresForDate(liveScoresDate);
 }
 
-document.querySelectorAll('#live-date-prev').forEach((el) => el.addEventListener('click', () => { liveScoresDate = addDays(liveScoresDate, -1); refreshLiveScoresView(); }));
-document.querySelectorAll('#live-date-next').forEach((el) => el.addEventListener('click', () => { liveScoresDate = addDays(liveScoresDate, 1); refreshLiveScoresView(); }));
-document.querySelectorAll('#live-date-today').forEach((el) => el.addEventListener('click', () => { liveScoresDate = new Date(); refreshLiveScoresView(); }));
+const liveDatePrev = document.querySelector('#live-date-prev');
+const liveDateNext = document.querySelector('#live-date-next');
+const liveDateToday = document.querySelector('#live-date-today');
+if (liveDatePrev) liveDatePrev.addEventListener('click', () => { liveScoresDate = addDays(liveScoresDate, -1); refreshLiveScoresView(); });
+if (liveDateNext) liveDateNext.addEventListener('click', () => { liveScoresDate = addDays(liveScoresDate, 1); refreshLiveScoresView(); });
+if (liveDateToday) liveDateToday.addEventListener('click', () => { liveScoresDate = new Date(); refreshLiveScoresView(); });
 
 refreshLiveScoresView();
 setInterval(() => {
@@ -904,9 +913,12 @@ function renderFixtures() {
   });
 }
 
-document.querySelectorAll('#fixtures-date-prev').forEach((el) => el.addEventListener('click', () => { fixturesDate = addDays(fixturesDate, -1); renderFixtures(); }));
-document.querySelectorAll('#fixtures-date-next').forEach((el) => el.addEventListener('click', () => { fixturesDate = addDays(fixturesDate, 1); renderFixtures(); }));
-document.querySelectorAll('#fixtures-date-today').forEach((el) => el.addEventListener('click', () => { fixturesDate = new Date(); renderFixtures(); }));
+const fixturesDatePrev = document.querySelector('#fixtures-date-prev');
+const fixturesDateNext = document.querySelector('#fixtures-date-next');
+const fixturesDateToday = document.querySelector('#fixtures-date-today');
+if (fixturesDatePrev) fixturesDatePrev.addEventListener('click', () => { fixturesDate = addDays(fixturesDate, -1); renderFixtures(); });
+if (fixturesDateNext) fixturesDateNext.addEventListener('click', () => { fixturesDate = addDays(fixturesDate, 1); renderFixtures(); });
+if (fixturesDateToday) fixturesDateToday.addEventListener('click', () => { fixturesDate = new Date(); renderFixtures(); });
 
 const fixturesCompetitionSelect = document.querySelector('#fixtures-competition-filter');
 if (fixturesCompetitionSelect) fixturesCompetitionSelect.addEventListener('change', (e) => { fixturesCompetitionFilter = e.target.value; renderFixtures(); });
@@ -968,8 +980,7 @@ function setupPlayerComparison(pool, playersMap) {
   selectB.addEventListener('change', renderComparison);
 }
 
-fetch('data/leagues.json')
-  .then((res) => (res.ok ? res.json() : Promise.reject(new Error('leagues.json ' + res.status))))
+leaguesJsonPromise
   .then((data) => {
     let currentLeague = 'eng.1';
     let currentSeason = 'current';
