@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-08T08:32:28.506154+00:00",
+  "generatedAt": "2026-08-08T09:30:55.057396+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Araujo set for medical ahead of surprise Liverpool loan move",
+      "description": "Liverpool have agreed a surprise deal for Barcelona defender Ronald Araujo to join on loan for the season.",
+      "link": "https://www.skysports.com/football/news/12040/13570871/ronald-araujo-transfer-news-liverpool-agree-loan-deal-for-barcelona-defender-to-add-depth-at-centre-back",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-08T10:00:00+00:00"
+    },
     {
       "title": "Bracey shares memories of Lawrence ahead of Sunday's tribute",
       "description": "When James Bracey thinks of Syd Lawrence, he does not first think of wickets, records or milestones.",
@@ -103,15 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-07T23:30:00+00:00"
-    },
-    {
-      "title": "Brit Smith keeps pressure on leader Hossler after Wyndham Championship R2",
-      "description": "Highlights from day two of the Wyndham Championship held at Sedgefield Country Club in Greensboro, North Carolina.",
-      "link": "https://www.skysports.com/watch/video/13570878/wyndham-championship-day-two-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-07T23:15:00+00:00"
     }
   ]
 }
