@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-08T19:23:45.513161+00:00",
+  "generatedAt": "2026-08-08T20:20:53.813727+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'That is another crunching finish!' | Hickey lands DEVASTATING knockout",
+      "description": "Sam Hickey's huge right hand knocked out Brad Axe in the seventh round of their contest.",
+      "link": "https://www.skysports.com/watch/video/13571226/zuffa-boxing-10-sam-hickey-lands-devastating-knockout-vs-brad-axe",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-08T20:26:00+00:00"
+    },
+    {
+      "title": "Two wins from two - the 'fuel' that's driving St Mirren",
+      "description": "St Mirren were many people's favourites for relegation, so how come they have started with two opening wins in the Scottish Premiership?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c1k1g7ylyrko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T19:31:31+00:00"
+    },
+    {
+      "title": "St Mirren start strongly using relegation scare as 'fuel'",
+      "description": "St Mirren were many people's favourites for relegation, so how come they have started with two opening wins in the Scottish Premiership?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c1k1g7ylyrko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T19:31:31+00:00"
+    },
     {
       "title": "Tielemans cameo against PSG hints at Man Utd future",
       "description": "Manchester United's \u00a335m signing Youri Tielemans makes an impressive debut in the 1-1 friendly draw against Paris St-Germain in Gothenburg.",
@@ -15,9 +42,9 @@
       "pubDateISO": "2026-08-08T19:15:24+00:00"
     },
     {
-      "title": "Nightmare start for Jaissle as Valencia take early lead vs Newcastle LIVE!",
+      "title": "Newcastle trail 10-man Valencia after horror tackle injures Elanga LIVE!",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13571193/valencia-vs-newcastle-live-pre-season-fixture-score-live-updates-and-team-news",
+      "link": "https://www.skysports.com/football/valencia-vs-newcastle-united/live/568647",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
@@ -42,7 +69,7 @@
       "pubDateISO": "2026-08-08T18:28:00+00:00"
     },
     {
-      "title": "Mbeumo scores in encouraging Man Utd draw with PSG",
+      "title": "'Good signs' for Man Utd as Mbeumo scores in encouraging  draw with PSG",
       "description": "Bryan Mbeumo earned Man Utd a 1-1 draw with Paris St-Germain in Gothenburg, a pre-season friendly which left boss Michael Carrick encouraged by the \"good signs\" from his side.",
       "link": "https://www.skysports.com/football/paris-saint-germain-vs-manchester-united/report/555766",
       "source": "Sky Sports",
@@ -78,40 +105,13 @@
       "pubDateISO": "2026-08-08T17:00:00+00:00"
     },
     {
-      "title": "McKenna vs Oliha LIVE! Hickey blasts Axe out in seven rounds",
+      "title": "McKenna vs Oliha LIVE! Ward vs Kasparian after Hickey's 'brutal' Axe KO",
       "description": "",
       "link": "https://www.skysports.com/boxing/live-blog/12040/13570943/aaron-mckenna-vs-etinosa-oliha-live-updates-stream-undercard-news-results-highlights-from-zuffa-boxing-10-in-dublin",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-08T17:00:00+00:00"
-    },
-    {
-      "title": "Phillips hits winner against St Johnstone as St Mirren go top",
-      "description": "Killian Phillips was on target again to keep St Mirren on top of the Premiership for a second Saturday night.",
-      "link": "https://www.skysports.com/football/st-mirren-vs-st-johnstone/report/558342",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T16:50:00+00:00"
-    },
-    {
-      "title": "Bevan dazzles as Dundee crush sorry Aberdeen",
-      "description": "Joe Bevan tormented Aberdeen as Dundee got their first Premiership points on the board with a deserved 2-0 victory at Dens Park.",
-      "link": "https://www.skysports.com/football/dundee-vs-aberdeen/report/558339",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T16:50:00+00:00"
-    },
-    {
-      "title": "Garcia hopes long-term friend Alonso's Chelsea finish second to Liverpool",
-      "description": "As two Liverpool legends meet in pre-season, Luis Garcia says he hopes Xabi Alonso's Chelsea finish behind their former club in the Premier League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gj9j7yv9do",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T16:45:47+00:00"
     }
   ]
 }
