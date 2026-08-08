@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-08T20:20:53.813727+00:00",
+  "generatedAt": "2026-08-08T21:22:58.951551+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Wissa & Toure star as Jaissle wins first Newcastle friendly - ratings",
+      "description": "Newcastle United forward Yoane Wissa scores twice in a 2-1 win against Valencia in Matthias Jaissle's first game in charge - but how did the Magpies players perform?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gk75keg1lo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T21:11:46+00:00"
+    },
+    {
+      "title": "Barca make second bid for Rodri - Sunday's gossip",
+      "description": "Barcelona increase their Rodri bid, Cristian Romero wants to join Arsenal, Forest are set to sign Ousmane Diomande, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c05qvj0yj46o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-08T20:37:28+00:00"
+    },
     {
       "title": "'That is another crunching finish!' | Hickey lands DEVASTATING knockout",
       "description": "Sam Hickey's huge right hand knocked out Brad Axe in the seventh round of their contest.",
@@ -15,7 +33,16 @@
       "pubDateISO": "2026-08-08T20:26:00+00:00"
     },
     {
-      "title": "Two wins from two - the 'fuel' that's driving St Mirren",
+      "title": "St Mirren 1-0 St Johnstone",
+      "description": "Highlights from the Scottish Premiership match between St Mirren and St Johnstone",
+      "link": "https://www.skysports.com/watch/video/13571233/st-mirren-1-0-st-johnstone-scottish-premiership-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T20:00:00+00:00"
+    },
+    {
+      "title": "Two wins from two - the 'fuel' driving St Mirren",
       "description": "St Mirren were many people's favourites for relegation, so how come they have started with two opening wins in the Scottish Premiership?",
       "link": "https://www.bbc.co.uk/sport/football/articles/c1k1g7ylyrko",
       "source": "BBC Sport",
@@ -42,13 +69,22 @@
       "pubDateISO": "2026-08-08T19:15:24+00:00"
     },
     {
-      "title": "Newcastle trail 10-man Valencia after horror tackle injures Elanga LIVE!",
+      "title": "Wissa's double gives Newcastle'sJaissle winning start at 10-man Valencia LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/valencia-vs-newcastle-united/live/568647",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-08T19:01:00+00:00"
+    },
+    {
+      "title": "Ward rescues career with valiant Kasparian win",
+      "description": "Joe Ward staved off disaster, beating Artjom Kasparian on a unanimous decision after 10 ferocious rounds at the 3Arena in Dublin.",
+      "link": "https://www.skysports.com/boxing/news/12040/13571046/joe-ward-rescues-career-with-valiant-artjom-kasparian-win-as-stevie-mckenna-and-sam-hickey-take-stunning-one-punch-finishes",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T19:00:00+00:00"
     },
     {
       "title": "'Took him off both his feet!' | Stevie McKenna with HUGE first-round KO",
@@ -76,42 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-08T18:00:00+00:00"
-    },
-    {
-      "title": "Huang holds narrow lead over Hull at PIF London Championship",
-      "description": "Anna Huang maintained her narrow lead over Charley Hull in the third round of the PIF London Championship.",
-      "link": "https://www.skysports.com/golf/news/12040/13571126/pif-london-championship-anna-huang-holds-narrow-lead-over-englands-charley-hull-heading-into-final-round",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T17:22:00+00:00"
-    },
-    {
-      "title": "Burnley edge win on penalties, West Ham through in Carabao Cup first round",
-      "description": "Kyle Walker struck the winning penalty as Burnley edged out Notts County 4-3 in a shoot-out to reach the Carabao Cup second round after a 1-1 draw at Turf Moor.",
-      "link": "https://www.skysports.com/football/news/12040/13570969/carabao-cup-burnley-edge-win-on-penalties-west-ham-norwich-watford-through",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T17:05:00+00:00"
-    },
-    {
-      "title": "Moore helps GB and Ireland to Shergar Cup crown",
-      "description": "Ryan Moore bagged a Shergar Cup double on his return to the competition following a 20-year absence to help his Great Britain and Ireland team win the team event while he was also crowned leading rider over the six races.",
-      "link": "https://www.skysports.com/racing/news/12040/13571076/shergar-cup-ryan-moore-helps-great-britain-and-ireland-to-ascot-crown",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T17:00:00+00:00"
-    },
-    {
-      "title": "McKenna vs Oliha LIVE! Ward vs Kasparian after Hickey's 'brutal' Axe KO",
-      "description": "",
-      "link": "https://www.skysports.com/boxing/live-blog/12040/13570943/aaron-mckenna-vs-etinosa-oliha-live-updates-stream-undercard-news-results-highlights-from-zuffa-boxing-10-in-dublin",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T17:00:00+00:00"
     }
   ]
 }
