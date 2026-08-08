@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T11:21:58.155024+00:00",
+  "generatedAt": "2026-08-08T12:33:39.345045+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -31,6 +31,24 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-08T12:00:00+00:00"
+    },
+    {
+      "title": "Scotland closing in on head coach to replace Clarke",
+      "description": "The Scottish FA identifies a preferred candidate to be Scotland's new head coach and hopes to make an appointment within two weeks.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c07rx4npmpxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T11:48:24+00:00"
+    },
+    {
+      "title": "Scotland closing in on head coach to replace Clarke",
+      "description": "The Scottish FA identifies a preferred candidate to be Scotland's new head coach and hopes to make an appointment within two weeks.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c07rx4npmpxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-08T11:48:24+00:00"
     },
     {
       "title": "Watch Guimaraes' best moments after Arsenal sign midfield maestro",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-08T08:00:00+00:00"
-    },
-    {
-      "title": "PSV reject improved Rangers offer for Driouech - gossip",
-      "description": "Speculation mounts over wingers linked with Rangers and Celtic as Hearts forward is touted for move.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj36vld3mk2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T07:37:28+00:00"
-    },
-    {
-      "title": "'I'd rather fight Aaron for world title' - Walsh dismisses Stevie McKenna call-out",
-      "description": "Callum Walsh would entertain a fight against Aaron McKenna over Stephen McKenna, insisting all-Irish clashes only make sense with the world title on the line.",
-      "link": "https://www.skysports.com/boxing/news/12040/13570679/callum-walsh-aaron-mckenna-world-title-fight-makes-sense-fighting-stephen-mckenna-doesnt",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T07:00:00+00:00"
     }
   ]
 }
