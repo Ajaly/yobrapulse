@@ -23,6 +23,19 @@ Current-season standings will mostly show zeros right now - it's
 pre-season across all five leagues (same timing issue as everywhere
 else in this project), not a bug. They'll fill in once each league's
 season actually kicks off.
+
+Also writes a real id+name roster per league (parse_teams), pulled
+from the same standings response - every registered club appears in
+`entries` regardless of games played, so this works pre-season too.
+This exists because ESPN's separate /teams endpoint, which the front
+end originally called directly for this, sends no CORS header at all
+(confirmed via curl -D-, unlike /standings and /scoreboard which both
+send Access-Control-Allow-Origin: *) - it fails silently in every real
+browser while still returning 200 to curl, which doesn't enforce CORS
+and so never caught it. Found via an actual browser DevTools console,
+not any server-side check. Routing this through the standings response
+we already fetch (and that's already proven CORS-safe) avoids the
+broken endpoint entirely instead of working around it.
 """
 import json
 import urllib.request
@@ -65,6 +78,13 @@ def parse_table(standings_json):
     return table
 
 
+def parse_teams(standings_json):
+    """Real id + name for every club in this league, straight from the
+    standings response's own team objects."""
+    entries = (standings_json.get("children") or [{}])[0].get("standings", {}).get("entries", [])
+    return [{"id": str(e["team"]["id"]), "name": e["team"]["displayName"]} for e in entries]
+
+
 def main():
     leagues_out = []
     for league in LEAGUES:
@@ -76,6 +96,7 @@ def main():
             "current": parse_table(current),
             "lastSeasonYear": f"{LAST_SEASON_YEAR}/{str(LAST_SEASON_YEAR + 1)[-2:]}",
             "lastSeason": parse_table(last_season),
+            "teams": parse_teams(current),
         })
         print(f"  {league['name']}: current {len(leagues_out[-1]['current'])} teams, last season {len(leagues_out[-1]['lastSeason'])} teams")
 

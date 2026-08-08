@@ -565,25 +565,23 @@ const TRACKED_COMPETITIONS = [
   { slug: 'uefa.champions', badge: 'cl', code: 'CL', name: 'Champions League' },
   { slug: 'club.friendly', badge: 'fr', code: 'FR', name: 'Club friendly', filterToTrackedTeams: true },
 ];
-const TRACKED_LEAGUE_SLUGS = ['eng.1', 'esp.1', 'ita.1', 'ger.1', 'fra.1'];
-
-// Real club rosters (id + name) for all five leagues, fetched once per
-// session - not refetched on every poll, since rosters don't change
-// mid-session. Powers both the friendly-match id filter above and the
-// Fixtures team-search dropdown.
-function fetchLeagueTeams(slug, leagueLabel) {
-  return fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/teams?limit=50`)
-    .then((res) => (res.ok ? res.json() : Promise.reject(new Error('teams ' + res.status))))
-    .then((data) => {
-      const teams = (((data.sports || [])[0] || {}).leagues || [{}])[0].teams || [];
-      return teams.map((t) => ({ id: String(t.team.id), name: t.team.displayName, league: leagueLabel }));
-    })
-    .catch((err) => { console.warn(`[YobraPulse] team list fetch failed for ${slug}`, err); return []; });
-}
-
-const trackedTeamsPromise = Promise.all(
-  TRACKED_COMPETITIONS.filter((c) => TRACKED_LEAGUE_SLUGS.includes(c.slug)).map((c) => fetchLeagueTeams(c.slug, c.name))
-).then((lists) => [].concat(...lists).sort((a, b) => a.name.localeCompare(b.name)));
+// Real club rosters (id + name) for all five leagues, read from
+// data/leagues.json - the same file the Stats page's League Tables
+// already use, fetched hourly server-side by fetch-league-data.py.
+// This exists instead of calling ESPN's own /teams endpoint directly
+// from the browser: that endpoint sends no CORS header at all (found
+// via a real browser console - curl-based checks never catch this,
+// since curl doesn't enforce CORS and the endpoint still returns a
+// normal 200), so every fetch of it silently failed in production
+// while looking fine in every server-side test. leagues.json's
+// standings entries already carry each team's real id, and the
+// standings endpoint they come from is confirmed CORS-open, so this
+// avoids the broken endpoint entirely rather than working around it.
+const trackedTeamsPromise = fetch('data/leagues.json')
+  .then((res) => (res.ok ? res.json() : Promise.reject(new Error('leagues.json ' + res.status))))
+  .then((data) => [].concat(...data.leagues.map((l) => l.teams.map((t) => ({ id: String(t.id), name: t.name, league: l.name }))))
+    .sort((a, b) => a.name.localeCompare(b.name)))
+  .catch((err) => { console.error('[YobraPulse] tracked team list failed to load', err); return []; });
 
 const trackedTeamIdsPromise = trackedTeamsPromise.then((teams) => new Set(teams.map((t) => t.id)));
 
