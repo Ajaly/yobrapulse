@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-09T04:58:01.043960+00:00",
+  "generatedAt": "2026-08-09T05:47:16.513611+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "True Love seeks Prix Maurice de Gheest crown at Deauville",
+      "description": "True Love heads the markets for the 2026 renewal of the Prix Maurice de Gheest - <em>live on Sky Sports Racing</em> at 3.40pm.",
+      "link": "https://www.skysports.com/racing/news/12040/13570933/today-on-sky-sports-racing-true-love-seeks-prix-maurice-de-gheest-crown-at-deauville",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T06:00:00+00:00"
+    },
+    {
+      "title": "Who am I? Guess Premier League star No 20",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy8m5nlzmvlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T05:36:15+00:00"
+    },
+    {
+      "title": "New season, new boss - will Alexander-Arnold be key figure at Real Madrid?",
+      "description": "Trent Alexander-Arnold faces a defining second season at Real Madrid as he looks to prove his worth under Jose Mourinho.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c78gvzvwql0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T05:18:56+00:00"
+    },
     {
       "title": "Wolves overwhelm Bradford in emphatic away victory",
       "description": "Highlights of the Super League clash between Bradford Bulls and Warrington Wolves as Matty Ashton scored twice in a dominant 42-4 victory for the visitors.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-08T22:06:44+00:00"
-    },
-    {
-      "title": "Wissa & Toure star as Jaissle wins first Newcastle friendly - ratings",
-      "description": "Newcastle United forward Yoane Wissa scores twice in a 2-1 win against Valencia in Matthias Jaissle's first game in charge - but how did the Magpies players perform?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gk75keg1lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T21:11:46+00:00"
-    },
-    {
-      "title": "Barca make second bid for Rodri - Sunday's gossip",
-      "description": "Barcelona increase their Rodri bid, Cristian Romero wants to join Arsenal, Forest are set to sign Ousmane Diomande, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c05qvj0yj46o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-08T20:37:28+00:00"
-    },
-    {
-      "title": "'That is another crunching finish!' | Hickey lands DEVASTATING knockout",
-      "description": "Sam Hickey's huge right hand knocked out Brad Axe in the seventh round of their contest.",
-      "link": "https://www.skysports.com/watch/video/13571226/zuffa-boxing-10-sam-hickey-lands-devastating-knockout-vs-brad-axe",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-08T20:26:00+00:00"
     }
   ]
 }
