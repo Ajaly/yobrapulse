@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-08-09T14:28:03.406201+00:00",
+  "generatedAt": "2026-08-09T15:24:03.555372+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Hearts agree deal to sell Kyziridis to Turkish club",
+      "title": "Arsenal defend badly as Dortmund win Emirates Cup",
+      "description": "Arsenal produced more comical defending in pre-season as Borussia Dortmund won 3-2 in north London to win the Emirates Cup.",
+      "link": "https://www.skysports.com/football/news/12040/13571075/arsenal-2-3-borussia-dortmund-mikel-artetas-side-defend-poorly-but-christos-tzolis-shines-as-gunners-lose-emirates-cup",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T15:58:00+00:00"
+    },
+    {
+      "title": "Hogh hits hat-trick as Celtic ease past hapless Kilmarnock",
+      "description": "Record signing Kasper Hogh silenced his early critics with a first-half hat-trick as Celtic swept Kilmarnock aside on the new grass pitch at Rugby Park.",
+      "link": "https://www.skysports.com/football/kilmarnock-vs-celtic/report/558343",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T15:20:00+00:00"
+    },
+    {
+      "title": "Everton's McNeil & Palace's Johnson poised for swap",
+      "description": "Everton and Crystal Palace are in talks about a swap deal that would see Toffees' winger Dwight McNeil join the Eagles, and Wales international Brennan Johnson move in the opposite direction.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckg32lvxpvyo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T15:03:03+00:00"
+    },
+    {
+      "title": "Hearts agree \u00a31.7m deal to sell winger Kyziridis",
+      "description": "Heart of Midlothian agree a deal to sell Greece winger Alexandros Kyziridis to a Turkish club for a fee of around \u00a31.7m.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5yevd5wxl1o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T14:20:04+00:00"
+    },
+    {
+      "title": "Hearts agree \u00a31.7m deal to sell winger Kyziridis",
       "description": "Heart of Midlothian agree a deal to sell Greece winger Alexandros Kyziridis to a Turkish club for a fee of around \u00a31.7m.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c5yevd5wxl1o",
       "source": "BBC Sport",
@@ -42,15 +78,6 @@
       "pubDateISO": "2026-08-09T14:00:00+00:00"
     },
     {
-      "title": "'Burnley, Celtic and Malaga vie for PAOK's Taylor' - gossip",
-      "description": "Celtic reportedly face opposition from Burnley and Malaga if they want to sign Greg Taylor from PAOK, while Sevilla appear poised to sign Robbie Ure.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cnvn6y26e1jo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T13:43:13+00:00"
-    },
-    {
       "title": "'The first of many!' | Hogh opens Celtic account early on at Kilmarnock",
       "description": "Kasper Hogh scored his first Celtic goal inside the opening two minutes of Celtic&#8217;s away match at Kilmarnock.",
       "link": "https://www.skysports.com/watch/video/13571358/it-will-be-the-first-of-many-kasper-hogh-opens-celtic-account-early-on-at-kilmarnock",
@@ -60,7 +87,7 @@
       "pubDateISO": "2026-08-09T13:37:00+00:00"
     },
     {
-      "title": "Isak and Wirtz on target as Liverpool lead Monaco LIVE!",
+      "title": "Monaco hit back to lead Liverpool as Munoz makes debut LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/liverpool-vs-monaco/live/556109",
       "source": "Sky Sports",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T12:43:00+00:00"
-    },
-    {
-      "title": "Comical Arsenal defending puts Dortmund 3-1 up LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13571163/arsenal-vs-borussia-dortmund-live-pre-season-friendly-team-news-preview-score-updates-and-live-blog",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T12:30:00+00:00"
-    },
-    {
-      "title": "Sevilla close to signing Scottish striker Ure in \u00a37.9m deal",
-      "description": "Sevilla near a \u00a37.9m move to sign Scotland Under-21 striker Robbie Ure from Swedish club IK Sirius.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T12:29:04+00:00"
-    },
-    {
-      "title": "Sevilla close to signing Scottish striker Ure in \u00a37.9m deal",
-      "description": "Sevilla near a \u00a37.9m move to sign Scotland Under-21 striker Robbie Ure from Swedish club IK Sirius.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T12:29:04+00:00"
     }
   ]
 }
