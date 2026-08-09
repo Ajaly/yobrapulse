@@ -287,7 +287,7 @@ button {
   align-items:center;
   gap:7px
 }
-.live-pill span,.page-heading-banner span,.match-status span {
+.live-pill span:first-child,.page-heading-banner span:first-child,.match-status span:first-child {
   width:6px;
   height:6px;
   background:var(--green);
