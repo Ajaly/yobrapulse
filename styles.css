@@ -952,8 +952,7 @@ h2 {
   display:flex;
   gap:7px;
   align-items:center;
-  width:fit-content;
-  max-width:100%;
+  box-sizing:border-box;
   margin-bottom:16px
 }
 .full-width {
