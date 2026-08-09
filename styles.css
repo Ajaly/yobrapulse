@@ -1897,6 +1897,10 @@ body.modal-open {
     flex-direction:column;
     margin-bottom:24px
   }
+  .model-status {
+    white-space:normal;
+    max-width:100%
+  }
   .hero-row .primary-button,.page-heading .secondary-button {
     width:100%
   }
