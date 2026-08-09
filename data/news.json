@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-09T08:33:49.844223+00:00",
+  "generatedAt": "2026-08-09T09:32:39.637565+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Scott and Antony sent off in pre-season friendly",
+      "description": "Bournemouth's Alex Scott and Real Betis' Antony are sent off after a confrontation during a friendly match in Seville, which ended in a 2-2 draw.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2k78znk7w2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T08:53:08+00:00"
+    },
+    {
+      "title": "Rangers make improved offer for PSV's Driouech - gossip",
+      "description": "Rangers' pursuit of PSV Eindhoven winger continues as Pat Nevin backs Hibernian boss.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cnvn6y26e1jo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T08:42:51+00:00"
+    },
     {
       "title": "Messi misses Miami defeat after death of father",
       "description": "Lionel Messi misses Inter Miami's Leagues Cup defeat by Monterrey on Saturday night after the death of his father.",
@@ -60,6 +78,15 @@
       "pubDateISO": "2026-08-09T07:58:00+00:00"
     },
     {
+      "title": "BBC Women's Football Weekly",
+      "description": "Two-time Ballon d'Or winner and London City Lionesses' star signing joins the pod!",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p3j9rz",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T07:58:00+00:00"
+    },
+    {
       "title": "In-form Norrie defeated in Montreal while Sabalenka suffers shock loss",
       "description": "Britain's Cameron Norrie has been knocked out of the National Bank Open at the last-16 stage following a 6-2 7-6 (10-8) defeat by Arthur Fils in Montreal.",
       "link": "https://www.skysports.com/tennis/news/12040/13571288/national-bank-open-in-form-cam-norrie-defeated-by-arthur-fils-in-montreal-while-aryna-sabalenka-suffers-shock-canadian-open-loss",
@@ -78,40 +105,13 @@
       "pubDateISO": "2026-08-09T07:22:01+00:00"
     },
     {
-      "title": "Brennan and Hossler share lead ahead of final round at Sedgefield",
-      "description": "Highlights from day three of the Wyndham Championship held at Sedgefield Country Club in Greensboro, North Carolina.",
+      "title": "Brennan, Hossler share Wyndham R3 lead as Thompson makes albatross",
+      "description": "Highlights from day three of the Wyndham Championship held at Sedgefield Country Club in Greensboro, North Carolina, including an albatross from Davis Thompson.",
       "link": "https://www.skysports.com/watch/video/13571286/wyndham-championship-day-three-highlights",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T07:22:00+00:00"
-    },
-    {
-      "title": "McKenna vows middleweight domination as heir to Golovkin and Canelo",
-      "description": "New world champion Aaron McKenna is just getting started.",
-      "link": "https://www.skysports.com/boxing/news/12040/13571270/aaron-mckenna-vows-middleweight-domination-as-heir-to-gennadiy-golovkin-and-canelo-alvarez-after-world-title-win",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T07:00:00+00:00"
-    },
-    {
-      "title": "True Love seeks Prix Maurice de Gheest crown at Deauville",
-      "description": "True Love heads the markets for the 2026 renewal of the Prix Maurice de Gheest - <em>live on Sky Sports Racing</em> at 3.40pm.",
-      "link": "https://www.skysports.com/racing/news/12040/13570933/today-on-sky-sports-racing-true-love-seeks-prix-maurice-de-gheest-crown-at-deauville",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T06:00:00+00:00"
-    },
-    {
-      "title": "Who am I? Guess Premier League star No 20",
-      "description": "Work out the identity of today's player in as few attempts as possible.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy8m5nlzmvlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T05:36:15+00:00"
     }
   ]
 }
