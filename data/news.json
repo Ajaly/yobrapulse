@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-09T09:32:39.637565+00:00",
+  "generatedAt": "2026-08-09T10:26:11.582677+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man City vs Atletico Madrid team news LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/manchester-city-vs-atletico-madrid/live/559827",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T10:58:00+00:00"
+    },
     {
       "title": "Scott and Antony sent off in pre-season friendly",
       "description": "Bournemouth's Alex Scott and Real Betis' Antony are sent off after a confrontation during a friendly match in Seville, which ended in a 2-2 draw.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T07:22:01+00:00"
-    },
-    {
-      "title": "Brennan, Hossler share Wyndham R3 lead as Thompson makes albatross",
-      "description": "Highlights from day three of the Wyndham Championship held at Sedgefield Country Club in Greensboro, North Carolina, including an albatross from Davis Thompson.",
-      "link": "https://www.skysports.com/watch/video/13571286/wyndham-championship-day-three-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T07:22:00+00:00"
     }
   ]
 }
