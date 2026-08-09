@@ -287,12 +287,13 @@ button {
   align-items:center;
   gap:7px
 }
-.live-pill span,.model-status span,.match-status span {
+.live-pill span,.page-heading-banner span,.match-status span {
   width:6px;
   height:6px;
   background:var(--green);
   border-radius:50%;
-  display:inline-block
+  display:inline-block;
+  flex-shrink:0
 }
 .mobile-brand {
   display:none;
@@ -941,18 +942,19 @@ h2 {
 .row-arrow svg {
   width:15px
 }
-.model-status {
+.page-heading-banner {
   background:#162d23;
   color:#81d3a5;
   border:1px solid #255239;
-  padding:8px 11px;
+  padding:8px 14px;
   border-radius:6px;
   font-size:11px;
   display:flex;
   gap:7px;
   align-items:center;
-  flex-shrink:0;
-  white-space:nowrap
+  width:fit-content;
+  max-width:100%;
+  margin-bottom:16px
 }
 .full-width {
   width:100%;
@@ -1896,10 +1898,6 @@ body.modal-open {
     align-items:flex-start;
     flex-direction:column;
     margin-bottom:24px
-  }
-  .model-status {
-    white-space:normal;
-    max-width:100%
   }
   .hero-row .primary-button,.page-heading .secondary-button {
     width:100%
