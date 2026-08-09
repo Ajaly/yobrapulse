@@ -819,15 +819,23 @@ function fetchMatchDetail(match) {
     .catch((err) => { console.warn(`[YobraPulse] match summary failed for event ${match.id}`, err); return { events: [], stats: null, lineup: { home: null, away: null } }; });
 }
 
+// Highlights = goals and bookings only. Substitutions are real events
+// too (captured in `events` and still visible via the IN/OUT badges on
+// the Line-up tab) but on a match with a lot of subbing, they buried
+// the moments actually worth surfacing here - dropped from this view
+// specifically, not from the underlying data.
+const HIGHLIGHT_KINDS = new Set(['goal', 'ownGoal', 'card', 'redCard']);
+
 function matchEventsHTML(events) {
-  if (!events || !events.length) return '';
-  return `<ul class="match-events">${events.map((e) => `
+  const highlights = (events || []).filter((e) => HIGHLIGHT_KINDS.has(e.kind));
+  if (!highlights.length) return '';
+  return `<ul class="match-events">${highlights.map((e) => `
     <li><span class="match-event-icon">${MATCH_EVENT_ICONS[e.kind] || ''}</span><span class="match-event-minute">${e.minute || ''}</span><span class="match-event-text">${e.text}</span></li>
   `).join('')}</ul>`;
 }
 
 function matchSummaryTabHTML(events) {
-  return matchEventsHTML(events) || '<p class="lede" style="margin:0;font-size:12px">No summary events yet.</p>';
+  return matchEventsHTML(events) || '<p class="lede" style="margin:0;font-size:12px">No goals or bookings yet.</p>';
 }
 
 function matchStatsTabHTML(stats) {
@@ -869,7 +877,7 @@ const matchDetailCache = new Map();
 const expandedMatchIds = new Set();
 
 function renderMatchDetailPanel(panel, m, detail, activeTab) {
-  const tabs = [['summary', 'Summary'], ['stats', 'Statistics'], ['lineup', 'Line-up']];
+  const tabs = [['summary', 'Highlights'], ['stats', 'Statistics'], ['lineup', 'Line-up']];
   const tabsHTML = tabs.map(([key, label]) => `<button class="tab${key === activeTab ? ' active' : ''}" data-tab="${key}">${label}</button>`).join('');
   let bodyHTML;
   if (activeTab === 'stats') bodyHTML = matchStatsTabHTML(detail.stats);
@@ -944,7 +952,8 @@ function matchRowHTML(m) {
   const smallText = m.state === 'in' ? (m.clock || 'Live') : m.state === 'post' ? 'Full-time' : 'Upcoming';
   const scoreHTML = m.state === 'pre' ? '<strong>VS</strong>' : `<strong>${m.homeScore} <small>—</small> ${m.awayScore}</strong>`;
   const kickoffNoteHTML = m.state !== 'pre' ? `<small class="match-kickoff-note">Kick-off ${kickoffLabel}</small>` : '';
-  return `<article class="match-row${m.events && m.events.length ? ' has-events' : ''}" data-match-id="${m.id}" data-league-slug="${m.leagueSlug}" data-match-state="${m.state}" data-match-home="${m.home}" data-match-away="${m.away}">
+  const hasHighlights = m.events && m.events.some((e) => HIGHLIGHT_KINDS.has(e.kind));
+  return `<article class="match-row${hasHighlights ? ' has-events' : ''}" data-match-id="${m.id}" data-league-slug="${m.leagueSlug}" data-match-state="${m.state}" data-match-home="${m.home}" data-match-away="${m.away}">
     <div class="competition"><span class="competition-badge ${m.competitionBadge}">${m.competitionCode}</span><div><strong>${m.competitionName}</strong><small>${smallText}</small></div></div>
     <div class="teams">${teamSpan(m.home)}${scoreHTML}${teamSpan(m.away)}</div>
     ${statusHTML}
