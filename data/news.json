@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-09T05:47:16.513611+00:00",
+  "generatedAt": "2026-08-09T06:43:06.889312+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Wyndham Championship | Day three highlights as Brennan and Hossler share lead",
+      "description": "Highlights from day three of the Wyndham Championship held at Sedgefield Country Club in Greensboro, North Carolina.",
+      "link": "https://www.skysports.com/watch/video/13571286/wyndham-championship-day-three-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T07:22:00+00:00"
+    },
+    {
+      "title": "McKenna vows middleweight domination as heir to Golovkin and Canelo",
+      "description": "New world champion Aaron McKenna is just getting started.",
+      "link": "https://www.skysports.com/boxing/news/12040/13571270/aaron-mckenna-vows-middleweight-domination-as-heir-to-gennadiy-golovkin-and-canelo-alvarez-after-world-title-win",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T07:00:00+00:00"
+    },
     {
       "title": "True Love seeks Prix Maurice de Gheest crown at Deauville",
       "description": "True Love heads the markets for the 2026 renewal of the Prix Maurice de Gheest - <em>live on Sky Sports Racing</em> at 3.40pm.",
@@ -31,6 +49,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T05:18:56+00:00"
+    },
+    {
+      "title": "Huddersfield blitz Catalans in dominant home win",
+      "description": "Highlights of the Super League clash between Huddersfield Giants and Catalans Dragons as Sam Halsall and Connor Wrench scored twice in a 42-20 victory for the hosts.",
+      "link": "https://www.skysports.com/watch/video/13571192/huddersfield-giants-42-20-catalans-dragons-super-league-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T00:00:00+00:00"
     },
     {
       "title": "Wolves overwhelm Bradford in emphatic away victory",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-08T23:00:00+00:00"
-    },
-    {
-      "title": "Wissa double gives Newcastle boss Jaissle winning start at 10-man Valencia",
-      "description": "Substitute Yoane Wissa scored twice to give Matthias Jaissle a winning start as Newcastle boss with a 2-1 comeback pre-season win at 10-man Valencia.",
-      "link": "https://www.skysports.com/football/news/12040/13571236/valencia-1-2-newcastle-yoane-wissas-double-gives-matthias-jaissle-winning-start-as-anthony-elanga-stretchered-off",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T22:26:00+00:00"
-    },
-    {
-      "title": "South Africa edge Argentina in thriller but Kolisi suffers injury",
-      "description": "South Africa scraped past Argentina 17-10 in Test rugby at the possible expense of inspirational captain Siya Kolisi in Buenos Aires on Saturday.",
-      "link": "https://www.skysports.com/rugby-union/news/12040/13571253/argentina-10-17-south-africa-springboks-win-buenos-aires-thriller-but-siya-kolisi-suffers-injury-ahead-of-new-zealand-series",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-08T22:09:00+00:00"
-    },
-    {
-      "title": "Fifa criticises campaign to oust president Infantino",
-      "description": "Fifa strongly criticises what it calls a \"concerted and ongoing effort\" to \"undermine\" the organisation and its president Gianni Infantino.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T22:06:44+00:00"
     }
   ]
 }
