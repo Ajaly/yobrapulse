@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-09T17:24:29.202233+00:00",
+  "generatedAt": "2026-08-09T18:29:44.193759+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Watch: Sunday's Scottish Premiership highlights",
+      "description": "Highlights of Kilmarnock v Celtic, Rangers v Hibernian and Hearts v Dundee United.",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcscotland",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T19:45:38+00:00"
+    },
+    {
+      "title": "Samangan stars in Prix Maurice de Gheest",
+      "description": "Samangan gave Francis-Henri Graffard another Group One success with victory in the ARC Prix Maurice de Gheest at Deauville.",
+      "link": "https://www.skysports.com/racing/news/12040/13571462/samangan-stars-in-prix-maurice-de-gheest",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T18:15:00+00:00"
+    },
+    {
+      "title": "Marsh fifty helps SunRisers ease past Welsh Fire in The Hundred",
+      "description": "Mitchell Marsh's half-century and three wickets from Brydon Carse helped SunRisers Leeds take a big step towards the men's Hundred eliminator with a crushing 71-run victory over Welsh Fire.",
+      "link": "https://www.skysports.com/cricket/news/12040/13571460/the-hundred-sunrisers-leeds-ease-to-71-run-win-over-welsh-fire",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T18:15:00+00:00"
+    },
+    {
+      "title": "'Exciting' Sun Goddess looks the part in Phoenix Stakes",
+      "description": "Sun Goddess came from last to first to provide Aidan O&#8217;Brien with his 18th win in the Keeneland Phoenix Stakes at the Curragh.",
+      "link": "https://www.skysports.com/racing/news/12040/13571457/exciting-sun-goddess-looks-the-part-for-record-breaking-aidan-obrien-in-phoenix-stakes-at-the-curragh",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T18:03:00+00:00"
+    },
+    {
+      "title": "Como sign defender Chalobah from Chelsea",
+      "description": "Como have signed defender Trevoh Chalobah from Chelsea in a deal worth more than \u00a330m.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn4n884vr4mo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T17:55:36+00:00"
+    },
     {
       "title": "Hibs win at Rangers as McInnes remains winless",
       "description": "Derek McInnes is still looking for his first win as Rangers manager after Hibernian netted an injury-time winner to triumph 2-1 at Ibrox.",
@@ -22,6 +67,15 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-08-09T17:44:00+00:00"
+    },
+    {
+      "title": "We cannot sustain the level we want - Iraola",
+      "description": "After throwing away a two-goal lead for the second match in a row, Andoni Iraola says his Liverpool side \"cannot sustain the level we want\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3r0zzpw5gjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T17:28:41+00:00"
     },
     {
       "title": "Digne completes move to PSG from Aston Villa",
@@ -58,60 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-09T16:43:35+00:00"
-    },
-    {
-      "title": "Coleman training with Killybegs - but no GAA return for now",
-      "description": "Former Everton defender Seamus Coleman has been training with Killybegs but a return to his local Gaelic football club is unlikely to be on the cards for now.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g32r7yd2eo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T16:36:39+00:00"
-    },
-    {
-      "title": "Liverpool throw away another 2-0 lead as Iraola loses first Anfield game",
-      "description": "Liverpool threw away another pre-season lead as Monaco came from behind to win 3-2 in Andoni Iraola's first game in charge at Anfield.",
-      "link": "https://www.skysports.com/football/liverpool-vs-monaco/report/556109",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T16:30:00+00:00"
-    },
-    {
-      "title": "Arsenal concede 'poor goals' as Dortmund win Emirates Cup",
-      "description": "Arsenal produced more comical defending in pre-season as Borussia Dortmund won 3-2 in north London to win the Emirates Cup.",
-      "link": "https://www.skysports.com/football/news/12040/13571075/arsenal-2-3-borussia-dortmund-mikel-artetas-side-defend-poorly-but-christos-tzolis-shines-as-gunners-lose-emirates-cup",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T15:58:00+00:00"
-    },
-    {
-      "title": "Chermiti injured after Rangers reject bid for striker",
-      "description": "Rangers reject an offer for striker Youssef Chermiti, with manager Derek McInnes confirming that it did not meet the Scottish Premiership club's valuation.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g3808zjl9o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-09T15:45:07+00:00"
-    },
-    {
-      "title": "Chermiti injured after Rangers reject bid for striker",
-      "description": "Rangers reject an offer for striker Youssef Chermiti, with manager Derek McInnes confirming that it did not meet the Scottish Premiership club's valuation.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g3808zjl9o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-09T15:45:07+00:00"
-    },
-    {
-      "title": "Late heartache for Hull as Huang claims PIF London title",
-      "description": "Charley Hull surrendered the lead with a double-bogey on the 17th as Anna Huang stormed to a two-shot victory at the PIF London Championship at Centurion Club.",
-      "link": "https://www.skysports.com/golf/news/12040/13571402/pif-london-championship-anna-huang-secures-victory-after-late-charley-hull-double-bogey",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T15:25:00+00:00"
     }
   ]
 }
