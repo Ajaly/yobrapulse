@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-09T07:48:21.858857+00:00",
+  "generatedAt": "2026-08-09T08:33:49.844223+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Messi misses Miami defeat after death of father",
+      "description": "Lionel Messi misses Inter Miami's Leagues Cup defeat by Monterrey on Saturday night after the death of his father.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czrj0yd2p4ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T08:04:46+00:00"
+    },
     {
       "title": "FIFA hits out at critics trying to 'undermine' Infantino",
       "description": "FIFA has hit out at \"a concerted and ongoing effort by some to undermine\" the governing body and president Gianni Infantino over claims surrounding his conduct at UEFA.",
@@ -24,6 +33,33 @@
       "pubDateISO": "2026-08-09T08:01:00+00:00"
     },
     {
+      "title": "Unmasking London City's Spanish superstar",
+      "description": "Alexia Putellas' arrival at London City Lionesses was the biggest transfer in WSL history - but who is the person behind the global stardom?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8en56r919ro",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T08:00:15+00:00"
+    },
+    {
+      "title": "Unmasking London City's Spanish superstar",
+      "description": "Alexia Putellas' arrival at London City Lionesses was the biggest transfer in WSL history - but who is the person behind the global stardom?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8en56r919ro",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T08:00:15+00:00"
+    },
+    {
+      "title": "BBC Women's Football Weekly",
+      "description": "Two-time Ballon d'Or winner and London City Lionesses' star signing joins the pod!",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p3j9rz",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T07:58:00+00:00"
+    },
+    {
       "title": "In-form Norrie defeated in Montreal while Sabalenka suffers shock loss",
       "description": "Britain's Cameron Norrie has been knocked out of the National Bank Open at the last-16 stage following a 6-2 7-6 (10-8) defeat by Arthur Fils in Montreal.",
       "link": "https://www.skysports.com/tennis/news/12040/13571288/national-bank-open-in-form-cam-norrie-defeated-by-arthur-fils-in-montreal-while-aryna-sabalenka-suffers-shock-canadian-open-loss",
@@ -34,7 +70,7 @@
     },
     {
       "title": "What are your favourite new kits for the coming season?",
-      "description": "BBC Sport have rounded up some of the best new kits released by clubs around the world over the summer - vote for your top 10",
+      "description": "BBC Sport has rounded up some of the best new kits released by clubs around the world over the summer - vote for your top 10",
       "link": "https://www.bbc.co.uk/sport/football/articles/c4g630klknjo",
       "source": "BBC Sport",
       "category": "club",
@@ -42,7 +78,7 @@
       "pubDateISO": "2026-08-09T07:22:01+00:00"
     },
     {
-      "title": "Wyndham Championship | Day three highlights as Brennan and Hossler share lead",
+      "title": "Brennan and Hossler share lead ahead of final round at Sedgefield",
       "description": "Highlights from day three of the Wyndham Championship held at Sedgefield Country Club in Greensboro, North Carolina.",
       "link": "https://www.skysports.com/watch/video/13571286/wyndham-championship-day-three-highlights",
       "source": "Sky Sports",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T05:36:15+00:00"
-    },
-    {
-      "title": "New season, new boss - will Alexander-Arnold be key figure at Real Madrid?",
-      "description": "Trent Alexander-Arnold faces a defining second season at Real Madrid as he looks to prove his worth under Jose Mourinho.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c78gvzvwql0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T05:18:56+00:00"
-    },
-    {
-      "title": "Huddersfield blitz Catalans in dominant home win",
-      "description": "Highlights of the Super League clash between Huddersfield Giants and Catalans Dragons as Sam Halsall and Connor Wrench scored twice in a 42-20 victory for the hosts.",
-      "link": "https://www.skysports.com/watch/video/13571192/huddersfield-giants-42-20-catalans-dragons-super-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T00:00:00+00:00"
-    },
-    {
-      "title": "Wolves overwhelm Bradford in emphatic away victory",
-      "description": "Highlights of the Super League clash between Bradford Bulls and Warrington Wolves as Matty Ashton scored twice in a dominant 42-4 victory for the visitors.",
-      "link": "https://www.skysports.com/watch/video/13571231/bradford-bulls-4-42-warrington-wolves-super-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T00:00:00+00:00"
-    },
-    {
-      "title": "Wigan overpower Toulouse to close gap on leaders",
-      "description": "Highlights of the Super League clash between Wigan Warriors and Toulouse Olympique.",
-      "link": "https://www.skysports.com/watch/video/13571216/wigan-warriors-48-18-toulouse-olympique-super-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T00:00:00+00:00"
     }
   ]
 }
