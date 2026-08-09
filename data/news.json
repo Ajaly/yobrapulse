@@ -1,18 +1,54 @@
 {
-  "generatedAt": "2026-08-09T15:24:03.555372+00:00",
+  "generatedAt": "2026-08-09T16:26:14.808757+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Arsenal defend badly as Dortmund win Emirates Cup",
+      "title": "Liverpool throw away another 2-0 lead as Iraola loses first Anfield game",
+      "description": "Liverpool threw away another pre-season lead as Monaco came from behind to win 3-2 in Andoni Iraola's first game in charge at Anfield.",
+      "link": "https://www.skysports.com/football/liverpool-vs-monaco/report/556109",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T16:30:00+00:00"
+    },
+    {
+      "title": "Arsenal concede 'poor goals' as Dortmund win Emirates Cup",
       "description": "Arsenal produced more comical defending in pre-season as Borussia Dortmund won 3-2 in north London to win the Emirates Cup.",
       "link": "https://www.skysports.com/football/news/12040/13571075/arsenal-2-3-borussia-dortmund-mikel-artetas-side-defend-poorly-but-christos-tzolis-shines-as-gunners-lose-emirates-cup",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T15:58:00+00:00"
+    },
+    {
+      "title": "Chermiti injured after Rangers reject bid for striker",
+      "description": "Rangers reject an offer for striker Youssef Chermiti, with manager Derek McInnes confirming that it did not meet the Scottish Premiership club's valuation.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g3808zjl9o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-09T15:45:07+00:00"
+    },
+    {
+      "title": "Chermiti injured after Rangers reject bid for striker",
+      "description": "Rangers reject an offer for striker Youssef Chermiti, with manager Derek McInnes confirming that it did not meet the Scottish Premiership club's valuation.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g3808zjl9o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-09T15:45:07+00:00"
+    },
+    {
+      "title": "Late heartache for Hull as Huang claims PIF London title",
+      "description": "Charley Hull surrendered the lead with a double-bogey on the 17th as Anna Huang stormed to a two-shot victory at the PIF London Championship at Centurion Club.",
+      "link": "https://www.skysports.com/golf/news/12040/13571402/pif-london-championship-anna-huang-secures-victory-after-late-charley-hull-double-bogey",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T15:25:00+00:00"
     },
     {
       "title": "Hogh hits hat-trick as Celtic ease past hapless Kilmarnock",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T14:00:00+00:00"
-    },
-    {
-      "title": "'The first of many!' | Hogh opens Celtic account early on at Kilmarnock",
-      "description": "Kasper Hogh scored his first Celtic goal inside the opening two minutes of Celtic&#8217;s away match at Kilmarnock.",
-      "link": "https://www.skysports.com/watch/video/13571358/it-will-be-the-first-of-many-kasper-hogh-opens-celtic-account-early-on-at-kilmarnock",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T13:37:00+00:00"
-    },
-    {
-      "title": "Monaco hit back to lead Liverpool as Munoz makes debut LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/liverpool-vs-monaco/live/556109",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T13:23:00+00:00"
-    },
-    {
-      "title": "Fulham agree \u00a330m fee for Southampton's Charles",
-      "description": "Fulham agree a deal worth up to \u00a330m for Southampton midfielder Shea Charles, subject to a medical.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce3qgzv43d3o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T13:10:10+00:00"
-    },
-    {
-      "title": "Five-time Super League winner Makinson to retire at end of 2026 campaign",
-      "description": "Tommy Makinson has announced he will retire from rugby league at the end of the current 2026 Super League campaign.&#160;",
-      "link": "https://www.skysports.com/rugby-league/news/12040/13571338/tommy-makinson-catalans-dragons-wing-and-former-st-helens-try-machine-announces-he-will-retire-at-end-of-2026-campaign",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T12:43:00+00:00"
     }
   ]
 }
