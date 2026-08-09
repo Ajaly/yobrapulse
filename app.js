@@ -685,7 +685,7 @@ function fetchCompetitionMatches(comp, datesParam) {
           const home = c.competitors.find((t) => t.homeAway === 'home');
           const away = c.competitors.find((t) => t.homeAway === 'away');
           return {
-            id: ev.id,
+            id: String(ev.id),
             leagueSlug: comp.slug,
             competitionCode: comp.code,
             competitionBadge: comp.badge,
@@ -711,12 +711,21 @@ function fetchMatchesForDates(datesParam, competitions) {
     .then((results) => [].concat(...results));
 }
 
-// Live match events (goals, bookings, substitutions): ESPN's scoreboard
-// endpoint above only carries the score, not what happened - that detail
-// (with real player names, minute and team) lives on a separate
-// per-match summary endpoint, confirmed CORS-open the same as the
-// scoreboard. Only fetched for matches currently in progress, so this
-// scales with how many games are live right now, not the full schedule.
+// Full match detail (events, statistics, line-up): ESPN's scoreboard
+// endpoint above only carries the score, not what happened - all of
+// this lives on a separate per-match summary endpoint, confirmed
+// CORS-open the same as the scoreboard. One fetch of that endpoint
+// carries everything for all three expandable tabs, so this is called
+// once per match rather than three times.
+//
+// What's deliberately NOT here, checked directly against real match
+// data before building this (two real top-flight matches inspected
+// field-by-field): expected goals (xG) isn't in the statistics data at
+// all, there's no player "match rating" field anywhere in the payload,
+// and per-player stats only cover appearances/cards/goals/assists/
+// shots/saves - no passes, pass accuracy, duels or distance covered
+// per player. Rather than fake those or leave empty placeholders,
+// they're simply not shown - what's below is everything that's real.
 const MATCH_EVENT_ICONS = { goal: '⚽', ownGoal: '⚽', card: '🟨', redCard: '🟥', sub: '🔁' };
 
 function classifyMatchEvent(typeText) {
@@ -729,19 +738,85 @@ function classifyMatchEvent(typeText) {
   return null;
 }
 
-function fetchMatchEvents(match) {
+// Curated subset of the ~28 raw team-statistic fields ESPN returns -
+// the rest (crosses, long balls, blocked shots, clearance splits etc.)
+// are real too but repetitive/niche enough to skip for a first pass.
+// format() exists because ESPN's own displayValue is inconsistent
+// between fields: possessionPct already comes as "55.8" (append %),
+// but passPct comes as a bare fraction like "0.9" (needs x100) -
+// verified directly per-field before writing this, not assumed.
+const MATCH_STAT_DEFS = [
+  { key: 'possessionPct', label: 'Possession', format: (v) => `${v}%` },
+  { key: 'totalShots', label: 'Shots', format: (v) => v },
+  { key: 'shotsOnTarget', label: 'Shots on target', format: (v) => v },
+  { key: 'wonCorners', label: 'Corners', format: (v) => v },
+  { key: 'passPct', label: 'Pass accuracy', format: (v) => `${Math.round(parseFloat(v) * 100)}%` },
+  { key: 'foulsCommitted', label: 'Fouls', format: (v) => v },
+  { key: 'offsides', label: 'Offsides', format: (v) => v },
+  { key: 'yellowCards', label: 'Yellow cards', format: (v) => v },
+  { key: 'redCards', label: 'Red cards', format: (v) => v },
+  { key: 'saves', label: 'Saves', format: (v) => v },
+];
+
+function extractMatchStats(boxscore) {
+  const teams = (boxscore && boxscore.teams) || [];
+  const home = teams.find((t) => t.homeAway === 'home');
+  const away = teams.find((t) => t.homeAway === 'away');
+  if (!home || !away || !home.statistics || !home.statistics.length) return null;
+  const byKey = (team) => Object.fromEntries((team.statistics || []).map((s) => [s.name, s.displayValue]));
+  const homeStats = byKey(home);
+  const awayStats = byKey(away);
+  return MATCH_STAT_DEFS
+    .filter((def) => homeStats[def.key] !== undefined || awayStats[def.key] !== undefined)
+    .map((def) => ({
+      label: def.label,
+      home: homeStats[def.key] !== undefined ? def.format(homeStats[def.key]) : '-',
+      away: awayStats[def.key] !== undefined ? def.format(awayStats[def.key]) : '-',
+    }));
+}
+
+function extractLineupSide(roster) {
+  if (!roster) return null;
+  const playerRow = (e) => ({
+    name: e.athlete ? e.athlete.shortName || e.athlete.displayName : 'Unknown',
+    jersey: e.jersey || '',
+    position: (e.position && e.position.abbreviation) || '',
+    subbedOut: !!e.subbedOut,
+    subbedIn: !!e.subbedIn,
+    yellowCards: Number((e.stats || []).find((s) => s.name === 'yellowCards')?.displayValue || 0),
+    redCards: Number((e.stats || []).find((s) => s.name === 'redCards')?.displayValue || 0),
+    goals: Number((e.stats || []).find((s) => s.name === 'totalGoals')?.displayValue || 0),
+  });
+  const all = roster.roster || [];
+  return {
+    formation: roster.formation || '',
+    starters: all.filter((e) => e.starter).map(playerRow),
+    bench: all.filter((e) => !e.starter).map(playerRow),
+  };
+}
+
+function fetchMatchDetail(match) {
   return fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${match.leagueSlug}/summary?event=${match.id}`)
     .then((res) => (res.ok ? res.json() : Promise.reject(new Error('summary ' + res.status))))
-    .then((data) => (data.keyEvents || [])
-      .map((e) => ({
-        kind: classifyMatchEvent(e.type && e.type.text),
-        minute: e.clock && e.clock.displayValue,
-        clockValue: e.clock ? e.clock.value : 0,
-        text: e.text || e.shortText || '',
-      }))
-      .filter((e) => e.kind && e.text)
-      .sort((a, b) => a.clockValue - b.clockValue))
-    .catch((err) => { console.warn(`[YobraPulse] match summary failed for event ${match.id}`, err); return []; });
+    .then((data) => {
+      const events = (data.keyEvents || [])
+        .map((e) => ({
+          kind: classifyMatchEvent(e.type && e.type.text),
+          minute: e.clock && e.clock.displayValue,
+          clockValue: e.clock ? e.clock.value : 0,
+          text: e.text || e.shortText || '',
+        }))
+        .filter((e) => e.kind && e.text)
+        .sort((a, b) => a.clockValue - b.clockValue);
+      const stats = extractMatchStats(data.boxscore);
+      const rosters = data.rosters || [];
+      const lineup = {
+        home: extractLineupSide(rosters.find((r) => r.homeAway === 'home')),
+        away: extractLineupSide(rosters.find((r) => r.homeAway === 'away')),
+      };
+      return { events, stats, lineup };
+    })
+    .catch((err) => { console.warn(`[YobraPulse] match summary failed for event ${match.id}`, err); return { events: [], stats: null, lineup: { home: null, away: null } }; });
 }
 
 function matchEventsHTML(events) {
@@ -749,6 +824,111 @@ function matchEventsHTML(events) {
   return `<ul class="match-events">${events.map((e) => `
     <li><span class="match-event-icon">${MATCH_EVENT_ICONS[e.kind] || ''}</span><span class="match-event-minute">${e.minute || ''}</span><span class="match-event-text">${e.text}</span></li>
   `).join('')}</ul>`;
+}
+
+function matchSummaryTabHTML(events) {
+  return matchEventsHTML(events) || '<p class="lede" style="margin:0;font-size:12px">No summary events yet.</p>';
+}
+
+function matchStatsTabHTML(stats) {
+  if (!stats || !stats.length) return '<p class="lede" style="margin:0;font-size:12px">Statistics not available for this match.</p>';
+  return `<div class="match-stats">${stats.map((s) => `
+    <div class="match-stat-row">
+      <span class="match-stat-value">${s.home}</span>
+      <span class="match-stat-label">${s.label}</span>
+      <span class="match-stat-value">${s.away}</span>
+    </div>
+  `).join('')}</div>`;
+}
+
+function lineupPlayerHTML(p) {
+  const badges = `${p.goals ? ` <span class="lineup-badge goal">⚽${p.goals > 1 ? '×' + p.goals : ''}</span>` : ''}${p.yellowCards ? ' <span class="lineup-badge yellow">🟨</span>' : ''}${p.redCards ? ' <span class="lineup-badge red">🟥</span>' : ''}${p.subbedOut ? ' <span class="lineup-badge sub-out">OUT</span>' : ''}${p.subbedIn ? ' <span class="lineup-badge sub-in">IN</span>' : ''}`;
+  return `<li><span class="lineup-jersey">${p.jersey}</span><span class="lineup-name">${p.name}</span><span class="lineup-pos">${p.position}</span>${badges}</li>`;
+}
+
+function lineupSideHTML(side, label) {
+  if (!side) return `<div class="lineup-side"><h4>${label}</h4><p class="lede" style="margin:0;font-size:12px">Line-up not available yet.</p></div>`;
+  return `<div class="lineup-side">
+    <h4>${label}${side.formation ? ` <small>(${side.formation})</small>` : ''}</h4>
+    <ul class="lineup-list">${side.starters.map(lineupPlayerHTML).join('')}</ul>
+    ${side.bench.length ? `<p class="lineup-bench-label">Bench</p><ul class="lineup-list bench">${side.bench.map(lineupPlayerHTML).join('')}</ul>` : ''}
+  </div>`;
+}
+
+function matchLineupTabHTML(lineup, m) {
+  if (!lineup.home && !lineup.away) return '<p class="lede" style="margin:0;font-size:12px">Line-up not available yet.</p>';
+  return `<div class="match-lineup">${lineupSideHTML(lineup.home, m.home)}${lineupSideHTML(lineup.away, m.away)}</div>`;
+}
+
+// Expanding a match row fetches its full detail on demand (not for
+// every match on every poll - only when a user actually opens one).
+// Cached indefinitely for finished matches (nothing about them
+// changes); re-fetched on open for a live match, since that data is
+// actively changing.
+const matchDetailCache = new Map();
+const expandedMatchIds = new Set();
+
+function renderMatchDetailPanel(panel, m, detail, activeTab) {
+  const tabs = [['summary', 'Summary'], ['stats', 'Statistics'], ['lineup', 'Line-up']];
+  const tabsHTML = tabs.map(([key, label]) => `<button class="tab${key === activeTab ? ' active' : ''}" data-tab="${key}">${label}</button>`).join('');
+  let bodyHTML;
+  if (activeTab === 'stats') bodyHTML = matchStatsTabHTML(detail.stats);
+  else if (activeTab === 'lineup') bodyHTML = matchLineupTabHTML(detail.lineup, m);
+  else bodyHTML = matchSummaryTabHTML(detail.events);
+
+  panel.innerHTML = `<div class="tabs match-detail-tabs">${tabsHTML}</div><div class="match-detail-body">${bodyHTML}</div>`;
+  panel.querySelectorAll('.tab').forEach((tabEl) => {
+    tabEl.addEventListener('click', () => renderMatchDetailPanel(panel, m, detail, tabEl.dataset.tab));
+  });
+  refreshIcons();
+}
+
+function toggleMatchDetail(rowEl, m) {
+  const existing = rowEl.nextElementSibling;
+  if (existing && existing.classList.contains('match-detail-panel')) {
+    existing.remove();
+    rowEl.classList.remove('expanded');
+    expandedMatchIds.delete(m.id);
+    return;
+  }
+  rowEl.classList.add('expanded');
+  expandedMatchIds.add(m.id);
+  const panel = document.createElement('div');
+  panel.className = 'match-detail-panel';
+  panel.innerHTML = '<p class="lede" style="margin:0;padding:14px 0;font-size:12px">Loading match detail&hellip;</p>';
+  rowEl.after(panel);
+
+  const cached = m.state !== 'in' ? matchDetailCache.get(m.id) : null;
+  if (cached) {
+    renderMatchDetailPanel(panel, m, cached, 'summary');
+    return;
+  }
+  fetchMatchDetail(m).then((detail) => {
+    if (m.state !== 'in') matchDetailCache.set(m.id, detail);
+    renderMatchDetailPanel(panel, m, detail, 'summary');
+  });
+}
+
+// Event delegation, not per-row listeners - match lists are rebuilt
+// with innerHTML on every poll/filter change, so binding to the
+// container once (idempotent - a stale ref would just no-op) survives
+// that instead of needing to be re-bound after every render.
+const matchExpandContainers = new WeakSet();
+function bindMatchExpandTriggers(container) {
+  if (!container || matchExpandContainers.has(container)) return;
+  matchExpandContainers.add(container);
+  container.addEventListener('click', (event) => {
+    const rowEl = event.target.closest('.match-row[data-match-id]');
+    if (!rowEl || event.target.closest('a')) return;
+    const m = {
+      id: rowEl.dataset.matchId,
+      leagueSlug: rowEl.dataset.leagueSlug,
+      state: rowEl.dataset.matchState,
+      home: rowEl.dataset.matchHome,
+      away: rowEl.dataset.matchAway,
+    };
+    toggleMatchDetail(rowEl, m);
+  });
 }
 
 function matchRowHTML(m) {
@@ -764,10 +944,11 @@ function matchRowHTML(m) {
   const smallText = m.state === 'in' ? (m.clock || 'Live') : m.state === 'post' ? 'Full-time' : 'Upcoming';
   const scoreHTML = m.state === 'pre' ? '<strong>VS</strong>' : `<strong>${m.homeScore} <small>—</small> ${m.awayScore}</strong>`;
   const kickoffNoteHTML = m.state !== 'pre' ? `<small class="match-kickoff-note">Kick-off ${kickoffLabel}</small>` : '';
-  return `<article class="match-row${m.events && m.events.length ? ' has-events' : ''}">
+  return `<article class="match-row${m.events && m.events.length ? ' has-events' : ''}" data-match-id="${m.id}" data-league-slug="${m.leagueSlug}" data-match-state="${m.state}" data-match-home="${m.home}" data-match-away="${m.away}">
     <div class="competition"><span class="competition-badge ${m.competitionBadge}">${m.competitionCode}</span><div><strong>${m.competitionName}</strong><small>${smallText}</small></div></div>
     <div class="teams">${teamSpan(m.home)}${scoreHTML}${teamSpan(m.away)}</div>
     ${statusHTML}
+    <i class="match-expand-chevron" data-lucide="chevron-down"></i>
     ${kickoffNoteHTML}
     ${matchEventsHTML(m.events)}
   </article>`;
@@ -798,6 +979,7 @@ function renderMatchGroups(container, matches, emptyMessage) {
       <div class="match-list">${g.items.map((m) => matchRowHTML(m)).join('')}</div>
     </div>`;
   }).join('');
+  bindMatchExpandTriggers(container);
   refreshIcons();
 }
 
@@ -820,7 +1002,10 @@ function loadLiveScoresForDate(date) {
 
       if (isSameUTCDay(date, new Date())) {
         const dashboardList = document.querySelector('#dashboard-live-list');
-        if (dashboardList) dashboardList.innerHTML = all.slice(0, 3).map((m) => matchRowHTML(m)).join('');
+        if (dashboardList) {
+          dashboardList.innerHTML = all.slice(0, 3).map((m) => matchRowHTML(m)).join('');
+          bindMatchExpandTriggers(dashboardList);
+        }
       }
 
       const liveCount = liveMatches.length;
@@ -840,7 +1025,7 @@ function loadLiveScoresForDate(date) {
     }
 
     if (!liveMatches.length) { render(); return; }
-    Promise.all(liveMatches.map((m) => fetchMatchEvents(m).then((events) => { m.events = events; })))
+    Promise.all(liveMatches.map((m) => fetchMatchDetail(m).then((detail) => { m.events = detail.events; matchDetailCache.set(m.id, detail); })))
       .then(render)
       .catch(render);
   }).catch((err) => { console.error('[YobraPulse] live scores failed to load, showing fallback content', err); });
