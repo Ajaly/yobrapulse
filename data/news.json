@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-09T06:43:06.889312+00:00",
+  "generatedAt": "2026-08-09T07:48:21.858857+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "FIFA hits out at critics trying to 'undermine' Infantino",
+      "description": "FIFA has hit out at \"a concerted and ongoing effort by some to undermine\" the governing body and president Gianni Infantino over claims surrounding his conduct at UEFA.",
+      "link": "https://www.skysports.com/football/news/12040/13571297/gianni-infantino-fifa-hits-out-at-critics-trying-to-undermine-president-amid-ongoing-allegations",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T08:02:00+00:00"
+    },
+    {
+      "title": "Thorslund ends Johnson's undisputed run to become world champion again",
+      "description": "Dina Thorslund is a world champion again after ending&#160;Cherneka Johnson's undisputed run to cap an emotional return to the sport.",
+      "link": "https://www.skysports.com/boxing/news/12040/13571294/dina-thorslund-ends-cherneka-johnsons-undisputed-run-to-become-world-champion-again-after-return-following-miscarriage",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T08:01:00+00:00"
+    },
+    {
+      "title": "In-form Norrie defeated in Montreal while Sabalenka suffers shock loss",
+      "description": "Britain's Cameron Norrie has been knocked out of the National Bank Open at the last-16 stage following a 6-2 7-6 (10-8) defeat by Arthur Fils in Montreal.",
+      "link": "https://www.skysports.com/tennis/news/12040/13571288/national-bank-open-in-form-cam-norrie-defeated-by-arthur-fils-in-montreal-while-aryna-sabalenka-suffers-shock-canadian-open-loss",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-09T07:29:00+00:00"
+    },
+    {
+      "title": "What are your favourite new kits for the coming season?",
+      "description": "BBC Sport have rounded up some of the best new kits released by clubs around the world over the summer - vote for your top 10",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g630klknjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T07:22:01+00:00"
+    },
     {
       "title": "Wyndham Championship | Day three highlights as Brennan and Hossler share lead",
       "description": "Highlights from day three of the Wyndham Championship held at Sedgefield Country Club in Greensboro, North Carolina.",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T00:00:00+00:00"
-    },
-    {
-      "title": "McKenna wins world title in Ireland homecoming fight!",
-      "description": "Highlights of Aaron McKenna's IBF middleweight world title fight against Etinosa Oliha.",
-      "link": "https://www.skysports.com/watch/video/13571266/aaron-mckenna-vs-etinosa-oliha-fight-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T23:46:00+00:00"
-    },
-    {
-      "title": "Jaissle starts with win but not planning to 'smash locker room'",
-      "description": "It was a night which ended with Newcastle United lifting a trophy, but there was certainly no danger of head coach Matthias Jaissle getting carried away.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3049pl53yyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T23:23:30+00:00"
-    },
-    {
-      "title": "Papers: Romero open to joining Arsenal but Spurs resist",
-      "description": "The top stories and transfer rumours from Sunday's newspapers...",
-      "link": "https://www.skysports.com/football/news/12040/13571259/cristian-romero-open-to-joining-arsenal-but-tottenham-adamant-their-defender-will-not-cross-the-north-london-divide-paper-talk",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-08T23:15:00+00:00"
-    },
-    {
-      "title": "McKenna becomes middleweight world champ with dream homecoming win",
-      "description": "Ireland's Aaron McKenna defeated Etinosa Oliha to become a middleweight world champion.",
-      "link": "https://www.skysports.com/boxing/news/12040/13571057/aaron-mckenna-wins-dream-homecoming-bout-against-etinosa-oliha-to-become-ibf-middleweight-world-champion-in-dublin",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-08T23:00:00+00:00"
     }
   ]
 }
