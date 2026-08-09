@@ -1,18 +1,54 @@
 {
-  "generatedAt": "2026-08-09T12:36:06.599562+00:00",
+  "generatedAt": "2026-08-09T13:43:23.361304+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Liverpool vs Monaco team news LIVE!",
+      "title": "'He can't miss!' | Hogh running rampant with first-half hat-trick",
+      "description": "Hogh runs rampant with first-half hat-trick for Celtic.",
+      "link": "https://www.skysports.com/watch/video/13571375/kilmarnock-vs-celtic-hogh-running-rampant-with-first-half-hat-trick",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T14:11:00+00:00"
+    },
+    {
+      "title": "Sunrisers Leeds dominate Welsh Fire to remain in eliminator contention",
+      "description": "Sunrisers Leeds kept themselves in contention for The Hundred&#160;eliminator while dumping Welsh Fire out of the women's competition in a one-sided contest at Headingley.",
+      "link": "https://www.skysports.com/cricket/news/12040/13571323/the-hundred-sunrisers-leeds-dominate-welsh-fire-at-headingley-to-remain-in-eliminator-contention",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T14:00:00+00:00"
+    },
+    {
+      "title": "'The first of many!' | Hogh opens Celtic account early on at Kilmarnock",
+      "description": "Kasper Hogh scored his first Celtic goal inside the opening two minutes of Celtic&#8217;s away match at Kilmarnock.",
+      "link": "https://www.skysports.com/watch/video/13571358/it-will-be-the-first-of-many-kasper-hogh-opens-celtic-account-early-on-at-kilmarnock",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T13:37:00+00:00"
+    },
+    {
+      "title": "Iraola takes charge of Liverpool at Anfield for first time vs Monaco LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/liverpool-vs-monaco/live/556109",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T13:23:00+00:00"
+    },
+    {
+      "title": "Fulham agree \u00a330m fee for Southampton's Charles",
+      "description": "Fulham agree a deal worth up to \u00a330m for Southampton midfielder Shea Charles, subject to a medical.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce3qgzv43d3o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T13:10:10+00:00"
     },
     {
       "title": "Five-time Super League winner Makinson to retire at end of 2026 campaign",
@@ -24,7 +60,7 @@
       "pubDateISO": "2026-08-09T12:43:00+00:00"
     },
     {
-      "title": "Odegaard back for Arsenal vs Dortmund LIVE!",
+      "title": "Arsenal two goals down AGAIN in pre-season to Dortmund LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/12040/13571163/arsenal-vs-borussia-dortmund-live-pre-season-friendly-team-news-preview-score-updates-and-live-blog",
       "source": "Sky Sports",
@@ -69,49 +105,13 @@
       "pubDateISO": "2026-08-09T12:05:00+00:00"
     },
     {
-      "title": "What a start! Hogh heads home for Celtic at Kilmarnock LIVE!",
+      "title": "Hogh hits first-half hat-trick for Celtic at woeful Kilmarnock LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/kilmarnock-vs-celtic/live/558343",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T12:00:00+00:00"
-    },
-    {
-      "title": "Semenyo and Marmoush combine twice to give City lead vs Atletico LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/manchester-city-vs-atletico-madrid/live/559827",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T10:58:00+00:00"
-    },
-    {
-      "title": "TWO REDS as tempers flare between Scott and Antony!",
-      "description": "Watch as Bournemouth's 2-2 draw with Real Betis was anything but a pre-season friendly, as an on-pitch brawl resulted in two red cards, including one for former Manchester United winger Antony.",
-      "link": "https://www.skysports.com/watch/video/13571317/tempers-flare-between-real-betis-and-bournemouth-in-pre-season-friendly",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T10:20:00+00:00"
-    },
-    {
-      "title": "Family 'overwhelmed' after Arbroath FC hold silence for Minnie Merriman",
-      "description": "Minnie Merriman, nine, from West Yorkshire died at Ninewells Hospital after being found seriously injured.",
-      "link": "https://www.bbc.co.uk/news/articles/cz97q39ev45o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-09T09:36:25+00:00"
-    },
-    {
-      "title": "Scott and Antony sent off in pre-season friendly",
-      "description": "Bournemouth's Alex Scott and Real Betis' Antony are sent off after a confrontation during a friendly match in Seville, which ended in a 2-2 draw.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2k78znk7w2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T08:53:08+00:00"
     }
   ]
 }
