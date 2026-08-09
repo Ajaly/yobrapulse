@@ -1,10 +1,64 @@
 {
-  "generatedAt": "2026-08-09T21:24:19.892791+00:00",
+  "generatedAt": "2026-08-09T22:22:43.278509+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Man Utd and Arsenal chase Club Brugge full-back Seys",
+      "description": "The top stories and transfer rumours from Monday's newspapers...",
+      "link": "https://www.skysports.com/football/news/12040/13571517/manchester-united-and-arsenal-among-several-clubs-chasing-club-brugge-left-back-joaquin-seys",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T23:00:00+00:00"
+    },
+    {
+      "title": "Rahm reigns again after Niemann wins LIV Golf New York",
+      "description": "Jon Rahm clinched the LIV Golf season points title for a third straight year despite finishing tied for 41st at LIV Golf New York, where Joaquin Niemann claimed a three-shot victory for his ninth win in the last three years.",
+      "link": "https://www.skysports.com/golf/news/12040/13571516/liv-golf-jon-rahm-clinches-third-straight-title-after-joaquin-niemann-wins-in-new-york",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T22:36:00+00:00"
+    },
+    {
+      "title": "African quartet secure Women's World Cup places",
+      "description": "Algeria, Morocco, Cameroon and Malawi all qualify for the 2027 Women's World Cup in Brazil by reaching the semi-finals of the Women's Africa Cup of Nations.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gw456e3xxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T22:06:43+00:00"
+    },
+    {
+      "title": "African quartet secure Women's World Cup places",
+      "description": "Algeria, Morocco, Cameroon and Malawi all qualify for the 2027 Women's World Cup in Brazil by reaching the semi-finals of the Women's Africa Cup of Nations.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gw456e3xxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T22:06:43+00:00"
+    },
+    {
+      "title": "Messi misses Miami defeat after death of father",
+      "description": "Lionel Messi misses Inter Miami's Leagues Cup defeat by Monterrey on Saturday night after the death of his father.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czrj0yd2p4ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T21:55:35+00:00"
+    },
+    {
+      "title": "McInnes left frustrated amid Rangers' poor start to season",
+      "description": "Derek McInnes is still seeking a win after three games as Rangers managers and feels hard done by following a 2-1 home defeat by Hibernian and injury to big-money striker Youssef Chermiti.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5y36vr1j2zo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-09T21:04:55+00:00"
+    },
     {
       "title": "McInnes left frustrated amid Rangers' poor start to season",
       "description": "Derek McInnes is still seeking a win after three games as Rangers managers and feels hard done by following a 2-1 home defeat by Hibernian and injury to big-money striker Youssef Chermiti.",
@@ -58,60 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T20:45:00+00:00"
-    },
-    {
-      "title": "Motherwell 0-0 Falkirk",
-      "description": "Watch the highlights from the Scottish Premiership match between Motherwell and Falkirk.",
-      "link": "https://www.skysports.com/watch/video/13571486/motherwell-0-0-falkirk-scottish-premiership-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T20:45:00+00:00"
-    },
-    {
-      "title": "'Very pathetic' - Koepka fumes after missing FedExCup playoffs",
-      "description": "Brooks Koepka labelled missing the FedExCup playoffs \"pathetic\" in a brutally honest assessment of his game after a low finish at the Wyndham Championship.",
-      "link": "https://www.skysports.com/golf/news/12040/13571491/brooks-koepka-fumes-after-pathetic-wyndham-championship-performance-costs-him-place-in-fedexcup-playoffs",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T20:33:00+00:00"
-    },
-    {
-      "title": "Were signs always there that Vrancken's Hearts would come good?",
-      "description": "Heart of Midlothian have at last secured their first win under new head coach Wouter Vrancken, but statistics suggested it was only a matter of time.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdew452xgyko",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T20:23:31+00:00"
-    },
-    {
-      "title": "Were signs always there that Vrancken's Hearts would come good?",
-      "description": "Heart of Midlothian have at last secured their first win under new head coach Wouter Vrancken, but statistics suggested it was only a matter of time.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdew452xgyko",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T20:23:31+00:00"
-    },
-    {
-      "title": "'Celtic fans are going to fall in love with him' - Hogh makes his mark",
-      "description": "Kasper Hogh earns rave reviews after his first goals - and first hat-trick - for Celtic in Saturday's 5-1 thrashing of Kilmarnock.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cevm77lg27yo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T19:43:56+00:00"
-    },
-    {
-      "title": "'Celtic fans are going to fall in love with him' - Hogh makes his mark",
-      "description": "Kasper Hogh earns rave reviews after his first goals - and first hat-trick - for Celtic in Saturday's 5-1 thrashing of Kilmarnock.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cevm77lg27yo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T19:43:56+00:00"
     }
   ]
 }
