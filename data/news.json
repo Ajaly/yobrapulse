@@ -1,18 +1,45 @@
 {
-  "generatedAt": "2026-08-09T10:26:11.582677+00:00",
+  "generatedAt": "2026-08-09T11:22:15.890160+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man City vs Atletico Madrid team news LIVE!",
+      "title": "Kilmarnock vs Celtic team news LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/kilmarnock-vs-celtic/live/558343",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T12:00:00+00:00"
+    },
+    {
+      "title": "Man City vs Atletico Madrid LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/manchester-city-vs-atletico-madrid/live/559827",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T10:58:00+00:00"
+    },
+    {
+      "title": "TWO REDS as tempers flare between Scott and Antony!",
+      "description": "Watch as Bournemouth's 2-2 draw with Real Betis was anything but a pre-season friendly, as an on-pitch brawl resulted in two red cards, including one for former Manchester United winger Antony.",
+      "link": "https://www.skysports.com/watch/video/13571317/tempers-flare-between-real-betis-and-bournemouth-in-pre-season-friendly",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T10:20:00+00:00"
+    },
+    {
+      "title": "Family 'overwhelmed' after Arbroath FC hold silence for Minnie Merriman",
+      "description": "Minnie Merriman, nine, from West Yorkshire died at Ninewells Hospital after being found seriously injured.",
+      "link": "https://www.bbc.co.uk/news/articles/cz97q39ev45o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-09T09:36:25+00:00"
     },
     {
       "title": "Scott and Antony sent off in pre-season friendly",
@@ -85,33 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-09T07:58:00+00:00"
-    },
-    {
-      "title": "BBC Women's Football Weekly",
-      "description": "Two-time Ballon d'Or winner and London City Lionesses' star signing joins the pod!",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p3j9rz",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T07:58:00+00:00"
-    },
-    {
-      "title": "In-form Norrie defeated in Montreal while Sabalenka suffers shock loss",
-      "description": "Britain's Cameron Norrie has been knocked out of the National Bank Open at the last-16 stage following a 6-2 7-6 (10-8) defeat by Arthur Fils in Montreal.",
-      "link": "https://www.skysports.com/tennis/news/12040/13571288/national-bank-open-in-form-cam-norrie-defeated-by-arthur-fils-in-montreal-while-aryna-sabalenka-suffers-shock-canadian-open-loss",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-09T07:29:00+00:00"
-    },
-    {
-      "title": "What are your favourite new kits for the coming season?",
-      "description": "BBC Sport has rounded up some of the best new kits released by clubs around the world over the summer - vote for your top 10",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g630klknjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T07:22:01+00:00"
     }
   ]
 }
