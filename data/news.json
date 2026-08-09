@@ -1,10 +1,73 @@
 {
-  "generatedAt": "2026-08-09T16:26:14.808757+00:00",
+  "generatedAt": "2026-08-09T17:24:29.202233+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Hibs win at Rangers as McInnes remains winless",
+      "description": "Derek McInnes is still looking for his first win as Rangers manager after Hibernian netted an injury-time winner to triumph 2-1 at Ibrox.",
+      "link": "https://www.skysports.com/football/rangers-vs-hibernian/report/558344",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-09T17:50:00+00:00"
+    },
+    {
+      "title": "Sinner withdraws from Cincinnati Open as knee injury raises US Open fears",
+      "description": "Jannik Sinner has withdrawn from the Cincinnati Open with an injury to his right knee.",
+      "link": "https://www.skysports.com/tennis/news/12040/13571440/jannik-sinner-withdraws-from-cincinnati-open-as-knee-injury-raises-us-open-fitness-concerns",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-09T17:44:00+00:00"
+    },
+    {
+      "title": "Digne completes move to PSG from Aston Villa",
+      "description": "France international Lucas Digne has completed his move from Aston Villa to European champions Paris St-Germain.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce34v2eyn1qo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T17:12:56+00:00"
+    },
+    {
+      "title": "Motherwell held to goalless draw at home to Falkirk",
+      "description": "Motherwell signed off for their Conference League third-round qualifier against HJK Helsinki with a goalless draw against Falkirk.",
+      "link": "https://www.skysports.com/football/motherwell-vs-falkirk/report/558341",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T16:50:00+00:00"
+    },
+    {
+      "title": "New boys shine as Vrancken gets first Hearts win",
+      "description": "Three Hearts summer signings were on target as Wouter Vrancken belatedly got his reign up and running with an emphatic 4-0 win over Dundee United.",
+      "link": "https://www.skysports.com/football/hearts-vs-dundee-united/report/558340",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T16:50:00+00:00"
+    },
+    {
+      "title": "Guimaraes can take us to the next level - Arteta",
+      "description": "Mikel Arteta said the signing of Bruno Guimaraes will help Arsenal go to the \"next level\" and hints that the Gunners are not done with their summer transfer activity.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c629ggx45d3o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-09T16:43:35+00:00"
+    },
+    {
+      "title": "Coleman training with Killybegs - but no GAA return for now",
+      "description": "Former Everton defender Seamus Coleman has been training with Killybegs but a return to his local Gaelic football club is unlikely to be on the cards for now.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g32r7yd2eo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-09T16:36:39+00:00"
+    },
     {
       "title": "Liverpool throw away another 2-0 lead as Iraola loses first Anfield game",
       "description": "Liverpool threw away another pre-season lead as Monaco came from behind to win 3-2 in Andoni Iraola's first game in charge at Anfield.",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T15:25:00+00:00"
-    },
-    {
-      "title": "Hogh hits hat-trick as Celtic ease past hapless Kilmarnock",
-      "description": "Record signing Kasper Hogh silenced his early critics with a first-half hat-trick as Celtic swept Kilmarnock aside on the new grass pitch at Rugby Park.",
-      "link": "https://www.skysports.com/football/kilmarnock-vs-celtic/report/558343",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T15:20:00+00:00"
-    },
-    {
-      "title": "Everton's McNeil & Palace's Johnson poised for swap",
-      "description": "Everton and Crystal Palace are in talks about a swap deal that would see Toffees' winger Dwight McNeil join the Eagles, and Wales international Brennan Johnson move in the opposite direction.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg32lvxpvyo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T15:03:03+00:00"
-    },
-    {
-      "title": "Hearts agree \u00a31.7m deal to sell winger Kyziridis",
-      "description": "Heart of Midlothian agree a deal to sell Greece winger Alexandros Kyziridis to a Turkish club for a fee of around \u00a31.7m.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yevd5wxl1o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T14:20:04+00:00"
-    },
-    {
-      "title": "Hearts agree \u00a31.7m deal to sell winger Kyziridis",
-      "description": "Heart of Midlothian agree a deal to sell Greece winger Alexandros Kyziridis to a Turkish club for a fee of around \u00a31.7m.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yevd5wxl1o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T14:20:04+00:00"
-    },
-    {
-      "title": "Brazilian top-flight club wear name of English fan with MND on shirts",
-      "description": "Brazilian top flight club Coritiba wear the name of an English fan from Norwich on their shirts to raise awareness of motor neurone disease.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1m1j8l11ego",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T14:16:20+00:00"
-    },
-    {
-      "title": "'He can't miss!' | Hogh running rampant with first-half hat-trick",
-      "description": "Hogh runs rampant with first-half hat-trick for Celtic.",
-      "link": "https://www.skysports.com/watch/video/13571375/kilmarnock-vs-celtic-hogh-running-rampant-with-first-half-hat-trick",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T14:11:00+00:00"
-    },
-    {
-      "title": "Sunrisers Leeds dominate Welsh Fire to remain in eliminator contention",
-      "description": "Sunrisers Leeds kept themselves in contention for The Hundred&#160;eliminator while dumping Welsh Fire out of the women's competition in a one-sided contest at Headingley.",
-      "link": "https://www.skysports.com/cricket/news/12040/13571323/the-hundred-sunrisers-leeds-dominate-welsh-fire-at-headingley-to-remain-in-eliminator-contention",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T14:00:00+00:00"
     }
   ]
 }
