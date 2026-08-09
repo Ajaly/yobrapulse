@@ -949,7 +949,9 @@ h2 {
   font-size:11px;
   display:flex;
   gap:7px;
-  align-items:center
+  align-items:center;
+  flex-shrink:0;
+  white-space:nowrap
 }
 .full-width {
   width:100%;
@@ -1663,7 +1665,8 @@ body.modal-open {
   border-radius:20px;
   text-transform:uppercase;
   letter-spacing:.4px;
-  white-space:nowrap
+  white-space:nowrap;
+  flex-shrink:0
 }
 .landing-nav {
   display:flex;
