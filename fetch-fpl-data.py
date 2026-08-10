@@ -16,13 +16,23 @@ promoted for 2026/27, and Semenyo's £64m move to Man City in January
 verified before excluding data on the strength of it. Team/fixture data
 is included below.
 
-What's still deliberately NOT included: transfer/price-movement data
-(transfers_in_event, cost_change_start, etc.) is genuinely flat/zero
-this early in pre-season - that's a direct read of the API's own
-numbers, not a guess, so "transfer advice" recommendations aren't
-built from it. That panel stays as illustrative content in the front
-end for now; revisit once the season is underway and this data starts
-moving.
+Price movement, ownership watch, gameweek performers, injury report,
+rotation watch (see build_price_movement / build_ownership_watch /
+build_gameweek_performers / build_injury_report / build_rotation_watch):
+requested directly, and checked field-by-field against a fresh API
+pull before building anything. cost_change_event, transfers_in_event
+and transfers_out_event are genuinely 0 for every player this early in
+pre-season - that's a direct read of the API's own numbers, not a
+guess, so both panels will legitimately show nothing until real price/
+transfer activity starts (same honest "real data, currently zero"
+pattern already used for league tables and fixtures elsewhere in this
+project). Gameweek performers needs event/{id}/live, which only
+populates once a gameweek has kicked off or finished - empty right now
+for the same reason. Injury report and rotation watch use fields that
+are already real and populated pre-season (status/news/chance-of-
+playing, starts/minutes), so those two work immediately. The older
+"transfer advice" panel (fixture-swing based, not price/ownership
+based) is unrelated to this and unchanged.
 
 Match outcome predictions (see predict_fixture): checked what a real
 prediction engine would need - historical head-to-head and
@@ -59,8 +69,10 @@ from datetime import datetime, timezone
 BOOTSTRAP_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/?event={event_id}"
 ALL_FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
+LIVE_EVENT_URL = "https://fantasy.premierleague.com/api/event/{event_id}/live/"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 SWING_WINDOW = 6  # gameweeks looked at for fixture-swing analysis
+MIN_MINUTES_FOR_ROTATION = 90  # at least one real appearance
 CURRENT_SEASON = "2026/27"
 MATCH_HISTORY_PATH = "data/match-history.json"
 MATCH_EVENT_TYPES = {
@@ -458,6 +470,100 @@ def build_transfer_advice(eligible, swing, teams_by_id):
     return transfers_in, transfers_out
 
 
+def build_price_movement(eligible, top_n=5):
+    """Real price-change fields, straight from the API - cost_change_event
+    is the change during the current gameweek (in tenths of a million,
+    same unit now_cost already uses). Genuinely 0 for everyone this
+    early in pre-season (checked directly), not a bug - populates once
+    real price moves start happening after the season kicks off."""
+    changed = [e for e in eligible if e["cost_change_event"] != 0]
+    risers = sorted((e for e in changed if e["cost_change_event"] > 0), key=lambda e: -e["cost_change_event"])[:top_n]
+    fallers = sorted((e for e in changed if e["cost_change_event"] < 0), key=lambda e: e["cost_change_event"])[:top_n]
+    return risers, fallers
+
+
+def find_stats_event(events):
+    """The gameweek to pull live per-gameweek stats for: the most
+    recently finished one, or the one currently in progress. None
+    pre-season, before any gameweek has kicked off - event/{id}/live
+    returns no elements at all until a gameweek actually starts."""
+    finished = [ev for ev in events if ev.get("finished")]
+    if finished:
+        return max(finished, key=lambda ev: ev["id"])
+    return next((ev for ev in events if ev.get("is_current")), None)
+
+
+def build_gameweek_performers(eligible, live_stats, top_n=5):
+    """Real per-gameweek stat breakdowns (not season totals) for
+    whichever gameweek find_stats_event picked - goals/assists/bonus/
+    saves/defensive actions THIS gameweek specifically, using FPL's own
+    documented stat identifiers (checked against the API's own
+    element_stats list before writing this, not assumed). Empty dict
+    for every category when live_stats is empty (pre-season)."""
+    pool = [e for e in eligible if e["id"] in live_stats]
+
+    def top(stat_key):
+        ranked = sorted(pool, key=lambda e: -live_stats[e["id"]].get(stat_key, 0))
+        return [e for e in ranked[:top_n] if live_stats[e["id"]].get(stat_key, 0) > 0]
+
+    return {
+        "points": top("total_points"),
+        "goals": top("goals_scored"),
+        "assists": top("assists"),
+        "defensive": top("defensive_contribution"),
+        "bonus": top("bonus"),
+        "saves": top("saves"),
+    }
+
+
+def build_injury_report(eligible, top_n=8):
+    """Real availability status straight from the API's own status/news
+    fields - not inferred. "Improving" (recently more available, a real
+    proxy for "returning from injury") compares FPL's own this-round vs
+    next-round chance-of-playing percentages - both real published
+    fields, so next > this is a genuine forward-looking signal already
+    in the data, not a guess built on top of it."""
+    flagged = [e for e in eligible if e.get("status") != "a" and e.get("news")]
+    out = []
+    for e in flagged[:top_n]:
+        this_chance = e.get("chance_of_playing_this_round")
+        next_chance = e.get("chance_of_playing_next_round")
+        improving = bool(this_chance is not None and next_chance is not None and next_chance > this_chance)
+        out.append((e, this_chance, next_chance, improving))
+    return out
+
+
+def build_rotation_watch(eligible, top_n=6):
+    """Real starts count, ranked - the reliable signal for "who's a
+    nailed starter". minutes/starts (average minutes per start) was
+    tried first and dropped: minutes includes substitute-appearance
+    time that isn't reflected in starts at all, so a player with few
+    starts but heavy sub minutes produces a nonsensical "300 minutes
+    per start" - caught by inspecting the real generated output before
+    shipping, not by reasoning about the code. starts on its own, with
+    real total minutes alongside it for context, is what this data can
+    honestly support without a per-match minutes breakdown this API
+    doesn't expose cheaply."""
+    pool = [e for e in eligible if e["minutes"] >= MIN_MINUTES_FOR_ROTATION]
+    ranked = sorted(pool, key=lambda e: -e["starts"])
+    return [(e, e["starts"]) for e in ranked[:top_n]]
+
+
+def build_ownership_watch(eligible, top_n=5):
+    """Real ownership % plus real net transfer movement THIS gameweek
+    (transfers_in_event minus transfers_out_event) - both direct API
+    fields, no historical snapshot tracking of our own needed. Shown
+    alongside real recent form so a manager can judge for themselves
+    whether the move looks justified, rather than this script asserting
+    a verdict. Genuinely flat pre-season (same as price movement)."""
+    def net(e):
+        return e["transfers_in_event"] - e["transfers_out_event"]
+    moved = [e for e in eligible if net(e) != 0]
+    rising = sorted(moved, key=lambda e: -net(e))[:top_n]
+    falling = sorted(moved, key=lambda e: net(e))[:top_n]
+    return [(e, net(e)) for e in rising], [(e, net(e)) for e in falling]
+
+
 def build_player(e, teams, fixture_lookup, teams_by_id, percentiles):
     name = e.get("web_name") or f"{e['first_name']} {e['second_name']}"
     full_name = f"{e['first_name']} {e['second_name']}".strip()
@@ -533,6 +639,19 @@ def main():
 
     leaderboards = build_leaderboards(eligible)
 
+    price_risers, price_fallers = build_price_movement(eligible)
+
+    stats_event = find_stats_event(data["events"])
+    live_stats = {}
+    if stats_event is not None:
+        live_data = fetch_json(LIVE_EVENT_URL.format(event_id=stats_event["id"]))
+        live_stats = {e["id"]: e["stats"] for e in live_data.get("elements", [])}
+    gameweek_performers = build_gameweek_performers(eligible, live_stats)
+
+    injury_report = build_injury_report(eligible)
+    rotation_watch = build_rotation_watch(eligible)
+    ownership_rising, ownership_falling = build_ownership_watch(eligible)
+
     deadline = datetime.fromisoformat(next_event["deadline_time"].replace("Z", "+00:00"))
 
     players_out = {}
@@ -584,6 +703,35 @@ def main():
         # footballers in the game this season.
         "totalManagers": data["total_players"],
         "totalPlayers": len(data["elements"]),
+        "priceMovement": {
+            "risers": [{"id": register(e), "changeEvent": round(e["cost_change_event"] / 10, 1)} for e in price_risers],
+            "fallers": [{"id": register(e), "changeEvent": round(e["cost_change_event"] / 10, 1)} for e in price_fallers],
+        },
+        "gameweekPerformers": {
+            "eventName": stats_event["name"] if stats_event else None,
+            "points": [{"id": register(e), "value": live_stats[e["id"]].get("total_points", 0)} for e in gameweek_performers["points"]],
+            "goals": [{"id": register(e), "value": live_stats[e["id"]].get("goals_scored", 0)} for e in gameweek_performers["goals"]],
+            "assists": [{"id": register(e), "value": live_stats[e["id"]].get("assists", 0)} for e in gameweek_performers["assists"]],
+            "defensive": [{"id": register(e), "value": live_stats[e["id"]].get("defensive_contribution", 0)} for e in gameweek_performers["defensive"]],
+            "bonus": [{"id": register(e), "value": live_stats[e["id"]].get("bonus", 0)} for e in gameweek_performers["bonus"]],
+            "saves": [{"id": register(e), "value": live_stats[e["id"]].get("saves", 0)} for e in gameweek_performers["saves"]],
+        },
+        "injuryReport": [
+            {
+                "id": register(e),
+                "status": e["status"],
+                "news": e["news"],
+                "chanceThisRound": this_chance,
+                "chanceNextRound": next_chance,
+                "improving": improving,
+            }
+            for e, this_chance, next_chance, improving in injury_report
+        ],
+        "rotationWatch": [{"id": register(e), "starts": starts, "minutes": e["minutes"]} for e, starts in rotation_watch],
+        "ownershipWatch": {
+            "rising": [{"id": register(e), "netTransfersEvent": net} for e, net in ownership_rising],
+            "falling": [{"id": register(e), "netTransfersEvent": net} for e, net in ownership_falling],
+        },
     }
 
     with open("data/fpl.json", "w", encoding="utf-8") as f:

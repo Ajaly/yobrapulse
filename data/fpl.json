@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T20:34:24.576576+00:00",
+  "generatedAt": "2026-08-10T21:04:02.064350+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -810,7 +810,7 @@
       "avatar": "RC",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.5m",
-      "owned": "9.1%",
+      "owned": "9.0%",
       "points": 135,
       "epNext": 2.6,
       "form": 0.0,
@@ -1058,7 +1058,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "23.3%",
+      "owned": "23.2%",
       "points": 179,
       "epNext": 2.8,
       "form": 0.0,
@@ -1523,7 +1523,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a37.0m",
-      "owned": "44.9%",
+      "owned": "44.8%",
       "points": 160,
       "epNext": 2.5,
       "form": 0.0,
@@ -1926,7 +1926,7 @@
       "avatar": "JP",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "8.9%",
+      "owned": "8.8%",
       "points": 135,
       "epNext": 3.3,
       "form": 0.0,
@@ -2546,7 +2546,7 @@
       "avatar": "IS",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "8.5%",
+      "owned": "8.4%",
       "points": 117,
       "epNext": 2.3,
       "form": 0.0,
@@ -4158,7 +4158,7 @@
       "avatar": "CT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "3.2%",
+      "owned": "3.3%",
       "points": 0,
       "epNext": 2.3,
       "form": 0.0,
@@ -4677,6 +4677,81 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 3747224,
-  "totalPlayers": 577
+  "totalManagers": 3749985,
+  "totalPlayers": 577,
+  "priceMovement": {
+    "risers": [],
+    "fallers": []
+  },
+  "gameweekPerformers": {
+    "eventName": null,
+    "points": [],
+    "goals": [],
+    "assists": [],
+    "defensive": [],
+    "bonus": [],
+    "saves": []
+  },
+  "injuryReport": [
+    {
+      "id": "78",
+      "status": "i",
+      "news": "Foot injury - Unknown return date",
+      "chanceThisRound": null,
+      "chanceNextRound": 0,
+      "improving": false
+    },
+    {
+      "id": "439",
+      "status": "d",
+      "news": "Shin injury - 75% chance of playing",
+      "chanceThisRound": null,
+      "chanceNextRound": 75,
+      "improving": false
+    },
+    {
+      "id": "533",
+      "status": "d",
+      "news": "Knock - 75% chance of playing",
+      "chanceThisRound": null,
+      "chanceNextRound": 75,
+      "improving": false
+    }
+  ],
+  "rotationWatch": [
+    {
+      "id": "57",
+      "starts": 38,
+      "minutes": 3420
+    },
+    {
+      "id": "61",
+      "starts": 38,
+      "minutes": 3378
+    },
+    {
+      "id": "109",
+      "starts": 38,
+      "minutes": 3420
+    },
+    {
+      "id": "226",
+      "starts": 38,
+      "minutes": 3420
+    },
+    {
+      "id": "250",
+      "starts": 38,
+      "minutes": 3420
+    },
+    {
+      "id": "356",
+      "starts": 38,
+      "minutes": 3420
+    }
+  ],
+  "ownershipWatch": {
+    "rising": [],
+    "falling": []
+  }
 }

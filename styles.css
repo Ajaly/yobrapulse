@@ -1569,6 +1569,14 @@ body.modal-open {
 .leaderboard-list .leaderboard-row:first-child {
   border-top:none
 }
+.injury-row {
+  grid-template-columns:1fr auto;
+  align-items:flex-start
+}
+.injury-row .leaderboard-value {
+  text-align:right;
+  font-size:11px
+}
 .leaderboard-rank {
   color:#5c6a72;
   font:700 13px 'Space Grotesk'

@@ -113,6 +113,11 @@ if (saveButton) {
   });
 }
 
+// Real FPL status codes (a=available, d=doubtful, i=injured, s=suspended,
+// u=unavailable, n=not eligible for this competition) - straight from
+// the API, not something this app invented.
+const STATUS_LABELS = { a: 'Fit', d: 'Doubtful', i: 'Injured', s: 'Suspended', u: 'Unavailable', n: 'N/A' };
+
 const players = {
   saka: { name: 'Bukayo Saka', position: 'RW', team: 'Arsenal', nation: 'England', avatar: 'BS', avatarClass: '', rating: '8.7', minutes: 612, goals: 5, assists: 4, form: ['high', 'high', 'mid', 'high', 'high'], price: '£9.1m', owned: '52.8%', points: 13, next: "vs Southampton (H) · Sun 20 Oct" },
   haaland: { name: 'Erling Haaland', position: 'ST', team: 'Man City', nation: 'Norway', avatar: 'EH', avatarClass: 'blue-avatar', rating: '8.4', minutes: 648, goals: 8, assists: 2, form: ['high', 'mid', 'high', 'high', 'low'], price: '£15.2m', owned: '68.4%', points: 18, next: "vs Tottenham (H) · Sun 20 Oct" },
@@ -278,6 +283,75 @@ fetch('data/fpl.json')
         </div>`;
       }).join('');
       bindPlayerTriggers(container);
+    }
+
+    // Like renderLeaderboard, but for entries carrying their own extra
+    // real value (price change, gameweek stat, starts count etc.) rather
+    // than a bare id - the new price/gameweek/rotation/ownership panels
+    // all use this shape.
+    function renderEntryList(containerId, entries, emptyMessage, valueFn) {
+      const container = document.querySelector('#' + containerId);
+      if (!container) return;
+      if (!entries || !entries.length) {
+        container.innerHTML = `<p class="lede" style="margin:0;font-size:12px">${emptyMessage}</p>`;
+        return;
+      }
+      container.innerHTML = entries.map((entry, i) => {
+        const p = data.players[entry.id];
+        if (!p) return '';
+        return `<div class="leaderboard-row" data-player="fpl-${entry.id}" tabindex="0" role="button" aria-label="View ${p.name}">
+          <span class="leaderboard-rank">${i + 1}</span>
+          <div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.team} · ${p.position}</small></strong></div>
+          <span class="leaderboard-value">${valueFn(entry, p)}</span>
+        </div>`;
+      }).join('');
+      bindPlayerTriggers(container);
+    }
+
+    if (data.priceMovement) {
+      renderEntryList('price-risers-list', data.priceMovement.risers, 'No price rises this gameweek yet.', (e) => `<span class="positive">+£${e.changeEvent.toFixed(1)}m</span>`);
+      renderEntryList('price-fallers-list', data.priceMovement.fallers, 'No price falls this gameweek yet.', (e) => `<span class="negative">£${e.changeEvent.toFixed(1)}m</span>`);
+    }
+
+    if (data.ownershipWatch) {
+      renderEntryList('ownership-rising-list', data.ownershipWatch.rising, 'No net ownership rises this gameweek yet.', (e, p) => `<span class="positive">+${e.netTransfersEvent.toLocaleString()}</span> <small style="color:#75838c">· ${p.owned} owned</small>`);
+      renderEntryList('ownership-falling-list', data.ownershipWatch.falling, 'No net ownership falls this gameweek yet.', (e, p) => `<span class="negative">${e.netTransfersEvent.toLocaleString()}</span> <small style="color:#75838c">· ${p.owned} owned</small>`);
+    }
+
+    if (data.gameweekPerformers) {
+      const gwKicker = document.querySelector('#gw-performers-kicker');
+      if (gwKicker) gwKicker.textContent = data.gameweekPerformers.eventName || 'No gameweek in progress yet';
+      const noGwMsg = 'No gameweek in progress yet.';
+      renderEntryList('gw-performers-points', data.gameweekPerformers.points, noGwMsg, (e) => `${e.value} pts`);
+      renderEntryList('gw-performers-goals', data.gameweekPerformers.goals, noGwMsg, (e) => `${e.value} goal${e.value === 1 ? '' : 's'}`);
+      renderEntryList('gw-performers-assists', data.gameweekPerformers.assists, noGwMsg, (e) => `${e.value} assist${e.value === 1 ? '' : 's'}`);
+      renderEntryList('gw-performers-defensive', data.gameweekPerformers.defensive, noGwMsg, (e) => `${e.value} pts`);
+      renderEntryList('gw-performers-bonus', data.gameweekPerformers.bonus, noGwMsg, (e) => `${e.value} bonus`);
+      renderEntryList('gw-performers-saves', data.gameweekPerformers.saves, noGwMsg, (e) => `${e.value} save${e.value === 1 ? '' : 's'}`);
+    }
+
+    if (data.rotationWatch) {
+      renderEntryList('rotation-watch-list', data.rotationWatch, 'Not enough real minutes yet to judge rotation patterns.', (e) => `${e.starts} starts <small style="color:#75838c">· ${e.minutes} mins</small>`);
+    }
+
+    const injuryList = document.querySelector('#injury-report-list');
+    if (injuryList) {
+      if (!data.injuryReport || !data.injuryReport.length) {
+        injuryList.innerHTML = '<p class="lede" style="margin:0;font-size:12px">No availability concerns among tracked players right now.</p>';
+      } else {
+        injuryList.innerHTML = data.injuryReport.map((entry) => {
+          const p = data.players[entry.id];
+          if (!p) return '';
+          const chanceText = entry.chanceNextRound !== null && entry.chanceNextRound !== undefined ? `${entry.chanceNextRound}% next round` : 'Chance unknown';
+          const trendHTML = entry.improving ? '<br><span class="positive"><i data-lucide="trending-up"></i> Improving</span>' : '';
+          return `<div class="leaderboard-row injury-row" data-player="fpl-${entry.id}" tabindex="0" role="button" aria-label="View ${p.name}">
+            <div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small><span class="fixture-tag mid">${STATUS_LABELS[entry.status] || entry.status}</span> ${p.team} · ${entry.news}</small></strong></div>
+            <span class="leaderboard-value">${chanceText}${trendHTML}</span>
+          </div>`;
+        }).join('');
+        bindPlayerTriggers(injuryList);
+        refreshIcons();
+      }
     }
 
     if (data.leaderboards) {
