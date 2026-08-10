@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-10T20:34:25.059730+00:00",
+  "generatedAt": "2026-08-10T21:34:46.978457+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Van de Ven signs new long-term deal with Spurs",
+      "description": "Tottenham defender Micky van de Ven says it is \"clear the direction the club wants to go in\" after signing a new long-term deal with Spurs.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g362n1e28o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-10T20:59:50+00:00"
+    },
     {
       "title": "Who could Arsenal sign after missing out on Vinicius Jr?",
       "description": "One big signing missed, but one big signing through the doors - it's been a mixed transfer window for Arsenal.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-10T17:47:07+00:00"
-    },
-    {
-      "title": "Man City in Bouaddi talks and Chelsea's Fernandez also an option",
-      "description": "Man City&#160;are in ongoing talks with&#160;Lille&#160;for Morocco midfielder&#160;Ayyoub Bouaddi.",
-      "link": "https://www.skysports.com/football/news/12040/13571742/man-city-transfer-news-talks-ongoing-with-lilles-ayyoub-bouaddi-but-rodri-to-barcelona-talks-inactive-with-enzo-fernandez-also-an-option",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T17:39:00+00:00"
     }
   ]
 }
