@@ -996,18 +996,19 @@ function renderMatchGroups(container, matches, emptyMessage) {
 // date nav to browse other days. Auto-refreshes every 60s only while
 // looking at today - past/future days don't change in real time.
 let liveScoresDate = new Date();
+let liveScoresCompetitionFilter = '';
 
 function loadLiveScoresForDate(date) {
   const label = document.querySelector('#live-date-label');
   if (label) label.textContent = dateNavLabel(date);
 
-  fetchMatchesForDates(ymd(date)).then((all) => {
+  fetchMatchesForDates(ymd(date), filterCompetitions(liveScoresCompetitionFilter)).then((all) => {
     const rank = { in: 0, pre: 1, post: 2 };
     all.sort((a, b) => (rank[a.state] - rank[b.state]) || (a.kickoff - b.kickoff));
     const liveMatches = all.filter((m) => m.state === 'in');
 
     function render() {
-      renderMatchGroups(document.querySelector('#live-scores-groups'), all, 'No matches scheduled on this date.');
+      renderMatchGroups(document.querySelector('#live-scores-groups'), all, 'No matches scheduled on this date across the tracked leagues and competitions.');
 
       if (isSameUTCDay(date, new Date())) {
         const dashboardList = document.querySelector('#dashboard-live-list');
@@ -1019,7 +1020,7 @@ function loadLiveScoresForDate(date) {
 
       const liveCount = liveMatches.length;
       const statusText = document.querySelector('#live-status-text');
-      if (statusText) statusText.textContent = liveCount > 0 ? `${liveCount} match${liveCount === 1 ? '' : 'es'} live` : 'No matches live right now';
+      if (statusText) statusText.textContent = liveCount > 0 ? `${liveCount} match${liveCount === 1 ? '' : 'es'} live` : 'No live matches right now across the tracked leagues';
       const navCount = document.querySelector('#live-nav-count');
       if (navCount) navCount.textContent = liveCount;
       const metricCount = document.querySelector('#live-metric-count');
@@ -1051,6 +1052,9 @@ if (liveDatePrev) liveDatePrev.addEventListener('click', () => { liveScoresDate 
 if (liveDateNext) liveDateNext.addEventListener('click', () => { liveScoresDate = addDays(liveScoresDate, 1); refreshLiveScoresView(); });
 if (liveDateToday) liveDateToday.addEventListener('click', () => { liveScoresDate = new Date(); refreshLiveScoresView(); });
 
+const liveCompetitionSelect = document.querySelector('#live-competition-filter');
+if (liveCompetitionSelect) liveCompetitionSelect.addEventListener('change', (e) => { liveScoresCompetitionFilter = e.target.value; refreshLiveScoresView(); });
+
 refreshLiveScoresView();
 setInterval(() => {
   if (isSameUTCDay(liveScoresDate, new Date())) refreshLiveScoresView();
@@ -1064,9 +1068,11 @@ let fixturesDate = new Date();
 let fixturesCompetitionFilter = '';
 let fixturesTeamFilter = '';
 
-function competitionsForFilter() {
-  return fixturesCompetitionFilter
-    ? TRACKED_COMPETITIONS.filter((c) => c.slug === fixturesCompetitionFilter)
+// Shared by Live Scores and Fixtures: an empty slug means "all tracked
+// competitions", otherwise just the one selected.
+function filterCompetitions(slug) {
+  return slug
+    ? TRACKED_COMPETITIONS.filter((c) => c.slug === slug)
     : TRACKED_COMPETITIONS;
 }
 
@@ -1085,7 +1091,7 @@ function renderFixtures() {
     });
     const start = addDays(new Date(), -14);
     const end = addDays(new Date(), 70);
-    fetchMatchesForDates(`${ymd(start)}-${ymd(end)}`, competitionsForFilter()).then((all) => {
+    fetchMatchesForDates(`${ymd(start)}-${ymd(end)}`, filterCompetitions(fixturesCompetitionFilter)).then((all) => {
       const filtered = all.filter((m) => m.homeId === fixturesTeamFilter || m.awayId === fixturesTeamFilter);
       filtered.sort((a, b) => a.kickoff - b.kickoff);
       renderMatchGroups(document.querySelector('#fixtures-groups'), filtered, 'No fixtures found for this team in the current window.');
@@ -1100,9 +1106,9 @@ function renderFixtures() {
   const label = document.querySelector('#fixtures-date-label');
   if (label) label.textContent = dateNavLabel(fixturesDate);
 
-  fetchMatchesForDates(ymd(fixturesDate), competitionsForFilter()).then((all) => {
+  fetchMatchesForDates(ymd(fixturesDate), filterCompetitions(fixturesCompetitionFilter)).then((all) => {
     all.sort((a, b) => a.kickoff - b.kickoff);
-    renderMatchGroups(document.querySelector('#fixtures-groups'), all, 'No fixtures scheduled on this date.');
+    renderMatchGroups(document.querySelector('#fixtures-groups'), all, 'No fixtures scheduled on this date across the tracked leagues and competitions.');
     if (badge) badge.hidden = false;
   });
 }

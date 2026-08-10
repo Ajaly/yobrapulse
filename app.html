@@ -191,11 +191,47 @@
             <p class="lede">Every competition your five tracked leagues' clubs play in - domestic league, cups, super cups, Europe and friendlies - polled live from ESPN's data. Matches in progress also show real goals, bookings and substitutions as they happen.</p>
           </div>
         </div>
-        <div class="date-nav" id="live-date-nav">
-          <button class="date-nav-btn" id="live-date-prev" aria-label="Previous day"><i data-lucide="chevron-left"></i></button>
-          <button class="date-nav-label" id="live-date-today">Today</button>
-          <span class="date-nav-value" id="live-date-label">Today</span>
-          <button class="date-nav-btn" id="live-date-next" aria-label="Next day"><i data-lucide="chevron-right"></i></button>
+        <div class="fixtures-filters">
+          <div class="date-nav" id="live-date-nav">
+            <button class="date-nav-btn" id="live-date-prev" aria-label="Previous day"><i data-lucide="chevron-left"></i></button>
+            <button class="date-nav-label" id="live-date-today">Today</button>
+            <span class="date-nav-value" id="live-date-label">Today</span>
+            <button class="date-nav-btn" id="live-date-next" aria-label="Next day"><i data-lucide="chevron-right"></i></button>
+          </div>
+          <select id="live-competition-filter" class="filter-select">
+            <option value="">All competitions</option>
+            <optgroup label="Leagues">
+              <option value="eng.1">Premier League</option>
+              <option value="esp.1">La Liga</option>
+              <option value="ita.1">Serie A</option>
+              <option value="ger.1">Bundesliga</option>
+              <option value="fra.1">Ligue 1</option>
+            </optgroup>
+            <optgroup label="Europe">
+              <option value="uefa.champions">Champions League</option>
+              <option value="uefa.europa">Europa League</option>
+              <option value="uefa.europa.conf">Europa Conference League</option>
+              <option value="uefa.super_cup">UEFA Super Cup</option>
+            </optgroup>
+            <optgroup label="Domestic cups &amp; super cups">
+              <option value="eng.fa">FA Cup</option>
+              <option value="eng.league_cup">EFL Cup</option>
+              <option value="eng.charity">Community Shield</option>
+              <option value="esp.copa_del_rey">Copa del Rey</option>
+              <option value="esp.super_cup">Spanish Super Cup</option>
+              <option value="ita.coppa_italia">Coppa Italia</option>
+              <option value="ita.super_cup">Supercoppa Italiana</option>
+              <option value="ger.dfb_pokal">DFB-Pokal</option>
+              <option value="ger.super_cup">DFL-Supercup</option>
+              <option value="fra.coupe_de_france">Coupe de France</option>
+              <option value="fra.super_cup">Trophée des Champions</option>
+            </optgroup>
+            <optgroup label="Friendlies">
+              <option value="club.friendly">Club friendlies</option>
+              <option value="friendly.emirates_cup">Emirates Cup</option>
+              <option value="esp.joan_gamper">Joan Gamper Trophy</option>
+            </optgroup>
+          </select>
         </div>
         <section class="panel matches-panel">
           <div class="panel-header">
