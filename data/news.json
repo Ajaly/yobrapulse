@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-10T05:19:39.850842+00:00",
+  "generatedAt": "2026-08-10T07:17:45.412447+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Hodgkinson: Home European gold would mean almost as much as Olympic title",
+      "description": "",
+      "link": "https://www.skysports.com/live-blog/12040/13571552/european-athletics-championships-2026-updates-from-birmingham-as-keely-hodgkinson-dina-asher-smith-katarina-johnson-thompson-compete",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T08:00:00+00:00"
+    },
+    {
+      "title": "Golfer shoots 59 in final round en route to win on Korn Ferry Tour",
+      "description": "Frankie Harris made an 18-foot birdie putt on the final hole as he shot a 12-under 59 before winning the Korn Ferry Tour's Pinnacle Bank Championship in a play-off.",
+      "link": "https://www.skysports.com/golf/news/12040/13571538/frankie-harris-shoots-59-in-final-round-before-winning-korn-ferry-tours-pinnacle-bank-championship-in-play-off",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-10T06:45:00+00:00"
+    },
+    {
+      "title": "Rangers midfielder Diomande set for move to Turkey - gossip",
+      "description": "Rangers reportedly agree a \u00a34.5m transfer to Corum for Mohamed Diomande as the Ibrox club are also linked with Aston Villa right-back Kosta Nedeljkovic.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2klw97p97o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-10T06:29:07+00:00"
+    },
+    {
+      "title": "Brennan secures FedEx Cup Playoffs spot and place at 2027 Masters with Wyndham win",
+      "description": "Highlights from day four of the Wyndham Championship at Sedgefield Country Club, the final PGA Tour event before the FedExCup Playoffs.",
+      "link": "https://www.skysports.com/watch/video/13571537/wyndham-championship-day-four-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T06:25:00+00:00"
+    },
     {
       "title": "Today on Sky Sports Racing: Badri chases four-timer at Windsor",
       "description": "Windsor takes centre stage on Monday with a six-race Flat meeting live on Sky Sports Racing.",
@@ -13,6 +49,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-10T06:00:00+00:00"
+    },
+    {
+      "title": "Who am I? Guess Premier League star No 21",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c74gzej20xpo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T05:38:11+00:00"
     },
     {
       "title": "How Liverpool are shaping up under Iraola",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-09T22:06:43+00:00"
-    },
-    {
-      "title": "African quartet secure Women's World Cup places",
-      "description": "Algeria, Morocco, Cameroon and Malawi all qualify for the 2027 Women's World Cup in Brazil by reaching the semi-finals of the Women's Africa Cup of Nations.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gw456e3xxo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T22:06:43+00:00"
-    },
-    {
-      "title": "Messi misses Miami defeat after death of father",
-      "description": "Lionel Messi misses Inter Miami's Leagues Cup defeat by Monterrey on Saturday night after the death of his father.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czrj0yd2p4ro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T21:55:35+00:00"
-    },
-    {
-      "title": "McInnes left frustrated amid Rangers' poor start to season",
-      "description": "Derek McInnes is still seeking a win after three games as Rangers managers and feels hard done by following a 2-1 home defeat by Hibernian and injury to big-money striker Youssef Chermiti.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5y36vr1j2zo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-09T21:04:55+00:00"
-    },
-    {
-      "title": "McInnes left frustrated amid Rangers' poor start to season",
-      "description": "Derek McInnes is still seeking a win after three games as Rangers managers and feels hard done by following a 2-1 home defeat by Hibernian and injury to big-money striker Youssef Chermiti.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5y36vr1j2zo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-09T21:04:55+00:00"
-    },
-    {
-      "title": "Villa interested in Endrick loan - Monday's gossip",
-      "description": "Aston Villa interested in Endrick loan, Harry Kane expected to extend Bayern Munich deal and Arsenal make Bradley Barcola contact, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2klxw043xo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T21:04:49+00:00"
     }
   ]
 }
