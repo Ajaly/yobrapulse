@@ -1,10 +1,64 @@
 {
-  "generatedAt": "2026-08-10T09:11:44.785489+00:00",
+  "generatedAt": "2026-08-10T11:01:48.414628+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Stella issues rivals warning over McLaren 'momentum' in title battles",
+      "description": "McLaren boss Andrea Stella has issued a warning to his team's rivals for the remainder of the 2026 season as he expressed confidence in the Woking squad's ability to maintain momentum once it has been gained.",
+      "link": "https://www.skysports.com/f1/news/12040/13571601/mclaren-boss-andrea-stella-issues-warning-to-rivals-over-momentum-in-f1-title-battle-following-lando-norris-win",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T11:40:00+00:00"
+    },
+    {
+      "title": "Amazon founder Bezos nears deal to buy stake in Liverpool",
+      "description": "<em>Sky News</em> understands a consortium including the Amazon founder Jeff Bezos is closing in on a deal to buy a roughly one-third stake in Liverpool.",
+      "link": "https://www.skysports.com/football/news/12040/13571596/liverpool-amazon-founder-jeff-bezos-nears-deal-to-buy-stake-with-consortium-led-by-amit-bhatia",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-10T11:14:00+00:00"
+    },
+    {
+      "title": "Rangers frustrations, Celtic's Hogh silences critics, Hearts win under Wrancken",
+      "description": "Rangers manager Derek McInnes is still waiting for his first win, but both Celtic striker Kasper Hogh and Hearts boss Wouter Vrancken answered some of their critics.",
+      "link": "https://www.skysports.com/football/news/12040/13571564/scottish-premiership-review-rangers-struggle-kasper-hogh-silences-celtic-critics-hearts-shine-in-another-dramatic-weekend",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T11:00:00+00:00"
+    },
+    {
+      "title": "Palace latest: '\u00a335m but zero goals - Johnson to leave after underwhelming Eagles spell'",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T10:50:00+00:00"
+    },
+    {
+      "title": "Sunderland latest: Wrexham agree \u00a38m deal to sign Black Cats 'keeper",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-10T10:25:00+00:00"
+    },
+    {
+      "title": "Cymru Premier games to be shown live by BBC Wales",
+      "description": "BBC Cymru Wales agrees a new deal with the Football Association of Wales to broadcast selected games from the Cymru Premier for the next three years.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgmklm9enmlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T10:06:49+00:00"
+    },
     {
       "title": "Super League's Final Charge: Play-off spots taking shape with five rounds left",
       "description": "There are just five rounds of Super League action remaining and, with it, a whole lot of drama as Super League's Final Charge ramps up.",
@@ -15,103 +69,49 @@
       "pubDateISO": "2026-08-10T10:00:00+00:00"
     },
     {
-      "title": "Sunderland latest: Three players set to leave",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T09:18:00+00:00"
-    },
-    {
-      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "title": "UEFA signs joint letter slamming 'deception' as Infantino fallout continues",
+      "description": "UEFA, CONMEBOL and AFC have hit out at \"deception\" and a \"fundamental breach of trust\" around Gianni Infantino's botched World Cup stake sale plans to further raise the pressure on the under-fire FIFA president.",
+      "link": "https://www.skysports.com/football/news/12040/13571573/gianni-infantino-uefa-signs-joint-letter-slamming-deception-at-top-of-fifa-as-world-cup-stake-sale-fallout-continues",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-10T08:50:00+00:00"
+      "pubDateISO": "2026-08-10T10:00:00+00:00"
     },
     {
-      "title": "Infantino broke trust 'through deception' - confederation presidents",
-      "description": "Fifa has been accused of breaking trust \"through deception\" in an open letter issued by Uefa, Concacaf and the Asian Football Confederation.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c78gl599jn4o",
+      "title": "Hearts thump Dundee United for Vrancken's first win",
+      "description": "Hearts fire four past Dundee United in the Scottish Premiership as head coach Wouter Vrancken earns his first victory at the fifth attempt.",
+      "link": "https://www.bbc.co.uk/sport/videos/cwymd7mmnddo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T08:46:54+00:00"
+      "pubDateISO": "2026-08-10T09:32:13+00:00"
     },
     {
-      "title": "When is the EFL Cup second-round draw?",
-      "description": "The second-round draw of the EFL Cup takes place on Monday, with 11 Premier League teams entering the competition.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyegmmvr4vo",
+      "title": "Hibs stun Rangers with dramatic late winner",
+      "description": "Callum Wright's dramatic late goal gives Hibernian victory at Ibrox and keeps Derek McInnes waiting for his first win as Rangers manager.",
+      "link": "https://www.bbc.co.uk/sport/videos/cx2rdn40r1eo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T08:11:08+00:00"
+      "pubDateISO": "2026-08-10T09:25:37+00:00"
     },
     {
-      "title": "Swap agreed for Everton's McNeil & Palace's Johnson",
-      "description": "Everton and Crystal Palace agree a swap deal that will involve Toffees' winger Dwight McNeil joining the Eagles and Wales international Brennan Johnson moving in the opposite direction.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg32lvxpvyo",
+      "title": "Hibs stun Rangers with dramatic late winner",
+      "description": "Callum Wright's dramatic late goal gives Hibernian victory at Ibrox and keeps Derek McInnes waiting for his first win as Rangers manager.",
+      "link": "https://www.bbc.co.uk/sport/videos/cx2rdn40r1eo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T09:25:37+00:00"
+    },
+    {
+      "title": "Villa interested in Endrick loan - Monday's gossip",
+      "description": "Aston Villa interested in Endrick loan, Harry Kane expected to extend Bayern Munich deal and Arsenal make Bradley Barcola contact, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2klxw043xo",
       "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-10T08:09:16+00:00"
-    },
-    {
-      "title": "Hodgkinson: Home European gold would mean almost as much as Olympic title",
-      "description": "",
-      "link": "https://www.skysports.com/live-blog/12040/13571552/european-athletics-championships-2026-updates-from-birmingham-as-keely-hodgkinson-dina-asher-smith-katarina-johnson-thompson-compete",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T08:00:00+00:00"
-    },
-    {
-      "title": "Brazilian player falls down tunnel during goal celebration",
-      "description": "Brazilian player Jacy says he got \"carried away\" after he ended up falling down a hold in his goal celebration in Coritib's 2-1 win against Chapecoense.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cd9wg9x3n55o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T07:46:33+00:00"
-    },
-    {
-      "title": "Watch round-up of best SPFL action",
-      "description": "Watch the best of the action from the Scottish Championship, Scottish League 1 and Scottish League 2, including wins for Partick Thistle, Raith Rovers and Stenhousemuir.",
-      "link": "https://www.bbc.co.uk/sport/videos/c62v020plwqo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T07:38:23+00:00"
-    },
-    {
-      "title": "Scottish Football Podcast",
-      "description": "Celtic hit Killie for five - is there cause for concern at Rangers after a loss to Hibs?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p3l864",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T07:00:00+00:00"
-    },
-    {
-      "title": "Osaka defeats local favourite to reach Canadian Open quarter-finals",
-      "description": "Highlights of the Canadian Open match between Naomi Osaka and Leylah Fernandez.",
-      "link": "https://www.skysports.com/watch/video/13571540/naomi-osaka-vs-leylah-fernandez-national-bank-open-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T06:58:00+00:00"
-    },
-    {
-      "title": "Golfer shoots 59 in final round en route to win on Korn Ferry Tour",
-      "description": "Frankie Harris made an 18-foot birdie putt on the final hole as he shot a 12-under 59 before winning the Korn Ferry Tour's Pinnacle Bank Championship in a play-off.",
-      "link": "https://www.skysports.com/golf/news/12040/13571538/frankie-harris-shoots-59-in-final-round-before-winning-korn-ferry-tours-pinnacle-bank-championship-in-play-off",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-10T06:45:00+00:00"
+      "pubDateISO": "2026-08-10T09:20:48+00:00"
     }
   ]
 }
