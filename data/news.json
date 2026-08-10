@@ -1,10 +1,64 @@
 {
-  "generatedAt": "2026-08-10T07:17:45.412447+00:00",
+  "generatedAt": "2026-08-10T09:11:44.785489+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Super League's Final Charge: Play-off spots taking shape with five rounds left",
+      "description": "There are just five rounds of Super League action remaining and, with it, a whole lot of drama as Super League's Final Charge ramps up.",
+      "link": "https://www.skysports.com/rugby-league/news/12040/13570739/super-leagues-final-charge-leeds-rhinos-wakefield-trinity-wigan-warriors-warrington-wolves-hull-kr-leigh-leopards-and-st-helens-in-contention",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T10:00:00+00:00"
+    },
+    {
+      "title": "Sunderland latest: Three players set to leave",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T09:18:00+00:00"
+    },
+    {
+      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-10T08:50:00+00:00"
+    },
+    {
+      "title": "Infantino broke trust 'through deception' - confederation presidents",
+      "description": "Fifa has been accused of breaking trust \"through deception\" in an open letter issued by Uefa, Concacaf and the Asian Football Confederation.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c78gl599jn4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T08:46:54+00:00"
+    },
+    {
+      "title": "When is the EFL Cup second-round draw?",
+      "description": "The second-round draw of the EFL Cup takes place on Monday, with 11 Premier League teams entering the competition.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyegmmvr4vo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T08:11:08+00:00"
+    },
+    {
+      "title": "Swap agreed for Everton's McNeil & Palace's Johnson",
+      "description": "Everton and Crystal Palace agree a swap deal that will involve Toffees' winger Dwight McNeil joining the Eagles and Wales international Brennan Johnson moving in the opposite direction.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckg32lvxpvyo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-10T08:09:16+00:00"
+    },
     {
       "title": "Hodgkinson: Home European gold would mean almost as much as Olympic title",
       "description": "",
@@ -15,6 +69,42 @@
       "pubDateISO": "2026-08-10T08:00:00+00:00"
     },
     {
+      "title": "Brazilian player falls down tunnel during goal celebration",
+      "description": "Brazilian player Jacy says he got \"carried away\" after he ended up falling down a hold in his goal celebration in Coritib's 2-1 win against Chapecoense.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd9wg9x3n55o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T07:46:33+00:00"
+    },
+    {
+      "title": "Watch round-up of best SPFL action",
+      "description": "Watch the best of the action from the Scottish Championship, Scottish League 1 and Scottish League 2, including wins for Partick Thistle, Raith Rovers and Stenhousemuir.",
+      "link": "https://www.bbc.co.uk/sport/videos/c62v020plwqo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T07:38:23+00:00"
+    },
+    {
+      "title": "Scottish Football Podcast",
+      "description": "Celtic hit Killie for five - is there cause for concern at Rangers after a loss to Hibs?",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p3l864",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T07:00:00+00:00"
+    },
+    {
+      "title": "Osaka defeats local favourite to reach Canadian Open quarter-finals",
+      "description": "Highlights of the Canadian Open match between Naomi Osaka and Leylah Fernandez.",
+      "link": "https://www.skysports.com/watch/video/13571540/naomi-osaka-vs-leylah-fernandez-national-bank-open-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T06:58:00+00:00"
+    },
+    {
       "title": "Golfer shoots 59 in final round en route to win on Korn Ferry Tour",
       "description": "Frankie Harris made an 18-foot birdie putt on the final hole as he shot a 12-under 59 before winning the Korn Ferry Tour's Pinnacle Bank Championship in a play-off.",
       "link": "https://www.skysports.com/golf/news/12040/13571538/frankie-harris-shoots-59-in-final-round-before-winning-korn-ferry-tours-pinnacle-bank-championship-in-play-off",
@@ -22,96 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-08-10T06:45:00+00:00"
-    },
-    {
-      "title": "Rangers midfielder Diomande set for move to Turkey - gossip",
-      "description": "Rangers reportedly agree a \u00a34.5m transfer to Corum for Mohamed Diomande as the Ibrox club are also linked with Aston Villa right-back Kosta Nedeljkovic.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2klw97p97o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-10T06:29:07+00:00"
-    },
-    {
-      "title": "Brennan secures FedEx Cup Playoffs spot and place at 2027 Masters with Wyndham win",
-      "description": "Highlights from day four of the Wyndham Championship at Sedgefield Country Club, the final PGA Tour event before the FedExCup Playoffs.",
-      "link": "https://www.skysports.com/watch/video/13571537/wyndham-championship-day-four-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T06:25:00+00:00"
-    },
-    {
-      "title": "Today on Sky Sports Racing: Badri chases four-timer at Windsor",
-      "description": "Windsor takes centre stage on Monday with a six-race Flat meeting live on Sky Sports Racing.",
-      "link": "https://www.skysports.com/racing/news/12040/13571329/today-on-sky-sports-racing-flat-action-from-windsor-live-on-monday-evening-with-badri-chasing-a-four-timer",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T06:00:00+00:00"
-    },
-    {
-      "title": "Who am I? Guess Premier League star No 21",
-      "description": "Work out the identity of today's player in as few attempts as possible.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c74gzej20xpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T05:38:11+00:00"
-    },
-    {
-      "title": "How Liverpool are shaping up under Iraola",
-      "description": "Four pre-season games is a very small sample, but Andoni Iraola is starting to put his stamp on Liverpool. So how are the Reds shaping up under their new boss?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx27gkmed3wo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T05:15:18+00:00"
-    },
-    {
-      "title": "Brennan secures FedEx Cup Playoffs spot with Wyndham Championship win",
-      "description": "Michael Brennan secured his place in the FedExCup Playoffs as he won the Wyndham Championship by three strokes from Beau Hossler.",
-      "link": "https://www.skysports.com/golf/news/12040/13571521/wyndham-championship-michael-brennan-secures-fedex-playoffs-spot-with-victory",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T23:05:00+00:00"
-    },
-    {
-      "title": "Mourinho says he agreed to replace Ferguson at Man Utd",
-      "description": "David Moyes succeeded Sir Alex Ferguson at Old Trafford in 2013 but things could have been so different, Jose Mourinho reveals in a new documentary.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr7kldj1583o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T23:01:26+00:00"
-    },
-    {
-      "title": "Papers: Man Utd and Arsenal chase Club Brugge full-back Seys",
-      "description": "The top stories and transfer rumours from Monday's newspapers...",
-      "link": "https://www.skysports.com/football/news/12040/13571517/manchester-united-and-arsenal-among-several-clubs-chasing-club-brugge-left-back-joaquin-seys",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-09T23:00:00+00:00"
-    },
-    {
-      "title": "Rahm reigns again after Niemann wins LIV Golf New York",
-      "description": "Jon Rahm clinched the LIV Golf season points title for a third straight year despite finishing tied for 41st at LIV Golf New York, where Joaquin Niemann claimed a three-shot victory for his ninth win in the last three years.",
-      "link": "https://www.skysports.com/golf/news/12040/13571516/liv-golf-jon-rahm-clinches-third-straight-title-after-joaquin-niemann-wins-in-new-york",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T22:36:00+00:00"
-    },
-    {
-      "title": "African quartet secure Women's World Cup places",
-      "description": "Algeria, Morocco, Cameroon and Malawi all qualify for the 2027 Women's World Cup in Brazil by reaching the semi-finals of the Women's Africa Cup of Nations.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gw456e3xxo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T22:06:43+00:00"
     }
   ]
 }
