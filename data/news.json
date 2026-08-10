@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-10T03:46:59.865059+00:00",
+  "generatedAt": "2026-08-10T05:19:39.850842+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Today on Sky Sports Racing: Badri chases four-timer at Windsor",
+      "description": "Windsor takes centre stage on Monday with a six-race Flat meeting live on Sky Sports Racing.",
+      "link": "https://www.skysports.com/racing/news/12040/13571329/today-on-sky-sports-racing-flat-action-from-windsor-live-on-monday-evening-with-badri-chasing-a-four-timer",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T06:00:00+00:00"
+    },
+    {
+      "title": "How Liverpool are shaping up under Iraola",
+      "description": "Four pre-season games is a very small sample, but Andoni Iraola is starting to put his stamp on Liverpool. So how are the Reds shaping up under their new boss?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx27gkmed3wo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T05:15:18+00:00"
+    },
     {
       "title": "Brennan secures FedEx Cup Playoffs spot with Wyndham Championship win",
       "description": "Michael Brennan secured his place in the FedExCup Playoffs as he won the Wyndham Championship by three strokes from Beau Hossler.",
@@ -94,24 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-09T21:04:49+00:00"
-    },
-    {
-      "title": "Chermiti injured after Rangers reject bid for striker",
-      "description": "Rangers reject an offer for striker Youssef Chermiti, with manager Derek McInnes confirming that it did not meet the Scottish Premiership club's valuation.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g3808zjl9o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-09T20:51:53+00:00"
-    },
-    {
-      "title": "Hibs stun Rangers with win at Ibrox",
-      "description": "Watch highlights from the Scottish Premiership match between Rangers and Hibernian.",
-      "link": "https://www.skysports.com/watch/video/13571487/rangers-1-1-hibernian-scottish-premiership-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-09T20:45:00+00:00"
     }
   ]
 }
