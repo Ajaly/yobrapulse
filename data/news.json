@@ -1,18 +1,27 @@
 {
-  "generatedAt": "2026-08-10T18:46:45.773702+00:00",
+  "generatedAt": "2026-08-10T19:50:49.802151+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
+      "title": "Forest to host Leeds in EFL Cup - second-round draw in full",
+      "description": "Nottingham Forest will face Leeds in the Carabao Cup in the only all-Premier League tie in the second round of the competition.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c98vm4rz7m7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T19:33:19+00:00"
+    },
+    {
+      "title": "West Ham sign winger Solomon from Tottenham",
+      "description": "West Ham United sign winger Manor Solomon from Tottenham on a three-year contract.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cpq8x2ggdnno",
+      "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-10T18:50:00+00:00"
+      "pubDateISO": "2026-08-10T18:56:56+00:00"
     },
     {
       "title": "Liverpool sign Araujo from Barcelona",
@@ -94,15 +103,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-10T16:51:34+00:00"
-    },
-    {
-      "title": "SWPL player drain a problem or positive?",
-      "description": "Players flocking to ply their trade in England can still be a positive for women's football in Scotland, insists SWPL managing director Fiona McIntyre.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyj0kg9jjdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T16:48:34+00:00"
     },
     {
       "title": "SWPL player drain a problem or positive?",
