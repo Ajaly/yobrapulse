@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-10T17:45:33.654741+00:00",
+  "generatedAt": "2026-08-10T18:46:45.773702+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-10T18:50:00+00:00"
+    },
     {
       "title": "Liverpool sign Araujo from Barcelona",
       "description": "Liverpool have confirmed the signing of defender Ronald Araujo from Barcelona.",
@@ -13,6 +22,42 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-10T18:30:00+00:00"
+    },
+    {
+      "title": "Why has Araujo joined Liverpool and where did it go wrong at Barcelona?",
+      "description": "Ronald Araujo has joined Liverpool on loan from Barcelona. We explain why Liverpool moved for the Uruguay defender and what went wrong at Barcelona.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-10T18:11:48+00:00"
+    },
+    {
+      "title": "Forest owner Marinakis sues Palace over gun banner",
+      "description": "Evangelos Marinakis is suing Crystal Palace for a banner unfurled by their fans depicting the Nottingham Forest owner holding a gun to midfielder Morgan Gibbs-White's head.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czjlwe90py7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T18:11:00+00:00"
+    },
+    {
+      "title": "Liverpool sign Araujo on loan from Barcelona",
+      "description": "Liverpool sign Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to buy.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c70gk0ry07ko",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-10T18:04:38+00:00"
+    },
+    {
+      "title": "When is the EFL Cup second-round draw?",
+      "description": "The second-round draw of the EFL Cup takes place on Monday, with 11 Premier League teams entering the competition.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyegmmvr4vo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T17:47:07+00:00"
     },
     {
       "title": "Man City in Bouaddi talks and Chelsea's Fernandez also an option",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-10T16:48:34+00:00"
-    },
-    {
-      "title": "SWPL player drain a problem or positive?",
-      "description": "Players flocking to ply their trade in England can still be a positive for women's football in Scotland, insists SWPL managing director Fiona McIntyre.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyj0kg9jjdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T16:48:34+00:00"
-    },
-    {
-      "title": "Sciver-Brunt helps Trent Rockets Women into Hundred final",
-      "description": "England all-rounder Nat Sciver-Brunt timed her introduction to perfection as 32 off 19 balls batting down the order secured Trent Rockets' progress to the final of The Hundred with a seventh successive victory.",
-      "link": "https://www.skysports.com/cricket/news/12040/13571706/the-hundred-nat-sciver-brunt-helps-trent-rockets-women-into-final-after-exciting-victory-over-southern-brave",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T16:18:00+00:00"
-    },
-    {
-      "title": "Could Miller receive world title shot? 'Big Baby' interests WBA champion",
-      "description": "Jarrell Miller could receive a a WBA world heavyweight title fight against Murat Gassiev.",
-      "link": "https://www.skysports.com/boxing/news/12040/13571708/jarrell-miller-could-receive-world-heavyweight-title-fight-as-murat-gassiev-is-interested-in-fighting-the-american",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T16:13:00+00:00"
-    },
-    {
-      "title": "Nordqvist: Bring on the pairings 'puzzle' for Team Europe!",
-      "description": "Team Europe is finalised!",
-      "link": "https://www.skysports.com/golf/news/12040/13571664/solheim-cup-anna-nordqvist-captains-column-team-europes-pairings-puzzle-and-why-aggressive-rookies-can-impress",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T16:00:00+00:00"
-    },
-    {
-      "title": "Villa in talks to sign Bayern's Palhinha",
-      "description": "Aston Villa are in talks over a move for Bayern Munich midfielder Joao Palhinha.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1m1krdjk4no",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-10T15:40:18+00:00"
     }
   ]
 }
