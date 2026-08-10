@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-10T15:54:05.750914+00:00",
+  "generatedAt": "2026-08-10T16:46:38.349350+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Derby 'off market' as investment deal collapses",
+      "description": "Saudi Arabia government official Turki Alalshikh abandons his proposed investment into Championship club Derby County.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm2gk7l7yl7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T16:36:35+00:00"
+    },
+    {
+      "title": "Could Miller receive world title shot? 'Big Baby' interests WBA champion",
+      "description": "Jarrell Miller could receive a a WBA world heavyweight title fight against Murat Gassiev.",
+      "link": "https://www.skysports.com/boxing/news/12040/13571708/jarrell-miller-could-receive-world-heavyweight-title-fight-as-murat-gassiev-is-interested-in-fighting-the-american",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T16:13:00+00:00"
+    },
     {
       "title": "Nordqvist: Bring on the pairings 'puzzle' for Team Europe!",
       "description": "Team Europe is finalised!",
@@ -69,12 +87,12 @@
       "pubDateISO": "2026-08-10T14:54:09+00:00"
     },
     {
-      "title": "Man City latest: Marmoush will decide Etihad future, says Maresca",
+      "title": "Man City latest: Bouaddi, Rodri, Reijnders transfer updates",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-10T14:30:00+00:00"
     },
     {
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-10T14:00:00+00:00"
-    },
-    {
-      "title": "Palace latest: Eagles in talks to sign Khalaili",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-10T14:00:00+00:00"
-    },
-    {
-      "title": "Carabao Cup second-round draw tonight as Chelsea, Spurs and Newcastle enter",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13571626/carabao-cup-draw-chelsea-spurs-everton-newcastle-leeds-nottingham-forest-and-more-join-first-round-winners-in-second-round",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T13:45:00+00:00"
     }
   ]
 }
