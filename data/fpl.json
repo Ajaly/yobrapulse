@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T21:34:45.891657+00:00",
+  "generatedAt": "2026-08-10T22:30:00.798057+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -779,7 +779,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "22.2%",
+      "owned": "22.1%",
       "points": 184,
       "epNext": 2.6,
       "form": 0.0,
@@ -2732,7 +2732,7 @@
       "avatar": "CP",
       "avatarClass": "orange-avatar",
       "price": "\u00a39.5m",
-      "owned": "11.4%",
+      "owned": "11.3%",
       "points": 114,
       "epNext": 3.2,
       "form": 0.0,
@@ -2763,7 +2763,7 @@
       "avatar": "JM",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.5m",
-      "owned": "6.7%",
+      "owned": "6.6%",
       "points": 114,
       "epNext": 2.1,
       "form": 0.0,
@@ -2825,7 +2825,7 @@
       "avatar": "EE",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.5m",
-      "owned": "3.2%",
+      "owned": "3.1%",
       "points": 113,
       "epNext": 2.3,
       "form": 0.0,
@@ -3383,7 +3383,7 @@
       "avatar": "HM",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.0m",
-      "owned": "9.1%",
+      "owned": "9.2%",
       "points": 90,
       "epNext": 2.2,
       "form": 0.0,
@@ -4677,7 +4677,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 3754449,
+  "totalManagers": 3760095,
   "totalPlayers": 577,
   "priceMovement": {
     "risers": [],

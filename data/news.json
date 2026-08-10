@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-10T21:34:46.978457+00:00",
+  "generatedAt": "2026-08-10T22:30:01.455481+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Sky Sports Golf Podcast: Young talent shines again as PGA Tour playoffs loom",
+      "description": "The Sky Sports Golf Podcast delivers the latest news from the golfing world, expert analysis and big-name interviews.",
+      "link": "https://www.skysports.com/golf/news/12040/11933264/sky-sports-golf-podcast",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T22:45:00+00:00"
+    },
+    {
+      "title": "It's football, not PlayStation - Uefa refs' chief on VAR",
+      "description": "Uefa referees' chief Roberto Rosetti says some video assistant referee reviews \"were not connected with football\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg90n3dvd5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-10T22:00:11+00:00"
+    },
     {
       "title": "Van de Ven signs new long-term deal with Spurs",
       "description": "Tottenham defender Micky van de Ven says it is \"clear the direction the club wants to go in\" after signing a new long-term deal with Spurs.",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-10T18:11:00+00:00"
-    },
-    {
-      "title": "Liverpool sign Araujo on loan from Barcelona",
-      "description": "Liverpool sign Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to buy.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c70gk0ry07ko",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-10T18:04:38+00:00"
-    },
-    {
-      "title": "When is the EFL Cup second-round draw?",
-      "description": "The second-round draw of the EFL Cup takes place on Monday, with 11 Premier League teams entering the competition.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyegmmvr4vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-10T17:47:07+00:00"
     }
   ]
 }
