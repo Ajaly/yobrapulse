@@ -450,18 +450,50 @@ fetch('data/fpl.json')
       if (perfInFormSub) perfInFormSub.textContent = 'Form rating 6.0+';
     }
 
+    // Cross-references the real injury report (built for FPL assistant's
+    // Squad intelligence tab) so a struggling player's row here shows
+    // *why* if it's a real, known injury/availability concern - the two
+    // pages were covering related ground with zero connection between
+    // them, which meant checking both to get the full picture.
+    const injuryById = new Map((data.injuryReport || []).map((e) => [String(e.id), e]));
+
+    const METRIC_LABELS = { rating: 'Rating', xg: 'xG', price: 'Price' };
+    const METRIC_CYCLE = ['rating', 'xg', 'price'];
+    function metricValue(p, metric) {
+      if (metric === 'xg') return typeof p.xg === 'number' ? p.xg : 0;
+      if (metric === 'price') return parseFloat(String(p.price).replace(/[^0-9.]/g, '')) || 0;
+      return playerRating(p);
+    }
+    function metricDisplay(p, metric) {
+      if (metric === 'xg') return (typeof p.xg === 'number' ? p.xg : 0).toFixed(1);
+      if (metric === 'price') return p.price;
+      return playerRating(p).toFixed(1);
+    }
+
+    let performancePositionFilter = '';
+    let performanceMetric = 'rating';
+    let currentPerformanceRows = [];
+
     function renderPerformanceTable(filter) {
       const table = document.querySelector('#performance-table');
       if (!table) return;
       let rows = performancePool.slice();
+      if (performancePositionFilter) rows = rows.filter((p) => p.position === performancePositionFilter);
       if (filter === 'rising') {
         rows = rows.filter((p) => p.form >= 6).sort((a, b) => b.form - a.form);
       } else if (filter === 'attention') {
         rows = rows.filter((p) => p.minutes >= 450 && p.form <= 3).sort((a, b) => a.form - b.form);
       } else {
-        rows = rows.sort((a, b) => b.points - a.points);
+        rows = rows.sort((a, b) => metricValue(b, performanceMetric) - metricValue(a, performanceMetric));
       }
       rows = rows.slice(0, 12);
+      currentPerformanceRows = rows;
+
+      const metricLabel = document.querySelector('#performance-metric-label');
+      if (metricLabel) metricLabel.textContent = METRIC_LABELS[performanceMetric];
+      const metricName = document.querySelector('#performance-metric-name');
+      if (metricName) metricName.textContent = METRIC_LABELS[performanceMetric];
+
       table.querySelectorAll('.table-row').forEach((row) => row.remove());
       rows.forEach((p) => {
         const row = document.createElement('div');
@@ -470,8 +502,10 @@ fetch('data/fpl.json')
         row.tabIndex = 0;
         row.setAttribute('role', 'button');
         row.setAttribute('aria-label', 'View ' + p.name);
-        row.innerHTML = `<div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.position} &middot; ${p.team}</small></strong></div>
-          <span>${p.team}</span><span>${p.minutes}</span><span>${p.goals}</span><span>${p.assists}</span><strong>${playerRating(p).toFixed(1)}</strong>`;
+        const injury = injuryById.get(String(p.id));
+        const injuryBadge = injury ? ` <span class="fixture-tag mid">${STATUS_LABELS[injury.status] || injury.status}</span>` : '';
+        row.innerHTML = `<div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.position} &middot; ${p.team}${injuryBadge}</small></strong></div>
+          <span>${p.team}</span><span>${p.minutes}</span><span>${p.goals}</span><span>${p.assists}</span><strong>${metricDisplay(p, performanceMetric)}</strong>`;
         table.appendChild(row);
       });
       bindPlayerTriggers(table);
@@ -482,6 +516,48 @@ fetch('data/fpl.json')
       document.querySelectorAll('#performance-tabs .tab').forEach((tab) => {
         tab.addEventListener('click', () => renderPerformanceTable(tab.dataset.filter));
       });
+
+      function activePerformanceFilter() {
+        const activeTab = document.querySelector('#performance-tabs .tab.active');
+        return activeTab ? activeTab.dataset.filter : 'all';
+      }
+
+      const positionFilterSelect = document.querySelector('#performance-position-filter');
+      const filterToggle = document.querySelector('#performance-filter-toggle');
+      if (filterToggle && positionFilterSelect) {
+        filterToggle.addEventListener('click', () => { positionFilterSelect.hidden = !positionFilterSelect.hidden; });
+        positionFilterSelect.addEventListener('change', (e) => {
+          performancePositionFilter = e.target.value;
+          renderPerformanceTable(activePerformanceFilter());
+        });
+      }
+
+      const metricsToggle = document.querySelector('#performance-metrics-toggle');
+      if (metricsToggle) {
+        metricsToggle.addEventListener('click', () => {
+          const nextIndex = (METRIC_CYCLE.indexOf(performanceMetric) + 1) % METRIC_CYCLE.length;
+          performanceMetric = METRIC_CYCLE[nextIndex];
+          renderPerformanceTable(activePerformanceFilter());
+        });
+      }
+
+      const exportBtn = document.querySelector('#performance-export-btn');
+      if (exportBtn) {
+        exportBtn.addEventListener('click', () => {
+          const header = ['Player', 'Team', 'Position', 'Minutes', 'Goals', 'Assists', METRIC_LABELS[performanceMetric]];
+          const csvRows = currentPerformanceRows.map((p) => [p.name, p.team, p.position, p.minutes, p.goals, p.assists, metricDisplay(p, performanceMetric)]);
+          const csv = [header].concat(csvRows).map((r) => r.map((cell) => `"${String(cell).replace(/"/g, '""')}"`).join(',')).join('\n');
+          const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+          const url = URL.createObjectURL(blob);
+          const link = document.createElement('a');
+          link.href = url;
+          link.download = `yobrapulse-performance-${activePerformanceFilter()}.csv`;
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+          URL.revokeObjectURL(url);
+        });
+      }
     }
 
     Object.entries(data.players).forEach(([id, p]) => {

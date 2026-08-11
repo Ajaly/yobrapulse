@@ -483,7 +483,7 @@
             <h1>Performance tracker<span class="accent">.</span></h1>
             <p class="lede">See who's in form, who needs a closer look, and why &mdash; from real season data.</p>
           </div>
-          <button class="secondary-button"><i data-lucide="download"></i> Export report</button>
+          <button class="secondary-button" id="performance-export-btn"><i data-lucide="download"></i> Export report</button>
         </div>
         <div class="metric-grid compact-grid">
           <article class="metric-card">
@@ -510,12 +510,19 @@
               <button class="tab" data-filter="attention">Needs attention</button>
             </div>
             <div class="filter-actions">
-              <button class="filter-button"><i data-lucide="filter"></i> Filter</button>
-              <button class="filter-button"><i data-lucide="sliders-horizontal"></i> Metrics</button>
+              <button class="filter-button" id="performance-filter-toggle"><i data-lucide="filter"></i> Filter</button>
+              <button class="filter-button" id="performance-metrics-toggle"><i data-lucide="sliders-horizontal"></i> Metrics: <span id="performance-metric-name">Rating</span></button>
             </div>
           </div>
+          <select id="performance-position-filter" class="filter-select" hidden style="margin-bottom:14px">
+            <option value="">All positions</option>
+            <option value="GKP">Goalkeepers</option>
+            <option value="DEF">Defenders</option>
+            <option value="MID">Midfielders</option>
+            <option value="FWD">Forwards</option>
+          </select>
           <div class="player-table wide" id="performance-table">
-            <div class="table-head"><span>Player</span><span>Team</span><span>Minutes</span><span>Goals</span><span>Assists</span><span>Rating</span></div>
+            <div class="table-head"><span>Player</span><span>Team</span><span>Minutes</span><span>Goals</span><span>Assists</span><span id="performance-metric-label">Rating</span></div>
             <div class="table-row" data-player="saka" tabindex="0" role="button" aria-label="View Bukayo Saka">
               <div class="player-cell"><div class="player-avatar">BS</div><strong>Bukayo Saka<small>RW · England</small></strong></div>
               <span>Arsenal</span><span>612</span><span>5</span><span>4</span><strong>8.7</strong>
