@@ -36,6 +36,17 @@ document.querySelectorAll('.tabs').forEach((group) => {
   }));
 });
 
+// FPL assistant page split into 3 sub-tabs (Overview / This gameweek /
+// Squad intelligence) so the page isn't one long scroll of ~10 panels -
+// the generic .tabs handler above already toggles the active tab
+// styling; this just additionally shows/hides the matching section.
+document.querySelectorAll('#fpl-section-tabs .tab').forEach((tab) => {
+  tab.addEventListener('click', () => {
+    const section = tab.dataset.section;
+    document.querySelectorAll('.fpl-section').forEach((el) => { el.hidden = el.dataset.section !== section; });
+  });
+});
+
 const prefs = JSON.parse(localStorage.getItem('yp-prefs') || '{}');
 function updateAlertsMetric() {
   const alertInputs = document.querySelectorAll('[data-pref]');
@@ -573,26 +584,44 @@ fetch('data/fpl.json')
 
     const performersTable = document.querySelector('#fpl-performers-table');
     if (performersTable && data.topPerformers.length) {
-      performersTable.querySelectorAll('.table-row').forEach((row) => row.remove());
-      const colLabel = document.querySelector('#fpl-performers-col2');
-      if (colLabel) colLabel.textContent = 'Team';
-      data.topPerformers.forEach((id) => {
-        const p = data.players[id];
-        const row = document.createElement('div');
-        row.className = 'table-row';
-        row.dataset.player = 'fpl-' + id;
-        row.tabIndex = 0;
-        row.setAttribute('role', 'button');
-        row.setAttribute('aria-label', 'View ' + p.name);
-        row.innerHTML = `<div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.position} · ${p.owned} owned</small></strong></div>
-          <span>${p.team}</span><span>${p.price}</span><span>${p.owned}</span><strong>${p.points}</strong>
-          <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>`;
-        performersTable.appendChild(row);
-      });
-      bindPlayerTriggers(performersTable);
+      // Default view is the top 6 overall (data.topPerformers). Picking a
+      // position switches to the real comparison pool (~130 real players)
+      // filtered to that position and sorted by points - filtering the
+      // top-6-overall list itself would leave most positions with only
+      // 0-2 rows, which isn't a useful filter.
+      function renderPerformersTable(positionFilter) {
+        performersTable.querySelectorAll('.table-row').forEach((row) => row.remove());
+        const colLabel = document.querySelector('#fpl-performers-col2');
+        if (colLabel) colLabel.textContent = 'Team';
+        const ids = positionFilter
+          ? (data.comparisonPool || [])
+            .filter((id) => data.players[id].position === positionFilter)
+            .sort((a, b) => data.players[b].points - data.players[a].points)
+            .slice(0, 8)
+          : data.topPerformers;
+        ids.forEach((id) => {
+          const p = data.players[id];
+          const row = document.createElement('div');
+          row.className = 'table-row';
+          row.dataset.player = 'fpl-' + id;
+          row.tabIndex = 0;
+          row.setAttribute('role', 'button');
+          row.setAttribute('aria-label', 'View ' + p.name);
+          row.innerHTML = `<div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.position} · ${p.owned} owned</small></strong></div>
+            <span>${p.team}</span><span>${p.price}</span><span>${p.owned}</span><strong>${p.points}</strong>
+            <span class="row-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>`;
+          performersTable.appendChild(row);
+        });
+        bindPlayerTriggers(performersTable);
+        refreshIcons();
+      }
+
+      renderPerformersTable('');
       const badge = document.querySelector('#performers-live-badge');
       if (badge) badge.hidden = false;
-      refreshIcons();
+
+      const positionFilterSelect = document.querySelector('#fpl-performers-position-filter');
+      if (positionFilterSelect) positionFilterSelect.addEventListener('change', (e) => renderPerformersTable(e.target.value));
     }
   })
   .catch((err) => { console.error('[YobraPulse] fpl.json failed to load, showing fallback content', err); });
