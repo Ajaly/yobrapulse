@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-11T19:57:43.669721+00:00",
+  "generatedAt": "2026-08-11T20:43:57.031114+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Ronaldo marries long-time girlfriend",
+      "description": "Cristiano Ronaldo has married his long-time girlfriend Georgina Rodriguez at a civil ceremony in Portugal.",
+      "link": "https://www.skysports.com/football/news/12040/13572078/cristiano-ronaldo-marries-long-time-girlfriend-georgina-rodriguez-in-portugal",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-11T21:09:00+00:00"
+    },
+    {
+      "title": "Super Giants rout SunRisers to move to cusp of Hundred eliminator",
+      "description": "Manchester Super Giants routed SunRisers Leeds to all but seal their place in The Hundred men's eliminator and leave their opponents at risk of being knocked out.",
+      "link": "https://www.skysports.com/cricket/news/12040/13572032/the-hundred-manchester-super-giants-rout-sunrisers-leeds-to-move-to-cusp-of-eliminator-in-mens-tournament",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-11T21:00:00+00:00"
+    },
+    {
+      "title": "Mount set to miss Man Utd's Dublin game with Leeds",
+      "description": "Manchester United midfielder Mason Mount is expected to miss the club's penultimate pre-season encounter with Leeds at Croke Park.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5y3v4ldlllo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-11T20:37:43+00:00"
+    },
     {
       "title": "Flintoff hits 65-ball ton as Lancashire set up quarter-final vs Stokes' Durham",
       "description": "Rocky Flintoff made his first Lancashire century in a One Day Cup thrashing of Somerset - and will now meet Ben Stokes and Durham in the quarter-finals.",
@@ -85,33 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-08-11T16:50:00+00:00"
-    },
-    {
-      "title": "Who is prospective new Celtic signing Hassan?",
-      "description": "BBC Scotland takes a look at Egypt winger Haissem Hassan, who seems poised for a move to Scottish champions Celtic.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c980kg4xnxeo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-11T16:08:58+00:00"
-    },
-    {
-      "title": "Who is prospective new Celtic signing Hassan?",
-      "description": "BBC Scotland takes a look at Egypt winger Haissem Hassan, who seems poised for a move to Scottish champions Celtic.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c980kg4xnxeo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-11T16:08:58+00:00"
-    },
-    {
-      "title": "Chelsea make enquiry for Arsenal's Lewis-Skelly",
-      "description": "Chelsea&#160;have made a new enquiry about signing&#160;Arsenal's Myles Lewis-Skelly.&#160;",
-      "link": "https://www.skysports.com/football/news/12040/13571919/myles-lewis-skelly-transfer-news-chelsea-make-enquiry-for-arsenal-teenager-amid-long-term-interest-from-blues-and-man-utd",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-11T16:05:00+00:00"
     }
   ]
 }
