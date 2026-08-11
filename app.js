@@ -905,7 +905,16 @@ function fetchMatchesForDates(datesParam, competitions) {
 // shots/saves - no passes, pass accuracy, duels or distance covered
 // per player. Rather than fake those or leave empty placeholders,
 // they're simply not shown - what's below is everything that's real.
-const MATCH_EVENT_ICONS = { goal: '⚽', ownGoal: '⚽', card: '🟨', redCard: '🟥', sub: '🔁' };
+// Penalty goals and misses get their own icons, not folded into the
+// plain "goal" bucket - checked real match data first and found ESPN
+// uses "Penalty - Scored" (a real goal, distinct icon) and
+// "Penalty - Saved" (NOT a goal) as separate event types. The earlier
+// classifier matched on the bare substring "penalty", which caught
+// both under the "goal" kind - a saved penalty was showing a goal
+// icon for a shot that didn't score. Order matters below: the
+// saved/missed check has to run before the generic goal-or-penalty
+// fallback, or it never gets reached.
+const MATCH_EVENT_ICONS = { goal: '⚽', penaltyGoal: '🎯', penaltyMiss: '❌', ownGoal: '⚽', card: '🟨', redCard: '🟥', sub: '🔁' };
 
 function classifyMatchEvent(typeText) {
   const lower = (typeText || '').toLowerCase();
@@ -913,7 +922,9 @@ function classifyMatchEvent(typeText) {
   if (lower.includes('yellow card')) return 'card';
   if (lower.includes('substitution')) return 'sub';
   if (lower.includes('own goal')) return 'ownGoal';
-  if (lower.includes('goal') || lower.includes('penalty')) return 'goal';
+  if (lower.includes('penalty') && (lower.includes('saved') || lower.includes('missed'))) return 'penaltyMiss';
+  if (lower.includes('penalty')) return 'penaltyGoal';
+  if (lower.includes('goal')) return 'goal';
   return null;
 }
 
@@ -998,12 +1009,13 @@ function fetchMatchDetail(match) {
     .catch((err) => { console.warn(`[YobraPulse] match summary failed for event ${match.id}`, err); return { events: [], stats: null, lineup: { home: null, away: null } }; });
 }
 
-// Highlights = goals and bookings only. Substitutions are real events
-// too (captured in `events` and still visible via the IN/OUT badges on
-// the Line-up tab) but on a match with a lot of subbing, they buried
-// the moments actually worth surfacing here - dropped from this view
-// specifically, not from the underlying data.
-const HIGHLIGHT_KINDS = new Set(['goal', 'ownGoal', 'card', 'redCard']);
+// Highlights = goals (including penalty goals/misses) and bookings only.
+// Substitutions are real events too (captured in `events` and still
+// visible via the IN/OUT badges on the Line-up tab) but on a match with
+// a lot of subbing, they buried the moments actually worth surfacing
+// here - dropped from this view specifically, not from the underlying
+// data.
+const HIGHLIGHT_KINDS = new Set(['goal', 'penaltyGoal', 'penaltyMiss', 'ownGoal', 'card', 'redCard']);
 
 function matchEventsHTML(events) {
   const highlights = (events || []).filter((e) => HIGHLIGHT_KINDS.has(e.kind));
