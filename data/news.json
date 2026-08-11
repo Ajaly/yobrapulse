@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T09:54:19.199499+00:00",
+  "generatedAt": "2026-08-11T10:44:13.786859+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -40,6 +40,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-11T09:42:20+00:00"
+    },
+    {
+      "title": "Fighting relegation & eyeing promotion? Championship set for six-team play-offs",
+      "description": "The Championship play-offs expand to six teams this season. Here's a closer look at how it may pan out and the thoughts of those involved.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9w0r4j510do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-11T09:41:29+00:00"
     },
     {
       "title": "Fulham sign Charles from Southampton for \u00a330m",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-11T07:08:46+00:00"
-    },
-    {
-      "title": "Trump warns of 'terrible mistake' if FIFA replaces Infantino",
-      "description": "US President Donald Trump has warned FIFA would be making a \"terrible mistake\" if it got rid of Gianni Infantino as head of world football&#8217;s governing body.",
-      "link": "https://www.skysports.com/football/news/12040/13571834/gianni-infantino-donald-trump-warns-of-terrible-mistake-if-fifa-replaces-under-pressure-president",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-11T07:04:00+00:00"
     }
   ]
 }
