@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-11T21:39:01.639498+00:00",
+  "generatedAt": "2026-08-11T22:35:05.912528+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Jets' Stiggers in hospital after collapsing during practice",
+      "description": "New York Jets cornerback Qwan'tez Stiggers was taken to a hospital by ambulance after he briefly lost consciousness during a joint practice with the Tampa Bay Buccaneers on Tuesday.",
+      "link": "https://www.skysports.com/nfl/news/12040/13572096/nfl-new-york-jets-cornerback-qwantez-stiggers-taking-to-hospital-after-collapsing-in-joint-practice-with-tampa-bay-buccaneers",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-11T23:10:00+00:00"
+    },
+    {
+      "title": "Sharks 0-54 New Zealand | Highlights",
+      "description": "Highlights of the Greatest Rivalry tour match between the Sharks and New Zealand in Durban.",
+      "link": "https://www.skysports.com/watch/video/13572095/durban-sharks-0-54-new-zealand-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-11T22:57:00+00:00"
+    },
     {
       "title": "Papers: Chelsea and Man Utd turn down Lewis-Skelly opportunity",
       "description": "The top stories and transfer rumours from Wednesday's newspapers...",
@@ -30,7 +48,25 @@
       "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-11T21:16:52+00:00"
+      "pubDateISO": "2026-08-11T22:20:24+00:00"
+    },
+    {
+      "title": "Hamer rejoins Coventry City on 'long-term' deal",
+      "description": "Coventry City re-sign midfielder Gustavo Hamer from Sheffield United on a \"long-term\" contract for an undisclosed fee.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c629lp48ykwo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-11T22:18:07+00:00"
+    },
+    {
+      "title": "Pogba expected to have Monaco contract terminated",
+      "description": "Paul Pogba is expected to leave Monaco amid talks over a possible contract termination.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c74gvp29jyxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-11T21:59:39+00:00"
     },
     {
       "title": "Ronaldo marries long-time girlfriend",
@@ -69,15 +105,6 @@
       "pubDateISO": "2026-08-11T20:04:00+00:00"
     },
     {
-      "title": "Flintoff hits 65-ball ton as Lancashire set up quarter-final vs Stokes' Durham",
-      "description": "Rocky Flintoff made his first Lancashire century in a One Day Cup thrashing of Somerset - and will now meet Ben Stokes and Durham in the quarter-finals.",
-      "link": "https://www.skysports.com/cricket/news/12040/13571995/one-day-cup-rocky-flintoffs-65-ball-century-helps-lancashire-make-third-highest-total-in-english-50-over-domestic-cricket",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-11T20:00:00+00:00"
-    },
-    {
       "title": "Floodlights to be on throughout Hundred matches for solar eclipse",
       "description": "Floodlights will be turned on throughout games in The Hundred on Wednesday due to the solar eclipse.",
       "link": "https://www.skysports.com/cricket/news/12040/13572042/solar-eclipse-floodlights-to-be-turned-on-during-uk-sports-events-including-the-hundred-and-kempton-racing",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-11T18:30:00+00:00"
-    },
-    {
-      "title": "Jaissle 'bit scared' how refs will take 'emotional' touchline style",
-      "description": "Newcastle United head coach Matthias Jaissle cut a measured figure at his unveiling news conference, but Premier League managers will come up against someone very different",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cedje42vgwjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-11T18:10:05+00:00"
-    },
-    {
-      "title": "Women's football shouldn't be penalised by Uefa boycott - Nandy",
-      "description": "Culture Secretary Lisa Nandy says women's footballers should not be \"penalised\" by a potential boycott of next month's Under-20 Women's World Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm2grg84lzmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-11T18:06:45+00:00"
-    },
-    {
-      "title": "Women's football shouldn't be penalised by Uefa boycott - Nandy",
-      "description": "Culture Secretary Lisa Nandy says women's footballers should not be \"penalised\" by a potential boycott of next month's Under-20 Women's World Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm2grg84lzmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-11T18:06:45+00:00"
     }
   ]
 }
