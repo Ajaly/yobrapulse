@@ -1,27 +1,45 @@
 {
-  "generatedAt": "2026-08-11T16:51:54.007815+00:00",
+  "generatedAt": "2026-08-11T17:53:05.694450+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Scot Prem: Rangers in talks over Meghoma return as Driouech closes in on move",
+      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
+      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-11T18:50:00+00:00"
+    },
+    {
+      "title": "Floodlights to be on throughout Hundred matches for solar eclipse",
+      "description": "Floodlights will be turned on throughout games in The Hundred on Wednesday due to the solar eclipse.",
+      "link": "https://www.skysports.com/cricket/news/12040/13572042/solar-eclipse-floodlights-to-be-turned-on-during-uk-sports-events-including-the-hundred-and-kempton-racing",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-11T17:29:00+00:00"
+      "pubDateISO": "2026-08-11T18:30:00+00:00"
     },
     {
-      "title": "Chermiti out for 'significant period' with ACL injury as Rangers eye replacement",
-      "description": "Rangers striker Youssef Chermiti will be out for \"a significant period of time\" after suffering an ACL injury in Sunday's defeat to Hibernian.",
-      "link": "https://www.skysports.com/football/news/12040/13571945/youssef-chermiti-rangers-reveal-acl-injury-suffered-in-hibernian-loss-that-rules-striker-out-for-significant-period-of-time",
+      "title": "Inter Milan in talks over Spurs and England defender Spence",
+      "description": "Tottenham&#160;are in talks with&#160;Inter Milan&#160;over the sale of&#160;Djed Spence.",
+      "link": "https://www.skysports.com/football/news/12040/13572037/djed-spence-transfer-news-inter-milan-in-talks-to-sign-spurs-and-england-defender",
       "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-11T17:21:00+00:00"
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-11T17:59:00+00:00"
+    },
+    {
+      "title": "SunRisers beat Super Giants to reach Hundred eliminator",
+      "description": "Reigning champions SunRisers Leeds snatched a spot in the women's Hundred eliminator by beating Manchester Super Giants by 41 runs in a winner-takes-all game at Old Trafford.",
+      "link": "https://www.skysports.com/cricket/news/12040/13572031/the-hundred-sunrisers-leeds-beat-manchester-super-giants-in-decisive-game-to-set-up-eliminator-match-up-with-southern-brave",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-11T17:40:00+00:00"
     },
     {
       "title": "Levy goes up against Spurs owners to buy London's NBA Europe team",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-11T15:37:00+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-11T15:34:26+00:00"
-    },
-    {
-      "title": "Wrexham sign Sunderland goalkeeper Patterson",
-      "description": "Goalkeeper Anthony Patterson leaves Sunderland to join Championship side Wrexham.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx256kz7nkko",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-11T15:30:53+00:00"
     }
   ]
 }
