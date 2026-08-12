@@ -30,6 +30,7 @@
         <button class="nav-item" data-view="fpl"><i data-lucide="sparkles"></i><span>FPL assistant</span><span class="new-dot"></span></button>
         <button class="nav-item" data-view="performance"><i data-lucide="activity"></i><span>Performance</span></button>
         <button class="nav-item" data-view="fixtures"><i data-lucide="calendar-days"></i><span>Fixtures</span></button>
+        <button class="nav-item" data-view="predictions"><i data-lucide="target"></i><span>Predictions</span></button>
         <button class="nav-item" data-view="teams"><i data-lucide="users-round"></i><span>Teams & players</span></button>
         <button class="nav-item" data-view="news"><i data-lucide="newspaper"></i><span>News</span></button>
         <button class="nav-item" data-view="stats"><i data-lucide="award"></i><span>Stats</span></button>
@@ -309,61 +310,6 @@
             </section>
           </div>
 
-          <section class="panel matches-panel">
-            <div class="panel-header">
-              <div><span class="section-kicker" id="fpl-fixtures-kicker">This week</span><h2>Gameweek fixtures &amp; predictions</h2></div>
-              <span class="live-badge" id="fpl-fixtures-live-badge" hidden>Live data</span>
-            </div>
-            <p class="lede" style="margin:0 0 14px;font-size:11.5px">Predicted outcomes from a model built on real team strength ratings, squad quality, recent form, head-to-head history and squad availability - plus real bookmaker odds where available. Coverage varies per fixture; hover a prediction to see exactly which real signals fed it. This is a documented heuristic, not a trained model, and not a promise of a specific accuracy.</p>
-            <div class="match-list" id="fpl-fixtures-list">
-              <article class="match-row">
-                <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 9</small></div></div>
-                <div class="teams"><span>Liverpool</span><strong>VS</strong><span>Chelsea</span></div>
-                <div class="match-status upcoming"><span></span> Sat, 19 Oct · 17:30</div>
-              </article>
-            </div>
-          </section>
-
-          <section class="panel track-record-panel">
-            <div class="panel-header">
-              <div><span class="section-kicker">Backtested, not promised</span><h2>Prediction track record</h2></div>
-              <span class="live-badge" id="track-record-live-badge" hidden>Live data</span>
-            </div>
-            <p class="lede" style="margin:0 0 14px;font-size:11.5px" id="track-record-summary">Every prediction is logged before kickoff and never edited afterward - this is a real, running accuracy count against real finished results, not a target figure.</p>
-            <div class="metric-grid compact-grid">
-              <article class="metric-card">
-                <span class="metric-label">Resolved predictions</span>
-                <strong id="track-record-resolved">0</strong>
-                <small class="muted" id="track-record-resolved-sub">Since tracking began</small>
-              </article>
-              <article class="metric-card">
-                <span class="metric-label">Model accuracy</span>
-                <strong id="track-record-accuracy">—</strong>
-                <small class="muted" id="track-record-accuracy-sub">No resolved predictions yet</small>
-              </article>
-              <article class="metric-card">
-                <span class="metric-label">Vs. market favorite</span>
-                <strong id="track-record-market">—</strong>
-                <small class="muted" id="track-record-market-sub">Needs real odds coverage</small>
-              </article>
-            </div>
-          </section>
-
-          <section class="panel friendly-track-panel" id="friendly-predictions-panel" hidden>
-            <div class="panel-header">
-              <div><span class="section-kicker">Pre-season sample, not competitive</span><h2>Today's friendly predictions</h2></div>
-              <span class="live-badge" id="friendly-live-badge" hidden>Live data</span>
-            </div>
-            <p class="lede" style="margin:0 0 14px;font-size:11.5px">Real predictions for today's Premier-League-vs-Premier-League friendlies only. Friendly squads are often rotated, so this is tracked as a separate, lower-confidence sample and never blended into the competitive-season track record above.</p>
-            <div class="match-list" id="friendly-predictions-list"></div>
-            <div class="metric-grid compact-grid" style="margin-top:14px">
-              <article class="metric-card">
-                <span class="metric-label">Friendly-sample accuracy</span>
-                <strong id="friendly-track-accuracy">—</strong>
-                <small class="muted" id="friendly-track-sub">No resolved friendlies yet</small>
-              </article>
-            </div>
-          </section>
         </div>
 
         <div class="fpl-section" data-section="gameweek" hidden>
@@ -620,6 +566,72 @@
           </div>
           <div id="fixtures-groups">
             <p class="lede" style="margin:0;font-size:12px">Fetching fixtures&hellip;</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="predictions-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Real match outcomes, not fantasy scoring</div>
+            <h1>Predictions<span class="accent">.</span></h1>
+            <p class="lede">Real match-outcome predictions for the next Premier League gameweek and today's Premier-League-vs-Premier-League friendlies, built from real team strength, squad quality, form, head-to-head history, squad availability and bookmaker odds - plus an honest, backtested accuracy record. This is a transparent heuristic, not a trained model, and not a promise of a specific accuracy.</p>
+          </div>
+        </div>
+
+        <section class="panel matches-panel">
+          <div class="panel-header">
+            <div><span class="section-kicker" id="fpl-fixtures-kicker">This week</span><h2>Gameweek fixtures &amp; predictions</h2></div>
+            <span class="live-badge" id="fpl-fixtures-live-badge" hidden>Live data</span>
+          </div>
+          <p class="lede" style="margin:0 0 14px;font-size:11.5px">Predicted outcomes from a model built on real team strength ratings, squad quality, recent form, head-to-head history and squad availability - plus real bookmaker odds where available. Coverage varies per fixture; hover a prediction to see exactly which real signals fed it.</p>
+          <div class="match-list" id="fpl-fixtures-list">
+            <article class="match-row">
+              <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 9</small></div></div>
+              <div class="teams"><span>Liverpool</span><strong>VS</strong><span>Chelsea</span></div>
+              <div class="match-status upcoming"><span></span> Sat, 19 Oct · 17:30</div>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel track-record-panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">Backtested, not promised</span><h2>Prediction track record</h2></div>
+            <span class="live-badge" id="track-record-live-badge" hidden>Live data</span>
+          </div>
+          <p class="lede" style="margin:0 0 14px;font-size:11.5px" id="track-record-summary">Every prediction is logged before kickoff and never edited afterward - this is a real, running accuracy count against real finished results, not a target figure.</p>
+          <div class="metric-grid compact-grid">
+            <article class="metric-card">
+              <span class="metric-label">Resolved predictions</span>
+              <strong id="track-record-resolved">0</strong>
+              <small class="muted" id="track-record-resolved-sub">Since tracking began</small>
+            </article>
+            <article class="metric-card">
+              <span class="metric-label">Model accuracy</span>
+              <strong id="track-record-accuracy">—</strong>
+              <small class="muted" id="track-record-accuracy-sub">No resolved predictions yet</small>
+            </article>
+            <article class="metric-card">
+              <span class="metric-label">Vs. market favorite</span>
+              <strong id="track-record-market">—</strong>
+              <small class="muted" id="track-record-market-sub">Needs real odds coverage</small>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel friendly-track-panel" id="friendly-predictions-panel" hidden>
+          <div class="panel-header">
+            <div><span class="section-kicker">Pre-season sample, not competitive</span><h2>Today's friendly predictions</h2></div>
+            <span class="live-badge" id="friendly-live-badge" hidden>Live data</span>
+          </div>
+          <p class="lede" style="margin:0 0 14px;font-size:11.5px">Real predictions for today's Premier-League-vs-Premier-League friendlies only. Friendly squads are often rotated, so this is tracked as a separate, lower-confidence sample and never blended into the competitive-season track record above.</p>
+          <div class="match-list" id="friendly-predictions-list"></div>
+          <div class="metric-grid compact-grid" style="margin-top:14px">
+            <article class="metric-card">
+              <span class="metric-label">Friendly-sample accuracy</span>
+              <strong id="friendly-track-accuracy">—</strong>
+              <small class="muted" id="friendly-track-sub">No resolved friendlies yet</small>
+            </article>
           </div>
         </section>
       </section>

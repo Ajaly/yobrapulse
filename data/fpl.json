@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T17:53:36.226366+00:00",
+  "generatedAt": "2026-08-12T18:40:14.031244+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -180,7 +180,6 @@
     "385",
     "272",
     "557",
-    "53",
     "58",
     "111",
     "504",
@@ -266,18 +265,28 @@
       "away": "Coventry City",
       "kickoffISO": "2026-08-21T19:00:00Z",
       "kickoffLabel": "Fri 21 Aug \u00b7 19:00 UTC",
-      "homeWinPct": 59,
-      "drawPct": 23,
-      "awayWinPct": 18,
-      "predictedScore": "1.8 \u2014 0.9",
+      "homeWinPct": 56,
+      "drawPct": 24,
+      "awayWinPct": 20,
+      "predictedScore": "1.7 \u2014 1.0",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.6,
+        "awayForm": 0.9,
+        "h2h": {
+          "homeWins": 2,
+          "draws": 0,
+          "awayWins": 0,
+          "meetings": 2
+        },
         "homeAvailability": 0.99,
         "awayAvailability": 0.96
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 80,
+        "drawPct": 13,
+        "awayWinPct": 7
+      }
     },
     {
       "id": 4,
@@ -285,18 +294,28 @@
       "away": "Man Utd",
       "kickoffISO": "2026-08-22T11:30:00Z",
       "kickoffLabel": "Sat 22 Aug \u00b7 11:30 UTC",
-      "homeWinPct": 29,
-      "drawPct": 27,
-      "awayWinPct": 44,
+      "homeWinPct": 27,
+      "drawPct": 28,
+      "awayWinPct": 45,
       "predictedScore": "1.1 \u2014 1.4",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.63,
+        "awayForm": 0.66,
+        "h2h": {
+          "homeWins": 1,
+          "draws": 2,
+          "awayWins": 2,
+          "meetings": 5
+        },
         "homeAvailability": 0.76,
         "awayAvailability": 0.95
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 13,
+        "drawPct": 21,
+        "awayWinPct": 66
+      }
     },
     {
       "id": 3,
@@ -304,18 +323,28 @@
       "away": "Crystal Palace",
       "kickoffISO": "2026-08-22T14:00:00Z",
       "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC",
-      "homeWinPct": 46,
+      "homeWinPct": 43,
       "drawPct": 25,
-      "awayWinPct": 29,
-      "predictedScore": "1.5 \u2014 1.1",
+      "awayWinPct": 32,
+      "predictedScore": "1.2 \u2014 1.4",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.1,
+        "awayForm": 0.8,
+        "h2h": {
+          "homeWins": 3,
+          "draws": 2,
+          "awayWins": 0,
+          "meetings": 5
+        },
         "homeAvailability": 0.98,
         "awayAvailability": 0.98
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 44,
+        "drawPct": 28,
+        "awayWinPct": 28
+      }
     },
     {
       "id": 5,
@@ -323,18 +352,28 @@
       "away": "Sunderland",
       "kickoffISO": "2026-08-22T14:00:00Z",
       "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC",
-      "homeWinPct": 36,
+      "homeWinPct": 38,
       "drawPct": 26,
-      "awayWinPct": 38,
-      "predictedScore": "1.3 \u2014 1.2",
+      "awayWinPct": 36,
+      "predictedScore": "1.4 \u2014 1.2",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.75,
+        "awayForm": 0.63,
+        "h2h": {
+          "homeWins": 2,
+          "draws": 1,
+          "awayWins": 2,
+          "meetings": 5
+        },
         "homeAvailability": 0.96,
         "awayAvailability": 0.84
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 35,
+        "drawPct": 29,
+        "awayWinPct": 36
+      }
     },
     {
       "id": 6,
@@ -342,18 +381,28 @@
       "away": "Leeds",
       "kickoffISO": "2026-08-22T14:00:00Z",
       "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC",
-      "homeWinPct": 44,
-      "drawPct": 25,
-      "awayWinPct": 31,
-      "predictedScore": "1.5 \u2014 1.1",
+      "homeWinPct": 41,
+      "drawPct": 26,
+      "awayWinPct": 33,
+      "predictedScore": "1.3 \u2014 1.3",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.3,
+        "awayForm": 0.69,
+        "h2h": {
+          "homeWins": 3,
+          "draws": 0,
+          "awayWins": 2,
+          "meetings": 5
+        },
         "homeAvailability": 0.99,
         "awayAvailability": 0.95
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 42,
+        "drawPct": 28,
+        "awayWinPct": 30
+      }
     },
     {
       "id": 2,
@@ -361,18 +410,28 @@
       "away": "Spurs",
       "kickoffISO": "2026-08-22T16:30:00Z",
       "kickoffLabel": "Sat 22 Aug \u00b7 16:30 UTC",
-      "homeWinPct": 47,
-      "drawPct": 25,
-      "awayWinPct": 28,
+      "homeWinPct": 39,
+      "drawPct": 27,
+      "awayWinPct": 34,
       "predictedScore": "1.5 \u2014 1.1",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.54,
+        "awayForm": 0.69,
+        "h2h": {
+          "homeWins": 0,
+          "draws": 1,
+          "awayWins": 4,
+          "meetings": 5
+        },
         "homeAvailability": 0.98,
         "awayAvailability": 0.97
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 40,
+        "drawPct": 26,
+        "awayWinPct": 34
+      }
     },
     {
       "id": 7,
@@ -380,18 +439,28 @@
       "away": "Aston Villa",
       "kickoffISO": "2026-08-23T13:00:00Z",
       "kickoffLabel": "Sun 23 Aug \u00b7 13:00 UTC",
-      "homeWinPct": 31,
-      "drawPct": 27,
-      "awayWinPct": 42,
-      "predictedScore": "1.2 \u2014 1.3",
+      "homeWinPct": 27,
+      "drawPct": 28,
+      "awayWinPct": 45,
+      "predictedScore": "1.2 \u2014 1.4",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.63,
+        "awayForm": 0.65,
+        "h2h": {
+          "homeWins": 1,
+          "draws": 1,
+          "awayWins": 3,
+          "meetings": 5
+        },
         "homeAvailability": 0.92,
         "awayAvailability": 0.96
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 41,
+        "drawPct": 26,
+        "awayWinPct": 33
+      }
     },
     {
       "id": 8,
@@ -399,18 +468,28 @@
       "away": "Bournemouth",
       "kickoffISO": "2026-08-23T13:00:00Z",
       "kickoffLabel": "Sun 23 Aug \u00b7 13:00 UTC",
-      "homeWinPct": 57,
-      "drawPct": 23,
-      "awayWinPct": 20,
-      "predictedScore": "1.8 \u2014 0.9",
+      "homeWinPct": 59,
+      "drawPct": 22,
+      "awayWinPct": 19,
+      "predictedScore": "1.7 \u2014 0.9",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.46,
+        "awayForm": 0.54,
+        "h2h": {
+          "homeWins": 3,
+          "draws": 1,
+          "awayWins": 1,
+          "meetings": 5
+        },
         "homeAvailability": 0.99,
         "awayAvailability": 0.87
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 65,
+        "drawPct": 19,
+        "awayWinPct": 16
+      }
     },
     {
       "id": 9,
@@ -418,18 +497,28 @@
       "away": "Liverpool",
       "kickoffISO": "2026-08-23T15:30:00Z",
       "kickoffLabel": "Sun 23 Aug \u00b7 15:30 UTC",
-      "homeWinPct": 29,
-      "drawPct": 27,
-      "awayWinPct": 44,
+      "homeWinPct": 27,
+      "drawPct": 28,
+      "awayWinPct": 45,
       "predictedScore": "1.2 \u2014 1.4",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.48,
+        "awayForm": 0.42,
+        "h2h": {
+          "homeWins": 1,
+          "draws": 1,
+          "awayWins": 3,
+          "meetings": 5
+        },
         "homeAvailability": 0.91,
         "awayAvailability": 0.95
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 29,
+        "drawPct": 25,
+        "awayWinPct": 46
+      }
     },
     {
       "id": 10,
@@ -437,18 +526,28 @@
       "away": "Chelsea",
       "kickoffISO": "2026-08-24T19:00:00Z",
       "kickoffLabel": "Mon 24 Aug \u00b7 19:00 UTC",
-      "homeWinPct": 29,
+      "homeWinPct": 25,
       "drawPct": 28,
-      "awayWinPct": 43,
-      "predictedScore": "1.2 \u2014 1.4",
+      "awayWinPct": 47,
+      "predictedScore": "1.1 \u2014 1.4",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.3,
+        "awayForm": 0.46,
+        "h2h": {
+          "homeWins": 2,
+          "draws": 0,
+          "awayWins": 3,
+          "meetings": 5
+        },
         "homeAvailability": 0.98,
         "awayAvailability": 0.96
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 29,
+        "drawPct": 26,
+        "awayWinPct": 45
+      }
     }
   ],
   "predictionTrackRecord": {
@@ -458,12 +557,73 @@
     "accuracyPct": null,
     "marketComparison": null
   },
-  "friendlyPredictions": [],
+  "friendlyPredictions": [
+    {
+      "id": "friendly-401905959",
+      "eventId": "401905959",
+      "home": "Newcastle",
+      "away": "Everton",
+      "kickoffISO": "2026-08-12T16:15Z",
+      "kickoffLabel": "Wed 12 Aug \u00b7 16:15 UTC",
+      "homeWinPct": 40,
+      "drawPct": 26,
+      "awayWinPct": 34,
+      "predictedScore": "1.5 \u2014 1.1",
+      "factors": {
+        "homeForm": 0.48,
+        "awayForm": 0.1,
+        "h2h": {
+          "homeWins": 1,
+          "draws": 2,
+          "awayWins": 2,
+          "meetings": 5
+        },
+        "homeAvailability": 0.91,
+        "awayAvailability": 0.98
+      },
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 41,
+        "drawPct": 26,
+        "awayWinPct": 33
+      }
+    },
+    {
+      "id": "friendly-401867394",
+      "eventId": "401867394",
+      "home": "Man Utd",
+      "away": "Leeds",
+      "kickoffISO": "2026-08-12T18:30Z",
+      "kickoffLabel": "Wed 12 Aug \u00b7 18:30 UTC",
+      "homeWinPct": 53,
+      "drawPct": 24,
+      "awayWinPct": 23,
+      "predictedScore": "1.6 \u2014 1.0",
+      "factors": {
+        "homeForm": 0.66,
+        "awayForm": 0.69,
+        "h2h": {
+          "homeWins": 2,
+          "draws": 2,
+          "awayWins": 1,
+          "meetings": 5
+        },
+        "homeAvailability": 0.95,
+        "awayAvailability": 0.95
+      },
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 48,
+        "drawPct": 25,
+        "awayWinPct": 27
+      }
+    }
+  ],
   "friendlyTrackRecord": {
     "totalLogged": 2,
-    "totalResolved": 0,
+    "totalResolved": 1,
     "correct": 0,
-    "accuracyPct": null
+    "accuracyPct": 0.0
   },
   "teams": [
     {
@@ -1565,7 +1725,7 @@
       "avatar": "MR",
       "avatarClass": "",
       "price": "\u00a37.5m",
-      "owned": "27.0%",
+      "owned": "26.9%",
       "points": 169,
       "epNext": 2.6,
       "form": 0.0,
@@ -3704,7 +3864,7 @@
       "avatar": "DS",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "8.0%",
+      "owned": "7.9%",
       "points": 78,
       "epNext": 1.7,
       "form": 0.0,
@@ -4231,7 +4391,7 @@
       "avatar": "JK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "7.6%",
+      "owned": "7.5%",
       "points": 6,
       "epNext": 1.0,
       "form": 0.0,
@@ -4283,37 +4443,6 @@
       "fixture": "vs Coventry City (H)",
       "fdr": 2,
       "fdrClass": "easy"
-    },
-    "53": {
-      "id": 53,
-      "name": "Johan Manzambi",
-      "shortName": "Manzambi",
-      "position": "MID",
-      "team": "Aston Villa",
-      "avatar": "JM",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a36.0m",
-      "owned": "2.0%",
-      "points": 0,
-      "epNext": 2.1,
-      "form": 0.0,
-      "minutes": 0,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "valueScore": 0.0,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 0,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 4,
-      "fixture": "vs Brighton (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
     },
     "58": {
       "id": 58,
@@ -4572,7 +4701,7 @@
       "avatar": "RS",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.1%",
+      "owned": "2.2%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -4781,7 +4910,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 4052808,
+  "totalManagers": 4059317,
   "totalPlayers": 581,
   "priceMovement": {
     "risers": [],

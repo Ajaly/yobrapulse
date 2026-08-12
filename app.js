@@ -12,7 +12,7 @@ if (greeting) {
 const views = document.querySelectorAll('.view');
 const navItems = document.querySelectorAll('[data-view]');
 const pageTitle = document.querySelector('#page-title');
-const titles = { dashboard: 'Overview', live: 'Live scores', fpl: 'FPL assistant', performance: 'Performance tracker', fixtures: 'Fixtures', teams: 'Teams & players', news: 'News', stats: 'Stats', settings: 'Settings' };
+const titles = { dashboard: 'Overview', live: 'Live scores', fpl: 'FPL assistant', performance: 'Performance tracker', fixtures: 'Fixtures', predictions: 'Predictions', teams: 'Teams & players', news: 'News', stats: 'Stats', settings: 'Settings' };
 
 function showView(viewName) {
   const target = document.querySelector(`#${viewName}-view`) || document.querySelector('#dashboard-view');
