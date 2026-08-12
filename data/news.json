@@ -1,18 +1,108 @@
 {
-  "generatedAt": "2026-08-12T08:11:10.507931+00:00",
+  "generatedAt": "2026-08-12T09:55:33.011998+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "title": "Kick It Out chair to leave role at end of season",
+      "description": "Kick It Out chair Sanjay Bhandari will leave his role at the end of the 2026/27 season.",
+      "link": "https://www.skysports.com/football/news/12040/13572182/kick-it-out-sanjay-bhandari-to-step-down-as-chair-after-seven-years-in-role-at-the-end-of-the-season",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-12T10:30:00+00:00"
+    },
+    {
+      "title": "What next for Birmingham City? Why Davies is changing his approach",
+      "description": "Birmingham City is a football club transformed. Over 20,000 season tickets have been sold for the forthcoming Championship season, with 14,000 more on the waiting list. Fan parks surround St Andrew's these days. The buzz around the place is palpable.",
+      "link": "https://www.skysports.com/football/news/12040/13566218/chris-davies-interview-birmingham-city-managers-tactical-change-could-take-this-ambitious-club-up-from-the-championship",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-12T10:00:00+00:00"
+    },
+    {
+      "title": "Championship play-off changes, new managers & star players - the EFL is BACK!",
+      "description": "The 2026/27 EFL season is here!",
+      "link": "https://www.skysports.com/football/news/12040/13571934/efl-2026-27-season-preview-championship-play-off-changes-new-managers-and-star-players",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-12T10:00:00+00:00"
+    },
+    {
+      "title": "Sky Sports agrees deal to show Laver Cup from London's O2 in September",
+      "description": "<em>Sky Sports </em>has agreed a deal with Trident8 to show all three days of the Laver Cup from London's O2 arena this September, as 12 of the world's best men's players compete in the annual Europe vs 'Rest of the World' showdown.",
+      "link": "https://www.skysports.com/tennis/news/12040/13571896/laver-cup-sky-sports-to-show-europe-vs-rest-of-the-world-from-londons-o2-in-september",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-12T08:50:00+00:00"
+      "pubDateISO": "2026-08-12T10:00:00+00:00"
+    },
+    {
+      "title": "How do add-ons work in football transfers?",
+      "description": "Our Ask Me Anything team examine exactly how extra amounts added on to transfer fees really work.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjwqe8pqe31o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-12T09:39:44+00:00"
+    },
+    {
+      "title": "Crystal Palace re-sign Guessand on loan from Villa",
+      "description": "Crystal Palace re-sign Evann Guessand on a season-long loan from Aston Villa.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czrjee6gzkxo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-12T09:22:48+00:00"
+    },
+    {
+      "title": "Torres misses Barcelona training to finalise PSG move",
+      "description": "Spain's World Cup hero Ferran Torres is given permission to miss Barcelona training to finalise a move to Paris St-Germain.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgljpye101xo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-12T09:13:34+00:00"
+    },
+    {
+      "title": "UEFA Super Cup preview: Why three Villa stars won't play vs PSG",
+      "description": "",
+      "link": "https://www.skysports.com/football/paris-saint-germain-vs-aston-villa/live/556002",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-12T09:02:00+00:00"
+    },
+    {
+      "title": "Pogba expected to have Monaco contract terminated",
+      "description": "Paul Pogba is expected to leave Monaco amid talks over a possible contract termination.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c74gvp29jyxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-12T08:56:17+00:00"
+    },
+    {
+      "title": "The late-bloomer left-back joining Chelsea for \u00a316m",
+      "description": "Pep Chavarria joins Chelsea on a five-year deal, having played in the Spanish lower leagues until he was 24.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg0rw84xk9o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-12T08:29:22+00:00"
+    },
+    {
+      "title": "Ipswich agree fee for Paraguay forward Enciso",
+      "description": "Ipswich Town reach an agreement to sign Paraguay forward Julio Enciso from Strasbourg.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gj4zvdn0ko",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-12T08:25:12+00:00"
     },
     {
       "title": "Rybakina to meet Gauff in semis after Osaka fightback",
@@ -22,96 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-12T07:28:00+00:00"
-    },
-    {
-      "title": "Meghoma could return - Wednesday's gossip",
-      "description": "Rangers are in talks with Brentford over a loan return for 20-year-old left-back Jayden Meghoma, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdj074d03nlo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-12T07:06:56+00:00"
-    },
-    {
-      "title": "Listen: Do Scotland take McGinn for granted?",
-      "description": "John McGinn's remarkable rise from St Mirren to European Super Cup finalist.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p409d2",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T07:00:00+00:00"
-    },
-    {
-      "title": "Why 'wanted' Stanway wasted no time in getting Arsenal tattoo",
-      "description": "England midfielder Georgia Stanway explains her latest tattoo and how Arsenal made her \"feel wanted\" before her move from Bayern Munich.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8l6n9g6wgo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T06:49:11+00:00"
-    },
-    {
-      "title": "Why 'wanted' Stanway wasted no time in getting Arsenal tattoo",
-      "description": "England midfielder Georgia Stanway explains her latest tattoo and how Arsenal made her \"feel wanted\" before her move from Bayern Munich.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8l6n9g6wgo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T06:49:11+00:00"
-    },
-    {
-      "title": "Jodar on course for tennis history as Rybakina fights past Osaka",
-      "description": "Spanish teenager Rafael Jodar is on course to break the record for the fastest rise into the top 10 of men's tennis after beating Arthur Filis in the quarter-finals of the Canadian Open.",
-      "link": "https://www.skysports.com/tennis/news/12040/13572099/canadian-open-rafael-jodar-on-course-for-mens-tennis-history-as-elena-rybakina-fights-back-to-beat-naomi-osaka",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T06:45:00+00:00"
-    },
-    {
-      "title": "Depay says Corinthians 'unacceptable' as contract ends",
-      "description": "Memphis Depay accuses Corinthians of \"unacceptable behaviour\" and of breaching an agreement after the Brazilian club decide against renewing his contract.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwym29gnkzdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T06:35:01+00:00"
-    },
-    {
-      "title": "Slot pulls out of Netherlands talks to focus on club football",
-      "description": "Former Liverpool head coach Arne Slot confirms talks for Netherlands managerial vacancy but says his next job will be in club football.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c980rd5njneo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T06:20:53+00:00"
-    },
-    {
-      "title": "Football Daily",
-      "description": "Police helicopter chase, sneaking out to eat a takeaway or a secret Vegas trip?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0nzvk5n",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T06:00:00+00:00"
-    },
-    {
-      "title": "Today on Sky Sports Racing: Ffos Las hosts six-race card",
-      "description": "Don't miss a moment from Ffos Las on Wednesday, with all six races live from 3.37pm on <em>Sky Sports Racing</em>.",
-      "link": "https://www.skysports.com/racing/news/12040/13571636/today-on-sky-sports-racing-ffos-las-hosts-six-race-card-live-on-wednesday",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T06:00:00+00:00"
-    },
-    {
-      "title": "'Everyone can have an opinion' - F1 president responds to regulations criticism",
-      "description": "Formula 1 president Stefano Domenicali says drivers \"can have their opinion\" and are not being stopped from criticising the sport's power unit regulations.",
-      "link": "https://www.skysports.com/f1/news/12040/13569682/f1-2026-regulations-stefano-domenicali-responds-to-criticism-about-current-power-unit-regulations",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T06:00:00+00:00"
     }
   ]
 }
