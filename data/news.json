@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-12T10:56:21.988275+00:00",
+  "generatedAt": "2026-08-12T11:42:44.598447+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Tielemans: I did not expect to leave Aston Villa for Man Utd this summer",
+      "description": "'Not really, no' - the perhaps surprising answer from Manchester United&#8217;s summer signing Youri Tielemans when asked whether he expected to leave his former club Aston Villa in this window.",
+      "link": "https://www.skysports.com/football/news/12040/13572176/youri-tielemans-man-utd-midfield-on-joining-the-club-reuniting-with-marcus-rashford-and-jonny-evans-and-belgiums-world-cup-campaign",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-12T12:00:00+00:00"
+    },
+    {
+      "title": "Kick It Out chair Bhandari to step down from role",
+      "description": "Kick It Out chair Sanjay Bhandari will step down from his role at the end of the 2026-27 season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cg5lpd0l5l5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-12T11:34:08+00:00"
+    },
+    {
+      "title": "I owe Villa the world but Man Utd are above them - Tielemans",
+      "description": "Manchester United new boy Youri Tielemans gives his first extended interview on his \u00a335m dream move, making it third time lucky for the ex-Aston Villa man.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg0z79l89go",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-12T11:00:23+00:00"
+    },
     {
       "title": "Reminder that Kvaratskhelia was the best player in Europe last season",
       "description": "It was heralded as the World Cup in which all the stars shone. But while the big names did indeed illuminate the summer, the return of the club game with the showpiece UEFA Super Cup in Salzburg is a chance for Khvicha Kvaratskhelia to reclaim his spotlight.",
@@ -85,33 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-12T09:39:44+00:00"
-    },
-    {
-      "title": "Is the Community Shield considered a major trophy?",
-      "description": "BBC Sport's Ask Me Anything team take a look at whether the Community Shield is a major trophy.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdd3e7184lro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T09:34:15+00:00"
-    },
-    {
-      "title": "Crystal Palace re-sign Guessand on loan from Villa",
-      "description": "Crystal Palace re-sign Evann Guessand on a season-long loan from Aston Villa.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czrjee6gzkxo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-12T09:22:48+00:00"
-    },
-    {
-      "title": "Torres misses Barcelona training to finalise PSG move",
-      "description": "Spain's World Cup hero Ferran Torres is given permission to miss Barcelona training to finalise a move to Paris St-Germain.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgljpye101xo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-12T09:13:34+00:00"
     }
   ]
 }
