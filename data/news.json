@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-12T21:38:35.326664+00:00",
+  "generatedAt": "2026-08-12T22:33:37.059297+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Arteta: There's more we want to do in the transfer market",
+      "description": "Mikel Arteta says Arsenal are actively looking for more new signings in the transfer market but admits there is only a small pool of available players who can take them to the next level.",
+      "link": "https://www.skysports.com/football/news/12040/13572410/mikel-arteta-says-arsenal-are-actively-looking-for-signings-in-the-transfer-market-after-bruno-guimaraes-makes-bow-in-friendly-against-como",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-12T23:10:00+00:00"
+    },
+    {
+      "title": "Celtic sign Egypt winger Hassan in time for key Champions League tie",
+      "description": "Celtic have announced the signing of winger Haissem Hassan from Real Oviedo in a potential &#163;9m move.",
+      "link": "https://www.skysports.com/football/news/12040/13570650/haissem-hassan-celtic-sign-egypt-winger-from-real-oviedo-on-four-year-deal-worth-9m",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-12T22:50:00+00:00"
+    },
+    {
+      "title": "Lukaku seals 'emotional' move to Fenerbahce",
+      "description": "Belgium striker Romelu Lukaku has joined Turkish side Fenerbahce from Napoli for an undisclosed fee and contract length.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn8npx57499o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-12T22:26:25+00:00"
+    },
+    {
+      "title": "Hull sign central defenders Mendy and Herrington",
+      "description": "Hull City confirm the signing of Nobel Mendy from Rayo Vallecano for a club record fee, while they also add fellow centre-back Lucas Herrington from Colorado Rapids.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyjp48lvp2o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-12T22:21:28+00:00"
+    },
+    {
+      "title": "Galatasaray submit Martinelli bid - Thursday's gossip",
+      "description": "Arsenal have received a bid from Galatasaray for Gabriel Martinelli, Spain midfielder Martin Zubimendi could leave the Gunners for Chelsea and Newcastle push for Benfica defender Amar Dedic.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwy42p7r00zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-12T22:09:56+00:00"
+    },
     {
       "title": "MI London's Hundred title defence over despite narrow win over Phoenix",
       "description": "MI London had the lights turned out on their hopes of claiming a fourth straight Hundred title despite beating bottom-placed Birmingham Phoenix in a nip-and-tuck final men's group match.",
@@ -16,12 +61,21 @@
     },
     {
       "title": "Doue silences Madjo-mania as PSG beat Villa to win Super Cup",
-      "description": "Desire Doue scored the winner as champions of Europe Paris Saint-Germain held off Aston Villa to win the UEFA Super Cup.",
+      "description": "Desire Doue scored the winner as champions of Europe Paris Saint-Germain beat Aston Villa 2-1 to win the UEFA Super Cup.",
       "link": "https://www.skysports.com/football/paris-saint-germain-vs-aston-villa/report/556002",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-12T22:00:00+00:00"
+    },
+    {
+      "title": "Chelsea set Friday deadline over \u00a3120m Fernandez",
+      "description": "Chelsea set a Friday deadline for offers of \u00a3120m for clubs interested in midfielder Enzo Fernandez.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwym2pkjxnpo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-12T21:49:06+00:00"
     },
     {
       "title": "Chelsea set Man City deadline to bid for Fernandez",
@@ -33,7 +87,7 @@
       "pubDateISO": "2026-08-12T21:49:00+00:00"
     },
     {
-      "title": "Rashford does not feature in Leeds friendly win but still part of Man Utd plans",
+      "title": "Rashford absent in Leeds friendly win but still part of Man Utd plans",
       "description": "Joshua Zirkzee and Brenden Aaronson scored as Manchester United and old foes Leeds played out an entertaining 1-1 friendly draw at the spiritual home of Irish sport in Dublin, before the concluding shoot-out was edged 5-4 by Michael Carrick's side.",
       "link": "https://www.skysports.com/football/manchester-united-vs-leeds-united/report/555721",
       "source": "Sky Sports",
@@ -42,76 +96,22 @@
       "pubDateISO": "2026-08-12T21:48:00+00:00"
     },
     {
-      "title": "Guimaraes makes bow and Lewis-Skelly scores as Arsenal held by Como",
-      "description": "Bruno Guimaraes made his first appearance and Myles Lewis-Skelly scored amid speculation about his future as Arsenal were held to a 1-1 draw by Como before winning 4-3 on penalties.",
-      "link": "https://www.skysports.com/football/arsenal-vs-como/report/562442",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T21:30:00+00:00"
-    },
-    {
-      "title": "Atletico agree deal to sign Spurs captain Romero",
-      "description": "Atletico Madrid have agreed a deal in principle with Tottenham to sign Cristian Romero.",
-      "link": "https://www.skysports.com/football/news/12040/13571751/cristian-romero-atletico-madrid-agree-deal-with-tottenham-to-sign-argentina-defender-after-long-term-interest",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-12T21:30:00+00:00"
-    },
-    {
-      "title": "Doue goal awarded on VAR after tight offside",
-      "description": "Desire Doue's goal is awarded after initially being flagged offside to give PSG the lead in the second half of the Super Cup against Aston Villa.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c4gw5zrznq1o",
+      "title": "Fernandes the centre of attention - but what next for Man Utd captain?",
+      "description": "Manchester United skipper Bruno Fernandes is attracting attention on and off the pitch.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgwzegz9ggo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T21:29:07+00:00"
+      "pubDateISO": "2026-08-12T21:40:45+00:00"
     },
     {
-      "title": "Teenager Madgo scores equaliser for Villa",
-      "description": "17-year-old Brian Madjo equalisers for Aston Villa against PSG in the Uefa Super Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cn5np12dzqzo",
+      "title": "Highlights: PSG beat Aston Villa in Super Cup",
+      "description": "Paris Saint-Germain beat Aston Villa in the Uefa Super Cup with goals from Khvicha Kvaratskhelia and Desire Doue.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cre4pxn402ro",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T21:25:37+00:00"
-    },
-    {
-      "title": "Guimaraes makes Arsenal debut in draw with Como",
-      "description": "Bruno Guimaraes put in an assured performance as he made his Arsenal debut in a 1-1 friendly draw with Como at Emirates stadium.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8kp6k3p1no",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T21:24:42+00:00"
-    },
-    {
-      "title": "Atletico agree \u00a334.2m deal for Tottenham's Romero",
-      "description": "Cristian Romero is set to join La Liga side Atletico Madrid as they agree a \u00a334.2m fee with Tottenham for their captain.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy8e2vx2l30o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-12T21:18:21+00:00"
-    },
-    {
-      "title": "Kvaratskhelia smashes PSG into lead in Super Cup",
-      "description": "Khvicha Kvaratskhelia smashes PSG into lead in the Uefa Super Cup against Aston VIlla.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c3r02v44vxpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T21:01:28+00:00"
-    },
-    {
-      "title": "Jaissle 'aware' of Newcastle needs after Everton friendly loss",
-      "description": "Matthias Jaissle says he is \"aware\" of Newcastle's shortcomings after a comfortable 3-1 friendly defeat by Everton.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2k1qng1kno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T20:42:50+00:00"
+      "pubDateISO": "2026-08-12T21:39:01+00:00"
     }
   ]
 }
