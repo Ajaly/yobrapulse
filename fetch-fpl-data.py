@@ -130,6 +130,23 @@ TEAM_NAME_ALIASES = {
 }
 PREDICTIONS_LOG_PATH = "data/predictions-log.json"
 MIN_AVAILABILITY_SAMPLE = 5  # a squad needs at least this many real players before an availability score is trusted
+EMPTY_ESPN_CONTEXT = {"homeForm": None, "awayForm": None, "h2h": None, "marketOdds": None}
+
+# Real pre-season club friendlies (see fetch_todays_friendlies below):
+# ESPN's club.friendly bucket is global, unscoped to any league, and
+# only queryable one date at a time - restricted to today's date and
+# to matches where BOTH clubs are real Premier League clubs, since
+# team-strength and squad-quality ratings (the model's two base
+# signals) only exist in FPL's own data for the 20 PL clubs. A
+# friendly between a tracked club and a foreign one (Arsenal vs Como,
+# say) genuinely can't get the same real prediction the rest of this
+# engine gives - skipped rather than faked. Logged and resolved in
+# their own file (data/friendly-predictions-log.json), kept out of the
+# competitive-season track record, since friendly squads are often
+# rotated and the two accuracy numbers aren't meant to mean the same
+# thing.
+FRIENDLY_SLUG = "club.friendly"
+FRIENDLY_PREDICTIONS_LOG_PATH = "data/friendly-predictions-log.json"
 
 
 def fetch_json(url):
@@ -194,6 +211,21 @@ def normalize_team_name(name):
     return re.sub(r"[^a-z0-9]", "", re.sub(r"\b(fc|afc|cf)\b", "", key))
 
 
+def names_match(fpl_key, espn_name):
+    """Whether an already-normalized FPL team key refers to the same
+    real club as a raw ESPN display name. FPL's short names
+    ("Newcastle", "Brighton") don't equal ESPN's full names ("Newcastle
+    United" -> "newcastleunited", "Brighton & Hove Albion" ->
+    "brightonhovealbion") even after normalizing - verified directly
+    against a real fixture that exact-equality silently dropped
+    (Newcastle vs Liverpool). Containment handles it; the length floor
+    avoids a short normalized name trivially matching an unrelated
+    club. Shared by find_espn_fixture (locating a competitive fixture)
+    and match_fpl_team (identifying a friendly's participants)."""
+    espn_key = normalize_team_name(espn_name)
+    return len(fpl_key) >= 4 and (fpl_key in espn_key or espn_key in fpl_key)
+
+
 def find_espn_fixture(home_name, away_name, kickoff_iso):
     """(event_id, home_espn_team_id, away_espn_team_id) for the real
     ESPN fixture matching this one, found by comparing team names on
@@ -207,24 +239,13 @@ def find_espn_fixture(home_name, away_name, kickoff_iso):
         return None, None, None
     home_key = normalize_team_name(home_name)
     away_key = normalize_team_name(away_name)
-    def matches(fpl_key, espn_name):
-        # FPL's short names ("Newcastle", "Brighton") don't equal
-        # ESPN's full names ("Newcastle United" -> "newcastleunited",
-        # "Brighton & Hove Albion" -> "brightonhovealbion") even after
-        # normalizing - verified directly against a real fixture that
-        # exact-equality silently dropped (Newcastle vs Liverpool).
-        # Containment handles it; the length floor avoids a short
-        # normalized name trivially matching an unrelated club.
-        espn_key = normalize_team_name(espn_name)
-        return len(fpl_key) >= 4 and (fpl_key in espn_key or espn_key in fpl_key)
-
     for ev in data.get("events", []):
         comp = ev["competitions"][0]
         home = next((c for c in comp["competitors"] if c["homeAway"] == "home"), None)
         away = next((c for c in comp["competitors"] if c["homeAway"] == "away"), None)
         if not home or not away:
             continue
-        if matches(home_key, home["team"]["displayName"]) and matches(away_key, away["team"]["displayName"]):
+        if names_match(home_key, home["team"]["displayName"]) and names_match(away_key, away["team"]["displayName"]):
             return ev["id"], home["team"]["id"], away["team"]["id"]
     return None, None, None
 
@@ -333,14 +354,22 @@ def fetch_espn_context(home_name, away_name, kickoff_iso):
     """Real form, head-to-head and market-odds context for one
     fixture - every piece gracefully empty (not an error) when that
     specific piece isn't available, since real coverage varies."""
-    empty = {"homeForm": None, "awayForm": None, "h2h": None, "marketOdds": None}
     event_id, home_espn_id, away_espn_id = find_espn_fixture(home_name, away_name, kickoff_iso)
     if not event_id:
-        return empty
+        return EMPTY_ESPN_CONTEXT
+    return build_espn_context(ESPN_LEAGUE_SLUG, event_id, home_espn_id, away_espn_id)
+
+
+def build_espn_context(slug, event_id, home_espn_id, away_espn_id):
+    """Same real form/H2H/odds context as fetch_espn_context, but for a
+    fixture whose ESPN event id is already known (skips the
+    scoreboard-search step) - used for friendlies, where the caller
+    already found the event while filtering the scoreboard for tracked
+    clubs (see fetch_todays_friendlies)."""
     try:
-        summary = fetch_json(ESPN_SUMMARY_URL.format(slug=ESPN_LEAGUE_SLUG, event_id=event_id))
+        summary = fetch_json(ESPN_SUMMARY_URL.format(slug=slug, event_id=event_id))
     except Exception:
-        return empty
+        return EMPTY_ESPN_CONTEXT
     return {
         "homeForm": compute_form_score(summary.get("lastFiveGames"), home_espn_id),
         "awayForm": compute_form_score(summary.get("lastFiveGames"), away_espn_id),
@@ -462,6 +491,199 @@ def build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, elements):
         entry.update(predict_fixture(teams_by_id[f["team_h"]], teams_by_id[f["team_a"]], squad_ratings, espn_context, home_availability, away_availability))
         out.append(entry)
     return out
+
+
+def match_fpl_team(espn_display_name, teams):
+    """Real FPL team id for an ESPN display name, or None if it isn't
+    one of the 20 tracked Premier League clubs - reuses the same
+    containment matching verified against all 20 real clubs for
+    competitive fixtures (see names_match)."""
+    for team_id, name in teams.items():
+        if names_match(normalize_team_name(name), espn_display_name):
+            return team_id
+    return None
+
+
+def fetch_todays_friendlies(teams):
+    """Real pre-season club friendlies happening today, restricted to
+    matches where both clubs are real Premier League clubs (see the
+    FRIENDLY_SLUG constant's comment for why cross-league friendlies
+    are skipped rather than half-predicted). Each entry carries both
+    the real FPL team id (for squad_ratings/predict_fixture) and the
+    real ESPN team id (for form/H2H/odds lookups) for both sides."""
+    today = datetime.now(timezone.utc).strftime("%Y%m%d")
+    try:
+        data = fetch_json(ESPN_SCOREBOARD_URL.format(slug=FRIENDLY_SLUG, date=today))
+    except Exception:
+        return []
+    out = []
+    for ev in data.get("events", []):
+        comp = ev["competitions"][0]
+        home = next((c for c in comp["competitors"] if c["homeAway"] == "home"), None)
+        away = next((c for c in comp["competitors"] if c["homeAway"] == "away"), None)
+        if not home or not away:
+            continue
+        home_team_id = match_fpl_team(home["team"]["displayName"], teams)
+        away_team_id = match_fpl_team(away["team"]["displayName"], teams)
+        if home_team_id is None or away_team_id is None:
+            continue
+        out.append({
+            "eventId": ev["id"],
+            "kickoffISO": ev.get("date"),
+            "homeTeamId": home_team_id,
+            "awayTeamId": away_team_id,
+            "homeEspnId": home["team"]["id"],
+            "awayEspnId": away["team"]["id"],
+        })
+    return out
+
+
+def build_friendly_predictions(friendly_events, teams, teams_by_id, squad_ratings, elements):
+    """Real predictions for today's PL-vs-PL friendlies, using the same
+    predict_fixture engine as competitive fixtures - the event id is
+    already known from fetch_todays_friendlies, so context comes
+    straight from build_espn_context rather than re-searching."""
+    out = []
+    for fx in friendly_events:
+        espn_context = build_espn_context(FRIENDLY_SLUG, fx["eventId"], fx["homeEspnId"], fx["awayEspnId"])
+        home_availability = compute_availability_score(fx["homeTeamId"], elements)
+        away_availability = compute_availability_score(fx["awayTeamId"], elements)
+        kickoff = datetime.fromisoformat(fx["kickoffISO"].replace("Z", "+00:00")) if fx["kickoffISO"] else None
+        entry = {
+            "id": f"friendly-{fx['eventId']}",
+            "eventId": fx["eventId"],
+            "home": teams[fx["homeTeamId"]],
+            "away": teams[fx["awayTeamId"]],
+            "kickoffISO": fx["kickoffISO"],
+            "kickoffLabel": kickoff.strftime("%a %d %b · %H:%M UTC") if kickoff else None,
+        }
+        entry.update(predict_fixture(
+            teams_by_id[fx["homeTeamId"]], teams_by_id[fx["awayTeamId"]],
+            squad_ratings, espn_context, home_availability, away_availability,
+        ))
+        out.append(entry)
+    return out
+
+
+def log_friendly_predictions(friendly_predictions):
+    """Same append-only, never-overwritten logging as log_predictions,
+    kept in a separate file so friendly accuracy is never blended into
+    the competitive-season track record (see FRIENDLY_SLUG comment)."""
+    try:
+        with open(FRIENDLY_PREDICTIONS_LOG_PATH, "r", encoding="utf-8") as f:
+            archive = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        archive = {"predictions": []}
+
+    existing_ids = {p["id"] for p in archive.get("predictions", [])}
+    added = 0
+    for fx in friendly_predictions:
+        if fx["id"] in existing_ids:
+            continue
+        archive["predictions"].append({
+            "id": fx["id"],
+            "eventId": fx["eventId"],
+            "home": fx["home"],
+            "away": fx["away"],
+            "kickoffISO": fx["kickoffISO"],
+            "homeWinPct": fx["homeWinPct"],
+            "drawPct": fx["drawPct"],
+            "awayWinPct": fx["awayWinPct"],
+            "predictedScore": fx["predictedScore"],
+            "marketOdds": fx.get("marketOdds"),
+            "loggedAt": datetime.now(timezone.utc).isoformat(),
+            "resolved": False,
+            "actualResult": None,
+            "actualScore": None,
+            "modelCorrect": None,
+            "marketCorrect": None,
+        })
+        existing_ids.add(fx["id"])
+        added += 1
+
+    archive["predictions"].sort(key=lambda p: p["kickoffISO"] or "")
+
+    with open(FRIENDLY_PREDICTIONS_LOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(archive, f, indent=2)
+
+    return added, len(archive["predictions"])
+
+
+def resolve_friendly_predictions():
+    """Unlike competitive fixtures, friendly results never land in
+    data/match-history.json (that file is built from FPL's own
+    /fixtures/ endpoint, which doesn't carry friendlies at all) - so
+    each unresolved friendly is checked directly against its own real
+    ESPN summary for a real final score, using the same
+    status.type.completed field ESPN itself uses to mark a match
+    finished."""
+    try:
+        with open(FRIENDLY_PREDICTIONS_LOG_PATH, "r", encoding="utf-8") as f:
+            archive = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return 0, 0
+
+    newly_resolved = 0
+    for p in archive.get("predictions", []):
+        if p["resolved"]:
+            continue
+        try:
+            summary = fetch_json(ESPN_SUMMARY_URL.format(slug=FRIENDLY_SLUG, event_id=p["eventId"]))
+            comp = summary["header"]["competitions"][0]
+        except Exception:
+            continue
+        if not comp["status"]["type"]["completed"]:
+            continue
+        home_c = next((c for c in comp["competitors"] if c["homeAway"] == "home"), None)
+        away_c = next((c for c in comp["competitors"] if c["homeAway"] == "away"), None)
+        if not home_c or not away_c or home_c.get("score") is None or away_c.get("score") is None:
+            continue
+        try:
+            h_score = float(home_c["score"])
+            a_score = float(away_c["score"])
+        except (TypeError, ValueError):
+            continue
+
+        if h_score > a_score: actual = "home"
+        elif h_score < a_score: actual = "away"
+        else: actual = "draw"
+
+        model_favored = _favored_outcome(p["homeWinPct"], p["drawPct"], p["awayWinPct"])
+        p["resolved"] = True
+        p["actualResult"] = actual
+        p["actualScore"] = f"{h_score:g} — {a_score:g}"
+        p["modelCorrect"] = model_favored == actual
+        if p.get("marketOdds"):
+            market_favored = _favored_outcome(p["marketOdds"]["homeWinPct"], p["marketOdds"]["drawPct"], p["marketOdds"]["awayWinPct"])
+            p["marketCorrect"] = market_favored == actual
+        newly_resolved += 1
+
+    with open(FRIENDLY_PREDICTIONS_LOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(archive, f, indent=2)
+
+    return newly_resolved, sum(1 for p in archive.get("predictions", []) if p["resolved"])
+
+
+def compute_friendly_track_record():
+    """Same shape as compute_prediction_track_record, kept as a
+    separate real number so it's never confused with competitive-match
+    accuracy - friendly squads are often rotated, so this is honestly a
+    lower-confidence sample, and the UI says so."""
+    try:
+        with open(FRIENDLY_PREDICTIONS_LOG_PATH, "r", encoding="utf-8") as f:
+            archive = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        archive = {"predictions": []}
+
+    resolved = [p for p in archive.get("predictions", []) if p["resolved"]]
+    correct = sum(1 for p in resolved if p["modelCorrect"])
+
+    return {
+        "totalLogged": len(archive.get("predictions", [])),
+        "totalResolved": len(resolved),
+        "correct": correct,
+        "accuracyPct": round(correct / len(resolved) * 100, 1) if resolved else None,
+    }
 
 
 def build_fixture_lookup(fixtures, teams):
@@ -1038,6 +1260,17 @@ def main():
     print(f"data/predictions-log.json: {resolved_added} newly resolved, {resolved_total} total resolved")
     prediction_track_record = compute_prediction_track_record()
 
+    # Real today-only PL-vs-PL friendlies, predicted and tracked
+    # separately from the competitive-season numbers above (see
+    # FRIENDLY_SLUG's comment for why).
+    friendly_events = fetch_todays_friendlies(teams)
+    friendly_predictions = build_friendly_predictions(friendly_events, teams, teams_by_id, squad_ratings, data["elements"])
+    friendly_logged_added, friendly_logged_total = log_friendly_predictions(friendly_predictions)
+    print(f"data/friendly-predictions-log.json: {friendly_logged_added} new prediction(s) logged, {friendly_logged_total} total")
+    friendly_resolved_added, friendly_resolved_total = resolve_friendly_predictions()
+    print(f"data/friendly-predictions-log.json: {friendly_resolved_added} newly resolved, {friendly_resolved_total} total resolved")
+    friendly_track_record = compute_friendly_track_record()
+
     eligible = [e for e in data["elements"] if float(e["selected_by_percent"] or 0) >= 2.0]
     percentiles = compute_percentiles(eligible)
     transfers_in_raw, transfers_out_raw = build_transfer_advice(eligible, fixture_swing, teams_by_id)
@@ -1102,6 +1335,8 @@ def main():
         "wildcardWatch": wildcard_watch,
         "fixtures": fixtures_list,
         "predictionTrackRecord": prediction_track_record,
+        "friendlyPredictions": friendly_predictions,
+        "friendlyTrackRecord": friendly_track_record,
         "teams": teams_list,
         "players": players_out,
         # "Squad value" and "free transfers" are per-manager facts - the API

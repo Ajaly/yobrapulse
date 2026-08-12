@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T14:44:18.577003+00:00",
+  "generatedAt": "2026-08-12T15:09:01.972474+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -557,6 +557,74 @@
     "correct": 0,
     "accuracyPct": null,
     "marketComparison": null
+  },
+  "friendlyPredictions": [
+    {
+      "id": "friendly-401905959",
+      "eventId": "401905959",
+      "home": "Newcastle",
+      "away": "Everton",
+      "kickoffISO": "2026-08-12T16:15Z",
+      "kickoffLabel": "Wed 12 Aug \u00b7 16:15 UTC",
+      "homeWinPct": 40,
+      "drawPct": 26,
+      "awayWinPct": 34,
+      "predictedScore": "1.5 \u2014 1.1",
+      "factors": {
+        "homeForm": 0.48,
+        "awayForm": 0.1,
+        "h2h": {
+          "homeWins": 1,
+          "draws": 2,
+          "awayWins": 2,
+          "meetings": 5
+        },
+        "homeAvailability": 0.91,
+        "awayAvailability": 0.98
+      },
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 43,
+        "drawPct": 26,
+        "awayWinPct": 31
+      }
+    },
+    {
+      "id": "friendly-401867394",
+      "eventId": "401867394",
+      "home": "Man Utd",
+      "away": "Leeds",
+      "kickoffISO": "2026-08-12T18:30Z",
+      "kickoffLabel": "Wed 12 Aug \u00b7 18:30 UTC",
+      "homeWinPct": 53,
+      "drawPct": 24,
+      "awayWinPct": 23,
+      "predictedScore": "1.6 \u2014 1.0",
+      "factors": {
+        "homeForm": 0.66,
+        "awayForm": 0.69,
+        "h2h": {
+          "homeWins": 2,
+          "draws": 2,
+          "awayWins": 1,
+          "meetings": 5
+        },
+        "homeAvailability": 0.95,
+        "awayAvailability": 0.95
+      },
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 50,
+        "drawPct": 24,
+        "awayWinPct": 26
+      }
+    }
+  ],
+  "friendlyTrackRecord": {
+    "totalLogged": 2,
+    "totalResolved": 0,
+    "correct": 0,
+    "accuracyPct": null
   },
   "teams": [
     {
@@ -4874,7 +4942,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 4023349,
+  "totalManagers": 4025944,
   "totalPlayers": 581,
   "priceMovement": {
     "risers": [],

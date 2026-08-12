@@ -272,6 +272,37 @@ function renderTrackRecord(record) {
   if (liveBadge) liveBadge.hidden = false;
 }
 
+function renderFriendlyPredictions(predictions, record) {
+  const panel = document.querySelector('#friendly-predictions-panel');
+  const list = document.querySelector('#friendly-predictions-list');
+  if (!panel || !list || !predictions || !predictions.length) return;
+
+  list.innerHTML = predictions.map((f) => `
+    <article class="match-row">
+      <div class="competition"><span class="competition-badge fr">FR</span><div><strong>Club friendly</strong><small>Pre-season</small></div></div>
+      <div class="teams">${teamSpan(f.home)}<strong>VS</strong>${teamSpan(f.away)}</div>
+      <div class="match-outcome">
+        <div class="match-status upcoming"><span></span> ${f.kickoffLabel}</div>
+        ${predictChip(f)}
+      </div>
+    </article>
+  `).join('');
+
+  const accuracyEl = document.querySelector('#friendly-track-accuracy');
+  const subEl = document.querySelector('#friendly-track-sub');
+  if (record && accuracyEl) accuracyEl.textContent = record.accuracyPct === null ? '—' : `${record.accuracyPct}%`;
+  if (record && subEl) {
+    subEl.textContent = record.totalResolved
+      ? `${record.correct} of ${record.totalResolved} correct`
+      : `${record.totalLogged} logged today, none resolved yet`;
+  }
+
+  const liveBadge = document.querySelector('#friendly-live-badge');
+  if (liveBadge) liveBadge.hidden = false;
+  panel.hidden = false;
+  refreshIcons();
+}
+
 fetch('data/fpl.json')
   .then((res) => (res.ok ? res.json() : Promise.reject(new Error('fpl.json ' + res.status))))
   .then((data) => {
@@ -298,6 +329,7 @@ fetch('data/fpl.json')
     }
 
     renderTrackRecord(data.predictionTrackRecord);
+    renderFriendlyPredictions(data.friendlyPredictions, data.friendlyTrackRecord);
 
     const teamsGrid = document.querySelector('#teams-grid');
     if (teamsGrid && data.teams && data.teams.length) {
