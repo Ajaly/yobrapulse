@@ -225,8 +225,51 @@ function predictChip(f) {
   let label = 'Draw';
   if (max === f.homeWinPct) label = 'Home win';
   else if (max === f.awayWinPct) label = 'Away win';
-  const title = `Home ${f.homeWinPct}% · Draw ${f.drawPct}% · Away ${f.awayWinPct}% · Predicted score ${f.predictedScore}`;
-  return `<div class="predict-chip" title="${title}"><i data-lucide="target"></i> ${max}% ${label}</div>`;
+
+  const factors = f.factors || {};
+  const signals = [];
+  if (factors.homeForm !== null && factors.homeForm !== undefined && factors.awayForm !== null && factors.awayForm !== undefined) signals.push('recent form');
+  if (factors.h2h) signals.push(`head-to-head (${factors.h2h.meetings} real meeting${factors.h2h.meetings === 1 ? '' : 's'})`);
+  if (factors.homeAvailability !== null && factors.homeAvailability !== undefined) signals.push('squad availability');
+  if (f.marketOdds) signals.push(`${f.marketOdds.provider} odds`);
+  const signalsText = signals.length
+    ? `Real signals used: team strength, squad quality, ${signals.join(', ')}.`
+    : 'Real signals used: team strength, squad quality only - no real form/H2H/odds match found for this fixture.';
+  const title = `Home ${f.homeWinPct}% · Draw ${f.drawPct}% · Away ${f.awayWinPct}% · Predicted score ${f.predictedScore} · ${signalsText}`;
+  const oddsTag = f.marketOdds ? '<span class="predict-odds-tag">odds-backed</span>' : '';
+  return `<div class="predict-chip" title="${title}"><i data-lucide="target"></i> ${max}% ${label}${oddsTag}</div>`;
+}
+
+function renderTrackRecord(record) {
+  if (!record) return;
+  const resolvedEl = document.querySelector('#track-record-resolved');
+  const resolvedSub = document.querySelector('#track-record-resolved-sub');
+  const accuracyEl = document.querySelector('#track-record-accuracy');
+  const accuracySub = document.querySelector('#track-record-accuracy-sub');
+  const marketEl = document.querySelector('#track-record-market');
+  const marketSub = document.querySelector('#track-record-market-sub');
+  const liveBadge = document.querySelector('#track-record-live-badge');
+
+  if (resolvedEl) resolvedEl.textContent = record.totalResolved;
+  if (resolvedSub) resolvedSub.textContent = `${record.totalLogged} logged total`;
+
+  if (accuracyEl) {
+    accuracyEl.textContent = record.accuracyPct === null ? '—' : `${record.accuracyPct}%`;
+  }
+  if (accuracySub) {
+    accuracySub.textContent = record.totalResolved
+      ? `${record.correct} of ${record.totalResolved} correct`
+      : 'No resolved predictions yet - check back after Gameweek 1';
+  }
+
+  if (record.marketComparison) {
+    if (marketEl) marketEl.textContent = `${record.marketComparison.modelAccuracyPct}%`;
+    if (marketSub) marketSub.textContent = `vs ${record.marketComparison.marketAccuracyPct}% market favorite (${record.marketComparison.sampleSize} fixture${record.marketComparison.sampleSize === 1 ? '' : 's'} with real odds)`;
+  } else if (marketSub) {
+    marketSub.textContent = 'Needs real odds coverage on resolved fixtures';
+  }
+
+  if (liveBadge) liveBadge.hidden = false;
 }
 
 fetch('data/fpl.json')
@@ -253,6 +296,8 @@ fetch('data/fpl.json')
       if (fplFixturesBadge) fplFixturesBadge.hidden = false;
       refreshIcons();
     }
+
+    renderTrackRecord(data.predictionTrackRecord);
 
     const teamsGrid = document.querySelector('#teams-grid');
     if (teamsGrid && data.teams && data.teams.length) {

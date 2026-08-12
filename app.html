@@ -314,12 +314,37 @@
               <div><span class="section-kicker" id="fpl-fixtures-kicker">This week</span><h2>Gameweek fixtures &amp; predictions</h2></div>
               <span class="live-badge" id="fpl-fixtures-live-badge" hidden>Live data</span>
             </div>
-            <p class="lede" style="margin:0 0 14px;font-size:11.5px">Predicted outcomes from a model built on real team strength ratings and squad quality - not head-to-head history, which isn't available in this data source. Hover a prediction for the full breakdown.</p>
+            <p class="lede" style="margin:0 0 14px;font-size:11.5px">Predicted outcomes from a model built on real team strength ratings, squad quality, recent form, head-to-head history and squad availability - plus real bookmaker odds where available. Coverage varies per fixture; hover a prediction to see exactly which real signals fed it. This is a documented heuristic, not a trained model, and not a promise of a specific accuracy.</p>
             <div class="match-list" id="fpl-fixtures-list">
               <article class="match-row">
                 <div class="competition"><span class="competition-badge pl">PL</span><div><strong>Premier League</strong><small>Matchday 9</small></div></div>
                 <div class="teams"><span>Liverpool</span><strong>VS</strong><span>Chelsea</span></div>
                 <div class="match-status upcoming"><span></span> Sat, 19 Oct · 17:30</div>
+              </article>
+            </div>
+          </section>
+
+          <section class="panel track-record-panel">
+            <div class="panel-header">
+              <div><span class="section-kicker">Backtested, not promised</span><h2>Prediction track record</h2></div>
+              <span class="live-badge" id="track-record-live-badge" hidden>Live data</span>
+            </div>
+            <p class="lede" style="margin:0 0 14px;font-size:11.5px" id="track-record-summary">Every prediction is logged before kickoff and never edited afterward - this is a real, running accuracy count against real finished results, not a target figure.</p>
+            <div class="metric-grid compact-grid">
+              <article class="metric-card">
+                <span class="metric-label">Resolved predictions</span>
+                <strong id="track-record-resolved">0</strong>
+                <small class="muted" id="track-record-resolved-sub">Since tracking began</small>
+              </article>
+              <article class="metric-card">
+                <span class="metric-label">Model accuracy</span>
+                <strong id="track-record-accuracy">—</strong>
+                <small class="muted" id="track-record-accuracy-sub">No resolved predictions yet</small>
+              </article>
+              <article class="metric-card">
+                <span class="metric-label">Vs. market favorite</span>
+                <strong id="track-record-market">—</strong>
+                <small class="muted" id="track-record-market-sub">Needs real odds coverage</small>
               </article>
             </div>
           </section>

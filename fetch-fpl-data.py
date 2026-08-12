@@ -36,17 +36,36 @@ based) is unrelated to this and unchanged.
 
 Match outcome predictions (see predict_fixture): checked what a real
 prediction engine would need - historical head-to-head and
-player-vs-specific-opponent stats aren't available from this API at
-all (verified directly: a player's element-summary only keeps
+player-vs-specific-opponent stats aren't available from FPL's own API
+at all (verified directly: a player's element-summary only keeps
 season-level totals once a season ends, not fixture-by-fixture
 history). Per-team attack/defence strength splits are also all zero
 right now (not yet populated for the new season). What IS real and
-usable: each team's overall home/away strength rating (the same
-FPL-published figures that already drive fixture FDR) and real
+usable from FPL: each team's overall home/away strength rating (the
+same FPL-published figures that already drive fixture FDR), real
 last-season squad quality (the same squadRating used in the Teams
-view). The model below is a transparent, documented heuristic built
-from those two real signals - not a trained model, not head-to-head,
-and it says so in the UI.
+view), and real live squad availability (status/chance-of-playing,
+already used by the injury report - see compute_availability_score).
+
+Separately, ESPN's public site.api.espn.com does carry real
+head-to-head history (the summary endpoint's seasonseries field, with
+real historical scorelines) and real recent-form data (lastFiveGames)
+and, for some fixtures, real bookmaker odds (pickcenter/odds) -
+verified directly against live fixtures before using any of it (see
+find_espn_fixture / compute_form_score / compute_h2h_record /
+extract_market_odds). Coverage genuinely varies per fixture (a newly
+promoted club may have no ESPN head-to-head; some competitions have no
+listed odds), so every one of these signals is dropped from the blend
+rather than treated as zero when it isn't available for a given
+match - the model degrades gracefully to the FPL-only signals rather
+than guessing.
+
+Prediction accuracy: this is a transparent, documented heuristic, not
+a trained model, and not a claim of anything close to 90%+ accuracy -
+real football outcome prediction, even from professional bookmakers,
+tops out well below that (see data/predictions-log.json and
+build_prediction_track_record for the actual measured accuracy this
+model achieves once real fixtures resolve, updated every run).
 
 Match history accumulation (see build_match_history /
 update_match_history_file): the gap above exists because the API only
@@ -63,6 +82,7 @@ through a full season it builds exactly the real head-to-head and
 match-log data this model doesn't have today.
 """
 import json
+import re
 import urllib.request
 from datetime import datetime, timezone
 
@@ -85,6 +105,31 @@ POSITIONS = {1: "GKP", 2: "DEF", 3: "MID", 4: "FWD"}
 AVATAR_CLASSES = ["", "blue-avatar", "orange-avatar", "pink-avatar"]
 CREST_CLASSES = ["", "blue-crest", "orange-crest", "pink-crest"]
 FDR_CLASS = {1: "easy", 2: "easy", 3: "mid", 4: "hard", 5: "hard"}
+
+# Prediction engine v2: real recent form, real head-to-head, real squad
+# availability, and real market odds when available - all checked
+# against live data before being trusted (see docstring at top of file
+# for the full record). ESPN uses its own team/event ids, unrelated to
+# FPL's - fixtures are correlated by matching team names on the same
+# kickoff date. Matching is by substring containment after normalizing
+# both sides (FPL's short names like "Newcastle" or "Brighton" don't
+# equal ESPN's full names like "Newcastle United" or "Brighton & Hove
+# Albion", only contain/are-contained-by them), plus a small alias map
+# for the 4 clubs whose short name doesn't even substring-match
+# ("Man City", "Man Utd", "Nott'm Forest", "Spurs"). Verified directly
+# against all 20 real 2026/27 clubs and ESPN's real team list: exactly
+# one match per club, no ambiguity.
+ESPN_LEAGUE_SLUG = "eng.1"
+ESPN_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates={date}"
+ESPN_SUMMARY_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/summary?event={event_id}"
+TEAM_NAME_ALIASES = {
+    "man city": "manchestercity",
+    "man utd": "manchesterunited",
+    "nott'm forest": "nottinghamforest",
+    "spurs": "tottenhamhotspur",
+}
+PREDICTIONS_LOG_PATH = "data/predictions-log.json"
+MIN_AVAILABILITY_SAMPLE = 5  # a squad needs at least this many real players before an availability score is trusted
 
 
 def fetch_json(url):
@@ -138,38 +183,245 @@ def compute_squad_ratings(data):
     return ratings
 
 
-def predict_fixture(home_team, away_team, squad_ratings):
+def normalize_team_name(name):
+    """Real ESPN team names don't substring-match FPL's short names for
+    4 of the 20 real 2026/27 clubs (see TEAM_NAME_ALIASES) - checked
+    directly against both real team lists before writing this, not
+    assumed. Everything else matches via simple normalization."""
+    key = name.strip().lower()
+    if key in TEAM_NAME_ALIASES:
+        return TEAM_NAME_ALIASES[key]
+    return re.sub(r"[^a-z0-9]", "", re.sub(r"\b(fc|afc|cf)\b", "", key))
+
+
+def find_espn_fixture(home_name, away_name, kickoff_iso):
+    """(event_id, home_espn_team_id, away_espn_team_id) for the real
+    ESPN fixture matching this one, found by comparing team names on
+    the same kickoff date - ESPN uses its own event/team ids, unrelated
+    to FPL's. Returns (None, None, None) rather than guessing if no
+    match is found (a postponed/rescheduled fixture, say)."""
+    try:
+        date_str = kickoff_iso[:10].replace("-", "")
+        data = fetch_json(ESPN_SCOREBOARD_URL.format(slug=ESPN_LEAGUE_SLUG, date=date_str))
+    except Exception:
+        return None, None, None
+    home_key = normalize_team_name(home_name)
+    away_key = normalize_team_name(away_name)
+    def matches(fpl_key, espn_name):
+        # FPL's short names ("Newcastle", "Brighton") don't equal
+        # ESPN's full names ("Newcastle United" -> "newcastleunited",
+        # "Brighton & Hove Albion" -> "brightonhovealbion") even after
+        # normalizing - verified directly against a real fixture that
+        # exact-equality silently dropped (Newcastle vs Liverpool).
+        # Containment handles it; the length floor avoids a short
+        # normalized name trivially matching an unrelated club.
+        espn_key = normalize_team_name(espn_name)
+        return len(fpl_key) >= 4 and (fpl_key in espn_key or espn_key in fpl_key)
+
+    for ev in data.get("events", []):
+        comp = ev["competitions"][0]
+        home = next((c for c in comp["competitors"] if c["homeAway"] == "home"), None)
+        away = next((c for c in comp["competitors"] if c["homeAway"] == "away"), None)
+        if not home or not away:
+            continue
+        if matches(home_key, home["team"]["displayName"]) and matches(away_key, away["team"]["displayName"]):
+            return ev["id"], home["team"]["id"], away["team"]["id"]
+    return None, None, None
+
+
+def compute_form_score(last_five_games_data, espn_team_id):
+    """Real recent-form score (0-1) from a team's actual last 5 results,
+    recency-weighted so the most recent match counts more than the
+    oldest - standard 3/1/0 points per win/draw/loss, normalized
+    against the maximum possible weighted score. None if this team's
+    real last-five data isn't present for this fixture."""
+    team_block = next((b for b in (last_five_games_data or []) if (b.get("team") or {}).get("id") == str(espn_team_id)), None)
+    if not team_block or not team_block.get("events"):
+        return None
+    events = team_block["events"]
+    weights = [1.0, 1.2, 1.4, 1.6, 1.8][-len(events):]
+    points = {"W": 3, "D": 1, "L": 0}
+    total = sum(points.get(e.get("gameResult"), 0) * w for e, w in zip(events, weights))
+    max_total = 3 * sum(weights)
+    return total / max_total if max_total else None
+
+
+def compute_h2h_record(seasonseries_data, home_espn_id, away_espn_id):
+    """Real head-to-head record, counted from actual historical
+    scorelines rather than parsed from ESPN's natural-language "leads
+    series X-Y" summary text (fragile to parse reliably) - real wins/
+    draws/losses for today's home side across every meeting ESPN has on
+    record between these two specific clubs. None if there's no real
+    history (a newly-promoted club meeting an opponent for the first
+    time, say)."""
+    series = (seasonseries_data or [{}])[0]
+    events = series.get("events") or []
+    if not events:
+        return None
+    home_wins = draws = away_wins = 0
+    for ev in events:
+        competitors = ev.get("competitors", [])
+        home_c = next((c for c in competitors if c.get("homeAway") == "home"), None)
+        away_c = next((c for c in competitors if c.get("homeAway") == "away"), None)
+        if not home_c or not away_c or "score" not in home_c or "score" not in away_c:
+            continue
+        try:
+            h_score = float(home_c["score"])
+            a_score = float(away_c["score"])
+        except (TypeError, ValueError):
+            continue
+        # Which side of THIS historical match was today's home team -
+        # home/away swaps across meetings, so this can't be assumed.
+        h_team_id = (home_c.get("team") or {}).get("id")
+        if h_team_id == str(home_espn_id):
+            if h_score > a_score: home_wins += 1
+            elif h_score < a_score: away_wins += 1
+            else: draws += 1
+        elif h_team_id == str(away_espn_id):
+            if h_score > a_score: away_wins += 1
+            elif h_score < a_score: home_wins += 1
+            else: draws += 1
+    total = home_wins + draws + away_wins
+    return {"homeWins": home_wins, "draws": draws, "awayWins": away_wins, "meetings": total} if total else None
+
+
+def moneyline_to_prob(moneyline):
+    """American odds -> raw implied probability (still includes the
+    bookmaker's built-in margin - removed once all three outcomes are
+    combined, see extract_market_odds)."""
+    if moneyline is None:
+        return None
+    m = float(moneyline)
+    return -m / (-m + 100) if m < 0 else 100 / (m + 100)
+
+
+def extract_market_odds(summary_data):
+    """Real bookmaker moneyline odds (whichever provider ESPN lists
+    first - DraftKings in every fixture checked this session), de-
+    vigged to a fair 100% split - the standard way to read a
+    bookmaker's true view once their margin is removed. Checked
+    directly against real fixtures before trusting this: coverage
+    genuinely varies (some fixtures/competitions have no odds at all),
+    so this returns None rather than a fabricated number when absent."""
+    odds_list = summary_data.get("odds") or []
+    if not odds_list:
+        return None
+    odds = odds_list[0]
+    try:
+        home_p = moneyline_to_prob(odds["homeTeamOdds"]["moneyLine"])
+        away_p = moneyline_to_prob(odds["awayTeamOdds"]["moneyLine"])
+        draw_p = moneyline_to_prob(odds["drawOdds"]["moneyLine"])
+    except (KeyError, TypeError):
+        return None
+    if home_p is None or away_p is None or draw_p is None:
+        return None
+    total = home_p + away_p + draw_p
+    if not total:
+        return None
+    home_r = round(home_p / total * 100)
+    draw_r = round(draw_p / total * 100)
+    away_r = 100 - home_r - draw_r
+    return {
+        "provider": (odds.get("provider") or {}).get("name", "Unknown"),
+        "homeWinPct": home_r,
+        "drawPct": draw_r,
+        "awayWinPct": away_r,
+    }
+
+
+def fetch_espn_context(home_name, away_name, kickoff_iso):
+    """Real form, head-to-head and market-odds context for one
+    fixture - every piece gracefully empty (not an error) when that
+    specific piece isn't available, since real coverage varies."""
+    empty = {"homeForm": None, "awayForm": None, "h2h": None, "marketOdds": None}
+    event_id, home_espn_id, away_espn_id = find_espn_fixture(home_name, away_name, kickoff_iso)
+    if not event_id:
+        return empty
+    try:
+        summary = fetch_json(ESPN_SUMMARY_URL.format(slug=ESPN_LEAGUE_SLUG, event_id=event_id))
+    except Exception:
+        return empty
+    return {
+        "homeForm": compute_form_score(summary.get("lastFiveGames"), home_espn_id),
+        "awayForm": compute_form_score(summary.get("lastFiveGames"), away_espn_id),
+        "h2h": compute_h2h_record(summary.get("seasonseries"), home_espn_id, away_espn_id),
+        "marketOdds": extract_market_odds(summary),
+    }
+
+
+def compute_availability_score(team_id, elements):
+    """0-1 real squad-availability score: ownership-weighted share of
+    the squad that's actually available (real status "a"). Uses real
+    selected_by_percent as an importance weight - a widely-owned player
+    missing matters more than a fringe one, and ownership already
+    reflects real manager consensus on who matters, not a guess this
+    script invents. None if the squad sample is too small to trust
+    (MIN_AVAILABILITY_SAMPLE - same small-sample caution as
+    compute_squad_ratings elsewhere in this file)."""
+    squad = [e for e in elements if e["team"] == team_id]
+    if len(squad) < MIN_AVAILABILITY_SAMPLE:
+        return None
+    def weight(e):
+        return float(e["selected_by_percent"] or 0) + 1
+    total_weight = sum(weight(e) for e in squad)
+    if not total_weight:
+        return None
+    available_weight = sum(weight(e) for e in squad if e.get("status") == "a")
+    return available_weight / total_weight
+
+
+def predict_fixture(home_team, away_team, squad_ratings, espn_context, home_availability, away_availability):
     """Home/draw/away percentages (always sum to exactly 100) plus a
-    predicted scoreline, from two real signals: FPL's own overall
-    home/away strength rating per club, and real last-season squad
-    quality (points-per-90). Base rates (45/25/30) reflect the actual
-    long-run Premier League home-advantage split. No head-to-head, no
-    current-season form (there isn't any yet) - documented above."""
+    predicted scoreline, blended from real signals: FPL's own overall
+    home/away strength rating, real last-season squad quality (points-
+    per-90), real recent form (last 5 matches, recency-weighted), real
+    squad availability (ownership-weighted real injury/suspension
+    status), and real head-to-head history when at least 3 real
+    meetings exist (same small-sample caution used throughout this
+    file). Base rates (45/25/30) reflect the actual long-run Premier
+    League home-advantage split. Any signal that isn't available for a
+    given fixture is dropped from the blend entirely rather than
+    treated as zero - see the compute_* functions above for exactly
+    when and why each one can be missing. Still a transparent,
+    documented heuristic, not a trained model or a black box, and the
+    UI says so."""
     strength_diff = home_team["strength_overall_home"] - away_team["strength_overall_away"]
     home_quality = squad_ratings.get(home_team["id"])
     away_quality = squad_ratings.get(away_team["id"])
-    # Neither side gets credit/blame for a rating neither team can be
-    # trusted to have (see compute_squad_ratings) - fall back to
-    # strength-only rather than silently treating "no data" as "zero".
     quality_diff = (home_quality - away_quality) if (home_quality is not None and away_quality is not None) else 0
 
-    home_win = 45 + strength_diff * 7 + quality_diff * 5
-    away_win = 30 - strength_diff * 6 - quality_diff * 4
-    home_win = max(15, min(72, home_win))
-    away_win = max(8, min(58, away_win))
+    form_diff = 0
+    home_form = (espn_context or {}).get("homeForm")
+    away_form = (espn_context or {}).get("awayForm")
+    if home_form is not None and away_form is not None:
+        form_diff = home_form - away_form
+
+    availability_diff = 0
+    if home_availability is not None and away_availability is not None:
+        availability_diff = home_availability - away_availability
+
+    h2h = (espn_context or {}).get("h2h")
+    h2h_signal = 0
+    if h2h and h2h["meetings"] >= 3:
+        h2h_signal = (h2h["homeWins"] - h2h["awayWins"]) / h2h["meetings"]
+
+    home_win = 45 + strength_diff * 7 + quality_diff * 5 + form_diff * 12 + availability_diff * 10 + h2h_signal * 8
+    away_win = 30 - strength_diff * 6 - quality_diff * 4 - form_diff * 10 - availability_diff * 9 - h2h_signal * 6
+    home_win = max(10, min(78, home_win))
+    away_win = max(6, min(62, away_win))
     draw = 100 - home_win - away_win
-    if draw < 10:
-        deficit = 10 - draw
+    if draw < 8:
+        deficit = 8 - draw
         scale = deficit / (home_win + away_win) if (home_win + away_win) else 0
         home_win -= home_win * scale
         away_win -= away_win * scale
-        draw = 10
+        draw = 8
 
     home_win = round(home_win)
     draw = round(draw)
     away_win = 100 - home_win - draw  # exact after rounding
 
-    edge = strength_diff * 0.15 + quality_diff * 0.1
+    edge = strength_diff * 0.15 + quality_diff * 0.1 + form_diff * 0.5 + availability_diff * 0.4
     home_goals = max(0.4, min(3.8, 1.5 + edge))
     away_goals = max(0.3, min(3.2, 1.1 - edge * 0.8))
 
@@ -178,22 +430,36 @@ def predict_fixture(home_team, away_team, squad_ratings):
         "drawPct": draw,
         "awayWinPct": away_win,
         "predictedScore": f"{home_goals:.1f} — {away_goals:.1f}",
+        "factors": {
+            "homeForm": round(home_form, 2) if home_form is not None else None,
+            "awayForm": round(away_form, 2) if away_form is not None else None,
+            "h2h": h2h,
+            "homeAvailability": round(home_availability, 2) if home_availability is not None else None,
+            "awayAvailability": round(away_availability, 2) if away_availability is not None else None,
+        },
+        "marketOdds": (espn_context or {}).get("marketOdds"),
     }
 
 
-def build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings):
+def build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, elements):
     out = []
     for f in sorted(fixtures, key=lambda x: x["kickoff_time"] or ""):
         if not f["kickoff_time"]:
             continue
         kickoff = datetime.fromisoformat(f["kickoff_time"].replace("Z", "+00:00"))
+        home_name = teams[f["team_h"]]
+        away_name = teams[f["team_a"]]
+        espn_context = fetch_espn_context(home_name, away_name, f["kickoff_time"])
+        home_availability = compute_availability_score(f["team_h"], elements)
+        away_availability = compute_availability_score(f["team_a"], elements)
         entry = {
-            "home": teams[f["team_h"]],
-            "away": teams[f["team_a"]],
+            "id": f["id"],
+            "home": home_name,
+            "away": away_name,
             "kickoffISO": f["kickoff_time"],
             "kickoffLabel": kickoff.strftime("%a %d %b · %H:%M UTC"),
         }
-        entry.update(predict_fixture(teams_by_id[f["team_h"]], teams_by_id[f["team_a"]], squad_ratings))
+        entry.update(predict_fixture(teams_by_id[f["team_h"]], teams_by_id[f["team_a"]], squad_ratings, espn_context, home_availability, away_availability))
         out.append(entry)
     return out
 
@@ -337,6 +603,143 @@ def update_match_history_file(new_matches, season_label):
         json.dump(archive, f, indent=2)
 
     return added, len(archive["matches"])
+
+
+def log_predictions(fixtures_list):
+    """Append this run's real predictions to a permanent, append-only
+    data/predictions-log.json, deduped by real FPL fixture id - a
+    prediction already logged for a fixture is NEVER overwritten, even
+    as later runs see fresher form/odds data, because the whole point
+    of backtesting is judging what the model said BEFORE kickoff, not
+    a hindsight-adjusted version of it. Mirrors update_match_history_file's
+    dedup pattern above. Only fixtures with a real kickoff time and a
+    real prediction are logged."""
+    try:
+        with open(PREDICTIONS_LOG_PATH, "r", encoding="utf-8") as f:
+            archive = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        archive = {"predictions": []}
+
+    existing_ids = {p["id"] for p in archive.get("predictions", [])}
+    added = 0
+    for fx in fixtures_list:
+        if fx["id"] in existing_ids:
+            continue
+        archive["predictions"].append({
+            "id": fx["id"],
+            "home": fx["home"],
+            "away": fx["away"],
+            "kickoffISO": fx["kickoffISO"],
+            "homeWinPct": fx["homeWinPct"],
+            "drawPct": fx["drawPct"],
+            "awayWinPct": fx["awayWinPct"],
+            "predictedScore": fx["predictedScore"],
+            "marketOdds": fx.get("marketOdds"),
+            "loggedAt": datetime.now(timezone.utc).isoformat(),
+            "resolved": False,
+            "actualResult": None,
+            "modelCorrect": None,
+            "marketCorrect": None,
+        })
+        existing_ids.add(fx["id"])
+        added += 1
+
+    archive["predictions"].sort(key=lambda p: p["kickoffISO"] or "")
+
+    with open(PREDICTIONS_LOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(archive, f, indent=2)
+
+    return added, len(archive["predictions"])
+
+
+def _favored_outcome(home_pct, draw_pct, away_pct):
+    """Which outcome a set of percentages favors - home/draw/away ties
+    broken toward home then draw, an arbitrary but fixed rule applied
+    identically to both the model's and the market's percentages so
+    the comparison between them is fair."""
+    best = max(home_pct, draw_pct, away_pct)
+    if home_pct == best:
+        return "home"
+    if draw_pct == best:
+        return "draw"
+    return "away"
+
+
+def resolve_predictions(match_history_matches):
+    """Cross-reference every unresolved logged prediction against real
+    finished results in data/match-history.json by shared real FPL
+    fixture id - no ESPN lookup needed at resolution time since both
+    files already key on the same id. A prediction is resolved exactly
+    once and never re-touched afterward, so accuracy stats only ever
+    grow, they don't get revised."""
+    try:
+        with open(PREDICTIONS_LOG_PATH, "r", encoding="utf-8") as f:
+            archive = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return 0, 0
+
+    results_by_id = {m["id"]: m for m in match_history_matches}
+    newly_resolved = 0
+    for p in archive.get("predictions", []):
+        if p["resolved"]:
+            continue
+        match = results_by_id.get(p["id"])
+        if not match or match["homeScore"] is None or match["awayScore"] is None:
+            continue
+        if match["homeScore"] > match["awayScore"]:
+            actual = "home"
+        elif match["homeScore"] < match["awayScore"]:
+            actual = "away"
+        else:
+            actual = "draw"
+
+        model_favored = _favored_outcome(p["homeWinPct"], p["drawPct"], p["awayWinPct"])
+        p["resolved"] = True
+        p["actualResult"] = actual
+        p["actualScore"] = f"{match['homeScore']} — {match['awayScore']}"
+        p["modelCorrect"] = model_favored == actual
+        if p.get("marketOdds"):
+            market_favored = _favored_outcome(p["marketOdds"]["homeWinPct"], p["marketOdds"]["drawPct"], p["marketOdds"]["awayWinPct"])
+            p["marketCorrect"] = market_favored == actual
+        newly_resolved += 1
+
+    with open(PREDICTIONS_LOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(archive, f, indent=2)
+
+    return newly_resolved, sum(1 for p in archive.get("predictions", []) if p["resolved"])
+
+
+def compute_prediction_track_record():
+    """Real, transparent aggregate accuracy from every resolved
+    prediction ever logged - not a fabricated figure. Deliberately
+    includes the raw resolved count alongside the percentage, since a
+    91% accuracy from 3 games means nothing and the UI should be able
+    to say so. Also reports market-favorite accuracy on the same
+    resolved subset where real odds were available, so the model's
+    real performance can be honestly compared against what a bookmaker
+    already implies, rather than against an arbitrary bar like 90%."""
+    try:
+        with open(PREDICTIONS_LOG_PATH, "r", encoding="utf-8") as f:
+            archive = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        archive = {"predictions": []}
+
+    resolved = [p for p in archive.get("predictions", []) if p["resolved"]]
+    correct = sum(1 for p in resolved if p["modelCorrect"])
+    with_market = [p for p in resolved if p.get("marketCorrect") is not None]
+    market_correct = sum(1 for p in with_market if p["marketCorrect"])
+
+    return {
+        "totalLogged": len(archive.get("predictions", [])),
+        "totalResolved": len(resolved),
+        "correct": correct,
+        "accuracyPct": round(correct / len(resolved) * 100, 1) if resolved else None,
+        "marketComparison": {
+            "sampleSize": len(with_market),
+            "marketAccuracyPct": round(market_correct / len(with_market) * 100, 1) if with_market else None,
+            "modelAccuracyPct": round(sum(1 for p in with_market if p["modelCorrect"]) / len(with_market) * 100, 1) if with_market else None,
+        } if with_market else None,
+    }
 
 
 def build_teams_list(data, squad_ratings):
@@ -613,7 +1016,7 @@ def main():
     next_event = next((ev for ev in data["events"] if ev.get("is_next")), data["events"][0])
     fixtures = fetch_json(FIXTURES_URL.format(event_id=next_event["id"]))
     fixture_lookup = build_fixture_lookup(fixtures, teams)
-    fixtures_list = build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings)
+    fixtures_list = build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, data["elements"])
     teams_list = build_teams_list(data, squad_ratings)
 
     all_fixtures = fetch_json(ALL_FIXTURES_URL)
@@ -624,6 +1027,16 @@ def main():
     finished_matches = build_match_history(all_fixtures, teams, elements_by_id)
     added, total = update_match_history_file(finished_matches, CURRENT_SEASON)
     print(f"data/match-history.json: {added} new finished match(es) added, {total} total")
+
+    # Predictions are logged BEFORE outcomes are known (this run's
+    # upcoming-fixture predictions), then resolved against whatever
+    # matches this run's match-history update just confirmed finished -
+    # see log_predictions/resolve_predictions for why order matters here.
+    logged_added, logged_total = log_predictions(fixtures_list)
+    print(f"data/predictions-log.json: {logged_added} new prediction(s) logged, {logged_total} total")
+    resolved_added, resolved_total = resolve_predictions(finished_matches)
+    print(f"data/predictions-log.json: {resolved_added} newly resolved, {resolved_total} total resolved")
+    prediction_track_record = compute_prediction_track_record()
 
     eligible = [e for e in data["elements"] if float(e["selected_by_percent"] or 0) >= 2.0]
     percentiles = compute_percentiles(eligible)
@@ -688,6 +1101,7 @@ def main():
         },
         "wildcardWatch": wildcard_watch,
         "fixtures": fixtures_list,
+        "predictionTrackRecord": prediction_track_record,
         "teams": teams_list,
         "players": players_out,
         # "Squad value" and "free transfers" are per-manager facts - the API

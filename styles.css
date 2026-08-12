@@ -1166,6 +1166,17 @@ h2 {
   width:11px;
   height:11px
 }
+.predict-odds-tag {
+  font-size:8.5px;
+  font-weight:700;
+  letter-spacing:.03em;
+  text-transform:uppercase;
+  color:#8fa3ad;
+  background:#1b262c;
+  border:1px solid #2a3940;
+  border-radius:4px;
+  padding:2px 5px
+}
 .field {
   display:block;
   margin-bottom:18px
