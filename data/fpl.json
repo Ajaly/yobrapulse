@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:40:14.031244+00:00",
+  "generatedAt": "2026-08-12T18:53:37.485376+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -168,6 +168,7 @@
     "473",
     "254",
     "357",
+    "502",
     "212",
     "379",
     "11",
@@ -265,28 +266,18 @@
       "away": "Coventry City",
       "kickoffISO": "2026-08-21T19:00:00Z",
       "kickoffLabel": "Fri 21 Aug \u00b7 19:00 UTC",
-      "homeWinPct": 56,
-      "drawPct": 24,
-      "awayWinPct": 20,
-      "predictedScore": "1.7 \u2014 1.0",
+      "homeWinPct": 59,
+      "drawPct": 23,
+      "awayWinPct": 18,
+      "predictedScore": "1.8 \u2014 0.9",
       "factors": {
-        "homeForm": 0.6,
-        "awayForm": 0.9,
-        "h2h": {
-          "homeWins": 2,
-          "draws": 0,
-          "awayWins": 0,
-          "meetings": 2
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.99,
         "awayAvailability": 0.96
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 80,
-        "drawPct": 13,
-        "awayWinPct": 7
-      }
+      "marketOdds": null
     },
     {
       "id": 4,
@@ -294,28 +285,18 @@
       "away": "Man Utd",
       "kickoffISO": "2026-08-22T11:30:00Z",
       "kickoffLabel": "Sat 22 Aug \u00b7 11:30 UTC",
-      "homeWinPct": 27,
-      "drawPct": 28,
-      "awayWinPct": 45,
+      "homeWinPct": 29,
+      "drawPct": 27,
+      "awayWinPct": 44,
       "predictedScore": "1.1 \u2014 1.4",
       "factors": {
-        "homeForm": 0.63,
-        "awayForm": 0.66,
-        "h2h": {
-          "homeWins": 1,
-          "draws": 2,
-          "awayWins": 2,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.76,
         "awayAvailability": 0.95
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 13,
-        "drawPct": 21,
-        "awayWinPct": 66
-      }
+      "marketOdds": null
     },
     {
       "id": 3,
@@ -323,28 +304,18 @@
       "away": "Crystal Palace",
       "kickoffISO": "2026-08-22T14:00:00Z",
       "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC",
-      "homeWinPct": 43,
+      "homeWinPct": 46,
       "drawPct": 25,
-      "awayWinPct": 32,
-      "predictedScore": "1.2 \u2014 1.4",
+      "awayWinPct": 29,
+      "predictedScore": "1.5 \u2014 1.1",
       "factors": {
-        "homeForm": 0.1,
-        "awayForm": 0.8,
-        "h2h": {
-          "homeWins": 3,
-          "draws": 2,
-          "awayWins": 0,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.98,
         "awayAvailability": 0.98
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 44,
-        "drawPct": 28,
-        "awayWinPct": 28
-      }
+      "marketOdds": null
     },
     {
       "id": 5,
@@ -352,28 +323,18 @@
       "away": "Sunderland",
       "kickoffISO": "2026-08-22T14:00:00Z",
       "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC",
-      "homeWinPct": 38,
+      "homeWinPct": 36,
       "drawPct": 26,
-      "awayWinPct": 36,
-      "predictedScore": "1.4 \u2014 1.2",
+      "awayWinPct": 38,
+      "predictedScore": "1.3 \u2014 1.2",
       "factors": {
-        "homeForm": 0.75,
-        "awayForm": 0.63,
-        "h2h": {
-          "homeWins": 2,
-          "draws": 1,
-          "awayWins": 2,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.96,
         "awayAvailability": 0.84
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 35,
-        "drawPct": 29,
-        "awayWinPct": 36
-      }
+      "marketOdds": null
     },
     {
       "id": 6,
@@ -381,28 +342,18 @@
       "away": "Leeds",
       "kickoffISO": "2026-08-22T14:00:00Z",
       "kickoffLabel": "Sat 22 Aug \u00b7 14:00 UTC",
-      "homeWinPct": 41,
-      "drawPct": 26,
-      "awayWinPct": 33,
-      "predictedScore": "1.3 \u2014 1.3",
+      "homeWinPct": 44,
+      "drawPct": 25,
+      "awayWinPct": 31,
+      "predictedScore": "1.5 \u2014 1.1",
       "factors": {
-        "homeForm": 0.3,
-        "awayForm": 0.69,
-        "h2h": {
-          "homeWins": 3,
-          "draws": 0,
-          "awayWins": 2,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.99,
         "awayAvailability": 0.95
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 42,
-        "drawPct": 28,
-        "awayWinPct": 30
-      }
+      "marketOdds": null
     },
     {
       "id": 2,
@@ -410,28 +361,18 @@
       "away": "Spurs",
       "kickoffISO": "2026-08-22T16:30:00Z",
       "kickoffLabel": "Sat 22 Aug \u00b7 16:30 UTC",
-      "homeWinPct": 39,
-      "drawPct": 27,
-      "awayWinPct": 34,
+      "homeWinPct": 47,
+      "drawPct": 25,
+      "awayWinPct": 28,
       "predictedScore": "1.5 \u2014 1.1",
       "factors": {
-        "homeForm": 0.54,
-        "awayForm": 0.69,
-        "h2h": {
-          "homeWins": 0,
-          "draws": 1,
-          "awayWins": 4,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.98,
         "awayAvailability": 0.97
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 40,
-        "drawPct": 26,
-        "awayWinPct": 34
-      }
+      "marketOdds": null
     },
     {
       "id": 7,
@@ -439,28 +380,18 @@
       "away": "Aston Villa",
       "kickoffISO": "2026-08-23T13:00:00Z",
       "kickoffLabel": "Sun 23 Aug \u00b7 13:00 UTC",
-      "homeWinPct": 27,
-      "drawPct": 28,
-      "awayWinPct": 45,
-      "predictedScore": "1.2 \u2014 1.4",
+      "homeWinPct": 31,
+      "drawPct": 27,
+      "awayWinPct": 42,
+      "predictedScore": "1.2 \u2014 1.3",
       "factors": {
-        "homeForm": 0.63,
-        "awayForm": 0.65,
-        "h2h": {
-          "homeWins": 1,
-          "draws": 1,
-          "awayWins": 3,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.92,
         "awayAvailability": 0.96
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 41,
-        "drawPct": 26,
-        "awayWinPct": 33
-      }
+      "marketOdds": null
     },
     {
       "id": 8,
@@ -468,28 +399,18 @@
       "away": "Bournemouth",
       "kickoffISO": "2026-08-23T13:00:00Z",
       "kickoffLabel": "Sun 23 Aug \u00b7 13:00 UTC",
-      "homeWinPct": 59,
-      "drawPct": 22,
-      "awayWinPct": 19,
-      "predictedScore": "1.7 \u2014 0.9",
+      "homeWinPct": 57,
+      "drawPct": 23,
+      "awayWinPct": 20,
+      "predictedScore": "1.8 \u2014 0.9",
       "factors": {
-        "homeForm": 0.46,
-        "awayForm": 0.54,
-        "h2h": {
-          "homeWins": 3,
-          "draws": 1,
-          "awayWins": 1,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.99,
         "awayAvailability": 0.87
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 65,
-        "drawPct": 19,
-        "awayWinPct": 16
-      }
+      "marketOdds": null
     },
     {
       "id": 9,
@@ -497,28 +418,18 @@
       "away": "Liverpool",
       "kickoffISO": "2026-08-23T15:30:00Z",
       "kickoffLabel": "Sun 23 Aug \u00b7 15:30 UTC",
-      "homeWinPct": 27,
-      "drawPct": 28,
-      "awayWinPct": 45,
+      "homeWinPct": 29,
+      "drawPct": 27,
+      "awayWinPct": 44,
       "predictedScore": "1.2 \u2014 1.4",
       "factors": {
-        "homeForm": 0.48,
-        "awayForm": 0.42,
-        "h2h": {
-          "homeWins": 1,
-          "draws": 1,
-          "awayWins": 3,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.91,
         "awayAvailability": 0.95
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 29,
-        "drawPct": 25,
-        "awayWinPct": 46
-      }
+      "marketOdds": null
     },
     {
       "id": 10,
@@ -526,28 +437,18 @@
       "away": "Chelsea",
       "kickoffISO": "2026-08-24T19:00:00Z",
       "kickoffLabel": "Mon 24 Aug \u00b7 19:00 UTC",
-      "homeWinPct": 25,
+      "homeWinPct": 29,
       "drawPct": 28,
-      "awayWinPct": 47,
-      "predictedScore": "1.1 \u2014 1.4",
+      "awayWinPct": 43,
+      "predictedScore": "1.2 \u2014 1.4",
       "factors": {
-        "homeForm": 0.3,
-        "awayForm": 0.46,
-        "h2h": {
-          "homeWins": 2,
-          "draws": 0,
-          "awayWins": 3,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.98,
         "awayAvailability": 0.96
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 29,
-        "drawPct": 26,
-        "awayWinPct": 45
-      }
+      "marketOdds": null
     }
   ],
   "predictionTrackRecord": {
@@ -557,68 +458,7 @@
     "accuracyPct": null,
     "marketComparison": null
   },
-  "friendlyPredictions": [
-    {
-      "id": "friendly-401905959",
-      "eventId": "401905959",
-      "home": "Newcastle",
-      "away": "Everton",
-      "kickoffISO": "2026-08-12T16:15Z",
-      "kickoffLabel": "Wed 12 Aug \u00b7 16:15 UTC",
-      "homeWinPct": 40,
-      "drawPct": 26,
-      "awayWinPct": 34,
-      "predictedScore": "1.5 \u2014 1.1",
-      "factors": {
-        "homeForm": 0.48,
-        "awayForm": 0.1,
-        "h2h": {
-          "homeWins": 1,
-          "draws": 2,
-          "awayWins": 2,
-          "meetings": 5
-        },
-        "homeAvailability": 0.91,
-        "awayAvailability": 0.98
-      },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 41,
-        "drawPct": 26,
-        "awayWinPct": 33
-      }
-    },
-    {
-      "id": "friendly-401867394",
-      "eventId": "401867394",
-      "home": "Man Utd",
-      "away": "Leeds",
-      "kickoffISO": "2026-08-12T18:30Z",
-      "kickoffLabel": "Wed 12 Aug \u00b7 18:30 UTC",
-      "homeWinPct": 53,
-      "drawPct": 24,
-      "awayWinPct": 23,
-      "predictedScore": "1.6 \u2014 1.0",
-      "factors": {
-        "homeForm": 0.66,
-        "awayForm": 0.69,
-        "h2h": {
-          "homeWins": 2,
-          "draws": 2,
-          "awayWins": 1,
-          "meetings": 5
-        },
-        "homeAvailability": 0.95,
-        "awayAvailability": 0.95
-      },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 48,
-        "drawPct": 25,
-        "awayWinPct": 27
-      }
-    }
-  ],
+  "friendlyPredictions": [],
   "friendlyTrackRecord": {
     "totalLogged": 2,
     "totalResolved": 1,
@@ -1275,7 +1115,7 @@
       "recoveries": 188,
       "saves": 0,
       "cleanSheets": 11,
-      "positionPercentile": 63,
+      "positionPercentile": 64,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Man City (A)",
@@ -1306,7 +1146,7 @@
       "recoveries": 187,
       "saves": 0,
       "cleanSheets": 12,
-      "positionPercentile": 35,
+      "positionPercentile": 34,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Everton (A)",
@@ -1368,7 +1208,7 @@
       "recoveries": 113,
       "saves": 0,
       "cleanSheets": 10,
-      "positionPercentile": 56,
+      "positionPercentile": 55,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Brentford (A)",
@@ -1399,7 +1239,7 @@
       "recoveries": 155,
       "saves": 0,
       "cleanSheets": 11,
-      "positionPercentile": 72,
+      "positionPercentile": 73,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Brentford (A)",
@@ -1709,7 +1549,7 @@
       "recoveries": 90,
       "saves": 0,
       "cleanSheets": 11,
-      "positionPercentile": 67,
+      "positionPercentile": 68,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Crystal Palace (H)",
@@ -1926,7 +1766,7 @@
       "recoveries": 96,
       "saves": 0,
       "cleanSheets": 11,
-      "positionPercentile": 65,
+      "positionPercentile": 66,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Fulham (A)",
@@ -1957,7 +1797,7 @@
       "recoveries": 166,
       "saves": 0,
       "cleanSheets": 12,
-      "positionPercentile": 74,
+      "positionPercentile": 75,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Bournemouth (H)",
@@ -2019,7 +1859,7 @@
       "recoveries": 131,
       "saves": 0,
       "cleanSheets": 9,
-      "positionPercentile": 79,
+      "positionPercentile": 80,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3,
       "fixture": "vs Ipswich Town (A)",
@@ -2360,7 +2200,7 @@
       "recoveries": 139,
       "saves": 0,
       "cleanSheets": 9,
-      "positionPercentile": 49,
+      "positionPercentile": 48,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Spurs (H)",
@@ -2484,7 +2324,7 @@
       "recoveries": 118,
       "saves": 0,
       "cleanSheets": 5,
-      "positionPercentile": 44,
+      "positionPercentile": 43,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3,
       "fixture": "vs Liverpool (H)",
@@ -2794,7 +2634,7 @@
       "recoveries": 88,
       "saves": 0,
       "cleanSheets": 8,
-      "positionPercentile": 28,
+      "positionPercentile": 27,
       "teamStrengthHome": 3,
       "teamStrengthAway": 4,
       "fixture": "vs Brighton (A)",
@@ -2856,7 +2696,7 @@
       "recoveries": 132,
       "saves": 0,
       "cleanSheets": 9,
-      "positionPercentile": 37,
+      "positionPercentile": 36,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Brentford (A)",
@@ -3213,7 +3053,7 @@
       "avatar": "LS",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "24.3%",
+      "owned": "24.2%",
       "points": 113,
       "epNext": 1.7,
       "form": 0.0,
@@ -3259,7 +3099,7 @@
       "recoveries": 135,
       "saves": 0,
       "cleanSheets": 7,
-      "positionPercentile": 47,
+      "positionPercentile": 45,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Hull City (A)",
@@ -3352,7 +3192,7 @@
       "recoveries": 102,
       "saves": 0,
       "cleanSheets": 9,
-      "positionPercentile": 12,
+      "positionPercentile": 11,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3,
       "fixture": "vs Ipswich Town (A)",
@@ -3569,7 +3409,7 @@
       "recoveries": 76,
       "saves": 0,
       "cleanSheets": 6,
-      "positionPercentile": 42,
+      "positionPercentile": 41,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3,
       "fixture": "vs Liverpool (H)",
@@ -3662,7 +3502,7 @@
       "recoveries": 62,
       "saves": 0,
       "cleanSheets": 7,
-      "positionPercentile": 81,
+      "positionPercentile": 82,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Hull City (A)",
@@ -3693,7 +3533,7 @@
       "recoveries": 63,
       "saves": 0,
       "cleanSheets": 5,
-      "positionPercentile": 60,
+      "positionPercentile": 61,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Coventry City (H)",
@@ -3724,7 +3564,7 @@
       "recoveries": 88,
       "saves": 0,
       "cleanSheets": 6,
-      "positionPercentile": 19,
+      "positionPercentile": 18,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Newcastle (A)",
@@ -3771,7 +3611,7 @@
       "avatar": "JG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "13.5%",
+      "owned": "13.6%",
       "points": 79,
       "epNext": 2.5,
       "form": 0.0,
@@ -3786,7 +3626,7 @@
       "recoveries": 49,
       "saves": 0,
       "cleanSheets": 6,
-      "positionPercentile": 88,
+      "positionPercentile": 89,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Bournemouth (H)",
@@ -3879,7 +3719,7 @@
       "recoveries": 112,
       "saves": 0,
       "cleanSheets": 9,
-      "positionPercentile": 21,
+      "positionPercentile": 20,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Brentford (A)",
@@ -3972,7 +3812,7 @@
       "recoveries": 75,
       "saves": 0,
       "cleanSheets": 6,
-      "positionPercentile": 58,
+      "positionPercentile": 57,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Bournemouth (H)",
@@ -4003,7 +3843,7 @@
       "recoveries": 81,
       "saves": 0,
       "cleanSheets": 6,
-      "positionPercentile": 40,
+      "positionPercentile": 39,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Leeds (H)",
@@ -4034,7 +3874,7 @@
       "recoveries": 98,
       "saves": 0,
       "cleanSheets": 4,
-      "positionPercentile": 51,
+      "positionPercentile": 50,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3,
       "fixture": "vs Chelsea (H)",
@@ -4069,6 +3909,37 @@
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Newcastle (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
+    "502": {
+      "id": 502,
+      "name": "Andrew Robertson",
+      "shortName": "Robertson",
+      "position": "DEF",
+      "team": "Spurs",
+      "avatar": "AR",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a34.5m",
+      "owned": "2.0%",
+      "points": 55,
+      "epNext": 1.7,
+      "form": 0.0,
+      "minutes": 1165,
+      "goals": 1,
+      "assists": 0,
+      "xg": 1.1,
+      "xa": 1.4,
+      "valueScore": 12.2,
+      "tackles": 12,
+      "clearancesBlocksInterceptions": 43,
+      "recoveries": 40,
+      "saves": 0,
+      "cleanSheets": 4,
+      "positionPercentile": 59,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Brentford (A)",
       "fdr": 3,
       "fdrClass": "mid"
     },
@@ -4158,7 +4029,7 @@
       "recoveries": 35,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 33,
+      "positionPercentile": 32,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Coventry City (H)",
@@ -4251,7 +4122,7 @@
       "recoveries": 19,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 26,
+      "positionPercentile": 25,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2,
       "fixture": "vs Sunderland (H)",
@@ -4313,7 +4184,7 @@
       "recoveries": 10,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 53,
+      "positionPercentile": 52,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3,
       "fixture": "vs Ipswich Town (A)",
@@ -4910,7 +4781,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 4059317,
+  "totalManagers": 4062370,
   "totalPlayers": 581,
   "priceMovement": {
     "risers": [],
