@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-13T16:49:15.390882+00:00",
+  "generatedAt": "2026-08-13T17:52:47.053308+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-13T18:50:00+00:00"
+    },
+    {
+      "title": "Draper beaten in Cincinnati first round after blowing second-set lead",
+      "description": "Jack Draper lost 6-3 7-5 to Martin Landaluce in the first round of the Cincinnati Open after blowing six set-point chances to level the match.",
+      "link": "https://www.skysports.com/tennis/news/12040/13572651/cincinnati-open-jack-draper-beaten-by-martin-landaluce-in-first-round-after-blowing-six-set-point-chances-to-level-match",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T18:30:00+00:00"
+    },
+    {
+      "title": "Championship predictions & best bets: Wolves to fall flat on opening night",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/12040/13572484/efl-2026-27-season-kick-off-championship-predictions-and-best-bets",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T18:00:00+00:00"
+    },
+    {
+      "title": "FIVE changes for Rangers vs Jagiellonia Bialystok LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/rangers-vs-jagiellonia-bialystok/live/571444",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T18:00:00+00:00"
+    },
+    {
+      "title": "Arsenal invite offers for Martinelli and Nwaneri",
+      "description": "Arsenal hold talks with Galatasaray over the prospect of selling various squad members as the Gunners invite offers for Gabriel Martinelli and Ethan Nwaneri.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwy42yqwk30o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T17:49:02+00:00"
+    },
     {
       "title": "Carrick: We want and need more signings at Man Utd",
       "description": "Manchester United head coach Michael Carrick says the club \"want\" and \"need\" to do more transfer business before the summer window closes on September 1.",
@@ -67,51 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-13T16:05:00+00:00"
-    },
-    {
-      "title": "Handling hate and seeking stability - Fofana's Chelsea journey",
-      "description": "Wesley Fofana shed tears, faced criticism for laughing at the wrong moment and exposed racist abuse last season but believes stability will lead to \"amazing\" Chelsea future.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62vddx10gjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T16:02:57+00:00"
-    },
-    {
-      "title": "Cutler and Greene share intense face-off",
-      "description": "Lee Cutler and Louis Greene had an intense face-off as their fight was announced on Sky Sports News for Zuffa Boxing 11 in September.",
-      "link": "https://www.skysports.com/watch/video/13572644/zuffa-boxing-11-lee-cutler-and-louis-greene-share-intense-face-off-on-sky-sports-news",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T15:56:00+00:00"
-    },
-    {
-      "title": "Super League receive investment offer from Australia's National Rugby League",
-      "description": "Super League have received an investment offer from the Australia Rugby League Commission (ARLC) which governs the National Rugby League (NRL) in Australia.",
-      "link": "https://www.skysports.com/rugby-league/news/12040/13572641/super-league-receive-investment-offer-from-australias-national-rugby-league-as-part-of-recapitalisation-project",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T15:53:00+00:00"
-    },
-    {
-      "title": "Fresh talks over Arsenal move for Aston Villa's Konsa",
-      "description": "Aston Villa's central defender Ezri Konsa is thought to be Arsenal's preferred option in their search for a new central defender.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2v175j40zo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T15:47:45+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-13T15:40:36+00:00"
     }
   ]
 }
