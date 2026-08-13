@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-13T21:37:56.258838+00:00",
+  "generatedAt": "2026-08-13T22:33:56.803480+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Super League leaders Leeds beaten by Leigh after late drama",
+      "description": "Innes Senior scored twice as Leigh Leopards inflicted a first home defeat of the season on Betfred Super League leaders Leeds Rhinos by winning 20-16 at Headingley.",
+      "link": "https://www.skysports.com/rugby-league/news/12040/13572725/super-league-leaders-leeds-rhinos-suffer-first-home-defeat-of-season-as-leigh-leopards-claim-surprise-20-16-win-at-headingley",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T22:40:00+00:00"
+    },
+    {
+      "title": "Man City's Reijnders set for \u00a352m Saudi move",
+      "description": "Manchester City midfielder Tijjani Reijnders is set to leave following a year at the club after a \u00a352m move was agreed with Saudi Pro-League side Al-Qadsiah.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T22:12:05+00:00"
+    },
+    {
+      "title": "Man City reject fresh Rodri bid - Friday's gossip",
+      "description": "Barcelona's latest Rodri bid rejected, Tottenham's Djed Spence on verge of Inter Milan move, Arsenal rebuffed in bid for Marc Pubill, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T22:03:35+00:00"
+    },
     {
       "title": "Gay out for duck as Pakistan impress against County Select XI",
       "description": "England opening batter Emilio Gay was out for a duck as Pakistan made a strong start to their tour against a Professional County Club Select XI.",
@@ -78,40 +105,13 @@
       "pubDateISO": "2026-08-13T19:29:00+00:00"
     },
     {
-      "title": "McIlroy makes woeful start to FedExCup Playoffs as Spieth shares early lead",
+      "title": "McIlroy makes woeful start to FedExCup Playoffs as Spieth shares lead",
       "description": "Rory McIlroy made a woeful start to the FedExCup Playoffs as he shot four-over par opening round at the FedEx St. Jude Championship in Memphis.",
       "link": "https://www.skysports.com/golf/news/12040/13572655/fedexcup-playoffs-rory-mcilroy-makes-woeful-start-at-fedex-st-jude-championship-with-four-over-par-opening-round",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-13T19:00:00+00:00"
-    },
-    {
-      "title": "PSV winger Driouech at Ibrox before expected Rangers move",
-      "description": "PSV Eindhoven winger Couhaib Driouech is at Ibrox to watch Rangers face Jagiellonia Bialystok pending a transfer to the Scottish Premiership club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-13T18:41:31+00:00"
-    },
-    {
-      "title": "PSV winger Driouech at Ibrox before expected Rangers move",
-      "description": "PSV Eindhoven winger Couhaib Driouech is at Ibrox to watch Rangers face Jagiellonia Bialystok pending a transfer to the Scottish Premiership club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-13T18:41:31+00:00"
-    },
-    {
-      "title": "'How about that?!' | Fleetwood's '1 in 100' eagle",
-      "description": "Tommy Fleetwood produced this eagle on the third hole at the FedEx St. Jude Championship.",
-      "link": "https://www.skysports.com/watch/video/13572697/fedex-st-jude-championship-fleetwoods-1-in-100-eagle",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T18:31:00+00:00"
     }
   ]
 }

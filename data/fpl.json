@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T21:37:55.483762+00:00",
+  "generatedAt": "2026-08-13T22:33:55.908635+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -331,7 +331,7 @@
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.76,
+        "homeAvailability": 0.77,
         "awayAvailability": 0.95
       },
       "marketOdds": null
@@ -1018,7 +1018,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.5m",
-      "owned": "27.0%",
+      "owned": "27.1%",
       "points": 202,
       "epNext": 2.9,
       "form": 0.0,
@@ -1080,7 +1080,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "21.8%",
+      "owned": "21.7%",
       "points": 184,
       "epNext": 2.6,
       "form": 0.0,
@@ -1824,7 +1824,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a37.0m",
-      "owned": "43.3%",
+      "owned": "43.2%",
       "points": 160,
       "epNext": 2.5,
       "form": 0.0,
@@ -2351,7 +2351,7 @@
       "avatar": "PF",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.0m",
-      "owned": "6.4%",
+      "owned": "6.3%",
       "points": 131,
       "epNext": 2.5,
       "form": 0.0,
@@ -3684,7 +3684,7 @@
       "avatar": "HM",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.0m",
-      "owned": "9.7%",
+      "owned": "9.8%",
       "points": 90,
       "epNext": 2.2,
       "form": 0.0,
@@ -3901,7 +3901,7 @@
       "avatar": "DS",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "7.1%",
+      "owned": "7.0%",
       "points": 78,
       "epNext": 1.7,
       "form": 0.0,
@@ -4831,7 +4831,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a34.0m",
-      "owned": "2.9%",
+      "owned": "3.0%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -4978,7 +4978,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 4271604,
+  "totalManagers": 4278410,
   "totalPlayers": 584,
   "priceMovement": {
     "risers": [],
