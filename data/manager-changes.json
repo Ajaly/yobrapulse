@@ -1,0 +1,13 @@
+{
+  "note": "Manually curated, real head-coach/manager changes for tracked clubs. No reliable free API exists for this (verified: ESPN's team-info endpoint has no coach field at all; its roster endpoint has a coach list but it's stale/incomplete history with no current-manager flag). Each entry below was verified via real web search and cites its source - this file is never auto-generated or overwritten by fetch-fpl-data.py, which only reads it. Add entries by hand (or ask for a real one to be looked up) as real changes happen.",
+  "changes": [
+    {
+      "team": "Newcastle",
+      "previousManager": "Eddie Howe",
+      "newManager": "Matthias Jaissle",
+      "effectiveDate": "2026-08-23",
+      "verifiedAt": "2026-08-12",
+      "source": "https://www.skysports.com/football/news/11678/13568428/newcastle-united-appoint-matthias-jaissle-as-head-coach-following-eddie-howes-departure-from-st-james-park"
+    }
+  ]
+}

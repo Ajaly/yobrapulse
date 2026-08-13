@@ -40,11 +40,11 @@
         "awayWinPct": 26
       },
       "loggedAt": "2026-08-12T15:09:00.624316+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "actualScore": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "actualScore": "1 \u2014 1",
+      "modelCorrect": false,
+      "marketCorrect": false
     }
   ]
 }

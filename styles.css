@@ -1166,6 +1166,16 @@ h2 {
   width:11px;
   height:11px
 }
+.recent-changes-note {
+  font-size:9.5px;
+  color:var(--orange);
+  text-align:right;
+  max-width:220px;
+  line-height:1.4
+}
+.recent-changes-note .muted {
+  color:#5c6a72
+}
 .predict-odds-tag {
   font-size:8.5px;
   font-weight:700;

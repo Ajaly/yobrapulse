@@ -148,6 +148,29 @@ EMPTY_ESPN_CONTEXT = {"homeForm": None, "awayForm": None, "h2h": None, "marketOd
 FRIENDLY_SLUG = "club.friendly"
 FRIENDLY_PREDICTIONS_LOG_PATH = "data/friendly-predictions-log.json"
 
+# Real squad-change tracking (see detect_transfers below): FPL's own
+# data tells us which club a player is registered to right now, but
+# nothing compared that against the past to notice when it changes.
+# Each run snapshots every player's team id to data/roster-snapshot.json
+# and diffs it against the previous run's snapshot - a real difference
+# is a real detected transfer, logged permanently to
+# data/transfer-log.json. Same honest limit as match-history.json: this
+# can't see any transfer that happened before tracking started, only
+# ones detected from here on. Deliberately NOT fed into predict_fixture's
+# math - there's no real evidence yet for how much a given transfer
+# should move a win probability, so it's surfaced as transparent
+# context instead of an invented weight (see compute_squad_churn).
+ROSTER_SNAPSHOT_PATH = "data/roster-snapshot.json"
+TRANSFER_LOG_PATH = "data/transfer-log.json"
+SQUAD_CHURN_WINDOW_DAYS = 30
+
+# Real manager/head-coach changes: no reliable free API exists for this
+# (verified - see the module docstring's prediction-engine section).
+# data/manager-changes.json is a small, manually curated real file -
+# this script only ever reads it, never writes or overwrites it, so a
+# hand-added (or search-verified) entry is never silently lost.
+MANAGER_CHANGES_PATH = "data/manager-changes.json"
+
 
 def fetch_json(url):
     req = urllib.request.Request(url, headers=HEADERS)
@@ -470,7 +493,28 @@ def predict_fixture(home_team, away_team, squad_ratings, espn_context, home_avai
     }
 
 
-def build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, elements):
+def build_recent_changes(home_team_id, away_team_id, teams, transfer_events, manager_changes, tracking_since):
+    """Real, transparent squad-change context for one fixture - real
+    transfer counts (from the permanent diff log) and any real,
+    manually-verified manager change on file for either club. Kept
+    separate from predict_fixture's output on purpose: there's no real
+    evidence yet for how much either signal should move a win
+    probability (see the ROSTER_SNAPSHOT_PATH comment), so this is
+    shown to explain a prediction, not to justify one."""
+    return {
+        "trackingSince": tracking_since,
+        "home": {
+            "transfers": compute_squad_churn(home_team_id, transfer_events),
+            "managerChange": recent_manager_change(teams[home_team_id], manager_changes),
+        },
+        "away": {
+            "transfers": compute_squad_churn(away_team_id, transfer_events),
+            "managerChange": recent_manager_change(teams[away_team_id], manager_changes),
+        },
+    }
+
+
+def build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, elements, transfer_events, manager_changes, tracking_since):
     out = []
     for f in sorted(fixtures, key=lambda x: x["kickoff_time"] or ""):
         if not f["kickoff_time"]:
@@ -487,6 +531,7 @@ def build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, elements):
             "away": away_name,
             "kickoffISO": f["kickoff_time"],
             "kickoffLabel": kickoff.strftime("%a %d %b · %H:%M UTC"),
+            "recentChanges": build_recent_changes(f["team_h"], f["team_a"], teams, transfer_events, manager_changes, tracking_since),
         }
         entry.update(predict_fixture(teams_by_id[f["team_h"]], teams_by_id[f["team_a"]], squad_ratings, espn_context, home_availability, away_availability))
         out.append(entry)
@@ -538,7 +583,7 @@ def fetch_todays_friendlies(teams):
     return out
 
 
-def build_friendly_predictions(friendly_events, teams, teams_by_id, squad_ratings, elements):
+def build_friendly_predictions(friendly_events, teams, teams_by_id, squad_ratings, elements, transfer_events, manager_changes, tracking_since):
     """Real predictions for today's PL-vs-PL friendlies, using the same
     predict_fixture engine as competitive fixtures - the event id is
     already known from fetch_todays_friendlies, so context comes
@@ -556,6 +601,7 @@ def build_friendly_predictions(friendly_events, teams, teams_by_id, squad_rating
             "away": teams[fx["awayTeamId"]],
             "kickoffISO": fx["kickoffISO"],
             "kickoffLabel": kickoff.strftime("%a %d %b · %H:%M UTC") if kickoff else None,
+            "recentChanges": build_recent_changes(fx["homeTeamId"], fx["awayTeamId"], teams, transfer_events, manager_changes, tracking_since),
         }
         entry.update(predict_fixture(
             teams_by_id[fx["homeTeamId"]], teams_by_id[fx["awayTeamId"]],
@@ -775,6 +821,137 @@ def extract_match_events(fixture, elements_by_id):
                     "value": entry["value"],
                 })
     return events
+
+
+def load_roster_snapshot():
+    """Last run's real player_id -> {team, name} snapshot, or an empty
+    one (with no trackingSince yet) if this is the first run ever -
+    see detect_transfers for how this becomes a real diff."""
+    try:
+        with open(ROSTER_SNAPSHOT_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"trackingSince": None, "players": {}}
+
+
+def detect_transfers(elements, teams, previous_snapshot):
+    """Real transfers detected by diffing this run's real roster
+    against the last run's - a player who was on a different real club
+    last run and is on this one now genuinely moved. A player with no
+    previous entry (new to the database entirely - a fresh signing
+    from outside the league, a promoted club's player appearing for
+    the first time) is deliberately NOT counted as a transfer: there's
+    no real prior state to compare against, so there's nothing to
+    diff, not a transfer to report."""
+    previous_players = previous_snapshot.get("players", {})
+    detected_at = datetime.now(timezone.utc).isoformat()
+    events = []
+    for e in elements:
+        prev = previous_players.get(str(e["id"]))
+        if prev is None:
+            continue
+        if prev["team"] != e["team"]:
+            events.append({
+                "playerId": e["id"],
+                "playerName": e.get("web_name"),
+                "fromTeamId": prev["team"],
+                "fromTeam": teams.get(prev["team"], "Unknown"),
+                "toTeamId": e["team"],
+                "toTeam": teams[e["team"]],
+                "detectedAt": detected_at,
+            })
+    return events
+
+
+def log_transfers(transfer_events):
+    """Append real detected transfers to a permanent, append-only
+    data/transfer-log.json - each event only exists for the one run
+    where the diff caught it (see detect_transfers), so unlike the
+    prediction logs there's no id to dedupe against; every call here
+    is genuinely new."""
+    if not transfer_events:
+        return 0
+    try:
+        with open(TRANSFER_LOG_PATH, "r", encoding="utf-8") as f:
+            archive = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        archive = {"transfers": []}
+    archive["transfers"].extend(transfer_events)
+    with open(TRANSFER_LOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(archive, f, indent=2)
+    return len(transfer_events)
+
+
+def save_roster_snapshot(elements, teams, previous_snapshot):
+    """Persist this run's real player->team state as the baseline for
+    next run's diff. trackingSince is set once, the first time this
+    file is ever created, and never touched again - it's what lets the
+    UI say "0 transfers since tracking began Aug 12" instead of
+    implying a club has been transfer-free for longer than this
+    feature has actually been watching."""
+    tracking_since = previous_snapshot.get("trackingSince") or datetime.now(timezone.utc).isoformat()
+    snapshot = {
+        "trackingSince": tracking_since,
+        "players": {str(e["id"]): {"team": e["team"], "name": e.get("web_name")} for e in elements},
+    }
+    with open(ROSTER_SNAPSHOT_PATH, "w", encoding="utf-8") as f:
+        json.dump(snapshot, f, indent=2)
+    return tracking_since
+
+
+def load_transfer_log():
+    """Every real detected transfer on file, loaded once per run and
+    reused across every fixture's churn lookup rather than re-reading
+    data/transfer-log.json per team."""
+    try:
+        with open(TRANSFER_LOG_PATH, "r", encoding="utf-8") as f:
+            return json.load(f).get("transfers", [])
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+
+def compute_squad_churn(team_id, transfer_events, window_days=SQUAD_CHURN_WINDOW_DAYS):
+    """Real count of transfers in/out for a club within a recent real
+    window, from the already-loaded transfer log - always a real
+    number (0 is a legitimate real answer, not a missing one), context
+    only, never fed into predict_fixture's math (see the
+    ROSTER_SNAPSHOT_PATH comment for why)."""
+    cutoff = datetime.now(timezone.utc).timestamp() - window_days * 86400
+    in_count = out_count = 0
+    for t in transfer_events:
+        try:
+            detected = datetime.fromisoformat(t["detectedAt"]).timestamp()
+        except (KeyError, ValueError):
+            continue
+        if detected < cutoff:
+            continue
+        if t["toTeamId"] == team_id:
+            in_count += 1
+        elif t["fromTeamId"] == team_id:
+            out_count += 1
+    return {"in": in_count, "out": out_count, "windowDays": window_days}
+
+
+def load_manager_changes():
+    """Real, manually curated manager/head-coach changes from
+    data/manager-changes.json - this function only ever reads the
+    file, never writes it, so hand-added or search-verified entries
+    are never at risk of being overwritten by an automated run."""
+    try:
+        with open(MANAGER_CHANGES_PATH, "r", encoding="utf-8") as f:
+            return json.load(f).get("changes", [])
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+
+def recent_manager_change(team_name, manager_changes):
+    """Most recent real manager change on file for a club, or None if
+    none is recorded - real, sourced data only (see
+    data/manager-changes.json's own note field), never a guess."""
+    matches = [c for c in manager_changes if c.get("team") == team_name]
+    if not matches:
+        return None
+    return sorted(matches, key=lambda c: c.get("effectiveDate") or "", reverse=True)[0]
 
 
 def build_match_history(all_fixtures, teams, elements_by_id):
@@ -1235,10 +1412,22 @@ def main():
     teams_by_id = {t["id"]: t for t in data["teams"]}
     squad_ratings = compute_squad_ratings(data)
 
+    # Real squad-change detection: diff this run's roster against the
+    # last one BEFORE anything else touches data["elements"], so the
+    # snapshot saved for next run's diff reflects this run's true
+    # state either way.
+    previous_roster = load_roster_snapshot()
+    transfer_events = detect_transfers(data["elements"], teams, previous_roster)
+    transfers_added = log_transfers(transfer_events)
+    tracking_since = save_roster_snapshot(data["elements"], teams, previous_roster)
+    print(f"data/transfer-log.json: {transfers_added} real transfer(s) detected this run")
+    all_transfer_events = load_transfer_log()
+    manager_changes = load_manager_changes()
+
     next_event = next((ev for ev in data["events"] if ev.get("is_next")), data["events"][0])
     fixtures = fetch_json(FIXTURES_URL.format(event_id=next_event["id"]))
     fixture_lookup = build_fixture_lookup(fixtures, teams)
-    fixtures_list = build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, data["elements"])
+    fixtures_list = build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, data["elements"], all_transfer_events, manager_changes, tracking_since)
     teams_list = build_teams_list(data, squad_ratings)
 
     all_fixtures = fetch_json(ALL_FIXTURES_URL)
@@ -1264,7 +1453,7 @@ def main():
     # separately from the competitive-season numbers above (see
     # FRIENDLY_SLUG's comment for why).
     friendly_events = fetch_todays_friendlies(teams)
-    friendly_predictions = build_friendly_predictions(friendly_events, teams, teams_by_id, squad_ratings, data["elements"])
+    friendly_predictions = build_friendly_predictions(friendly_events, teams, teams_by_id, squad_ratings, data["elements"], all_transfer_events, manager_changes, tracking_since)
     friendly_logged_added, friendly_logged_total = log_friendly_predictions(friendly_predictions)
     print(f"data/friendly-predictions-log.json: {friendly_logged_added} new prediction(s) logged, {friendly_logged_total} total")
     friendly_resolved_added, friendly_resolved_total = resolve_friendly_predictions()

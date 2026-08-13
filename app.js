@@ -240,6 +240,31 @@ function predictChip(f) {
   return `<div class="predict-chip" title="${title}"><i data-lucide="target"></i> ${max}% ${label}${oddsTag}</div>`;
 }
 
+function recentChangesLine(f) {
+  const rc = f.recentChanges;
+  if (!rc) return '';
+  const notes = [];
+  ['home', 'away'].forEach((side) => {
+    const info = rc[side];
+    if (!info) return;
+    const parts = [];
+    if (info.managerChange) {
+      const d = new Date(info.managerChange.effectiveDate);
+      const dateLabel = isNaN(d) ? info.managerChange.effectiveDate : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+      parts.push(`new manager from ${dateLabel} (${info.managerChange.newManager})`);
+    }
+    if (info.transfers && (info.transfers.in || info.transfers.out)) {
+      const bits = [];
+      if (info.transfers.in) bits.push(`${info.transfers.in} in`);
+      if (info.transfers.out) bits.push(`${info.transfers.out} out`);
+      parts.push(`${bits.join(', ')} (real transfers, last ${info.transfers.windowDays}d)`);
+    }
+    if (parts.length) notes.push(`${f[side]}: ${parts.join(' · ')}`);
+  });
+  if (!notes.length) return '';
+  return `<div class="recent-changes-note">${notes.join(' &nbsp;·&nbsp; ')} <span class="muted">(context, not scored)</span></div>`;
+}
+
 function renderTrackRecord(record) {
   if (!record) return;
   const resolvedEl = document.querySelector('#track-record-resolved');
@@ -284,6 +309,7 @@ function renderFriendlyPredictions(predictions, record) {
       <div class="match-outcome">
         <div class="match-status upcoming"><span></span> ${f.kickoffLabel}</div>
         ${predictChip(f)}
+        ${recentChangesLine(f)}
       </div>
     </article>
   `).join('');
@@ -318,6 +344,7 @@ fetch('data/fpl.json')
           <div class="match-outcome">
             <div class="match-status upcoming"><span></span> ${f.kickoffLabel}</div>
             ${predictChip(f)}
+            ${recentChangesLine(f)}
           </div>
         </article>
       `).join('');

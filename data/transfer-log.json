@@ -1,0 +1,13 @@
+{
+  "transfers": [
+    {
+      "playerId": 42,
+      "playerName": "Guessand",
+      "fromTeamId": 2,
+      "fromTeam": "Aston Villa",
+      "toTeamId": 8,
+      "toTeam": "Crystal Palace",
+      "detectedAt": "2026-08-13T16:54:59.518100+00:00"
+    }
+  ]
+}

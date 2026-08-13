@@ -1,0 +1,2341 @@
+{
+  "trackingSince": "2026-08-13T06:10:25.404980+00:00",
+  "players": {
+    "1": {
+      "team": 1,
+      "name": "Raya"
+    },
+    "2": {
+      "team": 1,
+      "name": "Arrizabalaga"
+    },
+    "3": {
+      "team": 1,
+      "name": "Meslier"
+    },
+    "4": {
+      "team": 1,
+      "name": "Gabriel"
+    },
+    "5": {
+      "team": 1,
+      "name": "J.Timber"
+    },
+    "6": {
+      "team": 1,
+      "name": "Saliba"
+    },
+    "7": {
+      "team": 1,
+      "name": "Lewis-Skelly"
+    },
+    "8": {
+      "team": 1,
+      "name": "Calafiori"
+    },
+    "9": {
+      "team": 1,
+      "name": "Hincapie"
+    },
+    "10": {
+      "team": 1,
+      "name": "White"
+    },
+    "11": {
+      "team": 1,
+      "name": "Mosquera"
+    },
+    "12": {
+      "team": 1,
+      "name": "Saka"
+    },
+    "13": {
+      "team": 1,
+      "name": "Rice"
+    },
+    "14": {
+      "team": 1,
+      "name": "Eze"
+    },
+    "15": {
+      "team": 1,
+      "name": "\u00d8degaard"
+    },
+    "16": {
+      "team": 1,
+      "name": "Madueke"
+    },
+    "17": {
+      "team": 1,
+      "name": "Merino"
+    },
+    "18": {
+      "team": 1,
+      "name": "Martinelli"
+    },
+    "19": {
+      "team": 1,
+      "name": "Zubimendi"
+    },
+    "20": {
+      "team": 1,
+      "name": "Dowman"
+    },
+    "22": {
+      "team": 1,
+      "name": "Nwaneri"
+    },
+    "23": {
+      "team": 1,
+      "name": "F\u00e1bio Vieira"
+    },
+    "24": {
+      "team": 1,
+      "name": "Nelson"
+    },
+    "25": {
+      "team": 1,
+      "name": "Gy\u00f6keres"
+    },
+    "26": {
+      "team": 1,
+      "name": "Havertz"
+    },
+    "27": {
+      "team": 1,
+      "name": "G.Jesus"
+    },
+    "452": {
+      "team": 1,
+      "name": "Bruno G."
+    },
+    "557": {
+      "team": 1,
+      "name": "Tzolis"
+    },
+    "28": {
+      "team": 2,
+      "name": "Martinez"
+    },
+    "29": {
+      "team": 2,
+      "name": "M.Bizot"
+    },
+    "30": {
+      "team": 2,
+      "name": "Digne"
+    },
+    "31": {
+      "team": 2,
+      "name": "Konsa"
+    },
+    "32": {
+      "team": 2,
+      "name": "Cash"
+    },
+    "33": {
+      "team": 2,
+      "name": "Mings"
+    },
+    "34": {
+      "team": 2,
+      "name": "Pau"
+    },
+    "35": {
+      "team": 2,
+      "name": "Bogarde"
+    },
+    "36": {
+      "team": 2,
+      "name": "Maatsen"
+    },
+    "37": {
+      "team": 2,
+      "name": "Lindel\u00f6f"
+    },
+    "38": {
+      "team": 2,
+      "name": "A.Garc\u00eda"
+    },
+    "39": {
+      "team": 2,
+      "name": "Nedeljkovic"
+    },
+    "41": {
+      "team": 2,
+      "name": "Buend\u00eda"
+    },
+    "44": {
+      "team": 2,
+      "name": "Bailey"
+    },
+    "45": {
+      "team": 2,
+      "name": "McGinn"
+    },
+    "46": {
+      "team": 2,
+      "name": "Barkley"
+    },
+    "47": {
+      "team": 2,
+      "name": "Kamara"
+    },
+    "48": {
+      "team": 2,
+      "name": "Onana"
+    },
+    "49": {
+      "team": 2,
+      "name": "Iling Jr"
+    },
+    "50": {
+      "team": 2,
+      "name": "Burrowes"
+    },
+    "51": {
+      "team": 2,
+      "name": "George Hemmings"
+    },
+    "52": {
+      "team": 2,
+      "name": "Alysson"
+    },
+    "53": {
+      "team": 2,
+      "name": "Manzambi"
+    },
+    "54": {
+      "team": 2,
+      "name": "Gomes"
+    },
+    "55": {
+      "team": 2,
+      "name": "Watkins"
+    },
+    "56": {
+      "team": 2,
+      "name": "Abraham"
+    },
+    "160": {
+      "team": 2,
+      "name": "Garnacho"
+    },
+    "582": {
+      "team": 2,
+      "name": "Madjo"
+    },
+    "57": {
+      "team": 3,
+      "name": "Petrovi\u0107"
+    },
+    "58": {
+      "team": 3,
+      "name": "Forster"
+    },
+    "59": {
+      "team": 3,
+      "name": "Dennis"
+    },
+    "60": {
+      "team": 3,
+      "name": "Hill"
+    },
+    "61": {
+      "team": 3,
+      "name": "Truffert"
+    },
+    "62": {
+      "team": 3,
+      "name": "Diakit\u00e9"
+    },
+    "63": {
+      "team": 3,
+      "name": "Milosavljevi\u0107"
+    },
+    "64": {
+      "team": 3,
+      "name": "Smith"
+    },
+    "65": {
+      "team": 3,
+      "name": "J.Araujo"
+    },
+    "66": {
+      "team": 3,
+      "name": "Soler"
+    },
+    "67": {
+      "team": 3,
+      "name": "Rayan"
+    },
+    "68": {
+      "team": 3,
+      "name": "Tavernier"
+    },
+    "69": {
+      "team": 3,
+      "name": "Scott"
+    },
+    "70": {
+      "team": 3,
+      "name": "Kluivert"
+    },
+    "71": {
+      "team": 3,
+      "name": "Cook"
+    },
+    "72": {
+      "team": 3,
+      "name": "Gannon-Doak"
+    },
+    "73": {
+      "team": 3,
+      "name": "Adams"
+    },
+    "74": {
+      "team": 3,
+      "name": "Brooks"
+    },
+    "75": {
+      "team": 3,
+      "name": "Christie"
+    },
+    "76": {
+      "team": 3,
+      "name": "T\u00f3th.A"
+    },
+    "77": {
+      "team": 3,
+      "name": "Adli"
+    },
+    "78": {
+      "team": 3,
+      "name": "Kroupi.Jr"
+    },
+    "79": {
+      "team": 3,
+      "name": "Evanilson"
+    },
+    "80": {
+      "team": 3,
+      "name": "Enes \u00dcnal"
+    },
+    "81": {
+      "team": 3,
+      "name": "Rodr\u00edguez"
+    },
+    "566": {
+      "team": 3,
+      "name": "Silva"
+    },
+    "573": {
+      "team": 3,
+      "name": "Sanchez"
+    },
+    "82": {
+      "team": 4,
+      "name": "Kelleher"
+    },
+    "83": {
+      "team": 4,
+      "name": "Valdimarsson"
+    },
+    "84": {
+      "team": 4,
+      "name": "Collins"
+    },
+    "85": {
+      "team": 4,
+      "name": "Van den Berg"
+    },
+    "86": {
+      "team": 4,
+      "name": "Lewis-Potter"
+    },
+    "87": {
+      "team": 4,
+      "name": "Ajer"
+    },
+    "88": {
+      "team": 4,
+      "name": "Kayode"
+    },
+    "89": {
+      "team": 4,
+      "name": "Henry"
+    },
+    "90": {
+      "team": 4,
+      "name": "Hickey"
+    },
+    "91": {
+      "team": 4,
+      "name": "Pinnock"
+    },
+    "92": {
+      "team": 4,
+      "name": "Ji-soo"
+    },
+    "93": {
+      "team": 4,
+      "name": "Schuster"
+    },
+    "94": {
+      "team": 4,
+      "name": "Schade"
+    },
+    "95": {
+      "team": 4,
+      "name": "O.Dango"
+    },
+    "96": {
+      "team": 4,
+      "name": "Damsgaard"
+    },
+    "97": {
+      "team": 4,
+      "name": "Jensen"
+    },
+    "98": {
+      "team": 4,
+      "name": "Janelt"
+    },
+    "99": {
+      "team": 4,
+      "name": "Milambo"
+    },
+    "100": {
+      "team": 4,
+      "name": "Carvalho"
+    },
+    "102": {
+      "team": 4,
+      "name": "Yarmoliuk"
+    },
+    "103": {
+      "team": 4,
+      "name": "Dasilva"
+    },
+    "105": {
+      "team": 4,
+      "name": "Anthony"
+    },
+    "106": {
+      "team": 4,
+      "name": "Thiago"
+    },
+    "107": {
+      "team": 4,
+      "name": "Furo"
+    },
+    "108": {
+      "team": 4,
+      "name": "Wilson"
+    },
+    "565": {
+      "team": 4,
+      "name": "Sangar\u00e9"
+    },
+    "109": {
+      "team": 5,
+      "name": "Verbruggen"
+    },
+    "111": {
+      "team": 5,
+      "name": "Steele"
+    },
+    "113": {
+      "team": 5,
+      "name": "F.Kad\u0131o\u011flu"
+    },
+    "114": {
+      "team": 5,
+      "name": "Boscagli"
+    },
+    "115": {
+      "team": 5,
+      "name": "De Cuyper"
+    },
+    "116": {
+      "team": 5,
+      "name": "Dunk"
+    },
+    "117": {
+      "team": 5,
+      "name": "Coppola"
+    },
+    "118": {
+      "team": 5,
+      "name": "Igor"
+    },
+    "119": {
+      "team": 5,
+      "name": "Costinha"
+    },
+    "120": {
+      "team": 5,
+      "name": "Svoboda"
+    },
+    "121": {
+      "team": 5,
+      "name": "Mitoma"
+    },
+    "122": {
+      "team": 5,
+      "name": "Minteh"
+    },
+    "123": {
+      "team": 5,
+      "name": "Hinshelwood"
+    },
+    "124": {
+      "team": 5,
+      "name": "Gro\u00df"
+    },
+    "125": {
+      "team": 5,
+      "name": "Georginio"
+    },
+    "126": {
+      "team": 5,
+      "name": "O'Riley"
+    },
+    "127": {
+      "team": 5,
+      "name": "Gomez"
+    },
+    "128": {
+      "team": 5,
+      "name": "Buonanotte"
+    },
+    "129": {
+      "team": 5,
+      "name": "Ayari"
+    },
+    "130": {
+      "team": 5,
+      "name": "Wieffer"
+    },
+    "131": {
+      "team": 5,
+      "name": "Baleba"
+    },
+    "132": {
+      "team": 5,
+      "name": "Howell"
+    },
+    "133": {
+      "team": 5,
+      "name": "Watson"
+    },
+    "134": {
+      "team": 5,
+      "name": "Oriola"
+    },
+    "135": {
+      "team": 5,
+      "name": "Yohanna"
+    },
+    "137": {
+      "team": 5,
+      "name": "Tzimas"
+    },
+    "138": {
+      "team": 5,
+      "name": "Kostoulas"
+    },
+    "139": {
+      "team": 5,
+      "name": "Ferguson"
+    },
+    "328": {
+      "team": 5,
+      "name": "Struijk"
+    },
+    "504": {
+      "team": 5,
+      "name": "Vuskovic"
+    },
+    "40": {
+      "team": 6,
+      "name": "Rogers"
+    },
+    "101": {
+      "team": 6,
+      "name": "Henderson"
+    },
+    "136": {
+      "team": 6,
+      "name": "Welbeck"
+    },
+    "140": {
+      "team": 6,
+      "name": "S\u00e1nchez"
+    },
+    "141": {
+      "team": 6,
+      "name": "J\u00f6rgensen"
+    },
+    "142": {
+      "team": 6,
+      "name": "James"
+    },
+    "143": {
+      "team": 6,
+      "name": "Chalobah"
+    },
+    "144": {
+      "team": 6,
+      "name": "Gusto"
+    },
+    "145": {
+      "team": 6,
+      "name": "Fofana"
+    },
+    "146": {
+      "team": 6,
+      "name": "B.Badiashile"
+    },
+    "147": {
+      "team": 6,
+      "name": "Tosin"
+    },
+    "148": {
+      "team": 6,
+      "name": "Hato"
+    },
+    "149": {
+      "team": 6,
+      "name": "Colwill"
+    },
+    "150": {
+      "team": 6,
+      "name": "M.Sarr"
+    },
+    "151": {
+      "team": 6,
+      "name": "Acheampong"
+    },
+    "152": {
+      "team": 6,
+      "name": "Palestra"
+    },
+    "153": {
+      "team": 6,
+      "name": "Disasi"
+    },
+    "154": {
+      "team": 6,
+      "name": "Palmer"
+    },
+    "155": {
+      "team": 6,
+      "name": "Enzo"
+    },
+    "156": {
+      "team": 6,
+      "name": "Neto"
+    },
+    "157": {
+      "team": 6,
+      "name": "Est\u00eav\u00e3o"
+    },
+    "158": {
+      "team": 6,
+      "name": "Gittens"
+    },
+    "159": {
+      "team": 6,
+      "name": "Caicedo"
+    },
+    "161": {
+      "team": 6,
+      "name": "Lavia"
+    },
+    "163": {
+      "team": 6,
+      "name": "D.Essugo"
+    },
+    "164": {
+      "team": 6,
+      "name": "Quenda"
+    },
+    "165": {
+      "team": 6,
+      "name": "Jo\u00e3o Pedro"
+    },
+    "166": {
+      "team": 6,
+      "name": "N.Jackson"
+    },
+    "167": {
+      "team": 6,
+      "name": "Delap"
+    },
+    "168": {
+      "team": 6,
+      "name": "Marc Guiu"
+    },
+    "169": {
+      "team": 6,
+      "name": "Mheuka"
+    },
+    "170": {
+      "team": 6,
+      "name": "Emegha"
+    },
+    "200": {
+      "team": 6,
+      "name": "Lacroix"
+    },
+    "560": {
+      "team": 6,
+      "name": "Penders"
+    },
+    "561": {
+      "team": 6,
+      "name": "Anselmino"
+    },
+    "568": {
+      "team": 6,
+      "name": "Barco"
+    },
+    "578": {
+      "team": 6,
+      "name": "Mudryk"
+    },
+    "583": {
+      "team": 6,
+      "name": "Chavarria"
+    },
+    "104": {
+      "team": 7,
+      "name": "Onyeka"
+    },
+    "110": {
+      "team": 7,
+      "name": "Rushworth"
+    },
+    "171": {
+      "team": 7,
+      "name": "Dovin"
+    },
+    "172": {
+      "team": 7,
+      "name": "Wilson"
+    },
+    "173": {
+      "team": 7,
+      "name": "Thomas"
+    },
+    "174": {
+      "team": 7,
+      "name": "Kitching"
+    },
+    "175": {
+      "team": 7,
+      "name": "van Ewijk"
+    },
+    "176": {
+      "team": 7,
+      "name": "Dasilva"
+    },
+    "177": {
+      "team": 7,
+      "name": "Kesler-Hayden"
+    },
+    "178": {
+      "team": 7,
+      "name": "Bidwell"
+    },
+    "179": {
+      "team": 7,
+      "name": "Latibeaudiere"
+    },
+    "180": {
+      "team": 7,
+      "name": "Woolfenden"
+    },
+    "181": {
+      "team": 7,
+      "name": "Brau"
+    },
+    "182": {
+      "team": 7,
+      "name": "Amenda"
+    },
+    "183": {
+      "team": 7,
+      "name": "Rudoni"
+    },
+    "184": {
+      "team": 7,
+      "name": "Grimes"
+    },
+    "185": {
+      "team": 7,
+      "name": "Sakamoto"
+    },
+    "186": {
+      "team": 7,
+      "name": "Mason-Clark"
+    },
+    "187": {
+      "team": 7,
+      "name": "Eccles"
+    },
+    "188": {
+      "team": 7,
+      "name": "Torp"
+    },
+    "189": {
+      "team": 7,
+      "name": "Shepherd"
+    },
+    "190": {
+      "team": 7,
+      "name": "Tchaouna"
+    },
+    "191": {
+      "team": 7,
+      "name": "Borges Rodrigues"
+    },
+    "192": {
+      "team": 7,
+      "name": "Andrews"
+    },
+    "193": {
+      "team": 7,
+      "name": "Wright"
+    },
+    "194": {
+      "team": 7,
+      "name": "Thomas-Asante"
+    },
+    "195": {
+      "team": 7,
+      "name": "Simms"
+    },
+    "196": {
+      "team": 7,
+      "name": "Markelo"
+    },
+    "197": {
+      "team": 7,
+      "name": "Bassette"
+    },
+    "575": {
+      "team": 7,
+      "name": "Yirenkyi"
+    },
+    "584": {
+      "team": 7,
+      "name": "Hamer"
+    },
+    "42": {
+      "team": 8,
+      "name": "Guessand"
+    },
+    "198": {
+      "team": 8,
+      "name": "Henderson"
+    },
+    "199": {
+      "team": 8,
+      "name": "Benitez"
+    },
+    "201": {
+      "team": 8,
+      "name": "Mu\u00f1oz"
+    },
+    "202": {
+      "team": 8,
+      "name": "Richards"
+    },
+    "203": {
+      "team": 8,
+      "name": "Canvot"
+    },
+    "204": {
+      "team": 8,
+      "name": "Mitchell"
+    },
+    "205": {
+      "team": 8,
+      "name": "Sosa"
+    },
+    "206": {
+      "team": 8,
+      "name": "Chadi Riad"
+    },
+    "207": {
+      "team": 8,
+      "name": "Mingueza"
+    },
+    "208": {
+      "team": 8,
+      "name": "Sarr"
+    },
+    "210": {
+      "team": 8,
+      "name": "Wharton"
+    },
+    "211": {
+      "team": 8,
+      "name": "Yeremy"
+    },
+    "212": {
+      "team": 8,
+      "name": "Hughes"
+    },
+    "213": {
+      "team": 8,
+      "name": "Lerma"
+    },
+    "214": {
+      "team": 8,
+      "name": "Kamada"
+    },
+    "215": {
+      "team": 8,
+      "name": "Devenny"
+    },
+    "216": {
+      "team": 8,
+      "name": "Esse"
+    },
+    "217": {
+      "team": 8,
+      "name": "M.Fran\u00e7a"
+    },
+    "218": {
+      "team": 8,
+      "name": "Doucour\u00e9"
+    },
+    "219": {
+      "team": 8,
+      "name": "J.Rak-Sakyi"
+    },
+    "220": {
+      "team": 8,
+      "name": "Cardines"
+    },
+    "221": {
+      "team": 8,
+      "name": "Drakes-Thomas"
+    },
+    "222": {
+      "team": 8,
+      "name": "Strand Larsen"
+    },
+    "223": {
+      "team": 8,
+      "name": "Mateta"
+    },
+    "224": {
+      "team": 8,
+      "name": "Nketiah"
+    },
+    "225": {
+      "team": 8,
+      "name": "Uche"
+    },
+    "241": {
+      "team": 8,
+      "name": "McNeil"
+    },
+    "555": {
+      "team": 8,
+      "name": "Matthews"
+    },
+    "577": {
+      "team": 8,
+      "name": "Tomiyasu"
+    },
+    "21": {
+      "team": 9,
+      "name": "N\u00f8rgaard"
+    },
+    "209": {
+      "team": 9,
+      "name": "Johnson"
+    },
+    "226": {
+      "team": 9,
+      "name": "Pickford"
+    },
+    "227": {
+      "team": 9,
+      "name": "Travers"
+    },
+    "228": {
+      "team": 9,
+      "name": "King"
+    },
+    "229": {
+      "team": 9,
+      "name": "Tarkowski"
+    },
+    "230": {
+      "team": 9,
+      "name": "Branthwaite"
+    },
+    "231": {
+      "team": 9,
+      "name": "Keane"
+    },
+    "232": {
+      "team": 9,
+      "name": "O'Brien"
+    },
+    "233": {
+      "team": 9,
+      "name": "Mykolenko"
+    },
+    "234": {
+      "team": 9,
+      "name": "Patterson"
+    },
+    "235": {
+      "team": 9,
+      "name": "Aznou"
+    },
+    "236": {
+      "team": 9,
+      "name": "Dewsbury-Hall"
+    },
+    "237": {
+      "team": 9,
+      "name": "Ndiaye"
+    },
+    "239": {
+      "team": 9,
+      "name": "Garner"
+    },
+    "240": {
+      "team": 9,
+      "name": "Iroegbunam"
+    },
+    "242": {
+      "team": 9,
+      "name": "George"
+    },
+    "243": {
+      "team": 9,
+      "name": "Alcaraz"
+    },
+    "244": {
+      "team": 9,
+      "name": "Armstrong"
+    },
+    "245": {
+      "team": 9,
+      "name": "Dibling"
+    },
+    "246": {
+      "team": 9,
+      "name": "R\u00f6hl"
+    },
+    "247": {
+      "team": 9,
+      "name": "Hackney"
+    },
+    "248": {
+      "team": 9,
+      "name": "Beto"
+    },
+    "249": {
+      "team": 9,
+      "name": "Barry"
+    },
+    "250": {
+      "team": 10,
+      "name": "Leno"
+    },
+    "251": {
+      "team": 10,
+      "name": "Lecomte"
+    },
+    "252": {
+      "team": 10,
+      "name": "McNally"
+    },
+    "253": {
+      "team": 10,
+      "name": "Andersen"
+    },
+    "254": {
+      "team": 10,
+      "name": "Robinson"
+    },
+    "255": {
+      "team": 10,
+      "name": "J.Cuenca"
+    },
+    "256": {
+      "team": 10,
+      "name": "Tete"
+    },
+    "257": {
+      "team": 10,
+      "name": "Bassey"
+    },
+    "258": {
+      "team": 10,
+      "name": "Castagne"
+    },
+    "261": {
+      "team": 10,
+      "name": "Iwobi"
+    },
+    "262": {
+      "team": 10,
+      "name": "Smith Rowe"
+    },
+    "263": {
+      "team": 10,
+      "name": "Kevin"
+    },
+    "264": {
+      "team": 10,
+      "name": "Bobb"
+    },
+    "265": {
+      "team": 10,
+      "name": "Berge"
+    },
+    "266": {
+      "team": 10,
+      "name": "Cairney"
+    },
+    "268": {
+      "team": 10,
+      "name": "King"
+    },
+    "269": {
+      "team": 10,
+      "name": "Sessegnon"
+    },
+    "270": {
+      "team": 10,
+      "name": "Reed"
+    },
+    "271": {
+      "team": 10,
+      "name": "Muniz"
+    },
+    "272": {
+      "team": 10,
+      "name": "Kusi-Asare"
+    },
+    "569": {
+      "team": 10,
+      "name": "Garc\u00eda"
+    },
+    "570": {
+      "team": 10,
+      "name": "Palacios"
+    },
+    "580": {
+      "team": 10,
+      "name": "Charles"
+    },
+    "273": {
+      "team": 11,
+      "name": "Phillips"
+    },
+    "274": {
+      "team": 11,
+      "name": "Butland"
+    },
+    "275": {
+      "team": 11,
+      "name": "Cartwright"
+    },
+    "276": {
+      "team": 11,
+      "name": "Lo-Tutala"
+    },
+    "277": {
+      "team": 11,
+      "name": "Egan"
+    },
+    "278": {
+      "team": 11,
+      "name": "Hughes"
+    },
+    "279": {
+      "team": 11,
+      "name": "Ajayi"
+    },
+    "280": {
+      "team": 11,
+      "name": "Coyle"
+    },
+    "281": {
+      "team": 11,
+      "name": "Drameh"
+    },
+    "282": {
+      "team": 11,
+      "name": "Giles"
+    },
+    "283": {
+      "team": 11,
+      "name": "Jacob"
+    },
+    "284": {
+      "team": 11,
+      "name": "McCarthy"
+    },
+    "285": {
+      "team": 11,
+      "name": "McNair"
+    },
+    "286": {
+      "team": 11,
+      "name": "Belloumi"
+    },
+    "287": {
+      "team": 11,
+      "name": "Millar"
+    },
+    "288": {
+      "team": 11,
+      "name": "Dowell"
+    },
+    "289": {
+      "team": 11,
+      "name": "Crooks"
+    },
+    "290": {
+      "team": 11,
+      "name": "Slater"
+    },
+    "291": {
+      "team": 11,
+      "name": "Matazo"
+    },
+    "292": {
+      "team": 11,
+      "name": "\u00d6m\u00fcr"
+    },
+    "293": {
+      "team": 11,
+      "name": "Kamara"
+    },
+    "294": {
+      "team": 11,
+      "name": "Zambrano"
+    },
+    "295": {
+      "team": 11,
+      "name": "McBurnie"
+    },
+    "296": {
+      "team": 11,
+      "name": "Akintola"
+    },
+    "297": {
+      "team": 11,
+      "name": "Gyabi"
+    },
+    "298": {
+      "team": 11,
+      "name": "Destan"
+    },
+    "299": {
+      "team": 11,
+      "name": "Burstow"
+    },
+    "556": {
+      "team": 11,
+      "name": "Targett"
+    },
+    "563": {
+      "team": 11,
+      "name": "Morita"
+    },
+    "572": {
+      "team": 11,
+      "name": "Tzolakis"
+    },
+    "574": {
+      "team": 11,
+      "name": "Hjert\u00f8-Dahl"
+    },
+    "576": {
+      "team": 11,
+      "name": "Stroud"
+    },
+    "259": {
+      "team": 12,
+      "name": "Diop"
+    },
+    "267": {
+      "team": 12,
+      "name": "Luki\u0107"
+    },
+    "300": {
+      "team": 12,
+      "name": "Walton"
+    },
+    "301": {
+      "team": 12,
+      "name": "Palmer"
+    },
+    "302": {
+      "team": 12,
+      "name": "Button"
+    },
+    "303": {
+      "team": 12,
+      "name": "Kipr\u00e9"
+    },
+    "304": {
+      "team": 12,
+      "name": "O'Shea"
+    },
+    "305": {
+      "team": 12,
+      "name": "Davis"
+    },
+    "306": {
+      "team": 12,
+      "name": "Greaves"
+    },
+    "307": {
+      "team": 12,
+      "name": "Johnson"
+    },
+    "308": {
+      "team": 12,
+      "name": "Furlong"
+    },
+    "309": {
+      "team": 12,
+      "name": "N\u00fa\u00f1ez"
+    },
+    "310": {
+      "team": 12,
+      "name": "Matusiwa"
+    },
+    "311": {
+      "team": 12,
+      "name": "Burns"
+    },
+    "312": {
+      "team": 12,
+      "name": "Taylor"
+    },
+    "313": {
+      "team": 12,
+      "name": "Clarke"
+    },
+    "314": {
+      "team": 12,
+      "name": "Ogbene"
+    },
+    "315": {
+      "team": 12,
+      "name": "Fatawu"
+    },
+    "316": {
+      "team": 12,
+      "name": "Emersonn"
+    },
+    "317": {
+      "team": 12,
+      "name": "Hirst"
+    },
+    "318": {
+      "team": 12,
+      "name": "Philogene"
+    },
+    "319": {
+      "team": 12,
+      "name": "Szmodics"
+    },
+    "320": {
+      "team": 12,
+      "name": "Akpom"
+    },
+    "321": {
+      "team": 12,
+      "name": "Walle Egeli"
+    },
+    "322": {
+      "team": 12,
+      "name": "Al-Hamadi"
+    },
+    "323": {
+      "team": 12,
+      "name": "McAteer"
+    },
+    "324": {
+      "team": 12,
+      "name": "Mehmeti"
+    },
+    "554": {
+      "team": 12,
+      "name": "Van Oevelen"
+    },
+    "562": {
+      "team": 12,
+      "name": "Maeda"
+    },
+    "564": {
+      "team": 12,
+      "name": "Scherpen"
+    },
+    "571": {
+      "team": 12,
+      "name": "Florentino"
+    },
+    "260": {
+      "team": 13,
+      "name": "Wilson"
+    },
+    "326": {
+      "team": 13,
+      "name": "Perri"
+    },
+    "327": {
+      "team": 13,
+      "name": "Bijol"
+    },
+    "329": {
+      "team": 13,
+      "name": "Rodon"
+    },
+    "330": {
+      "team": 13,
+      "name": "Bogle"
+    },
+    "331": {
+      "team": 13,
+      "name": "Gudmundsson"
+    },
+    "332": {
+      "team": 13,
+      "name": "Justin"
+    },
+    "333": {
+      "team": 13,
+      "name": "Bornauw"
+    },
+    "334": {
+      "team": 13,
+      "name": "Muharemovi\u0107"
+    },
+    "335": {
+      "team": 13,
+      "name": "Stach"
+    },
+    "336": {
+      "team": 13,
+      "name": "Okafor"
+    },
+    "337": {
+      "team": 13,
+      "name": "Aaronson"
+    },
+    "338": {
+      "team": 13,
+      "name": "Ampadu"
+    },
+    "339": {
+      "team": 13,
+      "name": "Longstaff"
+    },
+    "340": {
+      "team": 13,
+      "name": "Gelhardt"
+    },
+    "341": {
+      "team": 13,
+      "name": "Gnonto"
+    },
+    "342": {
+      "team": 13,
+      "name": "Harrison"
+    },
+    "343": {
+      "team": 13,
+      "name": "James"
+    },
+    "344": {
+      "team": 13,
+      "name": "Gruev"
+    },
+    "345": {
+      "team": 13,
+      "name": "Tanaka"
+    },
+    "346": {
+      "team": 13,
+      "name": "Calvert-Lewin"
+    },
+    "347": {
+      "team": 13,
+      "name": "Nmecha"
+    },
+    "348": {
+      "team": 13,
+      "name": "Piroe"
+    },
+    "349": {
+      "team": 13,
+      "name": "Mateo Joseph"
+    },
+    "385": {
+      "team": 13,
+      "name": "Trafford"
+    },
+    "350": {
+      "team": 14,
+      "name": "A.Becker"
+    },
+    "351": {
+      "team": 14,
+      "name": "Mamardashvili"
+    },
+    "352": {
+      "team": 14,
+      "name": "Woodman"
+    },
+    "353": {
+      "team": 14,
+      "name": "Pecsi"
+    },
+    "354": {
+      "team": 14,
+      "name": "Jaros"
+    },
+    "355": {
+      "team": 14,
+      "name": "Davies"
+    },
+    "356": {
+      "team": 14,
+      "name": "Virgil"
+    },
+    "357": {
+      "team": 14,
+      "name": "Frimpong"
+    },
+    "358": {
+      "team": 14,
+      "name": "Kerkez"
+    },
+    "359": {
+      "team": 14,
+      "name": "Gomez"
+    },
+    "360": {
+      "team": 14,
+      "name": "Bradley"
+    },
+    "361": {
+      "team": 14,
+      "name": "Lucky"
+    },
+    "362": {
+      "team": 14,
+      "name": "Jacquet"
+    },
+    "363": {
+      "team": 14,
+      "name": "Leoni"
+    },
+    "364": {
+      "team": 14,
+      "name": "Tsimikas"
+    },
+    "365": {
+      "team": 14,
+      "name": "Ramsay"
+    },
+    "366": {
+      "team": 14,
+      "name": "Wirtz"
+    },
+    "367": {
+      "team": 14,
+      "name": "Gakpo"
+    },
+    "368": {
+      "team": 14,
+      "name": "Szoboszlai"
+    },
+    "369": {
+      "team": 14,
+      "name": "Ngumoha"
+    },
+    "370": {
+      "team": 14,
+      "name": "Chiesa"
+    },
+    "371": {
+      "team": 14,
+      "name": "Gravenberch"
+    },
+    "372": {
+      "team": 14,
+      "name": "Mac Allister"
+    },
+    "373": {
+      "team": 14,
+      "name": "C.Jones"
+    },
+    "374": {
+      "team": 14,
+      "name": "Endo"
+    },
+    "375": {
+      "team": 14,
+      "name": "Nyoni"
+    },
+    "376": {
+      "team": 14,
+      "name": "Bajcetic"
+    },
+    "377": {
+      "team": 14,
+      "name": "Munoz"
+    },
+    "378": {
+      "team": 14,
+      "name": "McConnell"
+    },
+    "379": {
+      "team": 14,
+      "name": "Isak"
+    },
+    "380": {
+      "team": 14,
+      "name": "Ekitik\u00e9"
+    },
+    "381": {
+      "team": 14,
+      "name": "Koumas"
+    },
+    "382": {
+      "team": 14,
+      "name": "Danns"
+    },
+    "383": {
+      "team": 14,
+      "name": "Elliott"
+    },
+    "579": {
+      "team": 14,
+      "name": "Araujo"
+    },
+    "238": {
+      "team": 15,
+      "name": "Grealish"
+    },
+    "384": {
+      "team": 15,
+      "name": "Donnarumma"
+    },
+    "386": {
+      "team": 15,
+      "name": "Bettinelli"
+    },
+    "387": {
+      "team": 15,
+      "name": "O'Reilly"
+    },
+    "388": {
+      "team": 15,
+      "name": "Gu\u00e9hi"
+    },
+    "389": {
+      "team": 15,
+      "name": "Matheus N."
+    },
+    "390": {
+      "team": 15,
+      "name": "R\u00faben"
+    },
+    "391": {
+      "team": 15,
+      "name": "Gvardiol"
+    },
+    "392": {
+      "team": 15,
+      "name": "A\u00eft-Nouri"
+    },
+    "393": {
+      "team": 15,
+      "name": "Khusanov"
+    },
+    "394": {
+      "team": 15,
+      "name": "Alleyne"
+    },
+    "395": {
+      "team": 15,
+      "name": "Lewis"
+    },
+    "396": {
+      "team": 15,
+      "name": "Vitor Reis"
+    },
+    "397": {
+      "team": 15,
+      "name": "Semenyo"
+    },
+    "398": {
+      "team": 15,
+      "name": "Foden"
+    },
+    "399": {
+      "team": 15,
+      "name": "Cherki"
+    },
+    "400": {
+      "team": 15,
+      "name": "Doku"
+    },
+    "401": {
+      "team": 15,
+      "name": "Marmoush"
+    },
+    "402": {
+      "team": 15,
+      "name": "Rodrigo"
+    },
+    "403": {
+      "team": 15,
+      "name": "Savinho"
+    },
+    "404": {
+      "team": 15,
+      "name": "Reijnders"
+    },
+    "405": {
+      "team": 15,
+      "name": "N.Gonzalez"
+    },
+    "406": {
+      "team": 15,
+      "name": "Kova\u010di\u0107"
+    },
+    "407": {
+      "team": 15,
+      "name": "Echeverri"
+    },
+    "408": {
+      "team": 15,
+      "name": "Phillips"
+    },
+    "409": {
+      "team": 15,
+      "name": "Mukasa"
+    },
+    "410": {
+      "team": 15,
+      "name": "Monga"
+    },
+    "411": {
+      "team": 15,
+      "name": "Haaland"
+    },
+    "481": {
+      "team": 15,
+      "name": "Anderson"
+    },
+    "43": {
+      "team": 16,
+      "name": "Tielemans"
+    },
+    "162": {
+      "team": 16,
+      "name": "Andrey Santos"
+    },
+    "325": {
+      "team": 16,
+      "name": "Darlow"
+    },
+    "412": {
+      "team": 16,
+      "name": "Lammens"
+    },
+    "413": {
+      "team": 16,
+      "name": "Bayindir"
+    },
+    "414": {
+      "team": 16,
+      "name": "Heaton"
+    },
+    "415": {
+      "team": 16,
+      "name": "Dorgu"
+    },
+    "416": {
+      "team": 16,
+      "name": "De Ligt"
+    },
+    "417": {
+      "team": 16,
+      "name": "Dalot"
+    },
+    "418": {
+      "team": 16,
+      "name": "Maguire"
+    },
+    "419": {
+      "team": 16,
+      "name": "Martinez"
+    },
+    "420": {
+      "team": 16,
+      "name": "Yoro"
+    },
+    "421": {
+      "team": 16,
+      "name": "Heaven"
+    },
+    "422": {
+      "team": 16,
+      "name": "Mazraoui"
+    },
+    "423": {
+      "team": 16,
+      "name": "Shaw"
+    },
+    "424": {
+      "team": 16,
+      "name": "Amass"
+    },
+    "425": {
+      "team": 16,
+      "name": "Fredricson"
+    },
+    "426": {
+      "team": 16,
+      "name": "B.Fernandes"
+    },
+    "427": {
+      "team": 16,
+      "name": "Mbeumo"
+    },
+    "428": {
+      "team": 16,
+      "name": "Cunha"
+    },
+    "429": {
+      "team": 16,
+      "name": "Rashford"
+    },
+    "430": {
+      "team": 16,
+      "name": "Mount"
+    },
+    "431": {
+      "team": 16,
+      "name": "Amad"
+    },
+    "432": {
+      "team": 16,
+      "name": "Mainoo"
+    },
+    "433": {
+      "team": 16,
+      "name": "Ugarte"
+    },
+    "434": {
+      "team": 16,
+      "name": "J.Fletcher"
+    },
+    "435": {
+      "team": 16,
+      "name": "Lacey"
+    },
+    "436": {
+      "team": 16,
+      "name": "Collyer"
+    },
+    "437": {
+      "team": 16,
+      "name": "Bendito Mantato"
+    },
+    "438": {
+      "team": 16,
+      "name": "Fletcher"
+    },
+    "439": {
+      "team": 16,
+      "name": "\u0160e\u0161ko"
+    },
+    "440": {
+      "team": 16,
+      "name": "Zirkzee"
+    },
+    "441": {
+      "team": 16,
+      "name": "Obi"
+    },
+    "442": {
+      "team": 17,
+      "name": "Pope"
+    },
+    "443": {
+      "team": 17,
+      "name": "Gillespie"
+    },
+    "444": {
+      "team": 17,
+      "name": "Jaouen"
+    },
+    "445": {
+      "team": 17,
+      "name": "Thiaw"
+    },
+    "446": {
+      "team": 17,
+      "name": "Sch\u00e4r"
+    },
+    "447": {
+      "team": 17,
+      "name": "Botman"
+    },
+    "448": {
+      "team": 17,
+      "name": "Burn"
+    },
+    "449": {
+      "team": 17,
+      "name": "Hall"
+    },
+    "450": {
+      "team": 17,
+      "name": "Livramento"
+    },
+    "451": {
+      "team": 17,
+      "name": "A.Murphy"
+    },
+    "453": {
+      "team": 17,
+      "name": "Barnes"
+    },
+    "454": {
+      "team": 17,
+      "name": "Elanga"
+    },
+    "456": {
+      "team": 17,
+      "name": "J.Ramsey"
+    },
+    "457": {
+      "team": 17,
+      "name": "J.Murphy"
+    },
+    "458": {
+      "team": 17,
+      "name": "Joelinton"
+    },
+    "459": {
+      "team": 17,
+      "name": "L.Miley"
+    },
+    "460": {
+      "team": 17,
+      "name": "Willock"
+    },
+    "461": {
+      "team": 17,
+      "name": "Tour\u00e9"
+    },
+    "462": {
+      "team": 17,
+      "name": "Steur"
+    },
+    "463": {
+      "team": 17,
+      "name": "Woltemade"
+    },
+    "464": {
+      "team": 17,
+      "name": "Wissa"
+    },
+    "465": {
+      "team": 17,
+      "name": "Osula"
+    },
+    "466": {
+      "team": 17,
+      "name": "Neave"
+    },
+    "559": {
+      "team": 17,
+      "name": "Bamba"
+    },
+    "567": {
+      "team": 17,
+      "name": "Horn\u00ed\u010dek"
+    },
+    "467": {
+      "team": 18,
+      "name": "Sels"
+    },
+    "468": {
+      "team": 18,
+      "name": "John"
+    },
+    "469": {
+      "team": 18,
+      "name": "N.Williams"
+    },
+    "470": {
+      "team": 18,
+      "name": "Morato"
+    },
+    "471": {
+      "team": 18,
+      "name": "Milenkovi\u0107"
+    },
+    "472": {
+      "team": 18,
+      "name": "Murillo"
+    },
+    "473": {
+      "team": 18,
+      "name": "Aina"
+    },
+    "474": {
+      "team": 18,
+      "name": "Jair Cunha"
+    },
+    "475": {
+      "team": 18,
+      "name": "Savona"
+    },
+    "476": {
+      "team": 18,
+      "name": "O.Richards"
+    },
+    "477": {
+      "team": 18,
+      "name": "Abbott"
+    },
+    "478": {
+      "team": 18,
+      "name": "Netz"
+    },
+    "479": {
+      "team": 18,
+      "name": "Bindon"
+    },
+    "480": {
+      "team": 18,
+      "name": "Gibbs-White"
+    },
+    "482": {
+      "team": 18,
+      "name": "Hudson-Odoi"
+    },
+    "483": {
+      "team": 18,
+      "name": "Ndoye"
+    },
+    "484": {
+      "team": 18,
+      "name": "Hutchinson"
+    },
+    "485": {
+      "team": 18,
+      "name": "Bakwa"
+    },
+    "486": {
+      "team": 18,
+      "name": "McAtee"
+    },
+    "487": {
+      "team": 18,
+      "name": "Dominguez"
+    },
+    "488": {
+      "team": 18,
+      "name": "Sangar\u00e9"
+    },
+    "489": {
+      "team": 18,
+      "name": "Yates"
+    },
+    "490": {
+      "team": 18,
+      "name": "Wood"
+    },
+    "491": {
+      "team": 18,
+      "name": "Igor Jesus"
+    },
+    "492": {
+      "team": 18,
+      "name": "Awoniyi"
+    },
+    "493": {
+      "team": 18,
+      "name": "Kalimuendo"
+    },
+    "558": {
+      "team": 18,
+      "name": "Schlager"
+    },
+    "581": {
+      "team": 18,
+      "name": "Diomande"
+    },
+    "112": {
+      "team": 19,
+      "name": "Van Hecke"
+    },
+    "455": {
+      "team": 19,
+      "name": "Tonali"
+    },
+    "494": {
+      "team": 19,
+      "name": "Vicario"
+    },
+    "495": {
+      "team": 19,
+      "name": "Austin"
+    },
+    "496": {
+      "team": 19,
+      "name": "Kinsky"
+    },
+    "497": {
+      "team": 19,
+      "name": "Dubravka"
+    },
+    "498": {
+      "team": 19,
+      "name": "Senesi"
+    },
+    "499": {
+      "team": 19,
+      "name": "Pedro Porro"
+    },
+    "500": {
+      "team": 19,
+      "name": "Romero"
+    },
+    "501": {
+      "team": 19,
+      "name": "Danso"
+    },
+    "502": {
+      "team": 19,
+      "name": "Robertson"
+    },
+    "503": {
+      "team": 19,
+      "name": "Van de Ven"
+    },
+    "505": {
+      "team": 19,
+      "name": "Spence"
+    },
+    "506": {
+      "team": 19,
+      "name": "Udogie"
+    },
+    "507": {
+      "team": 19,
+      "name": "Phillips"
+    },
+    "508": {
+      "team": 19,
+      "name": "Davies"
+    },
+    "509": {
+      "team": 19,
+      "name": "Byfield"
+    },
+    "510": {
+      "team": 19,
+      "name": "Rowswell"
+    },
+    "511": {
+      "team": 19,
+      "name": "Souza"
+    },
+    "512": {
+      "team": 19,
+      "name": "Kudus"
+    },
+    "513": {
+      "team": 19,
+      "name": "Xavi"
+    },
+    "514": {
+      "team": 19,
+      "name": "Tel"
+    },
+    "515": {
+      "team": 19,
+      "name": "Maddison"
+    },
+    "516": {
+      "team": 19,
+      "name": "Bentancur"
+    },
+    "517": {
+      "team": 19,
+      "name": "Odobert"
+    },
+    "518": {
+      "team": 19,
+      "name": "P.M.Sarr"
+    },
+    "519": {
+      "team": 19,
+      "name": "Gallagher"
+    },
+    "520": {
+      "team": 19,
+      "name": "Bergvall"
+    },
+    "521": {
+      "team": 19,
+      "name": "Kulusevski"
+    },
+    "522": {
+      "team": 19,
+      "name": "Gray"
+    },
+    "523": {
+      "team": 19,
+      "name": "Moore"
+    },
+    "524": {
+      "team": 19,
+      "name": "Olusesi"
+    },
+    "525": {
+      "team": 19,
+      "name": "Fernandes"
+    },
+    "526": {
+      "team": 19,
+      "name": "Solanke"
+    },
+    "527": {
+      "team": 19,
+      "name": "Richarlison"
+    },
+    "528": {
+      "team": 19,
+      "name": "Scarlett"
+    },
+    "529": {
+      "team": 20,
+      "name": "Roefs"
+    },
+    "530": {
+      "team": 20,
+      "name": "Patterson"
+    },
+    "531": {
+      "team": 20,
+      "name": "Ellborg"
+    },
+    "532": {
+      "team": 20,
+      "name": "Ballard"
+    },
+    "533": {
+      "team": 20,
+      "name": "Mukiele"
+    },
+    "534": {
+      "team": 20,
+      "name": "Hume"
+    },
+    "535": {
+      "team": 20,
+      "name": "Alderete"
+    },
+    "536": {
+      "team": 20,
+      "name": "Reinildo"
+    },
+    "537": {
+      "team": 20,
+      "name": "Seelt"
+    },
+    "538": {
+      "team": 20,
+      "name": "Hjelde"
+    },
+    "539": {
+      "team": 20,
+      "name": "O'Nien"
+    },
+    "540": {
+      "team": 20,
+      "name": "Masuaku"
+    },
+    "541": {
+      "team": 20,
+      "name": "Meunier"
+    },
+    "542": {
+      "team": 20,
+      "name": "E.Le F\u00e9e"
+    },
+    "543": {
+      "team": 20,
+      "name": "Diarra"
+    },
+    "544": {
+      "team": 20,
+      "name": "Xhaka"
+    },
+    "545": {
+      "team": 20,
+      "name": "Sadiki"
+    },
+    "546": {
+      "team": 20,
+      "name": "Adingra"
+    },
+    "547": {
+      "team": 20,
+      "name": "Mundle"
+    },
+    "548": {
+      "team": 20,
+      "name": "Rigg"
+    },
+    "549": {
+      "team": 20,
+      "name": "Talbi"
+    },
+    "550": {
+      "team": 20,
+      "name": "Jocelin.T"
+    },
+    "551": {
+      "team": 20,
+      "name": "Angulo"
+    },
+    "552": {
+      "team": 20,
+      "name": "Brobbey"
+    },
+    "553": {
+      "team": 20,
+      "name": "Isidor"
+    }
+  }
+}
