@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-13T19:53:15.159086+00:00",
+  "generatedAt": "2026-08-13T20:34:39.103447+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Gay out for duck as Pakistan impress against County Select XI",
+      "description": "England opening batter Emilio Gay was out for a duck as Pakistan made a strong start to their tour against a Professional County Club Select XI.",
+      "link": "https://www.skysports.com/cricket/news/12040/13572739/england-opener-emilio-gay-out-for-duck-as-pakistan-impress-against-county-select-xi-ahead-of-test-series",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-13T21:20:00+00:00"
+    },
+    {
+      "title": "NRL legend Cherry-Evans signs one-year deal with Hull FC",
+      "description": "NRL legend Daly Cherry-Evans has signed a one-year deal for Hull FC which sees him complete a shock switch to Super League for the 2027 season.",
+      "link": "https://www.skysports.com/rugby-league/news/12040/13572676/daly-cherry-evans-former-kangaroos-half-back-reportedly-in-advanced-talks-to-sign-for-hull-fc-for-2027-super-league-season",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-13T21:00:00+00:00"
+    },
+    {
+      "title": "Explained: Why Leicester City has been put up for sale for \u00a3224m",
+      "description": "Sky Sports' Rob Dorsett explains why Thai owners King Power are seeking to sell Leicester City for more than &#163;200m.",
+      "link": "https://www.skysports.com/watch/video/13572726/explained-why-leicester-city-has-been-put-up-for-sale-for-224m",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T20:29:00+00:00"
+    },
     {
       "title": "Rory finds water on nightmare double-bogey 18th hole!",
       "description": "Rory McIlroy had an eighteenth hole to forget at the FedEx St. Jude Championship.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-13T18:10:00+00:00"
-    },
-    {
-      "title": "Championship predictions & best bets: Wolves to fall flat on opening night",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13572484/efl-2026-27-season-kick-off-championship-predictions-and-best-bets",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T18:00:00+00:00"
-    },
-    {
-      "title": "Shankland pulls Rangers level on aggregate vs Jagiellonia LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/rangers-vs-jagiellonia-bialystok/live/571444",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T18:00:00+00:00"
-    },
-    {
-      "title": "Carrick pushing to improve the squad this summer",
-      "description": "Ahead of his first full Premier League campaign in charge at Old Trafford, Carrick feels the squad is making good progress.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c4g3vg077vpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T17:56:48+00:00"
     }
   ]
 }
