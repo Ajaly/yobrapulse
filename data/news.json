@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-13T12:54:56.526452+00:00",
+  "generatedAt": "2026-08-13T14:19:14.031787+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "West Ham latest: Interim chief exec Virani targets Premier League return",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13210475/west-ham-latest-news",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T15:08:00+00:00"
+    },
+    {
+      "title": "Crystal Palace latest: Eagles closing in on Khalaili signing",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-13T14:19:00+00:00"
+    },
+    {
+      "title": "Tielemans apologises to Villa fans for Man Utd remarks",
+      "description": "Youri Tielemans apologises to Aston Villa fans after suggesting he had moved to a bigger club in Premier League rivals Manchester United.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm2gpr52drzo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T13:47:14+00:00"
+    },
+    {
+      "title": "Atherton: 'England must become Root's team - he has a unique opportunity'",
+      "description": "Fresh from <a href='https://www.skysports.com/cricket/news/12123/13572211/joe-root-england-test-captain-removes-curfew-and-implores-his-players-to-be-adults-ahead-of-pakistan-series' target='_blank'>exclusively speaking to Joe Root following his reappointment as England captain</a>, Sky Sports Cricket's Michael Atherton looks further into the move...",
+      "link": "https://www.skysports.com/cricket/news/12040/13572589/michael-atherton-england-must-be-reshaped-as-joe-roots-team-after-stokes-and-mccullum-departures-8211-he-has-a-unique-opportunity",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T13:07:00+00:00"
+    },
+    {
+      "title": "When do the major European leagues start and what are the big stories?",
+      "description": "BBC Sport looks at the big stories in Europe heading into the 2026-27 season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cly92pr6ej8o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T13:06:55+00:00"
+    },
     {
       "title": "The Hundred Eliminators and Finals: All you need to know",
       "description": "The Hundred 2026 is reaching its dramatic climax and we have the Eliminators then the Finals still to come your way...",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-13T11:30:00+00:00"
-    },
-    {
-      "title": "EFL latest: 'It feels like home' - Jimenez explains Wolves return",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T11:26:00+00:00"
-    },
-    {
-      "title": "Australia exposed by Bangladesh in stunning start to first Test",
-      "description": "Bangladesh's bowlers overshadowed Australia's Big Four getting back together on day one of the first Test as the hosts were dismissed for 198 and Hasan Mahmud took a career-best 6-55.",
-      "link": "https://www.skysports.com/cricket/news/12040/13572532/australia-vs-bangladesh-hosts-humbled-on-first-day-of-test-skittled-for-198-as-hasan-mahmud-takes-six-first-innings-wickets",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T11:24:00+00:00"
-    },
-    {
-      "title": "FAI withdraws Infantino support as IFA backs Uefa",
-      "description": "The Football Association of Ireland [FAI] officially withdraws support for under-fire Fifa president Gianni Infantino, while the Irish Football Association [IFA] confirms it backs Uefa's stance.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy8m2mg0y99o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T11:05:03+00:00"
-    },
-    {
-      "title": "La Liga postpone Celta Vigo match following fungus outbreak",
-      "description": "Celta Vigo confirm their opening match of the 2026-27 La Liga season has been postponed due to a fungus outbreak on their pitch.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdx7pqwwyp1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T10:21:08+00:00"
-    },
-    {
-      "title": "Taylor on retirement, scrutiny, VAR and referee pundits",
-      "description": "Referee Anthony Taylor explains to BBC sports editor Dan Roan why he has stepped away from officiating.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c0qv2v0ddx9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T10:19:23+00:00"
     }
   ]
 }
