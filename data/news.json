@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T11:52:07.948271+00:00",
+  "generatedAt": "2026-08-13T12:54:56.526452+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -13,6 +13,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-13T12:21:00+00:00"
+    },
+    {
+      "title": "Will West Ham bounce straight back up?",
+      "description": "BBC Sport analyses the season ahead for West Ham, who will be playing in the Championship for the first time in 14 years.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckg9y2xrnego",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T12:18:40+00:00"
     },
     {
       "title": "O'Hara: Spurs should sign Rashford with De Zerbi 'perfect' for him",
@@ -31,6 +40,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-13T12:00:00+00:00"
+    },
+    {
+      "title": "Why are EFL matches at 3pm on Saturday being shown on TV?",
+      "description": "BBC Sport's Ask Me Anything team explains why the '3pm blackout' is not being enforced this weekend",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czdm2zpg5g8o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T11:43:03+00:00"
     },
     {
       "title": "Critical former referees add to culture of fear, says retiring Taylor",
@@ -61,7 +79,7 @@
     },
     {
       "title": "Australia exposed by Bangladesh in stunning start to first Test",
-      "description": "Bangladesh's bowlers overshadowed Australia's Big Four getting back together on day one of the first Test as the host was dismissed for 198 and Hasan Mahmud took a career-best 6-55.",
+      "description": "Bangladesh's bowlers overshadowed Australia's Big Four getting back together on day one of the first Test as the hosts were dismissed for 198 and Hasan Mahmud took a career-best 6-55.",
       "link": "https://www.skysports.com/cricket/news/12040/13572532/australia-vs-bangladesh-hosts-humbled-on-first-day-of-test-skittled-for-198-as-hasan-mahmud-takes-six-first-innings-wickets",
       "source": "Sky Sports",
       "category": "club",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-13T10:19:23+00:00"
-    },
-    {
-      "title": "Rooney to co-host new Man Utd show with Goldbridge",
-      "description": "Wayne Rooney will co-host a new Manchester United-dedicated show alongside influencer Mark Goldbrige this season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8xnwn4zjeno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T10:17:26+00:00"
-    },
-    {
-      "title": "Dallas backs Charles to thrive at Fulham",
-      "description": "Former Northern Ireland international Stuart Dallas feels Shea Charles can make his mark in the Premier League with Fulham, while also backing Ethan Galbraith's switch to Stoke City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwym2e2egz3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T10:13:23+00:00"
     }
   ]
 }
