@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-13T06:11:51.560882+00:00",
+  "generatedAt": "2026-08-13T08:14:21.599446+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-13T08:50:00+00:00"
+    },
+    {
+      "title": "Messi plays for Inter Miami after father's death",
+      "description": "Lionel Messi makes a substitute appearance for Inter Miami on Wednesday following the death of his father and hinting he may retire.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cz9722y1ee7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T07:19:46+00:00"
+    },
+    {
+      "title": "'Where has this tennis been?' | Swiatek beats Svitolina to reach first final of 2026",
+      "description": "Highlights of the Canadian Open match between Iga Swiatek and Elina Svitolina.",
+      "link": "https://www.skysports.com/watch/video/13572456/iga-swiatek-vs-elina-svitolina-canadian-open-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T07:01:00+00:00"
+    },
+    {
+      "title": "Podcast: Four Scottish clubs in European action",
+      "description": "European Thursday: Comebacks, Confidence and Conference League Dreams",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p46ws2",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T07:00:00+00:00"
+    },
     {
       "title": "Gold medallist Thomas chases 'own legacy' after AJ comparisons",
       "description": "Commonwealth Games gold medallist Damar Thomas wants to create his \"own legacy\" after being compared to former Team GB super-heavyweight stars following his triumph in Glasgow.",
@@ -13,6 +49,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-13T07:00:00+00:00"
+    },
+    {
+      "title": "Celtic want Chelsea's Emenalo on loan - gossip",
+      "description": "Celtic linked with two full-backs as Spanish club join chase for Rangers midfielder...",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c79g4q44zvro",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-13T06:55:40+00:00"
     },
     {
       "title": "Marauding Madjo! How 'new' Villa showed their teeth against PSG",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-13T05:49:30+00:00"
-    },
-    {
-      "title": "Bihina saves four penalties as Cameroon upset Morocco to make Wafcon final",
-      "description": "Cameroon's Michaely Bihina saves an extra-time penalty and three more spot kicks in a shootout to send her side though to the 2026 Wafcon final at the expense of host nation Morocco.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg3pzne52xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T23:36:44+00:00"
-    },
-    {
-      "title": "Bihina saves four penalties as Cameroon upset Morocco to make Wafcon final",
-      "description": "Cameroon's Michaely Bihina saves an extra-time penalty and three more spot kicks in a shootout to send her side though to the 2026 Wafcon final at the expense of host nation Morocco.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg3pzne52xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T23:36:44+00:00"
-    },
-    {
-      "title": "Papers: Arsenal hold further talks over Villa's Konsa",
-      "description": "The top stories and transfer rumours from Thursday's newspapers...",
-      "link": "https://www.skysports.com/football/news/12040/13572412/arsenal-transfer-news-gunners-hold-further-talks-over-aston-villa-defender-ezri-konsa-paper-talk",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-12T23:30:00+00:00"
-    },
-    {
-      "title": "Chawinga sisters fire Malawi into Wafcon final",
-      "description": "Malawi's fairy tale run at the 2026 Women's Africa Cup of Nations goes on as sisters Tabitha and Temwa Chawinga share three goals in a 3-1 semi-final win over Algeria.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg9p34wgxvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T23:22:57+00:00"
-    },
-    {
-      "title": "Chawinga sisters fire Malawi into Wafcon final",
-      "description": "Malawi's fairy tale run at the 2026 Women's Africa Cup of Nations goes on as sisters Tabitha and Temwa Chawinga share three goals in a 3-1 semi-final win over Algeria.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg9p34wgxvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-12T23:22:57+00:00"
     }
   ]
 }
