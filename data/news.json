@@ -1,18 +1,45 @@
 {
-  "generatedAt": "2026-08-13T08:14:21.599446+00:00",
+  "generatedAt": "2026-08-13T09:57:04.647548+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "title": "Man City reject fresh Barcelona bid for Rodri",
+      "description": "Manchester City have rejected a new &#163;55m bid from Barcelona for Rodri.",
+      "link": "https://www.skysports.com/football/news/12040/13567985/rodri-transfer-news-man-city-reject-55m-bid-from-barcelona-for-world-cup-winning-midfielder",
       "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T10:00:00+00:00"
+    },
+    {
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-13T08:50:00+00:00"
+      "pubDateISO": "2026-08-13T09:20:46+00:00"
+    },
+    {
+      "title": "Galatasaray submit Martinelli bid - Thursday's gossip",
+      "description": "Arsenal have received a bid from Galatasaray for Gabriel Martinelli, Spain midfielder Martin Zubimendi could leave the Gunners for Chelsea and Newcastle push for Benfica defender Amar Dedic.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwy42p7r00zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T09:17:47+00:00"
+    },
+    {
+      "title": "Fulham leave pitch as Malaga take penalty into empty net",
+      "description": "Fulham's pre-season friendly against Malaga ends in chaotic fashion as the Premier League side leave the pitch before a penalty shootout.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cz052j8x9x1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-13T09:17:34+00:00"
     },
     {
       "title": "Messi plays for Inter Miami after father's death",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-13T06:00:00+00:00"
-    },
-    {
-      "title": "Where would Antonelli rank among surprise F1 title winners?",
-      "description": "Kimi Antonelli is on course to become Formula 1&#8217;s youngest-ever world champion, but where would the Mercedes driver&#8217;s triumph rank among the sport&#8217;s biggest surprise title wins in recent history?",
-      "link": "https://www.skysports.com/f1/news/12040/13571878/kimi-antonelli-where-would-mercedes-driver-rank-among-surprise-f1-title-winners-in-recent-history",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T06:00:00+00:00"
-    },
-    {
-      "title": "Can Sunderland defy the Premier League doubters again?",
-      "description": "Sunderland were one of the stories of the 2025-26 Premier League season - but can they do it again this time around, with added European commitments?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn8ndw25yjeo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-13T05:52:23+00:00"
-    },
-    {
-      "title": "Who am I? Guess Premier League star No 24",
-      "description": "Work out the identity of today's player in as few attempts as possible.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1j1w23dygjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T05:49:30+00:00"
     }
   ]
 }
