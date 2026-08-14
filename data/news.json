@@ -1,18 +1,99 @@
 {
-  "generatedAt": "2026-08-14T08:09:03.839448+00:00",
+  "generatedAt": "2026-08-14T09:53:54.167028+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "title": "Arsenal in talks with Leverkusen over Quansah",
+      "description": "Arsenal are in talks with Bayer Leverkusen over a possible deal for England defender Jarell Quansah.",
+      "link": "https://www.skysports.com/football/news/12040/13572821/jarell-quansah-arsenal-in-talks-with-bayer-leverkusen-over-signing-england-and-former-liverpool-defender",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T08:50:00+00:00"
+      "pubDateISO": "2026-08-14T10:28:00+00:00"
+    },
+    {
+      "title": "Bowen: As long as West Ham get back to the PL, I don't care how we do it",
+      "description": "When West Ham were relegated from the Premier League after 15 years back in May, it seemed inevitable Jarrod Bowen would not be there to join them as they returned to the Sky Bet Championship.",
+      "link": "https://www.skysports.com/football/news/12040/13572527/jarrod-bowen-exclusive-west-ham-captain",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T10:00:00+00:00"
+    },
+    {
+      "title": "Tempers flare as Australia toil after Hasan's maiden Test ton",
+      "description": "Tanzid Hasan posted his maiden century in just his second Test to help guide Bangladesh to 351-6 at stumps on Friday and into a commanding position over Australia after two days of the Top End series opener in Darwin.",
+      "link": "https://www.skysports.com/cricket/news/12040/13572882/australia-vs-bangladesh-tanzid-hasans-maiden-test-century-leaves-tourists-in-charge-in-darwin",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T09:56:00+00:00"
+    },
+    {
+      "title": "European Cup winner Rimmer dies aged 78",
+      "description": "European Cup winner and former Aston Villa and Manchester United goalkeeper Jimmy Rimmer dies at the age of 78.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20eyww3vyro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T09:50:51+00:00"
+    },
+    {
+      "title": "Hammers & Boro to go up? Championship club-by-club preview",
+      "description": "BBC Sport correspondents take a closer look at the 24 teams taking part in the 2026-27 Championship season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy8edygyw02o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T09:06:36+00:00"
+    },
+    {
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T09:03:36+00:00"
+    },
+    {
+      "title": "Titans & underdogs - League One club-by-club preview",
+      "description": "BBC Sport correspondents assess the strengths and weaknesses of all 24 teams competing in League One this season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgewydzqyjyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T09:02:33+00:00"
+    },
+    {
+      "title": "Salford champions? Millers to spiral? - League Two club-by-club preview",
+      "description": "BBC Sport correspondents assess the strengths and weaknesses of all 24 teams competing in League Two this season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2dy2112djo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T09:02:23+00:00"
+    },
+    {
+      "title": "Man City must act like champions as WSL rivals grow stronger",
+      "description": "Manchester City have bolstered their squad this summer - but will they have enough to defend their Women's Super League crown?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgwkl58xgvo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T08:33:42+00:00"
+    },
+    {
+      "title": "Man City must act like champions as WSL rivals grow stronger",
+      "description": "Manchester City have bolstered their squad this summer - but will they have enough to defend their Women's Super League crown?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgwkl58xgvo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T08:33:42+00:00"
     },
     {
       "title": "Steelers rookie Allar stars as McCarthy beats Packers on debut",
@@ -31,87 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-14T07:57:00+00:00"
-    },
-    {
-      "title": "Who to pick, who to avoid - your team's FPL assets ranked",
-      "description": "Our team of FPL experts rank the best and worst picks for 2026-27 from each of the 20 Premier League teams.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c0qv21egpneo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T07:14:05+00:00"
-    },
-    {
-      "title": "Will you beat our mega football nicknames quiz?",
-      "description": "Do you know your Red Devils from your Saints? How about your Magpies from your Robins?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g4v4mm9r8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T07:00:44+00:00"
-    },
-    {
-      "title": "Rangers make offer for striker Kelsy - gossip",
-      "description": "Rangers chase Venezuela striker and agree loan deal for left-back as Celtic are linked with Bosnian based in Czech Republic...",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp9epdvxdxno",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T07:00:38+00:00"
-    },
-    {
-      "title": "Podcast: Scottish League Cup weekend preview",
-      "description": "League Cup Weekend: Can Ayr Humble Killie? Can St Mirren Deepen Rangers' Trouble?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p4h17z",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T07:00:00+00:00"
-    },
-    {
-      "title": "Records broken, huge sixes & stunning catches! | Best moments from The Hundred",
-      "description": "Take a look at the best moments from this year's Hundred.",
-      "link": "https://www.skysports.com/watch/video/13571696/best-moments-from-the-hundred-records-broken-huge-sixes-stunning-catches",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T07:00:00+00:00"
-    },
-    {
-      "title": "Can Chelsea go from 10th to title again?",
-      "description": "With a new manager at the helm in Xabi Alonso, can Chelsea go from 10th to the Premier League title like they did a decade ago?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyr2zez9q2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T06:34:57+00:00"
-    },
-    {
-      "title": "New Zealand break with OFC to withdraw Infantino support",
-      "description": "New Zealand break rank with Oceania's football governing body to become the latest nation to withdraw support for Fifa president Gianni Infantino.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crl7wdkxdd7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T06:19:11+00:00"
-    },
-    {
-      "title": "Swiatek beats Rybakina to end title drought in Toronto",
-      "description": "Iga Swiatek claimed her first title of the season with a dominant 6-2 6-3 win over Elena Rybakina in the final of the National Bank Open in Toronto.",
-      "link": "https://www.skysports.com/tennis/news/12040/13572813/canadian-open-iga-swiatek-defeats-elena-rybakina-to-end-title-drought",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T06:10:00+00:00"
-    },
-    {
-      "title": "Today on Sky Sports Racing: Efsixteen returns in hot Newbury race",
-      "description": "We have an interesting day's racing on Friday with Flat action from Newbury and Yarmouth, live on Sky Sports Racing...",
-      "link": "https://www.skysports.com/racing/news/12040/13572338/today-on-sky-sports-racing-newbury-and-yarmouth-feature-live-on-friday-as-efsixteen-returns-in-hot-contest",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T06:00:00+00:00"
     }
   ]
 }
