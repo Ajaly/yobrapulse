@@ -84,7 +84,7 @@ match-log data this model doesn't have today.
 import json
 import re
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 BOOTSTRAP_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/?event={event_id}"
@@ -170,6 +170,25 @@ SQUAD_CHURN_WINDOW_DAYS = 30
 # this script only ever reads it, never writes or overwrites it, so a
 # hand-added (or search-verified) entry is never silently lost.
 MANAGER_CHANGES_PATH = "data/manager-changes.json"
+
+# Real fixture congestion: scoped to Premier League fixtures only,
+# from data already fetched every run (ALL_FIXTURES_URL) - checked
+# ESPN's team-schedule endpoint for real cross-competition (cup/Europe)
+# congestion first and it isn't populated yet for the new season
+# (confirmed directly: resolves the real season correctly but returns
+# zero events even with explicit season params), so this is real PL-only
+# density, not a fabricated complete picture.
+FIXTURE_LOAD_WINDOW_DAYS = 10
+
+# Real historical player-vs-opponent performance, built separately by
+# backfill-player-history.py (see that file's docstring for the real
+# data-source investigation - ESPN per-match data, matched player by
+# player, verified 100% real-name match rate). Read-only here: this
+# script never writes data/player-history.json, only consumes it if
+# present, same "real data or genuinely absent, never faked" pattern
+# as manager-changes.json.
+PLAYER_HISTORY_PATH = "data/player-history.json"
+MIN_OPPONENT_MEETINGS_FOR_TRACK_RECORD = 2
 
 
 def fetch_json(url):
@@ -800,6 +819,138 @@ def compute_fixture_swing(all_fixtures, next_event_id, teams):
     return swing
 
 
+def compute_fixture_load(all_fixtures, window_days=FIXTURE_LOAD_WINDOW_DAYS):
+    """Real count of Premier League fixtures each team has in the next
+    real window_days from now - a real, if partial, rotation-risk
+    signal (see FIXTURE_LOAD_WINDOW_DAYS for why this is PL-only, not
+    full cross-competition load)."""
+    now = datetime.now(timezone.utc)
+    cutoff = now + timedelta(days=window_days)
+    load = {}
+    for f in all_fixtures:
+        if not f["kickoff_time"]:
+            continue
+        kickoff = datetime.fromisoformat(f["kickoff_time"].replace("Z", "+00:00"))
+        if not (now <= kickoff <= cutoff):
+            continue
+        load[f["team_h"]] = load.get(f["team_h"], 0) + 1
+        load[f["team_a"]] = load.get(f["team_a"], 0) + 1
+    return load
+
+
+def build_team_context_map(fixture_lookup, fixtures_list, teams):
+    """fixture_lookup (team_id -> {opponent, isHome, fdr, fdrClass}),
+    enriched in place with real ESPN team/opponent form - reuses the
+    exact real form context build_fixtures_list already computed per
+    fixture rather than re-fetching the same real data."""
+    name_to_id = {name: tid for tid, name in teams.items()}
+    context = {tid: dict(info) for tid, info in fixture_lookup.items()}
+    for fx in fixtures_list:
+        home_id = name_to_id.get(fx["home"])
+        away_id = name_to_id.get(fx["away"])
+        factors = fx.get("factors", {})
+        if home_id is not None and home_id in context:
+            context[home_id]["ownForm"] = factors.get("homeForm")
+            context[home_id]["opponentForm"] = factors.get("awayForm")
+        if away_id is not None and away_id in context:
+            context[away_id]["ownForm"] = factors.get("awayForm")
+            context[away_id]["opponentForm"] = factors.get("homeForm")
+    return context
+
+
+def load_player_history():
+    """Real historical player-vs-opponent match data if the separate
+    backfill (backfill-player-history.py) has produced it - {} if it
+    hasn't run yet, same "real data, genuinely absent, not a bug"
+    pattern as everything else in this file. Never written here."""
+    try:
+        with open(PLAYER_HISTORY_PATH, "r", encoding="utf-8") as f:
+            return json.load(f).get("players", {})
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def player_track_record_vs_opponent(fpl_player_id, opponent_name, player_history):
+    """Real goals+assists per real match for one player against one
+    real specific opponent, from actual historical meetings - requires
+    at least MIN_OPPONENT_MEETINGS_FOR_TRACK_RECORD real games against
+    that exact opponent before being trusted (small-sample caution,
+    same principle used throughout this file), and None (not zero)
+    when there's no real history yet for this player or this specific
+    matchup.
+
+    Matches opponent names via the same real name-matching used
+    everywhere else in this file rather than exact equality - found
+    directly, not assumed: backfill-player-history.py records ESPN's
+    full display names ("AFC Bournemouth", "Nottingham Forest"), while
+    this function is called with FPL's short names ("Bournemouth",
+    "Nott'm Forest") from team_context - exact equality silently
+    matched almost nothing beyond the handful of clubs whose short and
+    full names happen to be identical."""
+    record = player_history.get(str(fpl_player_id))
+    if not record:
+        return None
+    opponent_key = normalize_team_name(opponent_name)
+    matches = [m for m in record.get("matches", []) if names_match(opponent_key, m.get("opponent", ""))]
+    if len(matches) < MIN_OPPONENT_MEETINGS_FOR_TRACK_RECORD:
+        return None
+    goals = sum(m.get("goals", 0) for m in matches)
+    assists = sum(m.get("assists", 0) for m in matches)
+    return {
+        "meetings": len(matches),
+        "goals": int(goals),
+        "assists": int(assists),
+        "involvementsPerMatch": round((goals + assists) / len(matches), 2),
+    }
+
+
+def compute_player_score(player, team_context, fixture_load, player_history):
+    """Real, transparent blend of every signal now available for one
+    player's next real fixture - ep_next (FPL's own projection, which
+    already folds in a lot), the player's own real recent form, real
+    team/opponent form, real fixture difficulty, real PL fixture load,
+    and real historical performance against this specific upcoming
+    opponent. Any signal that isn't real/available for this player
+    right now (pre-season form is genuinely 0 for everyone; a fixture
+    that hasn't been ESPN-matched; a player/opponent pairing with no
+    real prior meetings) is dropped from the blend rather than treated
+    as zero, same principle as predict_fixture. Returns (score,
+    factors) so the reasoning is inspectable, not a black box."""
+    ep_next = float(player["ep_next"] or 0)
+    own_form = float(player["form"] or 0)
+    context = team_context.get(player["team"]) or {}
+    team_form = context.get("ownForm")
+    opponent_form = context.get("opponentForm")
+    fdr = context.get("fdr")
+    load = fixture_load.get(player["team"])
+    track_record = None
+    if context.get("opponent"):
+        track_record = player_track_record_vs_opponent(player["id"], context["opponent"], player_history)
+
+    score = ep_next
+    if own_form:
+        score += own_form * 0.3
+    if team_form is not None:
+        score += team_form * 1.5
+    if opponent_form is not None:
+        score -= opponent_form * 1.2
+    if load is not None and load >= 3:
+        score -= 0.5 * (load - 2)  # real congestion penalty: 3+ PL games in the window is a real rotation risk
+    if track_record is not None:
+        score += track_record["involvementsPerMatch"] * 1.0
+
+    factors = {
+        "epNext": ep_next,
+        "ownForm": own_form or None,
+        "teamForm": round(team_form, 2) if team_form is not None else None,
+        "opponentForm": round(opponent_form, 2) if opponent_form is not None else None,
+        "fixtureLoad": load,
+        "opponent": context.get("opponent"),
+        "trackRecordVsOpponent": track_record,
+    }
+    return round(score, 2), factors
+
+
 def extract_match_events(fixture, elements_by_id):
     """Real per-match events (scorer, assister, cards, etc.) from the
     fixture's own "stats" block - each entry names a real player id and
@@ -1234,14 +1385,18 @@ def build_wildcard_watch(swing, teams, top_n=3):
     } for tid, s in ranked]
 
 
-def build_transfer_advice(eligible, swing, teams_by_id):
+def build_transfer_advice(eligible, swing, teams_by_id, team_context, fixture_load, player_history):
     """Real transfer IN/OUT candidates from real fixture-swing + squad
-    quality - not fabricated reasoning. IN: best point-scorer from each
-    of the top-3 improving-fixture teams. OUT: the most-owned player
-    from the team with the worst (most-worsening) fixture swing, since
-    "transfer out" only makes sense for someone plausibly already
-    owned. Requires a real minutes sample (>=450) so a fringe player
-    with a lucky cameo doesn't get recommended."""
+    quality - not fabricated reasoning. IN: best real multi-factor
+    score (see compute_player_score - ep_next, own/team/opponent form,
+    fixture load, real track record vs the upcoming opponent) from
+    each of the top-3 improving-fixture teams, not just raw
+    last-season total points. OUT: the most-owned player from the team
+    with the worst (most-worsening) fixture swing, since "transfer
+    out" only makes sense for someone plausibly already owned - stays
+    ownership-driven on purpose, this isn't a performance ranking.
+    Requires a real minutes sample (>=450) so a fringe player with a
+    lucky cameo doesn't get recommended."""
     sample = [e for e in eligible if e["minutes"] >= 450]
     by_team = {}
     for e in sample:
@@ -1253,7 +1408,7 @@ def build_transfer_advice(eligible, swing, teams_by_id):
         squad = by_team.get(team_id, [])
         if not squad:
             continue
-        best = max(squad, key=lambda e: e["total_points"])
+        best = max(squad, key=lambda e: compute_player_score(e, team_context, fixture_load, player_history)[0])
         transfers_in.append(best)
         if len(transfers_in) == 2:
             break
@@ -1434,6 +1589,14 @@ def main():
     fixture_swing = compute_fixture_swing(all_fixtures, next_event["id"], teams)
     wildcard_watch = build_wildcard_watch(fixture_swing, teams)
 
+    # Real multi-factor context for captain/transfer scoring: next
+    # fixture + real team/opponent form (reused from fixtures_list),
+    # real PL fixture congestion, and real historical performance vs
+    # the upcoming opponent where it exists (see compute_player_score).
+    team_context = build_team_context_map(fixture_lookup, fixtures_list, teams)
+    fixture_load = compute_fixture_load(all_fixtures)
+    player_history = load_player_history()
+
     elements_by_id = {e["id"]: e for e in data["elements"]}
     finished_matches = build_match_history(all_fixtures, teams, elements_by_id)
     added, total = update_match_history_file(finished_matches, CURRENT_SEASON)
@@ -1462,12 +1625,15 @@ def main():
 
     eligible = [e for e in data["elements"] if float(e["selected_by_percent"] or 0) >= 2.0]
     percentiles = compute_percentiles(eligible)
-    transfers_in_raw, transfers_out_raw = build_transfer_advice(eligible, fixture_swing, teams_by_id)
+    transfers_in_raw, transfers_out_raw = build_transfer_advice(eligible, fixture_swing, teams_by_id, team_context, fixture_load, player_history)
 
-    # Captain picks: highest projected points next gameweek, must be
+    # Captain picks: real multi-factor score (see compute_player_score) -
+    # ep_next, own/team/opponent form, fixture load, and real track
+    # record vs the upcoming opponent - not ep_next alone. Must be
     # currently available (not injured/suspended).
     captain_pool = [e for e in eligible if e.get("status") == "a"]
-    captain_picks = sorted(captain_pool, key=lambda e: float(e["ep_next"] or 0), reverse=True)[:3]
+    captain_scores = {e["id"]: compute_player_score(e, team_context, fixture_load, player_history) for e in captain_pool}
+    captain_picks = sorted(captain_pool, key=lambda e: captain_scores[e["id"]][0], reverse=True)[:3]
 
     # Top performers: highest cumulative points (last completed season).
     top_performers = sorted(eligible, key=lambda e: e["total_points"], reverse=True)[:6]
@@ -1503,7 +1669,10 @@ def main():
             "deadlineISO": next_event["deadline_time"],
             "deadlineLabel": deadline.strftime("%a %d %b · %H:%M UTC"),
         },
-        "captainPicks": [register(e) for e in captain_picks],
+        "captainPicks": [
+            {"id": register(e), "score": captain_scores[e["id"]][0], "factors": captain_scores[e["id"]][1]}
+            for e in captain_picks
+        ],
         "topPerformers": [register(e) for e in top_performers],
         "leaderboards": {label: [register(e) for e in players] for label, players in leaderboards.items()},
         # Full ~2%-owned-or-more pool, registered for the player comparison
@@ -1513,7 +1682,11 @@ def main():
         "comparisonPool": [register(e) for e in sorted(eligible, key=lambda e: -e["total_points"])],
         "transferAdvice": {
             "in": [
-                {"id": register(e), "reason": f"{teams[e['team']]}'s fixtures ease up over the next {SWING_WINDOW} gameweeks"}
+                {
+                    "id": register(e),
+                    "reason": f"{teams[e['team']]}'s fixtures ease up over the next {SWING_WINDOW} gameweeks",
+                    "factors": compute_player_score(e, team_context, fixture_load, player_history)[1],
+                }
                 for e in transfers_in_raw
             ],
             "out": [

@@ -220,6 +220,20 @@ function teamSpan(name) {
   return `<span class="${isFavorite ? 'favorite-team' : ''}">${name}</span>`;
 }
 
+function playerFactorsTitle(factors) {
+  if (!factors) return '';
+  const parts = [`Projected ${factors.epNext.toFixed(1)} pts`];
+  if (factors.ownForm !== null && factors.ownForm !== undefined) parts.push(`own form ${factors.ownForm.toFixed(1)}`);
+  if (factors.teamForm !== null && factors.teamForm !== undefined) parts.push(`team form ${Math.round(factors.teamForm * 100)}%`);
+  if (factors.opponentForm !== null && factors.opponentForm !== undefined) parts.push(`${factors.opponent || 'opponent'} form ${Math.round(factors.opponentForm * 100)}%`);
+  if (factors.fixtureLoad !== null && factors.fixtureLoad !== undefined) parts.push(`${factors.fixtureLoad} real PL fixture${factors.fixtureLoad === 1 ? '' : 's'} in next 10 days`);
+  if (factors.trackRecordVsOpponent) {
+    const tr = factors.trackRecordVsOpponent;
+    parts.push(`real record vs ${factors.opponent}: ${tr.goals}G ${tr.assists}A across ${tr.meetings} real meetings`);
+  }
+  return parts.join(' · ');
+}
+
 function predictChip(f) {
   const max = Math.max(f.homeWinPct, f.drawPct, f.awayWinPct);
   let label = 'Draw';
@@ -710,13 +724,13 @@ fetch('data/fpl.json')
 
     const captainList = document.querySelector('#captain-list');
     if (captainList && data.captainPicks.length) {
-      captainList.innerHTML = data.captainPicks.map((id, i) => {
-        const p = data.players[id];
-        return `<article class="captain-row${i === 0 ? ' top-pick' : ''}" data-player="fpl-${id}" tabindex="0" role="button" aria-label="View ${p.name}">
+      captainList.innerHTML = data.captainPicks.map((cp, i) => {
+        const p = data.players[cp.id];
+        return `<article class="captain-row${i === 0 ? ' top-pick' : ''}" data-player="fpl-${cp.id}" tabindex="0" role="button" aria-label="View ${p.name}">
           <span class="captain-rank">${i + 1}</span>
           <div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.team} · ${p.position}</small></strong></div>
           <div class="captain-reason"><small>${p.fixture || ''}</small><span class="fixture-tag ${p.fdrClass || 'easy'}">FDR ${p.fdr || '-'}</span></div>
-          <strong class="captain-score">${p.epNext.toFixed(1)}</strong>
+          <strong class="captain-score" title="${playerFactorsTitle(cp.factors)}">${cp.score.toFixed(1)}</strong>
         </article>`;
       }).join('');
       bindPlayerTriggers(captainList);
@@ -728,7 +742,7 @@ fetch('data/fpl.json')
     if (transferList && data.transferAdvice && (data.transferAdvice.in.length || data.transferAdvice.out.length)) {
       const inRows = data.transferAdvice.in.map((item) => {
         const p = data.players[item.id];
-        return `<article class="transfer-row" data-player="fpl-${item.id}" tabindex="0" role="button" aria-label="View ${p.name}">
+        return `<article class="transfer-row" data-player="fpl-${item.id}" tabindex="0" role="button" aria-label="View ${p.name}" title="${playerFactorsTitle(item.factors)}">
           <span class="transfer-tag in">IN</span>
           <div class="player-cell"><div class="player-avatar ${p.avatarClass}">${p.avatar}</div><strong>${p.shortName}<small>${p.team} · ${p.position}</small></strong></div>
           <div class="transfer-meta"><small>${p.price}</small><span class="positive"><i data-lucide="trending-up"></i> ${item.reason}</span></div>

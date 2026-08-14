@@ -1,0 +1,797 @@
+{
+  "generatedAt": "2026-08-14T20:00:54.287413+00:00",
+  "players": {
+    "1": {
+      "espnAthleteId": "196176",
+      "espnTeamId": "359",
+      "name": "Raya",
+      "matchType": "second-name-unique"
+    },
+    "4": {
+      "espnAthleteId": "236322",
+      "espnTeamId": "359",
+      "name": "Gabriel",
+      "matchType": "second-name-unique"
+    },
+    "8": {
+      "espnAthleteId": "298329",
+      "espnTeamId": "359",
+      "name": "Calafiori",
+      "matchType": "full-name-exact"
+    },
+    "9": {
+      "espnAthleteId": "292062",
+      "espnTeamId": "359",
+      "name": "Hincapie",
+      "matchType": "full-name-exact"
+    },
+    "11": {
+      "espnAthleteId": "328497",
+      "espnTeamId": "359",
+      "name": "Mosquera",
+      "matchType": "full-name-exact"
+    },
+    "12": {
+      "espnAthleteId": "280555",
+      "espnTeamId": "359",
+      "name": "Saka",
+      "matchType": "full-name-exact"
+    },
+    "13": {
+      "espnAthleteId": "238262",
+      "espnTeamId": "359",
+      "name": "Rice",
+      "matchType": "full-name-exact"
+    },
+    "14": {
+      "espnAthleteId": "251400",
+      "espnTeamId": "359",
+      "name": "Eze",
+      "matchType": "full-name-exact"
+    },
+    "15": {
+      "espnAthleteId": "203669",
+      "espnTeamId": "359",
+      "name": "\u00d8degaard",
+      "matchType": "full-name-exact"
+    },
+    "25": {
+      "espnAthleteId": "258906",
+      "espnTeamId": "359",
+      "name": "Gy\u00f6keres",
+      "matchType": "full-name-exact"
+    },
+    "26": {
+      "espnAthleteId": "231182",
+      "espnTeamId": "359",
+      "name": "Havertz",
+      "matchType": "full-name-exact"
+    },
+    "452": {
+      "espnAthleteId": "218522",
+      "espnTeamId": "359",
+      "name": "Bruno G.",
+      "matchType": "second-name-unique"
+    },
+    "557": {
+      "espnAthleteId": "303793",
+      "espnTeamId": "359",
+      "name": "Tzolis",
+      "matchType": "full-name-exact"
+    },
+    "28": {
+      "espnAthleteId": "158626",
+      "espnTeamId": "362",
+      "name": "Martinez",
+      "matchType": "second-name-unique"
+    },
+    "31": {
+      "espnAthleteId": "231859",
+      "espnTeamId": "362",
+      "name": "Konsa",
+      "matchType": "second-name-unique"
+    },
+    "32": {
+      "espnAthleteId": "234698",
+      "espnTeamId": "362",
+      "name": "Cash",
+      "matchType": "full-name-exact"
+    },
+    "45": {
+      "espnAthleteId": "162843",
+      "espnTeamId": "362",
+      "name": "McGinn",
+      "matchType": "full-name-exact"
+    },
+    "55": {
+      "espnAthleteId": "198825",
+      "espnTeamId": "362",
+      "name": "Watkins",
+      "matchType": "full-name-exact"
+    },
+    "57": {
+      "espnAthleteId": "289824",
+      "espnTeamId": "349",
+      "name": "Petrovi\u0107",
+      "matchType": "second-name-unique"
+    },
+    "58": {
+      "espnAthleteId": "93193",
+      "espnTeamId": "349",
+      "name": "Forster",
+      "matchType": "full-name-exact"
+    },
+    "61": {
+      "espnAthleteId": "305684",
+      "espnTeamId": "349",
+      "name": "Truffert",
+      "matchType": "full-name-exact"
+    },
+    "67": {
+      "espnAthleteId": "357719",
+      "espnTeamId": "349",
+      "name": "Rayan",
+      "matchType": "mononym-match"
+    },
+    "78": {
+      "espnAthleteId": "361809",
+      "espnTeamId": "349",
+      "name": "Kroupi.Jr",
+      "matchType": "full-name-exact"
+    },
+    "79": {
+      "espnAthleteId": "102368",
+      "espnTeamId": "349",
+      "name": "Evanilson",
+      "matchType": "mononym-match"
+    },
+    "82": {
+      "espnAthleteId": "275599",
+      "espnTeamId": "337",
+      "name": "Kelleher",
+      "matchType": "full-name-exact"
+    },
+    "84": {
+      "espnAthleteId": "279780",
+      "espnTeamId": "337",
+      "name": "Collins",
+      "matchType": "full-name-exact"
+    },
+    "88": {
+      "espnAthleteId": "356640",
+      "espnTeamId": "337",
+      "name": "Kayode",
+      "matchType": "full-name-exact"
+    },
+    "106": {
+      "espnAthleteId": "301894",
+      "espnTeamId": "337",
+      "name": "Thiago",
+      "matchType": "web-name-unique"
+    },
+    "109": {
+      "espnAthleteId": "291609",
+      "espnTeamId": "331",
+      "name": "Verbruggen",
+      "matchType": "full-name-exact"
+    },
+    "111": {
+      "espnAthleteId": "111114",
+      "espnTeamId": "331",
+      "name": "Steele",
+      "matchType": "full-name-exact"
+    },
+    "113": {
+      "espnAthleteId": "238318",
+      "espnTeamId": "331",
+      "name": "F.Kad\u0131o\u011flu",
+      "matchType": "full-name-exact"
+    },
+    "124": {
+      "espnAthleteId": "132659",
+      "espnTeamId": "331",
+      "name": "Gro\u00df",
+      "matchType": "full-name-exact"
+    },
+    "127": {
+      "espnAthleteId": "192278",
+      "espnTeamId": "331",
+      "name": "Gomez",
+      "matchType": "second-name-unique"
+    },
+    "504": {
+      "espnAthleteId": "364962",
+      "espnTeamId": "331",
+      "name": "Vuskovic",
+      "matchType": "full-name-exact"
+    },
+    "40": {
+      "espnAthleteId": "265653",
+      "espnTeamId": "363",
+      "name": "Rogers",
+      "matchType": "full-name-exact"
+    },
+    "136": {
+      "espnAthleteId": "115271",
+      "espnTeamId": "363",
+      "name": "Welbeck",
+      "matchType": "full-name-exact"
+    },
+    "140": {
+      "espnAthleteId": "108662",
+      "espnTeamId": "363",
+      "name": "S\u00e1nchez",
+      "matchType": "second-name-unique"
+    },
+    "142": {
+      "espnAthleteId": "189007",
+      "espnTeamId": "363",
+      "name": "James",
+      "matchType": "full-name-exact"
+    },
+    "152": {
+      "espnAthleteId": "362486",
+      "espnTeamId": "363",
+      "name": "Palestra",
+      "matchType": "full-name-exact"
+    },
+    "154": {
+      "espnAthleteId": "296395",
+      "espnTeamId": "363",
+      "name": "Palmer",
+      "matchType": "full-name-exact"
+    },
+    "155": {
+      "espnAthleteId": "285450",
+      "espnTeamId": "363",
+      "name": "Enzo",
+      "matchType": "full-name-exact"
+    },
+    "159": {
+      "espnAthleteId": "289877",
+      "espnTeamId": "363",
+      "name": "Caicedo",
+      "matchType": "second-name-unique"
+    },
+    "165": {
+      "espnAthleteId": "284960",
+      "espnTeamId": "363",
+      "name": "Jo\u00e3o Pedro",
+      "matchType": "mononym-match"
+    },
+    "200": {
+      "espnAthleteId": "265918",
+      "espnTeamId": "363",
+      "name": "Lacroix",
+      "matchType": "full-name-exact"
+    },
+    "171": {
+      "espnAthleteId": "291945",
+      "espnTeamId": "388",
+      "name": "Dovin",
+      "matchType": "full-name-exact"
+    },
+    "173": {
+      "espnAthleteId": "303931",
+      "espnTeamId": "388",
+      "name": "Thomas",
+      "matchType": "full-name-exact"
+    },
+    "175": {
+      "espnAthleteId": "281139",
+      "espnTeamId": "388",
+      "name": "van Ewijk",
+      "matchType": "full-name-exact"
+    },
+    "198": {
+      "espnAthleteId": "234172",
+      "espnTeamId": "384",
+      "name": "Henderson",
+      "matchType": "full-name-exact"
+    },
+    "201": {
+      "espnAthleteId": "146679",
+      "espnTeamId": "384",
+      "name": "Mu\u00f1oz",
+      "matchType": "second-name-unique"
+    },
+    "204": {
+      "espnAthleteId": "300853",
+      "espnTeamId": "384",
+      "name": "Mitchell",
+      "matchType": "full-name-exact"
+    },
+    "208": {
+      "espnAthleteId": "241012",
+      "espnTeamId": "384",
+      "name": "Sarr",
+      "matchType": "full-name-exact"
+    },
+    "212": {
+      "espnAthleteId": "168421",
+      "espnTeamId": "384",
+      "name": "Hughes",
+      "matchType": "full-name-exact"
+    },
+    "223": {
+      "espnAthleteId": "241187",
+      "espnTeamId": "384",
+      "name": "Mateta",
+      "matchType": "full-name-exact"
+    },
+    "226": {
+      "espnAthleteId": "159443",
+      "espnTeamId": "368",
+      "name": "Pickford",
+      "matchType": "full-name-exact"
+    },
+    "229": {
+      "espnAthleteId": "155226",
+      "espnTeamId": "368",
+      "name": "Tarkowski",
+      "matchType": "full-name-exact"
+    },
+    "236": {
+      "espnAthleteId": "252389",
+      "espnTeamId": "368",
+      "name": "Dewsbury-Hall",
+      "matchType": "full-name-exact"
+    },
+    "237": {
+      "espnAthleteId": "268641",
+      "espnTeamId": "368",
+      "name": "Ndiaye",
+      "matchType": "full-name-exact"
+    },
+    "248": {
+      "espnAthleteId": "289511",
+      "espnTeamId": "368",
+      "name": "Beto",
+      "matchType": "mononym-match"
+    },
+    "250": {
+      "espnAthleteId": "153765",
+      "espnTeamId": "370",
+      "name": "Leno",
+      "matchType": "full-name-exact"
+    },
+    "254": {
+      "espnAthleteId": "222396",
+      "espnTeamId": "370",
+      "name": "Robinson",
+      "matchType": "full-name-exact"
+    },
+    "272": {
+      "espnAthleteId": "369363",
+      "espnTeamId": "370",
+      "name": "Kusi-Asare",
+      "matchType": "full-name-exact"
+    },
+    "273": {
+      "espnAthleteId": "191603",
+      "espnTeamId": "306",
+      "name": "Phillips",
+      "matchType": "full-name-exact"
+    },
+    "290": {
+      "espnAthleteId": "249851",
+      "espnTeamId": "306",
+      "name": "Slater",
+      "matchType": "full-name-exact"
+    },
+    "298": {
+      "espnAthleteId": "317076",
+      "espnTeamId": "306",
+      "name": "Destan",
+      "matchType": "full-name-exact"
+    },
+    "556": {
+      "espnAthleteId": "192929",
+      "espnTeamId": "306",
+      "name": "Targett",
+      "matchType": "full-name-exact"
+    },
+    "259": {
+      "espnAthleteId": "230963",
+      "espnTeamId": "373",
+      "name": "Diop",
+      "matchType": "full-name-exact"
+    },
+    "301": {
+      "espnAthleteId": "219390",
+      "espnTeamId": "373",
+      "name": "Palmer",
+      "matchType": "full-name-exact"
+    },
+    "304": {
+      "espnAthleteId": "243440",
+      "espnTeamId": "373",
+      "name": "O'Shea",
+      "matchType": "full-name-exact"
+    },
+    "305": {
+      "espnAthleteId": "283086",
+      "espnTeamId": "373",
+      "name": "Davis",
+      "matchType": "full-name-exact"
+    },
+    "321": {
+      "espnAthleteId": "330045",
+      "espnTeamId": "373",
+      "name": "Walle Egeli",
+      "matchType": "full-name-exact"
+    },
+    "260": {
+      "espnAthleteId": "194801",
+      "espnTeamId": "357",
+      "name": "Wilson",
+      "matchType": "full-name-exact"
+    },
+    "329": {
+      "espnAthleteId": "232325",
+      "espnTeamId": "357",
+      "name": "Rodon",
+      "matchType": "full-name-exact"
+    },
+    "346": {
+      "espnAthleteId": "197717",
+      "espnTeamId": "357",
+      "name": "Calvert-Lewin",
+      "matchType": "full-name-exact"
+    },
+    "385": {
+      "espnAthleteId": "307118",
+      "espnTeamId": "357",
+      "name": "Trafford",
+      "matchType": "full-name-exact"
+    },
+    "350": {
+      "espnAthleteId": "196876",
+      "espnTeamId": "364",
+      "name": "A.Becker",
+      "matchType": "full-name-exact"
+    },
+    "356": {
+      "espnAthleteId": "157892",
+      "espnTeamId": "364",
+      "name": "Virgil",
+      "matchType": "full-name-exact"
+    },
+    "357": {
+      "espnAthleteId": "281119",
+      "espnTeamId": "364",
+      "name": "Frimpong",
+      "matchType": "full-name-exact"
+    },
+    "358": {
+      "espnAthleteId": "323110",
+      "espnTeamId": "364",
+      "name": "Kerkez",
+      "matchType": "full-name-exact"
+    },
+    "366": {
+      "espnAthleteId": "303748",
+      "espnTeamId": "364",
+      "name": "Wirtz",
+      "matchType": "full-name-exact"
+    },
+    "367": {
+      "espnAthleteId": "249524",
+      "espnTeamId": "364",
+      "name": "Gakpo",
+      "matchType": "full-name-exact"
+    },
+    "368": {
+      "espnAthleteId": "257206",
+      "espnTeamId": "364",
+      "name": "Szoboszlai",
+      "matchType": "full-name-exact"
+    },
+    "371": {
+      "espnAthleteId": "274632",
+      "espnTeamId": "364",
+      "name": "Gravenberch",
+      "matchType": "full-name-exact"
+    },
+    "379": {
+      "espnAthleteId": "235662",
+      "espnTeamId": "364",
+      "name": "Isak",
+      "matchType": "full-name-exact"
+    },
+    "384": {
+      "espnAthleteId": "217092",
+      "espnTeamId": "382",
+      "name": "Donnarumma",
+      "matchType": "full-name-exact"
+    },
+    "387": {
+      "espnAthleteId": "328464",
+      "espnTeamId": "382",
+      "name": "O'Reilly",
+      "matchType": "full-name-exact"
+    },
+    "388": {
+      "espnAthleteId": "265907",
+      "espnTeamId": "382",
+      "name": "Gu\u00e9hi",
+      "matchType": "full-name-exact"
+    },
+    "389": {
+      "espnAthleteId": "303785",
+      "espnTeamId": "382",
+      "name": "Matheus N.",
+      "matchType": "full-name-exact"
+    },
+    "391": {
+      "espnAthleteId": "299910",
+      "espnTeamId": "382",
+      "name": "Gvardiol",
+      "matchType": "full-name-exact"
+    },
+    "393": {
+      "espnAthleteId": "362211",
+      "espnTeamId": "382",
+      "name": "Khusanov",
+      "matchType": "full-name-exact"
+    },
+    "397": {
+      "espnAthleteId": "273292",
+      "espnTeamId": "382",
+      "name": "Semenyo",
+      "matchType": "full-name-exact"
+    },
+    "398": {
+      "espnAthleteId": "250787",
+      "espnTeamId": "382",
+      "name": "Foden",
+      "matchType": "full-name-exact"
+    },
+    "399": {
+      "espnAthleteId": "298008",
+      "espnTeamId": "382",
+      "name": "Cherki",
+      "matchType": "full-name-exact"
+    },
+    "400": {
+      "espnAthleteId": "283672",
+      "espnTeamId": "382",
+      "name": "Doku",
+      "matchType": "full-name-exact"
+    },
+    "411": {
+      "espnAthleteId": "253989",
+      "espnTeamId": "382",
+      "name": "Haaland",
+      "matchType": "full-name-exact"
+    },
+    "481": {
+      "espnAthleteId": "238472",
+      "espnTeamId": "382",
+      "name": "Anderson",
+      "matchType": "full-name-exact"
+    },
+    "412": {
+      "espnAthleteId": "301425",
+      "espnTeamId": "360",
+      "name": "Lammens",
+      "matchType": "full-name-exact"
+    },
+    "417": {
+      "espnAthleteId": "238902",
+      "espnTeamId": "360",
+      "name": "Dalot",
+      "matchType": "second-name-unique"
+    },
+    "418": {
+      "espnAthleteId": "157073",
+      "espnTeamId": "360",
+      "name": "Maguire",
+      "matchType": "full-name-exact"
+    },
+    "423": {
+      "espnAthleteId": "167127",
+      "espnTeamId": "360",
+      "name": "Shaw",
+      "matchType": "full-name-exact"
+    },
+    "426": {
+      "espnAthleteId": "124091",
+      "espnTeamId": "360",
+      "name": "B.Fernandes",
+      "matchType": "second-name-unique"
+    },
+    "427": {
+      "espnAthleteId": "271170",
+      "espnTeamId": "360",
+      "name": "Mbeumo",
+      "matchType": "full-name-exact"
+    },
+    "428": {
+      "espnAthleteId": "259902",
+      "espnTeamId": "360",
+      "name": "Cunha",
+      "matchType": "web-name-unique"
+    },
+    "439": {
+      "espnAthleteId": "289155",
+      "espnTeamId": "360",
+      "name": "\u0160e\u0161ko",
+      "matchType": "full-name-exact"
+    },
+    "445": {
+      "espnAthleteId": "303444",
+      "espnTeamId": "361",
+      "name": "Thiaw",
+      "matchType": "full-name-exact"
+    },
+    "448": {
+      "espnAthleteId": "198138",
+      "espnTeamId": "361",
+      "name": "Burn",
+      "matchType": "full-name-exact"
+    },
+    "449": {
+      "espnAthleteId": "106139",
+      "espnTeamId": "361",
+      "name": "Hall",
+      "matchType": "full-name-exact"
+    },
+    "469": {
+      "espnAthleteId": "291638",
+      "espnTeamId": "393",
+      "name": "N.Williams",
+      "matchType": "full-name-exact"
+    },
+    "471": {
+      "espnAthleteId": "238990",
+      "espnTeamId": "393",
+      "name": "Milenkovi\u0107",
+      "matchType": "full-name-exact"
+    },
+    "473": {
+      "espnAthleteId": "206227",
+      "espnTeamId": "393",
+      "name": "Aina",
+      "matchType": "full-name-exact"
+    },
+    "480": {
+      "espnAthleteId": "243396",
+      "espnTeamId": "393",
+      "name": "Gibbs-White",
+      "matchType": "full-name-exact"
+    },
+    "489": {
+      "espnAthleteId": "241253",
+      "espnTeamId": "393",
+      "name": "Yates",
+      "matchType": "full-name-exact"
+    },
+    "491": {
+      "espnAthleteId": "287869",
+      "espnTeamId": "393",
+      "name": "Igor Jesus",
+      "matchType": "mononym-match"
+    },
+    "112": {
+      "espnAthleteId": "282583",
+      "espnTeamId": "367",
+      "name": "Van Hecke",
+      "matchType": "full-name-exact"
+    },
+    "455": {
+      "espnAthleteId": "261047",
+      "espnTeamId": "367",
+      "name": "Tonali",
+      "matchType": "full-name-exact"
+    },
+    "496": {
+      "espnAthleteId": "324393",
+      "espnTeamId": "367",
+      "name": "Kinsky",
+      "matchType": "full-name-exact"
+    },
+    "497": {
+      "espnAthleteId": "126703",
+      "espnTeamId": "367",
+      "name": "Dubravka",
+      "matchType": "full-name-exact"
+    },
+    "498": {
+      "espnAthleteId": "233945",
+      "espnTeamId": "367",
+      "name": "Senesi",
+      "matchType": "second-name-unique"
+    },
+    "499": {
+      "espnAthleteId": "268533",
+      "espnTeamId": "367",
+      "name": "Pedro Porro",
+      "matchType": "second-name-unique"
+    },
+    "502": {
+      "espnAthleteId": "104943",
+      "espnTeamId": "367",
+      "name": "Robertson",
+      "matchType": "second-name-unique"
+    },
+    "503": {
+      "espnAthleteId": "296512",
+      "espnTeamId": "367",
+      "name": "Van de Ven",
+      "matchType": "full-name-exact"
+    },
+    "505": {
+      "espnAthleteId": "267711",
+      "espnTeamId": "367",
+      "name": "Spence",
+      "matchType": "full-name-exact"
+    },
+    "525": {
+      "espnAthleteId": "346820",
+      "espnTeamId": "367",
+      "name": "Fernandes",
+      "matchType": "full-name-exact"
+    },
+    "526": {
+      "espnAthleteId": "194115",
+      "espnTeamId": "367",
+      "name": "Solanke",
+      "matchType": "second-name-unique"
+    },
+    "527": {
+      "espnAthleteId": "156799",
+      "espnTeamId": "367",
+      "name": "Richarlison",
+      "matchType": "mononym-match"
+    },
+    "529": {
+      "espnAthleteId": "301449",
+      "espnTeamId": "366",
+      "name": "Roefs",
+      "matchType": "full-name-exact"
+    },
+    "532": {
+      "espnAthleteId": "282645",
+      "espnTeamId": "366",
+      "name": "Ballard",
+      "matchType": "second-name-unique"
+    },
+    "533": {
+      "espnAthleteId": "214188",
+      "espnTeamId": "366",
+      "name": "Mukiele",
+      "matchType": "full-name-exact"
+    },
+    "534": {
+      "espnAthleteId": "290207",
+      "espnTeamId": "366",
+      "name": "Hume",
+      "matchType": "full-name-exact"
+    },
+    "539": {
+      "espnAthleteId": "191574",
+      "espnTeamId": "366",
+      "name": "O'Nien",
+      "matchType": "full-name-exact"
+    },
+    "542": {
+      "espnAthleteId": "288340",
+      "espnTeamId": "366",
+      "name": "E.Le F\u00e9e",
+      "matchType": "full-name-exact"
+    },
+    "544": {
+      "espnAthleteId": "149981",
+      "espnTeamId": "366",
+      "name": "Xhaka",
+      "matchType": "full-name-exact"
+    },
+    "552": {
+      "espnAthleteId": "282229",
+      "espnTeamId": "366",
+      "name": "Brobbey",
+      "matchType": "full-name-exact"
+    }
+  }
+}
