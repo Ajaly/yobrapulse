@@ -1,12 +1,39 @@
 {
-  "generatedAt": "2026-08-14T20:24:21.182290+00:00",
+  "generatedAt": "2026-08-14T21:19:11.646062+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Wolves STUNNED! Andri Gudjohnsen silences Molineux as Rovers take lead!",
+      "title": "Jimenez salvages point for Wolves on Molineux return",
+      "description": "Raul Jimenez scored a stoppage-time equaliser from the penalty spot on his return to Molineux to salvage a 2-2 draw for Wolves against Blackburn.",
+      "link": "https://www.skysports.com/football/wolverhampton-wanderers-vs-blackburn-rovers/report/560498",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T22:00:00+00:00"
+    },
+    {
+      "title": "LATE DRAMA! Wolves hero Jimenez levels game after controversial penalty call",
+      "description": "Blackburn Rovers concede a penalty in stoppage-time for a handball call right on the edge of the box, as Wolves' Raul Jimenez stepped up to convert the spot kick.",
+      "link": "https://www.skysports.com/watch/video/13573172/wolves-vs-blackburn-late-drama-raul-jimenez-levels-game-after-dramatic-penalty-call",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T22:00:00+00:00"
+    },
+    {
+      "title": "Arsenal lead Hinshelwood race - Saturday's gossip",
+      "description": "Arsenal lead race for Jack Hinshelwood, Barcelona set to make third Rodri bid, Manchester United and Tottenham join Arsenal in discussing Victor Osimhen, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T21:14:10+00:00"
+    },
+    {
+      "title": "Wolves STUNNED! Gudjohnsen silences Molineux as Rovers take lead!",
       "description": "Andri Gudjohnsen silences Molineux as Blackburn Rovers take the lead over Wolves.",
       "link": "https://www.skysports.com/watch/video/13573160/wolves-vs-blackburn-andri-gudjohnsen-silences-molineux-as-rovers-take-the-lead",
       "source": "Sky Sports",
@@ -15,7 +42,7 @@
       "pubDateISO": "2026-08-14T21:12:00+00:00"
     },
     {
-      "title": "Super Giants storm into Hundred men's final with win over SunRisers",
+      "title": "Super Giants storm into Hundred men's final by beating SunRisers",
       "description": "The Manchester Super Giants set up a meeting with Trent Rockets in The Hundred final after beating SunRisers Leeds by 20 runs in the men's eliminator at The Kia Oval.",
       "link": "https://www.skysports.com/cricket/news/12040/13573109/the-hundred-manchester-super-giants-into-mens-final-with-eliminator-win-over-sunrisers-leeds-as-josh-tongue-and-paul-walter-star",
       "source": "Sky Sports",
@@ -78,40 +105,13 @@
       "pubDateISO": "2026-08-14T19:00:00+00:00"
     },
     {
-      "title": "Liverpool takeover Q&A: What do we know about Bezos' consortium?",
-      "description": "Liverpool's owners Fenway Sports Group have sold a stake in Liverpool Football Club to a consortium including Amazon founder Jeff Bezos.",
-      "link": "https://www.skysports.com/football/news/12040/13566630/liverpool-key-questions-answered-as-jeff-bezos-and-amit-bhatia-close-in-on-purchasing-strategic-minority-stake",
+      "title": "Crystal Palace latest: Club finalising deal for Gozo",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
       "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-14T18:00:00+00:00"
-    },
-    {
-      "title": "Gay bags pair in Test warm-up as Pakistan captain Babar suffers injury scare",
-      "description": "England opener Emilio Gay bagged a pair and Pakistan captain Babar Azam suffered an injury scare on an eventful second day of the Test match-warm up in Beckenham.",
-      "link": "https://www.skysports.com/cricket/news/12040/13573038/england-batter-emilio-gay-bags-second-duck-of-test-warm-up-as-pakistan-captain-babar-azam-suffers-injury-scare",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-14T18:00:00+00:00"
-    },
-    {
-      "title": "Teenage British cyclist Tarling dies after accident during Volta a Portugal",
-      "description": "British cyclist Finlay Tarling, 19, has died after a serious accident during the eighth stage of the&#160;Volta a Portugal road race.",
-      "link": "https://www.skysports.com/cycling/news/12040/13573056/british-cyclist-finlay-tarling-dies-aged-19-after-accident-during-eighth-stage-of-volta-a-portugal",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T17:52:00+00:00"
-    },
-    {
-      "title": "Man City miss Chelsea's deadline to bid for Fernandez",
-      "description": "The&#160;5pm Friday deadline set by&#160;Chelsea&#160;for&#160;Man City&#160;to make their bid for&#160;Enzo Fernandez&#160;has passed with no offer made for the midfielder.",
-      "link": "https://www.skysports.com/football/news/12040/13572838/enzo-fernandez-transfer-news-man-city-miss-chelseas-deadline-to-bid-for-midfielder",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T17:27:00+00:00"
     }
   ]
 }
