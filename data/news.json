@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-14T09:53:54.167028+00:00",
+  "generatedAt": "2026-08-14T10:52:39.455591+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Spurs agree \u00a330m deal with Inter for Spence",
+      "description": "Inter Milan have agreed a &#163;30m deal to sign England defender Djed Spence from Tottenham.",
+      "link": "https://www.skysports.com/football/news/12040/13572315/djed-spence-transfer-news-tottenham-and-inter-milan-agree-30m-deal-for-england-defender",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T11:00:00+00:00"
+    },
+    {
+      "title": "Australian rookie golfer dies aged 18 after brain haemorrhage",
+      "description": "Australian rookie professional golfer Jessica Bang has died at the age of 18 after suffering a brain haemorrhage.",
+      "link": "https://www.skysports.com/golf/news/12040/13572909/jessica-bang-australian-golfer-dies-aged-18-after-brain-haemorrhage",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T10:56:00+00:00"
+    },
+    {
+      "title": "Arsenal express interest in signing  Quansah",
+      "description": "Arsenal express an interest in signing Bayer Leverkusen and England defender Jarell Quansah.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9q92xr0854o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T10:35:26+00:00"
+    },
     {
       "title": "Arsenal in talks with Leverkusen over Quansah",
       "description": "Arsenal are in talks with Bayer Leverkusen over a possible deal for England defender Jarell Quansah.",
@@ -13,6 +40,60 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-14T10:28:00+00:00"
+    },
+    {
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T10:21:38+00:00"
+    },
+    {
+      "title": "European Cup winner Rimmer dies aged 78",
+      "description": "European Cup winner and former Aston Villa and Manchester United goalkeeper Jimmy Rimmer dies at the age of 78.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20eyww3vyro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T10:13:47+00:00"
+    },
+    {
+      "title": "Cherry-Evans opens up on Hull FC move: 'It's where the connections felt right'",
+      "description": "NRL legend Daly Cherry-Evans has opened up on his shock move to sign a one-year deal with Hull FC in the Super League in 2027 and says it is the club with which the \"connections felt right\".",
+      "link": "https://www.skysports.com/rugby-league/news/12040/13572891/daly-cherry-evans-nrl-legend-opens-up-on-hull-fc-move-its-where-the-connections-felt-right",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T10:10:00+00:00"
+    },
+    {
+      "title": "Rangers pull out of deal for PSV winger Driouech",
+      "description": "Rangers withdraw from a proposed deal to sign Couhaib Driouech from PSV Eindhoven, with the winger carrying an injury.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwyl368n7p3o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-14T10:05:02+00:00"
+    },
+    {
+      "title": "Liverpool's Lundgaard joins Eintracht Frankfurt",
+      "description": "Liverpool midfielder Sofie Lundgaard completes a permanent transfer to Eintracht Frankfurt for an undisclosed fee.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T10:00:53+00:00"
+    },
+    {
+      "title": "Liverpool's Lundgaard joins Eintracht Frankfurt",
+      "description": "Liverpool midfielder Sofie Lundgaard completes a permanent transfer to Eintracht Frankfurt for an undisclosed fee.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqlx1023wd3o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T10:00:53+00:00"
     },
     {
       "title": "Bowen: As long as West Ham get back to the PL, I don't care how we do it",
@@ -31,87 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-14T09:56:00+00:00"
-    },
-    {
-      "title": "European Cup winner Rimmer dies aged 78",
-      "description": "European Cup winner and former Aston Villa and Manchester United goalkeeper Jimmy Rimmer dies at the age of 78.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20eyww3vyro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T09:50:51+00:00"
-    },
-    {
-      "title": "Hammers & Boro to go up? Championship club-by-club preview",
-      "description": "BBC Sport correspondents take a closer look at the 24 teams taking part in the 2026-27 Championship season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy8edygyw02o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T09:06:36+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T09:03:36+00:00"
-    },
-    {
-      "title": "Titans & underdogs - League One club-by-club preview",
-      "description": "BBC Sport correspondents assess the strengths and weaknesses of all 24 teams competing in League One this season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgewydzqyjyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T09:02:33+00:00"
-    },
-    {
-      "title": "Salford champions? Millers to spiral? - League Two club-by-club preview",
-      "description": "BBC Sport correspondents assess the strengths and weaknesses of all 24 teams competing in League Two this season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2dy2112djo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T09:02:23+00:00"
-    },
-    {
-      "title": "Man City must act like champions as WSL rivals grow stronger",
-      "description": "Manchester City have bolstered their squad this summer - but will they have enough to defend their Women's Super League crown?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvgwkl58xgvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T08:33:42+00:00"
-    },
-    {
-      "title": "Man City must act like champions as WSL rivals grow stronger",
-      "description": "Manchester City have bolstered their squad this summer - but will they have enough to defend their Women's Super League crown?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvgwkl58xgvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T08:33:42+00:00"
-    },
-    {
-      "title": "Steelers rookie Allar stars as McCarthy beats Packers on debut",
-      "description": "Rookie Drew Allar starred in Mike McCarthy's first game as Pittsburgh Steelers head coach, throwing two touchdown passes and running for another in a 28-9 preseason win over the Green Bay Packers.",
-      "link": "https://www.skysports.com/nfl/news/12040/13572834/nfl-preseason-steelers-rookie-allar-stars-against-packers-as-mccarthy-era-starts-with-win",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T08:06:00+00:00"
-    },
-    {
-      "title": "The latest on transfers, Liverpool and Thomas Tuchel's England from the back pages",
-      "description": "Sky Sports News takes you through a selection of the back page headlines from Friday morning's papers.",
-      "link": "https://www.skysports.com/watch/video/13572832/paper-talk-the-latest-on-transfers-liverpool-and-tuchels-england",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T07:57:00+00:00"
     }
   ]
 }
