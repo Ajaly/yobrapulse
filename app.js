@@ -209,7 +209,93 @@ bindPlayerTriggers(document);
 
 if (playerModalClose) playerModalClose.addEventListener('click', closePlayerModal);
 if (playerModal) playerModal.addEventListener('click', (event) => { if (event.target === playerModal) closePlayerModal(); });
-document.addEventListener('keydown', (event) => { if (event.key === 'Escape') closePlayerModal(); });
+document.addEventListener('keydown', (event) => { if (event.key === 'Escape') closePlayerModal(); closeTeamModal(); });
+
+const teamModal = document.querySelector('#team-modal');
+const teamModalClose = document.querySelector('#team-modal-close');
+let lastTeamTrigger = null;
+
+function openTeamModal(teamName, data, triggerEl) {
+  const t = (data.teams || []).find((team) => team.name === teamName);
+  if (!t || !teamModal) return;
+  lastTeamTrigger = triggerEl;
+  document.querySelector('#tm-crest').textContent = t.shortName;
+  document.querySelector('#tm-crest').className = 'modal-avatar team-crest ' + (t.crestClass || '');
+  document.querySelector('#tm-name').textContent = t.name;
+  document.querySelector('#tm-meta').textContent = `Premier League${t.leagueRank ? ' · #' + t.leagueRank + ' rated' : ''}`;
+  document.querySelector('#tm-rating').textContent = t.squadRating === null ? 'New to PL' : t.squadRating.toFixed(2);
+  document.querySelector('#tm-size').textContent = t.squadSize;
+  document.querySelector('#tm-value').textContent = t.squadValue;
+  const formEl = document.querySelector('#tm-form');
+  if (t.form === null || t.form === undefined) {
+    formEl.innerHTML = '<i class="mid"></i><i class="mid"></i><i class="mid"></i><i class="mid"></i><i class="mid"></i>';
+  } else {
+    const level = t.form >= 0.6 ? 'high' : t.form >= 0.35 ? 'mid' : 'low';
+    formEl.innerHTML = Array(5).fill(`<i class="${level}"></i>`).join('');
+  }
+  document.querySelector('#tm-load').textContent = t.fixtureLoad ?? '-';
+  document.querySelector('#tm-strength-home').textContent = t.strengthHome ? `${t.strengthHome}/5` : '-';
+  document.querySelector('#tm-strength-away').textContent = t.strengthAway ? `${t.strengthAway}/5` : '-';
+
+  const changesEl = document.querySelector('#tm-changes');
+  const changesParts = [];
+  if (t.managerChange) changesParts.push(`New manager from ${t.managerChange.effectiveDate} (${t.managerChange.newManager})`);
+  if (t.recentTransfers && (t.recentTransfers.in || t.recentTransfers.out)) {
+    const bits = [];
+    if (t.recentTransfers.in) bits.push(`${t.recentTransfers.in} in`);
+    if (t.recentTransfers.out) bits.push(`${t.recentTransfers.out} out`);
+    changesParts.push(`${bits.join(', ')} real transfer(s), last ${t.recentTransfers.windowDays} days`);
+  }
+  if (changesParts.length) {
+    changesEl.textContent = changesParts.join(' · ');
+    changesEl.hidden = false;
+  } else {
+    changesEl.hidden = true;
+  }
+
+  const nextEl = document.querySelector('#tm-next');
+  nextEl.textContent = t.nextOpponent ? `${t.nextIsHome ? 'vs' : '@'} ${t.nextOpponent} · FDR ${t.nextFdr ?? '-'}` : 'Not yet scheduled';
+
+  const squadListEl = document.querySelector('#tm-squad-list');
+  const squad = t.squad || [];
+  squadListEl.innerHTML = squad.map((sp) => {
+    const richId = String(sp.id);
+    const hasCard = !!(data.players && data.players[richId]);
+    const attrs = hasCard ? `data-player="fpl-${richId}" tabindex="0" role="button"` : '';
+    return `<div class="modal-squad-row${hasCard ? ' clickable' : ''}" ${attrs}>
+      <strong>${sp.name}</strong>
+      <small>${sp.position}</small>
+    </div>`;
+  }).join('') || '<p class="lede" style="margin:0;font-size:12px">No real squad data yet.</p>';
+  bindPlayerTriggers(squadListEl);
+
+  teamModal.hidden = false;
+  document.body.classList.add('modal-open');
+  if (teamModalClose) teamModalClose.focus();
+  refreshIcons();
+}
+
+function closeTeamModal() {
+  if (!teamModal || teamModal.hidden) return;
+  teamModal.hidden = true;
+  document.body.classList.remove('modal-open');
+  if (lastTeamTrigger) lastTeamTrigger.focus();
+}
+
+function bindTeamTriggers(scope, data) {
+  scope.querySelectorAll('[data-team]').forEach((card) => {
+    card.addEventListener('click', () => openTeamModal(card.dataset.team, data, card));
+    card.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openTeamModal(card.dataset.team, data, card);
+      }
+    });
+  });
+}
+
+if (teamModalClose) teamModalClose.addEventListener('click', closeTeamModal);
+if (teamModal) teamModal.addEventListener('click', (event) => { if (event.target === teamModal) closeTeamModal(); });
 
 function getFavoriteTeams() {
   return JSON.parse(localStorage.getItem('yp-teams') || 'null') || [];
@@ -232,6 +318,21 @@ function playerFactorsTitle(factors) {
     parts.push(`real record vs ${factors.opponent}: ${tr.goals}G ${tr.assists}A across ${tr.meetings} real meetings`);
   }
   return parts.join(' · ');
+}
+
+function teamRecentChangesLine(t) {
+  const parts = [];
+  if (t.managerChange) {
+    parts.push(`New manager from ${t.managerChange.effectiveDate} (${t.managerChange.newManager})`);
+  }
+  if (t.recentTransfers && (t.recentTransfers.in || t.recentTransfers.out)) {
+    const bits = [];
+    if (t.recentTransfers.in) bits.push(`${t.recentTransfers.in} in`);
+    if (t.recentTransfers.out) bits.push(`${t.recentTransfers.out} out`);
+    parts.push(`${bits.join(', ')} (real transfers, last ${t.recentTransfers.windowDays}d)`);
+  }
+  if (!parts.length) return '';
+  return `<div class="recent-changes-note team-card-note">${parts.join(' · ')} <span class="muted">(context)</span></div>`;
 }
 
 function predictChip(f) {
@@ -382,21 +483,27 @@ fetch('data/fpl.json')
       });
       teamsGrid.innerHTML = sorted.map((t) => {
         const isFavorite = favorites.includes(t.name);
-        return `<article class="team-card${isFavorite ? ' favorited' : ''}" data-team="${t.name}">
+        const nextFixtureHtml = t.nextOpponent
+          ? `<div class="team-card-next"><span>${t.nextIsHome ? 'vs' : '@'} ${t.nextOpponent}</span><span class="fixture-tag ${t.nextFdrClass || 'mid'}">FDR ${t.nextFdr ?? '-'}</span></div>`
+          : '';
+        return `<article class="team-card${isFavorite ? ' favorited' : ''}" data-team="${t.name}" tabindex="0" role="button" aria-label="View ${t.name} squad">
           <div class="team-card-head">
             <span class="team-crest ${t.crestClass}">${t.shortName}</span>
             <div><strong>${t.name}</strong><small>Premier League${t.leagueRank ? ' · #' + t.leagueRank + ' rated' : ''}</small></div>
             ${isFavorite ? '<i data-lucide="sparkles" class="team-card-favorite"></i>' : ''}
           </div>
+          ${nextFixtureHtml}
           <div class="team-card-stats">
             <div><small>Squad rating</small><strong>${t.squadRating === null ? 'New to PL' : t.squadRating.toFixed(1)}</strong></div>
             <div><small>Squad size</small><strong>${t.squadSize}</strong></div>
             <div><small>Squad value</small><strong>${t.squadValue}</strong></div>
           </div>
+          ${teamRecentChangesLine(t)}
         </article>`;
       }).join('');
       const teamsBadge = document.querySelector('#teams-live-badge');
       if (teamsBadge) teamsBadge.hidden = false;
+      bindTeamTriggers(teamsGrid, data);
       refreshIcons();
     }
 

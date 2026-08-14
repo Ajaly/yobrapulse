@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T21:19:11.052860+00:00",
+  "generatedAt": "2026-08-14T21:22:02.815297+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -9,12 +9,12 @@
   "captainPicks": [
     {
       "id": "411",
-      "score": 4.5,
+      "score": 4.54,
       "factors": {
         "epNext": 4.0,
         "ownForm": null,
-        "teamForm": null,
-        "opponentForm": null,
+        "teamForm": 0.46,
+        "opponentForm": 0.54,
         "fixtureLoad": 1,
         "opponent": "Bournemouth",
         "trackRecordVsOpponent": {
@@ -26,26 +26,26 @@
       }
     },
     {
-      "id": "1",
-      "score": 4.0,
+      "id": "426",
+      "score": 4.29,
       "factors": {
         "epNext": 4.0,
         "ownForm": null,
-        "teamForm": null,
-        "opponentForm": null,
+        "teamForm": 0.7,
+        "opponentForm": 0.63,
         "fixtureLoad": 1,
-        "opponent": "Coventry City",
+        "opponent": "Hull City",
         "trackRecordVsOpponent": null
       }
     },
     {
-      "id": "4",
-      "score": 4.0,
+      "id": "1",
+      "score": 3.91,
       "factors": {
         "epNext": 4.0,
         "ownForm": null,
-        "teamForm": null,
-        "opponentForm": null,
+        "teamForm": 0.66,
+        "opponentForm": 0.9,
         "fixtureLoad": 1,
         "opponent": "Coventry City",
         "trackRecordVsOpponent": null
@@ -246,8 +246,8 @@
         "factors": {
           "epNext": 3.3,
           "ownForm": null,
-          "teamForm": null,
-          "opponentForm": null,
+          "teamForm": 0.3,
+          "opponentForm": 0.8,
           "fixtureLoad": 1,
           "opponent": "Crystal Palace",
           "trackRecordVsOpponent": {
@@ -264,8 +264,8 @@
         "factors": {
           "epNext": 2.2,
           "ownForm": null,
-          "teamForm": null,
-          "opponentForm": null,
+          "teamForm": 0.37,
+          "opponentForm": 0.42,
           "fixtureLoad": 1,
           "opponent": "Liverpool",
           "trackRecordVsOpponent": {
@@ -354,18 +354,28 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 59,
+      "homeWinPct": 56,
       "drawPct": 23,
-      "awayWinPct": 18,
-      "predictedScore": "1.8 \u2014 0.9",
+      "awayWinPct": 21,
+      "predictedScore": "1.7 \u2014 1.0",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.66,
+        "awayForm": 0.9,
+        "h2h": {
+          "homeWins": 2,
+          "draws": 0,
+          "awayWins": 0,
+          "meetings": 2
+        },
         "homeAvailability": 0.99,
         "awayAvailability": 0.96
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 81,
+        "drawPct": 13,
+        "awayWinPct": 6
+      }
     },
     {
       "id": 4,
@@ -392,18 +402,28 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 29,
-      "drawPct": 27,
-      "awayWinPct": 44,
+      "homeWinPct": 27,
+      "drawPct": 28,
+      "awayWinPct": 45,
       "predictedScore": "1.1 \u2014 1.4",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.63,
+        "awayForm": 0.7,
+        "h2h": {
+          "homeWins": 1,
+          "draws": 2,
+          "awayWins": 2,
+          "meetings": 5
+        },
         "homeAvailability": 0.78,
         "awayAvailability": 0.96
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 13,
+        "drawPct": 21,
+        "awayWinPct": 66
+      }
     },
     {
       "id": 3,
@@ -430,18 +450,28 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 46,
+      "homeWinPct": 45,
       "drawPct": 25,
-      "awayWinPct": 29,
-      "predictedScore": "1.5 \u2014 1.1",
+      "awayWinPct": 30,
+      "predictedScore": "1.3 \u2014 1.3",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.3,
+        "awayForm": 0.8,
+        "h2h": {
+          "homeWins": 3,
+          "draws": 2,
+          "awayWins": 0,
+          "meetings": 5
+        },
         "homeAvailability": 0.98,
         "awayAvailability": 0.98
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 44,
+        "drawPct": 28,
+        "awayWinPct": 28
+      }
     },
     {
       "id": 5,
@@ -468,18 +498,28 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 36,
+      "homeWinPct": 38,
       "drawPct": 26,
-      "awayWinPct": 38,
-      "predictedScore": "1.3 \u2014 1.2",
+      "awayWinPct": 36,
+      "predictedScore": "1.4 \u2014 1.2",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.75,
+        "awayForm": 0.63,
+        "h2h": {
+          "homeWins": 2,
+          "draws": 1,
+          "awayWins": 2,
+          "meetings": 5
+        },
         "homeAvailability": 0.96,
         "awayAvailability": 0.86
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 35,
+        "drawPct": 29,
+        "awayWinPct": 36
+      }
     },
     {
       "id": 6,
@@ -506,18 +546,28 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 44,
+      "homeWinPct": 43,
       "drawPct": 25,
-      "awayWinPct": 31,
-      "predictedScore": "1.5 \u2014 1.1",
+      "awayWinPct": 32,
+      "predictedScore": "1.4 \u2014 1.2",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.39,
+        "awayForm": 0.6,
+        "h2h": {
+          "homeWins": 3,
+          "draws": 0,
+          "awayWins": 2,
+          "meetings": 5
+        },
         "homeAvailability": 0.99,
         "awayAvailability": 0.95
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 42,
+        "drawPct": 28,
+        "awayWinPct": 30
+      }
     },
     {
       "id": 2,
@@ -544,18 +594,28 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 47,
-      "drawPct": 25,
-      "awayWinPct": 28,
+      "homeWinPct": 39,
+      "drawPct": 27,
+      "awayWinPct": 34,
       "predictedScore": "1.5 \u2014 1.1",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.54,
+        "awayForm": 0.69,
+        "h2h": {
+          "homeWins": 0,
+          "draws": 1,
+          "awayWins": 4,
+          "meetings": 5
+        },
         "homeAvailability": 0.98,
         "awayAvailability": 0.97
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 39,
+        "drawPct": 26,
+        "awayWinPct": 35
+      }
     },
     {
       "id": 7,
@@ -582,18 +642,28 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 31,
-      "drawPct": 27,
-      "awayWinPct": 42,
-      "predictedScore": "1.2 \u2014 1.4",
+      "homeWinPct": 29,
+      "drawPct": 28,
+      "awayWinPct": 43,
+      "predictedScore": "1.2 \u2014 1.3",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.63,
+        "awayForm": 0.51,
+        "h2h": {
+          "homeWins": 1,
+          "draws": 1,
+          "awayWins": 3,
+          "meetings": 5
+        },
         "homeAvailability": 0.9,
         "awayAvailability": 0.97
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 41,
+        "drawPct": 26,
+        "awayWinPct": 33
+      }
     },
     {
       "id": 8,
@@ -620,18 +690,28 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 57,
-      "drawPct": 23,
-      "awayWinPct": 20,
-      "predictedScore": "1.8 \u2014 0.9",
+      "homeWinPct": 60,
+      "drawPct": 22,
+      "awayWinPct": 18,
+      "predictedScore": "1.7 \u2014 0.9",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.46,
+        "awayForm": 0.54,
+        "h2h": {
+          "homeWins": 3,
+          "draws": 1,
+          "awayWins": 1,
+          "meetings": 5
+        },
         "homeAvailability": 0.99,
         "awayAvailability": 0.86
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 65,
+        "drawPct": 19,
+        "awayWinPct": 16
+      }
     },
     {
       "id": 9,
@@ -665,18 +745,28 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 29,
-      "drawPct": 27,
-      "awayWinPct": 44,
-      "predictedScore": "1.2 \u2014 1.4",
+      "homeWinPct": 25,
+      "drawPct": 28,
+      "awayWinPct": 47,
+      "predictedScore": "1.1 \u2014 1.4",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.37,
+        "awayForm": 0.42,
+        "h2h": {
+          "homeWins": 1,
+          "draws": 1,
+          "awayWins": 3,
+          "meetings": 5
+        },
         "homeAvailability": 0.92,
         "awayAvailability": 0.95
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 27,
+        "drawPct": 24,
+        "awayWinPct": 49
+      }
     },
     {
       "id": 10,
@@ -703,18 +793,28 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 28,
+      "homeWinPct": 25,
       "drawPct": 28,
-      "awayWinPct": 44,
+      "awayWinPct": 47,
       "predictedScore": "1.1 \u2014 1.4",
       "factors": {
-        "homeForm": null,
-        "awayForm": null,
-        "h2h": null,
+        "homeForm": 0.34,
+        "awayForm": 0.46,
+        "h2h": {
+          "homeWins": 2,
+          "draws": 0,
+          "awayWins": 3,
+          "meetings": 5
+        },
         "homeAvailability": 0.95,
         "awayAvailability": 0.96
       },
-      "marketOdds": null
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 29,
+        "drawPct": 26,
+        "awayWinPct": 45
+      }
     }
   ],
   "predictionTrackRecord": {
@@ -737,220 +837,3442 @@
       "shortName": "ARS",
       "crestClass": "blue-crest",
       "squadSize": 28,
+      "squad": [
+        {
+          "id": 4,
+          "name": "Gabriel",
+          "position": "DEF"
+        },
+        {
+          "id": 5,
+          "name": "J.Timber",
+          "position": "DEF"
+        },
+        {
+          "id": 6,
+          "name": "Saliba",
+          "position": "DEF"
+        },
+        {
+          "id": 8,
+          "name": "Calafiori",
+          "position": "DEF"
+        },
+        {
+          "id": 9,
+          "name": "Hincapie",
+          "position": "DEF"
+        },
+        {
+          "id": 10,
+          "name": "White",
+          "position": "DEF"
+        },
+        {
+          "id": 11,
+          "name": "Mosquera",
+          "position": "DEF"
+        },
+        {
+          "id": 25,
+          "name": "Gy\u00f6keres",
+          "position": "FWD"
+        },
+        {
+          "id": 26,
+          "name": "Havertz",
+          "position": "FWD"
+        },
+        {
+          "id": 27,
+          "name": "G.Jesus",
+          "position": "FWD"
+        },
+        {
+          "id": 1,
+          "name": "Raya",
+          "position": "GKP"
+        },
+        {
+          "id": 2,
+          "name": "Arrizabalaga",
+          "position": "GKP"
+        },
+        {
+          "id": 3,
+          "name": "Meslier",
+          "position": "GKP"
+        },
+        {
+          "id": 7,
+          "name": "Lewis-Skelly",
+          "position": "MID"
+        },
+        {
+          "id": 12,
+          "name": "Saka",
+          "position": "MID"
+        },
+        {
+          "id": 13,
+          "name": "Rice",
+          "position": "MID"
+        },
+        {
+          "id": 14,
+          "name": "Eze",
+          "position": "MID"
+        },
+        {
+          "id": 15,
+          "name": "\u00d8degaard",
+          "position": "MID"
+        },
+        {
+          "id": 16,
+          "name": "Madueke",
+          "position": "MID"
+        },
+        {
+          "id": 17,
+          "name": "Merino",
+          "position": "MID"
+        },
+        {
+          "id": 18,
+          "name": "Martinelli",
+          "position": "MID"
+        },
+        {
+          "id": 19,
+          "name": "Zubimendi",
+          "position": "MID"
+        },
+        {
+          "id": 20,
+          "name": "Dowman",
+          "position": "MID"
+        },
+        {
+          "id": 22,
+          "name": "Nwaneri",
+          "position": "MID"
+        },
+        {
+          "id": 23,
+          "name": "F\u00e1bio Vieira",
+          "position": "MID"
+        },
+        {
+          "id": 24,
+          "name": "Nelson",
+          "position": "MID"
+        },
+        {
+          "id": 452,
+          "name": "Bruno G.",
+          "position": "MID"
+        },
+        {
+          "id": 557,
+          "name": "Tzolis",
+          "position": "MID"
+        }
+      ],
       "squadRating": 5.22,
       "squadValue": "\u00a3175.0m",
       "leagueRank": 2,
       "strengthHome": 4,
-      "strengthAway": 5
+      "strengthAway": 5,
+      "nextOpponent": "Coventry City",
+      "nextIsHome": true,
+      "nextFdr": 2,
+      "nextFdrClass": "easy",
+      "form": 0.66,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Aston Villa",
       "shortName": "AVL",
       "crestClass": "orange-crest",
       "squadSize": 28,
+      "squad": [
+        {
+          "id": 30,
+          "name": "Digne",
+          "position": "DEF"
+        },
+        {
+          "id": 31,
+          "name": "Konsa",
+          "position": "DEF"
+        },
+        {
+          "id": 32,
+          "name": "Cash",
+          "position": "DEF"
+        },
+        {
+          "id": 33,
+          "name": "Mings",
+          "position": "DEF"
+        },
+        {
+          "id": 34,
+          "name": "Pau",
+          "position": "DEF"
+        },
+        {
+          "id": 36,
+          "name": "Maatsen",
+          "position": "DEF"
+        },
+        {
+          "id": 37,
+          "name": "Lindel\u00f6f",
+          "position": "DEF"
+        },
+        {
+          "id": 38,
+          "name": "A.Garc\u00eda",
+          "position": "DEF"
+        },
+        {
+          "id": 39,
+          "name": "Nedeljkovic",
+          "position": "DEF"
+        },
+        {
+          "id": 55,
+          "name": "Watkins",
+          "position": "FWD"
+        },
+        {
+          "id": 56,
+          "name": "Abraham",
+          "position": "FWD"
+        },
+        {
+          "id": 582,
+          "name": "Madjo",
+          "position": "FWD"
+        },
+        {
+          "id": 28,
+          "name": "Martinez",
+          "position": "GKP"
+        },
+        {
+          "id": 29,
+          "name": "M.Bizot",
+          "position": "GKP"
+        },
+        {
+          "id": 35,
+          "name": "Bogarde",
+          "position": "MID"
+        },
+        {
+          "id": 41,
+          "name": "Buend\u00eda",
+          "position": "MID"
+        },
+        {
+          "id": 44,
+          "name": "Bailey",
+          "position": "MID"
+        },
+        {
+          "id": 45,
+          "name": "McGinn",
+          "position": "MID"
+        },
+        {
+          "id": 46,
+          "name": "Barkley",
+          "position": "MID"
+        },
+        {
+          "id": 47,
+          "name": "Kamara",
+          "position": "MID"
+        },
+        {
+          "id": 48,
+          "name": "Onana",
+          "position": "MID"
+        },
+        {
+          "id": 49,
+          "name": "Iling Jr",
+          "position": "MID"
+        },
+        {
+          "id": 50,
+          "name": "Burrowes",
+          "position": "MID"
+        },
+        {
+          "id": 51,
+          "name": "George Hemmings",
+          "position": "MID"
+        },
+        {
+          "id": 52,
+          "name": "Alysson",
+          "position": "MID"
+        },
+        {
+          "id": 53,
+          "name": "Manzambi",
+          "position": "MID"
+        },
+        {
+          "id": 54,
+          "name": "Gomes",
+          "position": "MID"
+        },
+        {
+          "id": 160,
+          "name": "Garnacho",
+          "position": "MID"
+        }
+      ],
       "squadRating": 3.95,
       "squadValue": "\u00a3141.5m",
       "leagueRank": 15,
       "strengthHome": 3,
-      "strengthAway": 4
+      "strengthAway": 4,
+      "nextOpponent": "Brighton",
+      "nextIsHome": false,
+      "nextFdr": 3,
+      "nextFdrClass": "mid",
+      "form": 0.51,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 1,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Bournemouth",
       "shortName": "BOU",
       "crestClass": "pink-crest",
       "squadSize": 27,
+      "squad": [
+        {
+          "id": 60,
+          "name": "Hill",
+          "position": "DEF"
+        },
+        {
+          "id": 61,
+          "name": "Truffert",
+          "position": "DEF"
+        },
+        {
+          "id": 62,
+          "name": "Diakit\u00e9",
+          "position": "DEF"
+        },
+        {
+          "id": 63,
+          "name": "Milosavljevi\u0107",
+          "position": "DEF"
+        },
+        {
+          "id": 64,
+          "name": "Smith",
+          "position": "DEF"
+        },
+        {
+          "id": 65,
+          "name": "J.Araujo",
+          "position": "DEF"
+        },
+        {
+          "id": 66,
+          "name": "Soler",
+          "position": "DEF"
+        },
+        {
+          "id": 566,
+          "name": "Silva",
+          "position": "DEF"
+        },
+        {
+          "id": 573,
+          "name": "Sanchez",
+          "position": "DEF"
+        },
+        {
+          "id": 79,
+          "name": "Evanilson",
+          "position": "FWD"
+        },
+        {
+          "id": 80,
+          "name": "Enes \u00dcnal",
+          "position": "FWD"
+        },
+        {
+          "id": 81,
+          "name": "Rodr\u00edguez",
+          "position": "FWD"
+        },
+        {
+          "id": 57,
+          "name": "Petrovi\u0107",
+          "position": "GKP"
+        },
+        {
+          "id": 58,
+          "name": "Forster",
+          "position": "GKP"
+        },
+        {
+          "id": 59,
+          "name": "Dennis",
+          "position": "GKP"
+        },
+        {
+          "id": 67,
+          "name": "Rayan",
+          "position": "MID"
+        },
+        {
+          "id": 68,
+          "name": "Tavernier",
+          "position": "MID"
+        },
+        {
+          "id": 69,
+          "name": "Scott",
+          "position": "MID"
+        },
+        {
+          "id": 70,
+          "name": "Kluivert",
+          "position": "MID"
+        },
+        {
+          "id": 71,
+          "name": "Cook",
+          "position": "MID"
+        },
+        {
+          "id": 72,
+          "name": "Gannon-Doak",
+          "position": "MID"
+        },
+        {
+          "id": 73,
+          "name": "Adams",
+          "position": "MID"
+        },
+        {
+          "id": 74,
+          "name": "Brooks",
+          "position": "MID"
+        },
+        {
+          "id": 75,
+          "name": "Christie",
+          "position": "MID"
+        },
+        {
+          "id": 76,
+          "name": "T\u00f3th.A",
+          "position": "MID"
+        },
+        {
+          "id": 77,
+          "name": "Adli",
+          "position": "MID"
+        },
+        {
+          "id": 78,
+          "name": "Kroupi.Jr",
+          "position": "MID"
+        }
+      ],
       "squadRating": 4.41,
       "squadValue": "\u00a3140.5m",
       "leagueRank": 4,
       "strengthHome": 3,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Man City",
+      "nextIsHome": false,
+      "nextFdr": 5,
+      "nextFdrClass": "hard",
+      "form": 0.54,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Brentford",
       "shortName": "BRE",
       "crestClass": "",
       "squadSize": 26,
+      "squad": [
+        {
+          "id": 84,
+          "name": "Collins",
+          "position": "DEF"
+        },
+        {
+          "id": 85,
+          "name": "Van den Berg",
+          "position": "DEF"
+        },
+        {
+          "id": 87,
+          "name": "Ajer",
+          "position": "DEF"
+        },
+        {
+          "id": 88,
+          "name": "Kayode",
+          "position": "DEF"
+        },
+        {
+          "id": 89,
+          "name": "Henry",
+          "position": "DEF"
+        },
+        {
+          "id": 90,
+          "name": "Hickey",
+          "position": "DEF"
+        },
+        {
+          "id": 91,
+          "name": "Pinnock",
+          "position": "DEF"
+        },
+        {
+          "id": 92,
+          "name": "Ji-soo",
+          "position": "DEF"
+        },
+        {
+          "id": 93,
+          "name": "Schuster",
+          "position": "DEF"
+        },
+        {
+          "id": 106,
+          "name": "Thiago",
+          "position": "FWD"
+        },
+        {
+          "id": 107,
+          "name": "Furo",
+          "position": "FWD"
+        },
+        {
+          "id": 108,
+          "name": "Wilson",
+          "position": "FWD"
+        },
+        {
+          "id": 82,
+          "name": "Kelleher",
+          "position": "GKP"
+        },
+        {
+          "id": 83,
+          "name": "Valdimarsson",
+          "position": "GKP"
+        },
+        {
+          "id": 86,
+          "name": "Lewis-Potter",
+          "position": "MID"
+        },
+        {
+          "id": 94,
+          "name": "Schade",
+          "position": "MID"
+        },
+        {
+          "id": 95,
+          "name": "O.Dango",
+          "position": "MID"
+        },
+        {
+          "id": 96,
+          "name": "Damsgaard",
+          "position": "MID"
+        },
+        {
+          "id": 97,
+          "name": "Jensen",
+          "position": "MID"
+        },
+        {
+          "id": 98,
+          "name": "Janelt",
+          "position": "MID"
+        },
+        {
+          "id": 99,
+          "name": "Milambo",
+          "position": "MID"
+        },
+        {
+          "id": 100,
+          "name": "Carvalho",
+          "position": "MID"
+        },
+        {
+          "id": 102,
+          "name": "Yarmoliuk",
+          "position": "MID"
+        },
+        {
+          "id": 103,
+          "name": "Dasilva",
+          "position": "MID"
+        },
+        {
+          "id": 105,
+          "name": "Anthony",
+          "position": "MID"
+        },
+        {
+          "id": 565,
+          "name": "Sangar\u00e9",
+          "position": "MID"
+        }
+      ],
       "squadRating": 4.18,
       "squadValue": "\u00a3135.0m",
       "leagueRank": 8,
       "strengthHome": 3,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Spurs",
+      "nextIsHome": true,
+      "nextFdr": 3,
+      "nextFdrClass": "mid",
+      "form": 0.54,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Brighton",
       "shortName": "BHA",
       "crestClass": "blue-crest",
       "squadSize": 30,
+      "squad": [
+        {
+          "id": 113,
+          "name": "F.Kad\u0131o\u011flu",
+          "position": "DEF"
+        },
+        {
+          "id": 114,
+          "name": "Boscagli",
+          "position": "DEF"
+        },
+        {
+          "id": 115,
+          "name": "De Cuyper",
+          "position": "DEF"
+        },
+        {
+          "id": 116,
+          "name": "Dunk",
+          "position": "DEF"
+        },
+        {
+          "id": 117,
+          "name": "Coppola",
+          "position": "DEF"
+        },
+        {
+          "id": 118,
+          "name": "Igor",
+          "position": "DEF"
+        },
+        {
+          "id": 119,
+          "name": "Costinha",
+          "position": "DEF"
+        },
+        {
+          "id": 120,
+          "name": "Svoboda",
+          "position": "DEF"
+        },
+        {
+          "id": 130,
+          "name": "Wieffer",
+          "position": "DEF"
+        },
+        {
+          "id": 328,
+          "name": "Struijk",
+          "position": "DEF"
+        },
+        {
+          "id": 504,
+          "name": "Vuskovic",
+          "position": "DEF"
+        },
+        {
+          "id": 125,
+          "name": "Georginio",
+          "position": "FWD"
+        },
+        {
+          "id": 137,
+          "name": "Tzimas",
+          "position": "FWD"
+        },
+        {
+          "id": 138,
+          "name": "Kostoulas",
+          "position": "FWD"
+        },
+        {
+          "id": 139,
+          "name": "Ferguson",
+          "position": "FWD"
+        },
+        {
+          "id": 109,
+          "name": "Verbruggen",
+          "position": "GKP"
+        },
+        {
+          "id": 111,
+          "name": "Steele",
+          "position": "GKP"
+        },
+        {
+          "id": 121,
+          "name": "Mitoma",
+          "position": "MID"
+        },
+        {
+          "id": 122,
+          "name": "Minteh",
+          "position": "MID"
+        },
+        {
+          "id": 123,
+          "name": "Hinshelwood",
+          "position": "MID"
+        },
+        {
+          "id": 124,
+          "name": "Gro\u00df",
+          "position": "MID"
+        },
+        {
+          "id": 126,
+          "name": "O'Riley",
+          "position": "MID"
+        },
+        {
+          "id": 127,
+          "name": "Gomez",
+          "position": "MID"
+        },
+        {
+          "id": 128,
+          "name": "Buonanotte",
+          "position": "MID"
+        },
+        {
+          "id": 129,
+          "name": "Ayari",
+          "position": "MID"
+        },
+        {
+          "id": 131,
+          "name": "Baleba",
+          "position": "MID"
+        },
+        {
+          "id": 132,
+          "name": "Howell",
+          "position": "MID"
+        },
+        {
+          "id": 133,
+          "name": "Watson",
+          "position": "MID"
+        },
+        {
+          "id": 134,
+          "name": "Oriola",
+          "position": "MID"
+        },
+        {
+          "id": 135,
+          "name": "Yohanna",
+          "position": "MID"
+        }
+      ],
       "squadRating": 4.02,
       "squadValue": "\u00a3150.0m",
       "leagueRank": 12,
       "strengthHome": 2,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Aston Villa",
+      "nextIsHome": true,
+      "nextFdr": 3,
+      "nextFdrClass": "mid",
+      "form": 0.63,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Chelsea",
       "shortName": "CHE",
       "crestClass": "orange-crest",
       "squadSize": 38,
+      "squad": [
+        {
+          "id": 142,
+          "name": "James",
+          "position": "DEF"
+        },
+        {
+          "id": 143,
+          "name": "Chalobah",
+          "position": "DEF"
+        },
+        {
+          "id": 144,
+          "name": "Gusto",
+          "position": "DEF"
+        },
+        {
+          "id": 145,
+          "name": "Fofana",
+          "position": "DEF"
+        },
+        {
+          "id": 146,
+          "name": "B.Badiashile",
+          "position": "DEF"
+        },
+        {
+          "id": 147,
+          "name": "Tosin",
+          "position": "DEF"
+        },
+        {
+          "id": 148,
+          "name": "Hato",
+          "position": "DEF"
+        },
+        {
+          "id": 149,
+          "name": "Colwill",
+          "position": "DEF"
+        },
+        {
+          "id": 150,
+          "name": "M.Sarr",
+          "position": "DEF"
+        },
+        {
+          "id": 151,
+          "name": "Acheampong",
+          "position": "DEF"
+        },
+        {
+          "id": 152,
+          "name": "Palestra",
+          "position": "DEF"
+        },
+        {
+          "id": 153,
+          "name": "Disasi",
+          "position": "DEF"
+        },
+        {
+          "id": 200,
+          "name": "Lacroix",
+          "position": "DEF"
+        },
+        {
+          "id": 561,
+          "name": "Anselmino",
+          "position": "DEF"
+        },
+        {
+          "id": 583,
+          "name": "Chavarria",
+          "position": "DEF"
+        },
+        {
+          "id": 136,
+          "name": "Welbeck",
+          "position": "FWD"
+        },
+        {
+          "id": 165,
+          "name": "Jo\u00e3o Pedro",
+          "position": "FWD"
+        },
+        {
+          "id": 166,
+          "name": "N.Jackson",
+          "position": "FWD"
+        },
+        {
+          "id": 167,
+          "name": "Delap",
+          "position": "FWD"
+        },
+        {
+          "id": 168,
+          "name": "Marc Guiu",
+          "position": "FWD"
+        },
+        {
+          "id": 169,
+          "name": "Mheuka",
+          "position": "FWD"
+        },
+        {
+          "id": 170,
+          "name": "Emegha",
+          "position": "FWD"
+        },
+        {
+          "id": 140,
+          "name": "S\u00e1nchez",
+          "position": "GKP"
+        },
+        {
+          "id": 141,
+          "name": "J\u00f6rgensen",
+          "position": "GKP"
+        },
+        {
+          "id": 560,
+          "name": "Penders",
+          "position": "GKP"
+        },
+        {
+          "id": 40,
+          "name": "Rogers",
+          "position": "MID"
+        },
+        {
+          "id": 101,
+          "name": "Henderson",
+          "position": "MID"
+        },
+        {
+          "id": 154,
+          "name": "Palmer",
+          "position": "MID"
+        },
+        {
+          "id": 155,
+          "name": "Enzo",
+          "position": "MID"
+        },
+        {
+          "id": 156,
+          "name": "Neto",
+          "position": "MID"
+        },
+        {
+          "id": 157,
+          "name": "Est\u00eav\u00e3o",
+          "position": "MID"
+        },
+        {
+          "id": 158,
+          "name": "Gittens",
+          "position": "MID"
+        },
+        {
+          "id": 159,
+          "name": "Caicedo",
+          "position": "MID"
+        },
+        {
+          "id": 161,
+          "name": "Lavia",
+          "position": "MID"
+        },
+        {
+          "id": 163,
+          "name": "D.Essugo",
+          "position": "MID"
+        },
+        {
+          "id": 164,
+          "name": "Quenda",
+          "position": "MID"
+        },
+        {
+          "id": 568,
+          "name": "Barco",
+          "position": "MID"
+        },
+        {
+          "id": 578,
+          "name": "Mudryk",
+          "position": "MID"
+        }
+      ],
       "squadRating": 4.28,
       "squadValue": "\u00a3208.0m",
       "leagueRank": 7,
       "strengthHome": 4,
-      "strengthAway": 4
+      "strengthAway": 4,
+      "nextOpponent": "Fulham",
+      "nextIsHome": false,
+      "nextFdr": 3,
+      "nextFdrClass": "mid",
+      "form": 0.46,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Coventry City",
       "shortName": "COV",
       "crestClass": "pink-crest",
       "squadSize": 31,
+      "squad": [
+        {
+          "id": 173,
+          "name": "Thomas",
+          "position": "DEF"
+        },
+        {
+          "id": 174,
+          "name": "Kitching",
+          "position": "DEF"
+        },
+        {
+          "id": 175,
+          "name": "van Ewijk",
+          "position": "DEF"
+        },
+        {
+          "id": 176,
+          "name": "Dasilva",
+          "position": "DEF"
+        },
+        {
+          "id": 177,
+          "name": "Kesler-Hayden",
+          "position": "DEF"
+        },
+        {
+          "id": 178,
+          "name": "Bidwell",
+          "position": "DEF"
+        },
+        {
+          "id": 179,
+          "name": "Latibeaudiere",
+          "position": "DEF"
+        },
+        {
+          "id": 180,
+          "name": "Woolfenden",
+          "position": "DEF"
+        },
+        {
+          "id": 181,
+          "name": "Brau",
+          "position": "DEF"
+        },
+        {
+          "id": 182,
+          "name": "Amenda",
+          "position": "DEF"
+        },
+        {
+          "id": 193,
+          "name": "Wright",
+          "position": "FWD"
+        },
+        {
+          "id": 194,
+          "name": "Thomas-Asante",
+          "position": "FWD"
+        },
+        {
+          "id": 195,
+          "name": "Simms",
+          "position": "FWD"
+        },
+        {
+          "id": 196,
+          "name": "Markelo",
+          "position": "FWD"
+        },
+        {
+          "id": 197,
+          "name": "Bassette",
+          "position": "FWD"
+        },
+        {
+          "id": 110,
+          "name": "Rushworth",
+          "position": "GKP"
+        },
+        {
+          "id": 171,
+          "name": "Dovin",
+          "position": "GKP"
+        },
+        {
+          "id": 172,
+          "name": "Wilson",
+          "position": "GKP"
+        },
+        {
+          "id": 104,
+          "name": "Onyeka",
+          "position": "MID"
+        },
+        {
+          "id": 183,
+          "name": "Rudoni",
+          "position": "MID"
+        },
+        {
+          "id": 184,
+          "name": "Grimes",
+          "position": "MID"
+        },
+        {
+          "id": 185,
+          "name": "Sakamoto",
+          "position": "MID"
+        },
+        {
+          "id": 186,
+          "name": "Mason-Clark",
+          "position": "MID"
+        },
+        {
+          "id": 187,
+          "name": "Eccles",
+          "position": "MID"
+        },
+        {
+          "id": 188,
+          "name": "Torp",
+          "position": "MID"
+        },
+        {
+          "id": 189,
+          "name": "Shepherd",
+          "position": "MID"
+        },
+        {
+          "id": 190,
+          "name": "Tchaouna",
+          "position": "MID"
+        },
+        {
+          "id": 191,
+          "name": "Borges Rodrigues",
+          "position": "MID"
+        },
+        {
+          "id": 192,
+          "name": "Andrews",
+          "position": "MID"
+        },
+        {
+          "id": 575,
+          "name": "Yirenkyi",
+          "position": "MID"
+        },
+        {
+          "id": 584,
+          "name": "Hamer",
+          "position": "MID"
+        }
+      ],
       "squadRating": null,
       "squadValue": "\u00a3143.5m",
       "leagueRank": null,
       "strengthHome": 2,
-      "strengthAway": 2
+      "strengthAway": 2,
+      "nextOpponent": "Arsenal",
+      "nextIsHome": false,
+      "nextFdr": 5,
+      "nextFdrClass": "hard",
+      "form": 0.9,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Crystal Palace",
       "shortName": "CRY",
       "crestClass": "",
       "squadSize": 30,
+      "squad": [
+        {
+          "id": 201,
+          "name": "Mu\u00f1oz",
+          "position": "DEF"
+        },
+        {
+          "id": 202,
+          "name": "Richards",
+          "position": "DEF"
+        },
+        {
+          "id": 203,
+          "name": "Canvot",
+          "position": "DEF"
+        },
+        {
+          "id": 204,
+          "name": "Mitchell",
+          "position": "DEF"
+        },
+        {
+          "id": 205,
+          "name": "Sosa",
+          "position": "DEF"
+        },
+        {
+          "id": 206,
+          "name": "Chadi Riad",
+          "position": "DEF"
+        },
+        {
+          "id": 207,
+          "name": "Mingueza",
+          "position": "DEF"
+        },
+        {
+          "id": 220,
+          "name": "Cardines",
+          "position": "DEF"
+        },
+        {
+          "id": 577,
+          "name": "Tomiyasu",
+          "position": "DEF"
+        },
+        {
+          "id": 222,
+          "name": "Strand Larsen",
+          "position": "FWD"
+        },
+        {
+          "id": 223,
+          "name": "Mateta",
+          "position": "FWD"
+        },
+        {
+          "id": 224,
+          "name": "Nketiah",
+          "position": "FWD"
+        },
+        {
+          "id": 225,
+          "name": "Uche",
+          "position": "FWD"
+        },
+        {
+          "id": 198,
+          "name": "Henderson",
+          "position": "GKP"
+        },
+        {
+          "id": 199,
+          "name": "Benitez",
+          "position": "GKP"
+        },
+        {
+          "id": 555,
+          "name": "Matthews",
+          "position": "GKP"
+        },
+        {
+          "id": 42,
+          "name": "Guessand",
+          "position": "MID"
+        },
+        {
+          "id": 208,
+          "name": "Sarr",
+          "position": "MID"
+        },
+        {
+          "id": 210,
+          "name": "Wharton",
+          "position": "MID"
+        },
+        {
+          "id": 211,
+          "name": "Yeremy",
+          "position": "MID"
+        },
+        {
+          "id": 212,
+          "name": "Hughes",
+          "position": "MID"
+        },
+        {
+          "id": 213,
+          "name": "Lerma",
+          "position": "MID"
+        },
+        {
+          "id": 214,
+          "name": "Kamada",
+          "position": "MID"
+        },
+        {
+          "id": 215,
+          "name": "Devenny",
+          "position": "MID"
+        },
+        {
+          "id": 216,
+          "name": "Esse",
+          "position": "MID"
+        },
+        {
+          "id": 217,
+          "name": "M.Fran\u00e7a",
+          "position": "MID"
+        },
+        {
+          "id": 218,
+          "name": "Doucour\u00e9",
+          "position": "MID"
+        },
+        {
+          "id": 219,
+          "name": "J.Rak-Sakyi",
+          "position": "MID"
+        },
+        {
+          "id": 221,
+          "name": "Drakes-Thomas",
+          "position": "MID"
+        },
+        {
+          "id": 241,
+          "name": "McNeil",
+          "position": "MID"
+        }
+      ],
       "squadRating": 3.96,
       "squadValue": "\u00a3151.5m",
       "leagueRank": 14,
       "strengthHome": 3,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Everton",
+      "nextIsHome": false,
+      "nextFdr": 3,
+      "nextFdrClass": "mid",
+      "form": 0.8,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 1,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Everton",
       "shortName": "EVE",
       "crestClass": "blue-crest",
       "squadSize": 24,
+      "squad": [
+        {
+          "id": 229,
+          "name": "Tarkowski",
+          "position": "DEF"
+        },
+        {
+          "id": 230,
+          "name": "Branthwaite",
+          "position": "DEF"
+        },
+        {
+          "id": 231,
+          "name": "Keane",
+          "position": "DEF"
+        },
+        {
+          "id": 232,
+          "name": "O'Brien",
+          "position": "DEF"
+        },
+        {
+          "id": 233,
+          "name": "Mykolenko",
+          "position": "DEF"
+        },
+        {
+          "id": 234,
+          "name": "Patterson",
+          "position": "DEF"
+        },
+        {
+          "id": 235,
+          "name": "Aznou",
+          "position": "DEF"
+        },
+        {
+          "id": 248,
+          "name": "Beto",
+          "position": "FWD"
+        },
+        {
+          "id": 249,
+          "name": "Barry",
+          "position": "FWD"
+        },
+        {
+          "id": 226,
+          "name": "Pickford",
+          "position": "GKP"
+        },
+        {
+          "id": 227,
+          "name": "Travers",
+          "position": "GKP"
+        },
+        {
+          "id": 228,
+          "name": "King",
+          "position": "GKP"
+        },
+        {
+          "id": 21,
+          "name": "N\u00f8rgaard",
+          "position": "MID"
+        },
+        {
+          "id": 209,
+          "name": "Johnson",
+          "position": "MID"
+        },
+        {
+          "id": 236,
+          "name": "Dewsbury-Hall",
+          "position": "MID"
+        },
+        {
+          "id": 237,
+          "name": "Ndiaye",
+          "position": "MID"
+        },
+        {
+          "id": 239,
+          "name": "Garner",
+          "position": "MID"
+        },
+        {
+          "id": 240,
+          "name": "Iroegbunam",
+          "position": "MID"
+        },
+        {
+          "id": 242,
+          "name": "George",
+          "position": "MID"
+        },
+        {
+          "id": 243,
+          "name": "Alcaraz",
+          "position": "MID"
+        },
+        {
+          "id": 244,
+          "name": "Armstrong",
+          "position": "MID"
+        },
+        {
+          "id": 245,
+          "name": "Dibling",
+          "position": "MID"
+        },
+        {
+          "id": 246,
+          "name": "R\u00f6hl",
+          "position": "MID"
+        },
+        {
+          "id": 247,
+          "name": "Hackney",
+          "position": "MID"
+        }
+      ],
       "squadRating": 4.17,
       "squadValue": "\u00a3126.5m",
       "leagueRank": 9,
       "strengthHome": 3,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Crystal Palace",
+      "nextIsHome": true,
+      "nextFdr": 3,
+      "nextFdrClass": "mid",
+      "form": 0.3,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Fulham",
       "shortName": "FUL",
       "crestClass": "orange-crest",
       "squadSize": 23,
+      "squad": [
+        {
+          "id": 253,
+          "name": "Andersen",
+          "position": "DEF"
+        },
+        {
+          "id": 254,
+          "name": "Robinson",
+          "position": "DEF"
+        },
+        {
+          "id": 255,
+          "name": "J.Cuenca",
+          "position": "DEF"
+        },
+        {
+          "id": 256,
+          "name": "Tete",
+          "position": "DEF"
+        },
+        {
+          "id": 257,
+          "name": "Bassey",
+          "position": "DEF"
+        },
+        {
+          "id": 258,
+          "name": "Castagne",
+          "position": "DEF"
+        },
+        {
+          "id": 269,
+          "name": "Sessegnon",
+          "position": "DEF"
+        },
+        {
+          "id": 271,
+          "name": "Muniz",
+          "position": "FWD"
+        },
+        {
+          "id": 272,
+          "name": "Kusi-Asare",
+          "position": "FWD"
+        },
+        {
+          "id": 569,
+          "name": "Gonzalo",
+          "position": "FWD"
+        },
+        {
+          "id": 250,
+          "name": "Leno",
+          "position": "GKP"
+        },
+        {
+          "id": 251,
+          "name": "Lecomte",
+          "position": "GKP"
+        },
+        {
+          "id": 252,
+          "name": "McNally",
+          "position": "GKP"
+        },
+        {
+          "id": 261,
+          "name": "Iwobi",
+          "position": "MID"
+        },
+        {
+          "id": 262,
+          "name": "Smith Rowe",
+          "position": "MID"
+        },
+        {
+          "id": 263,
+          "name": "Kevin",
+          "position": "MID"
+        },
+        {
+          "id": 264,
+          "name": "Bobb",
+          "position": "MID"
+        },
+        {
+          "id": 265,
+          "name": "Berge",
+          "position": "MID"
+        },
+        {
+          "id": 266,
+          "name": "Cairney",
+          "position": "MID"
+        },
+        {
+          "id": 268,
+          "name": "King",
+          "position": "MID"
+        },
+        {
+          "id": 270,
+          "name": "Reed",
+          "position": "MID"
+        },
+        {
+          "id": 570,
+          "name": "Palacios",
+          "position": "MID"
+        },
+        {
+          "id": 580,
+          "name": "Charles",
+          "position": "MID"
+        }
+      ],
       "squadRating": 3.75,
       "squadValue": "\u00a3113.0m",
       "leagueRank": 17,
       "strengthHome": 2,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Chelsea",
+      "nextIsHome": true,
+      "nextFdr": 4,
+      "nextFdrClass": "hard",
+      "form": 0.34,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Hull City",
       "shortName": "HUL",
       "crestClass": "pink-crest",
       "squadSize": 34,
+      "squad": [
+        {
+          "id": 277,
+          "name": "Egan",
+          "position": "DEF"
+        },
+        {
+          "id": 278,
+          "name": "Hughes",
+          "position": "DEF"
+        },
+        {
+          "id": 279,
+          "name": "Ajayi",
+          "position": "DEF"
+        },
+        {
+          "id": 280,
+          "name": "Coyle",
+          "position": "DEF"
+        },
+        {
+          "id": 281,
+          "name": "Drameh",
+          "position": "DEF"
+        },
+        {
+          "id": 282,
+          "name": "Giles",
+          "position": "DEF"
+        },
+        {
+          "id": 283,
+          "name": "Jacob",
+          "position": "DEF"
+        },
+        {
+          "id": 284,
+          "name": "McCarthy",
+          "position": "DEF"
+        },
+        {
+          "id": 285,
+          "name": "McNair",
+          "position": "DEF"
+        },
+        {
+          "id": 556,
+          "name": "Targett",
+          "position": "DEF"
+        },
+        {
+          "id": 585,
+          "name": "Herrington",
+          "position": "DEF"
+        },
+        {
+          "id": 586,
+          "name": "Mendy",
+          "position": "DEF"
+        },
+        {
+          "id": 295,
+          "name": "McBurnie",
+          "position": "FWD"
+        },
+        {
+          "id": 298,
+          "name": "Destan",
+          "position": "FWD"
+        },
+        {
+          "id": 299,
+          "name": "Burstow",
+          "position": "FWD"
+        },
+        {
+          "id": 273,
+          "name": "Phillips",
+          "position": "GKP"
+        },
+        {
+          "id": 274,
+          "name": "Butland",
+          "position": "GKP"
+        },
+        {
+          "id": 275,
+          "name": "Cartwright",
+          "position": "GKP"
+        },
+        {
+          "id": 276,
+          "name": "Lo-Tutala",
+          "position": "GKP"
+        },
+        {
+          "id": 572,
+          "name": "Tzolakis",
+          "position": "GKP"
+        },
+        {
+          "id": 286,
+          "name": "Belloumi",
+          "position": "MID"
+        },
+        {
+          "id": 287,
+          "name": "Millar",
+          "position": "MID"
+        },
+        {
+          "id": 288,
+          "name": "Dowell",
+          "position": "MID"
+        },
+        {
+          "id": 289,
+          "name": "Crooks",
+          "position": "MID"
+        },
+        {
+          "id": 290,
+          "name": "Slater",
+          "position": "MID"
+        },
+        {
+          "id": 291,
+          "name": "Matazo",
+          "position": "MID"
+        },
+        {
+          "id": 292,
+          "name": "\u00d6m\u00fcr",
+          "position": "MID"
+        },
+        {
+          "id": 293,
+          "name": "Kamara",
+          "position": "MID"
+        },
+        {
+          "id": 294,
+          "name": "Zambrano",
+          "position": "MID"
+        },
+        {
+          "id": 296,
+          "name": "Akintola",
+          "position": "MID"
+        },
+        {
+          "id": 297,
+          "name": "Gyabi",
+          "position": "MID"
+        },
+        {
+          "id": 563,
+          "name": "Morita",
+          "position": "MID"
+        },
+        {
+          "id": 574,
+          "name": "Hjert\u00f8-Dahl",
+          "position": "MID"
+        },
+        {
+          "id": 576,
+          "name": "Stroud",
+          "position": "MID"
+        }
+      ],
       "squadRating": null,
       "squadValue": "\u00a3150.5m",
       "leagueRank": null,
       "strengthHome": 2,
-      "strengthAway": 2
+      "strengthAway": 2,
+      "nextOpponent": "Man Utd",
+      "nextIsHome": true,
+      "nextFdr": 4,
+      "nextFdrClass": "hard",
+      "form": 0.63,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Ipswich Town",
       "shortName": "IPS",
       "crestClass": "",
       "squadSize": 31,
+      "squad": [
+        {
+          "id": 259,
+          "name": "Diop",
+          "position": "DEF"
+        },
+        {
+          "id": 303,
+          "name": "Kipr\u00e9",
+          "position": "DEF"
+        },
+        {
+          "id": 304,
+          "name": "O'Shea",
+          "position": "DEF"
+        },
+        {
+          "id": 305,
+          "name": "Davis",
+          "position": "DEF"
+        },
+        {
+          "id": 306,
+          "name": "Greaves",
+          "position": "DEF"
+        },
+        {
+          "id": 307,
+          "name": "Johnson",
+          "position": "DEF"
+        },
+        {
+          "id": 308,
+          "name": "Furlong",
+          "position": "DEF"
+        },
+        {
+          "id": 316,
+          "name": "Emersonn",
+          "position": "FWD"
+        },
+        {
+          "id": 317,
+          "name": "Hirst",
+          "position": "FWD"
+        },
+        {
+          "id": 320,
+          "name": "Akpom",
+          "position": "FWD"
+        },
+        {
+          "id": 321,
+          "name": "Walle Egeli",
+          "position": "FWD"
+        },
+        {
+          "id": 322,
+          "name": "Al-Hamadi",
+          "position": "FWD"
+        },
+        {
+          "id": 300,
+          "name": "Walton",
+          "position": "GKP"
+        },
+        {
+          "id": 301,
+          "name": "Palmer",
+          "position": "GKP"
+        },
+        {
+          "id": 302,
+          "name": "Button",
+          "position": "GKP"
+        },
+        {
+          "id": 554,
+          "name": "Van Oevelen",
+          "position": "GKP"
+        },
+        {
+          "id": 564,
+          "name": "Scherpen",
+          "position": "GKP"
+        },
+        {
+          "id": 267,
+          "name": "Luki\u0107",
+          "position": "MID"
+        },
+        {
+          "id": 309,
+          "name": "N\u00fa\u00f1ez",
+          "position": "MID"
+        },
+        {
+          "id": 310,
+          "name": "Matusiwa",
+          "position": "MID"
+        },
+        {
+          "id": 311,
+          "name": "Burns",
+          "position": "MID"
+        },
+        {
+          "id": 312,
+          "name": "Taylor",
+          "position": "MID"
+        },
+        {
+          "id": 313,
+          "name": "Clarke",
+          "position": "MID"
+        },
+        {
+          "id": 314,
+          "name": "Ogbene",
+          "position": "MID"
+        },
+        {
+          "id": 315,
+          "name": "Fatawu",
+          "position": "MID"
+        },
+        {
+          "id": 318,
+          "name": "Philogene",
+          "position": "MID"
+        },
+        {
+          "id": 319,
+          "name": "Szmodics",
+          "position": "MID"
+        },
+        {
+          "id": 323,
+          "name": "McAteer",
+          "position": "MID"
+        },
+        {
+          "id": 324,
+          "name": "Mehmeti",
+          "position": "MID"
+        },
+        {
+          "id": 562,
+          "name": "Maeda",
+          "position": "MID"
+        },
+        {
+          "id": 571,
+          "name": "Florentino",
+          "position": "MID"
+        }
+      ],
       "squadRating": 3.47,
       "squadValue": "\u00a3145.5m",
       "leagueRank": 18,
       "strengthHome": 2,
-      "strengthAway": 2
+      "strengthAway": 2,
+      "nextOpponent": "Sunderland",
+      "nextIsHome": true,
+      "nextFdr": 2,
+      "nextFdrClass": "easy",
+      "form": 0.75,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Leeds",
       "shortName": "LEE",
       "crestClass": "blue-crest",
       "squadSize": 25,
+      "squad": [
+        {
+          "id": 327,
+          "name": "Bijol",
+          "position": "DEF"
+        },
+        {
+          "id": 329,
+          "name": "Rodon",
+          "position": "DEF"
+        },
+        {
+          "id": 330,
+          "name": "Bogle",
+          "position": "DEF"
+        },
+        {
+          "id": 331,
+          "name": "Gudmundsson",
+          "position": "DEF"
+        },
+        {
+          "id": 332,
+          "name": "Justin",
+          "position": "DEF"
+        },
+        {
+          "id": 333,
+          "name": "Bornauw",
+          "position": "DEF"
+        },
+        {
+          "id": 334,
+          "name": "Muharemovi\u0107",
+          "position": "DEF"
+        },
+        {
+          "id": 346,
+          "name": "Calvert-Lewin",
+          "position": "FWD"
+        },
+        {
+          "id": 347,
+          "name": "Nmecha",
+          "position": "FWD"
+        },
+        {
+          "id": 348,
+          "name": "Piroe",
+          "position": "FWD"
+        },
+        {
+          "id": 349,
+          "name": "Mateo Joseph",
+          "position": "FWD"
+        },
+        {
+          "id": 326,
+          "name": "Perri",
+          "position": "GKP"
+        },
+        {
+          "id": 385,
+          "name": "Trafford",
+          "position": "GKP"
+        },
+        {
+          "id": 260,
+          "name": "Wilson",
+          "position": "MID"
+        },
+        {
+          "id": 335,
+          "name": "Stach",
+          "position": "MID"
+        },
+        {
+          "id": 336,
+          "name": "Okafor",
+          "position": "MID"
+        },
+        {
+          "id": 337,
+          "name": "Aaronson",
+          "position": "MID"
+        },
+        {
+          "id": 338,
+          "name": "Ampadu",
+          "position": "MID"
+        },
+        {
+          "id": 339,
+          "name": "Longstaff",
+          "position": "MID"
+        },
+        {
+          "id": 340,
+          "name": "Gelhardt",
+          "position": "MID"
+        },
+        {
+          "id": 341,
+          "name": "Gnonto",
+          "position": "MID"
+        },
+        {
+          "id": 342,
+          "name": "Harrison",
+          "position": "MID"
+        },
+        {
+          "id": 343,
+          "name": "James",
+          "position": "MID"
+        },
+        {
+          "id": 344,
+          "name": "Gruev",
+          "position": "MID"
+        },
+        {
+          "id": 345,
+          "name": "Tanaka",
+          "position": "MID"
+        }
+      ],
       "squadRating": 4.3,
       "squadValue": "\u00a3127.5m",
       "leagueRank": 6,
       "strengthHome": 2,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Nott'm Forest",
+      "nextIsHome": false,
+      "nextFdr": 3,
+      "nextFdrClass": "mid",
+      "form": 0.6,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Liverpool",
       "shortName": "LIV",
       "crestClass": "orange-crest",
       "squadSize": 35,
+      "squad": [
+        {
+          "id": 356,
+          "name": "Virgil",
+          "position": "DEF"
+        },
+        {
+          "id": 357,
+          "name": "Frimpong",
+          "position": "DEF"
+        },
+        {
+          "id": 358,
+          "name": "Kerkez",
+          "position": "DEF"
+        },
+        {
+          "id": 359,
+          "name": "Gomez",
+          "position": "DEF"
+        },
+        {
+          "id": 360,
+          "name": "Bradley",
+          "position": "DEF"
+        },
+        {
+          "id": 361,
+          "name": "Lucky",
+          "position": "DEF"
+        },
+        {
+          "id": 362,
+          "name": "Jacquet",
+          "position": "DEF"
+        },
+        {
+          "id": 363,
+          "name": "Leoni",
+          "position": "DEF"
+        },
+        {
+          "id": 364,
+          "name": "Tsimikas",
+          "position": "DEF"
+        },
+        {
+          "id": 365,
+          "name": "Ramsay",
+          "position": "DEF"
+        },
+        {
+          "id": 579,
+          "name": "Araujo",
+          "position": "DEF"
+        },
+        {
+          "id": 379,
+          "name": "Isak",
+          "position": "FWD"
+        },
+        {
+          "id": 380,
+          "name": "Ekitik\u00e9",
+          "position": "FWD"
+        },
+        {
+          "id": 382,
+          "name": "Danns",
+          "position": "FWD"
+        },
+        {
+          "id": 350,
+          "name": "A.Becker",
+          "position": "GKP"
+        },
+        {
+          "id": 351,
+          "name": "Mamardashvili",
+          "position": "GKP"
+        },
+        {
+          "id": 352,
+          "name": "Woodman",
+          "position": "GKP"
+        },
+        {
+          "id": 353,
+          "name": "Pecsi",
+          "position": "GKP"
+        },
+        {
+          "id": 354,
+          "name": "Jaros",
+          "position": "GKP"
+        },
+        {
+          "id": 355,
+          "name": "Davies",
+          "position": "GKP"
+        },
+        {
+          "id": 366,
+          "name": "Wirtz",
+          "position": "MID"
+        },
+        {
+          "id": 367,
+          "name": "Gakpo",
+          "position": "MID"
+        },
+        {
+          "id": 368,
+          "name": "Szoboszlai",
+          "position": "MID"
+        },
+        {
+          "id": 369,
+          "name": "Ngumoha",
+          "position": "MID"
+        },
+        {
+          "id": 370,
+          "name": "Chiesa",
+          "position": "MID"
+        },
+        {
+          "id": 371,
+          "name": "Gravenberch",
+          "position": "MID"
+        },
+        {
+          "id": 372,
+          "name": "Mac Allister",
+          "position": "MID"
+        },
+        {
+          "id": 373,
+          "name": "C.Jones",
+          "position": "MID"
+        },
+        {
+          "id": 374,
+          "name": "Endo",
+          "position": "MID"
+        },
+        {
+          "id": 375,
+          "name": "Nyoni",
+          "position": "MID"
+        },
+        {
+          "id": 376,
+          "name": "Bajcetic",
+          "position": "MID"
+        },
+        {
+          "id": 377,
+          "name": "Munoz",
+          "position": "MID"
+        },
+        {
+          "id": 378,
+          "name": "McConnell",
+          "position": "MID"
+        },
+        {
+          "id": 381,
+          "name": "Koumas",
+          "position": "MID"
+        },
+        {
+          "id": 383,
+          "name": "Elliott",
+          "position": "MID"
+        }
+      ],
       "squadRating": 4.46,
       "squadValue": "\u00a3189.0m",
       "leagueRank": 3,
       "strengthHome": 4,
-      "strengthAway": 4
+      "strengthAway": 4,
+      "nextOpponent": "Newcastle",
+      "nextIsHome": false,
+      "nextFdr": 3,
+      "nextFdrClass": "mid",
+      "form": 0.42,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Man City",
       "shortName": "MCI",
       "crestClass": "pink-crest",
       "squadSize": 30,
+      "squad": [
+        {
+          "id": 387,
+          "name": "O'Reilly",
+          "position": "DEF"
+        },
+        {
+          "id": 388,
+          "name": "Gu\u00e9hi",
+          "position": "DEF"
+        },
+        {
+          "id": 389,
+          "name": "Matheus N.",
+          "position": "DEF"
+        },
+        {
+          "id": 390,
+          "name": "R\u00faben",
+          "position": "DEF"
+        },
+        {
+          "id": 391,
+          "name": "Gvardiol",
+          "position": "DEF"
+        },
+        {
+          "id": 392,
+          "name": "A\u00eft-Nouri",
+          "position": "DEF"
+        },
+        {
+          "id": 393,
+          "name": "Khusanov",
+          "position": "DEF"
+        },
+        {
+          "id": 394,
+          "name": "Alleyne",
+          "position": "DEF"
+        },
+        {
+          "id": 395,
+          "name": "Lewis",
+          "position": "DEF"
+        },
+        {
+          "id": 396,
+          "name": "Vitor Reis",
+          "position": "DEF"
+        },
+        {
+          "id": 401,
+          "name": "Marmoush",
+          "position": "FWD"
+        },
+        {
+          "id": 411,
+          "name": "Haaland",
+          "position": "FWD"
+        },
+        {
+          "id": 384,
+          "name": "Donnarumma",
+          "position": "GKP"
+        },
+        {
+          "id": 386,
+          "name": "Bettinelli",
+          "position": "GKP"
+        },
+        {
+          "id": 587,
+          "name": "Rulli",
+          "position": "GKP"
+        },
+        {
+          "id": 238,
+          "name": "Grealish",
+          "position": "MID"
+        },
+        {
+          "id": 397,
+          "name": "Semenyo",
+          "position": "MID"
+        },
+        {
+          "id": 398,
+          "name": "Foden",
+          "position": "MID"
+        },
+        {
+          "id": 399,
+          "name": "Cherki",
+          "position": "MID"
+        },
+        {
+          "id": 400,
+          "name": "Doku",
+          "position": "MID"
+        },
+        {
+          "id": 402,
+          "name": "Rodrigo",
+          "position": "MID"
+        },
+        {
+          "id": 403,
+          "name": "Savinho",
+          "position": "MID"
+        },
+        {
+          "id": 404,
+          "name": "Reijnders",
+          "position": "MID"
+        },
+        {
+          "id": 405,
+          "name": "N.Gonzalez",
+          "position": "MID"
+        },
+        {
+          "id": 406,
+          "name": "Kova\u010di\u0107",
+          "position": "MID"
+        },
+        {
+          "id": 407,
+          "name": "Echeverri",
+          "position": "MID"
+        },
+        {
+          "id": 408,
+          "name": "Phillips",
+          "position": "MID"
+        },
+        {
+          "id": 409,
+          "name": "Mukasa",
+          "position": "MID"
+        },
+        {
+          "id": 410,
+          "name": "Monga",
+          "position": "MID"
+        },
+        {
+          "id": 481,
+          "name": "Anderson",
+          "position": "MID"
+        }
+      ],
       "squadRating": 5.22,
       "squadValue": "\u00a3185.0m",
       "leagueRank": 1,
       "strengthHome": 4,
-      "strengthAway": 5
+      "strengthAway": 5,
+      "nextOpponent": "Bournemouth",
+      "nextIsHome": true,
+      "nextFdr": 3,
+      "nextFdrClass": "mid",
+      "form": 0.46,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Man Utd",
       "shortName": "MUN",
       "crestClass": "",
       "squadSize": 33,
+      "squad": [
+        {
+          "id": 416,
+          "name": "De Ligt",
+          "position": "DEF"
+        },
+        {
+          "id": 417,
+          "name": "Dalot",
+          "position": "DEF"
+        },
+        {
+          "id": 418,
+          "name": "Maguire",
+          "position": "DEF"
+        },
+        {
+          "id": 419,
+          "name": "Martinez",
+          "position": "DEF"
+        },
+        {
+          "id": 420,
+          "name": "Yoro",
+          "position": "DEF"
+        },
+        {
+          "id": 421,
+          "name": "Heaven",
+          "position": "DEF"
+        },
+        {
+          "id": 422,
+          "name": "Mazraoui",
+          "position": "DEF"
+        },
+        {
+          "id": 423,
+          "name": "Shaw",
+          "position": "DEF"
+        },
+        {
+          "id": 424,
+          "name": "Amass",
+          "position": "DEF"
+        },
+        {
+          "id": 425,
+          "name": "Fredricson",
+          "position": "DEF"
+        },
+        {
+          "id": 439,
+          "name": "\u0160e\u0161ko",
+          "position": "FWD"
+        },
+        {
+          "id": 440,
+          "name": "Zirkzee",
+          "position": "FWD"
+        },
+        {
+          "id": 441,
+          "name": "Obi",
+          "position": "FWD"
+        },
+        {
+          "id": 325,
+          "name": "Darlow",
+          "position": "GKP"
+        },
+        {
+          "id": 412,
+          "name": "Lammens",
+          "position": "GKP"
+        },
+        {
+          "id": 413,
+          "name": "Bayindir",
+          "position": "GKP"
+        },
+        {
+          "id": 414,
+          "name": "Heaton",
+          "position": "GKP"
+        },
+        {
+          "id": 43,
+          "name": "Tielemans",
+          "position": "MID"
+        },
+        {
+          "id": 162,
+          "name": "Andrey Santos",
+          "position": "MID"
+        },
+        {
+          "id": 415,
+          "name": "Dorgu",
+          "position": "MID"
+        },
+        {
+          "id": 426,
+          "name": "B.Fernandes",
+          "position": "MID"
+        },
+        {
+          "id": 427,
+          "name": "Mbeumo",
+          "position": "MID"
+        },
+        {
+          "id": 428,
+          "name": "Cunha",
+          "position": "MID"
+        },
+        {
+          "id": 429,
+          "name": "Rashford",
+          "position": "MID"
+        },
+        {
+          "id": 430,
+          "name": "Mount",
+          "position": "MID"
+        },
+        {
+          "id": 431,
+          "name": "Amad",
+          "position": "MID"
+        },
+        {
+          "id": 432,
+          "name": "Mainoo",
+          "position": "MID"
+        },
+        {
+          "id": 433,
+          "name": "Ugarte",
+          "position": "MID"
+        },
+        {
+          "id": 434,
+          "name": "J.Fletcher",
+          "position": "MID"
+        },
+        {
+          "id": 435,
+          "name": "Lacey",
+          "position": "MID"
+        },
+        {
+          "id": 436,
+          "name": "Collyer",
+          "position": "MID"
+        },
+        {
+          "id": 437,
+          "name": "Bendito Mantato",
+          "position": "MID"
+        },
+        {
+          "id": 438,
+          "name": "Fletcher",
+          "position": "MID"
+        }
+      ],
       "squadRating": 4.3,
       "squadValue": "\u00a3179.5m",
       "leagueRank": 5,
       "strengthHome": 4,
-      "strengthAway": 4
+      "strengthAway": 4,
+      "nextOpponent": "Hull City",
+      "nextIsHome": false,
+      "nextFdr": 2,
+      "nextFdrClass": "easy",
+      "form": 0.7,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Newcastle",
       "shortName": "NEW",
       "crestClass": "blue-crest",
       "squadSize": 25,
+      "squad": [
+        {
+          "id": 445,
+          "name": "Thiaw",
+          "position": "DEF"
+        },
+        {
+          "id": 446,
+          "name": "Sch\u00e4r",
+          "position": "DEF"
+        },
+        {
+          "id": 447,
+          "name": "Botman",
+          "position": "DEF"
+        },
+        {
+          "id": 448,
+          "name": "Burn",
+          "position": "DEF"
+        },
+        {
+          "id": 449,
+          "name": "Hall",
+          "position": "DEF"
+        },
+        {
+          "id": 450,
+          "name": "Livramento",
+          "position": "DEF"
+        },
+        {
+          "id": 451,
+          "name": "A.Murphy",
+          "position": "DEF"
+        },
+        {
+          "id": 463,
+          "name": "Woltemade",
+          "position": "FWD"
+        },
+        {
+          "id": 464,
+          "name": "Wissa",
+          "position": "FWD"
+        },
+        {
+          "id": 465,
+          "name": "Osula",
+          "position": "FWD"
+        },
+        {
+          "id": 466,
+          "name": "Neave",
+          "position": "FWD"
+        },
+        {
+          "id": 442,
+          "name": "Pope",
+          "position": "GKP"
+        },
+        {
+          "id": 443,
+          "name": "Gillespie",
+          "position": "GKP"
+        },
+        {
+          "id": 444,
+          "name": "Jaouen",
+          "position": "GKP"
+        },
+        {
+          "id": 567,
+          "name": "Horn\u00ed\u010dek",
+          "position": "GKP"
+        },
+        {
+          "id": 453,
+          "name": "Barnes",
+          "position": "MID"
+        },
+        {
+          "id": 454,
+          "name": "Elanga",
+          "position": "MID"
+        },
+        {
+          "id": 456,
+          "name": "J.Ramsey",
+          "position": "MID"
+        },
+        {
+          "id": 457,
+          "name": "J.Murphy",
+          "position": "MID"
+        },
+        {
+          "id": 458,
+          "name": "Joelinton",
+          "position": "MID"
+        },
+        {
+          "id": 459,
+          "name": "L.Miley",
+          "position": "MID"
+        },
+        {
+          "id": 460,
+          "name": "Willock",
+          "position": "MID"
+        },
+        {
+          "id": 461,
+          "name": "Tour\u00e9",
+          "position": "MID"
+        },
+        {
+          "id": 462,
+          "name": "Steur",
+          "position": "MID"
+        },
+        {
+          "id": 559,
+          "name": "Bamba",
+          "position": "MID"
+        }
+      ],
       "squadRating": 4.15,
       "squadValue": "\u00a3130.5m",
       "leagueRank": 10,
       "strengthHome": 2,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Liverpool",
+      "nextIsHome": true,
+      "nextFdr": 4,
+      "nextFdrClass": "hard",
+      "form": 0.37,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": {
+        "team": "Newcastle",
+        "previousManager": "Eddie Howe",
+        "newManager": "Matthias Jaissle",
+        "effectiveDate": "2026-08-23",
+        "verifiedAt": "2026-08-12",
+        "source": "https://www.skysports.com/football/news/11678/13568428/newcastle-united-appoint-matthias-jaissle-as-head-coach-following-eddie-howes-departure-from-st-james-park"
+      }
     },
     {
       "name": "Nott'm Forest",
       "shortName": "NFO",
       "crestClass": "orange-crest",
       "squadSize": 28,
+      "squad": [
+        {
+          "id": 469,
+          "name": "N.Williams",
+          "position": "DEF"
+        },
+        {
+          "id": 470,
+          "name": "Morato",
+          "position": "DEF"
+        },
+        {
+          "id": 471,
+          "name": "Milenkovi\u0107",
+          "position": "DEF"
+        },
+        {
+          "id": 472,
+          "name": "Murillo",
+          "position": "DEF"
+        },
+        {
+          "id": 473,
+          "name": "Aina",
+          "position": "DEF"
+        },
+        {
+          "id": 474,
+          "name": "Jair Cunha",
+          "position": "DEF"
+        },
+        {
+          "id": 475,
+          "name": "Savona",
+          "position": "DEF"
+        },
+        {
+          "id": 476,
+          "name": "O.Richards",
+          "position": "DEF"
+        },
+        {
+          "id": 477,
+          "name": "Abbott",
+          "position": "DEF"
+        },
+        {
+          "id": 478,
+          "name": "Netz",
+          "position": "DEF"
+        },
+        {
+          "id": 479,
+          "name": "Bindon",
+          "position": "DEF"
+        },
+        {
+          "id": 581,
+          "name": "Diomande",
+          "position": "DEF"
+        },
+        {
+          "id": 490,
+          "name": "Wood",
+          "position": "FWD"
+        },
+        {
+          "id": 491,
+          "name": "Igor Jesus",
+          "position": "FWD"
+        },
+        {
+          "id": 492,
+          "name": "Awoniyi",
+          "position": "FWD"
+        },
+        {
+          "id": 493,
+          "name": "Kalimuendo",
+          "position": "FWD"
+        },
+        {
+          "id": 467,
+          "name": "Sels",
+          "position": "GKP"
+        },
+        {
+          "id": 468,
+          "name": "John",
+          "position": "GKP"
+        },
+        {
+          "id": 480,
+          "name": "Gibbs-White",
+          "position": "MID"
+        },
+        {
+          "id": 482,
+          "name": "Hudson-Odoi",
+          "position": "MID"
+        },
+        {
+          "id": 483,
+          "name": "Ndoye",
+          "position": "MID"
+        },
+        {
+          "id": 484,
+          "name": "Hutchinson",
+          "position": "MID"
+        },
+        {
+          "id": 485,
+          "name": "Bakwa",
+          "position": "MID"
+        },
+        {
+          "id": 486,
+          "name": "McAtee",
+          "position": "MID"
+        },
+        {
+          "id": 487,
+          "name": "Dominguez",
+          "position": "MID"
+        },
+        {
+          "id": 488,
+          "name": "Sangar\u00e9",
+          "position": "MID"
+        },
+        {
+          "id": 489,
+          "name": "Yates",
+          "position": "MID"
+        },
+        {
+          "id": 558,
+          "name": "Schlager",
+          "position": "MID"
+        }
+      ],
       "squadRating": 3.97,
       "squadValue": "\u00a3144.5m",
       "leagueRank": 13,
       "strengthHome": 3,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Leeds",
+      "nextIsHome": true,
+      "nextFdr": 2,
+      "nextFdrClass": "easy",
+      "form": 0.39,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Spurs",
       "shortName": "TOT",
       "crestClass": "pink-crest",
       "squadSize": 36,
+      "squad": [
+        {
+          "id": 112,
+          "name": "Van Hecke",
+          "position": "DEF"
+        },
+        {
+          "id": 498,
+          "name": "Senesi",
+          "position": "DEF"
+        },
+        {
+          "id": 499,
+          "name": "Pedro Porro",
+          "position": "DEF"
+        },
+        {
+          "id": 500,
+          "name": "Romero",
+          "position": "DEF"
+        },
+        {
+          "id": 501,
+          "name": "Danso",
+          "position": "DEF"
+        },
+        {
+          "id": 502,
+          "name": "Robertson",
+          "position": "DEF"
+        },
+        {
+          "id": 503,
+          "name": "Van de Ven",
+          "position": "DEF"
+        },
+        {
+          "id": 505,
+          "name": "Spence",
+          "position": "DEF"
+        },
+        {
+          "id": 506,
+          "name": "Udogie",
+          "position": "DEF"
+        },
+        {
+          "id": 507,
+          "name": "Phillips",
+          "position": "DEF"
+        },
+        {
+          "id": 508,
+          "name": "Davies",
+          "position": "DEF"
+        },
+        {
+          "id": 509,
+          "name": "Byfield",
+          "position": "DEF"
+        },
+        {
+          "id": 510,
+          "name": "Rowswell",
+          "position": "DEF"
+        },
+        {
+          "id": 511,
+          "name": "Souza",
+          "position": "DEF"
+        },
+        {
+          "id": 526,
+          "name": "Solanke",
+          "position": "FWD"
+        },
+        {
+          "id": 527,
+          "name": "Richarlison",
+          "position": "FWD"
+        },
+        {
+          "id": 528,
+          "name": "Scarlett",
+          "position": "FWD"
+        },
+        {
+          "id": 494,
+          "name": "Vicario",
+          "position": "GKP"
+        },
+        {
+          "id": 495,
+          "name": "Austin",
+          "position": "GKP"
+        },
+        {
+          "id": 496,
+          "name": "Kinsky",
+          "position": "GKP"
+        },
+        {
+          "id": 497,
+          "name": "Dubravka",
+          "position": "GKP"
+        },
+        {
+          "id": 455,
+          "name": "Tonali",
+          "position": "MID"
+        },
+        {
+          "id": 512,
+          "name": "Kudus",
+          "position": "MID"
+        },
+        {
+          "id": 513,
+          "name": "Xavi",
+          "position": "MID"
+        },
+        {
+          "id": 514,
+          "name": "Tel",
+          "position": "MID"
+        },
+        {
+          "id": 515,
+          "name": "Maddison",
+          "position": "MID"
+        },
+        {
+          "id": 516,
+          "name": "Bentancur",
+          "position": "MID"
+        },
+        {
+          "id": 517,
+          "name": "Odobert",
+          "position": "MID"
+        },
+        {
+          "id": 518,
+          "name": "P.M.Sarr",
+          "position": "MID"
+        },
+        {
+          "id": 519,
+          "name": "Gallagher",
+          "position": "MID"
+        },
+        {
+          "id": 520,
+          "name": "Bergvall",
+          "position": "MID"
+        },
+        {
+          "id": 521,
+          "name": "Kulusevski",
+          "position": "MID"
+        },
+        {
+          "id": 522,
+          "name": "Gray",
+          "position": "MID"
+        },
+        {
+          "id": 523,
+          "name": "Moore",
+          "position": "MID"
+        },
+        {
+          "id": 524,
+          "name": "Olusesi",
+          "position": "MID"
+        },
+        {
+          "id": 525,
+          "name": "Fernandes",
+          "position": "MID"
+        }
+      ],
       "squadRating": 3.86,
       "squadValue": "\u00a3183.5m",
       "leagueRank": 16,
       "strengthHome": 3,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Brentford",
+      "nextIsHome": false,
+      "nextFdr": 3,
+      "nextFdrClass": "mid",
+      "form": 0.69,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     },
     {
       "name": "Sunderland",
       "shortName": "SUN",
       "crestClass": "",
       "squadSize": 25,
+      "squad": [
+        {
+          "id": 532,
+          "name": "Ballard",
+          "position": "DEF"
+        },
+        {
+          "id": 533,
+          "name": "Mukiele",
+          "position": "DEF"
+        },
+        {
+          "id": 534,
+          "name": "Hume",
+          "position": "DEF"
+        },
+        {
+          "id": 535,
+          "name": "Alderete",
+          "position": "DEF"
+        },
+        {
+          "id": 536,
+          "name": "Reinildo",
+          "position": "DEF"
+        },
+        {
+          "id": 537,
+          "name": "Seelt",
+          "position": "DEF"
+        },
+        {
+          "id": 538,
+          "name": "Hjelde",
+          "position": "DEF"
+        },
+        {
+          "id": 539,
+          "name": "O'Nien",
+          "position": "DEF"
+        },
+        {
+          "id": 540,
+          "name": "Masuaku",
+          "position": "DEF"
+        },
+        {
+          "id": 541,
+          "name": "Meunier",
+          "position": "DEF"
+        },
+        {
+          "id": 552,
+          "name": "Brobbey",
+          "position": "FWD"
+        },
+        {
+          "id": 553,
+          "name": "Isidor",
+          "position": "FWD"
+        },
+        {
+          "id": 529,
+          "name": "Roefs",
+          "position": "GKP"
+        },
+        {
+          "id": 530,
+          "name": "Patterson",
+          "position": "GKP"
+        },
+        {
+          "id": 531,
+          "name": "Ellborg",
+          "position": "GKP"
+        },
+        {
+          "id": 542,
+          "name": "E.Le F\u00e9e",
+          "position": "MID"
+        },
+        {
+          "id": 543,
+          "name": "Diarra",
+          "position": "MID"
+        },
+        {
+          "id": 544,
+          "name": "Xhaka",
+          "position": "MID"
+        },
+        {
+          "id": 545,
+          "name": "Sadiki",
+          "position": "MID"
+        },
+        {
+          "id": 546,
+          "name": "Adingra",
+          "position": "MID"
+        },
+        {
+          "id": 547,
+          "name": "Mundle",
+          "position": "MID"
+        },
+        {
+          "id": 548,
+          "name": "Rigg",
+          "position": "MID"
+        },
+        {
+          "id": 549,
+          "name": "Talbi",
+          "position": "MID"
+        },
+        {
+          "id": 550,
+          "name": "Jocelin.T",
+          "position": "MID"
+        },
+        {
+          "id": 551,
+          "name": "Angulo",
+          "position": "MID"
+        }
+      ],
       "squadRating": 4.03,
       "squadValue": "\u00a3123.0m",
       "leagueRank": 11,
       "strengthHome": 2,
-      "strengthAway": 3
+      "strengthAway": 3,
+      "nextOpponent": "Ipswich Town",
+      "nextIsHome": false,
+      "nextFdr": 2,
+      "nextFdrClass": "easy",
+      "form": 0.63,
+      "fixtureLoad": 1,
+      "recentTransfers": {
+        "in": 0,
+        "out": 0,
+        "windowDays": 30
+      },
+      "managerChange": null
     }
   ],
   "players": {
@@ -984,6 +4306,37 @@
       "fixture": "vs Bournemouth (H)",
       "fdr": 3,
       "fdrClass": "mid"
+    },
+    "426": {
+      "id": 426,
+      "name": "Bruno Borges Fernandes",
+      "shortName": "B.Fernandes",
+      "position": "MID",
+      "team": "Man Utd",
+      "avatar": "BB",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a312.0m",
+      "owned": "48.0%",
+      "points": 235,
+      "epNext": 4.0,
+      "form": 0.0,
+      "minutes": 3065,
+      "goals": 9,
+      "assists": 24,
+      "xg": 10.79,
+      "xa": 12.28,
+      "valueScore": 19.6,
+      "tackles": 53,
+      "clearancesBlocksInterceptions": 67,
+      "recoveries": 167,
+      "saves": 0,
+      "cleanSheets": 7,
+      "positionPercentile": 100,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Hull City (A)",
+      "fdr": 2,
+      "fdrClass": "easy"
     },
     "1": {
       "id": 1,
@@ -1044,37 +4397,6 @@
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Coventry City (H)",
-      "fdr": 2,
-      "fdrClass": "easy"
-    },
-    "426": {
-      "id": 426,
-      "name": "Bruno Borges Fernandes",
-      "shortName": "B.Fernandes",
-      "position": "MID",
-      "team": "Man Utd",
-      "avatar": "BB",
-      "avatarClass": "orange-avatar",
-      "price": "\u00a312.0m",
-      "owned": "48.0%",
-      "points": 235,
-      "epNext": 4.0,
-      "form": 0.0,
-      "minutes": 3065,
-      "goals": 9,
-      "assists": 24,
-      "xg": 10.79,
-      "xa": 12.28,
-      "valueScore": 19.6,
-      "tackles": 53,
-      "clearancesBlocksInterceptions": 67,
-      "recoveries": 167,
-      "saves": 0,
-      "cleanSheets": 7,
-      "positionPercentile": 100,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4,
-      "fixture": "vs Hull City (A)",
       "fdr": 2,
       "fdrClass": "easy"
     },

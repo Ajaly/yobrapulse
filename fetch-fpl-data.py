@@ -1292,12 +1292,16 @@ def compute_prediction_track_record():
     }
 
 
-def build_teams_list(data, squad_ratings):
+def build_teams_list(data, squad_ratings, team_context, fixture_load, transfer_events, manager_changes):
     """Real 20-club roster with aggregate stats derived from real player
     data (squad rating = avg points-per-90 among players with minutes,
-    last season; squad value = sum of real current prices). No league
-    position/form here - both are genuinely 0/null pre-season (0 games
-    played), not a data gap, just nothing to report yet."""
+    last season; squad value = sum of real current prices), plus the
+    same real signals now feeding the prediction/scoring engines: next
+    real fixture + FDR, real recent form (once matches start - flat/
+    None pre-season, not a gap), real PL fixture congestion, and real
+    recent squad changes (transfers + any manually-verified manager
+    change on file). No league position here - genuinely 0 pre-season
+    (0 games played), not a data gap, just nothing to report yet."""
     by_team = {}
     for e in data["elements"]:
         by_team.setdefault(e["team"], []).append(e)
@@ -1316,16 +1320,35 @@ def build_teams_list(data, squad_ratings):
         squad = by_team.get(t["id"], [])
         avg_rating = squad_ratings.get(t["id"])
         squad_value = sum(e["now_cost"] for e in squad) / 10
+        context = team_context.get(t["id"], {})
         out.append({
             "name": t["name"],
             "shortName": t["short_name"],
             "crestClass": CREST_CLASSES[t["id"] % len(CREST_CLASSES)],
             "squadSize": len(squad),
+            # Full real roster (id/name/position only) - separate from
+            # the richer "players" pool below, which is deliberately
+            # limited to >=2% owned players. A fringe squad player with
+            # 0.1% ownership is still real and still on the roster, so
+            # still belongs in a team's own squad list even without a
+            # full stat card of their own.
+            "squad": sorted(
+                [{"id": e["id"], "name": e["web_name"], "position": POSITIONS.get(e["element_type"], "?")} for e in squad],
+                key=lambda p: p["position"],
+            ),
             "squadRating": round(avg_rating, 2) if avg_rating is not None else None,
             "squadValue": f"£{squad_value:.1f}m",
             "leagueRank": league_rank.get(t["id"]),
             "strengthHome": t["strength_overall_home"],
             "strengthAway": t["strength_overall_away"],
+            "nextOpponent": context.get("opponent"),
+            "nextIsHome": context.get("isHome"),
+            "nextFdr": context.get("fdr"),
+            "nextFdrClass": context.get("fdrClass"),
+            "form": round(context["ownForm"], 2) if context.get("ownForm") is not None else None,
+            "fixtureLoad": fixture_load.get(t["id"]),
+            "recentTransfers": compute_squad_churn(t["id"], transfer_events),
+            "managerChange": recent_manager_change(t["name"], manager_changes),
         })
     out.sort(key=lambda t: t["name"])
     return out
@@ -1583,7 +1606,6 @@ def main():
     fixtures = fetch_json(FIXTURES_URL.format(event_id=next_event["id"]))
     fixture_lookup = build_fixture_lookup(fixtures, teams)
     fixtures_list = build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, data["elements"], all_transfer_events, manager_changes, tracking_since)
-    teams_list = build_teams_list(data, squad_ratings)
 
     all_fixtures = fetch_json(ALL_FIXTURES_URL)
     fixture_swing = compute_fixture_swing(all_fixtures, next_event["id"], teams)
@@ -1596,6 +1618,7 @@ def main():
     team_context = build_team_context_map(fixture_lookup, fixtures_list, teams)
     fixture_load = compute_fixture_load(all_fixtures)
     player_history = load_player_history()
+    teams_list = build_teams_list(data, squad_ratings, team_context, fixture_load, all_transfer_events, manager_changes)
 
     elements_by_id = {e["id"]: e for e in data["elements"]}
     finished_matches = build_match_history(all_fixtures, teams, elements_by_id)
