@@ -1,18 +1,63 @@
 {
-  "generatedAt": "2026-08-14T19:43:40.381158+00:00",
+  "generatedAt": "2026-08-14T20:24:21.182290+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "'Rovers STUN Molineux!' | McLoughlin's first goal in English football levels it up!",
+      "title": "Wolves STUNNED! Andri Gudjohnsen silences Molineux as Rovers take lead!",
+      "description": "Andri Gudjohnsen silences Molineux as Blackburn Rovers take the lead over Wolves.",
+      "link": "https://www.skysports.com/watch/video/13573160/wolves-vs-blackburn-andri-gudjohnsen-silences-molineux-as-rovers-take-the-lead",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T21:12:00+00:00"
+    },
+    {
+      "title": "Super Giants storm into Hundred men's final with win over SunRisers",
+      "description": "The Manchester Super Giants set up a meeting with Trent Rockets in The Hundred final after beating SunRisers Leeds by 20 runs in the men's eliminator at The Kia Oval.",
+      "link": "https://www.skysports.com/cricket/news/12040/13573109/the-hundred-manchester-super-giants-into-mens-final-with-eliminator-win-over-sunrisers-leeds-as-josh-tongue-and-paul-walter-star",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T21:05:00+00:00"
+    },
+    {
+      "title": "'Rovers STUN Molineux!' | McLoughlin's first English football goal levels it up",
       "description": "Sean McLoughlin's first goal in English football levels the game for Blackburn as they face Wolves at Molineux.",
       "link": "https://www.skysports.com/watch/video/13573140/wolves-vs-blackburn-mcloughlins-first-goal-in-english-football-levels-it-up",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-14T20:32:00+00:00"
+    },
+    {
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T19:52:41+00:00"
+    },
+    {
+      "title": "Burnley sign Chelsea's Satpayev on loan",
+      "description": "Chelsea's new teenage winger Dastan Satpayev joins Championship club Burnley on a season's loan.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c1w1y95305no",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T19:49:11+00:00"
+    },
+    {
+      "title": "Departing Romero says he wasn't perfect at Spurs",
+      "description": "Cristian Romero says he \"wasn't perfect\" during his five-year stint at Tottenham Hotspur as he prepares to complete a move to Atletico Madrid.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T19:47:25+00:00"
     },
     {
       "title": "Romero announces Spurs exit ahead of Atletico transfer",
@@ -31,15 +76,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-14T19:00:00+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T18:12:04+00:00"
     },
     {
       "title": "Liverpool takeover Q&A: What do we know about Bezos' consortium?",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-14T17:27:00+00:00"
-    },
-    {
-      "title": "RFU postpones start of competitive community rugby season in England",
-      "description": "The RFU has postponed the start of the competitive community game season until the week commencing Monday September 21 due to \"concerns about player welfare and pitch conditions\".",
-      "link": "https://www.skysports.com/rugby-union/news/12040/13573039/rugby-football-union-postpones-competitive-community-rugby-season-in-england-due-to-concerns-for-player-welfare-and-pitch-conditions",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T17:22:00+00:00"
-    },
-    {
-      "title": "SunRisers into Hundred women's final with tense win over Brave",
-      "description": "SunRisers Leeds booked a meeting with Trent Rockets in The Hundred women's final after a tense five-wicket win over Southern Brave in the eliminator at The Kia Oval.",
-      "link": "https://www.skysports.com/cricket/news/12040/13572991/the-hundred-sunrisers-leeds-book-spot-in-womens-final-with-tense-five-wicket-win-over-southern-brave-in-eliminator",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T17:02:00+00:00"
-    },
-    {
-      "title": "FSG sell minority stake in Liverpool to Bezos-backed consortium",
-      "description": "Liverpool's owners have agreed to sell around a third of the club to a consortium including Amazon founder Jeff Bezos.",
-      "link": "https://www.skysports.com/football/news/12040/13573040/liverpool-fsg-sell-minority-stake-to-amazon-founder-jeff-bezos-backed-consortium-led-by-amit-bhatia",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T17:00:00+00:00"
-    },
-    {
-      "title": "Burnley drop shirt sponsor after 42 days",
-      "description": "Burnley drop their shirt sponsor just two days before their opening Championship match against West Ham - and only 42 days after signing the deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3r0yv8ygzvo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T16:20:40+00:00"
     }
   ]
 }
