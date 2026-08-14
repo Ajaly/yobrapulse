@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-14T18:43:54.791870+00:00",
+  "generatedAt": "2026-08-14T19:43:40.381158+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Rovers STUN Molineux!' | McLoughlin's first goal in English football levels it up!",
+      "description": "Sean McLoughlin's first goal in English football levels the game for Blackburn as they face Wolves at Molineux.",
+      "link": "https://www.skysports.com/watch/video/13573140/wolves-vs-blackburn-mcloughlins-first-goal-in-english-football-levels-it-up",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T20:32:00+00:00"
+    },
+    {
+      "title": "Romero announces Spurs exit ahead of Atletico transfer",
+      "description": "Tottenham captain Cristian Romero has confirmed he is leaving the club ahead of his move to Atletico Madrid being announced.",
+      "link": "https://www.skysports.com/football/news/12040/13572603/cristian-romero-spurs-captain-announces-exit-ahead-of-atletico-madrid-transfer-as-he-makes-statement-on-instagram",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T19:40:00+00:00"
+    },
     {
       "title": "Stokes' Durham progress with Flintoff unable to repeat hundred heroics",
       "description": "A Durham side featuring Ben Stokes thrashed Lancashire by 162 runs to reach the One Day Cup semi-finals with Rocky Flintoff unable to repeat his hundred heroics from earlier in the week.",
@@ -13,15 +31,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-14T19:00:00+00:00"
-    },
-    {
-      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T18:50:00+00:00"
     },
     {
       "title": "All done deals in August 2026",
@@ -103,15 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-14T16:20:40+00:00"
-    },
-    {
-      "title": "Hull City latest: Club confirm forward exit",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13548674/hull-city-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T16:20:00+00:00"
     }
   ]
 }
