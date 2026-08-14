@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-14T04:00:49.374448+00:00",
+  "generatedAt": "2026-08-14T06:08:26.677203+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Records broken, huge sixes & stunning catches! | Best moments from The Hundred",
+      "description": "Take a look at the best moments from this year's Hundred.",
+      "link": "https://www.skysports.com/watch/video/13571696/best-moments-from-the-hundred-records-broken-huge-sixes-stunning-catches",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T07:00:00+00:00"
+    },
+    {
+      "title": "Swiatek beats Rybakina to end title drought in Toronto",
+      "description": "Iga Swiatek claimed her first title of the season with a dominant 6-2 6-3 win over Elena Rybakina in the final of the National Bank Open in Toronto.",
+      "link": "https://www.skysports.com/tennis/news/12040/13572813/canadian-open-iga-swiatek-defeats-elena-rybakina-to-end-title-drought",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T06:10:00+00:00"
+    },
+    {
+      "title": "Today on Sky Sports Racing: Efsixteen returns in hot Newbury race",
+      "description": "We have an interesting day's racing on Friday with Flat action from Newbury and Yarmouth, live on Sky Sports Racing...",
+      "link": "https://www.skysports.com/racing/news/12040/13572338/today-on-sky-sports-racing-newbury-and-yarmouth-feature-live-on-friday-as-efsixteen-returns-in-hot-contest",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T06:00:00+00:00"
+    },
+    {
+      "title": "Who am I? Guess Premier League star No 25",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c36dx26l68lo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T05:17:23+00:00"
+    },
+    {
+      "title": "How Maresca's Man City are shaping up compared with Guardiola",
+      "description": "Enzo Maresca has the difficult task of following Pep Guardiola at Manchester City. BBC Sport analyses the new manager's style and tactics from the pre-season games so far.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c70g7dx63geo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T05:16:06+00:00"
+    },
     {
       "title": "The level-headed Swede orchestrating magic with Motherwell",
       "description": "Alfred Johansson's impressive early work at Motherwell continues with a place in the Conference League play-offs - but don't expect the Swede to get carried away.",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-13T22:49:29+00:00"
-    },
-    {
-      "title": "Super League leaders Leeds beaten by Leigh after late drama",
-      "description": "Innes Senior scored twice as Leigh Leopards inflicted a first home defeat of the season on Betfred Super League leaders Leeds Rhinos by winning 20-16 at Headingley.",
-      "link": "https://www.skysports.com/rugby-league/news/12040/13572725/super-league-leaders-leeds-rhinos-suffer-first-home-defeat-of-season-as-leigh-leopards-claim-surprise-20-16-win-at-headingley",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T22:40:00+00:00"
-    },
-    {
-      "title": "Man City's Reijnders set for \u00a352m Saudi move",
-      "description": "Manchester City midfielder Tijjani Reijnders is set to leave following a year at the club after a \u00a352m move was agreed with Saudi Pro-League side Al-Qadsiah.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp30xwkj4y3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T22:12:05+00:00"
-    },
-    {
-      "title": "Man City reject fresh Rodri bid - Friday's gossip",
-      "description": "Barcelona's latest Rodri bid rejected, Tottenham's Djed Spence on verge of Inter Milan move, Arsenal rebuffed in bid for Marc Pubill, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2dk2618pxgo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T22:03:35+00:00"
-    },
-    {
-      "title": "Gay out for duck as Pakistan impress against County Select XI",
-      "description": "England opening batter Emilio Gay was out for a duck as Pakistan made a strong start to their tour against a Professional County Club Select XI.",
-      "link": "https://www.skysports.com/cricket/news/12040/13572739/england-opener-emilio-gay-out-for-duck-as-pakistan-impress-against-county-select-xi-ahead-of-test-series",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-13T21:20:00+00:00"
-    },
-    {
-      "title": "Rangers booed off after Europa League exit as McInnes' winless start goes on",
-      "description": "Derek McInnes' winless start to life at Rangers hit its lowest point as they were embarrassed and dumped out of the Europa League to a chorus of boos by Jagiellonia Bialystok on aggregate following a 1-1 draw at Ibrox.",
-      "link": "https://www.skysports.com/football/rangers-vs-jagiellonia-bialystok/report/571444",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-13T21:20:00+00:00"
     }
   ]
 }
