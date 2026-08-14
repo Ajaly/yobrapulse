@@ -1,12 +1,39 @@
 {
-  "generatedAt": "2026-08-14T21:19:11.646062+00:00",
+  "generatedAt": "2026-08-14T22:15:23.225408+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Jimenez salvages point for Wolves on Molineux return",
+      "title": "Arteta says he will sign new Arsenal contract in 'organic way'",
+      "description": "Mikel Arteta has revealed he will sign a new Arsenal contract and there is no need for fans to be worried about his future.",
+      "link": "https://www.skysports.com/football/news/12040/13572989/mikel-arteta-arsenal-manager-says-he-will-sign-new-contract-after-entering-the-last-year-of-his-current-deal",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T22:30:00+00:00"
+    },
+    {
+      "title": "Jimenez the hero as controversial late pen spares Wolves' blushes",
+      "description": "Highlights from the Sky Bet Championship match between Wolverhampton Wanderers and Blackburn Rovers.",
+      "link": "https://www.skysports.com/watch/video/13573181/wolverhampton-wanderers-2-2-blackburn-rovers-championship-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T22:25:00+00:00"
+    },
+    {
+      "title": "'It's such a BIG call!' | Controversial late Wolves penalty decision ANALYSED",
+      "description": "Curtis Davies and Jobi McAnuff debate whether Wolves' late penalty was correctly award during their opening day 2-2 draw against Blackburn.",
+      "link": "https://www.skysports.com/watch/video/13573176/wolves-vs-blackburn-was-the-referee-right-to-award-wolves-controversial-late-penalty",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T22:15:00+00:00"
+    },
+    {
+      "title": "Jimenez salvages dramatic point for Wolves on Molineux return",
       "description": "Raul Jimenez scored a stoppage-time equaliser from the penalty spot on his return to Molineux to salvage a 2-2 draw for Wolves against Blackburn.",
       "link": "https://www.skysports.com/football/wolverhampton-wanderers-vs-blackburn-rovers/report/560498",
       "source": "Sky Sports",
@@ -22,6 +49,33 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-14T22:00:00+00:00"
+    },
+    {
+      "title": "Europa League exit leaves Rangers counting the financial cost",
+      "description": "As Rangers struggle on the pitch, there will be an understanding that they need fan loyalty to stay afloat.",
+      "link": "https://www.bbc.co.uk/news/articles/cvg94jqpzxpo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T21:47:00+00:00"
+    },
+    {
+      "title": "Arteta not worried about Arsenal contract talks",
+      "description": "Mikel Arteta says supporters \"don't have to worry about\" his future at Arsenal as he wants to extend his contract and the time left on his deal is \"not an issue\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T21:30:21+00:00"
+    },
+    {
+      "title": "Hodgkinson has to settle for silver as Werro wins 800m gold",
+      "description": "Keely Hodgkinson came up just short of a coveted European 800m title hat-trick after Swiss favourite Audrey Werro won their hotly-anticipated showdown in Birmingham as the British Olympic champion settled for silver.",
+      "link": "https://www.skysports.com/athletics/news/12040/13573162/european-athletics-championship-keely-hodgkinson-forced-to-settle-for-silver-as-audrey-werro-wins-womens-800m-gold",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T21:17:00+00:00"
     },
     {
       "title": "Arsenal lead Hinshelwood race - Saturday's gossip",
@@ -42,76 +96,22 @@
       "pubDateISO": "2026-08-14T21:12:00+00:00"
     },
     {
-      "title": "Super Giants storm into Hundred men's final by beating SunRisers",
-      "description": "The Manchester Super Giants set up a meeting with Trent Rockets in The Hundred final after beating SunRisers Leeds by 20 runs in the men's eliminator at The Kia Oval.",
-      "link": "https://www.skysports.com/cricket/news/12040/13573109/the-hundred-manchester-super-giants-into-mens-final-with-eliminator-win-over-sunrisers-leeds-as-josh-tongue-and-paul-walter-star",
-      "source": "Sky Sports",
+      "title": "Listen: Reaction as Kilmarnock come back twice to beat Ayr",
+      "description": "David Currie, Rory Loy and Ian McCall review Kilmarnock 3-2 Ayr United in the League Cup",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p4my4c",
+      "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T21:05:00+00:00"
+      "pubDateISO": "2026-08-14T21:10:00+00:00"
     },
     {
-      "title": "'Rovers STUN Molineux!' | McLoughlin's first English football goal levels it up",
-      "description": "Sean McLoughlin's first goal in English football levels the game for Blackburn as they face Wolves at Molineux.",
-      "link": "https://www.skysports.com/watch/video/13573140/wolves-vs-blackburn-mcloughlins-first-goal-in-english-football-levels-it-up",
-      "source": "Sky Sports",
+      "title": "Football Daily",
+      "description": "Arsenal take on Manchester City in the Community Shield on Sunday",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p4mymx",
+      "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T20:32:00+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T19:52:41+00:00"
-    },
-    {
-      "title": "Burnley sign Chelsea's Satpayev on loan",
-      "description": "Chelsea's new teenage winger Dastan Satpayev joins Championship club Burnley on a season's loan.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1w1y95305no",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T19:49:11+00:00"
-    },
-    {
-      "title": "Departing Romero says he wasn't perfect at Spurs",
-      "description": "Cristian Romero says he \"wasn't perfect\" during his five-year stint at Tottenham Hotspur as he prepares to complete a move to Atletico Madrid.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T19:47:25+00:00"
-    },
-    {
-      "title": "Romero announces Spurs exit ahead of Atletico transfer",
-      "description": "Tottenham captain Cristian Romero has confirmed he is leaving the club ahead of his move to Atletico Madrid being announced.",
-      "link": "https://www.skysports.com/football/news/12040/13572603/cristian-romero-spurs-captain-announces-exit-ahead-of-atletico-madrid-transfer-as-he-makes-statement-on-instagram",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T19:40:00+00:00"
-    },
-    {
-      "title": "Stokes' Durham progress with Flintoff unable to repeat hundred heroics",
-      "description": "A Durham side featuring Ben Stokes thrashed Lancashire by 162 runs to reach the One Day Cup semi-finals with Rocky Flintoff unable to repeat his hundred heroics from earlier in the week.",
-      "link": "https://www.skysports.com/cricket/news/12040/13572961/ben-stokes-durham-reach-one-day-cup-semi-finals-with-rocky-flintoff-unable-to-repeat-hundred-heroics-for-lancashire",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T19:00:00+00:00"
-    },
-    {
-      "title": "Crystal Palace latest: Club finalising deal for Gozo",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T18:00:00+00:00"
+      "pubDateISO": "2026-08-14T21:09:00+00:00"
     }
   ]
 }

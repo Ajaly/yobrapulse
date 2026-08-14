@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T21:22:02.815297+00:00",
+  "generatedAt": "2026-08-14T22:15:22.483117+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -9,12 +9,12 @@
   "captainPicks": [
     {
       "id": "411",
-      "score": 4.54,
+      "score": 4.5,
       "factors": {
         "epNext": 4.0,
         "ownForm": null,
-        "teamForm": 0.46,
-        "opponentForm": 0.54,
+        "teamForm": null,
+        "opponentForm": null,
         "fixtureLoad": 1,
         "opponent": "Bournemouth",
         "trackRecordVsOpponent": {
@@ -26,26 +26,26 @@
       }
     },
     {
-      "id": "426",
-      "score": 4.29,
+      "id": "1",
+      "score": 4.0,
       "factors": {
         "epNext": 4.0,
         "ownForm": null,
-        "teamForm": 0.7,
-        "opponentForm": 0.63,
+        "teamForm": null,
+        "opponentForm": null,
         "fixtureLoad": 1,
-        "opponent": "Hull City",
+        "opponent": "Coventry City",
         "trackRecordVsOpponent": null
       }
     },
     {
-      "id": "1",
-      "score": 3.91,
+      "id": "4",
+      "score": 4.0,
       "factors": {
         "epNext": 4.0,
         "ownForm": null,
-        "teamForm": 0.66,
-        "opponentForm": 0.9,
+        "teamForm": null,
+        "opponentForm": null,
         "fixtureLoad": 1,
         "opponent": "Coventry City",
         "trackRecordVsOpponent": null
@@ -246,8 +246,8 @@
         "factors": {
           "epNext": 3.3,
           "ownForm": null,
-          "teamForm": 0.3,
-          "opponentForm": 0.8,
+          "teamForm": null,
+          "opponentForm": null,
           "fixtureLoad": 1,
           "opponent": "Crystal Palace",
           "trackRecordVsOpponent": {
@@ -264,8 +264,8 @@
         "factors": {
           "epNext": 2.2,
           "ownForm": null,
-          "teamForm": 0.37,
-          "opponentForm": 0.42,
+          "teamForm": null,
+          "opponentForm": null,
           "fixtureLoad": 1,
           "opponent": "Liverpool",
           "trackRecordVsOpponent": {
@@ -354,28 +354,18 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 56,
+      "homeWinPct": 60,
       "drawPct": 23,
-      "awayWinPct": 21,
-      "predictedScore": "1.7 \u2014 1.0",
+      "awayWinPct": 17,
+      "predictedScore": "1.8 \u2014 0.8",
       "factors": {
-        "homeForm": 0.66,
-        "awayForm": 0.9,
-        "h2h": {
-          "homeWins": 2,
-          "draws": 0,
-          "awayWins": 0,
-          "meetings": 2
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.99,
-        "awayAvailability": 0.96
+        "awayAvailability": 0.91
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 81,
-        "drawPct": 13,
-        "awayWinPct": 6
-      }
+      "marketOdds": null
     },
     {
       "id": 4,
@@ -402,28 +392,18 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 27,
-      "drawPct": 28,
-      "awayWinPct": 45,
+      "homeWinPct": 29,
+      "drawPct": 27,
+      "awayWinPct": 44,
       "predictedScore": "1.1 \u2014 1.4",
       "factors": {
-        "homeForm": 0.63,
-        "awayForm": 0.7,
-        "h2h": {
-          "homeWins": 1,
-          "draws": 2,
-          "awayWins": 2,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.78,
         "awayAvailability": 0.96
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 13,
-        "drawPct": 21,
-        "awayWinPct": 66
-      }
+      "marketOdds": null
     },
     {
       "id": 3,
@@ -450,28 +430,18 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 45,
+      "homeWinPct": 46,
       "drawPct": 25,
-      "awayWinPct": 30,
-      "predictedScore": "1.3 \u2014 1.3",
+      "awayWinPct": 29,
+      "predictedScore": "1.5 \u2014 1.1",
       "factors": {
-        "homeForm": 0.3,
-        "awayForm": 0.8,
-        "h2h": {
-          "homeWins": 3,
-          "draws": 2,
-          "awayWins": 0,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.98,
         "awayAvailability": 0.98
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 44,
-        "drawPct": 28,
-        "awayWinPct": 28
-      }
+      "marketOdds": null
     },
     {
       "id": 5,
@@ -498,28 +468,18 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 38,
+      "homeWinPct": 36,
       "drawPct": 26,
-      "awayWinPct": 36,
-      "predictedScore": "1.4 \u2014 1.2",
+      "awayWinPct": 38,
+      "predictedScore": "1.3 \u2014 1.2",
       "factors": {
-        "homeForm": 0.75,
-        "awayForm": 0.63,
-        "h2h": {
-          "homeWins": 2,
-          "draws": 1,
-          "awayWins": 2,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.96,
         "awayAvailability": 0.86
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 35,
-        "drawPct": 29,
-        "awayWinPct": 36
-      }
+      "marketOdds": null
     },
     {
       "id": 6,
@@ -546,28 +506,18 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 43,
+      "homeWinPct": 44,
       "drawPct": 25,
-      "awayWinPct": 32,
-      "predictedScore": "1.4 \u2014 1.2",
+      "awayWinPct": 31,
+      "predictedScore": "1.5 \u2014 1.1",
       "factors": {
-        "homeForm": 0.39,
-        "awayForm": 0.6,
-        "h2h": {
-          "homeWins": 3,
-          "draws": 0,
-          "awayWins": 2,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.99,
         "awayAvailability": 0.95
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 42,
-        "drawPct": 28,
-        "awayWinPct": 30
-      }
+      "marketOdds": null
     },
     {
       "id": 2,
@@ -594,28 +544,18 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 39,
-      "drawPct": 27,
-      "awayWinPct": 34,
+      "homeWinPct": 47,
+      "drawPct": 25,
+      "awayWinPct": 28,
       "predictedScore": "1.5 \u2014 1.1",
       "factors": {
-        "homeForm": 0.54,
-        "awayForm": 0.69,
-        "h2h": {
-          "homeWins": 0,
-          "draws": 1,
-          "awayWins": 4,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.98,
         "awayAvailability": 0.97
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 39,
-        "drawPct": 26,
-        "awayWinPct": 35
-      }
+      "marketOdds": null
     },
     {
       "id": 7,
@@ -642,28 +582,18 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 29,
-      "drawPct": 28,
-      "awayWinPct": 43,
-      "predictedScore": "1.2 \u2014 1.3",
+      "homeWinPct": 31,
+      "drawPct": 27,
+      "awayWinPct": 42,
+      "predictedScore": "1.2 \u2014 1.4",
       "factors": {
-        "homeForm": 0.63,
-        "awayForm": 0.51,
-        "h2h": {
-          "homeWins": 1,
-          "draws": 1,
-          "awayWins": 3,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.9,
         "awayAvailability": 0.97
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 41,
-        "drawPct": 26,
-        "awayWinPct": 33
-      }
+      "marketOdds": null
     },
     {
       "id": 8,
@@ -690,28 +620,18 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 60,
-      "drawPct": 22,
-      "awayWinPct": 18,
-      "predictedScore": "1.7 \u2014 0.9",
+      "homeWinPct": 57,
+      "drawPct": 23,
+      "awayWinPct": 20,
+      "predictedScore": "1.8 \u2014 0.9",
       "factors": {
-        "homeForm": 0.46,
-        "awayForm": 0.54,
-        "h2h": {
-          "homeWins": 3,
-          "draws": 1,
-          "awayWins": 1,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.99,
         "awayAvailability": 0.86
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 65,
-        "drawPct": 19,
-        "awayWinPct": 16
-      }
+      "marketOdds": null
     },
     {
       "id": 9,
@@ -745,28 +665,18 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 25,
-      "drawPct": 28,
-      "awayWinPct": 47,
-      "predictedScore": "1.1 \u2014 1.4",
+      "homeWinPct": 29,
+      "drawPct": 27,
+      "awayWinPct": 44,
+      "predictedScore": "1.2 \u2014 1.4",
       "factors": {
-        "homeForm": 0.37,
-        "awayForm": 0.42,
-        "h2h": {
-          "homeWins": 1,
-          "draws": 1,
-          "awayWins": 3,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.92,
         "awayAvailability": 0.95
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 27,
-        "drawPct": 24,
-        "awayWinPct": 49
-      }
+      "marketOdds": null
     },
     {
       "id": 10,
@@ -793,28 +703,18 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 25,
+      "homeWinPct": 28,
       "drawPct": 28,
-      "awayWinPct": 47,
+      "awayWinPct": 44,
       "predictedScore": "1.1 \u2014 1.4",
       "factors": {
-        "homeForm": 0.34,
-        "awayForm": 0.46,
-        "h2h": {
-          "homeWins": 2,
-          "draws": 0,
-          "awayWins": 3,
-          "meetings": 5
-        },
+        "homeForm": null,
+        "awayForm": null,
+        "h2h": null,
         "homeAvailability": 0.95,
         "awayAvailability": 0.96
       },
-      "marketOdds": {
-        "provider": "DraftKings",
-        "homeWinPct": 29,
-        "drawPct": 26,
-        "awayWinPct": 45
-      }
+      "marketOdds": null
     }
   ],
   "predictionTrackRecord": {
@@ -988,7 +888,7 @@
       "nextIsHome": true,
       "nextFdr": 2,
       "nextFdrClass": "easy",
-      "form": 0.66,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -1153,7 +1053,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.51,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -1313,7 +1213,7 @@
       "nextIsHome": false,
       "nextFdr": 5,
       "nextFdrClass": "hard",
-      "form": 0.54,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -1468,7 +1368,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.54,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -1643,7 +1543,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.63,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -1858,7 +1758,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.46,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2038,7 +1938,7 @@
       "nextIsHome": false,
       "nextFdr": 5,
       "nextFdrClass": "hard",
-      "form": 0.9,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2213,7 +2113,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.8,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 1,
@@ -2358,7 +2258,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.3,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2498,7 +2398,7 @@
       "nextIsHome": true,
       "nextFdr": 4,
       "nextFdrClass": "hard",
-      "form": 0.34,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2693,7 +2593,7 @@
       "nextIsHome": true,
       "nextFdr": 4,
       "nextFdrClass": "hard",
-      "form": 0.63,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2873,7 +2773,7 @@
       "nextIsHome": true,
       "nextFdr": 2,
       "nextFdrClass": "easy",
-      "form": 0.75,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -3023,7 +2923,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.6,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -3223,7 +3123,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.42,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -3398,7 +3298,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.46,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -3588,7 +3488,7 @@
       "nextIsHome": false,
       "nextFdr": 2,
       "nextFdrClass": "easy",
-      "form": 0.7,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -3738,7 +3638,7 @@
       "nextIsHome": true,
       "nextFdr": 4,
       "nextFdrClass": "hard",
-      "form": 0.37,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -3910,7 +3810,7 @@
       "nextIsHome": true,
       "nextFdr": 2,
       "nextFdrClass": "easy",
-      "form": 0.39,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -4115,7 +4015,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.69,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -4265,7 +4165,7 @@
       "nextIsHome": false,
       "nextFdr": 2,
       "nextFdrClass": "easy",
-      "form": 0.63,
+      "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -4306,37 +4206,6 @@
       "fixture": "vs Bournemouth (H)",
       "fdr": 3,
       "fdrClass": "mid"
-    },
-    "426": {
-      "id": 426,
-      "name": "Bruno Borges Fernandes",
-      "shortName": "B.Fernandes",
-      "position": "MID",
-      "team": "Man Utd",
-      "avatar": "BB",
-      "avatarClass": "orange-avatar",
-      "price": "\u00a312.0m",
-      "owned": "48.0%",
-      "points": 235,
-      "epNext": 4.0,
-      "form": 0.0,
-      "minutes": 3065,
-      "goals": 9,
-      "assists": 24,
-      "xg": 10.79,
-      "xa": 12.28,
-      "valueScore": 19.6,
-      "tackles": 53,
-      "clearancesBlocksInterceptions": 67,
-      "recoveries": 167,
-      "saves": 0,
-      "cleanSheets": 7,
-      "positionPercentile": 100,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4,
-      "fixture": "vs Hull City (A)",
-      "fdr": 2,
-      "fdrClass": "easy"
     },
     "1": {
       "id": 1,
@@ -4400,6 +4269,37 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
+    "426": {
+      "id": 426,
+      "name": "Bruno Borges Fernandes",
+      "shortName": "B.Fernandes",
+      "position": "MID",
+      "team": "Man Utd",
+      "avatar": "BB",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a312.0m",
+      "owned": "48.0%",
+      "points": 235,
+      "epNext": 4.0,
+      "form": 0.0,
+      "minutes": 3065,
+      "goals": 9,
+      "assists": 24,
+      "xg": 10.79,
+      "xa": 12.28,
+      "valueScore": 19.6,
+      "tackles": 53,
+      "clearancesBlocksInterceptions": 67,
+      "recoveries": 167,
+      "saves": 0,
+      "cleanSheets": 7,
+      "positionPercentile": 100,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Hull City (A)",
+      "fdr": 2,
+      "fdrClass": "easy"
+    },
     "397": {
       "id": 397,
       "name": "Antoine Semenyo",
@@ -4409,7 +4309,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.5m",
-      "owned": "27.5%",
+      "owned": "27.6%",
       "points": 202,
       "epNext": 2.9,
       "form": 0.0,
@@ -5463,7 +5363,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "26.7%",
+      "owned": "26.8%",
       "points": 148,
       "epNext": 2.8,
       "form": 0.0,
@@ -5556,7 +5456,7 @@
       "avatar": "MS",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "12.2%",
+      "owned": "12.1%",
       "points": 143,
       "epNext": 2.8,
       "form": 0.0,
@@ -6827,7 +6727,7 @@
       "avatar": "SL",
       "avatarClass": "",
       "price": "\u00a35.0m",
-      "owned": "19.5%",
+      "owned": "19.4%",
       "points": 109,
       "epNext": 2.6,
       "form": 0.0,
@@ -7292,7 +7192,7 @@
       "avatar": "DS",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "6.5%",
+      "owned": "6.4%",
       "points": 78,
       "epNext": 1.7,
       "form": 0.0,
@@ -8369,7 +8269,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 4489674,
+  "totalManagers": 4498319,
   "totalPlayers": 587,
   "priceMovement": {
     "risers": [],
