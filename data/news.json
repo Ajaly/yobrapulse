@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-14T10:52:39.455591+00:00",
+  "generatedAt": "2026-08-14T11:39:31.101908+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "What's going on with Southampton boss Eckert's FA probe?",
+      "description": "While Southampton felt the full force of the EFL's disciplionary powers at the back end of last season, Spygate is far from over with the future of Tonda Eckert still uncertain.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cly5pe3303eo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T11:23:30+00:00"
+    },
+    {
+      "title": "VAR, timewasting and subs - new rules for the new season",
+      "description": "The 2026-27 season will feature an unprecedented number of new laws, mostly designed to tackle tempo disruption and make the game quicker.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce85pje4gyqo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T11:00:52+00:00"
+    },
     {
       "title": "Spurs agree \u00a330m deal with Inter for Spence",
       "description": "Inter Milan have agreed a &#163;30m deal to sign England defender Djed Spence from Tottenham.",
@@ -94,24 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-14T10:00:53+00:00"
-    },
-    {
-      "title": "Bowen: As long as West Ham get back to the PL, I don't care how we do it",
-      "description": "When West Ham were relegated from the Premier League after 15 years back in May, it seemed inevitable Jarrod Bowen would not be there to join them as they returned to the Sky Bet Championship.",
-      "link": "https://www.skysports.com/football/news/12040/13572527/jarrod-bowen-exclusive-west-ham-captain",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T10:00:00+00:00"
-    },
-    {
-      "title": "Tempers flare as Australia toil after Hasan's maiden Test ton",
-      "description": "Tanzid Hasan posted his maiden century in just his second Test to help guide Bangladesh to 351-6 at stumps on Friday and into a commanding position over Australia after two days of the Top End series opener in Darwin.",
-      "link": "https://www.skysports.com/cricket/news/12040/13572882/australia-vs-bangladesh-tanzid-hasans-maiden-test-century-leaves-tourists-in-charge-in-darwin",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T09:56:00+00:00"
     }
   ]
 }
