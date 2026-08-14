@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T17:46:34.432195+00:00",
+  "generatedAt": "2026-08-14T18:43:54.126872+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -516,12 +516,12 @@
       "homeWinPct": 31,
       "drawPct": 27,
       "awayWinPct": 42,
-      "predictedScore": "1.2 \u2014 1.3",
+      "predictedScore": "1.2 \u2014 1.4",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.92,
+        "homeAvailability": 0.9,
         "awayAvailability": 0.97
       },
       "marketOdds": null
@@ -637,12 +637,12 @@
       "homeWinPct": 28,
       "drawPct": 28,
       "awayWinPct": 44,
-      "predictedScore": "1.2 \u2014 1.4",
+      "predictedScore": "1.1 \u2014 1.4",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.98,
+        "homeAvailability": 0.95,
         "awayAvailability": 0.96
       },
       "marketOdds": null
@@ -925,7 +925,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "27.1%",
+      "owned": "27.2%",
       "points": 209,
       "epNext": 4.0,
       "form": 0.0,
@@ -2041,7 +2041,7 @@
       "avatar": "NM",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "4.5%",
+      "owned": "4.4%",
       "points": 151,
       "epNext": 1.9,
       "form": 0.0,
@@ -2816,7 +2816,7 @@
       "avatar": "IS",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "7.7%",
+      "owned": "7.6%",
       "points": 117,
       "epNext": 2.3,
       "form": 0.0,
@@ -3901,7 +3901,7 @@
       "avatar": "DS",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "6.6%",
+      "owned": "6.5%",
       "points": 78,
       "epNext": 1.7,
       "form": 0.0,
@@ -4211,7 +4211,7 @@
       "avatar": "CM",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "13.8%",
+      "owned": "13.7%",
       "points": 40,
       "epNext": 2.5,
       "form": 0.0,
@@ -4978,7 +4978,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 4444654,
+  "totalManagers": 4456661,
   "totalPlayers": 587,
   "priceMovement": {
     "risers": [],

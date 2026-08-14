@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-14T17:46:34.943670+00:00",
+  "generatedAt": "2026-08-14T18:43:54.791870+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Stokes' Durham progress with Flintoff unable to repeat hundred heroics",
+      "description": "A Durham side featuring Ben Stokes thrashed Lancashire by 162 runs to reach the One Day Cup semi-finals with Rocky Flintoff unable to repeat his hundred heroics from earlier in the week.",
+      "link": "https://www.skysports.com/cricket/news/12040/13572961/ben-stokes-durham-reach-one-day-cup-semi-finals-with-rocky-flintoff-unable-to-repeat-hundred-heroics-for-lancashire",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-14T19:00:00+00:00"
+    },
+    {
+      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T18:50:00+00:00"
+    },
+    {
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-14T18:12:04+00:00"
+    },
     {
       "title": "Liverpool takeover Q&A: What do we know about Bezos' consortium?",
       "description": "Liverpool's owners Fenway Sports Group have sold a stake in Liverpool Football Club to a consortium including Amazon founder Jeff Bezos.",
@@ -31,15 +58,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-14T17:52:00+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-14T17:30:54+00:00"
     },
     {
       "title": "Man City miss Chelsea's deadline to bid for Fernandez",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-14T16:20:00+00:00"
-    },
-    {
-      "title": "Rangers boss McInnes 'doing his best', says Halliday",
-      "description": "\"Derek McInnes is doing the best that he possibly can with what's at his disposal to try and get results.\"",
-      "link": "https://www.skysports.com/football/news/12040/13572976/rangers-boss-derek-mcinnes-doing-the-best-he-can-despite-poor-start-says-former-midfielder-andy-halliday",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T16:20:00+00:00"
-    },
-    {
-      "title": "Chelsea say no Fernandez move as deadline passes - but is it really over?",
-      "description": "Chelsea's deadline for clubs to bid \u00a3120m for midfielder Enzo Fernandez has passed - and they now expect the Argentine to stay at the club this season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T16:04:54+00:00"
     }
   ]
 }
