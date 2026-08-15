@@ -1,18 +1,90 @@
 {
-  "generatedAt": "2026-08-15T15:13:38.732113+00:00",
+  "generatedAt": "2026-08-15T16:15:47.304469+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Oldham 2-0 Port Vale",
-      "description": "Calum Kavanagh's second-half double gave Oldham a flying start to their League Two campaign with a 2-0 home win against relegated Port Vale.",
-      "link": "https://www.skysports.com/football/oldham-athletic-vs-port-vale/report/561059",
+      "title": "Scot Prem latest: Rangers sign Penrice on season-long loan",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T17:00:00+00:00"
+    },
+    {
+      "title": "Tranmere 2-0 Shrewsbury",
+      "description": "Tranmere Rovers got their League Two campaign off to the perfect start with a 2-0 victory over Shrewsbury Town.",
+      "link": "https://www.skysports.com/football/tranmere-rovers-vs-shrewsbury-town/report/561060",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T14:30:00+00:00"
+      "pubDateISO": "2026-08-15T17:00:00+00:00"
+    },
+    {
+      "title": "Northampton 0-0 Swindon",
+      "description": "Northampton and Swindon started the new League Two season by playing out a goalless draw at Sixfields.",
+      "link": "https://www.skysports.com/football/northampton-town-vs-swindon-town/report/561058",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T17:00:00+00:00"
+    },
+    {
+      "title": "Grimsby 1-0 Exeter",
+      "description": "Grimsby got off to a winning start at the expense of newly-relegated Exeter with a tightly-contested 1-0 triumph at Blundell Park.",
+      "link": "https://www.skysports.com/football/grimsby-town-vs-exeter-city/report/561056",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T17:00:00+00:00"
+    },
+    {
+      "title": "Cheltenham 2-1 Rotherham",
+      "description": "A debut strike from Leicester loanee Jake Evans sealed a 2-1 home win for Cheltenham over Rotherham.",
+      "link": "https://www.skysports.com/football/cheltenham-town-vs-rotherham-united/report/561052",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T17:00:00+00:00"
+    },
+    {
+      "title": "Swansea strike back to win at Stoke",
+      "description": "Super-sub Adam Idah snatched the winner with his first touch of the game as Swansea bravely battled back from a goal down to stun Stoke 2-1.",
+      "link": "https://www.skysports.com/football/stoke-city-vs-swansea-city/report/560506",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T17:00:00+00:00"
+    },
+    {
+      "title": "Aston Villa latest: Villa working on Suzuki deal - plunging Martinez future into doubt",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-15T16:35:00+00:00"
+    },
+    {
+      "title": "England's Givens breaks LET duck at 210th attempt as rival's ball gets stuck in tree",
+      "description": "England's Eleanor Givens won her first Ladies European Tour title at the 210th attempt with a one-shot victory at the VP Bank Swiss Ladies Open.",
+      "link": "https://www.skysports.com/golf/news/12040/13573391/englands-eleanor-givens-wins-first-ladies-european-tour-title-at-210th-attempt-as-alexandra-f246rsterling-gets-ball-stuck-in-tree",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T16:30:00+00:00"
+    },
+    {
+      "title": "Newcastle change shirts during first half of friendly",
+      "description": "Newcastle United change shirts in the first half of their pre-season friendly against Bayer Leverkusen.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd9wwny25z4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T16:03:59+00:00"
     },
     {
       "title": "Bolton beat Preston for first Championship win since 2019",
@@ -40,78 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T14:30:00+00:00"
-    },
-    {
-      "title": "Notts County 1-1 Leicester",
-      "description": "Conor Grant's late strike salvaged a deserved point for Notts County as they held former Premier League champions Leicester to a 1-1 draw at Meadow Lane.",
-      "link": "https://www.skysports.com/football/notts-county-vs-leicester-city/report/561610",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T14:30:00+00:00"
-    },
-    {
-      "title": "Newport 3-0 Rochdale",
-      "description": "Newport and new manager Hayden Mullins enjoyed a dream start to their League Two campaign with a 3-0 home win over newly-promoted Rochdale.",
-      "link": "https://www.skysports.com/football/newport-county-afc-vs-rochdale/report/561057",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T14:30:00+00:00"
-    },
-    {
-      "title": "Bournemouth to 'do better' after 'disgusting' email",
-      "description": "Bournemouth vow to \"do better\" after changes to matchday staffing were handled in a manner which \"did not reflect the standards we expect\".",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy8ee0gzqx2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T14:02:48+00:00"
-    },
-    {
-      "title": "Belgian Pocognoli frontrunner to be Scotland boss",
-      "description": "Former Monaco head coach Sebastien Pocognoli is identified by the Scottish FA as their prime candidate to replace Steve Clarke.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T13:58:42+00:00"
-    },
-    {
-      "title": "Belgian Pocognoli frontrunner to be Scotland boss",
-      "description": "Former Monaco head coach Sebastien Pocognoli is identified by the Scottish FA as their prime candidate to replace Steve Clarke.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T13:58:42+00:00"
-    },
-    {
-      "title": "Newcastle progressing with move for Benfica defender Dedic",
-      "description": "Newcastle United are in advanced talks as they aim to bring in defender Amar Dedic from Benfica.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c70gg3dp61lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T13:54:09+00:00"
-    },
-    {
-      "title": "Pocognoli frontrunner for Scotland job",
-      "description": "Former Monaco head coach Sebastien Pocognoli is the frontrunner for the Scotland men's national team job.",
-      "link": "https://www.skysports.com/football/news/12040/13573307/sebastien-pocognoli-to-scotland-former-monaco-head-coach-frontrunner-to-replace-steve-clarke",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T13:39:00+00:00"
-    },
-    {
-      "title": "\u2018Would you believe it?!\u2019 | Siem hits incredible slam dunk shot for eagle!",
-      "description": "Marcel Siem hits an incredible slam dunk shot for this eagle at the Danish Golf Championship.",
-      "link": "https://www.skysports.com/watch/video/13573290/danish-golf-championship-marcel-siems-hits-incredible-slam-dunk-shot-for-eagle",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T13:10:00+00:00"
     }
   ]
 }
