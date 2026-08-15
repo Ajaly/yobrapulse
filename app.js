@@ -300,6 +300,46 @@ function teamRecentChangesLine(t) {
   return `<div class="recent-changes-note team-card-note">${parts.join(' · ')} <span class="muted">(context)</span></div>`;
 }
 
+const OTHER_LEAGUE_BADGES = {
+  'La Liga': { badge: 'll', code: 'LL' },
+  'Serie A': { badge: 'la', code: 'SA' },
+  'Bundesliga': { badge: 'bl', code: 'BL' },
+  'Ligue 1': { badge: 'l1', code: 'L1' },
+};
+
+function otherLeagueChip(f) {
+  const max = Math.max(f.homeWinPct, f.drawPct, f.awayWinPct);
+  let label = 'Draw';
+  if (max === f.homeWinPct) label = 'Home win';
+  else if (max === f.awayWinPct) label = 'Away win';
+  const title = f.hasRealStrengthData
+    ? `Home ${f.homeWinPct}% · Draw ${f.drawPct}% · Away ${f.awayWinPct}% · Real signal used: last season's final standings only - no squad quality, form or availability data for this league.`
+    : `Home ${f.homeWinPct}% · Draw ${f.drawPct}% · Away ${f.awayWinPct}% · No real last-season top-flight record for one or both clubs (e.g. newly promoted) - falls back to a neutral base rate.`;
+  return `<div class="predict-chip" title="${title}"><i data-lucide="target"></i> ${max}% ${label}</div>`;
+}
+
+function renderOtherLeagueMatches(leagueName, data) {
+  const list = document.querySelector('#other-leagues-list');
+  if (!list) return;
+  const preds = (data.otherLeaguePredictions && data.otherLeaguePredictions[leagueName]) || [];
+  const meta = OTHER_LEAGUE_BADGES[leagueName] || { badge: 'mid', code: '?' };
+  if (!preds.length) {
+    list.innerHTML = '<p class="lede" style="margin:0;font-size:12px">No real upcoming fixtures found in the next couple of weeks for this league.</p>';
+    return;
+  }
+  list.innerHTML = preds.map((f) => `
+    <article class="match-row">
+      <div class="competition"><span class="competition-badge ${meta.badge}">${meta.code}</span><div><strong>${leagueName}</strong><small>Upcoming</small></div></div>
+      <div class="teams">${teamSpan(f.home)}<strong>VS</strong>${teamSpan(f.away)}</div>
+      <div class="match-outcome">
+        <div class="match-status upcoming"><span></span> ${f.kickoffLabel}</div>
+        ${otherLeagueChip(f)}
+      </div>
+    </article>
+  `).join('');
+  refreshIcons();
+}
+
 function predictChip(f) {
   const max = Math.max(f.homeWinPct, f.drawPct, f.awayWinPct);
   let label = 'Draw';
@@ -437,6 +477,18 @@ fetch('data/fpl.json')
 
     renderTrackRecord(data.predictionTrackRecord);
     renderFriendlyPredictions(data.friendlyPredictions, data.friendlyTrackRecord);
+
+    const otherLeaguesPanel = document.querySelector('#other-leagues-panel');
+    if (otherLeaguesPanel && data.otherLeaguePredictions) {
+      otherLeaguesPanel.hidden = false;
+      const otherLeaguesBadge = document.querySelector('#other-leagues-live-badge');
+      if (otherLeaguesBadge) otherLeaguesBadge.hidden = false;
+      const activeTab = document.querySelector('#other-leagues-tabs .tab.active');
+      renderOtherLeagueMatches(activeTab ? activeTab.dataset.league : 'La Liga', data);
+      document.querySelectorAll('#other-leagues-tabs .tab').forEach((tab) => {
+        tab.addEventListener('click', () => renderOtherLeagueMatches(tab.dataset.league, data));
+      });
+    }
 
     const teamsGrid = document.querySelector('#teams-grid');
     if (teamsGrid && data.teams && data.teams.length) {

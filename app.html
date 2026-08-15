@@ -648,6 +648,21 @@
             </article>
           </div>
         </section>
+
+        <section class="panel" id="other-leagues-panel" hidden>
+          <div class="panel-header">
+            <div><span class="section-kicker">Team strength only, not the full model</span><h2>Other tracked leagues</h2></div>
+            <span class="live-badge" id="other-leagues-live-badge" hidden>Live data</span>
+          </div>
+          <p class="lede" style="margin:0 0 14px;font-size:11.5px">Real upcoming fixtures for the other 4 tracked leagues, predicted from last season's real final standings only - there's no equivalent to the Premier League model's squad quality, form, availability or head-to-head signals for these leagues, so treat this as a lighter, less confident read than the panels above.</p>
+          <div class="tabs" id="other-leagues-tabs">
+            <button class="tab active" data-league="La Liga">La Liga</button>
+            <button class="tab" data-league="Serie A">Serie A</button>
+            <button class="tab" data-league="Bundesliga">Bundesliga</button>
+            <button class="tab" data-league="Ligue 1">Ligue 1</button>
+          </div>
+          <div class="match-list" id="other-leagues-list"></div>
+        </section>
       </section>
 
       <section class="view" id="teams-view">

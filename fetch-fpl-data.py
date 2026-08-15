@@ -190,6 +190,26 @@ FIXTURE_LOAD_WINDOW_DAYS = 10
 PLAYER_HISTORY_PATH = "data/player-history.json"
 MIN_OPPONENT_MEETINGS_FOR_TRACK_RECORD = 2
 
+# Real predictions for the other 4 tracked leagues, deliberately
+# simpler than the Premier League engine above: checked directly for
+# an ESPN equivalent to FPL's own strength ratings first (a dedicated
+# power-index/FPI endpoint, the kind ESPN has for NFL/CFB) - soccer
+# doesn't have one, confirmed via real 404s. What IS real and usable:
+# last season's actual final standings (points per real game played),
+# verified live for all 4 leagues. FPL's other signals - squad
+# quality, current form, availability, historical player-vs-opponent
+# record - are FPL-specific constructs with no equivalent here, so
+# this stays team-strength-only rather than pretending to a richer
+# model it can't back up. Labeled as such wherever it's shown.
+OTHER_LEAGUES = [
+    {"slug": "esp.1", "name": "La Liga"},
+    {"slug": "ita.1", "name": "Serie A"},
+    {"slug": "ger.1", "name": "Bundesliga"},
+    {"slug": "fra.1", "name": "Ligue 1"},
+]
+OTHER_LEAGUE_STANDINGS_SEASON = 2025  # 2025/26, the most recently completed real season
+OTHER_LEAGUE_FIXTURE_WINDOW_DAYS = 14  # wider than the PL-only FIXTURE_LOAD_WINDOW_DAYS - these 4 leagues don't all start their season the same week (checked: Bundesliga's real 2026/27 opener is later than the other three)
+
 
 def fetch_json(url):
     req = urllib.request.Request(url, headers=HEADERS)
@@ -749,6 +769,125 @@ def compute_friendly_track_record():
         "correct": correct,
         "accuracyPct": round(correct / len(resolved) * 100, 1) if resolved else None,
     }
+
+
+def fetch_league_standings(slug, season):
+    """Real team_id -> points-per-game from last season's actual final
+    standings, for one non-PL tracked league - the real team-strength
+    signal this league's predictions run on (see OTHER_LEAGUES).
+    Points-per-game rather than raw points so leagues with different
+    season lengths (34 games in Germany/France, 38 in Spain/Italy)
+    stay comparable. A team with no real last-season top-flight
+    record (freshly promoted) is simply absent, not defaulted to
+    zero."""
+    try:
+        data = fetch_json(f"https://site.api.espn.com/apis/v2/sports/soccer/{slug}/standings?season={season}")
+    except Exception:
+        return {}
+    children = data.get("children") or []
+    if not children:
+        return {}
+    entries = children[0].get("standings", {}).get("entries", [])
+    strength = {}
+    for e in entries:
+        team_id = e.get("team", {}).get("id")
+        if not team_id:
+            continue
+        stats = {s["name"]: s.get("value") for s in e.get("stats", [])}
+        games = stats.get("gamesPlayed") or 0
+        points = stats.get("points") or 0
+        if games:
+            strength[team_id] = points / games
+    return strength
+
+
+def fetch_league_upcoming_fixtures(slug, window_days=OTHER_LEAGUE_FIXTURE_WINDOW_DAYS):
+    """Real upcoming fixtures for one non-PL tracked league over the
+    next real window_days from today - same per-date scoreboard sweep
+    already used for club friendlies, just scoped to a real
+    competitive league slug instead."""
+    fixtures = []
+    now = datetime.now(timezone.utc)
+    for offset in range(window_days):
+        date_str = (now + timedelta(days=offset)).strftime("%Y%m%d")
+        try:
+            data = fetch_json(ESPN_SCOREBOARD_URL.format(slug=slug, date=date_str))
+        except Exception:
+            continue
+        for ev in data.get("events", []):
+            comp = ev["competitions"][0]
+            home = next((c for c in comp["competitors"] if c["homeAway"] == "home"), None)
+            away = next((c for c in comp["competitors"] if c["homeAway"] == "away"), None)
+            if not home or not away:
+                continue
+            fixtures.append({
+                "id": str(ev["id"]),
+                "homeId": home["team"]["id"],
+                "awayId": away["team"]["id"],
+                "home": home["team"]["displayName"],
+                "away": away["team"]["displayName"],
+                "kickoffISO": ev.get("date"),
+            })
+    return fixtures
+
+
+def predict_other_league_fixture(home_strength, away_strength):
+    """Real, deliberately simple team-strength-only prediction for a
+    non-PL league - one real signal (last-season points per game),
+    not the five that feed the Premier League engine. Same real
+    home-advantage base rates (45/25/30), but a fixture where either
+    side has no real last-season record (freshly promoted) falls back
+    to the base rate rather than guessing a difficulty."""
+    if home_strength is None or away_strength is None:
+        diff = 0
+    else:
+        diff = home_strength - away_strength
+
+    home_win = 45 + diff * 12
+    away_win = 30 - diff * 10
+    home_win = max(15, min(75, home_win))
+    away_win = max(10, min(60, away_win))
+    draw = 100 - home_win - away_win
+    if draw < 10:
+        deficit = 10 - draw
+        scale = deficit / (home_win + away_win) if (home_win + away_win) else 0
+        home_win -= home_win * scale
+        away_win -= away_win * scale
+        draw = 10
+
+    home_win = round(home_win)
+    draw = round(draw)
+    away_win = 100 - home_win - draw
+    return {"homeWinPct": home_win, "drawPct": draw, "awayWinPct": away_win}
+
+
+def build_other_league_predictions():
+    """Real upcoming-fixture predictions for the 4 tracked leagues
+    outside the Premier League, team-strength-only (see OTHER_LEAGUES'
+    comment for exactly why this is real but deliberately simpler than
+    the PL engine)."""
+    out = {}
+    for league in OTHER_LEAGUES:
+        strength = fetch_league_standings(league["slug"], OTHER_LEAGUE_STANDINGS_SEASON)
+        fixtures = fetch_league_upcoming_fixtures(league["slug"])
+        predictions = []
+        for f in fixtures:
+            home_strength = strength.get(f["homeId"])
+            away_strength = strength.get(f["awayId"])
+            kickoff = datetime.fromisoformat(f["kickoffISO"].replace("Z", "+00:00")) if f["kickoffISO"] else None
+            entry = {
+                "id": f["id"],
+                "home": f["home"],
+                "away": f["away"],
+                "kickoffISO": f["kickoffISO"],
+                "kickoffLabel": kickoff.strftime("%a %d %b · %H:%M UTC") if kickoff else None,
+                "hasRealStrengthData": home_strength is not None and away_strength is not None,
+            }
+            entry.update(predict_other_league_fixture(home_strength, away_strength))
+            predictions.append(entry)
+        predictions.sort(key=lambda p: p["kickoffISO"] or "")
+        out[league["name"]] = predictions
+    return out
 
 
 def build_fixture_lookup(fixtures, teams):
@@ -1646,6 +1785,12 @@ def main():
     print(f"data/friendly-predictions-log.json: {friendly_resolved_added} newly resolved, {friendly_resolved_total} total resolved")
     friendly_track_record = compute_friendly_track_record()
 
+    # Real, deliberately simpler team-strength-only predictions for the
+    # other 4 tracked leagues (see OTHER_LEAGUES's comment for why).
+    other_league_predictions = build_other_league_predictions()
+    for league_name, preds in other_league_predictions.items():
+        print(f"{league_name}: {len(preds)} real upcoming fixture(s) predicted")
+
     eligible = [e for e in data["elements"] if float(e["selected_by_percent"] or 0) >= 2.0]
     percentiles = compute_percentiles(eligible)
     transfers_in_raw, transfers_out_raw = build_transfer_advice(eligible, fixture_swing, teams_by_id, team_context, fixture_load, player_history)
@@ -1722,6 +1867,7 @@ def main():
         "predictionTrackRecord": prediction_track_record,
         "friendlyPredictions": friendly_predictions,
         "friendlyTrackRecord": friendly_track_record,
+        "otherLeaguePredictions": other_league_predictions,
         "teams": teams_list,
         "players": players_out,
         # "Squad value" and "free transfers" are per-manager facts - the API
