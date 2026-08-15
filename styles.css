@@ -456,6 +456,21 @@ h2 {
   position:relative;
   min-height:137px
 }
+.metric-card.clickable {
+  display:block;
+  width:100%;
+  text-align:left;
+  font:inherit;
+  color:inherit;
+  cursor:pointer;
+  transition:border-color .15s,transform .1s
+}
+.metric-card.clickable:hover {
+  border-color:var(--green)
+}
+.metric-card.clickable:active {
+  transform:scale(.99)
+}
 .metric-icon {
   position:absolute;
   right:17px;
