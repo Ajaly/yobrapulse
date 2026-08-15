@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-15T17:14:51.563915+00:00",
+  "generatedAt": "2026-08-15T18:18:53.577335+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Pakistan win warm-up match ahead of England Test series",
+      "description": "Pakistan warmed up for their first Test against England at Headingley from Wednesday with a seven-wicket win over a County Select XI as Saud Shakeel hit an unbeaten hundred and Imam-ul-Haq scored 80.",
+      "link": "https://www.skysports.com/cricket/news/12040/13573528/pakistan-win-warm-up-match-ahead-of-first-test-against-england-at-headingley-from-wednesday-live-on-sky-sports",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T18:30:00+00:00"
+    },
+    {
+      "title": "SunRisers, Super Giants out to deny Rockets a Hundred double",
+      "description": "There could be a Trent Rockets double and a Sam Billings four-peat at Lord's on Sunday as the 2026 edition of The Hundred draws to a close.",
+      "link": "https://www.skysports.com/cricket/news/12040/13573509/the-hundred-trent-rockets-target-two-titles-at-lords-on-sunday-but-sunrisers-leeds-and-manchester-super-giants-stand-in-their-way",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T18:00:00+00:00"
+    },
     {
       "title": "Godolphin's Gold Cup hero Trawlerman retired",
       "description": "Trawlerman, winner of the Gold Cup at Ascot last year, has been retired after picking up an injury at Goodwood.",
@@ -15,6 +33,15 @@
       "pubDateISO": "2026-08-15T17:33:00+00:00"
     },
     {
+      "title": "Sunderland agree \u00a325.6m fee for defender Methalie",
+      "description": "Sunderland agree a \u00a325.6m fee to sign left-back Dayann Methalie from Toulouse.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c934488gjyzo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T17:20:54+00:00"
+    },
+    {
       "title": "Coppull impresses in Hungerford success",
       "description": "Coppull stepped up in distance to land a second Group Two of his career under an enterprising ride from Hector Crouch, who completed a big-race double in the Visit Malta Hungerford Stakes at Newbury.",
       "link": "https://www.skysports.com/racing/news/12040/13573497/crouch-guides-coppull-home-in-hungerford-to-complete-big-race-double",
@@ -22,6 +49,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T17:19:00+00:00"
+    },
+    {
+      "title": "Inter sign England full-back Spence from Tottenham",
+      "description": "England full-back Djed Spence signs a five-year deal at Inter Milan as he makes a move to Italy from Tottenham.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cz64vg6znz1o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T17:15:16+00:00"
     },
     {
       "title": "Burton 1-1 Stevenage",
@@ -72,42 +108,6 @@
       "title": "Chair double fires QPR to victory",
       "description": "Ilias Chair scored twice as QPR came from behind to beat Portsmouth 3-1 and claim their first win at Fratton Park in 26 years.",
       "link": "https://www.skysports.com/football/portsmouth-vs-queens-park-rangers/report/560504",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T17:00:00+00:00"
-    },
-    {
-      "title": "Spence completes \u00a330m Inter move from Spurs",
-      "description": "Inter Milan have completed a &#163;30m deal for England defender Djed Spence from Tottenham.",
-      "link": "https://www.skysports.com/football/news/12040/13573504/djed-spence-transfer-news-tottenham-defender-completes-30m-inter-milan-move",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-15T17:00:00+00:00"
-    },
-    {
-      "title": "PL pre-season fixtures and results - how is your side shaping up?",
-      "description": "Premier League clubs are getting ready for the new campaign with pre-season under way.",
-      "link": "https://www.skysports.com/football/news/12040/13546612/premier-league-pre-season-friendlies-2026-27-fixtures-results-uk-kick-off-times-summer-tour-schedule-and-training-camps",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T17:00:00+00:00"
-    },
-    {
-      "title": "Accrington 2-2 Colchester",
-      "description": "Charlie Caton scored twice but Accrington had to settle for a point in a 2-2 draw with Colchester.",
-      "link": "https://www.skysports.com/football/accrington-stanley-vs-colchester-united/report/561050",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T17:00:00+00:00"
-    },
-    {
-      "title": "Mansfield 2-1 Doncaster",
-      "description": "Mansfield made a winning start with a hard-fought 2-1 victory over Doncaster.",
-      "link": "https://www.skysports.com/football/mansfield-town-vs-doncaster-rovers/report/561609",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
