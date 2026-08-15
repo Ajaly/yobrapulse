@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-15T05:18:32.710541+00:00",
+  "generatedAt": "2026-08-15T06:25:28.014013+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Never So Brave headlines Hungerford Stakes",
+      "description": "We have a busy day&#8217;s racing on Saturday with flat action from Deauville, Doncaster, Lingfield, Newbury and Ripon, live on Sky Sports Racing...",
+      "link": "https://www.skysports.com/racing/news/12040/13572890/today-on-sky-sports-racing-deauville-doncaster-lingfield-newbury-and-ripon",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T07:00:00+00:00"
+    },
+    {
+      "title": "Are fans now more invested in star names than clubs?",
+      "description": "From Lionel Messi and Cristiano Ronaldo to Erling Haaland and Jude Bellingham, are star names a bigger draw than clubs for young fans?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn8ner50zdno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T05:59:18+00:00"
+    },
     {
       "title": "Arteta says he will sign new Arsenal contract in 'organic way'",
       "description": "Mikel Arteta has revealed he will sign a new Arsenal contract and there is no need for fans to be worried about his future.",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-14T21:12:00+00:00"
-    },
-    {
-      "title": "Listen: Reaction as Kilmarnock come back twice to beat Ayr",
-      "description": "David Currie, Rory Loy and Ian McCall review Kilmarnock 3-2 Ayr United in the League Cup",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p4my4c",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T21:10:00+00:00"
-    },
-    {
-      "title": "Football Daily",
-      "description": "Arsenal take on Manchester City in the Community Shield on Sunday",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p4mymx",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-14T21:09:00+00:00"
     }
   ]
 }
