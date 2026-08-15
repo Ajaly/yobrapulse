@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-15T20:14:48.196522+00:00",
+  "generatedAt": "2026-08-15T21:14:24.982447+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Lille head coach confirms Man City's Bouaddi talks",
+      "description": "The top stories and transfer rumours from Sunday's newspapers...",
+      "link": "https://www.skysports.com/football/news/12040/13573576/man-city-transfer-news-ayyoub-bouaddi-talks-confirmed-by-lille-head-coach-davide-ancelotti-who-hopes-deal-falls-through",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T22:00:00+00:00"
+    },
     {
       "title": "Tributes paid to Tarling following British cyclist's death during Volta a Portugal",
       "description": "Tributes were paid to Finlay Tarling at the Volta a Portugal<a href='https://www.skysports.com/more-sports/cycling/news/15264/13573056/finlay-tarlings-team-withdraws-from-volta-a-portugal-after-british-cyclists-death'> after the 19-year-old British cyclist died during the race on Friday.</a>",
@@ -13,6 +22,33 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T20:45:00+00:00"
+    },
+    {
+      "title": "Villa begin Suzuki talks - Sunday's gossip",
+      "description": "Aston Villa are in negotiations over Zion Suzuki, boosting Juventus' hope of signing Emiliano Martinez, while Arsenal are told price for Victor Osimhen, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T20:23:00+00:00"
+    },
+    {
+      "title": "West Ham break EFL record to sign Engels for \u00a322m",
+      "description": "West Ham United pay a \u00a322m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T20:19:40+00:00"
+    },
+    {
+      "title": "West Ham break EFL record to sign Engels from Celtic for \u00a322m",
+      "description": "West Ham United pay a \u00a322m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T20:19:40+00:00"
     },
     {
       "title": "St Helens keep slim play-off hopes alive by stunning Wakefield",
@@ -27,15 +63,6 @@
       "title": "Celtic ease into League Cup quarters - Aberdeen, Kilmarnock & Ross Co also through",
       "description": "A round-up from the Scottish League Cup as Celtic eased through to the quarter-finals with 4-0 victory at Dundee United, Aberdeen beat Dundee, Kilmarnock won against Ayr United, while League One Ross County shocked Dunfermline.",
       "link": "https://www.skysports.com/football/news/12040/13572887/scottish-league-cup-round-up-celtic-progress-with-win-at-dundee-united-aberdeen-kilmarnock-and-ross-county-also-through",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T19:35:00+00:00"
-    },
-    {
-      "title": "Sunderland latest: Deal in principle agreed for Methalie",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T19:20:16+00:00"
-    },
-    {
-      "title": "Pakistan win warm-up match ahead of England Test series",
-      "description": "Pakistan warmed up for their first Test against England at Headingley from Wednesday with a seven-wicket win over a County Select XI as Saud Shakeel hit an unbeaten hundred and Imam-ul-Haq scored 80.",
-      "link": "https://www.skysports.com/cricket/news/12040/13573528/pakistan-win-warm-up-match-ahead-of-first-test-against-england-at-headingley-from-wednesday-live-on-sky-sports",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T18:30:00+00:00"
-    },
-    {
-      "title": "SunRisers, Super Giants out to deny Rockets a Hundred double",
-      "description": "There could be a Trent Rockets double and a Sam Billings four-peat at Lord's on Sunday as the 2026 edition of The Hundred draws to a close.",
-      "link": "https://www.skysports.com/cricket/news/12040/13573509/the-hundred-trent-rockets-target-two-titles-at-lords-on-sunday-but-sunrisers-leeds-and-manchester-super-giants-stand-in-their-way",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T18:00:00+00:00"
-    },
-    {
-      "title": "Godolphin's Gold Cup hero Trawlerman retired",
-      "description": "Trawlerman, winner of the Gold Cup at Ascot last year, has been retired after picking up an injury at Goodwood.",
-      "link": "https://www.skysports.com/racing/news/12040/13573505/godolphins-gold-cup-hero-trawlerman-retired",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-15T17:33:00+00:00"
     }
   ]
 }
