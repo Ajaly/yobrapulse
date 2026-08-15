@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-15T21:14:24.982447+00:00",
+  "generatedAt": "2026-08-15T22:13:55.356023+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Djokovic knocked out early in Cincinnati after struggling in sapping heat",
+      "description": "Novak Djokovic suffered defeat and struggled physically in his first match since Wimbledon as he was upset by Thiago Agustin Tirante in a sapping three-set contest at the Cincinnati Open.",
+      "link": "https://www.skysports.com/tennis/news/12040/13573406/novak-djokovic-out-of-cincinnati-open-in-second-round-after-struggling-with-heat-and-humidity-against-thiago-agustin-tirante",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-15T22:45:00+00:00"
+    },
+    {
+      "title": "Man City latest: Maresca confirms club captains 'for now'",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T22:30:00+00:00"
+    },
     {
       "title": "Papers: Lille head coach confirms Man City's Bouaddi talks",
       "description": "The top stories and transfer rumours from Sunday's newspapers...",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T19:24:45+00:00"
-    },
-    {
-      "title": "Rangers need 'wee bit of help' and money is there to get it",
-      "description": "Rangers need \"a wee bit of help\" and have money to spend to get it despite dropping out of the Europa League, says manager Derek McInnes.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg44wvnjyeo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T19:20:16+00:00"
-    },
-    {
-      "title": "Rangers need 'wee bit of help' and money is there to get it",
-      "description": "Rangers need \"a wee bit of help\" and have money to spend to get it despite dropping out of the Europa League, says manager Derek McInnes.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg44wvnjyeo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T19:20:16+00:00"
     }
   ]
 }
