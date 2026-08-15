@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-15T09:19:45.915528+00:00",
+  "generatedAt": "2026-08-15T10:15:41.640443+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "PSG sign World Cup final hero Torres from Barcelona",
+      "description": "PSG have completed the signing of Spain's World Cup final hero Ferran Torres from Barcelona for &#163;42.7m.",
+      "link": "https://www.skysports.com/football/news/12040/13573232/ferran-torres-psg-sign-world-cup-final-hero-from-barcelona-for-42-7m",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T10:32:00+00:00"
+    },
+    {
+      "title": "Sound up! \ud83d\udd0a Walter unfazed by emergency alert!",
+      "description": "Paul Walter was left unfazed by the sounds of the government's emergency alert as he hit a huge six in The Hundred on Friday.",
+      "link": "https://www.skysports.com/watch/video/13573229/the-hundred-paul-walter-unfazed-by-emergency-alert-as-he-hits-huge-six",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T10:08:00+00:00"
+    },
+    {
+      "title": "Bangladesh edge closer to historic Test win in Australia",
+      "description": "Bangladesh moved to within sight of one of the biggest wins in their Test history after Australia stumbled to 161-4 at stumps on day three of the first Test in Darwin, still 67 runs behind.",
+      "link": "https://www.skysports.com/cricket/news/12040/13573228/australia-vs-bangladesh-tourists-edge-closer-to-historic-test-victory-in-darwin-as-top-order-woes-continue-for-hosts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T10:05:00+00:00"
+    },
+    {
+      "title": "PSG sign World Cup winner Torres from Barcelona",
+      "description": "Ferran Torres, who scored the winning goal for Spain at the World Cup, has joined European champions Paris St-Germain from Barcelona.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T09:37:31+00:00"
+    },
     {
       "title": "Wallabies run riot! Australia rack up 56 points against Japan",
       "description": "Highlights of Australia against Japan in Townsville.",
@@ -13,6 +49,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T09:25:00+00:00"
+    },
+    {
+      "title": "Fine-tuning and a clear target - Wrexham's season aim",
+      "description": "Wrexham aim for the coming campaign clear after they narrowly missed out on a Championship play-off spot last season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy8m14gz4ldo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T09:15:00+00:00"
     },
     {
       "title": "Palace sign Khalaili from Union Saint-Gilloise",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T07:38:19+00:00"
-    },
-    {
-      "title": "Why Michaely Bihina is the keeper making waves at Wafcon",
-      "description": "Fans in Cameroon want a statue built for Michaely Bihina after she made four penalty saves against Morocco to help Cameroon reach the 2026 Wafcon final.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c7vgylpgmz7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T07:38:19+00:00"
-    },
-    {
-      "title": "Premier League clubs looking to EFL for next Semenyo & Eze",
-      "description": "Premier League clubs are continuing to recruit young players from EFL and Scottish academies for their U21 and B-team squads.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5y6w5972lyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T07:16:50+00:00"
-    },
-    {
-      "title": "Never So Brave headlines Hungerford Stakes",
-      "description": "We have a busy day&#8217;s racing on Saturday with flat action from Deauville, Doncaster, Lingfield, Newbury and Ripon, live on Sky Sports Racing...",
-      "link": "https://www.skysports.com/racing/news/12040/13572890/today-on-sky-sports-racing-deauville-doncaster-lingfield-newbury-and-ripon",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T07:00:00+00:00"
-    },
-    {
-      "title": "Who am I? Guess Premier League star No 26",
-      "description": "Work out the identity of today's player in as few attempts as possible.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czrjyxn7mn4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T06:44:46+00:00"
-    },
-    {
-      "title": "'This is the right one' - Rohl on leaving Rangers for Salzburg",
-      "description": "Danny Rohl explains why he left Rangers for Red Bull Salzburg - where he hopes to win trophies and help develop young players.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj9dpvwl1nmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T06:19:19+00:00"
     }
   ]
 }
