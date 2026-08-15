@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:10:16.645706+00:00",
+  "generatedAt": "2026-08-15T03:33:09.337809+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -5828,7 +5828,7 @@
       "avatar": "FW",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.5m",
-      "owned": "14.7%",
+      "owned": "14.8%",
       "points": 125,
       "epNext": 2.6,
       "form": 0.0,
@@ -8269,7 +8269,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 4518735,
+  "totalManagers": 4523650,
   "totalPlayers": 587,
   "priceMovement": {
     "risers": [],
