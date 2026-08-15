@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-15T11:13:29.765186+00:00",
+  "generatedAt": "2026-08-15T12:23:34.544117+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Listen: Off the Ball at the Edinburgh Festival",
+      "description": "The most petty and ill-informed football show on radio.",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T13:00:00+00:00"
+    },
+    {
+      "title": "Rogers and Lacroix make Chelsea debuts vs Real Sociedad LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/chelsea-vs-real-sociedad/live/575209",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T12:27:00+00:00"
+    },
+    {
+      "title": "Clayton clinches title in Auckland with HUGE bullseye finish!",
+      "description": "Jonny Clayton clinched the New Zealand Darts Masters with this huge bullseye finish to beat Gerwyn Price!",
+      "link": "https://www.skysports.com/watch/video/13573254/new-zealand-darts-masters-jonny-clayton-clinches-title-with-huge-bullseye-finish",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T12:14:00+00:00"
+    },
+    {
+      "title": "Hull sign Gelhardt and Gourna-Douath",
+      "description": "Hull City sign English forward Joe Gelhardt from Leeds and French midfielder Lucas Gourna-Douath from Red Bull Salzburg for undisclosed fees.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg8qgg7qg1o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T12:03:16+00:00"
+    },
+    {
+      "title": "Belgian Pocognoli set for Scotland job - gossip",
+      "description": "Belgian tipped for Scotland job, Celtic forward likely moving on and Scottish champions target goalkeeper.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp30x80lny7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T11:51:50+00:00"
+    },
     {
       "title": "Hole-in-one alert! Schmid makes ace at FedEx St. Jude Championship",
       "description": "In the second round of the FedEx St. Jude, Matti Schmid's 173-yard tee shot on the par-3 fourth hole went in for his first career hole-in-one.",
@@ -15,13 +60,22 @@
       "pubDateISO": "2026-08-15T11:42:00+00:00"
     },
     {
-      "title": "It's time! Championship, League One and League Two opening day LIVE!",
+      "title": "Bolton lead; Leicester in action - EFL opening day LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/12040/13573022/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T11:30:00+00:00"
+    },
+    {
+      "title": "Cardiff secure return of Liverpool loanee Scanlon",
+      "description": "Liverpool defender Calum Scanlon is back for a second spell with Cardiff City for the 2026-27 Championship season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd69e18glyvo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-15T11:09:18+00:00"
     },
     {
       "title": "PSG sign World Cup final hero Torres from Barcelona",
@@ -58,60 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-15T09:37:31+00:00"
-    },
-    {
-      "title": "Wallabies run riot! Australia rack up 56 points against Japan",
-      "description": "Highlights of Australia against Japan in Townsville.",
-      "link": "https://www.skysports.com/watch/video/13573219/australia-56-17-japan-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T09:25:00+00:00"
-    },
-    {
-      "title": "Fine-tuning and a clear target - Wrexham's season aim",
-      "description": "Wrexham aim for the coming campaign clear after they narrowly missed out on a Championship play-off spot last season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy8m14gz4ldo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T09:15:00+00:00"
-    },
-    {
-      "title": "Palace sign Khalaili from Union Saint-Gilloise",
-      "description": "Crystal Palace sign Israel international Ana Khalaili on a deal which runs until 2031.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyqrd749d5o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-15T09:03:55+00:00"
-    },
-    {
-      "title": "Europa League exit leaves Rangers counting the financial cost",
-      "description": "As Rangers struggle on the pitch, there will be an understanding that they need fan loyalty to stay afloat.",
-      "link": "https://www.bbc.co.uk/news/articles/cvg94jqpzxpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T08:31:58+00:00"
-    },
-    {
-      "title": "Romero completes \u00a334m Atletico Madrid transfer",
-      "description": "Tottenham captain Cristian Romero has completed his &#163;34.2m move to Atletico Madrid.",
-      "link": "https://www.skysports.com/football/news/12040/13573213/cristian-romero-tottenham-captain-completes-move-to-atletico-madrid",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-15T08:00:00+00:00"
-    },
-    {
-      "title": "Romero reflects on Spurs stay as Atletico move confirmed",
-      "description": "Cristian Romero says he \"wasn't perfect\" during his five years with Tottenham Hotspur as his move to Atletico Madrid is confirmed.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-15T07:44:59+00:00"
     }
   ]
 }
