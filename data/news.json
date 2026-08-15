@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-15T22:13:55.356023+00:00",
+  "generatedAt": "2026-08-15T23:13:59.192409+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Scheffler retains lead in Memphis as Burns stars and McIlroy toils again",
+      "description": "Scottie Scheffler will take a two-shot lead into the final round of the FedEx St Jude Championship in Memphis as he looks to complete his first win since January.",
+      "link": "https://www.skysports.com/golf/news/12040/13573540/fedex-st-jude-championship-scottie-scheffler-retains-lead-ahead-of-final-round-as-rory-mcilroy-endures-another-tough-day",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T23:30:00+00:00"
+    },
     {
       "title": "Djokovic knocked out early in Cincinnati after struggling in sapping heat",
       "description": "Novak Djokovic suffered defeat and struggled physically in his first match since Wimbledon as he was upset by Thiago Agustin Tirante in a sapping three-set contest at the Cincinnati Open.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T19:25:09+00:00"
-    },
-    {
-      "title": "Championship excellent place to discover talent - Espanyol's Monchi",
-      "description": "Espanyol sporting director Monchi explains why he believes England's Championship is an undervalued source of talent, and outlines his ambitions to restore Espanyol to the top end of Spanish football.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62v1e64x41o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T19:24:45+00:00"
     }
   ]
 }
