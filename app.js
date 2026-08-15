@@ -1071,6 +1071,13 @@ function fetchCompetitionMatches(comp, datesParam) {
             state: c.status.type.state,
             clock: c.status.type.shortDetail,
             kickoff: new Date(ev.date),
+            // Real venue from ESPN - the only reliable way to tell apart
+            // two real same-day, same-opponent friendlies (a club can
+            // genuinely schedule both a public first-team friendly and a
+            // separate closed-doors squad friendly against the same
+            // opponent same day - found this looking at a real Liverpool
+            // vs Como case: one at Anfield, one at the training ground).
+            venue: c.venue ? c.venue.fullName : null,
           };
         });
       return comp.filterToTrackedTeams ? trackedTeamIdsPromise.then(build) : build(new Set());
@@ -1337,8 +1344,9 @@ function matchRowHTML(m) {
   const scoreHTML = m.state === 'pre' ? '<strong>VS</strong>' : `<strong>${m.homeScore} <small>—</small> ${m.awayScore}</strong>`;
   const kickoffNoteHTML = m.state !== 'pre' ? `<small class="match-kickoff-note">Kick-off ${kickoffLabel}</small>` : '';
   const hasHighlights = m.events && m.events.some((e) => HIGHLIGHT_KINDS.has(e.kind));
+  const venueText = m.venue ? ` · ${m.venue}` : '';
   return `<article class="match-row${hasHighlights ? ' has-events' : ''}" data-match-id="${m.id}" data-league-slug="${m.leagueSlug}" data-match-state="${m.state}" data-match-home="${m.home}" data-match-away="${m.away}">
-    <div class="competition"><span class="competition-badge ${m.competitionBadge}">${m.competitionCode}</span><div><strong>${m.competitionName}</strong><small>${smallText}</small></div></div>
+    <div class="competition"><span class="competition-badge ${m.competitionBadge}">${m.competitionCode}</span><div><strong>${m.competitionName}</strong><small>${smallText}${venueText}</small></div></div>
     <div class="teams">${teamSpan(m.home)}${scoreHTML}${teamSpan(m.away)}</div>
     ${statusHTML}
     <i class="match-expand-chevron" data-lucide="chevron-down"></i>
