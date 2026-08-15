@@ -66,6 +66,59 @@ button {
 .brand-mark svg {
   width:21px
 }
+.landing-screen {
+  position:fixed;
+  inset:0;
+  z-index:200;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--bg);
+  padding:24px
+}
+.landing-screen[hidden] {
+  display:none
+}
+.landing-card {
+  max-width:420px;
+  width:100%;
+  text-align:center;
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:40px 32px
+}
+.landing-brand-mark {
+  width:56px;
+  height:56px;
+  border-radius:14px;
+  margin:0 auto 20px
+}
+.landing-brand-mark svg {
+  width:30px
+}
+.landing-card h1 {
+  font:700 28px 'Space Grotesk';
+  margin:0 0 12px
+}
+.landing-card h1 .accent {
+  color:var(--green)
+}
+.landing-card .lede {
+  margin:0 0 28px
+}
+.landing-signin-btn {
+  width:100%;
+  margin-bottom:16px
+}
+.landing-subtext {
+  color:var(--muted);
+  font-size:12px;
+  margin:0
+}
+.landing-subtext .text-button {
+  font-size:12px
+}
 .workspace-label,.section-kicker,.eyebrow {
   color:#70808b;
   text-transform:uppercase;

@@ -44,6 +44,31 @@ let currentUser = null;
 let currentProfile = null;
 let teamNames = [];
 
+// Landing screen: shown once per browser (soft gate, not a hard
+// requirement - the whole app still works for anyone who clicks
+// "Continue as guest", nothing here blocks access to real content).
+// Checked synchronously against localStorage before Firebase's async
+// auth check even resolves, so a returning visitor who already
+// dismissed it (by signing in or choosing guest) never sees a flash
+// of the landing screen while waiting on a network round-trip.
+function shouldSkipLanding() {
+  return localStorage.getItem('yp-landing-dismissed') === 'true';
+}
+
+function dismissLanding() {
+  localStorage.setItem('yp-landing-dismissed', 'true');
+  const landing = document.querySelector('#landing-screen');
+  const shell = document.querySelector('#app-shell');
+  if (landing) landing.hidden = true;
+  if (shell) shell.hidden = false;
+}
+
+if (shouldSkipLanding()) {
+  dismissLanding();
+}
+document.querySelector('#landing-guest-btn')?.addEventListener('click', dismissLanding);
+document.querySelector('#landing-signin-btn')?.addEventListener('click', () => handleSignIn());
+
 function initials(name) {
   return (name || '').trim().split(/\s+/).map((w) => w[0]).join('').slice(0, 2).toUpperCase() || '?';
 }
@@ -142,6 +167,7 @@ async function refreshAccountUI() {
 if (configIsReal) {
   onAuthStateChanged(auth, async (user) => {
     currentUser = user;
+    if (user) dismissLanding();
     await refreshAccountUI();
   });
 } else {

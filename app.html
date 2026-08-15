@@ -17,7 +17,17 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="app-shell">
+  <div class="landing-screen" id="landing-screen">
+    <div class="landing-card">
+      <span class="brand-mark landing-brand-mark"><i data-lucide="trophy"></i></span>
+      <h1>Yobra<span class="accent">Pulse</span></h1>
+      <p class="lede">Real football intelligence - live scores, FPL captain picks, transfer advice and match predictions, all backed by real data.</p>
+      <button class="primary-button landing-signin-btn" id="landing-signin-btn"><i data-lucide="log-in"></i> Sign in with Google</button>
+      <p class="landing-subtext">Save your profile across devices - or <button class="text-button" id="landing-guest-btn">continue as guest</button></p>
+    </div>
+  </div>
+
+  <div class="app-shell" id="app-shell" hidden>
     <aside class="sidebar">
       <a class="brand" href="index.html">
         <span class="brand-mark"><i data-lucide="trophy"></i></span>
