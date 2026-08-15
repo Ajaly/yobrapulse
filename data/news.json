@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-15T08:19:27.609799+00:00",
+  "generatedAt": "2026-08-15T09:19:45.915528+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Wallabies run riot! Australia rack up 56 points against Japan",
+      "description": "Highlights of Australia against Japan in Townsville.",
+      "link": "https://www.skysports.com/watch/video/13573219/australia-56-17-japan-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T09:25:00+00:00"
+    },
+    {
+      "title": "Palace sign Khalaili from Union Saint-Gilloise",
+      "description": "Crystal Palace sign Israel international Ana Khalaili on a deal which runs until 2031.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyqrd749d5o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-15T09:03:55+00:00"
+    },
+    {
+      "title": "Europa League exit leaves Rangers counting the financial cost",
+      "description": "As Rangers struggle on the pitch, there will be an understanding that they need fan loyalty to stay afloat.",
+      "link": "https://www.bbc.co.uk/news/articles/cvg94jqpzxpo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T08:31:58+00:00"
+    },
     {
       "title": "Romero completes \u00a334m Atletico Madrid transfer",
       "description": "Tottenham captain Cristian Romero has completed his &#163;34.2m move to Atletico Madrid.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T06:19:19+00:00"
-    },
-    {
-      "title": "'This is the right one' - Rohl on leaving Rangers for Salzburg",
-      "description": "Danny Rohl explains why he left Rangers for Red Bull Salzburg - where he hopes to win trophies and help develop young players.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj9dpvwl1nmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T06:19:19+00:00"
-    },
-    {
-      "title": "Are fans now more invested in star names than clubs?",
-      "description": "From Lionel Messi and Cristiano Ronaldo to Erling Haaland and Jude Bellingham, are star names a bigger draw than clubs for young fans?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn8ner50zdno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T05:59:18+00:00"
-    },
-    {
-      "title": "Hull FC 14-18 Castleford Tigers | Super League highlights",
-      "description": "Highlights of the Super League match between Hull FC and Castleford Tigers.",
-      "link": "https://www.skysports.com/watch/video/13573184/hull-fc-14-18-castleford-tigers-super-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T00:00:00+00:00"
     }
   ]
 }
