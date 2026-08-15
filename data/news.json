@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-15T10:15:41.640443+00:00",
+  "generatedAt": "2026-08-15T11:13:29.765186+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Hole-in-one alert! Schmid makes ace at FedEx St. Jude Championship",
+      "description": "In the second round of the FedEx St. Jude, Matti Schmid's 173-yard tee shot on the par-3 fourth hole went in for his first career hole-in-one.",
+      "link": "https://www.skysports.com/watch/video/13573246/fedex-st-jude-championship-hole-in-one-alert-matti-schmid-aces-tpc-southwind",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T11:42:00+00:00"
+    },
+    {
+      "title": "It's time! Championship, League One and League Two opening day LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13573022/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T11:30:00+00:00"
+    },
     {
       "title": "PSG sign World Cup final hero Torres from Barcelona",
       "description": "PSG have completed the signing of Spain's World Cup final hero Ferran Torres from Barcelona for &#163;42.7m.",
@@ -94,24 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-15T07:44:59+00:00"
-    },
-    {
-      "title": "Balikwisha set to leave Celtic with three clubs interested - gossip",
-      "description": "Celtic winger set to move on with three clubs interested as Scottish champions target goalkeeper.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp30x80lny7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T07:41:04+00:00"
-    },
-    {
-      "title": "Why Michaely Bihina is the keeper making waves at Wafcon",
-      "description": "Fans in Cameroon want a statue built for Michaely Bihina after she made four penalty saves against Morocco to help Cameroon reach the 2026 Wafcon final.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c7vgylpgmz7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T07:38:19+00:00"
     }
   ]
 }
