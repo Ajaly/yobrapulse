@@ -1302,6 +1302,11 @@ h2 {
   flex-wrap:wrap;
   gap:8px
 }
+.chip-grid.scrollable {
+  max-height:180px;
+  overflow-y:auto;
+  padding-right:4px
+}
 .chip {
   background:#1d272c;
   border:1px solid #334047;

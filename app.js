@@ -67,16 +67,17 @@ document.querySelectorAll('[data-pref]').forEach((input) => {
 });
 updateAlertsMetric();
 
-const teamChips = document.querySelectorAll('#team-chips .chip');
-const savedTeams = JSON.parse(localStorage.getItem('yp-teams') || 'null');
-if (savedTeams) {
-  teamChips.forEach((chip) => chip.classList.toggle('selected', savedTeams.includes(chip.dataset.team)));
+function renderTeamChips(teamNames) {
+  const container = document.querySelector('#team-chips');
+  if (!container || !teamNames || !teamNames.length) return;
+  const savedTeams = JSON.parse(localStorage.getItem('yp-teams') || 'null') || [];
+  container.innerHTML = teamNames.map((name) => `<button class="chip${savedTeams.includes(name) ? ' selected' : ''}" data-team="${name}">${name}</button>`).join('');
+  container.querySelectorAll('.chip').forEach((chip) => chip.addEventListener('click', () => {
+    chip.classList.toggle('selected');
+    const selected = Array.from(container.querySelectorAll('.chip.selected')).map((c) => c.dataset.team);
+    localStorage.setItem('yp-teams', JSON.stringify(selected));
+  }));
 }
-teamChips.forEach((chip) => chip.addEventListener('click', () => {
-  chip.classList.toggle('selected');
-  const selected = Array.from(teamChips).filter((c) => c.classList.contains('selected')).map((c) => c.dataset.team);
-  localStorage.setItem('yp-teams', JSON.stringify(selected));
-}));
 
 function refreshIcons() {
   if (window.lucide && typeof window.lucide.createIcons === 'function') {
@@ -469,6 +470,9 @@ fetch('data/fpl.json')
       if (teamsBadge) teamsBadge.hidden = false;
       bindTeamTriggers(teamsGrid, data);
       refreshIcons();
+    }
+    if (data.teams && data.teams.length) {
+      renderTeamChips(data.teams.map((t) => t.name).sort());
     }
 
     function renderLeaderboard(containerId, ids, valueFn) {
