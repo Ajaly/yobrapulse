@@ -8,10 +8,10 @@
 // the Firebase Console under: Project settings > General > Your apps
 // > Web app > SDK setup and configuration > Config.
 export const firebaseConfig = {
-  apiKey: "REPLACE_ME",
-  authDomain: "REPLACE_ME.firebaseapp.com",
-  projectId: "REPLACE_ME",
-  storageBucket: "REPLACE_ME.appspot.com",
-  messagingSenderId: "REPLACE_ME",
-  appId: "REPLACE_ME",
+  apiKey: "AIzaSyDJ1Seo8vozNzIJzn_swvHPdWzTDdjzNK0",
+  authDomain: "yobrapulse-a0389.firebaseapp.com",
+  projectId: "yobrapulse-a0389",
+  storageBucket: "yobrapulse-a0389.firebasestorage.app",
+  messagingSenderId: "609705406166",
+  appId: "1:609705406166:web:f5e1d71f9ee756e37fe377",
 };
