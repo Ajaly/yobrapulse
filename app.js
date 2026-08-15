@@ -1531,12 +1531,30 @@ function setupPlayerComparison(pool, playersMap) {
   const table = document.querySelector('#compare-table');
   if (!selectA || !selectB || !table) return;
 
-  const optionsHTML = pool.map((id) => {
-    const p = playersMap[id];
-    return `<option value="${id}">${p.name} (${p.team})</option>`;
-  }).join('');
-  selectA.innerHTML = '<option value="">Select a player&hellip;</option>' + optionsHTML;
-  selectB.innerHTML = '<option value="">Select a player&hellip;</option>' + optionsHTML;
+  function buildOptions(restrictToGK) {
+    return pool
+      .filter((id) => !restrictToGK || playersMap[id].position === 'GKP')
+      .map((id) => `<option value="${id}">${playersMap[id].name} (${playersMap[id].team})</option>`)
+      .join('');
+  }
+
+  // Real goalkeepers play a fundamentally different game to outfield
+  // players (saves/clean sheets, not goals/assists/tackles) - a real
+  // comparison between a keeper and an outfielder is never meaningful,
+  // so picking a keeper on one side restricts the other side to
+  // keepers too, rather than letting a nonsensical pairing through.
+  function refreshSelectOptions() {
+    const idA = selectA.value;
+    const idB = selectB.value;
+    const aIsGK = !!(idA && playersMap[idA].position === 'GKP');
+    const bIsGK = !!(idB && playersMap[idB].position === 'GKP');
+    selectA.innerHTML = '<option value="">Select a player&hellip;</option>' + buildOptions(bIsGK);
+    selectB.innerHTML = '<option value="">Select a player&hellip;</option>' + buildOptions(aIsGK);
+    selectA.value = idA;
+    selectB.value = idB;
+  }
+
+  refreshSelectOptions();
 
   function renderComparison() {
     const idA = selectA.value;
@@ -1547,7 +1565,14 @@ function setupPlayerComparison(pool, playersMap) {
     }
     const a = playersMap[idA];
     const b = playersMap[idB];
-    const rows = [
+    const bothGK = a.position === 'GKP' && b.position === 'GKP';
+    const rows = bothGK ? [
+      { label: 'Points', a: a.points, b: b.points },
+      { label: 'Saves', a: a.saves, b: b.saves },
+      { label: 'Clean sheets', a: a.cleanSheets, b: b.cleanSheets },
+      { label: 'Minutes', a: a.minutes, b: b.minutes },
+      { label: 'Price', a: a.price, b: b.price, noWinner: true },
+    ] : [
       { label: 'Points', a: a.points, b: b.points },
       { label: 'Goals', a: a.goals, b: b.goals },
       { label: 'Assists', a: a.assists, b: b.assists },
@@ -1568,8 +1593,8 @@ function setupPlayerComparison(pool, playersMap) {
     table.hidden = false;
   }
 
-  selectA.addEventListener('change', renderComparison);
-  selectB.addEventListener('change', renderComparison);
+  selectA.addEventListener('change', () => { refreshSelectOptions(); renderComparison(); });
+  selectB.addEventListener('change', () => { refreshSelectOptions(); renderComparison(); });
 }
 
 leaguesJsonPromise
