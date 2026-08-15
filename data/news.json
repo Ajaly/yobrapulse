@@ -1,21 +1,39 @@
 {
-  "generatedAt": "2026-08-15T12:23:34.544117+00:00",
+  "generatedAt": "2026-08-15T13:24:51.298155+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Listen: Off the Ball at the Edinburgh Festival",
-      "description": "The most petty and ill-informed football show on radio.",
-      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+      "title": "Pocognoli frontrunner for Scotland job",
+      "description": "Former Monaco head coach Sebastien Pocognoli is the frontrunner for the Scotland men's national team job.",
+      "link": "https://www.skysports.com/football/news/12040/13573307/sebastien-pocognoli-to-scotland-former-monaco-head-coach-frontrunner-to-replace-steve-clarke",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T13:39:00+00:00"
+    },
+    {
+      "title": "\u2018Would you believe it?!\u2019 | Siem hits incredible slam dunk shot for eagle!",
+      "description": "Marcel Siem hits an incredible slam dunk shot for this eagle at the Danish Golf Championship.",
+      "link": "https://www.skysports.com/watch/video/13573290/danish-golf-championship-marcel-siems-hits-incredible-slam-dunk-shot-for-eagle",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-15T13:10:00+00:00"
+    },
+    {
+      "title": "Ex-tennis player Bautista Agut scores on football debut",
+      "description": "Roberto Bautista Agut scores twice on his debut for Spanish seventh-tier side CD Els Ibarsos - just over a month after retiring from tennis.",
+      "link": "https://www.bbc.co.uk/sport/articles/c0jllp431qqo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T13:00:00+00:00"
+      "pubDateISO": "2026-08-15T13:07:09+00:00"
     },
     {
-      "title": "Rogers and Lacroix make Chelsea debuts vs Real Sociedad LIVE!",
+      "title": "Rogers puts Chelsea ahead on Stamford Bridge debut vs Sociedad LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/chelsea-vs-real-sociedad/live/575209",
       "source": "Sky Sports",
@@ -60,7 +78,7 @@
       "pubDateISO": "2026-08-15T11:42:00+00:00"
     },
     {
-      "title": "Bolton lead; Leicester in action - EFL opening day LIVE!",
+      "title": "Bolton beat Preston; Leicester pegged back by Notts County - EFL opening day LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/12040/13573022/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
       "source": "Sky Sports",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T10:08:00+00:00"
-    },
-    {
-      "title": "Bangladesh edge closer to historic Test win in Australia",
-      "description": "Bangladesh moved to within sight of one of the biggest wins in their Test history after Australia stumbled to 161-4 at stumps on day three of the first Test in Darwin, still 67 runs behind.",
-      "link": "https://www.skysports.com/cricket/news/12040/13573228/australia-vs-bangladesh-tourists-edge-closer-to-historic-test-victory-in-darwin-as-top-order-woes-continue-for-hosts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T10:05:00+00:00"
-    },
-    {
-      "title": "PSG sign World Cup winner Torres from Barcelona",
-      "description": "Ferran Torres, who scored the winning goal for Spain at the World Cup, has joined European champions Paris St-Germain from Barcelona.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20jyxjl8yko",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-15T09:37:31+00:00"
     }
   ]
 }
