@@ -1,0 +1,19 @@
+rules_version = '2';
+
+// Reference copy of YobraPulse's real Firestore security rules - paste
+// this into Firebase Console > Firestore Database > Rules and Publish.
+// Not deployed automatically from this repo (that needs the Firebase
+// CLI and a real project link); kept here so the real rules a signed-in
+// user's data depends on are reviewable, not hidden in a console.
+//
+// A signed-in user can only ever read or write their OWN profile
+// document (matched by their real Firebase Auth uid as the document
+// id) - nobody can read or edit another user's account data, and a
+// signed-out request is rejected outright.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}

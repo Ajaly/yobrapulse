@@ -51,7 +51,11 @@
           </div>
         </div>
         <button class="nav-item" data-view="settings"><i data-lucide="settings-2"></i><span>Settings</span></button>
-        <div class="user-profile"><div class="avatar">JD</div><div><strong>Jordan Davis</strong><small>Analyst account</small></div><i data-lucide="more-horizontal"></i></div>
+        <button class="user-profile" id="sidebar-user-profile" aria-label="Account">
+          <div class="avatar" id="sidebar-avatar">?</div>
+          <div><strong id="sidebar-user-name">Sign in</strong><small id="sidebar-user-status">Save your profile for real</small></div>
+          <i data-lucide="more-horizontal"></i>
+        </button>
       </div>
     </aside>
 
@@ -864,12 +868,42 @@
         <div class="content-grid">
           <section class="panel">
             <div class="panel-header">
-              <div><span class="section-kicker">Profile</span><h2>Your details</h2></div>
+              <div><span class="section-kicker">Account</span><h2>Your details</h2></div>
             </div>
-            <label class="field"><span>Display name</span><input type="text" id="settings-name" value="Jordan Davis"></label>
-            <label class="field"><span>Email</span><input type="email" id="settings-email" value="jordan.davis@yobrapulse.com"></label>
-            <button class="primary-button" id="settings-save"><i data-lucide="check"></i> Save changes</button>
-            <span class="positive" id="save-status" style="display:none;margin-left:12px">Saved</span>
+
+            <div id="account-signed-out">
+              <p class="lede" style="margin:0 0 16px">Sign in with your real Google account to save your profile - it'll follow you across devices, not just this browser.</p>
+              <button class="primary-button" id="google-signin-btn"><i data-lucide="log-in"></i> Sign in with Google</button>
+            </div>
+
+            <div id="account-signed-in" hidden>
+              <div class="account-identity">
+                <img id="account-avatar" class="modal-avatar" alt="" referrerpolicy="no-referrer" />
+                <div><strong id="account-name">-</strong><small id="account-email">-</small></div>
+              </div>
+
+              <p class="modal-context" id="account-incomplete-banner" hidden>Finish setting up your account below - your answers save to your real, signed-in profile.</p>
+
+              <div class="settings-row">
+                <div class="settings-row-label"><strong>Are you an FPL manager?</strong><small>Unlocks FPL-specific personalization</small></div>
+                <label class="switch"><input type="checkbox" id="account-fpl-manager"><span class="switch-track"></span></label>
+              </div>
+              <div id="account-fpl-fields" hidden>
+                <label class="field"><span>FPL team name</span><input type="text" id="account-fpl-team-name" placeholder="e.g. Kicking It Old Skool"></label>
+                <label class="field"><span>FPL Team ID <small class="muted">(optional - the number in your team's URL on fantasy.premierleague.com, e.g. .../entry/1234567/)</small></span><input type="text" inputmode="numeric" id="account-fpl-team-id" placeholder="e.g. 1234567"></label>
+              </div>
+
+              <label class="field"><span>Team you support</span>
+                <select id="account-primary-team"><option value="">Select a team&hellip;</option></select>
+              </label>
+              <label class="field"><span>Second team <small class="muted">(optional)</small></span>
+                <select id="account-secondary-team"><option value="">None</option></select>
+              </label>
+
+              <button class="primary-button" id="account-save-btn"><i data-lucide="check"></i> Save changes</button>
+              <span class="positive" id="account-save-status" style="display:none;margin-left:12px">Saved</span>
+              <button class="text-button" id="account-signout-btn" style="margin-left:14px">Sign out</button>
+            </div>
           </section>
 
           <section class="panel">
@@ -986,5 +1020,6 @@
   </div>
 
   <script src="app.js"></script>
+  <script type="module" src="auth.js"></script>
 </body>
 </html>

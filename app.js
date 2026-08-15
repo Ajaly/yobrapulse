@@ -88,42 +88,6 @@ function playerRating(p) {
   return p.points && p.minutes ? Math.round((p.points / Math.max(p.minutes, 1)) * 90 * 10) / 10 : 0;
 }
 
-function initials(name) {
-  return name.trim().split(/\s+/).map((word) => word[0]).join('').slice(0, 2).toUpperCase();
-}
-
-function applyProfile(name) {
-  const first = name.trim().split(/\s+/)[0] || 'Jordan';
-  document.querySelectorAll('.user-profile strong').forEach((el) => { el.textContent = name; });
-  document.querySelectorAll('.avatar').forEach((el) => { el.textContent = initials(name); });
-  const heroName = document.querySelector('#hero-name');
-  if (heroName) heroName.textContent = first;
-}
-
-const nameInput = document.querySelector('#settings-name');
-const emailInput = document.querySelector('#settings-email');
-const savedProfile = JSON.parse(localStorage.getItem('yp-profile') || 'null');
-if (savedProfile && nameInput && emailInput) {
-  nameInput.value = savedProfile.name;
-  emailInput.value = savedProfile.email;
-  applyProfile(savedProfile.name);
-}
-
-const saveButton = document.querySelector('#settings-save');
-const saveStatus = document.querySelector('#save-status');
-if (saveButton) {
-  saveButton.addEventListener('click', () => {
-    const name = nameInput.value.trim() || 'Jordan Davis';
-    const email = emailInput.value.trim();
-    localStorage.setItem('yp-profile', JSON.stringify({ name, email }));
-    applyProfile(name);
-    if (saveStatus) {
-      saveStatus.style.display = 'inline-flex';
-      setTimeout(() => { saveStatus.style.display = 'none'; }, 1800);
-    }
-  });
-}
-
 // Real FPL status codes (a=available, d=doubtful, i=injured, s=suspended,
 // u=unavailable, n=not eligible for this competition) - straight from
 // the API, not something this app invented.
