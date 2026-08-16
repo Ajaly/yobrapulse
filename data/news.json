@@ -1,12 +1,21 @@
 {
-  "generatedAt": "2026-08-16T13:25:29.931250+00:00",
+  "generatedAt": "2026-08-16T14:16:08.382577+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "The Hundred finals LIVE!  Rockets bowl first vs SunRisers in women's match",
+      "title": "Man City latest: Savinho and Reijnders left out of Community Shield squad",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T14:00:00+00:00"
+    },
+    {
+      "title": "The Hundred finals LIVE!  SunRisers eight down vs Rockets in women's match",
       "description": "",
       "link": "https://www.skysports.com/cricket/live-blog/12040/13573620/the-hundred-finals-live-trent-rockets-vs-sunrisers-leeds-in-womens-match-before-rockets-take-on-manchester-super-giants-in-mens",
       "source": "Sky Sports",
@@ -15,7 +24,25 @@
       "pubDateISO": "2026-08-16T13:45:00+00:00"
     },
     {
-      "title": "Arsenal vs Man City LIVE! Team news and your views ahead of Community Shield...",
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-16T13:40:28+00:00"
+    },
+    {
+      "title": "Villa close in on Suzuki with Martinez future in doubt",
+      "description": "Aston Villa close in on the signing of Parma goalkeeper Zion Suzuki, with Emi Martinez's future in increasing doubt.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckg44n858qvo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-16T13:38:08+00:00"
+    },
+    {
+      "title": "23 seconds! Arsenal stun Man City in Community Shield LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/arsenal-vs-manchester-city/live/556659",
       "source": "Sky Sports",
@@ -85,33 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-16T09:48:00+00:00"
-    },
-    {
-      "title": "Hunt and Asher-Smith among athletics stuck at Euro Champs stadium after police arrest",
-      "description": "Amy Hunt and Dina Asher-Smith were among the athletes left stuck at the Alexander Stadium on Saturday night after a \"police incident\" suspended transport operations at the European Championships in Birmingham.",
-      "link": "https://www.skysports.com/other-sports/news/12040/13573635/european-athletics-medal-ceremonies-postponed-after-police-arrest",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T09:23:00+00:00"
-    },
-    {
-      "title": "Wild celebrations sparked as St Helens keep their play-off hopes alive!",
-      "description": "There were jubilant scenes at the full-time whistle as St Helens kept their play-off hopes alive with victory over Wakefield Trinity, with players and supporters celebrating together in the stands.",
-      "link": "https://www.skysports.com/watch/video/13573626/scenes-of-jubilation-as-st-helens-revive-their-play-off-hopes-after-beating-wakefield-trinity",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T08:30:00+00:00"
-    },
-    {
-      "title": "Shields stops Scott to reclaim WBC and WBA middleweight belts",
-      "description": "Claressa Shields stopped Kaye Scott in the sixth round to reclaim the WBC and WBA middleweight belts in Atlanta.",
-      "link": "https://www.skysports.com/boxing/news/12040/13573614/claressa-shields-stops-kaye-scott-to-reclaim-wbc-and-wba-middleweight-belts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T07:24:00+00:00"
     }
   ]
 }
