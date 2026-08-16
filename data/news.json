@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-16T07:25:41.714959+00:00",
+  "generatedAt": "2026-08-16T08:20:35.634108+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Wild celebrations sparked as St Helens keep their play-off hopes alive!",
+      "description": "There were jubilant scenes at the full-time whistle as St Helens kept their play-off hopes alive with victory over Wakefield Trinity, with players and supporters celebrating together in the stands.",
+      "link": "https://www.skysports.com/watch/video/13573626/scenes-of-jubilation-as-st-helens-revive-their-play-off-hopes-after-beating-wakefield-trinity",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T08:30:00+00:00"
+    },
     {
       "title": "Shields stops Scott to reclaim WBC and WBA middleweight belts",
       "description": "Claressa Shields stopped Kaye Scott in the sixth round to reclaim the WBC and WBA middleweight belts in Atlanta.",
@@ -15,7 +24,7 @@
       "pubDateISO": "2026-08-16T07:24:00+00:00"
     },
     {
-      "title": "Tennis scores: Norrie beaten by top seed Zverev in Cincinnati",
+      "title": "Tennis scores: Fery wins in Cincinnati on first appearance since Wimbledon heroics",
       "description": "",
       "link": "https://www.skysports.com/tennis/scores-schedule",
       "source": "Sky Sports",
@@ -78,12 +87,12 @@
       "pubDateISO": "2026-08-15T23:30:00+00:00"
     },
     {
-      "title": "Djokovic knocked out early in Cincinnati after struggling in sapping heat",
+      "title": "Djokovic struggles with heat in Cincinnati as Wimbledon hero Fery returns",
       "description": "Novak Djokovic suffered defeat and struggled physically in his first match since Wimbledon as he was upset by Thiago Agustin Tirante in a sapping three-set contest at the Cincinnati Open.",
       "link": "https://www.skysports.com/tennis/news/12040/13573406/novak-djokovic-out-of-cincinnati-open-in-second-round-after-struggling-with-heat-and-humidity-against-thiago-agustin-tirante",
       "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
+      "category": "club",
+      "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T22:45:00+00:00"
     },
     {
@@ -103,15 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-15T22:00:00+00:00"
-    },
-    {
-      "title": "Tributes paid to Tarling following British cyclist's death during Volta a Portugal",
-      "description": "Tributes were paid to Finlay Tarling at the Volta a Portugal<a href='https://www.skysports.com/more-sports/cycling/news/15264/13573056/finlay-tarlings-team-withdraws-from-volta-a-portugal-after-british-cyclists-death'> after the 19-year-old British cyclist died during the race on Friday.</a>",
-      "link": "https://www.skysports.com/cycling/news/12040/13573557/finlay-tarling-tributes-paid-to-british-cyclist-after-death-during-volta-a-portugal",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T20:45:00+00:00"
     }
   ]
 }
