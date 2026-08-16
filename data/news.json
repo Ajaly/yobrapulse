@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-16T05:21:27.028164+00:00",
+  "generatedAt": "2026-08-16T06:28:39.913703+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Tennis scores: Norrie beaten by top seed Zverev in Cincinnati",
+      "description": "",
+      "link": "https://www.skysports.com/tennis/scores-schedule",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T07:20:00+00:00"
+    },
+    {
+      "title": "Precise faces More Thunder in Prix Jacques le Marois",
+      "description": "Precise, More Thunder and Zeus Olympios line up for the 2026 Prix Jacques Le Marois, live on Sky Sports Racing.",
+      "link": "https://www.skysports.com/racing/news/12040/13573208/today-on-sky-sports-racing-precise-faces-more-thunder-and-zeus-olympios-in-prix-jacques-le-marois",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T07:00:00+00:00"
+    },
+    {
+      "title": "Who am I? Guess Premier League star No 27",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg93n35ypxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T05:48:53+00:00"
+    },
+    {
+      "title": "How important is Community Shield to a team's season?",
+      "description": "Premier League champions Arsenal take on FA Cup winners Manchester City in Sunday's Community Shield - but would winning suggest a successful season ahead?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c1e1v64q256o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T05:29:55+00:00"
+    },
+    {
+      "title": "Strong favourites or tougher task - will Arsenal defend their title?",
+      "description": "Arsenal begin this season as Premier League champions but just how difficult is it to defend the league title, and how well equipped as they for the challenge?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0l5927xr89o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T05:20:47+00:00"
+    },
     {
       "title": "Scheffler retains lead in Memphis as Burns stars and McIlroy toils again",
       "description": "Scottie Scheffler will take a two-shot lead into the final round of the FedEx St Jude Championship in Memphis as he looks to complete his first win since January.",
@@ -67,51 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-15T20:19:40+00:00"
-    },
-    {
-      "title": "West Ham break EFL record to sign Engels from Celtic for \u00a322m",
-      "description": "West Ham United pay a \u00a322m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-15T20:19:40+00:00"
-    },
-    {
-      "title": "St Helens keep slim play-off hopes alive by stunning Wakefield",
-      "description": "St Helens produced a blistering second-half performance to stun Wakefield Trinity with a 46-16 victory and keep their slim Super League play-off hopes alive.",
-      "link": "https://www.skysports.com/rugby-league/news/12040/13573404/super-league-st-helens-keep-slim-play-off-hopes-alive-after-stirring-second-half-earns-46-16-win-over-wakefield-trinity",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T20:15:00+00:00"
-    },
-    {
-      "title": "Celtic ease into League Cup quarters - Aberdeen, Kilmarnock & Ross Co also through",
-      "description": "A round-up from the Scottish League Cup as Celtic eased through to the quarter-finals with 4-0 victory at Dundee United, Aberdeen beat Dundee, Kilmarnock won against Ayr United, while League One Ross County shocked Dunfermline.",
-      "link": "https://www.skysports.com/football/news/12040/13572887/scottish-league-cup-round-up-celtic-progress-with-win-at-dundee-united-aberdeen-kilmarnock-and-ross-county-also-through",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T19:35:00+00:00"
-    },
-    {
-      "title": "Sheff Utd & Birmingham draw a blank on opening day",
-      "description": "Sheffield United and Birmingham made an underwhelming start to the Championship season as they played out a goalless draw at Bramall Lane.",
-      "link": "https://www.skysports.com/football/sheffield-united-vs-birmingham-city/report/560505",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T19:30:00+00:00"
-    },
-    {
-      "title": "Rashford returns as Amorim's Milan highlight issues for Carrick",
-      "description": "Manchester United finish their pre-season campaign with a 4-2 defeat by Ruben Amorim's AC Milan in Poland, as Marcus Rashford returns to Red Devils action.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cg5ll71pqv1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T19:25:09+00:00"
     }
   ]
 }
