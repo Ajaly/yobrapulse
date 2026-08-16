@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-16T06:28:39.913703+00:00",
+  "generatedAt": "2026-08-16T07:25:41.714959+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Shields stops Scott to reclaim WBC and WBA middleweight belts",
+      "description": "Claressa Shields stopped Kaye Scott in the sixth round to reclaim the WBC and WBA middleweight belts in Atlanta.",
+      "link": "https://www.skysports.com/boxing/news/12040/13573614/claressa-shields-stops-kaye-scott-to-reclaim-wbc-and-wba-middleweight-belts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T07:24:00+00:00"
+    },
     {
       "title": "Tennis scores: Norrie beaten by top seed Zverev in Cincinnati",
       "description": "",
@@ -13,6 +22,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-16T07:20:00+00:00"
+    },
+    {
+      "title": "Bangladesh pull off historic Test upset against Australia",
+      "description": "Bangladesh completed a stunning nine-wicket victory over Australia in the first Test on Sunday, securing their first win on Australian soil and just their second Test victory over the world&#8217;s top-ranked side.",
+      "link": "https://www.skysports.com/cricket/news/12040/13573610/australia-vs-bangladesh-visitors-stun-hosts-with-historic-nine-wicket-test-win-in-darwin",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T07:10:00+00:00"
     },
     {
       "title": "Precise faces More Thunder in Prix Jacques le Marois",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T20:45:00+00:00"
-    },
-    {
-      "title": "Villa begin Suzuki talks - Sunday's gossip",
-      "description": "Aston Villa are in negotiations over Zion Suzuki, boosting Juventus' hope of signing Emiliano Martinez, while Arsenal are told price for Victor Osimhen, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-15T20:23:00+00:00"
-    },
-    {
-      "title": "West Ham break EFL record to sign Engels for \u00a322m",
-      "description": "West Ham United pay a \u00a322m fee, a new EFL record, to sign Celtic's Belgium international midfielder Arne Engels.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-15T20:19:40+00:00"
     }
   ]
 }
