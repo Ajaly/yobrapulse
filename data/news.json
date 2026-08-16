@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-16T16:16:11.587949+00:00",
+  "generatedAt": "2026-08-16T17:14:09.764304+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Late DRAMA! Flemming's 90+2' strike snatches point for Burnley!",
+      "description": "Zian Flemming strikes again against West Ham as his second goal levels it up for Burnley.",
+      "link": "https://www.skysports.com/watch/video/13573779/burnley-vs-west-ham-zian-flemming-levels-it-up-late-on",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T17:54:00+00:00"
+    },
+    {
+      "title": "Scheffler leads with Fleetwood chasing at first FedExCup Playoff LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/golf/live-blog/12040/13573767/fedex-st-jude-championship-live-updates-highlights-scores-as-scottie-scheffler-and-tommy-fleetwood-battle-for-pga-tour-win",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T17:50:00+00:00"
+    },
+    {
+      "title": "'Probably my last year' - Ronaldo hints at retirement",
+      "description": "Cristiano Ronaldo says this season will probably be his last as a player after a glittering football career.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3300lxjz7lo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T16:33:16+00:00"
+    },
     {
       "title": "Rockets THRASH SunRisers to take Hundred title",
       "description": "Highlights of The Hundred Women&#8217;s Final between Trent Rockets and SunRisers Leeds.",
@@ -33,7 +60,7 @@
       "pubDateISO": "2026-08-16T16:25:00+00:00"
     },
     {
-      "title": "Liverpool vs Como team news as Jacquet starts LIVE!",
+      "title": "Isak hits the post early for Liverpool against Como LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/liverpool-vs-como/live/556108",
       "source": "Sky Sports",
@@ -49,6 +76,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-16T16:19:00+00:00"
+    },
+    {
+      "title": "Odegaard's importance, Anderson and Foden struggle - how the players rated",
+      "description": "How Arsenal and Man City's players rated following the Premier League champions' comfortable 3-0 victory over the FA Cup winners in the Community Shield.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8jnnknwnd1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T16:18:45+00:00"
     },
     {
       "title": "Musiala 'okay' after fainting during Bayern friendly",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-16T15:13:00+00:00"
-    },
-    {
-      "title": "Man City latest: Savinho and Reijnders left out of Community Shield squad",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T14:00:00+00:00"
-    },
-    {
-      "title": "The Hundred LIVE! Rockets seek title double after victory in women's final",
-      "description": "",
-      "link": "https://www.skysports.com/cricket/live-blog/12040/13573620/the-hundred-finals-live-trent-rockets-vs-sunrisers-leeds-in-womens-match-before-rockets-take-on-manchester-super-giants-in-mens",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T13:45:00+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-16T13:40:28+00:00"
-    },
-    {
-      "title": "Villa close in on Suzuki with Martinez future in doubt",
-      "description": "Aston Villa close in on the signing of Parma goalkeeper Zion Suzuki, with Emi Martinez's future in increasing doubt.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg44n858qvo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-16T13:38:08+00:00"
     }
   ]
 }
