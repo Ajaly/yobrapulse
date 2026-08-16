@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-16T08:20:35.634108+00:00",
+  "generatedAt": "2026-08-16T09:20:52.344720+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Wrexham's Premier League bid: Crazy or credible?",
+      "description": "&#8220;We've come a long way in five years\". A post from Ryan Reynolds back in May, reflecting on another touchstone of his Wrexham revolution: the club's best finish in their 162-year history. \"We have so much to be proud of, Reds\".",
+      "link": "https://www.skysports.com/football/news/12040/13572631/wrexhams-premier-league-bid-how-ready-are-the-hollywood-owned-club-from-wales-for-a-championship-promotion-race",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T10:00:00+00:00"
+    },
+    {
+      "title": "Athletics medal ceremonies postponed after police arrest",
+      "description": "Medal ceremonies at the European Athletics Championships in Birmingham were postponed on Saturday evening and transport services suspended after a man was arrested on suspicion of fraud.",
+      "link": "https://www.skysports.com/other-sports/news/12040/13573635/european-athletics-medal-ceremonies-postponed-after-police-arrest",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T09:23:00+00:00"
+    },
     {
       "title": "Wild celebrations sparked as St Helens keep their play-off hopes alive!",
       "description": "There were jubilant scenes at the full-time whistle as St Helens kept their play-off hopes alive with victory over Wakefield Trinity, with players and supporters celebrating together in the stands.",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T22:45:00+00:00"
-    },
-    {
-      "title": "Man City latest: Maresca confirms club captains 'for now'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T22:30:00+00:00"
-    },
-    {
-      "title": "Papers: Lille head coach confirms Man City's Bouaddi talks",
-      "description": "The top stories and transfer rumours from Sunday's newspapers...",
-      "link": "https://www.skysports.com/football/news/12040/13573576/man-city-transfer-news-ayyoub-bouaddi-talks-confirmed-by-lille-head-coach-davide-ancelotti-who-hopes-deal-falls-through",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-15T22:00:00+00:00"
     }
   ]
 }
