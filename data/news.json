@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-16T10:15:42.226472+00:00",
+  "generatedAt": "2026-08-16T11:13:41.166165+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Maguire wants 'huge threat' Rashford to stay at Man Utd",
+      "description": "Manchester United defender Harry Maguire says he hopes Marcus Rashford will stay at the club because he can improve Michael Carrick's team.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g442me1k8o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T11:00:14+00:00"
+    },
     {
       "title": "Wrexham's Premier League bid: Crazy or credible?",
       "description": "&#8220;We've come a long way in five years\". A post from Ryan Reynolds back in May, reflecting on another touchstone of his Wrexham revolution: the club's best finish in their 162-year history. \"We have so much to be proud of, Reds\".",
@@ -97,21 +106,12 @@
     },
     {
       "title": "Strong favourites or tougher task - will Arsenal defend their title?",
-      "description": "Arsenal begin this season as Premier League champions but just how difficult is it to defend the league title, and how well equipped as they for the challenge?",
+      "description": "Arsenal begin this season as Premier League champions but just how difficult is it to defend the league title, and how well equipped are they for the challenge?",
       "link": "https://www.bbc.co.uk/sport/football/articles/c0l5927xr89o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-16T05:20:47+00:00"
-    },
-    {
-      "title": "Scheffler retains lead in Memphis as Burns stars and McIlroy toils again",
-      "description": "Scottie Scheffler will take a two-shot lead into the final round of the FedEx St Jude Championship in Memphis as he looks to complete his first win since January.",
-      "link": "https://www.skysports.com/golf/news/12040/13573540/fedex-st-jude-championship-scottie-scheffler-retains-lead-ahead-of-final-round-as-rory-mcilroy-endures-another-tough-day",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T23:30:00+00:00"
     }
   ]
 }
