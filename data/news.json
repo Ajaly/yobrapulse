@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-16T19:16:41.080126+00:00",
+  "generatedAt": "2026-08-16T20:14:06.209986+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "EFL latest: Birmingham and Cardiff interested in midfielders",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T20:32:00+00:00"
+    },
+    {
+      "title": "Nightmare Man City start for Maresca - are Arsenal really so far ahead?",
+      "description": "Did Arsenal show just how far above Manchester City they are with their dominant Community Shield win?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5y449kwq14o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T19:37:55+00:00"
+    },
+    {
+      "title": "Barcelona agree \u00a365m deal to sign Rodri from Man City",
+      "description": "Barcelona agree a deal to sign Spain captain Rodri from Manchester City.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy0jj65r18yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-16T19:37:45+00:00"
+    },
     {
       "title": "GB denied 2028 Olympics spot as USA and Canada win flag football world titles",
       "description": "The United States successfully defended the men's title at the flag football world championships on Sunday but lost the women's title to Canada, while Mexico's women and Canada's men earned qualification spots for the 2028 Olympics in Los Angeles.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-16T18:01:00+00:00"
-    },
-    {
-      "title": "Belgian Pocognoli confirmed as Scotland boss",
-      "description": "The Scottish FA say they have appointed \"one of Europe's brightest emerging coaching talents\" by securing Sebastien Pocognoli as Scotland men's new head coach on a two-year deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T17:56:58+00:00"
-    },
-    {
-      "title": "Belgian Pocognoli confirmed as Scotland boss",
-      "description": "The Scottish FA say they have appointed \"one of Europe's brightest emerging coaching talents\" by securing Sebastien Pocognoli as Scotland men's new head coach on a two-year deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T17:56:58+00:00"
-    },
-    {
-      "title": "Late DRAMA! Flemming's 90+2' strike snatches point for Burnley!",
-      "description": "Zian Flemming strikes again against West Ham as his second goal levels it up for Burnley.",
-      "link": "https://www.skysports.com/watch/video/13573779/burnley-vs-west-ham-zian-flemming-levels-it-up-late-on",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T17:54:00+00:00"
     }
   ]
 }
