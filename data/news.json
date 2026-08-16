@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-16T18:18:56.089103+00:00",
+  "generatedAt": "2026-08-16T19:16:41.080126+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "GB denied 2028 Olympics spot as USA and Canada win flag football world titles",
+      "description": "The United States successfully defended the men's title at the flag football world championships on Sunday but lost the women's title to Canada, while Mexico's women and Canada's men earned qualification spots for the 2028 Olympics in Los Angeles.",
+      "link": "https://www.skysports.com/nfl/news/12040/13573812/flag-football-los-angeles-2028-olympics-spots-decided-as-usa-and-canada-claim-mens-and-womens-world-titles",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T19:27:00+00:00"
+    },
     {
       "title": "Forest latest: Pre-season rounded off with Brest win",
       "description": "",
@@ -15,6 +24,15 @@
       "pubDateISO": "2026-08-16T19:00:00+00:00"
     },
     {
+      "title": "Norwich struggles to assist king - Tzolis could be Arsenal gem",
+      "description": "Christos Tzolis has been a star performer in Arsenal's pre-season and continued that with an impressive performance against Manchester City in the Community Shield.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwyee2rl9yjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T18:59:27+00:00"
+    },
+    {
       "title": "Scotland appoint Pocognoli as head coach",
       "description": "Scotland have appointed Sebastien Pocognoli as their new head coach.",
       "link": "https://www.skysports.com/football/news/12040/13573798/sebastien-pocognoli-scotland-appoint-former-monaco-head-coach-to-replace-steve-clarke-on-two-year-contract",
@@ -22,6 +40,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-16T18:33:00+00:00"
+    },
+    {
+      "title": "Shop window or new chance - what next for Grealish?",
+      "description": "Jack Grealish made an unexpected return to the Manchester City team on Sunday - so what could his future hold?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c07rr20g732o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T18:30:55+00:00"
     },
     {
       "title": "West Ham blow two-goal lead at Burnley to draw on Championship return",
@@ -40,6 +67,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-16T18:16:00+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "Aaron Paul is joined by Pat Nevin, Izzy Christiansen and, Chris Coles.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p4vxzr",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-16T18:13:00+00:00"
+    },
+    {
+      "title": "McIlroy 'so far away' from best form after dismal St. Jude showing",
+      "description": "Rory McIlroy bemoaned his poor form as he finished 66th at the FedEx St. Jude Championship, saying \"I am so far away from where I need to be\".",
+      "link": "https://www.skysports.com/golf/news/12040/13573783/rory-mcilroy-finishes-66th-at-fedex-st-jude-championship-northern-irishman-feels-so-far-away-from-best-form",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T18:01:00+00:00"
     },
     {
       "title": "Belgian Pocognoli confirmed as Scotland boss",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-16T17:54:00+00:00"
-    },
-    {
-      "title": "Scheffler leads with Fleetwood chasing at first FedExCup Playoff LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/golf/live-blog/12040/13573767/fedex-st-jude-championship-live-updates-highlights-scores-as-scottie-scheffler-and-tommy-fleetwood-battle-for-pga-tour-win",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T17:50:00+00:00"
-    },
-    {
-      "title": "Rangers host Celtic in League Cup quarter-finals",
-      "description": "Rangers will host Celtic in the Premier Sports Cup quarter-finals with Kilmarnock v Aberdeen the other all top-flight tie.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyjjp0k5rdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T17:13:35+00:00"
-    },
-    {
-      "title": "Rangers host Celtic in League Cup quarter-finals",
-      "description": "Rangers will host Celtic in the Premier Sports Cup quarter-finals with Kilmarnock v Aberdeen the other all top-flight tie.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyjjp0k5rdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T17:13:35+00:00"
-    },
-    {
-      "title": "Middlesex stun Durham to deny Stokes spot in One-Day Cup final",
-      "description": "Ben Stokes and Durham were denied a spot in the&#160;2026 Metro Bank One-Day Cup final as Middlesex pulled off a stunning, comeback clinch a first List-A final appearance for 36 years.",
-      "link": "https://www.skysports.com/cricket/news/12040/13573761/ben-stokes-durham-lose-one-day-cup-semi-final-to-middlesex-who-book-final-meeting-with-leicestershire",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T16:58:00+00:00"
-    },
-    {
-      "title": "'Probably my last year' - Ronaldo hints at retirement",
-      "description": "Cristiano Ronaldo says this season will probably be his last as a player after a glittering football career.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3300lxjz7lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T16:33:16+00:00"
     }
   ]
 }
