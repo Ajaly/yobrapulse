@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-16T21:13:43.294045+00:00",
+  "generatedAt": "2026-08-16T22:13:53.087260+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "England's Whaley wins US Amateur Championship to book spot at The Open",
+      "description": "Doncaster-born golfer Jack Whaley defeated American Jay Leng Jr in a gruelling 36-hole final on Sunday to claim a sensational US Amateur Championship victory and book his place at The Open next year.",
+      "link": "https://www.skysports.com/golf/news/12040/13573860/englands-jack-whaley-wins-us-amateur-championship-after-beating-american-jay-leng-jr-in-36-hole-final-to-book-place-at-2027-open",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T22:33:00+00:00"
+    },
+    {
+      "title": "Papers: Delap & Neto move closer to Chelsea exit",
+      "description": "The top stories and transfer rumours from Monday's newspapers...",
+      "link": "https://www.skysports.com/football/news/12040/13573816/chelsea-transfer-news-liam-delap-and-pedro-neto-move-closer-to-exit-door-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-16T22:30:00+00:00"
+    },
+    {
+      "title": "Clinical Scheffler claims emphatic win at FedEx St. Jude Championship",
+      "description": "Scottie Scheffler produced a clinical performance at TPC Southwind to claim an emphatic eight-shot victory at the FedEx St. Jude Championship on Sunday evening.",
+      "link": "https://www.skysports.com/golf/news/12040/13573858/scottie-scheffler-claims-dominant-victory-at-fedex-st-jude-championship-as-tommy-fleetwood-fades-on-tough-back-nine",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T22:13:00+00:00"
+    },
     {
       "title": "Whaley's perfect chip at the US Amateur",
       "description": "Jack Whaley completes his round in style with the perfect chip shot.",
@@ -15,13 +42,13 @@
       "pubDateISO": "2026-08-16T21:34:00+00:00"
     },
     {
-      "title": "Cameroon claim first Wafcon title with victory over Malawi",
-      "description": "Marie Ngah Manga scores twice as Cameroon cruise to a 3-0 win over Malawi and claim a first ever Women's Africa Cup of Nations title.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crl77w8y8r3o",
+      "title": "Martinez Juventus move now off - Monday's gossip",
+      "description": "Juventus pull out of move for Emiliano Martinez, Manchester City face competition for Pedro Neto and Real Madrid want Martin Zubimendi, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gkk7r2r4yo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T20:58:48+00:00"
+      "pubDateISO": "2026-08-16T21:24:43+00:00"
     },
     {
       "title": "Cameroon claim first Wafcon title with victory over Malawi",
@@ -30,7 +57,16 @@
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T20:58:48+00:00"
+      "pubDateISO": "2026-08-16T21:23:49+00:00"
+    },
+    {
+      "title": "Cameroon claim first Wafcon title with victory over Malawi",
+      "description": "Marie Ngah Manga scores twice as Cameroon cruise to a 3-0 win over Malawi and claim a first ever Women's Africa Cup of Nations title.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crl77w8y8r3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-16T21:23:49+00:00"
     },
     {
       "title": "Watch the best of Rodri's Manchester City journey",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-16T20:25:00+00:00"
-    },
-    {
-      "title": "Nightmare Man City start for Maresca - are Arsenal really so far ahead?",
-      "description": "Did Arsenal show just how far above Manchester City they are with their dominant Community Shield win?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5y449kwq14o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T19:37:55+00:00"
-    },
-    {
-      "title": "Barcelona agree \u00a365m Rodri deal - who could replace him at Man City?",
-      "description": "Barcelona agree a deal to sign Spain captain Rodri from Manchester City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy0jj65r18yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-16T19:37:45+00:00"
-    },
-    {
-      "title": "'You've got to be kidding me?!' - Scheffler's ball bounces off a sprinkler into water!",
-      "description": "Scottie Scheffler did not account for a sprinkler getting in the way when making his bunker shot at the FedEx Cup Playoff.",
-      "link": "https://www.skysports.com/watch/video/13573814/fedex-cup-playoff-scottie-schefflers-ball-bounces-off-a-sprinkler-into-water",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T19:33:00+00:00"
-    },
-    {
-      "title": "GB denied 2028 Olympics spot as USA and Canada win flag football world titles",
-      "description": "The United States successfully defended the men's title at the flag football world championships on Sunday but lost the women's title to Canada, while Mexico's women and Canada's men earned qualification spots for the 2028 Olympics in Los Angeles.",
-      "link": "https://www.skysports.com/nfl/news/12040/13573812/flag-football-los-angeles-2028-olympics-spots-decided-as-usa-and-canada-claim-mens-and-womens-world-titles",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-16T19:27:00+00:00"
     }
   ]
 }
