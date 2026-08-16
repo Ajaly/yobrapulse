@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T09:20:52.344720+00:00",
+  "generatedAt": "2026-08-16T10:15:42.226472+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -13,6 +13,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-16T10:00:00+00:00"
+    },
+    {
+      "title": "Newcastle agree deal to sign Dedic from Benfica",
+      "description": "Newcastle United have reached an agreement with Benfica to sign defender Amar Dedic.",
+      "link": "https://www.skysports.com/football/news/12040/13573640/newcastle-transfer-news-club-agree-deal-to-sign-defender-amar-dedic-from-benfica",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-16T09:48:00+00:00"
     },
     {
       "title": "Athletics medal ceremonies postponed after police arrest",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-15T23:30:00+00:00"
-    },
-    {
-      "title": "Djokovic struggles with heat in Cincinnati as Wimbledon hero Fery returns",
-      "description": "Novak Djokovic suffered defeat and struggled physically in his first match since Wimbledon as he was upset by Thiago Agustin Tirante in a sapping three-set contest at the Cincinnati Open.",
-      "link": "https://www.skysports.com/tennis/news/12040/13573406/novak-djokovic-out-of-cincinnati-open-in-second-round-after-struggling-with-heat-and-humidity-against-thiago-agustin-tirante",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-15T22:45:00+00:00"
     }
   ]
 }
