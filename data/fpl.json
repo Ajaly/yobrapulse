@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T14:20:45.988583+00:00",
+  "generatedAt": "2026-08-17T15:18:51.130521+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -376,7 +376,7 @@
         "trackingSince": "2026-08-13T06:10:25.404980+00:00",
         "home": {
           "transfers": {
-            "in": 0,
+            "in": 1,
             "out": 0,
             "windowDays": 30
           },
@@ -399,7 +399,7 @@
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.69,
+        "homeAvailability": 0.7,
         "awayAvailability": 0.95
       },
       "marketOdds": null
@@ -499,7 +499,7 @@
         "away": {
           "transfers": {
             "in": 0,
-            "out": 0,
+            "out": 1,
             "windowDays": 30
           },
           "managerChange": null
@@ -2421,7 +2421,7 @@
       "name": "Hull City",
       "shortName": "HUL",
       "crestClass": "pink-crest",
-      "squadSize": 35,
+      "squadSize": 36,
       "squad": [
         {
           "id": 277,
@@ -2579,6 +2579,11 @@
           "position": "MID"
         },
         {
+          "id": 340,
+          "name": "Gelhardt",
+          "position": "MID"
+        },
+        {
           "id": 563,
           "name": "Morita",
           "position": "MID"
@@ -2600,7 +2605,7 @@
         }
       ],
       "squadRating": null,
-      "squadValue": "\u00a3155.5m",
+      "squadValue": "\u00a3160.5m",
       "leagueRank": null,
       "strengthHome": 2,
       "strengthAway": 2,
@@ -2611,7 +2616,7 @@
       "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
-        "in": 0,
+        "in": 1,
         "out": 0,
         "windowDays": 30
       },
@@ -2801,7 +2806,7 @@
       "name": "Leeds",
       "shortName": "LEE",
       "crestClass": "blue-crest",
-      "squadSize": 25,
+      "squadSize": 24,
       "squad": [
         {
           "id": 327,
@@ -2899,11 +2904,6 @@
           "position": "MID"
         },
         {
-          "id": 340,
-          "name": "Gelhardt",
-          "position": "MID"
-        },
-        {
           "id": 341,
           "name": "Gnonto",
           "position": "MID"
@@ -2930,7 +2930,7 @@
         }
       ],
       "squadRating": 4.3,
-      "squadValue": "\u00a3127.5m",
+      "squadValue": "\u00a3122.5m",
       "leagueRank": 6,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -2942,7 +2942,7 @@
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
-        "out": 0,
+        "out": 1,
         "windowDays": 30
       },
       "managerChange": null
@@ -4205,7 +4205,7 @@
       "avatar": "EH",
       "avatarClass": "pink-avatar",
       "price": "\u00a315.5m",
-      "owned": "71.5%",
+      "owned": "71.4%",
       "points": 239,
       "epNext": 4.0,
       "form": 0.0,
@@ -4267,7 +4267,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "28.3%",
+      "owned": "28.4%",
       "points": 209,
       "epNext": 4.0,
       "form": 0.0,
@@ -4453,7 +4453,7 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.5m",
-      "owned": "10.0%",
+      "owned": "9.9%",
       "points": 157,
       "epNext": 3.2,
       "form": 0.0,
@@ -4515,7 +4515,7 @@
       "avatar": "IT",
       "avatarClass": "orange-avatar",
       "price": "\u00a38.0m",
-      "owned": "17.2%",
+      "owned": "17.3%",
       "points": 181,
       "epNext": 2.5,
       "form": 0.0,
@@ -4670,7 +4670,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "20.9%",
+      "owned": "20.8%",
       "points": 179,
       "epNext": 2.8,
       "form": 0.0,
@@ -4732,7 +4732,7 @@
       "avatar": "MS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "9.8%",
+      "owned": "9.7%",
       "points": 175,
       "epNext": 2.8,
       "form": 0.0,
@@ -5011,7 +5011,7 @@
       "avatar": "VV",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "17.5%",
+      "owned": "17.6%",
       "points": 175,
       "epNext": 3.1,
       "form": 0.0,
@@ -5228,7 +5228,7 @@
       "avatar": "BG",
       "avatarClass": "",
       "price": "\u00a37.0m",
-      "owned": "9.4%",
+      "owned": "9.3%",
       "points": 154,
       "epNext": 2.5,
       "form": 0.0,
@@ -5259,7 +5259,7 @@
       "avatar": "ML",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "10.8%",
+      "owned": "10.7%",
       "points": 154,
       "epNext": 2.8,
       "form": 0.0,
@@ -5476,7 +5476,7 @@
       "avatar": "MS",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "11.6%",
+      "owned": "11.5%",
       "points": 143,
       "epNext": 2.8,
       "form": 0.0,
@@ -5631,7 +5631,7 @@
       "avatar": "CG",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.0m",
-      "owned": "3.5%",
+      "owned": "3.6%",
       "points": 131,
       "epNext": 2.5,
       "form": 0.0,
@@ -5724,7 +5724,7 @@
       "avatar": "VG",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "11.5%",
+      "owned": "11.4%",
       "points": 128,
       "epNext": 2.3,
       "form": 0.0,
@@ -6282,7 +6282,7 @@
       "avatar": "RJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "8.7%",
+      "owned": "8.8%",
       "points": 115,
       "epNext": 2.5,
       "form": 0.0,
@@ -6623,7 +6623,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "24.2%",
+      "owned": "24.4%",
       "points": 109,
       "epNext": 2.5,
       "form": 0.0,
@@ -6778,7 +6778,7 @@
       "avatar": "EK",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "15.3%",
+      "owned": "15.2%",
       "points": 100,
       "epNext": 1.7,
       "form": 0.0,
@@ -6933,7 +6933,7 @@
       "avatar": "HM",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.0m",
-      "owned": "11.5%",
+      "owned": "11.6%",
       "points": 90,
       "epNext": 2.2,
       "form": 0.0,
@@ -7057,7 +7057,7 @@
       "avatar": "JG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "12.5%",
+      "owned": "12.4%",
       "points": 79,
       "epNext": 2.5,
       "form": 0.0,
@@ -7150,7 +7150,7 @@
       "avatar": "DS",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "4.7%",
+      "owned": "4.6%",
       "points": 78,
       "epNext": 1.7,
       "form": 0.0,
@@ -7770,7 +7770,7 @@
       "avatar": "CT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "11.9%",
+      "owned": "12.1%",
       "points": 0,
       "epNext": 2.3,
       "form": 0.0,
@@ -8173,7 +8173,7 @@
       "avatar": "LD",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "5.1%",
+      "owned": "5.2%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -8258,7 +8258,7 @@
       "fdrClass": "mid"
     }
   },
-  "totalManagers": 5254663,
+  "totalManagers": 5276952,
   "totalPlayers": 590,
   "priceMovement": {
     "risers": [],

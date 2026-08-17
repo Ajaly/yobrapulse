@@ -8,6 +8,15 @@
       "toTeamId": 8,
       "toTeam": "Crystal Palace",
       "detectedAt": "2026-08-13T16:54:59.518100+00:00"
+    },
+    {
+      "playerId": 340,
+      "playerName": "Gelhardt",
+      "fromTeamId": 13,
+      "fromTeam": "Leeds",
+      "toTeamId": 11,
+      "toTeam": "Hull City",
+      "detectedAt": "2026-08-17T15:18:47.503483+00:00"
     }
   ]
 }
