@@ -1,18 +1,36 @@
 {
-  "generatedAt": "2026-08-17T19:22:47.569637+00:00",
+  "generatedAt": "2026-08-17T20:18:24.843074+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Monday Night Club",
-      "description": "Mark Chapman and guests debate the weekend's football.",
-      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_five_live",
+      "title": "Sheff Utd face winding-up hearing as former owner makes claim",
+      "description": "Sheffield United's owners are focused on the new season despite the club's former owners suggesting they face a \"real prospect\" of administration&#160;ahead of an insolvency court hearing on&#160;Wednesday.",
+      "link": "https://www.skysports.com/football/news/12040/13574171/sheffield-united-face-winding-up-hearing-in-court-as-former-owners-united-world-claim-coh-sports-owes-35m",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T20:19:00+00:00"
+    },
+    {
+      "title": "Rodri lands in Barcelona to complete 'dream' move",
+      "description": "Spain midfielder Rodri says it is his \"dream\" to play for Barcelona as he arrives in the city to complete his move from Manchester City.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cevmw02j4nyo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T20:00:00+00:00"
+      "pubDateISO": "2026-08-17T20:02:27+00:00"
+    },
+    {
+      "title": "Fifa official leaves after Infantino plan criticism",
+      "description": "A senior Fifa figure leaves football's world governing body three weeks after criticising its president Gianni Infantino.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn7n4d6vy03o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T19:52:19+00:00"
     },
     {
       "title": "LIV Golf confirms season-ending event in Michigan cancelled",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-17T16:46:57+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-17T16:28:06+00:00"
-    },
-    {
-      "title": "Brighton reject \u00a37.5m bid from Rangers for Cozier-Duberry",
-      "description": "Brighton reject a \u00a37.5m bid from Rangers for winger Amario Cozier-Duberry.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cevmwdjv7vmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T16:14:56+00:00"
     }
   ]
 }
