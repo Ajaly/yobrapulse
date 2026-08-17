@@ -1,18 +1,63 @@
 {
-  "generatedAt": "2026-08-17T08:35:15.613867+00:00",
+  "generatedAt": "2026-08-17T09:33:57.893014+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "What do you think of new Scotland boss? - listen live",
-      "description": "Connie McLaughlin gets to the heart of the stories making the news.",
-      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+      "title": "Rogers on playing with 'artist' Palmer and getting Chelsea back to the top",
+      "description": "Morgan Rogers is convinced Chelsea can once again compete for the top trophies and says he and Cole Palmer know exactly how to play together.",
+      "link": "https://www.skysports.com/football/news/12040/13572952/chelseas-morgan-rogers-relishing-prospect-of-playing-with-cole-palmer-as-he-targets-premier-league-and-champions-league-glory",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T10:00:00+00:00"
+    },
+    {
+      "title": "Why electric Toure can be a game-changer for Newcastle",
+      "description": "Amid the doom and gloom at Newcastle United as familiar faces depart and the future looks uncertain, do not sleep on the signing of Bazoumana Toure. The Ivorian winger has the potential to be one of the most exciting Premier League arrivals this summer.",
+      "link": "https://www.skysports.com/football/news/12040/13561315/bazoumana-toure-to-newcastle-united-speed-of-ivorian-winger-from-hoffenheim-could-define-matthias-jaissles-new-team",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-17T10:00:00+00:00"
+    },
+    {
+      "title": "Man City in advanced talks for \u00a385m Bouaddi, 18",
+      "description": "Manchester City are in advanced talks with Lille over a move for Morocco midfielder Ayyoub Bouaddi.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T11:00:00+00:00"
+      "pubDateISO": "2026-08-17T09:23:32+00:00"
+    },
+    {
+      "title": "Juventus agree deal to sign Vicario after cooling Martinez interest",
+      "description": "Juventus have agreed a deal with Tottenham to sign Guglielmo Vicario on an initial season-long loan.",
+      "link": "https://www.skysports.com/football/news/12040/13573938/guglielmo-vicario-transfer-news-juventus-agree-deal-to-sign-spurs-goalkeeper-on-loan-as-emi-martinez-alternative",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-17T09:22:00+00:00"
+    },
+    {
+      "title": "Man City face Neto competition - Monday's gossip",
+      "description": "Manchester City face competition for Pedro Neto, Real Madrid want Martin Zubimendi and Premier League clubs want Liam Delap.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gkk7r2r4yo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T09:12:54+00:00"
+    },
+    {
+      "title": "Spurs' Vicario set to join Juventus on loan",
+      "description": "Tottenham accept a loan offer from Juventus for goalkeeper Guglielmo Vicario, which includes an option to buy.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgk451r4z76o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-17T09:05:54+00:00"
     },
     {
       "title": "Signings impress but squad issues remain - learnings from Man Utd's summer",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-17T07:00:00+00:00"
-    },
-    {
-      "title": "Shields vs Price talks ongoing - 'Our intention is to make the fight!'",
-      "description": "Negotiations for a Claressa Shields vs Lauren Price fight are ongoing after the American star reclaimed two world middleweight titles on Saturday.",
-      "link": "https://www.skysports.com/boxing/news/12040/13573848/claressa-shield-vs-lauren-price-talks-are-ongoing-after-american-star-reclaimed-world-middleweight-titles-in-atlanta",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T07:00:00+00:00"
-    },
-    {
-      "title": "Scotland boss to bring in ex-Premier League winger - gossip",
-      "description": "New Scotland boss to bring in former Premier League winger as assistant, while Hearts lodge a bid for a new striker...",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cddjv462963o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T06:55:27+00:00"
-    },
-    {
-      "title": "Brook quizzed on Wellington incident as he backs Root for Test captaincy",
-      "description": "Harry Brook says he does not know whether the Wellington incident ahead of the Ashes cost him the England captaincy, but believes appointing Joe Root was the &#8220;right decision&#8221;.",
-      "link": "https://www.skysports.com/cricket/news/12040/13573896/harry-brook-on-missing-out-on-england-captaincy-and-the-wellington-incident-the-decision-to-make-root-captain-was-the-right-one",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T06:54:00+00:00"
-    },
-    {
-      "title": "Stats that show Premier League is getting more competitive",
-      "description": "Last season, the Premier League was arguably more competitive than it has been for years. BBC Sport looks at whether that will continue to be the case this time around.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gddjpjm49o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T06:41:27+00:00"
-    },
-    {
-      "title": "Dublin Dons? The failed attempt to bring a Premier League club to Ireland",
-      "description": "Just how close did an Irish consortium come to buying a Premier League team and moving them to Dublin?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c05q03v8nrno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T06:19:22+00:00"
     }
   ]
 }
