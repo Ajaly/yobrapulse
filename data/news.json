@@ -1,13 +1,40 @@
 {
-  "generatedAt": "2026-08-17T21:19:21.365725+00:00",
+  "generatedAt": "2026-08-17T22:17:10.949643+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Colwill hits last-second stunner as Cardiff hit back to deny Wrexham",
-      "description": "Cardiff earned a the most dramatic point on their return to the Sky Bet Championship as Rubin Colwill's stunning 98th-minute free-kick earned a 1-1 draw against Wrexham.",
+      "title": "Boehly and Walter hold talks over selling Chelsea shares to majority owners",
+      "description": "Todd Boehly and Mark Walter have held talks about selling their shares in Chelsea to Clearlake Capital.",
+      "link": "https://www.skysports.com/football/news/12040/13574134/chelsea-co-owners-todd-boehly-and-mark-walter-hold-talks-over-selling-shares-to-majority-owners-clearlake-capital",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T22:50:00+00:00"
+    },
+    {
+      "title": "Papers: Potential power shift at Chelsea as club valued at \u00a35bn",
+      "description": "The top stories and transfer rumours from Tuesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/12040/13574191/chelsea-co-owners-todd-boehly-and-mark-walter-open-to-selling-stakes-to-majority-owners-clearlake-capital-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-17T22:35:00+00:00"
+    },
+    {
+      "title": "Last-gasp DRAMA sees Cardiff earn point vs Wrexham on Championship return",
+      "description": "Highlights of the Sky Bet Championship match between Cardiff City and Wrexham.",
+      "link": "https://www.skysports.com/watch/video/13574184/cardiff-city-1-1-wrexham-championship-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T22:06:00+00:00"
+    },
+    {
+      "title": "Colwill hits last-second stunner as Cardiff fight back to deny Wrexham",
+      "description": "Cardiff earned the most dramatic point on their return to the Sky Bet Championship as Rubin Colwill's stunning 98th-minute free-kick earned a 1-1 draw against Wrexham.",
       "link": "https://www.skysports.com/football/cardiff-city-vs-wrexham/report/560509",
       "source": "Sky Sports",
       "category": "club",
@@ -15,8 +42,26 @@
       "pubDateISO": "2026-08-17T22:00:00+00:00"
     },
     {
+      "title": "Fernandez will cost Man City more than \u00a3120m - Tuesday's gossip",
+      "description": "Manchester City will need to pay more than \u00a3120m for Enzo Fernandez, Chelsea winger Pedro Neto has no shortage of suitors, Bruno Fernandes is offered a huge salary increase, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cz64z1dxn7xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T21:42:19+00:00"
+    },
+    {
+      "title": "Chelsea co-owners Boehly & Walter explore selling stakes",
+      "description": "Chelsea chairman Todd Boehly and director Mark Walter explore selling their stakes in the club to majority owner Clearlake Capital.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj6341x2g18o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T21:18:49+00:00"
+    },
+    {
       "title": "Top Fifa official sacked after Infantino plan criticism",
-      "description": "Senior Fifa figure Kevin Lamour is sacked football's world governing body three weeks after criticising its president Gianni Infantino.",
+      "description": "Senior Fifa figure Kevin Lamour is sacked by football's world governing body three weeks after criticising its president Gianni Infantino.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cn7n4d6vy03o",
       "source": "BBC Sport",
       "category": "club",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-17T19:41:00+00:00"
-    },
-    {
-      "title": "Man City latest: Rodri in Barcelona for 'dream' move - Bouaddi in soon?",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T19:36:00+00:00"
-    },
-    {
-      "title": "West Brom in talks over permanent Collyer return",
-      "description": "Manchester United midfielder Toby Collyer is in talks with West Bromwich Albion about returning to The Hawthorns on a permanent basis.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T18:26:31+00:00"
-    },
-    {
-      "title": "Swiatek completes emphatic comeback after losing first set to Sakkari",
-      "description": "Highlights of Iga Swiatek against Maria Sakkari from the Cincinnati Open.",
-      "link": "https://www.skysports.com/watch/video/13574140/iga-swiatek-vs-maria-sakkari-cincinnati-open-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T18:25:00+00:00"
-    },
-    {
-      "title": "Cagliari's Trepy in intensive care after pool incident",
-      "description": "Cagliari striker Yael Trepy is being treated in intensive care after an incident in Sardinia.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm2g7mr0d17o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T18:15:23+00:00"
-    },
-    {
-      "title": "Alonso, Fernandez and a new era at Chelsea - podcast special!",
-      "description": "It's been another summer of change at Chelsea - and on the eve of a new Premier League season, there is so much to analyse at the club, with Xabi Alonso's reign kicking off, big-money transfers to be settled and a search for success on the pitch in their sights.",
-      "link": "https://www.skysports.com/football/news/12040/13574084/chelsea-podcast-xabi-alonso-enzo-fernandez-future-transfers-and-a-new-era-at-stamford-bridge-analysed",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-17T17:11:00+00:00"
     }
   ]
 }
