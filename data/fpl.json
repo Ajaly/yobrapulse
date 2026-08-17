@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T03:43:22.224384+00:00",
+  "generatedAt": "2026-08-17T04:34:09.821748+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -629,7 +629,7 @@
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.97,
-        "awayAvailability": 0.74
+        "awayAvailability": 0.75
       },
       "marketOdds": null
     },
@@ -4222,7 +4222,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "32.7%",
+      "owned": "32.8%",
       "points": 162,
       "epNext": 4.0,
       "form": 0.0,
@@ -5369,7 +5369,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "28.7%",
+      "owned": "28.8%",
       "points": 148,
       "epNext": 2.8,
       "form": 0.0,
@@ -8275,7 +8275,7 @@
       "fdrClass": "mid"
     }
   },
-  "totalManagers": 5086463,
+  "totalManagers": 5091178,
   "totalPlayers": 587,
   "priceMovement": {
     "risers": [],
