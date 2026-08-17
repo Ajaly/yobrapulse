@@ -1,18 +1,54 @@
 {
-  "generatedAt": "2026-08-17T11:19:10.664061+00:00",
+  "generatedAt": "2026-08-17T12:30:02.682786+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man City latest: Talks ongoing for Bouaddi as price-tag revealed",
+      "title": "Man City latest: Talks ongoing for Bouaddi as price tag revealed",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-17T12:00:00+00:00"
+    },
+    {
+      "title": "Dean to captain England against Ireland in ODI series",
+      "description": "Charlie Dean will captain England Women against Ireland Women in September for the three-match ODI series.",
+      "link": "https://www.skysports.com/cricket/news/12040/13573983/charlie-dean-to-captain-england-women-against-ireland-in-three-match-odi-series",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T11:35:00+00:00"
+    },
+    {
+      "title": "Pocognoli 'feels connection' with 'passionate' Scotland",
+      "description": "New Scotland boss Sebastien Pocognoli says the passionate nature of Scottish football was a key factor in his taking the job.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cdx75z0ngylo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T11:23:21+00:00"
+    },
+    {
+      "title": "Pocognoli 'feels connection' with 'passionate' Scotland",
+      "description": "New Scotland boss Sebastien Pocognoli says the passionate nature of Scottish football was a key factor in his taking the job.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cdx75z0ngylo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T11:23:21+00:00"
+    },
+    {
+      "title": "Hussain: Quality of Hundred players a lot better than Blast",
+      "description": "Nasser Hussain has praised the quality of both domestic and international players in the Hundred, highlighting its strength compared with the Vitality Blast.",
+      "link": "https://www.skysports.com/cricket/news/12040/13573973/the-hundred-nasser-hussain-praises-quality-of-2026-tournament-but-criticises-packed-schedule-ahead-of-pakistan-test-series",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T10:59:00+00:00"
     },
     {
       "title": "Why captain Tierney stayed as relegated Leicester look to rebuild",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-17T09:23:32+00:00"
-    },
-    {
-      "title": "Juventus agree deal to sign Vicario after cooling Martinez interest",
-      "description": "Juventus have agreed a deal with Tottenham to sign Guglielmo Vicario on an initial season-long loan.",
-      "link": "https://www.skysports.com/football/news/12040/13573938/guglielmo-vicario-transfer-news-juventus-agree-deal-to-sign-spurs-goalkeeper-on-loan-as-emi-martinez-alternative",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-17T09:22:00+00:00"
-    },
-    {
-      "title": "Man City face Neto competition - Monday's gossip",
-      "description": "Manchester City face competition for Pedro Neto, Real Madrid want Martin Zubimendi and Premier League clubs want Liam Delap.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gkk7r2r4yo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T09:12:54+00:00"
-    },
-    {
-      "title": "Spurs' Vicario set to join Juventus on loan",
-      "description": "Tottenham accept a loan offer from Juventus for goalkeeper Guglielmo Vicario, which includes an option to buy.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgk451r4z76o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-17T09:05:54+00:00"
-    },
-    {
-      "title": "Signings impress but squad issues remain - learnings from Man Utd's summer",
-      "description": "Positives, negatives and areas to address urgently - how are Michael Carrick's Manchester United shaping up now pre-season is over?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5ywwv3j1v1o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-17T08:29:10+00:00"
     }
   ]
 }
