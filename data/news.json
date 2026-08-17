@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-17T09:33:57.893014+00:00",
+  "generatedAt": "2026-08-17T10:24:54.032265+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man City remain interested in Enzo despite missing Chelsea deadline",
+      "description": "Chelsea midfielder Enzo Fernandez remains a target for Manchester City in the final two weeks of the transfer window.",
+      "link": "https://www.skysports.com/football/news/12040/13573958/enzo-fernandez-transfer-news-man-city-remain-interested-in-chelsea-midfielder-despite-missing-deadline-to-make-bid",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-17T10:30:00+00:00"
+    },
     {
       "title": "Rogers on playing with 'artist' Palmer and getting Chelsea back to the top",
       "description": "Morgan Rogers is convinced Chelsea can once again compete for the top trophies and says he and Cole Palmer know exactly how to play together.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-17T07:49:52+00:00"
-    },
-    {
-      "title": "All you need to know about the US Open Tennis - live on Sky Sports!",
-      "description": "When is the US Open? Does Jack Draper need to qualify for the US Open? Is Emma Raducanu playing? Who will win at Flushing Meadows? Key questions ahead of the last Grand Slam of 2026 - watch live from August 30 - September 13 on Sky Sports Tennis.",
-      "link": "https://www.skysports.com/tennis/news/12040/13571651/all-you-need-to-know-about-the-us-open-tennis-live-on-sky-sports-including-dates-schedule-winners-and-tv-times",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T07:00:00+00:00"
     }
   ]
 }
