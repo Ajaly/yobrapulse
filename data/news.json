@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T18:28:59.059422+00:00",
+  "generatedAt": "2026-08-17T19:22:47.569637+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -15,13 +15,31 @@
       "pubDateISO": "2026-08-17T20:00:00+00:00"
     },
     {
-      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "title": "LIV Golf confirms season-ending event in Michigan cancelled",
+      "description": "LIV Golf has confirmed its season-ending Team Championship event in Michigan will no longer go ahead, with this week's tournament in Indianapolis to be a stroke-play event that concludes the season.",
+      "link": "https://www.skysports.com/golf/news/12040/13574162/liv-golf-confirms-season-ending-team-championship-event-in-michigan-cancelled-with-2026-winner-to-be-crowned-a-week-earlier",
       "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-17T18:50:00+00:00"
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T19:41:00+00:00"
+    },
+    {
+      "title": "Man City latest: 'A dream' - Rodri arrives in Barcelona ahead of move",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T19:36:00+00:00"
+    },
+    {
+      "title": "West Brom in talks over permanent Collyer return",
+      "description": "Manchester United midfielder Toby Collyer is in talks with West Bromwich Albion about returning to The Hawthorns on a permanent basis.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cly5egxez48o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T18:26:31+00:00"
     },
     {
       "title": "Swiatek completes emphatic comeback after losing first set to Sakkari",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-17T16:14:56+00:00"
-    },
-    {
-      "title": "Brighton reject \u00a37.5m bid from Rangers for Cozier-Duberry",
-      "description": "Brighton reject a \u00a37.5m bid from Rangers for winger Amario Cozier-Duberry.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cevmwdjv7vmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T16:14:56+00:00"
-    },
-    {
-      "title": "Coventry sign Forest striker Awoniyi for \u00a39m",
-      "description": "Coventry City have signed Nigeria striker Taiwo Awoniyi from Nottingham Forest for \u00a39m.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvgjjr90l0lo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-17T16:02:31+00:00"
     }
   ]
 }
