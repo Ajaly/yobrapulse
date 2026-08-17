@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-17T17:21:02.645621+00:00",
+  "generatedAt": "2026-08-17T18:28:59.059422+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Monday Night Club",
+      "description": "Mark Chapman and guests debate the weekend's football.",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_five_live",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T20:00:00+00:00"
+    },
+    {
+      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/12040/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-17T18:50:00+00:00"
+    },
+    {
+      "title": "Swiatek completes emphatic comeback after losing first set to Sakkari",
+      "description": "Highlights of Iga Swiatek against Maria Sakkari from the Cincinnati Open.",
+      "link": "https://www.skysports.com/watch/video/13574140/iga-swiatek-vs-maria-sakkari-cincinnati-open-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T18:25:00+00:00"
+    },
+    {
+      "title": "Cagliari's Trepy in intensive care after pool incident",
+      "description": "Cagliari striker Yael Trepy is being treated in intensive care after an incident in Sardinia.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm2g7mr0d17o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T18:15:23+00:00"
+    },
     {
       "title": "Alonso, Fernandez and a new era at Chelsea - podcast special!",
       "description": "It's been another summer of change at Chelsea - and on the eve of a new Premier League season, there is so much to analyse at the club, with Xabi Alonso's reign kicking off, big-money transfers to be settled and a search for success on the pitch in their sights.",
@@ -76,42 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-17T16:02:31+00:00"
-    },
-    {
-      "title": "Youthful Pocognoli the brave choice for Scotland job",
-      "description": "The Scottish FA are all-in on Sebastien Pocognoli, 39, showing bravery and ambition - what everybody wanted, writes Tom English.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8dn39n6np2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T16:01:05+00:00"
-    },
-    {
-      "title": "Youthful Pocognoli the brave choice for Scotland job",
-      "description": "The Scottish FA are all-in on Sebastien Pocognoli, 39, showing bravery and ambition - what everybody wanted, writes Tom English.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8dn39n6np2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T16:01:05+00:00"
-    },
-    {
-      "title": "Man Utd captain Fernandes not for sale despite Galatasaray interest",
-      "description": "Manchester United captain Bruno Fernandes is not for sale at any price despite interest from Galatasaray.&#160;",
-      "link": "https://www.skysports.com/football/news/12040/13574095/bruno-fernandes-transfer-news-manchester-united-captain-not-for-sale-at-any-price-despite-galatasaray-interest",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T16:01:00+00:00"
-    },
-    {
-      "title": "Where does Wilson fit in at Hearts after starring role?",
-      "description": "After scoring his first goal in over a year, Hearts teenager James Wilson insists he is a better player after his loan experience in the development ranks at Tottenham.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx25515j2r4o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-17T15:35:34+00:00"
     }
   ]
 }
