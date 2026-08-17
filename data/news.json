@@ -1,18 +1,54 @@
 {
-  "generatedAt": "2026-08-17T10:24:54.032265+00:00",
+  "generatedAt": "2026-08-17T11:19:10.664061+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man City remain interested in Enzo despite missing Chelsea deadline",
+      "title": "Man City latest: Talks ongoing for Bouaddi as price-tag revealed",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T12:00:00+00:00"
+    },
+    {
+      "title": "Why captain Tierney stayed as relegated Leicester look to rebuild",
+      "description": "When Leicester City were relegated from the Women's Super League in May, it was the catalyst for a mass exodus from the club. But Sam Tierney stayed.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0jl6wqg6d3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T10:44:26+00:00"
+    },
+    {
+      "title": "Why captain Tierney stayed as relegated Leicester look to rebuild",
+      "description": "When Leicester City were relegated from the Women's Super League in May, it was the catalyst for a mass exodus from the club. But Sam Tierney stayed.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0jl6wqg6d3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T10:44:26+00:00"
+    },
+    {
+      "title": "Man City remain interested in Fernandez despite missing Chelsea deadline",
       "description": "Chelsea midfielder Enzo Fernandez remains a target for Manchester City in the final two weeks of the transfer window.",
       "link": "https://www.skysports.com/football/news/12040/13573958/enzo-fernandez-transfer-news-man-city-remain-interested-in-chelsea-midfielder-despite-missing-deadline-to-make-bid",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-17T10:30:00+00:00"
+    },
+    {
+      "title": "Cagliari's Trepy in intensive care after reported pool incident",
+      "description": "Cagliari striker Yael Trepy is being treated in intensive care after an incident in Sardinia.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm2g7mr0d17o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-17T10:25:57+00:00"
     },
     {
       "title": "Rogers on playing with 'artist' Palmer and getting Chelsea back to the top",
@@ -76,42 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-17T08:29:10+00:00"
-    },
-    {
-      "title": "Have your say: Defeat to Arsenal and Rodri departing - should City be concerned?",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T08:13:00+00:00"
-    },
-    {
-      "title": "Bronze explains out-of-character contract extension",
-      "description": "England defender Lucy Bronze says she has found a \"really good role\" at a club she is \"comfortable\" with, after signing a rare contract extension with Chelsea.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy4kge80l1eo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-17T08:06:16+00:00"
-    },
-    {
-      "title": "Bronze explains out-of-character contract extension",
-      "description": "England defender Lucy Bronze says she has found a \"really good role\" at a club she is \"comfortable\" with, after signing a rare contract extension with Chelsea.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy4kge80l1eo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-17T08:06:16+00:00"
-    },
-    {
-      "title": "These eight players will help you win FPL",
-      "description": "Our Fantasy Premier League experts pick eight players they think will help you have a successful FPL season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g305xwdr4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T07:49:52+00:00"
     }
   ]
 }
