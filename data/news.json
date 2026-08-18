@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-18T09:25:04.656055+00:00",
+  "generatedAt": "2026-08-18T10:20:26.936184+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "When does the summer transfer window close?",
+      "description": "Our Ask Me Anything team explains when the summer transfer window closes",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8xgn20ddrzo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-18T10:08:37+00:00"
+    },
+    {
+      "title": "Premier League to publish verdicts on referee and VAR decisions",
+      "description": "The Premier League will publish the judgements of its Key Match Incidents Panel for the first time this season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c98v0mrerz2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T10:00:14+00:00"
+    },
     {
       "title": "US Amateur champion Whaley and Poulter's son named in GB&I Walker Cup team",
       "description": "US Amateur champion Jack Whaley has been selected in the Great Britain and Ireland team for the 2026 Walker Cup against the USA.",
@@ -42,8 +60,8 @@
       "pubDateISO": "2026-08-18T09:30:00+00:00"
     },
     {
-      "title": "LeBron misses hole-in-one by just a few feet!",
-      "description": "Watch LeBron James miss a hole-in-one by just a few feet!",
+      "title": "LeBron James INCHES away from stunning hole-in-one!",
+      "description": "Watch NBA star LeBron James miss a hole-in-one by just a few feet!",
       "link": "https://www.skysports.com/watch/video/13574262/lebron-james-misses-hole-in-one-by-just-a-few-feet",
       "source": "Sky Sports",
       "category": "club",
@@ -94,24 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-18T08:02:12+00:00"
-    },
-    {
-      "title": "Sky Sports and The Fast and the Curious announce new partnership",
-      "description": "<em>Sky Sports</em> and <em>The Fast and the Curious</em> have announced a new long-term strategic partnership, ahead of Formula 1's return to action this weekend with the Dutch Grand Prix.",
-      "link": "https://www.skysports.com/f1/news/12040/13574066/the-fast-and-the-curious-sky-sports-announces-new-partnership-ahead-of-f1s-return-to-action-at-dutch-gp",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T08:00:00+00:00"
-    },
-    {
-      "title": "Watch out for Brentford's Sangare - he could be signing of the season",
-      "description": "It's September 2024, and Mamadou Sangare has been called up to the Mali squad for the very first time. As is normal in modern football, new players have to do an initiation song while stood on top of a chair.",
-      "link": "https://www.skysports.com/football/news/12040/13570422/mamadou-sangare-brentfords-39m-midfielder-could-be-the-premier-leagues-signing-of-the-season",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-18T08:00:00+00:00"
     }
   ]
 }
