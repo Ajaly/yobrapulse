@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-18T11:19:23.015157+00:00",
+  "generatedAt": "2026-08-18T12:31:50.190524+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Kevin Blake's tips for opening day of York's Ebor Festival",
+      "description": "Kevin Blake has three picks for day one of the York Ebor Festival, an afternoon headlined by the Juddmonte International Stakes.",
+      "link": "https://www.skysports.com/racing/news/12040/13574345/kevin-blakes-ebor-festival-tips-sky-sports-racing-expert-looks-ahead-to-yorks-opening-day-with-three-selections",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T12:31:00+00:00"
+    },
+    {
+      "title": "Baller League will no longer be shown on Sky Sports",
+      "description": "The six-a-side tournament will continue to broadcast on YouTube, Twitch and TikTok.",
+      "link": "https://www.bbc.co.uk/news/articles/c3ekqxdzwweo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T12:14:04+00:00"
+    },
     {
       "title": "What next for LIV Golf? Timeline from big beginnings to uncertain future",
       "description": "The LIV Golf League is ending the 2026 season with its long-term future unclear, having been a dominant discussion point during a turbulent few years for men&#8217;s professional golf.",
@@ -15,13 +33,22 @@
       "pubDateISO": "2026-08-18T11:45:00+00:00"
     },
     {
-      "title": "Baller League will no longer be shown on Sky Sports",
-      "description": "The six-a-side tournament will continue to broadcast on YouTube, Twitch and TikTok.",
-      "link": "https://www.bbc.co.uk/news/articles/c3ekqxdzwweo",
+      "title": "Sunday date for Old Firm in League Cup quarter-finals",
+      "description": "Rangers are to host Celtic at noon on Sunday 13 September in the last of the Premier Sports Cup quarter finals, while there is a Friday night kick-off for Stenhousemuir v Hearts.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c74gey82yxwo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T11:04:20+00:00"
+      "pubDateISO": "2026-08-18T11:22:06+00:00"
+    },
+    {
+      "title": "Premier League build-up: More ref audio to be released this season",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/12040/13574293/premier-league-2026-27-preview-team-news-analysis-injury-latest-suspensions-and-fantasy-football",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T10:58:00+00:00"
     },
     {
       "title": "Why Fernandez uncertainty has echoes of Isak saga",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-18T10:00:14+00:00"
-    },
-    {
-      "title": "US Amateur champion Whaley and Poulter's son named in GB&I Walker Cup team",
-      "description": "US Amateur champion Jack Whaley has been selected in the Great Britain and Ireland team for the 2026 Walker Cup against the USA.",
-      "link": "https://www.skysports.com/golf/news/12040/13574036/walker-cup-us-amateur-champion-jack-whaley-makes-gbi-team-alongside-ian-poulters-son-luke",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T10:00:00+00:00"
-    },
-    {
-      "title": "Lankshear on fire for Middlesbrough: Did Spurs just sell the next Kane?",
-      "description": "\"A lot of people questioned it,\" Scott Chickelday tells <em>Sky Sports</em>. \"Those same people are now looking at it and thinking, hang on, we might have got a bit of a bargain here.\" Such has been the start that Will Lankshear has made to his Middlesbrough career.",
-      "link": "https://www.skysports.com/football/news/12040/13570574/will-lankshear-is-middlesbroughs-new-striker-the-next-harry-kane-rise-of-ex-tottenham-forward-set-to-light-up-championship",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T10:00:00+00:00"
-    },
-    {
-      "title": "England begin new Test cricket era with old captain and no Stokes",
-      "description": "Who's ready for another reset?",
-      "link": "https://www.skysports.com/cricket/news/12040/13574255/joe-roots-second-tenure-as-england-test-cricket-captain-begins-against-pakistan-with-no-ben-stokes-and-victories-vital",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T09:35:00+00:00"
     }
   ]
 }
