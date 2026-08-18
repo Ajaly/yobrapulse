@@ -1,18 +1,54 @@
 {
-  "generatedAt": "2026-08-18T13:37:04.712475+00:00",
+  "generatedAt": "2026-08-18T14:26:21.522100+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Albon signs Williams contract extension",
+      "title": "Play BBC Sport's new Match of the Day Predictor game",
+      "description": "Play BBC Sport's new Match of the Day predictor game to test your football knowledge and build up your streak.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqlxwvl1vv6o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T14:04:22+00:00"
+    },
+    {
+      "title": "Albon signs one-year contract extension with Williams",
       "description": "Alex Albon has signed a one-year contract extension with Williams to continue driving for the team until the end of the 2027 Formula 1 season.",
       "link": "https://www.skysports.com/f1/news/12040/13574380/alex-albon-williams-driver-signs-one-year-contract-extension-to-remain-with-team-for-2027-f1-season",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-18T14:00:00+00:00"
+    },
+    {
+      "title": "Why Sheffield United are in the High Court and what it could mean",
+      "description": "Sheffield United's owners face a winding-up order in the High Court on Wednesday which could have a wide range of outcomes - including a 12-point deduction for the Championship club.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2kz1gl724o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T13:54:15+00:00"
+    },
+    {
+      "title": "Bezos consortium bought almost 40% of Liverpool",
+      "description": "A consortium including Amazon founder Jeff Bezos bought close to 40% of Liverpool from Fenway Sports Group (FSG).",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cly9l92kj6po",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T13:51:25+00:00"
+    },
+    {
+      "title": "Who has qualified for Champions League's league phase?",
+      "description": "BBC Sport's Ask Me Anything team explains which teams have qualified for the 2026-27 Champions League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crl177pxrl4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T13:44:20+00:00"
     },
     {
       "title": "Fury teases HUGE fight announcement: 'The one you've all been waiting for' \ud83d\udc40",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-18T11:22:06+00:00"
-    },
-    {
-      "title": "Fury vs AJ talks enter critical week with New York discussed as location",
-      "description": "Negotiations for the Tyson Fury vs Anthony Joshua fight have entered a 'critical week' with talks ongoing about staging the heavyweight clash in New York.",
-      "link": "https://www.skysports.com/boxing/news/12040/13574297/tyson-fury-vs-anthony-joshua-negotiations-enter-critical-week-with-ongoing-talks-about-staging-fight-in-new-york",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T11:02:00+00:00"
-    },
-    {
-      "title": "Premier League build-up: More ref audio to be released this season",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/12040/13574293/premier-league-2026-27-preview-team-news-analysis-injury-latest-suspensions-and-fantasy-football",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T10:58:00+00:00"
-    },
-    {
-      "title": "Why Fernandez uncertainty has echoes of Isak saga",
-      "description": "Enzo Fernandez's possible Manchester City move is following the pattern of Alexander Isak's transfer last summer - and creating headaches for Chelsea.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-18T10:46:17+00:00"
-    },
-    {
-      "title": "Middleton-Patel joins Watford on loan from Man Utd",
-      "description": "Wales goalkeeper Safia Middleton-Patel has secured a return to Watford having rejoined the Hornets on a season-long loan deal from Manchester United.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-18T10:30:07+00:00"
     }
   ]
 }

@@ -17,6 +17,15 @@
       "toTeamId": 11,
       "toTeam": "Hull City",
       "detectedAt": "2026-08-17T15:18:47.503483+00:00"
+    },
+    {
+      "playerId": 492,
+      "playerName": "Awoniyi",
+      "fromTeamId": 18,
+      "fromTeam": "Nott'm Forest",
+      "toTeamId": 7,
+      "toTeam": "Coventry City",
+      "detectedAt": "2026-08-18T14:26:12.101265+00:00"
     }
   ]
 }
