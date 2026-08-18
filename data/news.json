@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-18T12:31:50.190524+00:00",
+  "generatedAt": "2026-08-18T13:37:04.712475+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Albon signs Williams contract extension",
+      "description": "Alex Albon has signed a one-year contract extension with Williams to continue driving for the team until the end of the 2027 Formula 1 season.",
+      "link": "https://www.skysports.com/f1/news/12040/13574380/alex-albon-williams-driver-signs-one-year-contract-extension-to-remain-with-team-for-2027-f1-season",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-18T14:00:00+00:00"
+    },
+    {
+      "title": "Fury teases HUGE fight announcement: 'The one you've all been waiting for' \ud83d\udc40",
+      "description": "Tyson Fury has announced there is some 'big news' coming soon. Video credit: @tysonfury",
+      "link": "https://www.skysports.com/watch/video/13574370/tyson-fury-teases-huge-fight-announcement-the-one-youve-all-been-waiting-for",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T13:43:00+00:00"
+    },
+    {
+      "title": "O'Hara's PL predictions - including a Spurs-Arsenal U-turn \ud83d\ude05",
+      "description": "Jamie O'Hara makes his predictions for the new Premier League season, including who he thinks will come out on top as leading goalscorer!",
+      "link": "https://www.skysports.com/watch/video/13574367/sky-sports-fc-jamie-oharas-predictions-for-the-new-pl-season",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T13:41:00+00:00"
+    },
+    {
+      "title": "'Prognosis remains guarded' - Serie A's Trepy on ventilator",
+      "description": "Serie A striker Yael Trepy will stay in hospital under \"pharmacological sedation\", but appears to be improving.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp8xdx7ypr6o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T13:17:01+00:00"
+    },
     {
       "title": "Kevin Blake's tips for opening day of York's Ebor Festival",
       "description": "Kevin Blake has three picks for day one of the York Ebor Festival, an afternoon headlined by the Juddmonte International Stakes.",
@@ -42,6 +78,15 @@
       "pubDateISO": "2026-08-18T11:22:06+00:00"
     },
     {
+      "title": "Fury vs AJ talks enter critical week with New York discussed as location",
+      "description": "Negotiations for the Tyson Fury vs Anthony Joshua fight have entered a 'critical week' with talks ongoing about staging the heavyweight clash in New York.",
+      "link": "https://www.skysports.com/boxing/news/12040/13574297/tyson-fury-vs-anthony-joshua-negotiations-enter-critical-week-with-ongoing-talks-about-staging-fight-in-new-york",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T11:02:00+00:00"
+    },
+    {
       "title": "Premier League build-up: More ref audio to be released this season",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/12040/13574293/premier-league-2026-27-preview-team-news-analysis-injury-latest-suspensions-and-fantasy-football",
@@ -67,51 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-18T10:30:07+00:00"
-    },
-    {
-      "title": "Middleton-Patel joins Watford on loan from Man Utd",
-      "description": "Wales goalkeeper Safia Middleton-Patel has secured a return to Watford having rejoined the Hornets on a season-long loan deal from Manchester United.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5y479ez74zo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-18T10:30:07+00:00"
-    },
-    {
-      "title": "The Premier League is back! All 20 clubs assessed",
-      "description": "Football hasn't stopped this summer, so to make sure you're up to speed with how every Premier League is shaping up ahead of the new season we've taken a look at their preparations for the new campaign.",
-      "link": "https://www.skysports.com/football/news/12040/13572964/premier-league-season-preview-each-clubs-pre-season-preparations-analysed-ahead-of-new-campaigns-kick-off-this-friday",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T10:30:00+00:00"
-    },
-    {
-      "title": "Fernandez will cost Man City more than \u00a3120m - Tuesday's gossip",
-      "description": "Manchester City will need to pay more than \u00a3120m for Enzo Fernandez, Chelsea winger Pedro Neto has no shortage of suitors, Bruno Fernandes is offered a huge salary increase, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cz64z1dxn7xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T10:20:16+00:00"
-    },
-    {
-      "title": "When does the summer transfer window close?",
-      "description": "Our Ask Me Anything team explains when the summer transfer window closes",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8xgn20ddrzo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-18T10:08:37+00:00"
-    },
-    {
-      "title": "Premier League to publish verdicts on referee and VAR decisions",
-      "description": "The Premier League will publish the judgements of its Key Match Incidents Panel for the first time this season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c98v0mrerz2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T10:00:14+00:00"
     }
   ]
 }
