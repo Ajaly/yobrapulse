@@ -1,10 +1,64 @@
 {
-  "generatedAt": "2026-08-18T15:24:21.477982+00:00",
+  "generatedAt": "2026-08-18T16:22:51.425802+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Maguire: I want to be greedy about winning trophies",
+      "description": "Sitting down with Harry Maguire for one of his first interviews of the season, I found a player who was reflective but also excited about the future and what's to come.",
+      "link": "https://www.skysports.com/football/news/12040/13574426/harry-maguire-man-utd-defender-on-winning-trophies-new-signings-michael-carrick-and-the-future-with-ayden-heaven-and-leny-yoro",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T17:00:00+00:00"
+    },
+    {
+      "title": "PL chief Masters: Man City charges verdict 'has taken longer than expected'",
+      "description": "Premier League chief executive Richard Masters says a verdict on the alleged charges against Manchester City \"has taken longer than expected\".",
+      "link": "https://www.skysports.com/football/news/12040/13574259/manchester-city-charges-premier-league-chief-executive-richard-masters-says-verdict-has-taken-longer-than-expected",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T16:30:00+00:00"
+    },
+    {
+      "title": "Premier League chief says Fifa self-destructed over World Cup plan",
+      "description": "Premier League chief executive Richard Masters has criticised Fifa president Gianni Infantino's aborted plan to sell plan to sell stakes in the World Cup to private investors, saying the organisation has \"pressed the self-destruct button\" by delivering \"a self-inflicted wound\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgjeqez58wno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T16:18:37+00:00"
+    },
+    {
+      "title": "New Celtic signings unlikely before LASK tie - O'Neill",
+      "description": "Celtic manager Martin O'Neill does not anticipate any new arrivals before Wednesday's Champions League play-off first leg at home to LASK and insists he would be happy for Reo Hatate to stay.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce8kekejx8lo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-18T15:34:36+00:00"
+    },
+    {
+      "title": "New Celtic signings unlikely before LASK tie but O'Neill happy for Hatate to stay",
+      "description": "Celtic manager Martin O'Neill does not anticipate any new arrivals before Wednesday's Champions League play-off first leg at home to LASK and insists he would be happy for Reo Hatate to stay.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce8kekejx8lo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-18T15:34:36+00:00"
+    },
+    {
+      "title": "Retaining top talent a challenge - Everton chief Kinnear",
+      "description": "Retaining top talent is a challenge for established Premier League clubs even when they are performing well, says Everton chief executive officer Angus Kinnear.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3d373jg15zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T15:29:58+00:00"
+    },
     {
       "title": "Juventus sign Vicario on loan from Spurs after deciding against Martinez move",
       "description": "Juventus have signed Guglielmo Vicario on an initial season-long loan from Tottenham.",
@@ -13,6 +67,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-18T15:22:00+00:00"
+    },
+    {
+      "title": "Lakers governer Buss contesting siblings' plans to sell ownership stake",
+      "description": "Los Angeles Lakers governor Jeanie Buss is contesting her siblings' plans to sell the family's remaining 17.8 per cent ownership stake in the team.",
+      "link": "https://www.skysports.com/nba/news/12040/13574406/los-angeles-lakers-jeanie-buss-contests-siblings-plans-to-sell-ownership-stake-to-josh-kushner-and-bob-iger",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T15:14:00+00:00"
     },
     {
       "title": "Hart on Man City's rebuild, Chelsea's opportunity and Arsenal's title defence",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-18T14:04:22+00:00"
-    },
-    {
-      "title": "Albon signs one-year contract extension with Williams",
-      "description": "Alex Albon has signed a one-year contract extension with Williams to continue driving for the team until the end of the 2027 Formula 1 season.",
-      "link": "https://www.skysports.com/f1/news/12040/13574380/alex-albon-williams-driver-signs-one-year-contract-extension-to-remain-with-team-for-2027-f1-season",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-18T14:00:00+00:00"
-    },
-    {
-      "title": "Why Sheff Utd are in the High Court and what it could mean",
-      "description": "Sheffield United's owners face a winding-up order in the High Court on Wednesday which could have a wide range of outcomes - including a 12-point deduction for the Championship club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2kz1gl724o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T13:54:15+00:00"
-    },
-    {
-      "title": "Bezos consortium bought almost 40% of Liverpool",
-      "description": "A consortium including Amazon founder Jeff Bezos bought close to 40% of Liverpool from Fenway Sports Group (FSG).",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cly9l92kj6po",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T13:51:25+00:00"
-    },
-    {
-      "title": "Who has qualified for Champions League's league phase?",
-      "description": "BBC Sport's Ask Me Anything team explains which teams have qualified for the 2026-27 Champions League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crl177pxrl4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T13:44:20+00:00"
-    },
-    {
-      "title": "Fury teases HUGE fight announcement: 'The one you've all been waiting for' \ud83d\udc40",
-      "description": "Tyson Fury has announced there is some 'big news' coming soon. Video credit: @tysonfury",
-      "link": "https://www.skysports.com/watch/video/13574370/tyson-fury-teases-huge-fight-announcement-the-one-youve-all-been-waiting-for",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T13:43:00+00:00"
-    },
-    {
-      "title": "O'Hara's PL predictions - including a Spurs-Arsenal U-turn \ud83d\ude05",
-      "description": "Jamie O'Hara makes his predictions for the new Premier League season, including who he thinks will come out on top as leading goalscorer!",
-      "link": "https://www.skysports.com/watch/video/13574367/sky-sports-fc-jamie-oharas-predictions-for-the-new-pl-season",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T13:41:00+00:00"
-    },
-    {
-      "title": "'Prognosis remains guarded' - Serie A's Trepy on ventilator",
-      "description": "Serie A striker Yael Trepy will stay in hospital under \"pharmacological sedation\", but appears to be improving.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp8xdx7ypr6o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T13:17:01+00:00"
     }
   ]
 }
