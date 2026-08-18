@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-18T04:28:43.731154+00:00",
+  "generatedAt": "2026-08-18T05:22:07.573443+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Chepstow, Lingfield and Wolverhampton host today's live racing action",
+      "description": "Don't miss a minute from Chepstow, Lingfield and Wolverhampton - live on Sky Sports Racing.",
+      "link": "https://www.skysports.com/racing/news/12040/13573965/today-on-sky-sports-racing-chepstow-lingfield-and-wolverhampton-host-action",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T06:00:00+00:00"
+    },
+    {
+      "title": "How can Hamilton and Ferrari turbocharge a title challenge?",
+      "description": "Lewis Hamilton prepares to resume the 2026 Formula 1 season as Kimi Antonelli's nearest points challenger in the Drivers' Championship, but what do the seven-time champion and the Ferrari team need to do if that mid-season position is going to translate into a full-on title push?",
+      "link": "https://www.skysports.com/f1/news/12040/13573081/lewis-hamilton-what-driver-and-ferrari-team-need-to-do-to-launch-full-f1-title-challenge-to-mercedes-from-dutch-gp",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T06:00:00+00:00"
+    },
+    {
+      "title": "Rugby's greatest rivalry? The history of All Blacks vs Springboks",
+      "description": "In 2026 there is no Rugby Championship, but there is a throwback-type tour which sees New Zealand's All Blacks visit South Africa for eight matches, including four Tests against the Springboks, live on<em> Sky Sports.&#160;</em>",
+      "link": "https://www.skysports.com/rugby-union/news/12040/13571891/new-zealand-vs-south-africa-live-on-sky-sports-the-history-of-rugbys-greatest-rivalry-ahead-of-four-test-series",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T06:00:00+00:00"
+    },
     {
       "title": "Guardiola-Walker fallout revealed in new documentary",
       "description": "A new documentary series about Pep Guardiola's final two seasons at Manchester City reveals the bust-up he had with former captain Kyle Walker.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-17T22:00:00+00:00"
-    },
-    {
-      "title": "Fernandez will cost Man City more than \u00a3120m - Tuesday's gossip",
-      "description": "Manchester City will need to pay more than \u00a3120m for Enzo Fernandez, Chelsea winger Pedro Neto has no shortage of suitors, Bruno Fernandes is offered a huge salary increase, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cz64z1dxn7xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T21:42:19+00:00"
-    },
-    {
-      "title": "Chelsea co-owners Boehly & Walter explore selling stakes",
-      "description": "Chelsea chairman Todd Boehly and director Mark Walter explore selling their stakes in the club to majority owner Clearlake Capital.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj6341x2g18o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T21:18:49+00:00"
-    },
-    {
-      "title": "Top Fifa official sacked after Infantino plan criticism",
-      "description": "Senior Fifa figure Kevin Lamour is sacked by football's world governing body three weeks after criticising its president Gianni Infantino.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn7n4d6vy03o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-17T20:46:08+00:00"
     }
   ]
 }
