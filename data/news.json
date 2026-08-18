@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-18T21:17:02.363147+00:00",
+  "generatedAt": "2026-08-18T22:15:49.060184+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Chelsea latest: Napoli make enquiry for Aston Villa target Jackson",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T22:50:00+00:00"
+    },
+    {
+      "title": "Papers: Barca midfielder rejects chance to join Man Utd",
+      "description": "The top stories and transfer rumours from Wednesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13574535/man-utd-transfer-news-barcelona-midfielder-gavi-rejects-chance-to-join-old-trafford-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-18T22:40:00+00:00"
+    },
     {
       "title": "Palace latest: Gozo joins from MLS side Real Salt Lake",
       "description": "",
@@ -13,6 +31,33 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-18T22:09:00+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "Arsenal seek to defend their Premier League title, but how difficult will that be?",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p56288",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T21:55:00+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "After a long couple of seasons for Spurs, can Roberto De Zerbi's turn the club around?",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p56141",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-18T21:50:00+00:00"
+    },
+    {
+      "title": "Palace sign United States prospect Gozo",
+      "description": "Crystal Palace sign forward Zavier Gozo from Real Salt Lake for a reported $15m (\u00a311.08m).",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cpq80q88dyqo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-18T21:26:12+00:00"
     },
     {
       "title": "Brighton latest: Striker Promise David joins on loan from Union SG",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-18T19:57:08+00:00"
-    },
-    {
-      "title": "Arteta: We want to be the best club in the world",
-      "description": "Mikel Arteta is excited to keep building Arsenal after their Premier League win, vowing to make them \"the best club in the world\".",
-      "link": "https://www.skysports.com/football/news/11095/13574486/mikel-arteta-arsenal-manager-says-we-want-to-make-gunners-the-best-club-in-the-world",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T19:52:00+00:00"
-    },
-    {
-      "title": "Irish striker Parrott on brink of Real Betis move",
-      "description": "Republic of Ireland striker Troy Parrott is on the brink of a move from AZ Alkmaar to Spanish club Real Betis as talks are at an advanced stage.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c935vrgrn0vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T19:25:40+00:00"
-    },
-    {
-      "title": "Hull City interested in Japan winger Nakamura",
-      "description": "Hull City express an interest in signing Stade de Reims' Japanese winger Keito Nakamura",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5ywee6y2qlo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-18T19:09:31+00:00"
-    },
-    {
-      "title": "Aston Villa latest: Deal agreed to sign West Ham defender Wan-Bissaka",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-18T18:54:00+00:00"
-    },
-    {
-      "title": "Newcastle latest: Exploratory talks held for Man City midfielder Gonzalez",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T18:27:00+00:00"
     }
   ]
 }
