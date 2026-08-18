@@ -19,10 +19,25 @@ checked ESPN's leaders endpoint for La Liga/Serie A/Bundesliga and it
 stats stay Premier-League-only (via fetch-fpl-data.py) until there's
 a different source for it.
 
-Current-season standings will mostly show zeros right now - it's
-pre-season across all five leagues (same timing issue as everywhere
-else in this project), not a bug. They'll fill in once each league's
-season actually kicks off.
+Current-season standings show real zeros until each league's own
+2026/27 season actually kicks off - the five don't all start the same
+week (La Liga's real season began 15 Aug, Bundesliga's not until 28
+Aug, verified directly), so at any given moment some tables may show
+real played games while others are still genuinely at 0. Not a bug
+either way - each table reflects that specific league's real state.
+
+Real incident (fixed, worth keeping the record): this script had no
+error handling at all until a real bug was found live - a single
+failed HTTP call anywhere in the loop crashed the whole run, and
+because the GitHub Actions workflow wraps every fetch step in
+continue-on-error, that crash was silently swallowed for 10 real days
+straight while every other data source kept refreshing normally. Real
+evidence once found: the "Fetch league standings" step was completing
+in 0-1 seconds on every automated run, versus 5-9 seconds for the
+comparable FPL fetch - far too fast for the real network calls it's
+supposed to make. Fixed with a real retry per request and a per-league
+try/except that falls back to that league's last real data instead of
+losing everything.
 
 Also writes a real id+name roster per league (parse_teams), pulled
 from the same standings response - every registered club appears in
@@ -38,6 +53,7 @@ we already fetch (and that's already proven CORS-safe) avoids the
 broken endpoint entirely instead of working around it.
 """
 import json
+import time
 import urllib.request
 from datetime import datetime, timezone
 
@@ -51,12 +67,32 @@ LEAGUES = [
 LAST_SEASON_YEAR = 2025  # the just-completed 2025/26 season
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 STANDINGS_URL = "https://site.api.espn.com/apis/v2/sports/soccer/{code}/standings"
+FETCH_RETRIES = 3
+FETCH_RETRY_DELAY_SECONDS = 3
 
 
 def fetch_json(url):
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return json.load(resp)
+    """Real fetch with a real retry - found directly, not assumed: this
+    script had zero error handling at all (unlike fetch-fpl-data.py's
+    established try/except-per-call pattern), so a single transient
+    failure on any one of 10 real HTTP calls crashed the whole script -
+    silently, since the GitHub Actions workflow's continue-on-error
+    swallowed it. Real evidence this was happening: this step was
+    completing in 0-1 seconds on every single automated run for 10
+    real days, versus 5-9 seconds for the comparable FPL fetch step -
+    far too fast for 10 genuine network round-trips, consistent with
+    crashing on the very first call every time."""
+    last_error = None
+    for attempt in range(1, FETCH_RETRIES + 1):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return json.load(resp)
+        except Exception as err:
+            last_error = err
+            if attempt < FETCH_RETRIES:
+                time.sleep(FETCH_RETRY_DELAY_SECONDS)
+    raise last_error
 
 
 def parse_table(standings_json):
@@ -85,20 +121,39 @@ def parse_teams(standings_json):
     return [{"id": str(e["team"]["id"]), "name": e["team"]["displayName"]} for e in entries]
 
 
+def load_previous_leagues():
+    """Real previous run's output, used as a per-league fallback so one
+    league's real fetch failure doesn't blank out data that was fine a
+    moment ago - same "partial success beats total failure" principle
+    the GitHub Actions workflow already applies across scripts, applied
+    one level deeper, inside this one."""
+    try:
+        with open("data/leagues.json", "r", encoding="utf-8") as f:
+            return {l["code"]: l for l in json.load(f).get("leagues", [])}
+    except (FileNotFoundError, json.JSONDecodeError, KeyError):
+        return {}
+
+
 def main():
+    previous = load_previous_leagues()
     leagues_out = []
     for league in LEAGUES:
-        current = fetch_json(STANDINGS_URL.format(code=league["code"]))
-        last_season = fetch_json(STANDINGS_URL.format(code=league["code"]) + f"?season={LAST_SEASON_YEAR}")
-        leagues_out.append({
-            "code": league["code"],
-            "name": league["name"],
-            "current": parse_table(current),
-            "lastSeasonYear": f"{LAST_SEASON_YEAR}/{str(LAST_SEASON_YEAR + 1)[-2:]}",
-            "lastSeason": parse_table(last_season),
-            "teams": parse_teams(current),
-        })
-        print(f"  {league['name']}: current {len(leagues_out[-1]['current'])} teams, last season {len(leagues_out[-1]['lastSeason'])} teams")
+        try:
+            current = fetch_json(STANDINGS_URL.format(code=league["code"]))
+            last_season = fetch_json(STANDINGS_URL.format(code=league["code"]) + f"?season={LAST_SEASON_YEAR}")
+            leagues_out.append({
+                "code": league["code"],
+                "name": league["name"],
+                "current": parse_table(current),
+                "lastSeasonYear": f"{LAST_SEASON_YEAR}/{str(LAST_SEASON_YEAR + 1)[-2:]}",
+                "lastSeason": parse_table(last_season),
+                "teams": parse_teams(current),
+            })
+            print(f"  {league['name']}: current {len(leagues_out[-1]['current'])} teams, last season {len(leagues_out[-1]['lastSeason'])} teams")
+        except Exception as err:
+            print(f"  {league['name']}: real fetch failed ({err}) - keeping previous data for this league only" if league["code"] in previous else f"  {league['name']}: real fetch failed ({err}) - no previous data to fall back to, skipping")
+            if league["code"] in previous:
+                leagues_out.append(previous[league["code"]])
 
     result = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),

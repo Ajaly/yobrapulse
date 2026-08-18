@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T22:22:01.046262+00:00",
+  "generatedAt": "2026-08-18T18:51:04.328347+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -499,16 +499,76 @@
       "current": [
         {
           "rank": 1,
-          "team": "Alav\u00e9s",
-          "shortTeam": "Alav\u00e9s",
-          "played": 0,
-          "wins": 0,
+          "team": "Espanyol",
+          "shortTeam": "Espanyol",
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "points": 0
+          "points": 3
         },
         {
           "rank": 2,
+          "team": "Alav\u00e9s",
+          "shortTeam": "Alav\u00e9s",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "points": 3
+        },
+        {
+          "rank": 3,
+          "team": "Sevilla",
+          "shortTeam": "Sevilla",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "points": 3
+        },
+        {
+          "rank": 4,
+          "team": "Racing Santander",
+          "shortTeam": "Racing",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "points": 1
+        },
+        {
+          "rank": 5,
+          "team": "Villarreal",
+          "shortTeam": "Villarreal",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "points": 1
+        },
+        {
+          "rank": 6,
+          "team": "Deportivo",
+          "shortTeam": "Deportivo",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "points": 1
+        },
+        {
+          "rank": 7,
+          "team": "Elche",
+          "shortTeam": "Elche",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "points": 1
+        },
+        {
+          "rank": 8,
           "team": "Athletic Club",
           "shortTeam": "Athletic",
           "played": 0,
@@ -518,7 +578,7 @@
           "points": 0
         },
         {
-          "rank": 3,
+          "rank": 9,
           "team": "Atl\u00e9tico Madrid",
           "shortTeam": "Atl\u00e9tico",
           "played": 0,
@@ -528,7 +588,7 @@
           "points": 0
         },
         {
-          "rank": 4,
+          "rank": 10,
           "team": "Barcelona",
           "shortTeam": "Barcelona",
           "played": 0,
@@ -538,7 +598,7 @@
           "points": 0
         },
         {
-          "rank": 5,
+          "rank": 11,
           "team": "Celta Vigo",
           "shortTeam": "Celta Vigo",
           "played": 0,
@@ -548,57 +608,7 @@
           "points": 0
         },
         {
-          "rank": 6,
-          "team": "Deportivo La Coru\u00f1a",
-          "shortTeam": "Deportivo",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0
-        },
-        {
-          "rank": 7,
-          "team": "Elche",
-          "shortTeam": "Elche",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0
-        },
-        {
-          "rank": 8,
-          "team": "Espanyol",
-          "shortTeam": "Espanyol",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0
-        },
-        {
-          "rank": 9,
-          "team": "Getafe",
-          "shortTeam": "Getafe",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0
-        },
-        {
-          "rank": 10,
-          "team": "Levante",
-          "shortTeam": "Levante",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0
-        },
-        {
-          "rank": 11,
+          "rank": 12,
           "team": "M\u00e1laga",
           "shortTeam": "M\u00e1laga",
           "played": 0,
@@ -608,7 +618,7 @@
           "points": 0
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": "Osasuna",
           "shortTeam": "Osasuna",
           "played": 0,
@@ -618,27 +628,7 @@
           "points": 0
         },
         {
-          "rank": 13,
-          "team": "Racing Santander",
-          "shortTeam": "Racing",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0
-        },
-        {
           "rank": 14,
-          "team": "Rayo Vallecano",
-          "shortTeam": "Rayo",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0
-        },
-        {
-          "rank": 15,
           "team": "Real Betis",
           "shortTeam": "Betis",
           "played": 0,
@@ -648,7 +638,7 @@
           "points": 0
         },
         {
-          "rank": 16,
+          "rank": 15,
           "team": "Real Madrid",
           "shortTeam": "Real Madrid",
           "played": 0,
@@ -658,7 +648,7 @@
           "points": 0
         },
         {
-          "rank": 17,
+          "rank": 16,
           "team": "Real Sociedad",
           "shortTeam": "Real Sociedad",
           "played": 0,
@@ -668,17 +658,7 @@
           "points": 0
         },
         {
-          "rank": 18,
-          "team": "Sevilla",
-          "shortTeam": "Sevilla",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "points": 0
-        },
-        {
-          "rank": 19,
+          "rank": 17,
           "team": "Valencia",
           "shortTeam": "Valencia",
           "played": 0,
@@ -688,13 +668,33 @@
           "points": 0
         },
         {
-          "rank": 20,
-          "team": "Villarreal",
-          "shortTeam": "Villarreal",
-          "played": 0,
+          "rank": 18,
+          "team": "Rayo Vallecano",
+          "shortTeam": "Rayo",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "team": "Levante",
+          "shortTeam": "Levante",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "team": "Getafe",
+          "shortTeam": "Getafe",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
           "points": 0
         }
       ],
@@ -903,8 +903,32 @@
       ],
       "teams": [
         {
+          "id": "88",
+          "name": "Espanyol"
+        },
+        {
           "id": "96",
           "name": "Alav\u00e9s"
+        },
+        {
+          "id": "243",
+          "name": "Sevilla"
+        },
+        {
+          "id": "87",
+          "name": "Racing Santander"
+        },
+        {
+          "id": "102",
+          "name": "Villarreal"
+        },
+        {
+          "id": "90",
+          "name": "Deportivo"
+        },
+        {
+          "id": "3751",
+          "name": "Elche"
         },
         {
           "id": "93",
@@ -923,40 +947,12 @@
           "name": "Celta Vigo"
         },
         {
-          "id": "90",
-          "name": "Deportivo La Coru\u00f1a"
-        },
-        {
-          "id": "3751",
-          "name": "Elche"
-        },
-        {
-          "id": "88",
-          "name": "Espanyol"
-        },
-        {
-          "id": "2922",
-          "name": "Getafe"
-        },
-        {
-          "id": "1538",
-          "name": "Levante"
-        },
-        {
           "id": "99",
           "name": "M\u00e1laga"
         },
         {
           "id": "97",
           "name": "Osasuna"
-        },
-        {
-          "id": "87",
-          "name": "Racing Santander"
-        },
-        {
-          "id": "101",
-          "name": "Rayo Vallecano"
         },
         {
           "id": "244",
@@ -971,16 +967,20 @@
           "name": "Real Sociedad"
         },
         {
-          "id": "243",
-          "name": "Sevilla"
-        },
-        {
           "id": "94",
           "name": "Valencia"
         },
         {
-          "id": "102",
-          "name": "Villarreal"
+          "id": "101",
+          "name": "Rayo Vallecano"
+        },
+        {
+          "id": "1538",
+          "name": "Levante"
+        },
+        {
+          "id": "2922",
+          "name": "Getafe"
         }
       ]
     },
