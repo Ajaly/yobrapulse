@@ -174,40 +174,6 @@ button {
 .sidebar-bottom {
   margin-top:auto
 }
-.upgrade-card {
-  background:#17231f;
-  border:1px solid #244336;
-  padding:14px;
-  border-radius:9px;
-  margin:0 0 17px
-}
-.upgrade-card>svg {
-  color:var(--green);
-  width:17px
-}
-.upgrade-card strong {
-  display:block;
-  margin-top:7px
-}
-.upgrade-card p {
-  color:#879b91;
-  line-height:1.45;
-  font-size:12px;
-  margin:6px 0 13px
-}
-.upgrade-card button {
-  background:transparent;
-  color:var(--green);
-  font-weight:700;
-  font-size:12px;
-  padding:0;
-  display:flex;
-  align-items:center;
-  gap:5px
-}
-.upgrade-card button svg {
-  width:14px
-}
 .ad-slot {
   margin:0 0 17px
 }
@@ -315,32 +281,6 @@ button {
   display:flex;
   align-items:center;
   gap:9px
-}
-.icon-button {
-  display:grid;
-  place-items:center;
-  background:transparent;
-  color:#9ca8ae;
-  padding:8px;
-  border-radius:7px;
-  position:relative
-}
-.icon-button:hover {
-  background:var(--panel)
-}
-.icon-button svg {
-  width:18px
-}
-.has-alert:after {
-  content:'';
-  position:absolute;
-  right:7px;
-  top:6px;
-  width:5px;
-  height:5px;
-  border-radius:50%;
-  background:#f26f65;
-  border:2px solid var(--bg)
 }
 .live-pill {
   background:var(--green-soft);
@@ -1389,13 +1329,6 @@ h2 {
   background:#12382a;
   border-color:#22593f;
   color:#7ddbac
-}
-.plan-panel {
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:20px;
-  flex-wrap:wrap
 }
 .news-panel .panel-header {
   flex-wrap:wrap;

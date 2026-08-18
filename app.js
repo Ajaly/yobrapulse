@@ -1457,7 +1457,9 @@ function loadLiveScoresForDate(date) {
       if (isSameUTCDay(date, new Date())) {
         const dashboardList = document.querySelector('#dashboard-live-list');
         if (dashboardList) {
-          dashboardList.innerHTML = all.slice(0, 3).map((m) => matchRowHTML(m)).join('');
+          dashboardList.innerHTML = all.length
+            ? all.slice(0, 3).map((m) => matchRowHTML(m)).join('')
+            : '<p class="lede" style="margin:0;font-size:12px">No matches today across the tracked leagues and competitions.</p>';
           bindMatchExpandTriggers(dashboardList);
         }
       }

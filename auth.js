@@ -81,6 +81,7 @@ async function loadTeamNames() {
     teamNames = (data.teams || []).map((t) => t.name).sort();
     populateTeamSelect('#account-primary-team', teamNames);
     populateTeamSelect('#account-secondary-team', teamNames);
+    syncTeamSelectExclusion();
   } catch (err) {
     // Real team list just isn't available yet (e.g. first-ever run
     // before data/fpl.json exists) - selects stay empty, not fake.
@@ -99,6 +100,23 @@ function populateTeamSelect(selector, names) {
     opt.textContent = name;
     select.appendChild(opt);
   });
+}
+
+// The team you support and the team you support second can't honestly
+// be the same club - hides whichever club is picked as primary from
+// the secondary list, and clears secondary if it was already set to
+// that club (e.g. right after switching primary to it).
+function syncTeamSelectExclusion() {
+  const primarySelect = document.querySelector('#account-primary-team');
+  const secondarySelect = document.querySelector('#account-secondary-team');
+  if (!primarySelect || !secondarySelect) return;
+  const primaryValue = primarySelect.value;
+  Array.from(secondarySelect.options).forEach((opt) => {
+    opt.hidden = !!opt.value && opt.value === primaryValue;
+  });
+  if (secondarySelect.value && secondarySelect.value === primaryValue) {
+    secondarySelect.value = '';
+  }
 }
 
 function profileIsComplete(profile) {
@@ -147,6 +165,7 @@ function renderSignedIn(user, profile) {
   document.querySelector('#account-fpl-team-id').value = (profile && profile.fplTeamId) || '';
   document.querySelector('#account-primary-team').value = (profile && profile.primaryTeam) || '';
   document.querySelector('#account-secondary-team').value = (profile && profile.secondaryTeam) || '';
+  syncTeamSelectExclusion();
 }
 
 async function loadProfile(uid) {
@@ -228,6 +247,7 @@ document.querySelector('#account-save-btn')?.addEventListener('click', handleSav
 document.querySelector('#account-fpl-manager')?.addEventListener('change', (event) => {
   document.querySelector('#account-fpl-fields').hidden = !event.target.checked;
 });
+document.querySelector('#account-primary-team')?.addEventListener('change', syncTeamSelectExclusion);
 document.querySelector('#sidebar-user-profile')?.addEventListener('click', () => {
   if (currentUser) {
     document.querySelector('[data-view="settings"]')?.click();

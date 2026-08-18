@@ -26,7 +26,14 @@ from email.utils import parsedate_to_datetime
 
 FEEDS = [
     {"url": "http://feeds.bbci.co.uk/sport/football/rss.xml", "source": "BBC Sport"},
-    {"url": "https://www.skysports.com/rss/12040", "source": "Sky Sports"},
+    # Real bug, found in a pre-launch audit: /rss/12040 is Sky Sports'
+    # general "News" feed (no <category>, mixes in rugby league,
+    # snooker, anything) - verified directly, it was surfacing a real
+    # rugby live-blog and even an unrelated criminal-trial story in a
+    # football app. /rss/11095 is the real, correctly-scoped football
+    # feed (verified: <description>Football News</description>,
+    # <category>Football</category>, real transfer-news items only).
+    {"url": "https://www.skysports.com/rss/11095", "source": "Sky Sports"},
 ]
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 MAX_ITEMS = 12
