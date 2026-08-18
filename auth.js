@@ -75,7 +75,7 @@ function initials(name) {
 
 async function loadTeamNames() {
   try {
-    const res = await fetch('data/fpl.json');
+    const res = await fetch('data/fpl.json', { cache: 'no-store' });
     if (!res.ok) return;
     const data = await res.json();
     teamNames = (data.teams || []).map((t) => t.name).sort();

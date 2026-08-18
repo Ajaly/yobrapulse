@@ -458,7 +458,7 @@ function renderFriendlyPredictions(predictions, record) {
   refreshIcons();
 }
 
-fetch('data/fpl.json')
+fetch('data/fpl.json', { cache: 'no-store' })
   .then((res) => (res.ok ? res.json() : Promise.reject(new Error('fpl.json ' + res.status))))
   .then((data) => {
     const deadlineText = document.querySelector('#fpl-deadline-text');
@@ -969,7 +969,7 @@ function relativeTime(iso) {
   return Math.round(hours / 24) + 'd ago';
 }
 
-fetch('data/news.json')
+fetch('data/news.json', { cache: 'no-store' })
   .then((res) => (res.ok ? res.json() : Promise.reject(new Error('news.json ' + res.status))))
   .then((data) => {
     const feed = document.querySelector('#news-feed');
@@ -1058,7 +1058,7 @@ const TRACKED_COMPETITIONS = [
 // plain Promise only ever runs its underlying fetch once no matter how
 // many .then() chains hang off it, so this avoids requesting the same
 // file twice on every page load.
-const leaguesJsonPromise = fetch('data/leagues.json')
+const leaguesJsonPromise = fetch('data/leagues.json', { cache: 'no-store' })
   .then((res) => (res.ok ? res.json() : Promise.reject(new Error('leagues.json ' + res.status))));
 
 // Real club rosters (id + name) for all five leagues, from that same
