@@ -122,6 +122,8 @@ FDR_CLASS = {1: "easy", 2: "easy", 3: "mid", 4: "hard", 5: "hard"}
 ESPN_LEAGUE_SLUG = "eng.1"
 ESPN_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates={date}"
 ESPN_SUMMARY_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/summary?event={event_id}"
+ESPN_TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/teams?limit=30"
+ESPN_TEAM_SCHEDULE_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/teams/{team_id}/schedule?season={season}"
 TEAM_NAME_ALIASES = {
     "man city": "manchestercity",
     "man utd": "manchesterunited",
@@ -209,6 +211,21 @@ OTHER_LEAGUES = [
 ]
 OTHER_LEAGUE_STANDINGS_SEASON = 2025  # 2025/26, the most recently completed real season
 OTHER_LEAGUE_FIXTURE_WINDOW_DAYS = 14  # wider than the PL-only FIXTURE_LOAD_WINDOW_DAYS - these 4 leagues don't all start their season the same week (checked: Bundesliga's real 2026/27 opener is later than the other three)
+
+# Real home/away-specific form, distinct from FPL's own static,
+# pre-assigned home/away strength rating (which never moves during a
+# season) and from the venue-agnostic recent-form signal already used
+# elsewhere (ESPN's lastFiveGames blends home and away games
+# together). Computed from real match-by-match results (verified
+# directly: ESPN's per-team schedule endpoint has real homeAway,
+# score, winner and completed fields for every match). Prefers the
+# real, in-progress current season once enough of it has actually been
+# played at that specific venue; falls back to last season's real
+# split otherwise rather than guessing from a tiny sample - same
+# small-sample caution used throughout this file.
+LAST_COMPLETED_SEASON_YEAR = OTHER_LEAGUE_STANDINGS_SEASON
+CURRENT_SEASON_YEAR = 2026
+MIN_HOME_AWAY_SAMPLE = 3
 
 
 def fetch_json(url):
@@ -977,11 +994,106 @@ def compute_fixture_load(all_fixtures, window_days=FIXTURE_LOAD_WINDOW_DAYS):
     return load
 
 
-def build_team_context_map(fixture_lookup, fixtures_list, teams):
+def build_espn_team_id_map(teams):
+    """Real FPL team id -> real ESPN team id, for all 20 clubs - same
+    verified name-matching already proven correct for all 20 real
+    2026/27 clubs (see names_match), just built directly here instead
+    of only inside the separate backfill script."""
+    try:
+        espn_teams = fetch_json(ESPN_TEAMS_URL.format(slug=ESPN_LEAGUE_SLUG))
+    except Exception:
+        return {}
+    entries = espn_teams.get("sports", [{}])[0].get("leagues", [{}])[0].get("teams", [])
+    mapping = {}
+    for fpl_id, name in teams.items():
+        key = normalize_team_name(name)
+        for entry in entries:
+            if names_match(key, entry["team"]["displayName"]):
+                mapping[fpl_id] = entry["team"]["id"]
+                break
+    return mapping
+
+
+def fetch_team_home_away_record(espn_team_id, season):
+    """Real home vs away win/draw/loss split for one real team's one
+    real season, computed from actual match-by-match results - not
+    FPL's own static, pre-assigned home/away strength rating, which
+    never changes during a season. Verified fields directly: each
+    competitor in a real completed match carries homeAway, winner and
+    a real score."""
+    try:
+        data = fetch_json(ESPN_TEAM_SCHEDULE_URL.format(slug=ESPN_LEAGUE_SLUG, team_id=espn_team_id, season=season))
+    except Exception:
+        return None
+    splits = {"home": {"wins": 0, "draws": 0, "losses": 0, "played": 0}, "away": {"wins": 0, "draws": 0, "losses": 0, "played": 0}}
+    for ev in data.get("events", []):
+        comp = ev["competitions"][0]
+        if not comp.get("status", {}).get("type", {}).get("completed"):
+            continue
+        mine = next((c for c in comp["competitors"] if c["team"]["id"] == str(espn_team_id)), None)
+        opponent = next((c for c in comp["competitors"] if c["team"]["id"] != str(espn_team_id)), None)
+        if not mine or not opponent:
+            continue
+        bucket = splits["home"] if mine["homeAway"] == "home" else splits["away"]
+        bucket["played"] += 1
+        if mine.get("winner"):
+            bucket["wins"] += 1
+        elif opponent.get("winner"):
+            bucket["losses"] += 1
+        else:
+            bucket["draws"] += 1
+    return splits
+
+
+def home_away_form_score(bucket):
+    """0-1 real points-per-game rate for one real home/away split -
+    None (not zero) if the real sample is too small to trust, same
+    small-sample caution used throughout this file."""
+    if not bucket or bucket["played"] < MIN_HOME_AWAY_SAMPLE:
+        return None
+    points = bucket["wins"] * 3 + bucket["draws"]
+    return points / (bucket["played"] * 3)
+
+
+def build_home_away_splits(espn_team_ids):
+    """Real home/away form for every tracked club - see the module-
+    level comment above LAST_COMPLETED_SEASON_YEAR for the real
+    current-season-first-else-last-season fallback logic."""
+    out = {}
+    for team_id, espn_id in espn_team_ids.items():
+        current = fetch_team_home_away_record(espn_id, CURRENT_SEASON_YEAR)
+        last = fetch_team_home_away_record(espn_id, LAST_COMPLETED_SEASON_YEAR)
+
+        def pick(venue):
+            current_bucket = (current or {}).get(venue)
+            if current_bucket and current_bucket["played"] >= MIN_HOME_AWAY_SAMPLE:
+                return home_away_form_score(current_bucket), "current season"
+            last_bucket = (last or {}).get(venue)
+            score = home_away_form_score(last_bucket)
+            return score, ("last season" if score is not None else None)
+
+        home_score, home_source = pick("home")
+        away_score, away_source = pick("away")
+        out[team_id] = {
+            "homeForm": round(home_score, 2) if home_score is not None else None,
+            "homeFormSource": home_source,
+            "awayForm": round(away_score, 2) if away_score is not None else None,
+            "awayFormSource": away_source,
+        }
+    return out
+
+
+def build_team_context_map(fixture_lookup, fixtures_list, teams, home_away_splits=None):
     """fixture_lookup (team_id -> {opponent, isHome, fdr, fdrClass}),
     enriched in place with real ESPN team/opponent form - reuses the
     exact real form context build_fixtures_list already computed per
-    fixture rather than re-fetching the same real data."""
+    fixture rather than re-fetching the same real data. Also attaches
+    each side's real venue-specific form (see build_home_away_splits) -
+    a team's own real home split when they're at home, their real away
+    split when they're away, and the same logic for the opponent, so a
+    strong-at-home side doesn't get credited with that strength on the
+    road."""
+    home_away_splits = home_away_splits or {}
     name_to_id = {name: tid for tid, name in teams.items()}
     context = {tid: dict(info) for tid, info in fixture_lookup.items()}
     for fx in fixtures_list:
@@ -991,9 +1103,15 @@ def build_team_context_map(fixture_lookup, fixtures_list, teams):
         if home_id is not None and home_id in context:
             context[home_id]["ownForm"] = factors.get("homeForm")
             context[home_id]["opponentForm"] = factors.get("awayForm")
+            context[home_id]["venueForm"] = home_away_splits.get(home_id, {}).get("homeForm")
+            context[home_id]["venueFormSource"] = home_away_splits.get(home_id, {}).get("homeFormSource")
+            context[home_id]["opponentVenueForm"] = home_away_splits.get(away_id, {}).get("awayForm") if away_id is not None else None
         if away_id is not None and away_id in context:
             context[away_id]["ownForm"] = factors.get("awayForm")
             context[away_id]["opponentForm"] = factors.get("homeForm")
+            context[away_id]["venueForm"] = home_away_splits.get(away_id, {}).get("awayForm")
+            context[away_id]["venueFormSource"] = home_away_splits.get(away_id, {}).get("awayFormSource")
+            context[away_id]["opponentVenueForm"] = home_away_splits.get(home_id, {}).get("homeForm") if home_id is not None else None
     return context
 
 
@@ -1047,19 +1165,25 @@ def compute_player_score(player, team_context, fixture_load, player_history):
     """Real, transparent blend of every signal now available for one
     player's next real fixture - ep_next (FPL's own projection, which
     already folds in a lot), the player's own real recent form, real
-    team/opponent form, real fixture difficulty, real PL fixture load,
-    and real historical performance against this specific upcoming
-    opponent. Any signal that isn't real/available for this player
-    right now (pre-season form is genuinely 0 for everyone; a fixture
-    that hasn't been ESPN-matched; a player/opponent pairing with no
-    real prior meetings) is dropped from the blend rather than treated
-    as zero, same principle as predict_fixture. Returns (score,
-    factors) so the reasoning is inspectable, not a black box."""
+    team/opponent recent form, real team/opponent venue-specific form
+    (home strength when at home, away strength when away - a distinct
+    real signal from recent form, see build_home_away_splits), real
+    fixture difficulty, real PL fixture load, and real historical
+    performance against this specific upcoming opponent. Any signal
+    that isn't real/available for this player right now (pre-season
+    form is genuinely 0 for everyone; a fixture that hasn't been
+    ESPN-matched; too small a real home/away sample; a player/opponent
+    pairing with no real prior meetings) is dropped from the blend
+    rather than treated as zero, same principle as predict_fixture.
+    Returns (score, factors) so the reasoning is inspectable, not a
+    black box."""
     ep_next = float(player["ep_next"] or 0)
     own_form = float(player["form"] or 0)
     context = team_context.get(player["team"]) or {}
     team_form = context.get("ownForm")
     opponent_form = context.get("opponentForm")
+    venue_form = context.get("venueForm")
+    opponent_venue_form = context.get("opponentVenueForm")
     fdr = context.get("fdr")
     load = fixture_load.get(player["team"])
     track_record = None
@@ -1073,6 +1197,10 @@ def compute_player_score(player, team_context, fixture_load, player_history):
         score += team_form * 1.5
     if opponent_form is not None:
         score -= opponent_form * 1.2
+    if venue_form is not None:
+        score += venue_form * 1.0
+    if opponent_venue_form is not None:
+        score -= opponent_venue_form * 0.8
     if load is not None and load >= 3:
         score -= 0.5 * (load - 2)  # real congestion penalty: 3+ PL games in the window is a real rotation risk
     if track_record is not None:
@@ -1083,8 +1211,12 @@ def compute_player_score(player, team_context, fixture_load, player_history):
         "ownForm": own_form or None,
         "teamForm": round(team_form, 2) if team_form is not None else None,
         "opponentForm": round(opponent_form, 2) if opponent_form is not None else None,
+        "venueForm": round(venue_form, 2) if venue_form is not None else None,
+        "venueFormSource": context.get("venueFormSource"),
+        "opponentVenueForm": round(opponent_venue_form, 2) if opponent_venue_form is not None else None,
         "fixtureLoad": load,
         "opponent": context.get("opponent"),
+        "isHome": context.get("isHome"),
         "trackRecordVsOpponent": track_record,
     }
     return round(score, 2), factors
@@ -1752,9 +1884,12 @@ def main():
 
     # Real multi-factor context for captain/transfer scoring: next
     # fixture + real team/opponent form (reused from fixtures_list),
-    # real PL fixture congestion, and real historical performance vs
-    # the upcoming opponent where it exists (see compute_player_score).
-    team_context = build_team_context_map(fixture_lookup, fixtures_list, teams)
+    # real team/opponent venue-specific (home/away) form, real PL
+    # fixture congestion, and real historical performance vs the
+    # upcoming opponent where it exists (see compute_player_score).
+    espn_team_ids = build_espn_team_id_map(teams)
+    home_away_splits = build_home_away_splits(espn_team_ids)
+    team_context = build_team_context_map(fixture_lookup, fixtures_list, teams, home_away_splits)
     fixture_load = compute_fixture_load(all_fixtures)
     player_history = load_player_history()
     teams_list = build_teams_list(data, squad_ratings, team_context, fixture_load, all_transfer_events, manager_changes)

@@ -277,6 +277,15 @@ function playerFactorsTitle(factors) {
   if (factors.ownForm !== null && factors.ownForm !== undefined) parts.push(`own form ${factors.ownForm.toFixed(1)}`);
   if (factors.teamForm !== null && factors.teamForm !== undefined) parts.push(`team form ${Math.round(factors.teamForm * 100)}%`);
   if (factors.opponentForm !== null && factors.opponentForm !== undefined) parts.push(`${factors.opponent || 'opponent'} form ${Math.round(factors.opponentForm * 100)}%`);
+  if (factors.venueForm !== null && factors.venueForm !== undefined) {
+    const venueLabel = factors.isHome ? 'home' : 'away';
+    const sourceLabel = factors.venueFormSource ? ` (${factors.venueFormSource})` : '';
+    parts.push(`real ${venueLabel} record ${Math.round(factors.venueForm * 100)}%${sourceLabel}`);
+  }
+  if (factors.opponentVenueForm !== null && factors.opponentVenueForm !== undefined) {
+    const oppVenueLabel = factors.isHome ? 'away' : 'home';
+    parts.push(`${factors.opponent || 'opponent'}'s real ${oppVenueLabel} record ${Math.round(factors.opponentVenueForm * 100)}%`);
+  }
   if (factors.fixtureLoad !== null && factors.fixtureLoad !== undefined) parts.push(`${factors.fixtureLoad} real PL fixture${factors.fixtureLoad === 1 ? '' : 's'} in next 10 days`);
   if (factors.trackRecordVsOpponent) {
     const tr = factors.trackRecordVsOpponent;
