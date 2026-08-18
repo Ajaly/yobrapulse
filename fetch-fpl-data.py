@@ -226,6 +226,12 @@ OTHER_LEAGUE_FIXTURE_WINDOW_DAYS = 14  # wider than the PL-only FIXTURE_LOAD_WIN
 LAST_COMPLETED_SEASON_YEAR = OTHER_LEAGUE_STANDINGS_SEASON
 CURRENT_SEASON_YEAR = 2026
 MIN_HOME_AWAY_SAMPLE = 3
+# How far a real opponent's real venue-specific record can move that
+# fixture's real FDR in compute_fixture_swing's adjustedSwing - a real
+# elite venue record (~0.9) vs a real poor one (~0.1) swings roughly
+# +/-0.8 of an FDR point either way, meaningful without letting one
+# signal override FPL's own official rating.
+FDR_ADJUSTMENT_STRENGTH = 2.0
 
 
 def fetch_json(url):
@@ -926,14 +932,25 @@ def build_fixture_lookup(fixtures, teams):
     return lookup
 
 
-def compute_fixture_swing(all_fixtures, next_event_id, teams):
-    """team_id -> {nearFdr, laterFdr, swing, direction, fixtures: [...]} over
-    a SWING_WINDOW-gameweek horizon starting at the next gameweek.
+def compute_fixture_swing(all_fixtures, next_event_id, teams, home_away_splits=None):
+    """team_id -> {nearFdr, laterFdr, swing, adjustedSwing, fixtures: [...]}
+    over a SWING_WINDOW-gameweek horizon starting at the next gameweek.
 
     'swing' is nearFdr - laterFdr: positive means the near-term run is
     HARDER than what follows (fixtures are about to improve - classic
     transfer-in / wildcard-in signal); negative means the opposite
     (fixtures about to get tougher - transfer-out / bench signal).
+
+    'adjustedSwing' is the same idea, but each fixture's real FPL FDR
+    is adjusted by the real opponent's real venue-specific record
+    (their real away record if we're at home, real home record if
+    we're away - see build_home_away_splits) before the near/later
+    split. FPL's own FDR is a real but coarse, pre-assigned 1-5 rating;
+    a specific opponent's real record at that specific venue can be
+    genuinely tougher or easier than their rating suggests. Only
+    adjusts when real data exists for that opponent's venue record -
+    a fixture with no such data keeps its real FDR unchanged, never a
+    guessed adjustment.
 
     Checked before building this: the current full-season fixture list
     has no blank or double gameweeks yet (every gameweek has exactly 20
@@ -942,6 +959,7 @@ def compute_fixture_swing(all_fixtures, next_event_id, teams):
     early. Fixture-swing (get easier/harder) is a real, available
     signal in the meantime and is the standard basis real FPL advice
     uses anyway."""
+    home_away_splits = home_away_splits or {}
     window_end = next_event_id + SWING_WINDOW - 1
     window_fixtures = [f for f in all_fixtures if f["event"] and next_event_id <= f["event"] <= window_end]
 
@@ -949,12 +967,18 @@ def compute_fixture_swing(all_fixtures, next_event_id, teams):
     for f in sorted(window_fixtures, key=lambda x: x["event"]):
         for side, opp_side, is_home in (("team_h", "team_a", True), ("team_a", "team_h", False)):
             team_id = f[side]
+            opponent_id = f[opp_side]
             fdr = f[f"{side}_difficulty"]
+            opponent_venue_form = home_away_splits.get(opponent_id, {}).get("awayForm" if is_home else "homeForm")
+            adjusted_fdr = fdr
+            if opponent_venue_form is not None:
+                adjusted_fdr = max(1.0, min(5.0, fdr + (opponent_venue_form - 0.5) * FDR_ADJUSTMENT_STRENGTH))
             by_team.setdefault(team_id, []).append({
                 "event": f["event"],
-                "opponent": teams[f[opp_side]],
+                "opponent": teams[opponent_id],
                 "isHome": is_home,
                 "fdr": fdr,
+                "adjustedFdr": adjusted_fdr,
             })
 
     swing = {}
@@ -965,11 +989,15 @@ def compute_fixture_swing(all_fixtures, next_event_id, teams):
         later = fixtures[half:]
         near_fdr = sum(f["fdr"] for f in near) / len(near) if near else None
         later_fdr = sum(f["fdr"] for f in later) / len(later) if later else None
+        near_adjusted = sum(f["adjustedFdr"] for f in near) / len(near) if near else None
+        later_adjusted = sum(f["adjustedFdr"] for f in later) / len(later) if later else None
         swing_score = (near_fdr - later_fdr) if (near_fdr is not None and later_fdr is not None) else 0
+        adjusted_swing_score = (near_adjusted - later_adjusted) if (near_adjusted is not None and later_adjusted is not None) else swing_score
         swing[team_id] = {
             "nearFdr": round(near_fdr, 2) if near_fdr is not None else None,
             "laterFdr": round(later_fdr, 2) if later_fdr is not None else None,
             "swing": round(swing_score, 2),
+            "adjustedSwing": round(adjusted_swing_score, 2),
             "fixtures": [f"{'vs' if f['isHome'] else '@'} {f['opponent']}" for f in fixtures],
         }
     return swing
@@ -1665,18 +1693,31 @@ def build_leaderboards(eligible):
     }
 
 
-def build_wildcard_watch(swing, teams, top_n=3):
-    """Top N teams whose fixtures are about to improve the most - the
-    real, available half of "when to wildcard" (see compute_fixture_swing
-    for why blank/double gameweeks aren't in this yet)."""
-    ranked = sorted(swing.items(), key=lambda kv: kv[1]["swing"], reverse=True)[:top_n]
-    return [{
-        "team": teams[tid],
-        "swing": s["swing"],
-        "nearFdr": s["nearFdr"],
-        "laterFdr": s["laterFdr"],
-        "fixtures": s["fixtures"],
-    } for tid, s in ranked]
+def build_wildcard_watch(swing, teams, elements, top_n=3):
+    """Top N teams whose fixtures are about to improve the most - real,
+    available "when to wildcard" signal. Ranked on adjustedSwing (real
+    opponent venue records folded into FPL's own FDR, see
+    compute_fixture_swing) rather than raw FDR alone, with the raw FDR
+    swing kept alongside for transparency. Also carries the team's own
+    real current squad availability - a real, separate signal for
+    whether they can actually capitalize on an easier run, not blended
+    into the fixture-difficulty math itself (they measure different
+    things: how good the fixtures are vs how healthy the squad
+    currently is)."""
+    ranked = sorted(swing.items(), key=lambda kv: kv[1]["adjustedSwing"], reverse=True)[:top_n]
+    out = []
+    for tid, s in ranked:
+        availability = compute_availability_score(tid, elements)
+        out.append({
+            "team": teams[tid],
+            "swing": s["swing"],
+            "adjustedSwing": s["adjustedSwing"],
+            "nearFdr": s["nearFdr"],
+            "laterFdr": s["laterFdr"],
+            "squadAvailability": round(availability, 2) if availability is not None else None,
+            "fixtures": s["fixtures"],
+        })
+    return out
 
 
 def build_transfer_advice(eligible, swing, teams_by_id, team_context, fixture_load, player_history):
@@ -1879,16 +1920,22 @@ def main():
     fixtures_list = build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, data["elements"], all_transfer_events, manager_changes, tracking_since)
 
     all_fixtures = fetch_json(ALL_FIXTURES_URL)
-    fixture_swing = compute_fixture_swing(all_fixtures, next_event["id"], teams)
-    wildcard_watch = build_wildcard_watch(fixture_swing, teams)
+
+    # Real venue-specific (home/away) form for every tracked club,
+    # computed once and reused by both the wildcard-watch fixture
+    # difficulty adjustment and the captain/transfer scoring context
+    # below (see build_home_away_splits).
+    espn_team_ids = build_espn_team_id_map(teams)
+    home_away_splits = build_home_away_splits(espn_team_ids)
+
+    fixture_swing = compute_fixture_swing(all_fixtures, next_event["id"], teams, home_away_splits)
+    wildcard_watch = build_wildcard_watch(fixture_swing, teams, data["elements"])
 
     # Real multi-factor context for captain/transfer scoring: next
     # fixture + real team/opponent form (reused from fixtures_list),
     # real team/opponent venue-specific (home/away) form, real PL
     # fixture congestion, and real historical performance vs the
     # upcoming opponent where it exists (see compute_player_score).
-    espn_team_ids = build_espn_team_id_map(teams)
-    home_away_splits = build_home_away_splits(espn_team_ids)
     team_context = build_team_context_map(fixture_lookup, fixtures_list, teams, home_away_splits)
     fixture_load = compute_fixture_load(all_fixtures)
     player_history = load_player_history()

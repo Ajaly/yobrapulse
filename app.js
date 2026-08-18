@@ -901,13 +901,18 @@ fetch('data/fpl.json')
 
     const wildcardList = document.querySelector('#wildcard-watch-list');
     if (wildcardList && data.wildcardWatch && data.wildcardWatch.length) {
-      wildcardList.innerHTML = data.wildcardWatch.map((w, i) => `
-        <div class="leaderboard-row">
+      wildcardList.innerHTML = data.wildcardWatch.map((w, i) => {
+        const availabilityText = w.squadAvailability !== null && w.squadAvailability !== undefined
+          ? ` · squad ${Math.round(w.squadAvailability * 100)}% available`
+          : '';
+        const title = `Raw FDR swing +${w.swing.toFixed(1)} · adjusted for real opponent venue records: +${w.adjustedSwing.toFixed(1)}${availabilityText}`;
+        return `
+        <div class="leaderboard-row" title="${title}">
           <span class="leaderboard-rank">${i + 1}</span>
-          <div><strong>${w.team}</strong><small style="display:block;color:#7f8e96;font-size:10px;margin-top:2px">Next 6: ${w.fixtures.join(', ')}</small></div>
-          <span class="leaderboard-value">+${w.swing.toFixed(1)}</span>
-        </div>
-      `).join('');
+          <div><strong>${w.team}</strong><small style="display:block;color:#7f8e96;font-size:10px;margin-top:2px">Next 6: ${w.fixtures.join(', ')}${availabilityText}</small></div>
+          <span class="leaderboard-value">+${w.adjustedSwing.toFixed(1)}</span>
+        </div>`;
+      }).join('');
       const wildcardBadge = document.querySelector('#wildcard-live-badge');
       if (wildcardBadge) wildcardBadge.hidden = false;
     }
