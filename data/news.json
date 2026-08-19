@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-19T14:31:09.203578+00:00",
+  "generatedAt": "2026-08-19T15:28:50.761183+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man City latest: Reijnders leaves for Al Qadsiah",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T16:10:00+00:00"
+    },
+    {
+      "title": "Aston Villa latest: Tosin eyed as potential Konsa replacement",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T16:00:00+00:00"
+    },
+    {
+      "title": "McInnes confident Rangers captain Shankland will have 'big influence'",
+      "description": "Derek McInnes described Lawrence Shankland as a \"brilliant\" captain who will have a \"big influence\" at Rangers whether or not he starts games.",
+      "link": "https://www.skysports.com/football/news/11095/13574741/rangers-derek-mcinnes-confident-captain-lawrence-shankland-will-have-big-influence-at-ibrox-club",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T15:30:00+00:00"
+    },
+    {
+      "title": "Arsenal agree \u00a351m deal to sign Aston Villa's Konsa",
+      "description": "Arsenal have agreed a &#163;51m deal to sign Ezri Konsa from Aston Villa.",
+      "link": "https://www.skysports.com/football/news/11095/13574724/ezri-konsa-transfer-news-arsenal-agree-deal-with-aston-villa-to-sign-england-defender",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T14:50:00+00:00"
+    },
+    {
+      "title": "Man Utd's decision to make Baleba their 'third midfielder'",
+      "description": "Manchester United are in talks to make Carlos Baleba their 'third midfielder' as the club revamp Michael Carrick's squad.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T14:35:36+00:00"
+    },
     {
       "title": "Sheff Utd could face points deduction after High Court ruling",
       "description": "Sheffield United could incur a 12-point deduction after the company used to buy the club was placed into liquidation.",
@@ -42,15 +87,6 @@
       "pubDateISO": "2026-08-19T13:55:18+00:00"
     },
     {
-      "title": "Man Utd's decision to make Baleba their 'third midfielder'",
-      "description": "Manchester United are in talks to make Carlos Baleba their 'third midfielder' as the club revamp Michael Carrick's squad.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T13:54:26+00:00"
-    },
-    {
       "title": "Transfer Centre LIVE! Fernandez, Konsa and Baleba latest",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/12476234/transfer-centre-live-football-transfer-news-updates-and-rumours",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T12:30:11+00:00"
-    },
-    {
-      "title": "Savinho, Gakpo, Neto, Marmoush! Spurs in market to sign THREE new forwards",
-      "description": "Tottenham&#160;hope to sign as many as three new forwards before the transfer deadline.",
-      "link": "https://www.skysports.com/football/news/11095/13574668/tottenham-transfer-news-spurs-considering-cody-gakpo-savinho-omar-marmoush-and-pedro-neto-in-search-for-three-new-forwards",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T11:49:00+00:00"
-    },
-    {
-      "title": "BBC to show 38 live matches from Serie A",
-      "description": "BBC ALBA and BBC Sport are to provide a package of 38 live matches from Italy's Serie A this season, starting with Atalanta v Sassuolo on Sunday.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr7kyz1gykzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T11:40:35+00:00"
-    },
-    {
-      "title": "Arsenal agree \u00a351m deal to sign Aston Villa's Konsa",
-      "description": "Arsenal have agreed a &#163;51m deal to sign Ezri Konsa from Aston Villa.",
-      "link": "https://www.skysports.com/football/news/11095/13574724/ezri-konsa-transfer-news-arsenal-agree-deal-with-aston-villa-to-sign-england-defender",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T11:36:00+00:00"
-    },
-    {
-      "title": "Is Haaland worth the \u00a315.5m price tag on FPL?",
-      "description": "FPL expert Gianni Buttice weighs up whether Manchester City striker Erling Haaland is worth his \u00a315.5m price tag on the game.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cvgx0dngdl0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T11:32:34+00:00"
     }
   ]
 }
