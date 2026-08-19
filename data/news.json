@@ -1,18 +1,36 @@
 {
-  "generatedAt": "2026-08-19T22:22:26.760856+00:00",
+  "generatedAt": "2026-08-19T23:22:19.495520+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "UEFA Champions League",
-      "description": "Featuring Celtic v LASK and six more matches",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "title": "Algorithms amplified World Cup racism, says report",
+      "description": "Racist abuse aimed at England footballers on social media was amplified during the World Cup by algorithms designed to maximise engagement and profit, according to new research.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2k7en0lxkjo",
       "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T22:26:45+00:00"
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T23:02:14+00:00"
+    },
+    {
+      "title": "How 'outstanding' Duran helped Celtic beat LASK",
+      "description": "Champions League analysts Pat Nevin and James McFadden look at the \"outstanding\" impact new signing Camilo Duran had for Celtic in their Champions League play-off first-leg win over LASK.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T22:27:18+00:00"
+    },
+    {
+      "title": "How 'outstanding' Duran helped Celtic beat LASK",
+      "description": "Champions League analysts Pat Nevin and James McFadden look at the \"outstanding\" impact new signing Camilo Duran had for Celtic in their Champions League play-off first-leg win over LASK.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c62qyr16k6ko",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T22:27:18+00:00"
     },
     {
       "title": "Papers: Man City set to bid for Fernandez despite missing Chelsea deadline",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T21:10:00+00:00"
-    },
-    {
-      "title": "Levski Sofia and AEK Athens play out goalless first leg",
-      "description": "Levski Sofia play out a goalless draw with AEK Athens in their Champions League play-off first leg at the Stadion Vasil Levski.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c79g0y57qnlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:07:16+00:00"
-    },
-    {
-      "title": "Viking fight back to claim thrilling first-leg draw at Dinamo Zagreb",
-      "description": "Norway's Viking FK complete a comeback from two behind to hold Dinamo Zagreb of Croatia to a 2-2 draw in the first leg of their Champions League play-off.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cwymzewv14no",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:06:40+00:00"
     }
   ]
 }
