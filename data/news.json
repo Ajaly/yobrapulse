@@ -1,12 +1,30 @@
 {
-  "generatedAt": "2026-08-19T07:32:16.085240+00:00",
+  "generatedAt": "2026-08-19T08:28:21.287484+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man Utd latest: Rashford can beat my scoring record if he knuckles down, says Rooney",
+      "title": "Al Hilal in talks to sign Watkins",
+      "description": "Al Hilal are in talks with Aston Villa over a deal to sign striker Ollie Watkins.",
+      "link": "https://www.skysports.com/football/news/11095/13574587/ollie-watkins-transfer-aston-villa-in-talks-with-saudi-club-al-hilal-over-england-striker",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T08:27:00+00:00"
+    },
+    {
+      "title": "Frank, Young and more join MOTD as BBC launches four new YouTube shows",
+      "description": "BBC Sport will bring football fans closer to the action across TV, radio, YouTube, website and app.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9d8wd8y36zo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T08:22:39+00:00"
+    },
+    {
+      "title": "Man Utd latest: Rashford is only one who can beat my scoring record, says Rooney",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
@@ -15,21 +33,21 @@
       "pubDateISO": "2026-08-19T08:06:00+00:00"
     },
     {
+      "title": "To the well and back - how Malaga returned to La Liga",
+      "description": "After tumbling from the Champions League to the depths of Spain's semi-professional third tier, Malaga are back in La Liga after almost a decade away.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn8nx2wnjq9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T08:01:45+00:00"
+    },
+    {
       "title": "Will Man Utd's opening weekend defence be the same as 2022?",
       "description": "Since the summer of 2022, Manchester United have signed eight defenders for a combined &#163;219.7m - and yet, the starting back four could be the same that lined up on the opening day of the season four years ago.",
       "link": "https://www.skysports.com/football/news/11095/13574295/man-utd-could-start-2026-27-premier-league-season-with-same-back-four-as-2022-23-opening-game",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T08:00:00+00:00"
-    },
-    {
-      "title": "Goals, Europe and culture: What will Rose change from Iraola at Bournemouth?",
-      "description": "\"Straight away I thought - what a lovely bloke. He knew everything about the club. All the history.\"",
-      "link": "https://www.skysports.com/football/news/11095/13569375/marco-rose-at-bournemouth-what-will-new-head-coach-change-from-andoni-iraola-after-scoring-21-goals-in-pre-season",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T08:00:00+00:00"
     },
     {
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T07:00:00+00:00"
-    },
-    {
-      "title": "Celtic wait for midfielder Sigur - gossip",
-      "description": "Celtic advance in search of a midfielder and goalkeeper as Dundee aim to secure striker on loan...",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cevm3el8r44o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T06:50:42+00:00"
-    },
-    {
-      "title": "How Carrick's Man Utd are shaping up for Premier League season",
-      "description": "As Manchester United prepare to start the new Premier League season at Hull on Saturday, BBC Sport examines how Michael Carrick's team will set up tactically.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cg5l9p58dv6o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T06:29:26+00:00"
     }
   ]
 }
