@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-19T19:24:29.108448+00:00",
+  "generatedAt": "2026-08-19T20:24:27.807664+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Rashford responds to Overlap clip: It'd be great to play and not be mentioned every day",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:10:00+00:00"
+    },
     {
       "title": "Jaissle: Club aligned on Newcastle squad needing adjustments",
       "description": "Newcastle head coach Matthias Jaissle says the club are aligned on the need for \"adjustments\" to the squad in the final few weeks of the summer transfer window.",
@@ -24,7 +33,7 @@
       "pubDateISO": "2026-08-19T19:44:00+00:00"
     },
     {
-      "title": "LASK's quick opener vs Celtic disallowed LIVE!",
+      "title": "Celtic two up and hit the post vs LASK LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/celtic-vs-linz-ask/live/577265",
       "source": "Sky Sports",
@@ -87,6 +96,15 @@
       "pubDateISO": "2026-08-19T16:00:00+00:00"
     },
     {
+      "title": "Delap loses number nine shirt & trains away from first team",
+      "description": "Chelsea have split their players into two training groups at Cobham, involving several players who could move before the transfer window closes, including Liam Delap, Nicolas Jackson and Mykhailo Mudryk.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5y4nel5gddo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T15:58:44+00:00"
+    },
+    {
       "title": "Rangers eye striker after Nedeljkovic joins from Villa",
       "description": "Kosta Nedeljkovic joins Rangers on a season-long loan from Aston Villa, with the Ibrox club holding a \"conditional obligation\" to buy the 20-year-old Serbia defender.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cx2mz3j402zo",
@@ -94,24 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-19T15:52:49+00:00"
-    },
-    {
-      "title": "McInnes backs Shankland for 'big influence' at Rangers",
-      "description": "Lawrence Shankland is \"too good not to score regularly\" and is sure to have a \"big influence\" at Rangers whether or not he starts games, insists manager Derek McInnes.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cddj835v4gno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T15:39:47+00:00"
-    },
-    {
-      "title": "McInnes backs Shankland for 'big influence' at Rangers",
-      "description": "Lawrence Shankland is \"too good not to score regularly\" and is sure to have a \"big influence\" at Rangers whether or not he starts games, insists manager Derek McInnes.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cddj835v4gno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T15:39:47+00:00"
     }
   ]
 }
