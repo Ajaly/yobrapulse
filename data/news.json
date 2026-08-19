@@ -1,13 +1,58 @@
 {
-  "generatedAt": "2026-08-19T08:28:21.287484+00:00",
+  "generatedAt": "2026-08-19T09:26:30.927488+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Al Hilal in talks to sign Watkins",
-      "description": "Al Hilal are in talks with Aston Villa over a deal to sign striker Ollie Watkins.",
+      "title": "Man Utd close to full agreement with Brighton for Baleba",
+      "description": "Manchester United are close to a full agreement with Brighton to sign Carlos Baleba.",
+      "link": "https://www.skysports.com/football/news/11095/13574619/carlos-baleba-transfer-manchester-united-close-to-full-agreement-with-brighton-for-cameroon-midfielder",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T10:02:00+00:00"
+    },
+    {
+      "title": "Why Van Hecke holds the key to unlocking De Zerbi ball at Spurs",
+      "description": "Tottenham Hotspur supporters have already seen Roberto De Zerbi keep their team in the Premier League. They have noted his passion, warmed to his enthusiasm. But De Zerbi ball had to wait. Now, Spurs must be ready to embrace the real thing.",
+      "link": "https://www.skysports.com/football/news/11095/13561628/jan-paul-van-hecke-to-tottenham-hotspur-why-defender-holds-the-key-to-roberto-de-zerbis-style-of-play-at-spurs",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T10:00:00+00:00"
+    },
+    {
+      "title": "Ipswich latest: Tractor Boys in talks to sign Palacios from Leverkusen",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13279317/ipswich-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T09:20:00+00:00"
+    },
+    {
+      "title": "Pogba leaves Monaco after contract termination",
+      "description": "Former France midfielder Paul Pogba leaves Monaco his contract was terminated after just one season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckgve2zevzgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T09:12:22+00:00"
+    },
+    {
+      "title": "Villa sign goalkeeper Suzuki and left-back Ruggeri",
+      "description": "Aston Villa confirm the signings of goalkeeper Zion Suzuki and left-back Matteo Ruggeri in deals worth a combined \u00a347m.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c7vg4962yp9o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T08:41:07+00:00"
+    },
+    {
+      "title": "Watkins keen on move to Al Hilal as talks ongoing with Villa",
+      "description": "Al Hilal are in talks with Aston Villa over a deal to sign striker Ollie Watkins, who is keen on the move.",
       "link": "https://www.skysports.com/football/news/11095/13574587/ollie-watkins-transfer-aston-villa-in-talks-with-saudi-club-al-hilal-over-england-striker",
       "source": "Sky Sports",
       "category": "transfer",
@@ -24,7 +69,7 @@
       "pubDateISO": "2026-08-19T08:22:39+00:00"
     },
     {
-      "title": "Man Utd latest: Rashford is only one who can beat my scoring record, says Rooney",
+      "title": "Man Utd latest: Get your best questions in ahead of the new season!",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
@@ -67,51 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-08-19T07:26:37+00:00"
-    },
-    {
-      "title": "I won FPL last season - here are my five best tips",
-      "description": "Want to win your Fantasy Premier League mini-league but need some expert advice? Here are some tips from last season's champion Erik Ibsen.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3ekq87e214o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T07:11:05+00:00"
-    },
-    {
-      "title": "Northern Ireland keeper Burns on plans for life after football",
-      "description": "Northern Ireland goalkeeper Jackie Burns is the number one for her country and has just signed for Burnley - but she is already thinking about her next steps.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gvj23rexvo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T07:10:48+00:00"
-    },
-    {
-      "title": "Northern Ireland keeper Burns on plans for life after football",
-      "description": "Northern Ireland goalkeeper Jackie Burns is the number one for her country and has just signed for Burnley - but she is already thinking about her next steps.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gvj23rexvo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T07:10:48+00:00"
-    },
-    {
-      "title": "Podcast: Why Celtic cannot afford another Champions League slip",
-      "description": "Can Celtic overcome LASK and reach the Champions League group stage?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p5743x",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T07:00:00+00:00"
-    },
-    {
-      "title": "Premier League build-up: Webb outlines new 'light-touch' approach to VAR",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13574293/premier-league-2026-27-preview-team-news-analysis-injury-latest-suspensions-and-fantasy-football",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T07:00:00+00:00"
     }
   ]
 }
