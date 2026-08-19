@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-19T13:43:23.701043+00:00",
+  "generatedAt": "2026-08-19T14:31:09.203578+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Sheff Utd could face points deduction after High Court ruling",
+      "description": "Sheffield United could incur a 12-point deduction after the company used to buy the club was placed into liquidation.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g618x1z80o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T14:27:07+00:00"
+    },
+    {
+      "title": "Inter close in on \u00a330m deal for Liverpool's Jones",
+      "description": "Italian champions Inter Milan are closing in on a deal worth 35m euros (\u00a330m) for Liverpool midfielder Curtis Jones.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T14:23:20+00:00"
+    },
     {
       "title": "Liverpool latest: Inter Milan in advanced talks over Jones",
       "description": "",
@@ -13,6 +31,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T14:20:00+00:00"
+    },
+    {
+      "title": "Arsenal agree \u00a350m-plus deal to sign Villa's Konsa",
+      "description": "Arsenal agree a deal worth more than \u00a350m to sign Aston Villa and England defender Ezri Konsa.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T13:55:18+00:00"
+    },
+    {
+      "title": "Man Utd's decision to make Baleba their 'third midfielder'",
+      "description": "Manchester United are in talks to make Carlos Baleba their 'third midfielder' as the club revamp Michael Carrick's squad.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clylk1wexgno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T13:54:26+00:00"
     },
     {
       "title": "Transfer Centre LIVE! Fernandez, Konsa and Baleba latest",
@@ -60,18 +96,9 @@
       "pubDateISO": "2026-08-19T11:40:35+00:00"
     },
     {
-      "title": "BBC to show 38 live matches from Serie A",
-      "description": "BBC ALBA and BBC Sport are to provide a package of 38 live matches from Italy's Serie A this season, starting with Atalanta v Sassuolo on Sunday.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr7kyz1gykzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T11:40:35+00:00"
-    },
-    {
-      "title": "Arsenal in advanced talks to sign Villa's Konsa",
-      "description": "Arsenal are in advanced talks with Aston Villa to sign Ezri Konsa.",
-      "link": "https://www.skysports.com/football/news/11095/13574665/ezri-konsa-transfer-news-arsenal-in-advanced-talks-to-sign-aston-villa-and-england-defender",
+      "title": "Arsenal agree \u00a351m deal to sign Aston Villa's Konsa",
+      "description": "Arsenal have agreed a &#163;51m deal to sign Ezri Konsa from Aston Villa.",
+      "link": "https://www.skysports.com/football/news/11095/13574724/ezri-konsa-transfer-news-arsenal-agree-deal-with-aston-villa-to-sign-england-defender",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T11:32:34+00:00"
-    },
-    {
-      "title": "Leeds sign Elvedi from Borussia Monchengladbach",
-      "description": "Leeds United complete the signing of defender Nico Elvedi from Borussia Monchengladbach in an \u00a38.5m deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckgd5732mexo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T11:10:51+00:00"
-    },
-    {
-      "title": "Arsenal pushing on with deal to sign Villa's Konsa",
-      "description": "Arsenal refocus their efforts on negotiating a deal with Aston Villa to sign defender Ezri Konsa.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T11:06:20+00:00"
-    },
-    {
-      "title": "Mourinho told Vinicius Jr 'not worth' leaving Real",
-      "description": "Jose Mourinho explains how he successfully persuaded Vinicius Jr to remain the Spanish club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgq5wv43g8lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T10:54:36+00:00"
     }
   ]
 }

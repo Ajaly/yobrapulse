@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T13:43:22.696576+00:00",
+  "generatedAt": "2026-08-19T14:31:08.592348+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -263,7 +263,7 @@
           "venueForm": null,
           "venueFormSource": null,
           "opponentVenueForm": null,
-          "fixtureLoad": 1,
+          "fixtureLoad": 2,
           "opponent": "Crystal Palace",
           "isHome": true,
           "trackRecordVsOpponent": {
@@ -541,7 +541,7 @@
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.91,
-        "awayAvailability": 0.93
+        "awayAvailability": 0.9
       },
       "marketOdds": null
     },
@@ -579,7 +579,7 @@
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.95,
-        "awayAvailability": 0.93
+        "awayAvailability": 0.92
       },
       "marketOdds": null
     },
@@ -617,7 +617,7 @@
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.88,
-        "awayAvailability": 0.89
+        "awayAvailability": 0.86
       },
       "marketOdds": null
     },
@@ -1246,7 +1246,7 @@
       "nextFdr": 5,
       "nextFdrClass": "hard",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
         "out": 0,
@@ -1413,7 +1413,7 @@
       "name": "Brighton",
       "shortName": "BHA",
       "crestClass": "blue-crest",
-      "squadSize": 30,
+      "squadSize": 31,
       "squad": [
         {
           "id": 113,
@@ -1488,6 +1488,11 @@
         {
           "id": 139,
           "name": "Ferguson",
+          "position": "FWD"
+        },
+        {
+          "id": 594,
+          "name": "David",
           "position": "FWD"
         },
         {
@@ -1567,7 +1572,7 @@
         }
       ],
       "squadRating": 4.02,
-      "squadValue": "\u00a3150.0m",
+      "squadValue": "\u00a3156.0m",
       "leagueRank": 12,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -1976,7 +1981,7 @@
       "nextFdr": 5,
       "nextFdrClass": "hard",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 1,
         "out": 0,
@@ -1988,7 +1993,7 @@
       "name": "Crystal Palace",
       "shortName": "CRY",
       "crestClass": "",
-      "squadSize": 31,
+      "squadSize": 32,
       "squad": [
         {
           "id": 201,
@@ -2144,10 +2149,15 @@
           "id": 241,
           "name": "McNeil",
           "position": "MID"
+        },
+        {
+          "id": 595,
+          "name": "Gozo",
+          "position": "MID"
         }
       ],
       "squadRating": 3.96,
-      "squadValue": "\u00a3156.5m",
+      "squadValue": "\u00a3161.5m",
       "leagueRank": 13,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -2301,7 +2311,7 @@
       "nextFdr": 3,
       "nextFdrClass": "mid",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
         "out": 0,
@@ -2646,7 +2656,7 @@
       "nextFdr": 4,
       "nextFdrClass": "hard",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 1,
         "out": 0,
@@ -3558,7 +3568,7 @@
       "name": "Newcastle",
       "shortName": "NEW",
       "crestClass": "blue-crest",
-      "squadSize": 25,
+      "squadSize": 26,
       "squad": [
         {
           "id": 445,
@@ -3593,6 +3603,11 @@
         {
           "id": 451,
           "name": "A.Murphy",
+          "position": "DEF"
+        },
+        {
+          "id": 593,
+          "name": "Dedi\u0107",
           "position": "DEF"
         },
         {
@@ -3687,7 +3702,7 @@
         }
       ],
       "squadRating": 4.15,
-      "squadValue": "\u00a3130.5m",
+      "squadValue": "\u00a3135.0m",
       "leagueRank": 10,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -4242,7 +4257,7 @@
       "avatar": "EH",
       "avatarClass": "pink-avatar",
       "price": "\u00a315.5m",
-      "owned": "70.0%",
+      "owned": "69.9%",
       "points": 239,
       "epNext": 4.0,
       "form": 0.0,
@@ -4273,7 +4288,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "35.0%",
+      "owned": "35.1%",
       "points": 162,
       "epNext": 4.0,
       "form": 0.0,
@@ -4304,7 +4319,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "29.0%",
+      "owned": "29.1%",
       "points": 209,
       "epNext": 4.0,
       "form": 0.0,
@@ -4335,7 +4350,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a312.0m",
-      "owned": "49.4%",
+      "owned": "49.5%",
       "points": 235,
       "epNext": 4.0,
       "form": 0.0,
@@ -4490,7 +4505,7 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.5m",
-      "owned": "9.5%",
+      "owned": "9.4%",
       "points": 157,
       "epNext": 3.2,
       "form": 0.0,
@@ -4521,7 +4536,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "61.0%",
+      "owned": "61.1%",
       "points": 177,
       "epNext": 2.3,
       "form": 0.0,
@@ -4862,7 +4877,7 @@
       "avatar": "NW",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.0m",
-      "owned": "10.9%",
+      "owned": "10.8%",
       "points": 128,
       "epNext": 2.2,
       "form": 0.0,
@@ -5420,7 +5435,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "32.2%",
+      "owned": "32.3%",
       "points": 148,
       "epNext": 2.8,
       "form": 0.0,
@@ -5978,7 +5993,7 @@
       "avatar": "JD",
       "avatarClass": "",
       "price": "\u00a37.5m",
-      "owned": "5.4%",
+      "owned": "5.3%",
       "points": 120,
       "epNext": 2.0,
       "form": 0.0,
@@ -6319,7 +6334,7 @@
       "avatar": "CP",
       "avatarClass": "orange-avatar",
       "price": "\u00a39.5m",
-      "owned": "10.6%",
+      "owned": "10.5%",
       "points": 114,
       "epNext": 3.2,
       "form": 0.0,
@@ -6629,7 +6644,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "29.3%",
+      "owned": "29.4%",
       "points": 109,
       "epNext": 2.5,
       "form": 0.0,
@@ -6784,7 +6799,7 @@
       "avatar": "EK",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "14.9%",
+      "owned": "15.1%",
       "points": 100,
       "epNext": 1.7,
       "form": 0.0,
@@ -7156,7 +7171,7 @@
       "avatar": "DS",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "3.2%",
+      "owned": "3.1%",
       "points": 78,
       "epNext": 0.0,
       "form": 0.0,
@@ -7187,7 +7202,7 @@
       "avatar": "KA",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.3%",
+      "owned": "2.4%",
       "points": 76,
       "epNext": 1.7,
       "form": 0.0,
@@ -7528,7 +7543,7 @@
       "avatar": "CM",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "11.0%",
+      "owned": "10.8%",
       "points": 40,
       "epNext": 2.5,
       "form": 0.0,
@@ -7683,7 +7698,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "21.4%",
+      "owned": "21.5%",
       "points": 20,
       "epNext": 1.9,
       "form": 0.0,
@@ -7776,7 +7791,7 @@
       "avatar": "CT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "17.1%",
+      "owned": "17.2%",
       "points": 0,
       "epNext": 2.3,
       "form": 0.0,
@@ -7838,7 +7853,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "2.4%",
+      "owned": "2.5%",
       "points": 0,
       "epNext": 2.0,
       "form": 0.0,
@@ -8024,7 +8039,7 @@
       "avatar": "MV",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.0m",
-      "owned": "14.5%",
+      "owned": "14.4%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -8326,8 +8341,8 @@
       "fdrClass": "mid"
     }
   },
-  "totalManagers": 6163564,
-  "totalPlayers": 592,
+  "totalManagers": 6190180,
+  "totalPlayers": 595,
   "priceMovement": {
     "risers": [],
     "fallers": []
