@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-19T04:30:27.894468+00:00",
+  "generatedAt": "2026-08-19T05:23:09.123225+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "How will your club fare? Phil McNulty's Premier League predictions",
+      "description": "How will your club fare in the 2026-27 Premier League? BBC chief football writer Phil McNulty makes his annual predictions.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5ye50qz7yqo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T05:21:19+00:00"
+    },
     {
       "title": "Chelsea latest: Napoli make enquiry for Aston Villa target Jackson",
       "description": "",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-18T19:57:08+00:00"
-    },
-    {
-      "title": "Arteta: We want to be the best club in the world",
-      "description": "Mikel Arteta is excited to keep building Arsenal after their Premier League win, vowing to make them \"the best club in the world\".",
-      "link": "https://www.skysports.com/football/news/11095/13574486/mikel-arteta-arsenal-manager-says-we-want-to-make-gunners-the-best-club-in-the-world",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T19:52:00+00:00"
     }
   ]
 }
