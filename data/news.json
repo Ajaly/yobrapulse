@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-19T21:23:55.700816+00:00",
+  "generatedAt": "2026-08-19T22:22:26.760856+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "UEFA Champions League",
+      "description": "Featuring Celtic v LASK and six more matches",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T22:26:45+00:00"
+    },
     {
       "title": "Papers: Man City set to bid for Fernandez despite missing Chelsea deadline",
       "description": "The top stories and transfer rumours from Thursday's newspapers...",
@@ -15,13 +24,67 @@
       "pubDateISO": "2026-08-19T22:00:00+00:00"
     },
     {
-      "title": "Duran hits stunning double as Celtic edge towards CL return",
+      "title": "Duran, Duran! Celtic earn thumping CL win after new star's double",
       "description": "Celtic took a huge step towards a return to the Champions League with stunning goals from Benjamin Nygren and Camilo Duran.",
       "link": "https://www.skysports.com/football/celtic-vs-linz-ask/report/577265",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T21:50:00+00:00"
+    },
+    {
+      "title": "Hapoel Be'er Sheva earn comeback win over Sabah",
+      "description": "Hapoel Be'er Sheva fight back from a goal down to beat Sabah in the first leg of their Champions League play-off.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cy74z3zzvm1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:42:50+00:00"
+    },
+    {
+      "title": "Man City join Man Utd in Kone race - Thursday's gossip",
+      "description": "Manchester City look set to rival neighbours Manchester United for Manu Kone, Aston Villa interested in Tosin Adarabioyo and Tottenham in talks over Man City duo.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn0n4qlxyq7o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T21:30:46+00:00"
+    },
+    {
+      "title": "Bodo/Glimt in strong position following first-leg win at NEC",
+      "description": "Last season's Champions League fairytale side Bodo/Glimt look set to qualify for this year's edition of the competition after winning 3-1 away at NEC Nijmegen of the Netherlands.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c62v4v90yd9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:29:50+00:00"
+    },
+    {
+      "title": "Duran stars as Celtic ease to comfortable win over LASK",
+      "description": "Celtic take a huge step towards the Champions League as two stunning Camilo Duran strikes help carve out a commanding first-leg play-off lead against LASK.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c0m73y34nglo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:28:08+00:00"
+    },
+    {
+      "title": "Duran stars as Celtic open big lead against LASK",
+      "description": "Celtic take a huge step towards the Champions League as two stunning Camilo Duran strikes help carve out a commanding first-leg play-off lead against LASK.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c0m73y34nglo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:28:08+00:00"
+    },
+    {
+      "title": "Celje fight back to earn draw against Slovan Bratislava",
+      "description": "Slovenia's Celje fight back from a goal down to earn a 1-1 draw away against Slovakian side Slovan Bratislava in the first leg of the Champions League play-offs.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/crl7673348xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:22:24+00:00"
     },
     {
       "title": "Man Utd latest: Rashford gives pointed response to Carragher clip...",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T21:06:40+00:00"
-    },
-    {
-      "title": "Fenerbahce & Lyon play out entertaining first-leg draw",
-      "description": "Fenerbahce and Lyon play out an entertaining 1-1 draw in their Uefa Champions League play-off first leg.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cwyqzk5yk41o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:05:51+00:00"
-    },
-    {
-      "title": "Celtic take the lead through Nygren's 'magnificent' strike",
-      "description": "Celtic take the lead in their Champions League play-off first leg against LASK, as Benjamin Nygren finds the top corner in spectacular fashion from outside of the box.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cp8xg9j7gnko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:00:45+00:00"
-    },
-    {
-      "title": "Celtic take the lead through Nygren's 'magnificent' strike",
-      "description": "Celtic take the lead in their Champions League play-off first leg against LASK, as Benjamin Nygren finds the top corner in spectacular fashion from outside of the box.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cp8xg9j7gnko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:00:45+00:00"
-    },
-    {
-      "title": "Duran's incredible double edges Celtic closer to Champions League",
-      "description": "Camilo Duran scores two excellent goals for Celtic in the first leg of their Champions League play-off against Austria's LASK, finding the top corner with a volley and curling an effort past Lukas Jungwirth in the visitors' goal.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/crmrydv4ww0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:00:41+00:00"
-    },
-    {
-      "title": "Duran's incredible double edges Celtic closer to Champions League",
-      "description": "Camilo Duran scores two excellent goals for Celtic in the first leg of their Champions League play-off against Austria's LASK, finding the top corner with a volley and curling an effort past Lukas Jungwirth in the visitors' goal.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/crmrydv4ww0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:00:41+00:00"
-    },
-    {
-      "title": "'The itch isn\u2019t there anymore' - Kane cools talk of Premier League return",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:00:00+00:00"
-    },
-    {
-      "title": "Rashford wants to play football 'without name mentioned every day'",
-      "description": "Marcus Rashford says he would like to play football without his \"name being mentioned every day\" after Gary Neville tried to start a conversation about the Manchester United forward on a podcast.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1j1397zg1xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T20:56:50+00:00"
     }
   ]
 }
