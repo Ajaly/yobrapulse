@@ -83,6 +83,7 @@ match-log data this model doesn't have today.
 """
 import json
 import re
+import time
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -234,10 +235,36 @@ MIN_HOME_AWAY_SAMPLE = 3
 FDR_ADJUSTMENT_STRENGTH = 2.0
 
 
+FETCH_RETRIES = 3
+FETCH_RETRY_DELAY_SECONDS = 2
+
+
 def fetch_json(url):
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return json.load(resp)
+    """Real fetch with a real retry - found directly, not assumed:
+    this shared function (used by dozens of real call sites across
+    this whole pipeline - predictions, friendly matches, other-league
+    predictions, home/away splits, team-id mapping) had zero error
+    handling until a real pilot-testing report traced back to it. A
+    single transient failure on any one real HTTP call silently
+    degraded whatever feature was calling it (each call site already
+    has its own try/except that falls back to "no real data" rather
+    than crash, so nothing broke loudly - it just quietly lost one
+    real signal for that run). Live evidence: Wildcard Watch's real
+    opponent-venue-record adjustment (see compute_fixture_swing) came
+    back as a no-op on one specific automated run, then worked
+    correctly again on the next real run - a transient failure, not a
+    permanent one. Same fix already proven in fetch-league-data.py."""
+    last_error = None
+    for attempt in range(1, FETCH_RETRIES + 1):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return json.load(resp)
+        except Exception as err:
+            last_error = err
+            if attempt < FETCH_RETRIES:
+                time.sleep(FETCH_RETRY_DELAY_SECONDS)
+    raise last_error
 
 
 def initials(name):
