@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-19T17:25:39.088072+00:00",
+  "generatedAt": "2026-08-19T18:28:57.968286+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Leeds latest: Rodon signs new four-year deal",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13353569/leeds-united-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T19:00:00+00:00"
+    },
+    {
+      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/11095/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T18:50:00+00:00"
+    },
+    {
+      "title": "Baur makes first Celtic start vs LASK LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/celtic-vs-linz-ask/live/577265",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T18:30:00+00:00"
+    },
     {
       "title": "Masters, Webb criticise FIFA over Balogun red card controversy",
       "description": "Two of the most powerful men in English football have joined forces to hit out at FIFA and the U-turn which allowed USA striker Folarin Balogun to play on at the World Cup last month, despite the red card which should have led to an automatic ban.",
@@ -51,15 +78,6 @@
       "pubDateISO": "2026-08-19T16:26:06+00:00"
     },
     {
-      "title": "Man City latest: Reijnders leaves for Al Qadsiah",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T16:10:00+00:00"
-    },
-    {
       "title": "Reijnders leaves Man City for Al-Qadsiah in \u00a352m deal",
       "description": "Netherlands midfielder Tijjani Reijnders completes a \u00a352m move to Saudi Arabian side Al-Qadsiah from Manchester City.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo",
@@ -67,15 +85,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-19T16:01:32+00:00"
-    },
-    {
-      "title": "Aston Villa latest: Tosin eyed as potential Konsa replacement",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T16:00:00+00:00"
     },
     {
       "title": "Rangers eye striker after Nedeljkovic joins from Villa",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T15:39:47+00:00"
-    },
-    {
-      "title": "72+: The EFL Podcast",
-      "description": "Aaron and Jobi are joined by Bolton's Steven Schumacher and Luton's Jack Wilshere.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p5b36h",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T15:37:00+00:00"
     }
   ]
 }
