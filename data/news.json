@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-19T05:23:09.123225+00:00",
+  "generatedAt": "2026-08-19T06:32:23.718681+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "How Carrick's Man Utd are shaping up for Premier League season",
+      "description": "As Manchester United prepare to start the new Premier League season at Hull on Saturday, BBC Sport examines how Michael Carrick's team will set up tactically.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cg5l9p58dv6o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T06:29:26+00:00"
+    },
+    {
+      "title": "Wrexham's Moore aiming to stay the distance",
+      "description": "The striker has revealed he has taken \"measures\" to avoid the injury issues that hit his Wales and Wrexham hopes last season",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2mzz1zd67o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-19T06:01:44+00:00"
+    },
+    {
+      "title": "Who am I? Guess Premier League star No 30",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9342kw7zkqo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T05:51:02+00:00"
+    },
+    {
+      "title": "Five in Five: Football quiz No 3",
+      "description": "Will you beat the clock by getting all five of today's answers in five minutes?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c74gde30nryo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T05:37:16+00:00"
+    },
     {
       "title": "How will your club fare? Phil McNulty's Premier League predictions",
       "description": "How will your club fare in the 2026-27 Premier League? BBC chief football writer Phil McNulty makes his annual predictions.",
@@ -76,42 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-18T20:43:01+00:00"
-    },
-    {
-      "title": "Musiala shares health update after second in-game collapse",
-      "description": "Bayern Munich winger Jamal Musiala has revealed he is suffering from &#8220;treatable absence seizures&#8221; after he collapsed on the pitch for the second time in four days.",
-      "link": "https://www.skysports.com/football/news/11095/13574499/jamal-musiala-bayern-munich-forward-shares-health-update-after-collapsing-during-a-match-again",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T20:39:00+00:00"
-    },
-    {
-      "title": "Serie A's Trepy out of coma after pool rescue",
-      "description": "Serie A striker Yael Trepy is out of an induced coma two days after being pulled unconscious from a swimming pool in Sardinia.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp8xdx7ypr6o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T20:37:22+00:00"
-    },
-    {
-      "title": "Man found dead at Charlton Athletic's ground",
-      "description": "A 33-year-old man was found dead at The Valley after a possible fall from height, police say.",
-      "link": "https://www.bbc.co.uk/news/articles/c934e3pgp9lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T20:14:04+00:00"
-    },
-    {
-      "title": "Musiala collapses during match for second time in four-day period",
-      "description": "Bayern Munich midfielder Jamal Musiala says he is being treated for a \"neurological dysfunction\" after collapsing during a match for the second time in a four-day period.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c330kg5xm8no",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-18T19:57:08+00:00"
     }
   ]
 }

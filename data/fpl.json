@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T05:23:08.262767+00:00",
+  "generatedAt": "2026-08-19T06:32:22.450380+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 1",
@@ -503,7 +503,7 @@
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.95,
-        "awayAvailability": 0.87
+        "awayAvailability": 0.88
       },
       "marketOdds": null
     },
@@ -4242,7 +4242,7 @@
       "avatar": "EH",
       "avatarClass": "pink-avatar",
       "price": "\u00a315.5m",
-      "owned": "70.2%",
+      "owned": "70.1%",
       "points": 239,
       "epNext": 4.0,
       "form": 0.0,
@@ -4273,7 +4273,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "34.6%",
+      "owned": "34.7%",
       "points": 162,
       "epNext": 4.0,
       "form": 0.0,
@@ -4552,7 +4552,7 @@
       "avatar": "IT",
       "avatarClass": "orange-avatar",
       "price": "\u00a38.0m",
-      "owned": "17.7%",
+      "owned": "17.8%",
       "points": 181,
       "epNext": 2.5,
       "form": 0.0,
@@ -4800,7 +4800,7 @@
       "avatar": "EA",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "9.4%",
+      "owned": "9.3%",
       "points": 180,
       "epNext": 2.3,
       "form": 0.0,
@@ -5544,7 +5544,7 @@
       "avatar": "JP",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "8.5%",
+      "owned": "8.4%",
       "points": 135,
       "epNext": 3.3,
       "form": 0.0,
@@ -7125,7 +7125,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "12.4%",
+      "owned": "12.5%",
       "points": 78,
       "epNext": 2.0,
       "form": 0.0,
@@ -7342,7 +7342,7 @@
       "avatar": "AR",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.1%",
+      "owned": "2.0%",
       "points": 65,
       "epNext": 1.7,
       "form": 0.0,
@@ -7466,7 +7466,7 @@
       "avatar": "WH",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "11.1%",
+      "owned": "11.2%",
       "points": 45,
       "epNext": 1.0,
       "form": 0.0,
@@ -8326,7 +8326,7 @@
       "fdrClass": "mid"
     }
   },
-  "totalManagers": 5956087,
+  "totalManagers": 5971502,
   "totalPlayers": 592,
   "priceMovement": {
     "risers": [],
