@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-19T12:38:10.039458+00:00",
+  "generatedAt": "2026-08-19T13:43:23.701043+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Liverpool latest: Inter Milan in advanced talks over Jones",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T14:20:00+00:00"
+    },
     {
       "title": "Transfer Centre LIVE! Fernandez, Konsa and Baleba latest",
       "description": "",
@@ -13,6 +22,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-19T12:59:00+00:00"
+    },
+    {
+      "title": "Coventry sign teenage Fenerbahce forward Cherif",
+      "description": "Nineteen-year-old Sidiki Cherif joins the Sky Blues on a long\u2011term deal after finishing last season with two goals in 12 games in Turkey's top flight.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2v3721ykjo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T12:38:14+00:00"
     },
     {
       "title": "'Everyone wants clarity' over Man City charges, says Arsenal chief",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T10:54:36+00:00"
-    },
-    {
-      "title": "Arsenal preference is for Nwaneri to leave on loan",
-      "description": "Arsenal prioritise loan offers for Ethan Nwaneri with the Premier League champions keen to avoid selling their teenage attacker permanently.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gd1r1nel2o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T10:24:11+00:00"
-    },
-    {
-      "title": "Welsh FA chief calls for Infantino to step down",
-      "description": "Football Association of Wales chief executive Noel Mooney says Fifa president Gianni Infantino should step down.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5ywnpg45xzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T10:21:24+00:00"
     }
   ]
 }
