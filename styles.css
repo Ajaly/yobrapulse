@@ -171,6 +171,12 @@ button {
   background:#f5a34a;
   margin-left:auto
 }
+.nav-lock-icon {
+  width:13px !important;
+  height:13px !important;
+  margin-left:auto;
+  color:#5c6b72
+}
 .sidebar-bottom {
   margin-top:auto
 }

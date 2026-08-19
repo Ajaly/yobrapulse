@@ -1,10 +1,8 @@
 rules_version = '2';
 
-// Reference copy of YobraPulse's real Firestore security rules - paste
-// this into Firebase Console > Firestore Database > Rules and Publish.
-// Not deployed automatically from this repo (that needs the Firebase
-// CLI and a real project link); kept here so the real rules a signed-in
-// user's data depends on are reviewable, not hidden in a console.
+// YobraPulse's real Firestore security rules. Deployed with
+// `firebase deploy --only firestore:rules` (wired up in firebase.json) -
+// this file is the actual source of truth, not just a reference copy.
 //
 // A signed-in user can only ever read or write their OWN profile
 // document (matched by their real Firebase Auth uid as the document
@@ -14,6 +12,24 @@ service cloud.firestore {
   match /databases/{database}/documents {
     match /users/{userId} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Premium status. Only ever written by functions/index.js's
+    // mpesaCallback via the Admin SDK, which bypasses these rules
+    // entirely - "write: if false" here means no client, however
+    // authenticated, can ever grant itself premium directly.
+    match /subscriptions/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow write: if false;
+    }
+
+    // One doc per M-Pesa STK push attempt, keyed by Safaricom's
+    // CheckoutRequestID. Created and updated only by Cloud Functions
+    // (Admin SDK) - clients may read their own for status polling, never
+    // write (a client write here could otherwise fake a paid amount/uid).
+    match /payments/{checkoutRequestId} {
+      allow read: if request.auth != null && resource.data.uid == request.auth.uid;
+      allow write: if false;
     }
   }
 }

@@ -21,8 +21,11 @@ import {
   getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged,
 } from 'https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js';
 import {
-  getFirestore, doc, getDoc, setDoc, serverTimestamp,
+  getFirestore, doc, getDoc, setDoc, onSnapshot, serverTimestamp,
 } from 'https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js';
+import {
+  getFunctions, httpsCallable,
+} from 'https://www.gstatic.com/firebasejs/10.13.0/firebase-functions.js';
 
 // Real config hasn't been filled in yet (still the REPLACE_ME
 // placeholders from firebase-config.js) - skip Firebase entirely
@@ -39,10 +42,12 @@ if (!configIsReal) {
 const app = configIsReal ? initializeApp(firebaseConfig) : null;
 const auth = configIsReal ? getAuth(app) : null;
 const db = configIsReal ? getFirestore(app) : null;
+const functions = configIsReal ? getFunctions(app) : null;
 
 let currentUser = null;
 let currentProfile = null;
 let teamNames = [];
+let unsubscribeSubscription = null;
 
 // Landing screen: shown once per browser (soft gate, not a hard
 // requirement - the whole app still works for anyone who clicks
@@ -133,6 +138,66 @@ function renderSignedOut() {
   avatarEl.innerHTML = '?';
   const heroName = document.querySelector('#hero-name');
   if (heroName) heroName.textContent = 'there';
+  const premiumPanel = document.querySelector('#premium-panel');
+  if (premiumPanel) premiumPanel.hidden = true;
+  window.dispatchEvent(new CustomEvent('yp:premium-changed', { detail: { active: false } }));
+}
+
+// subscriptions/{uid} is written server-side only (see functions/index.js's
+// mpesaCallback) - Firestore rules reject any client write to it, so this
+// listener is purely reflecting a payment that already cleared, never a
+// value the browser could forge for itself.
+const PLAN_LABELS = { weekly: 'Weekly Premium', monthly: 'Monthly Premium' };
+
+function renderPremium(sub) {
+  const active = !!(sub && sub.active && sub.expiresAt && sub.expiresAt.toMillis() > Date.now());
+  document.querySelector('#premium-status-free').hidden = active;
+  document.querySelector('#premium-status-active').hidden = !active;
+  if (active) {
+    document.querySelector('#premium-expires').textContent = sub.expiresAt.toDate().toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+    document.querySelector('#premium-plan-label').textContent = PLAN_LABELS[sub.plan] || 'Premium';
+  }
+  // app.js (a classic script, not a module) can't import this module's
+  // state directly - it listens for this event to gate FPL/Performance/
+  // Predictions/Teams/Stats behind an active subscription.
+  window.dispatchEvent(new CustomEvent('yp:premium-changed', { detail: { active } }));
+}
+
+function watchSubscription(uid) {
+  stopWatchingSubscription();
+  unsubscribeSubscription = onSnapshot(doc(db, 'subscriptions', uid), (snap) => {
+    renderPremium(snap.exists() ? snap.data() : null);
+  }, (err) => {
+    console.error('Premium status listener failed:', err);
+  });
+}
+
+function stopWatchingSubscription() {
+  if (unsubscribeSubscription) {
+    unsubscribeSubscription();
+    unsubscribeSubscription = null;
+  }
+}
+
+async function handlePremiumPay() {
+  const btn = document.querySelector('#premium-pay-btn');
+  const msg = document.querySelector('#premium-status-msg');
+  const phone = document.querySelector('#premium-phone').value.trim();
+  const plan = document.querySelector('#premium-plan-tabs .tab.active')?.dataset.plan || 'monthly';
+  if (!configIsReal || !currentUser || !phone) return;
+
+  btn.disabled = true;
+  msg.textContent = 'Sending the M-Pesa prompt to your phone...';
+  try {
+    const initiateStkPush = httpsCallable(functions, 'initiateStkPush');
+    const { data } = await initiateStkPush({ phoneNumber: phone, plan });
+    msg.textContent = data.customerMessage || 'Check your phone and enter your M-Pesa PIN to complete payment.';
+  } catch (err) {
+    console.error('M-Pesa STK push failed:', err);
+    msg.textContent = err.message || 'Payment could not be started - please try again.';
+  } finally {
+    btn.disabled = false;
+  }
 }
 
 function renderSignedIn(user, profile) {
@@ -166,6 +231,9 @@ function renderSignedIn(user, profile) {
   document.querySelector('#account-primary-team').value = (profile && profile.primaryTeam) || '';
   document.querySelector('#account-secondary-team').value = (profile && profile.secondaryTeam) || '';
   syncTeamSelectExclusion();
+
+  const premiumPanel = document.querySelector('#premium-panel');
+  if (premiumPanel) premiumPanel.hidden = false;
 }
 
 async function loadProfile(uid) {
@@ -186,7 +254,12 @@ async function refreshAccountUI() {
 if (configIsReal) {
   onAuthStateChanged(auth, async (user) => {
     currentUser = user;
-    if (user) dismissLanding();
+    if (user) {
+      dismissLanding();
+      watchSubscription(user.uid);
+    } else {
+      stopWatchingSubscription();
+    }
     await refreshAccountUI();
   });
 } else {
@@ -242,6 +315,7 @@ async function handleSave() {
 }
 
 document.querySelector('#google-signin-btn')?.addEventListener('click', handleSignIn);
+document.querySelector('#premium-pay-btn')?.addEventListener('click', handlePremiumPay);
 document.querySelector('#account-signout-btn')?.addEventListener('click', handleSignOut);
 document.querySelector('#account-save-btn')?.addEventListener('click', handleSave);
 document.querySelector('#account-fpl-manager')?.addEventListener('change', (event) => {

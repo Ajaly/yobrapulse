@@ -14,13 +14,51 @@ const navItems = document.querySelectorAll('[data-view]');
 const pageTitle = document.querySelector('#page-title');
 const titles = { dashboard: 'Overview', live: 'Live scores', fpl: 'FPL assistant', performance: 'Performance tracker', fixtures: 'Fixtures', predictions: 'Predictions', teams: 'Teams & players', news: 'News', stats: 'Stats', settings: 'Settings' };
 
+// Everything except the Dashboard landing page, Live scores, Fixtures,
+// News and Settings requires an active subscription. auth.js (a separate
+// module, so it can't share JS state directly) dispatches yp:premium-changed
+// whenever the signed-in user's subscriptions/{uid} doc changes.
+const GATED_VIEWS = ['fpl', 'performance', 'predictions', 'teams', 'stats'];
+let isPremium = false;
+let pendingGatedView = null;
+
+function updateNavLocks() {
+  document.querySelectorAll('.nav-item[data-view]').forEach((item) => {
+    const icon = item.querySelector('.nav-lock-icon');
+    if (icon) icon.hidden = isPremium;
+  });
+}
+
 function showView(viewName) {
-  const target = document.querySelector(`#${viewName}-view`) || document.querySelector('#dashboard-view');
+  const gated = GATED_VIEWS.includes(viewName) && !isPremium;
+  const target = gated
+    ? document.querySelector('#paywall-view')
+    : (document.querySelector(`#${viewName}-view`) || document.querySelector('#dashboard-view'));
   views.forEach((view) => view.classList.toggle('active', view === target));
   document.querySelectorAll('.nav-item[data-view]').forEach((item) => item.classList.toggle('active', item.dataset.view === viewName));
-  pageTitle.textContent = titles[viewName] || titles.dashboard;
+  if (gated) {
+    pendingGatedView = viewName;
+    pageTitle.textContent = 'Premium';
+    const nameEl = document.querySelector('#paywall-feature-name');
+    if (nameEl) nameEl.textContent = titles[viewName] || 'this feature';
+  } else {
+    pageTitle.textContent = titles[viewName] || titles.dashboard;
+  }
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+window.addEventListener('yp:premium-changed', (event) => {
+  isPremium = !!(event.detail && event.detail.active);
+  updateNavLocks();
+  // Was sitting on a paywall when premium activated (e.g. payment just
+  // cleared) - jump straight to the real feature instead of making them
+  // click again.
+  if (isPremium && pendingGatedView) {
+    showView(pendingGatedView);
+    pendingGatedView = null;
+  }
+});
+document.querySelector('#paywall-upgrade-btn')?.addEventListener('click', () => showView('settings'));
 
 navItems.forEach((item) => item.addEventListener('click', () => showView(item.dataset.view)));
 

@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/lucide@1.28.0"></script>
-  <link rel="stylesheet" href="styles.css?v=949de0a4" />
+  <link rel="stylesheet" href="styles.css?v=83b22245" />
 </head>
 <body>
   <div class="landing-screen" id="landing-screen">
@@ -37,13 +37,13 @@
       <nav class="side-nav" aria-label="Primary navigation">
         <button class="nav-item active" data-view="dashboard"><i data-lucide="layout-dashboard"></i><span>Overview</span></button>
         <button class="nav-item" data-view="live"><i data-lucide="radio"></i><span>Live scores</span><b class="nav-count" id="live-nav-count">12</b></button>
-        <button class="nav-item" data-view="fpl"><i data-lucide="sparkles"></i><span>FPL assistant</span><span class="new-dot"></span></button>
-        <button class="nav-item" data-view="performance"><i data-lucide="activity"></i><span>Performance</span></button>
+        <button class="nav-item" data-view="fpl"><i data-lucide="sparkles"></i><span>FPL assistant</span><i data-lucide="lock" class="nav-lock-icon"></i></button>
+        <button class="nav-item" data-view="performance"><i data-lucide="activity"></i><span>Performance</span><i data-lucide="lock" class="nav-lock-icon"></i></button>
         <button class="nav-item" data-view="fixtures"><i data-lucide="calendar-days"></i><span>Fixtures</span></button>
-        <button class="nav-item" data-view="predictions"><i data-lucide="target"></i><span>Predictions</span></button>
-        <button class="nav-item" data-view="teams"><i data-lucide="users-round"></i><span>Teams & players</span></button>
+        <button class="nav-item" data-view="predictions"><i data-lucide="target"></i><span>Predictions</span><i data-lucide="lock" class="nav-lock-icon"></i></button>
+        <button class="nav-item" data-view="teams"><i data-lucide="users-round"></i><span>Teams & players</span><i data-lucide="lock" class="nav-lock-icon"></i></button>
         <button class="nav-item" data-view="news"><i data-lucide="newspaper"></i><span>News</span></button>
-        <button class="nav-item" data-view="stats"><i data-lucide="award"></i><span>Stats</span></button>
+        <button class="nav-item" data-view="stats"><i data-lucide="award"></i><span>Stats</span><i data-lucide="lock" class="nav-lock-icon"></i></button>
       </nav>
       <div class="sidebar-bottom">
         <!-- Placeholder ad slot - swap for a real ad network snippet (e.g. AdSense) once an account/publisher ID exists -->
@@ -873,6 +873,22 @@
         </section>
       </section>
 
+      <section class="view" id="paywall-view">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow"><span class="pulse-dot"></span> Premium</div>
+            <h1>This is a Premium feature<span class="accent">.</span></h1>
+            <p class="lede">Unlock <strong id="paywall-feature-name">this</strong> and everything else in YobraPulse Premium — FPL assistant, Performance, Predictions, Teams &amp; players and Stats — for KES 30/week or KES 100/month, paid with M-Pesa.</p>
+          </div>
+        </div>
+        <section class="panel">
+          <div class="panel-header">
+            <div><span class="section-kicker">Premium</span><h2>Go Premium</h2></div>
+          </div>
+          <button class="primary-button" id="paywall-upgrade-btn"><i data-lucide="crown"></i> View plans</button>
+        </section>
+      </section>
+
       <section class="view" id="settings-view">
         <div class="page-heading">
           <div>
@@ -920,6 +936,31 @@
               <button class="primary-button" id="account-save-btn"><i data-lucide="check"></i> Save changes</button>
               <span class="positive" id="account-save-status" style="display:none;margin-left:12px">Saved</span>
               <button class="text-button" id="account-signout-btn" style="margin-left:14px">Sign out</button>
+            </div>
+          </section>
+
+          <section class="panel" id="premium-panel" hidden>
+            <div class="panel-header">
+              <div><span class="section-kicker">Premium</span><h2>YobraPulse Premium</h2></div>
+            </div>
+
+            <div id="premium-status-free">
+              <p class="lede" style="margin:0 0 16px">Unlock the FPL assistant, Performance, Predictions, Teams &amp; players and Stats, paid with M-Pesa.</p>
+              <label class="field"><span>Choose a plan</span>
+                <div class="tabs" id="premium-plan-tabs">
+                  <button type="button" class="tab" data-plan="weekly">Weekly &middot; KES 30</button>
+                  <button type="button" class="tab active" data-plan="monthly">Monthly &middot; KES 100</button>
+                </div>
+              </label>
+              <label class="field"><span>M-Pesa phone number</span>
+                <input type="tel" id="premium-phone" placeholder="07XXXXXXXX" inputmode="tel">
+              </label>
+              <button class="primary-button" id="premium-pay-btn"><i data-lucide="smartphone"></i> Pay with M-Pesa</button>
+              <p class="modal-context" id="premium-status-msg" style="margin-top:12px"></p>
+            </div>
+
+            <div id="premium-status-active" hidden>
+              <p class="positive" style="margin:0"><i data-lucide="check-circle"></i> <span id="premium-plan-label">Premium</span> active until <strong id="premium-expires">-</strong></p>
             </div>
           </section>
 
@@ -1024,7 +1065,7 @@
     </div>
   </div>
 
-  <script src="app.js?v=13e245d5"></script>
-  <script type="module" src="auth.js?v=27c7e89c"></script>
+  <script src="app.js?v=90cb71bc"></script>
+  <script type="module" src="auth.js?v=58b6c270"></script>
 </body>
 </html>
