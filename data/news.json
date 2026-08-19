@@ -1,12 +1,30 @@
 {
-  "generatedAt": "2026-08-19T20:24:27.807664+00:00",
+  "generatedAt": "2026-08-19T21:23:55.700816+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Rashford responds to Overlap clip: It'd be great to play and not be mentioned every day",
+      "title": "Papers: Man City set to bid for Fernandez despite missing Chelsea deadline",
+      "description": "The top stories and transfer rumours from Thursday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13574860/man-city-transfer-news-enzo-fernandez-bid-incoming-despite-missing-chelsea-deadline-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-19T22:00:00+00:00"
+    },
+    {
+      "title": "Duran hits stunning double as Celtic edge towards CL return",
+      "description": "Celtic took a huge step towards a return to the Champions League with stunning goals from Benjamin Nygren and Camilo Duran.",
+      "link": "https://www.skysports.com/football/celtic-vs-linz-ask/report/577265",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:50:00+00:00"
+    },
+    {
+      "title": "Man Utd latest: Rashford gives pointed response to Carragher clip...",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
@@ -15,103 +33,85 @@
       "pubDateISO": "2026-08-19T21:10:00+00:00"
     },
     {
-      "title": "Jaissle: Club aligned on Newcastle squad needing adjustments",
-      "description": "Newcastle head coach Matthias Jaissle says the club are aligned on the need for \"adjustments\" to the squad in the final few weeks of the summer transfer window.",
-      "link": "https://www.skysports.com/football/news/11095/13574826/matthias-jaissle-newcastle-head-coach-says-squad-needs-adjustments-in-transfer-window-and-previews-liverpool-game",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T19:45:00+00:00"
+      "title": "Levski Sofia and AEK Athens play out goalless first leg",
+      "description": "Levski Sofia play out a goalless draw with AEK Athens in their Champions League play-off first leg at the Stadion Vasil Levski.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c79g0y57qnlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:07:16+00:00"
     },
     {
-      "title": "Man City latest: Will club reignite interest in Fernandez and Wharton?",
+      "title": "Viking fight back to claim thrilling first-leg draw at Dinamo Zagreb",
+      "description": "Norway's Viking FK complete a comeback from two behind to hold Dinamo Zagreb of Croatia to a 2-2 draw in the first leg of their Champions League play-off.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwymzewv14no",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:06:40+00:00"
+    },
+    {
+      "title": "Fenerbahce & Lyon play out entertaining first-leg draw",
+      "description": "Fenerbahce and Lyon play out an entertaining 1-1 draw in their Uefa Champions League play-off first leg.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwyqzk5yk41o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:05:51+00:00"
+    },
+    {
+      "title": "Celtic take the lead through Nygren's 'magnificent' strike",
+      "description": "Celtic take the lead in their Champions League play-off first leg against LASK, as Benjamin Nygren finds the top corner in spectacular fashion from outside of the box.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cp8xg9j7gnko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:00:45+00:00"
+    },
+    {
+      "title": "Celtic take the lead through Nygren's 'magnificent' strike",
+      "description": "Celtic take the lead in their Champions League play-off first leg against LASK, as Benjamin Nygren finds the top corner in spectacular fashion from outside of the box.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cp8xg9j7gnko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:00:45+00:00"
+    },
+    {
+      "title": "Duran's incredible double edges Celtic closer to Champions League",
+      "description": "Camilo Duran scores two excellent goals for Celtic in the first leg of their Champions League play-off against Austria's LASK, finding the top corner with a volley and curling an effort past Lukas Jungwirth in the visitors' goal.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/crmrydv4ww0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:00:41+00:00"
+    },
+    {
+      "title": "Duran's incredible double edges Celtic closer to Champions League",
+      "description": "Camilo Duran scores two excellent goals for Celtic in the first leg of their Champions League play-off against Austria's LASK, finding the top corner with a volley and curling an effort past Lukas Jungwirth in the visitors' goal.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/crmrydv4ww0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T21:00:41+00:00"
+    },
+    {
+      "title": "'The itch isn\u2019t there anymore' - Kane cools talk of Premier League return",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T19:44:00+00:00"
+      "pubDateISO": "2026-08-19T21:00:00+00:00"
     },
     {
-      "title": "Celtic two up and hit the post vs LASK LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/celtic-vs-linz-ask/live/577265",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T18:30:00+00:00"
-    },
-    {
-      "title": "Chelsea latest: Four players training away from first team as squad numbers revealed",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T17:50:00+00:00"
-    },
-    {
-      "title": "Kane plays down returning to Premier League in future",
-      "description": "Harry Kane says \"the itch isn't there as much anymore\" to one day return to England from Germany and try and break the all-time scoring record in the Premier League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clylkxekeleo",
+      "title": "Rashford wants to play football 'without name mentioned every day'",
+      "description": "Marcus Rashford says he would like to play football without his \"name being mentioned every day\" after Gary Neville tried to start a conversation about the Manchester United forward on a podcast.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c1j1397zg1xo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T17:14:38+00:00"
-    },
-    {
-      "title": "Sheff Utd could face points deduction after High Court ruling",
-      "description": "Sheffield United could incur a 12-point deduction after the company used to buy the club was placed into liquidation.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g618x1z80o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T17:01:42+00:00"
-    },
-    {
-      "title": "Questions remain over Vieira deal amid Senegal uncertainty",
-      "description": "Questions remain over the appointment of Patrick Vieira as Senegal's new head coach, with the country's football federation riven by off-field issues.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cddjvjqd5mro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T16:26:06+00:00"
-    },
-    {
-      "title": "Reijnders leaves Man City for Al-Qadsiah in \u00a352m deal",
-      "description": "Netherlands midfielder Tijjani Reijnders completes a \u00a352m move to Saudi Arabian side Al-Qadsiah from Manchester City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c0m7el3zr2eo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T16:01:32+00:00"
-    },
-    {
-      "title": "Aston Villa latest: Tosin eyed as potential Konsa replacement",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T16:00:00+00:00"
-    },
-    {
-      "title": "Delap loses number nine shirt & trains away from first team",
-      "description": "Chelsea have split their players into two training groups at Cobham, involving several players who could move before the transfer window closes, including Liam Delap, Nicolas Jackson and Mykhailo Mudryk.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5y4nel5gddo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T15:58:44+00:00"
-    },
-    {
-      "title": "Rangers eye striker after Nedeljkovic joins from Villa",
-      "description": "Kosta Nedeljkovic joins Rangers on a season-long loan from Aston Villa, with the Ibrox club holding a \"conditional obligation\" to buy the 20-year-old Serbia defender.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2mz3j402zo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T15:52:49+00:00"
+      "pubDateISO": "2026-08-19T20:56:50+00:00"
     }
   ]
 }
