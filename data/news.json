@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-20T04:35:27.435423+00:00",
+  "generatedAt": "2026-08-20T05:29:09.866392+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Premier League predictions 2026-27: BBC Sport pundits pick their top four",
+      "description": "We ask 26 BBC Sport football pundits to predict who will win the 2026-27 Premier League title, and which clubs will finish in the top four.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp8edryd7plo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T05:24:16+00:00"
+    },
+    {
+      "title": "Aguero and Shearer star in best opening-round debuts",
+      "description": "BBC Sport takes a look at some of the Premier League's greatest opening-day debuts, including Alan Shearer's Blackburn blinder and Michu's Swansea screamers.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwyl718g865o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T05:22:10+00:00"
+    },
     {
       "title": "Celtic find value in 'special' Duran - but does ambition reach further still?",
       "description": "Now that the Champions League money may be nigh, we will get to see the scale of Celtic's ambition, asks Tom English?",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T21:28:08+00:00"
-    },
-    {
-      "title": "Duran stars as Celtic open big lead against LASK",
-      "description": "Celtic take a huge step towards the Champions League as two stunning Camilo Duran strikes help carve out a commanding first-leg play-off lead against LASK.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c0m73y34nglo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:28:08+00:00"
-    },
-    {
-      "title": "Celje fight back to earn draw against Slovan Bratislava",
-      "description": "Slovenia's Celje fight back from a goal down to earn a 1-1 draw away against Slovakian side Slovan Bratislava in the first leg of the Champions League play-offs.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/crl7673348xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:22:24+00:00"
     }
   ]
 }
