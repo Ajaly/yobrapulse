@@ -1,21 +1,48 @@
 {
-  "generatedAt": "2026-08-20T18:33:53.421211+00:00",
+  "generatedAt": "2026-08-20T19:30:09.354029+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "title": "Brighton frustrated by Tromso in first leg of Conference League tie",
+      "description": "Brighton were forced to settle for a goalless draw against a stubborn Tromso side in the first leg of their Conference League play-off.",
+      "link": "https://www.skysports.com/football/tromso-vs-brighton-and-hove-albion/report/577284",
       "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T18:50:00+00:00"
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T20:00:00+00:00"
     },
     {
-      "title": "Raskin dropped for Rangers vs Jablonec LIVE!",
+      "title": "Villa \u00a318m bid for Harwood-Bellis rejected by Southampton",
+      "description": "Aston Villa have bid worth around \u00a318m plus add-ons rejected by Southampton for defender Taylor Harwood-Bellis.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx27w8kv9lvo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T19:14:08+00:00"
+    },
+    {
+      "title": "Joao Pedro set to extend Chelsea deal to 2034",
+      "description": "Chelsea are set to renew striker Joao Pedro's contract until 2034 before the start of the Premier League season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T19:06:34+00:00"
+    },
+    {
+      "title": "Watch: Late Larne double seals first-leg win over 10-man Red Imps",
+      "description": "Watch highlights as Irish Premiership champions Larne defeat 10-man Lincoln Red Imps 2-0 in the first leg of their Uefa Conference League play-off.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c5y3ny87r84o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T19:03:06+00:00"
+    },
+    {
+      "title": "Dragojevic hits the post for Rangers vs Jablonec LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/rangers-vs-fk-jablonec/live/577502",
       "source": "Sky Sports",
@@ -85,33 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-20T17:30:00+00:00"
-    },
-    {
-      "title": "One to watch? Hot take?! Sky Sports writers give their PL predictions!",
-      "description": "Sky Sports writers have given their Premier League predictions ahead of the new season, including their hot take and one to watch!",
-      "link": "https://www.skysports.com/watch/video/13575127/sky-sports-writers-give-their-premier-league-predictions-ahead-of-new-season",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T17:09:00+00:00"
-    },
-    {
-      "title": "Liverpool have \u00a350m bid rejected for Brighton's Minteh",
-      "description": "Liverpool have a \u00a350m bid rejected by Brighton for their winger Yankuba Minteh.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T17:06:34+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T15:50:17+00:00"
     }
   ]
 }
