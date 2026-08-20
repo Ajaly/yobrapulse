@@ -502,8 +502,19 @@ def compute_availability_score(team_id, elements):
     reflects real manager consensus on who matters, not a guess this
     script invents. None if the squad sample is too small to trust
     (MIN_AVAILABILITY_SAMPLE - same small-sample caution as
-    compute_squad_ratings elsewhere in this file)."""
-    squad = [e for e in elements if e["team"] == team_id]
+    compute_squad_ratings elsewhere in this file).
+
+    Excludes status "u" ("unavailable") players entirely, not just from
+    the available count - FPL keeps a sold/loaned-out player's real
+    team field pointing at their old real club (checked directly: no
+    "left the league" value exists), and every real "u" entry in this
+    data is a permanent transfer or loan departure, never an injury
+    (see build_injury_report). Counting a player who's genuinely gone
+    as part of the squad, then as "missing" from it, understates a
+    team's real availability using someone who was never going to play
+    for them again regardless - found from a real report that a sold
+    player (Spence, to Inter) was still dragging Spurs' number down."""
+    squad = [e for e in elements if e["team"] == team_id and e.get("status") != "u"]
     if len(squad) < MIN_AVAILABILITY_SAMPLE:
         return None
     def weight(e):
@@ -1924,8 +1935,20 @@ def build_injury_report(eligible, top_n=8):
     proxy for "returning from injury") compares FPL's own this-round vs
     next-round chance-of-playing percentages - both real published
     fields, so next > this is a genuine forward-looking signal already
-    in the data, not a guess built on top of it."""
-    flagged = [e for e in eligible if e.get("status") != "a" and e.get("news")]
+    in the data, not a guess built on top of it.
+
+    Only real injury/doubt/suspension statuses (i/d/s) qualify - status
+    "u" ("unavailable") is FPL's catch-all for a player no longer
+    available to their club at all, which in this real data is always a
+    permanent transfer or loan departure (checked directly: every "u"
+    entry's real news text reads "Has joined X permanently/on loan", not
+    a single injury among them). A sold or loaned-out player belongs in
+    a transfer feed, not a list meant to answer "who might be out this
+    week" - they're not coming back regardless of what next gameweek's
+    chance-of-playing number would say, and grouping them here was
+    reported directly from a real player (Spence, sold to Inter) showing
+    up as if he were day-to-day questionable."""
+    flagged = [e for e in eligible if e.get("status") in ("i", "d", "s") and e.get("news")]
     out = []
     for e in flagged[:top_n]:
         this_chance = e.get("chance_of_playing_this_round")
