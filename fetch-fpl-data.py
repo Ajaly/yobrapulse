@@ -866,7 +866,15 @@ def fetch_league_standings(slug, season):
     zero."""
     try:
         data = fetch_json(f"https://site.api.espn.com/apis/v2/sports/soccer/{slug}/standings?season={season}")
-    except Exception:
+    except Exception as err:
+        # Silent by design (this file's philosophy: degrade gracefully,
+        # never crash the whole run over one league) - but silent used to
+        # mean invisible too, which cost real debugging time once already
+        # (a transient ESPN error zeroed out all 4 other-league panels for
+        # one real CI run, with nothing in the log to explain why). This
+        # print is the fix: still degrades gracefully, but now shows up
+        # in the GitHub Actions log instead of looking like "no fixtures".
+        print(f"fetch_league_standings({slug}): real fetch failed ({err}) - returning empty, not fabricated")
         return {}
     children = data.get("children") or []
     if not children:
@@ -896,7 +904,11 @@ def fetch_league_upcoming_fixtures(slug, window_days=OTHER_LEAGUE_FIXTURE_WINDOW
         date_str = (now + timedelta(days=offset)).strftime("%Y%m%d")
         try:
             data = fetch_json(ESPN_SCOREBOARD_URL.format(slug=slug, date=date_str))
-        except Exception:
+        except Exception as err:
+            # See fetch_league_standings' comment - same silent-failure
+            # class, same fix: log it so a transient blip is visible in
+            # the CI run instead of just looking like an empty league.
+            print(f"fetch_league_upcoming_fixtures({slug}, {date_str}): real fetch failed ({err}) - skipping this date")
             continue
         for ev in data.get("events", []):
             comp = ev["competitions"][0]
