@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-20T21:26:21.993474+00:00",
+  "generatedAt": "2026-08-20T22:24:39.074361+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Two PL clubs interested in Arsenal's Jesus",
+      "description": "The top stories and transfer rumours from Friday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13575203/arsenal-transfer-news-gabriel-jesus-of-interest-to-everton-and-ipswich-as-gunners-consider-eli-junior-kroupi-move-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T22:20:00+00:00"
+    },
+    {
+      "title": "McInnes' Rangers serve up stodgy 12-course banquet of huff and puff",
+      "description": "Rangers beat Jablonec in the first leg of their Conference League play-off, but it wasn't a pretty watch, writes Tom English.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c98v73n24j2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T22:09:11+00:00"
+    },
+    {
+      "title": "McInnes' Rangers serve up stodgy 12-course banquet of huff and puff",
+      "description": "Rangers beat Jablonec in the first leg of their Conference League play-off, but it wasn't a pretty watch, writes Tom English.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c98v73n24j2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T22:09:11+00:00"
+    },
+    {
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T21:45:48+00:00"
+    },
+    {
+      "title": "Euro Leagues: Serie A season preview & Ronaldinho's Back!",
+      "description": "John Bennett is joined by Julien Laurens & James Horncastle.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p5lkpz",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T21:45:00+00:00"
+    },
     {
       "title": "Naderi keeps Rangers' Conference League hopes alive as Devlin sent off",
       "description": "Ryan Naderi gave Rangers a crucial &#8211; but slender &#8211; lead in their Conference League play-off against Jablonec.",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-20T19:14:08+00:00"
-    },
-    {
-      "title": "Joao Pedro set to extend Chelsea deal to 2034",
-      "description": "Chelsea are set to renew striker Joao Pedro's contract until 2034 before the start of the Premier League season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T19:06:34+00:00"
-    },
-    {
-      "title": "Late Larne double seals first-leg win over 10-man Red Imps",
-      "description": "Watch highlights as Irish Premiership champions Larne defeat 10-man Lincoln Red Imps 2-0 in the first leg of their Uefa Conference League play-off.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c5y3ny87r84o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T19:03:06+00:00"
-    },
-    {
-      "title": "WBA's Heggebo given two-match ban for 'successful deception' after handball goal",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T18:15:00+00:00"
-    },
-    {
-      "title": "West Brom's Heggebo banned for 'handball goal'",
-      "description": "West Bromwich Albion striker Aune Heggebo is banned for two matches by the FA for scoring a goal with his hand against Norwich City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c7vg26r2yd1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T18:13:05+00:00"
-    },
-    {
-      "title": "Liverpool latest: Reds approach for Brighton's Minteh rejected",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T18:00:00+00:00"
     }
   ]
 }
