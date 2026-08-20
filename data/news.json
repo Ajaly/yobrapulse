@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-20T07:39:54.531933+00:00",
+  "generatedAt": "2026-08-20T08:35:14.690709+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/11095/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T08:50:00+00:00"
+    },
     {
       "title": "How does Arteta deliver step five of his Arsenal plan?",
       "description": "When Mikel Arteta arrived at Arsenal, he presented a five-step plan to go from crisis club to glory. Welcome to step five: create a dynasty.",
@@ -22,6 +31,60 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-20T08:00:00+00:00"
+    },
+    {
+      "title": "Inter Milan agree \u00a330m deal for Liverpool's Jones",
+      "description": "Inter Milan have agreed a &#163;30m (&#8364;35m) deal with Liverpool for Curtis Jones.",
+      "link": "https://www.skysports.com/football/news/11095/13574174/curtis-jones-transfer-news-inter-milan-agree-30m-deal-to-sign-liverpool-midfielder",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T08:00:00+00:00"
+    },
+    {
+      "title": "Inter agree \u00a330m deal for Liverpool's Jones",
+      "description": "Curtis Jones is set to join Inter Milan after the Italian side agreed a deal worth 35m euros (\u00a330m) with Liverpool.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T07:57:12+00:00"
+    },
+    {
+      "title": "Damaged pitch forces PSG to switch season opener",
+      "description": "Paris St-Germain's opening Ligue 1 game will now be played in Rennes after hot weather \"severely damaged\" the Parc des Princes pitch.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2dwdxqylwo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T07:48:29+00:00"
+    },
+    {
+      "title": "Why are there so few African players in the WSL?",
+      "description": "BBC Sport explores why there are so few African players in the Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwymr0n2x1ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T07:46:45+00:00"
+    },
+    {
+      "title": "Why are there so few African players in the WSL?",
+      "description": "BBC Sport explores why there are so few African players in the Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwymr0n2x1ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T07:46:45+00:00"
+    },
+    {
+      "title": "When is the Champions League draw and who is in each pot?",
+      "description": "BBC Sport's Ask Me Anything team explains when the league phase draw for the 2026-27 Champions League is, as well as looking at who is in each pot",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3v0q3r554xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T07:27:59+00:00"
     },
     {
       "title": "Minority investment or takeover - what does Bezos' Liverpool deal mean?",
@@ -49,69 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-20T06:49:41+00:00"
-    },
-    {
-      "title": "Five in Five: Football quiz No 4",
-      "description": "Will you beat the clock by getting all five of today's answers in five minutes?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yr3w58qnlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T06:19:41+00:00"
-    },
-    {
-      "title": "Brooks on fatherhood, Ronaldo and European nights",
-      "description": "The new football season promises to be one of both little steps and giant steps for Bournemouth and Wales midfielder David Brooks.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3w02nv14pqo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T05:59:41+00:00"
-    },
-    {
-      "title": "Who am I? Guess Premier League star No 31",
-      "description": "Work out the identity of today's player in as few attempts as possible.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj36grvmrz4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T05:57:38+00:00"
-    },
-    {
-      "title": "Premier League predictions 2026-27: BBC Sport pundits pick their top four",
-      "description": "We ask 26 BBC Sport football pundits to predict who will win the 2026-27 Premier League title, and which clubs will finish in the top four.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp8edryd7plo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T05:24:16+00:00"
-    },
-    {
-      "title": "Aguero and Shearer star in best opening-round debuts",
-      "description": "BBC Sport takes a look at some of the Premier League's greatest opening-day debuts, including Alan Shearer's Blackburn blinder and Michu's Swansea screamers.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cwyl718g865o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T05:22:10+00:00"
-    },
-    {
-      "title": "Celtic find value in 'special' Duran - but does ambition reach further still?",
-      "description": "Now that the Champions League money may be nigh, we will get to see the scale of Celtic's ambition, asks Tom English?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn0n6k42803o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T23:34:09+00:00"
-    },
-    {
-      "title": "Celtic find value in 'special' Duran - but does ambition reach further still?",
-      "description": "Now that the Champions League money may be nigh, we will get to see the scale of Celtic's ambition, asks Tom English?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn0n6k42803o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T23:34:09+00:00"
     }
   ]
 }
