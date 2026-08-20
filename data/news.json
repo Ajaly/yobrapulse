@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-20T11:25:04.587773+00:00",
+  "generatedAt": "2026-08-20T12:38:29.709279+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Premier League reset: Record manager upheaval leaves 2026/27 wide open",
+      "description": "There's a sense of unpredictability surrounding the new Premier League campaign.",
+      "link": "https://www.skysports.com/football/news/11095/13574814/premier-league-managers-2026-27-record-new-bosses-manager-changes-and-tenure",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T13:00:00+00:00"
+    },
+    {
+      "title": "Jaissle on pain which set him on path to Newcastle and speaking with Howe",
+      "description": "New Newcastle United boss Matthias Jaissle says having his playing career ended by injury at the age of 25 showed him that adversity can lead to opportunity.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c171k9kd94zo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-20T11:29:18+00:00"
+    },
     {
       "title": "Who replaces Salah as Africa's Premier League king?",
       "description": "Following Mohamed Salah's Liverpool exit after nine seasons, who could take the Egyptian King's crown as Africa's biggest Premier League star?",
@@ -13,6 +31,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-20T11:03:10+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "Mark Chapman, Dion Dublin, Steve Ogrizovic, Rob Gurney & more on a remarkable story.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p5cnlh",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T11:00:00+00:00"
     },
     {
       "title": "Stunning strikes as Atletico beat Malaga 2-0 in La Liga",
@@ -60,7 +87,7 @@
       "pubDateISO": "2026-08-20T09:58:50+00:00"
     },
     {
-      "title": "West Ham condemn 'offensive and divisive' chant",
+      "title": "West Ham condemn 'divisive' chant about Israel's Solomon",
       "description": "West Ham urge their fans to stop an \"anti-Palestine\" chant about Manor Solomon that was heard during their match at Burnley last weekend.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cr7kydmyj70o",
       "source": "BBC Sport",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-20T09:01:21+00:00"
-    },
-    {
-      "title": "Man City join Man Utd in Kone race - Thursday's gossip",
-      "description": "Manchester City look set to rival neighbours Manchester United for Manu Kone, Aston Villa interested in Tosin Adarabioyo and Tottenham in talks over Man City duo.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn0n4qlxyq7o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T08:59:24+00:00"
-    },
-    {
-      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T08:50:00+00:00"
-    },
-    {
-      "title": "Barcelona face striker dilemma - could they cope without one?",
-      "description": "Barcelona are heading into the new La Liga season without an established striker, with Hansi Flick yet to replace Robert Lewandowski and Ferran Torres.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cyvlr6mz15no",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T08:44:57+00:00"
     }
   ]
 }
