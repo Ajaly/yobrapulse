@@ -1,9 +1,14 @@
 name: Refresh live data
 
 # Runs the same fetch scripts you'd otherwise run by hand, on a schedule,
-# and commits the results. Netlify is git-linked (see repo setup notes),
-# so a push here triggers an automatic redeploy - no manual "drop the
-# folder" step needed once this is wired up.
+# and commits the results, then deploys straight to Firebase Hosting.
+#
+# The deploy step here exists specifically because this job's own push
+# uses the default GITHUB_TOKEN, which GitHub deliberately does NOT let
+# trigger other on:push workflows (anti-recursion protection) - so
+# deploy-hosting.yml's push trigger never fires for this bot's own
+# commits, only for real pushes from a human. Deploying directly in this
+# same job is what closes that specific gap.
 #
 # Hourly keeps News feeling current without wasting Actions minutes:
 # public repos get unlimited free minutes; private repos get 2,000/month
@@ -45,13 +50,33 @@ jobs:
         continue-on-error: true
 
       - name: Commit and push if data changed
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --staged --quiet; then
             echo "No data changes, skipping commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Automated data refresh"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Set up Node.js
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Deploy to Firebase Hosting
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/firebase-service-account.json
+          export GOOGLE_APPLICATION_CREDENTIALS=/tmp/firebase-service-account.json
+          npm install -g firebase-tools
+          firebase deploy --only hosting --project yobrapulse-a0389
+          rm -f /tmp/firebase-service-account.json

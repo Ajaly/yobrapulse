@@ -1,0 +1,38 @@
+name: Deploy to Firebase Hosting
+
+# Fires on every real push to main (a manual commit, a merged PR) so
+# Firebase Hosting never sits behind what's actually in the repo, which
+# is what this whole workflow exists to fix - it was previously a
+# manual "remember to run firebase deploy" step, repeatedly forgotten.
+#
+# Does NOT fire for refresh-data.yml's own bot commits - GitHub
+# deliberately blocks the default GITHUB_TOKEN from triggering other
+# on:push workflows (anti-recursion protection). That case is handled
+# by a deploy step inside refresh-data.yml itself instead.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Deploy to Firebase Hosting
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/firebase-service-account.json
+          export GOOGLE_APPLICATION_CREDENTIALS=/tmp/firebase-service-account.json
+          npm install -g firebase-tools
+          firebase deploy --only hosting --project yobrapulse-a0389
+          rm -f /tmp/firebase-service-account.json
