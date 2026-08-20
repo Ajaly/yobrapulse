@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-19T23:22:19.495520+00:00",
+  "generatedAt": "2026-08-20T00:56:47.233354+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Celtic find value in 'special' Duran - but does ambition reach further still?",
+      "description": "Now that the Champions League money may be nigh, we will get to see the scale of Celtic's ambition, asks Tom English?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn0n6k42803o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T23:34:09+00:00"
+    },
     {
       "title": "Algorithms amplified World Cup racism, says report",
       "description": "Racist abuse aimed at England footballers on social media was amplified during the World Cup by algorithms designed to maximise engagement and profit, according to new research.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T21:22:24+00:00"
-    },
-    {
-      "title": "Man Utd latest: Rashford gives pointed response to Carragher clip...",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:10:00+00:00"
     }
   ]
 }
