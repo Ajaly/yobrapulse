@@ -161,10 +161,19 @@ exports.mpesaCallback = onRequest(async (req, res) => {
     // always captures regardless of Content-Type.
     let parsedBody = req.body;
     if (!parsedBody || !parsedBody.Body) {
+      if (!req.rawBody) {
+        // Seen in production: an incoming request with no body at all
+        // (method/headers logged here specifically to find out what
+        // sends these - a Safaricom retry-with-no-payload, a health
+        // check, something else - next time it happens).
+        console.error(`mpesaCallback: no rawBody at all - method=${req.method} content-type=${req.get("content-type")} content-length=${req.get("content-length")}`);
+        ack();
+        return;
+      }
       try {
         parsedBody = JSON.parse(req.rawBody.toString("utf8"));
       } catch (parseErr) {
-        console.error("mpesaCallback: could not parse rawBody as JSON:", req.rawBody && req.rawBody.toString("utf8"));
+        console.error("mpesaCallback: could not parse rawBody as JSON:", req.rawBody.toString("utf8"));
         ack();
         return;
       }
@@ -206,7 +215,14 @@ exports.mpesaCallback = onRequest(async (req, res) => {
       const plan = PLANS[planId] || PLANS.monthly;
       const subRef = db.collection("subscriptions").doc(uid);
       const subSnap = await subRef.get();
-      const currentExpiry = subSnap.exists() && subSnap.data().expiresAt ? subSnap.data().expiresAt.toMillis() : 0;
+      // subSnap.exists is a boolean PROPERTY on the Admin SDK (unlike the
+      // client Web SDK's exists(), which is a method) - calling it as a
+      // function throws, silently killing subscription activation for
+      // every brand-new subscriber right after their payment was already
+      // marked "success" above. Real incident: a friend's payment
+      // succeeded with a real M-Pesa receipt but their subscription was
+      // never created - traced to this exact line.
+      const currentExpiry = subSnap.exists && subSnap.data().expiresAt ? subSnap.data().expiresAt.toMillis() : 0;
       // Renewing before the current period ends extends it, rather than
       // discarding whatever time was already paid for.
       const baseMillis = Math.max(Date.now(), currentExpiry);
