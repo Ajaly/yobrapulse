@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-20T05:29:09.866392+00:00",
+  "generatedAt": "2026-08-20T06:39:05.938040+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Five in Five: Football quiz No 4",
+      "description": "Will you beat the clock by getting all five of today's answers in five minutes?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5yr3w58qnlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T06:19:41+00:00"
+    },
+    {
+      "title": "Who am I? Guess Premier League star No 31",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj36grvmrz4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T05:57:38+00:00"
+    },
     {
       "title": "Premier League predictions 2026-27: BBC Sport pundits pick their top four",
       "description": "We ask 26 BBC Sport football pundits to predict who will win the 2026-27 Premier League title, and which clubs will finish in the top four.",
@@ -22,6 +40,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-20T05:22:10+00:00"
+    },
+    {
+      "title": "Celtic find value in 'special' Duran - but does ambition reach further still?",
+      "description": "Now that the Champions League money may be nigh, we will get to see the scale of Celtic's ambition, asks Tom English?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn0n6k42803o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-19T23:34:09+00:00"
     },
     {
       "title": "Celtic find value in 'special' Duran - but does ambition reach further still?",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-19T21:42:50+00:00"
-    },
-    {
-      "title": "Man City join Man Utd in Kone race - Thursday's gossip",
-      "description": "Manchester City look set to rival neighbours Manchester United for Manu Kone, Aston Villa interested in Tosin Adarabioyo and Tottenham in talks over Man City duo.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn0n4qlxyq7o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-19T21:30:46+00:00"
-    },
-    {
-      "title": "Bodo/Glimt in strong position following first-leg win at NEC",
-      "description": "Last season's Champions League fairytale side Bodo/Glimt look set to qualify for this year's edition of the competition after winning 3-1 away at NEC Nijmegen of the Netherlands.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c62v4v90yd9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:29:50+00:00"
-    },
-    {
-      "title": "Duran stars as Celtic ease to comfortable win over LASK",
-      "description": "Celtic take a huge step towards the Champions League as two stunning Camilo Duran strikes help carve out a commanding first-leg play-off lead against LASK.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c0m73y34nglo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-19T21:28:08+00:00"
     }
   ]
 }
