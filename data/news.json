@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-20T13:45:24.671022+00:00",
+  "generatedAt": "2026-08-20T14:34:33.919426+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "How to follow the Premier League opening weekend on the BBC",
+      "description": "Our Ask Me Anything team explains how to follow the opening matches of the Premier League season on the BBC this weekend.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp30ggvqj0do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T14:07:37+00:00"
+    },
     {
       "title": "'100 per cent' - Arteta confident Lewis-Skelly stays at Arsenal",
       "description": "Mikel Arteta says he is \"100 per cent\" confident Myles Lewis-Skelly will be an Arsenal player at the end of the transfer window.",
@@ -15,13 +24,13 @@
       "pubDateISO": "2026-08-20T14:04:00+00:00"
     },
     {
-      "title": "Palace latest: Sage expects Wharton to stay",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "title": "Once homeless and in liquidation, Coventry seek 'fearless' PL return",
+      "description": "The groundswell of excitement in the city of Coventry is palpable. Frank Lampard's side play their first Premier League game in over 25 years at the home of champions Arsenal on Friday night, live on Sky Sports. Only four months ago fans were lining the streets to celebrate the Championship title.",
+      "link": "https://www.skysports.com/football/news/11095/13575020/arsenal-vs-coventry-premier-league-new-boys-approaching-season-with-no-fear-under-frank-lampard",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T13:46:00+00:00"
+      "pubDateISO": "2026-08-20T14:00:00+00:00"
     },
     {
       "title": "All done deals in August 2026",
@@ -31,6 +40,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-20T13:15:43+00:00"
+    },
+    {
+      "title": "BBC Women's Football Weekly",
+      "description": "Fridolina Rolfo, Lea Schuller, Julia Zigiotti, Dominique Janssen, Hanna Lundkvist join Jo",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p5h7wh",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T13:10:00+00:00"
     },
     {
       "title": "BBC Women's Football Weekly",
@@ -94,24 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-20T10:25:40+00:00"
-    },
-    {
-      "title": "Liverpool latest: How will Jones exit affect Iraola's midfield options?",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T10:00:00+00:00"
-    },
-    {
-      "title": "Trippier suffers knee injury on Wolves league debut",
-      "description": "Wolverhampton Wanderers confirm right-back Kieran Trippier suffered a knee ligament injury during his league debut for the club against Blackburn.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckgd5x38p74o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-20T09:58:50+00:00"
     }
   ]
 }
