@@ -40,7 +40,11 @@ button {
   padding:26px 16px 18px;
   display:flex;
   flex-direction:column;
-  flex-shrink:0
+  flex-shrink:0;
+  position:sticky;
+  top:0;
+  height:100vh;
+  overflow-y:auto
 }
 .brand {
   display:flex;
