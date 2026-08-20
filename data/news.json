@@ -1,18 +1,45 @@
 {
-  "generatedAt": "2026-08-20T17:26:59.750088+00:00",
+  "generatedAt": "2026-08-20T18:33:53.421211+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Rangers push for European football continues vs Jablonec LIVE!",
+      "title": "FREE STREAM: The Transfer Show on Sky Sports News",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/11095/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T18:50:00+00:00"
+    },
+    {
+      "title": "Raskin dropped for Rangers vs Jablonec LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/rangers-vs-fk-jablonec/live/577502",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-20T18:15:00+00:00"
+    },
+    {
+      "title": "WBA's Heggebo given two-match ban for 'successful deception' after handball goal",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T18:15:00+00:00"
+    },
+    {
+      "title": "West Brom's Heggebo banned for 'handball goal'",
+      "description": "West Bromwich Albion striker Aune Heggebo is banned for two matches by the FA for scoring a goal with his hand against Norwich City.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c7vg26r2yd1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T18:13:05+00:00"
     },
     {
       "title": "Liverpool latest: Reds approach for Brighton's Minteh rejected",
@@ -31,6 +58,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-20T18:00:00+00:00"
+    },
+    {
+      "title": "Why first 10 days of new season could tell us a lot about Man Utd",
+      "description": "The first 10 days of the new Premier League season could tell us a lot about what lies ahead for Manchester United.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy5dx427yw7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T17:54:26+00:00"
+    },
+    {
+      "title": "Seven defenders on the books - why Arsenal still want Konsa",
+      "description": "Arsenal have already spent more than \u00a3100m this summer as they look to defend their Premier League title - so why do they want Ezri Konsa as well?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c62ey2y9n79o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T17:48:12+00:00"
     },
     {
       "title": "Man Utd latest: Carrick 'delighted' with Rashford as work continues on signings",
@@ -60,15 +105,6 @@
       "pubDateISO": "2026-08-20T17:06:34+00:00"
     },
     {
-      "title": "Carrick dismisses 'ridiculous' Man Utd easy start talk",
-      "description": "Manchester United head coach Michael Carrick says it is \"ridiculous\" to say his side has an easy start to the Premier League season because they play two promoted teams.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy5dx427yw7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T16:30:29+00:00"
-    },
-    {
       "title": "All done deals in August 2026",
       "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
@@ -76,42 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-20T15:50:17+00:00"
-    },
-    {
-      "title": "What happens during a football medical?",
-      "description": "BBC Sport's Ask Me Anything team explain what is involved in a medical exam when a football player joins a new club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj4w287qnn4o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T15:32:38+00:00"
-    },
-    {
-      "title": "Why are Brighton and Hearts both allowed in the Conference League?",
-      "description": "Brighton and Hearts, who share an owner in Tony Bloom, could both end up in the Conference League this season",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c78g2ll2l7vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T15:24:51+00:00"
-    },
-    {
-      "title": "Chelsea happy with Fernandez, says Alonso",
-      "description": "Enzo Fernandez has shown a \"really good attitude\" since his return to Chelsea, says head coach Xabi Alonso, as speculation over the midfielder's future continues.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cpq8gq5llp9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T14:39:54+00:00"
-    },
-    {
-      "title": "Cancelo makes 'dream' Barca move after Al-Hilal exit",
-      "description": "Portugal full-back Joao Cancelo rejoins Barcelona on a permanent deal after his contract with Al-Hilal was mutually terminated.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20j30vnxkmo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T14:39:19+00:00"
     }
   ]
 }
