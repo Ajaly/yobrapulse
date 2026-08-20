@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-20T14:34:33.919426+00:00",
+  "generatedAt": "2026-08-20T15:31:30.159787+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Chelsea happy with Fernandez, says Alonso",
+      "description": "Enzo Fernandez has shown a \"really good attitude\" since his return to Chelsea, says head coach Xabi Alonso, as speculation over the midfielder's future continues.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cpq8gq5llp9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T14:39:54+00:00"
+    },
+    {
+      "title": "Cancelo makes 'dream' Barca move after Al-Hilal exit",
+      "description": "Portugal full-back Joao Cancelo rejoins Barcelona on a permanent deal after his contract with Al-Hilal was mutually terminated.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20j30vnxkmo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T14:39:19+00:00"
+    },
     {
       "title": "How to follow the Premier League opening weekend on the BBC",
       "description": "Our Ask Me Anything team explains how to follow the opening matches of the Premier League season on the BBC this weekend.",
@@ -60,7 +78,7 @@
       "pubDateISO": "2026-08-20T13:10:00+00:00"
     },
     {
-      "title": "Premier League reset: Record manager upheaval leaves 2026/27 wide open",
+      "title": "Record manager upheaval leaves new Premier League season wide open",
       "description": "There's a sense of unpredictability surrounding the new Premier League campaign.",
       "link": "https://www.skysports.com/football/news/11095/13574814/premier-league-managers-2026-27-record-new-bosses-manager-changes-and-tenure",
       "source": "Sky Sports",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-20T11:03:10+00:00"
-    },
-    {
-      "title": "Football Daily",
-      "description": "Mark Chapman, Dion Dublin, Steve Ogrizovic, Rob Gurney & more on a remarkable story.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p5cnlh",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T11:00:00+00:00"
-    },
-    {
-      "title": "Konsa set for Arsenal medical before \u00a350m-plus move",
-      "description": "Arsenal agree a deal worth more than \u00a350m to sign Aston Villa and England defender Ezri Konsa.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c98vz9jvg0vo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T10:25:40+00:00"
     }
   ]
 }
