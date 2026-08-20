@@ -410,6 +410,7 @@ function predictChip(f) {
 function recentChangesLine(f) {
   const rc = f.recentChanges;
   if (!rc) return '';
+  const factors = f.factors || {};
   const notes = [];
   ['home', 'away'].forEach((side) => {
     const info = rc[side];
@@ -426,10 +427,17 @@ function recentChangesLine(f) {
       if (info.transfers.out) bits.push(`${info.transfers.out} out`);
       parts.push(`${bits.join(', ')} (real transfers, last ${info.transfers.windowDays}d)`);
     }
+    // Raw headcount above is context only; this net value (who arrived
+    // vs departed, weighted by real FPL price) is what actually feeds
+    // predict_fixture - see fetch-fpl-data.py's compute_transfer_impact.
+    const netValue = factors[`${side}TransferImpactM`];
+    if (netValue) {
+      parts.push(`net ${netValue > 0 ? '+' : ''}£${netValue.toFixed(1)}m squad value this summer`);
+    }
     if (parts.length) notes.push(`${f[side]}: ${parts.join(' · ')}`);
   });
   if (!notes.length) return '';
-  return `<div class="recent-changes-note">${notes.join(' &nbsp;·&nbsp; ')} <span class="muted">(context, not scored)</span></div>`;
+  return `<div class="recent-changes-note">${notes.join(' &nbsp;·&nbsp; ')} <span class="muted">(headcount is context only; net squad value factors into the prediction)</span></div>`;
 }
 
 function renderTrackRecord(record) {

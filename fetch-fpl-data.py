@@ -157,15 +157,19 @@ FRIENDLY_PREDICTIONS_LOG_PATH = "data/friendly-predictions-log.json"
 # Each run snapshots every player's team id to data/roster-snapshot.json
 # and diffs it against the previous run's snapshot - a real difference
 # is a real detected transfer, logged permanently to
-# data/transfer-log.json. Same honest limit as match-history.json: this
-# can't see any transfer that happened before tracking started, only
-# ones detected from here on. Deliberately NOT fed into predict_fixture's
-# math - there's no real evidence yet for how much a given transfer
-# should move a win probability, so it's surfaced as transparent
-# context instead of an invented weight (see compute_squad_churn).
+# data/transfer-log.json. Real gap that used to exist here: this could
+# only see transfers detected from tracking-start (Aug 12) onward, not
+# anything before - fixed by the one-time backfill in
+# backfill-transfer-history.py, which diffs each club's real last-season
+# ESPN roster against its real current one to catch everything missed.
+# compute_squad_churn's raw in/out headcount stays display-only context
+# (never fed into predict_fixture's math - no real evidence a raw count
+# should move a win probability); compute_transfer_impact's real
+# price-weighted net value IS fed in, see predict_fixture.
 ROSTER_SNAPSHOT_PATH = "data/roster-snapshot.json"
 TRANSFER_LOG_PATH = "data/transfer-log.json"
 SQUAD_CHURN_WINDOW_DAYS = 30
+TRANSFER_IMPACT_CAP_MILLIONS = 40  # dampens one outlier transfer window before it reaches predict_fixture
 
 # Real manager/head-coach changes: no reliable free API exists for this
 # (verified - see the module docstring's prediction-engine section).
@@ -511,21 +515,29 @@ def compute_availability_score(team_id, elements):
     return available_weight / total_weight
 
 
-def predict_fixture(home_team, away_team, squad_ratings, espn_context, home_availability, away_availability):
+def predict_fixture(home_team, away_team, squad_ratings, espn_context, home_availability, away_availability, home_transfer_impact=0.0, away_transfer_impact=0.0):
     """Home/draw/away percentages (always sum to exactly 100) plus a
     predicted scoreline, blended from real signals: FPL's own overall
     home/away strength rating, real last-season squad quality (points-
     per-90), real recent form (last 5 matches, recency-weighted), real
     squad availability (ownership-weighted real injury/suspension
-    status), and real head-to-head history when at least 3 real
-    meetings exist (same small-sample caution used throughout this
-    file). Base rates (45/25/30) reflect the actual long-run Premier
-    League home-advantage split. Any signal that isn't available for a
-    given fixture is dropped from the blend entirely rather than
-    treated as zero - see the compute_* functions above for exactly
-    when and why each one can be missing. Still a transparent,
-    documented heuristic, not a trained model or a black box, and the
-    UI says so."""
+    status), real head-to-head history when at least 3 real meetings
+    exist (same small-sample caution used throughout this file), and
+    real net summer transfer value (price-weighted, see
+    compute_transfer_impact) - added specifically because squad_ratings
+    needs real accumulated current-season minutes to trust a number
+    (MIN_SQUAD_MINUTES), which early in a season (when a real marquee
+    signing matters most) most or every club hasn't reached yet, so
+    quality_diff alone was silently blind exactly when transfer
+    activity is most relevant. Kept deliberately modest relative to the
+    established signals (see the *4/*3 weights below) since this is a
+    newer, less-proven addition. Base rates (45/25/30) reflect the
+    actual long-run Premier League home-advantage split. Any signal
+    that isn't available for a given fixture is dropped from the blend
+    entirely rather than treated as zero - see the compute_* functions
+    above for exactly when and why each one can be missing. Still a
+    transparent, documented heuristic, not a trained model or a black
+    box, and the UI says so."""
     strength_diff = home_team["strength_overall_home"] - away_team["strength_overall_away"]
     home_quality = squad_ratings.get(home_team["id"])
     away_quality = squad_ratings.get(away_team["id"])
@@ -546,8 +558,12 @@ def predict_fixture(home_team, away_team, squad_ratings, espn_context, home_avai
     if h2h and h2h["meetings"] >= 3:
         h2h_signal = (h2h["homeWins"] - h2h["awayWins"]) / h2h["meetings"]
 
-    home_win = 45 + strength_diff * 7 + quality_diff * 5 + form_diff * 12 + availability_diff * 10 + h2h_signal * 8
-    away_win = 30 - strength_diff * 6 - quality_diff * 4 - form_diff * 10 - availability_diff * 9 - h2h_signal * 6
+    # Normalized to roughly [-2, 2] (both teams could sit at opposite
+    # caps) so it lines up with the other signals' scale before weighting.
+    transfer_diff = ((home_transfer_impact or 0.0) - (away_transfer_impact or 0.0)) / TRANSFER_IMPACT_CAP_MILLIONS
+
+    home_win = 45 + strength_diff * 7 + quality_diff * 5 + form_diff * 12 + availability_diff * 10 + h2h_signal * 8 + transfer_diff * 4
+    away_win = 30 - strength_diff * 6 - quality_diff * 4 - form_diff * 10 - availability_diff * 9 - h2h_signal * 6 - transfer_diff * 3
     home_win = max(10, min(78, home_win))
     away_win = max(6, min(62, away_win))
     draw = 100 - home_win - away_win
@@ -577,6 +593,8 @@ def predict_fixture(home_team, away_team, squad_ratings, espn_context, home_avai
             "h2h": h2h,
             "homeAvailability": round(home_availability, 2) if home_availability is not None else None,
             "awayAvailability": round(away_availability, 2) if away_availability is not None else None,
+            "homeTransferImpactM": round(home_transfer_impact, 1) if home_transfer_impact else 0,
+            "awayTransferImpactM": round(away_transfer_impact, 1) if away_transfer_impact else 0,
         },
         "marketOdds": (espn_context or {}).get("marketOdds"),
     }
@@ -614,6 +632,8 @@ def build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, elements, t
         espn_context = fetch_espn_context(home_name, away_name, f["kickoff_time"])
         home_availability = compute_availability_score(f["team_h"], elements)
         away_availability = compute_availability_score(f["team_a"], elements)
+        home_transfer_impact = compute_transfer_impact(f["team_h"], transfer_events)
+        away_transfer_impact = compute_transfer_impact(f["team_a"], transfer_events)
         entry = {
             "id": f["id"],
             "home": home_name,
@@ -622,7 +642,7 @@ def build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, elements, t
             "kickoffLabel": kickoff.strftime("%a %d %b · %H:%M UTC"),
             "recentChanges": build_recent_changes(f["team_h"], f["team_a"], teams, transfer_events, manager_changes, tracking_since),
         }
-        entry.update(predict_fixture(teams_by_id[f["team_h"]], teams_by_id[f["team_a"]], squad_ratings, espn_context, home_availability, away_availability))
+        entry.update(predict_fixture(teams_by_id[f["team_h"]], teams_by_id[f["team_a"]], squad_ratings, espn_context, home_availability, away_availability, home_transfer_impact, away_transfer_impact))
         out.append(entry)
     return out
 
@@ -682,6 +702,8 @@ def build_friendly_predictions(friendly_events, teams, teams_by_id, squad_rating
         espn_context = build_espn_context(FRIENDLY_SLUG, fx["eventId"], fx["homeEspnId"], fx["awayEspnId"])
         home_availability = compute_availability_score(fx["homeTeamId"], elements)
         away_availability = compute_availability_score(fx["awayTeamId"], elements)
+        home_transfer_impact = compute_transfer_impact(fx["homeTeamId"], transfer_events)
+        away_transfer_impact = compute_transfer_impact(fx["awayTeamId"], transfer_events)
         kickoff = datetime.fromisoformat(fx["kickoffISO"].replace("Z", "+00:00")) if fx["kickoffISO"] else None
         entry = {
             "id": f"friendly-{fx['eventId']}",
@@ -695,6 +717,7 @@ def build_friendly_predictions(friendly_events, teams, teams_by_id, squad_rating
         entry.update(predict_fixture(
             teams_by_id[fx["homeTeamId"]], teams_by_id[fx["awayTeamId"]],
             squad_ratings, espn_context, home_availability, away_availability,
+            home_transfer_impact, away_transfer_impact,
         ))
         out.append(entry)
     return out
@@ -1336,6 +1359,12 @@ def detect_transfers(elements, teams, previous_snapshot):
                 "toTeamId": e["team"],
                 "toTeam": teams[e["team"]],
                 "detectedAt": detected_at,
+                # Real FPL price at detection time (tenths of £1m, same
+                # unit as now_cost elsewhere) - used as a real, always-
+                # available proxy for the player's proven quality/
+                # reputation when weighting transfer impact. See
+                # compute_transfer_impact.
+                "marketValue": e.get("now_cost"),
             })
     return events
 
@@ -1392,10 +1421,23 @@ def compute_squad_churn(team_id, transfer_events, window_days=SQUAD_CHURN_WINDOW
     window, from the already-loaded transfer log - always a real
     number (0 is a legitimate real answer, not a missing one), context
     only, never fed into predict_fixture's math (see the
-    ROSTER_SNAPSHOT_PATH comment for why)."""
+    ROSTER_SNAPSHOT_PATH comment for why).
+
+    Skips "source": "backfill" entries specifically: those all carry
+    detectedAt from the one-time backfill run itself (see
+    backfill-transfer-history.py), not the real date the transfer
+    actually happened, which that data source doesn't expose. Counting
+    them here would make a real summer move look like it happened
+    "in the last 30 days" for the next 30 days after every backfill
+    run - genuinely misleading for a caption whose whole point is
+    recency. compute_transfer_impact deliberately does NOT apply this
+    filter - it's not a recency window, it's every real transfer on
+    file regardless of when it was detected."""
     cutoff = datetime.now(timezone.utc).timestamp() - window_days * 86400
     in_count = out_count = 0
     for t in transfer_events:
+        if t.get("source") == "backfill":
+            continue
         try:
             detected = datetime.fromisoformat(t["detectedAt"]).timestamp()
         except (KeyError, ValueError):
@@ -1407,6 +1449,47 @@ def compute_squad_churn(team_id, transfer_events, window_days=SQUAD_CHURN_WINDOW
         elif t["fromTeamId"] == team_id:
             out_count += 1
     return {"in": in_count, "out": out_count, "windowDays": window_days}
+
+
+def compute_transfer_impact(team_id, transfer_events):
+    """Real net transfer value for a club, in £m - sum of incoming
+    players' real FPL price minus outgoing players' real FPL price
+    (marketValue, tenths of £1m, same unit build_teams_list's
+    squad_value already uses), across every real transfer on file for
+    this club: both live-detected (since tracking began, see
+    detect_transfers) and the one-time historical backfill (see
+    backfill-transfer-history.py) that covers real moves from before
+    tracking existed.
+
+    Unlike compute_squad_churn's raw in/out headcount (display context
+    only, deliberately never fed into predict_fixture - see
+    build_recent_changes), this IS fed into the prediction: price is a
+    real, always-available proxy for a player's proven quality/
+    reputation, so two clubs both showing "1 out" read very
+    differently once weighted - losing a fringe player nets close to
+    0, losing a first-team regular for a marquee signing nets strongly
+    positive. Not perfect (an undervalued breakout signing looks
+    smaller than its real impact), but honest, not invented.
+
+    A transfer with no known price (an old log entry from before
+    marketValue was added, or a backfilled player price lookup that
+    failed to match) is skipped entirely rather than guessed - the
+    same "real data or nothing" rule used throughout this file.
+
+    Capped before returning so one outlier transfer window (a genuine
+    real £100m spend) can't dominate a prediction this file otherwise
+    keeps deliberately modest - see predict_fixture and
+    TRANSFER_IMPACT_CAP_MILLIONS."""
+    net_millions = 0.0
+    for t in transfer_events:
+        market_value = t.get("marketValue")
+        if market_value is None:
+            continue
+        if t["toTeamId"] == team_id:
+            net_millions += market_value / 10
+        elif t["fromTeamId"] == team_id:
+            net_millions -= market_value / 10
+    return max(-TRANSFER_IMPACT_CAP_MILLIONS, min(TRANSFER_IMPACT_CAP_MILLIONS, net_millions))
 
 
 def load_manager_changes():
