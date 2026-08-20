@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-20T15:31:30.159787+00:00",
+  "generatedAt": "2026-08-20T16:31:37.101866+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Liverpool interested in Brighton winger Minteh",
+      "description": "Liverpool make an approach to Brighton to sign winger Yankuba Minteh.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gknq7d8d5o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T16:26:57+00:00"
+    },
+    {
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T15:50:17+00:00"
+    },
+    {
+      "title": "What happens during a football medical?",
+      "description": "BBC Sport's Ask Me Anything team explain what is involved in a medical exam when a football player joins a new club.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj4w287qnn4o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-20T15:32:38+00:00"
+    },
+    {
+      "title": "Why are Brighton and Hearts both allowed in the Conference League?",
+      "description": "Brighton and Hearts, who share an owner in Tony Bloom, could both end up in the Conference League this season",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c78g2ll2l7vo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T15:24:51+00:00"
+    },
     {
       "title": "Chelsea happy with Fernandez, says Alonso",
       "description": "Enzo Fernandez has shown a \"really good attitude\" since his return to Chelsea, says head coach Xabi Alonso, as speculation over the midfielder's future continues.",
@@ -22,6 +58,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-20T14:39:19+00:00"
+    },
+    {
+      "title": "No Baleba for Brighton in Tromso play-off for Conference League LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/tromso-vs-brighton-and-hove-albion/live/577284",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-20T14:18:00+00:00"
     },
     {
       "title": "How to follow the Premier League opening weekend on the BBC",
@@ -51,15 +96,6 @@
       "pubDateISO": "2026-08-20T14:00:00+00:00"
     },
     {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T13:15:43+00:00"
-    },
-    {
       "title": "BBC Women's Football Weekly",
       "description": "Fridolina Rolfo, Lea Schuller, Julia Zigiotti, Dominique Janssen, Hanna Lundkvist join Jo",
       "link": "https://www.bbc.co.uk/sounds/play/p0p5h7wh",
@@ -76,42 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-20T13:10:00+00:00"
-    },
-    {
-      "title": "Record manager upheaval leaves new Premier League season wide open",
-      "description": "There's a sense of unpredictability surrounding the new Premier League campaign.",
-      "link": "https://www.skysports.com/football/news/11095/13574814/premier-league-managers-2026-27-record-new-bosses-manager-changes-and-tenure",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T13:00:00+00:00"
-    },
-    {
-      "title": "The Premier League's new plan to end corner chaos",
-      "description": "Holding, pushing, shoving, jostling and grappling. It became something of an epidemic in the Premier League last season - here's what's being done to fix it.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c0jl03lv775o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T12:53:03+00:00"
-    },
-    {
-      "title": "Jaissle on pain which set him on path to Newcastle and speaking with Howe",
-      "description": "New Newcastle United boss Matthias Jaissle says having his playing career ended by injury at the age of 25 showed him that adversity can lead to opportunity.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c171k9kd94zo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-20T11:29:18+00:00"
-    },
-    {
-      "title": "Who replaces Salah as Africa's Premier League king?",
-      "description": "Following Mohamed Salah's Liverpool exit after nine seasons, who could take the Egyptian King's crown as Africa's biggest Premier League star?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20dgvp9445o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T11:03:10+00:00"
     }
   ]
 }
