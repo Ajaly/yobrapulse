@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>YobraPulse Admin</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2316b667'/%3E%3Ctext x='50' y='70' font-family='Arial,sans-serif' font-weight='700' font-size='58' fill='%23071a12' text-anchor='middle'%3EY%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .admin-wrap { max-width: 1000px; margin: 0 auto; padding: 32px 20px 60px; }
+    .admin-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 28px; }
+    .admin-header h1 { font-size: 26px; }
+    .admin-state { padding: 40px 0; text-align: center; }
+    table.admin-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    table.admin-table th { text-align: left; color: #7c8a92; font-weight: 600; padding: 8px 10px; border-bottom: 1px solid #1d2530; }
+    table.admin-table td { padding: 8px 10px; border-bottom: 1px solid #161c24; }
+    .status-pill { padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+    .status-pill.success { background: #0e382a; color: #16b667; }
+    .status-pill.failed { background: #3a1414; color: #f2685c; }
+    .status-pill.pending { background: #2a2410; color: #f5a34a; }
+  </style>
+</head>
+<body>
+  <div class="admin-wrap">
+    <div class="admin-header">
+      <h1>YobraPulse <span class="accent">Admin</span></h1>
+      <button class="text-button" id="admin-signout-btn" hidden>Sign out</button>
+    </div>
+
+    <div id="admin-signed-out" class="admin-state">
+      <p class="lede" style="margin:0 0 16px">Sign in with the owner account to view this.</p>
+      <button class="primary-button" id="admin-signin-btn"><i data-lucide="log-in"></i> Sign in with Google</button>
+    </div>
+
+    <div id="admin-forbidden" class="admin-state" hidden>
+      <p class="lede">This account isn't authorized to view the admin dashboard.</p>
+    </div>
+
+    <div id="admin-loading" class="admin-state" hidden>
+      <p class="lede">Loading real stats&hellip;</p>
+    </div>
+
+    <div id="admin-content" hidden>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <div class="metric-icon blue"><i data-lucide="users-round"></i></div>
+          <span class="metric-label">Total users</span>
+          <strong id="stat-total-users">-</strong>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon green"><i data-lucide="crown"></i></div>
+          <span class="metric-label">Active subscribers</span>
+          <strong id="stat-active-subs">-</strong>
+          <small class="muted" id="stat-subs-breakdown"></small>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon orange"><i data-lucide="banknote"></i></div>
+          <span class="metric-label">Revenue (last 200 payments)</span>
+          <strong id="stat-revenue">-</strong>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon purple"><i data-lucide="activity"></i></div>
+          <span class="metric-label">Payments (success / failed / pending)</span>
+          <strong id="stat-payments-breakdown">-</strong>
+        </div>
+      </div>
+
+      <section class="panel" style="margin-top:20px">
+        <div class="panel-header">
+          <div><span class="section-kicker">M-Pesa</span><h2>Recent payments</h2></div>
+          <button class="text-button" id="admin-refresh-btn"><i data-lucide="refresh-cw"></i> Refresh</button>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="admin-table">
+            <thead>
+              <tr><th>When</th><th>Phone</th><th>Plan</th><th>Amount</th><th>Status</th><th>M-Pesa receipt</th></tr>
+            </thead>
+            <tbody id="admin-payments-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <p class="lede" style="margin-top:20px;font-size:12px">
+        Traffic/visits aren't tracked here - see
+        <a href="https://analytics.google.com/" target="_blank" rel="noopener" style="color:var(--green)">Google Analytics</a>
+        once linked (Firebase Console &gt; Project Settings &gt; Integrations).
+      </p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/lucide@1.28.0"></script>
+  <script type="module" src="admin.js"></script>
+</body>
+</html>

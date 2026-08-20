@@ -250,3 +250,70 @@ exports.mpesaCallback = onRequest(async (req, res) => {
     ack();
   }
 });
+
+// Admin dashboard (admin.html) - gated to the project owner's own uid
+// regardless of who calls it, same pattern as the earlier one-time
+// repairSubscriptions repair. Unlike that one, this has an ongoing
+// purpose, so it stays.
+const ADMIN_UID = "j5Pdgef6TCOJRryV12SmTNG7P1E3";
+
+exports.getAdminStats = onCall(async (request) => {
+  if (!request.auth || request.auth.uid !== ADMIN_UID) {
+    throw new HttpsError("permission-denied", "Not authorized.");
+  }
+
+  const [usersCountSnap, paymentsSnap, subsSnap] = await Promise.all([
+    db.collection("users").count().get(),
+    db.collection("payments").orderBy("createdAt", "desc").limit(200).get(),
+    db.collection("subscriptions").get(),
+  ]);
+
+  let totalRevenueKes = 0;
+  let successfulPayments = 0;
+  let failedPayments = 0;
+  let pendingPayments = 0;
+  const recentPayments = [];
+
+  paymentsSnap.docs.forEach((doc) => {
+    const p = doc.data();
+    if (p.status === "success") {
+      successfulPayments += 1;
+      totalRevenueKes += p.amount || 0;
+    } else if (p.status === "failed") {
+      failedPayments += 1;
+    } else {
+      pendingPayments += 1;
+    }
+    recentPayments.push({
+      phone: p.phone,
+      plan: p.plan,
+      amount: p.amount,
+      status: p.status,
+      mpesaReceiptNumber: p.mpesaReceiptNumber || null,
+      createdAt: p.createdAt ? p.createdAt.toDate().toISOString() : null,
+    });
+  });
+
+  const now = Date.now();
+  let activeSubscribers = 0;
+  const subscribersByPlan = { weekly: 0, monthly: 0 };
+  subsSnap.docs.forEach((doc) => {
+    const s = doc.data();
+    if (s.active && s.expiresAt && s.expiresAt.toMillis() > now) {
+      activeSubscribers += 1;
+      if (subscribersByPlan[s.plan] !== undefined) subscribersByPlan[s.plan] += 1;
+    }
+  });
+
+  return {
+    totalUsers: usersCountSnap.data().count,
+    activeSubscribers,
+    subscribersByPlan,
+    totalRevenueKes,
+    successfulPayments,
+    failedPayments,
+    pendingPayments,
+    recentPayments: recentPayments.slice(0, 25),
+  };
+});
+
