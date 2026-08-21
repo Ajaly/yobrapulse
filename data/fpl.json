@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T19:26:11.877133+00:00",
+  "generatedAt": "2026-08-21T20:22:46.143784+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -7,6 +7,50 @@
     "deadlineLabel": "Fri 28 Aug \u00b7 17:30 UTC"
   },
   "captainPicks": [
+    {
+      "id": "12",
+      "score": 5.8,
+      "factors": {
+        "epNext": 3.2,
+        "ownForm": 8.0,
+        "teamForm": null,
+        "opponentForm": null,
+        "venueForm": null,
+        "venueFormSource": null,
+        "opponentVenueForm": null,
+        "fixtureLoad": 1,
+        "opponent": "Aston Villa",
+        "isHome": false,
+        "trackRecordVsOpponent": {
+          "meetings": 5,
+          "goals": 0,
+          "assists": 1,
+          "involvementsPerMatch": 0.2
+        }
+      }
+    },
+    {
+      "id": "15",
+      "score": 5.17,
+      "factors": {
+        "epNext": 2.3,
+        "ownForm": 9.0,
+        "teamForm": null,
+        "opponentForm": null,
+        "venueForm": null,
+        "venueFormSource": null,
+        "opponentVenueForm": null,
+        "fixtureLoad": 1,
+        "opponent": "Aston Villa",
+        "isHome": false,
+        "trackRecordVsOpponent": {
+          "meetings": 6,
+          "goals": 0,
+          "assists": 1,
+          "involvementsPerMatch": 0.17
+        }
+      }
+    },
     {
       "id": "411",
       "score": 5.0,
@@ -28,105 +72,59 @@
           "involvementsPerMatch": 1.0
         }
       }
-    },
-    {
-      "id": "4",
-      "score": 4.5,
-      "factors": {
-        "epNext": 4.0,
-        "ownForm": 1.0,
-        "teamForm": null,
-        "opponentForm": null,
-        "venueForm": null,
-        "venueFormSource": null,
-        "opponentVenueForm": null,
-        "fixtureLoad": 1,
-        "opponent": "Aston Villa",
-        "isHome": false,
-        "trackRecordVsOpponent": {
-          "meetings": 5,
-          "goals": 1,
-          "assists": 0,
-          "involvementsPerMatch": 0.2
-        }
-      }
-    },
-    {
-      "id": "426",
-      "score": 4.5,
-      "factors": {
-        "epNext": 4.0,
-        "ownForm": null,
-        "teamForm": null,
-        "opponentForm": null,
-        "venueForm": null,
-        "venueFormSource": null,
-        "opponentVenueForm": null,
-        "fixtureLoad": 2,
-        "opponent": "Ipswich Town",
-        "isHome": true,
-        "trackRecordVsOpponent": {
-          "meetings": 2,
-          "goals": 0,
-          "assists": 1,
-          "involvementsPerMatch": 0.5
-        }
-      }
     }
   ],
   "topPerformers": [
+    "15",
+    "12",
     "26",
     "8",
-    "1",
-    "4",
     "10",
-    "11"
+    "557"
   ],
   "leaderboards": {
     "points": [
+      "15",
+      "12",
       "26",
       "8",
-      "1",
-      "4",
       "10"
     ],
     "assists": [
       "8",
-      "1",
-      "4",
       "10",
-      "11"
-    ],
-    "xg": [
-      "26",
-      "557",
-      "12",
-      "13",
-      "1"
-    ],
-    "value": [],
-    "tackles": [
-      "8",
-      "15",
       "557",
       "1",
       "4"
     ],
+    "xg": [
+      "12",
+      "26",
+      "557",
+      "15",
+      "10"
+    ],
+    "value": [],
+    "tackles": [
+      "15",
+      "8",
+      "12",
+      "557",
+      "1"
+    ],
     "saves": []
   },
   "comparisonPool": [
+    "15",
+    "12",
     "26",
     "8",
-    "1",
-    "4",
     "10",
-    "11",
-    "12",
-    "13",
-    "15",
     "557",
-    "173",
-    "175",
+    "1",
+    "11",
+    "13",
+    "4",
     "14",
     "25",
     "31",
@@ -161,6 +159,8 @@
     "159",
     "165",
     "200",
+    "173",
+    "175",
     "201",
     "204",
     "208",
@@ -220,7 +220,6 @@
     "471",
     "473",
     "480",
-    "489",
     "491",
     "112",
     "455",
@@ -268,7 +267,7 @@
       "adjustedSwing": 0.67,
       "nearFdr": 3.67,
       "laterFdr": 3.0,
-      "squadAvailability": 0.94,
+      "squadAvailability": 0.95,
       "fixtures": [
         "@ Liverpool",
         "vs Spurs",
@@ -364,13 +363,13 @@
       "homeWinPct": 54,
       "drawPct": 24,
       "awayWinPct": 22,
-      "predictedScore": "1.7 \u2014 1.0",
+      "predictedScore": "1.6 \u2014 1.0",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.94,
-        "awayAvailability": 0.94,
+        "awayAvailability": 0.95,
         "homeTransferImpactM": 5.5,
         "awayTransferImpactM": -12.0
       },
@@ -496,7 +495,7 @@
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.78,
+        "homeAvailability": 0.79,
         "awayAvailability": 0.95,
         "homeTransferImpactM": 10.5,
         "awayTransferImpactM": -5.5
@@ -4234,6 +4233,68 @@
     }
   ],
   "players": {
+    "12": {
+      "id": 12,
+      "name": "Bukayo Saka",
+      "shortName": "Saka",
+      "position": "MID",
+      "team": "Arsenal",
+      "avatar": "BS",
+      "avatarClass": "",
+      "price": "\u00a39.5m",
+      "owned": "9.3%",
+      "points": 8,
+      "epNext": 3.2,
+      "form": 8.0,
+      "minutes": 56,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.61,
+      "xa": 0.07,
+      "valueScore": 0.8,
+      "tackles": 1,
+      "clearancesBlocksInterceptions": 1,
+      "recoveries": 3,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Aston Villa (A)",
+      "fdr": 4,
+      "fdrClass": "hard"
+    },
+    "15": {
+      "id": 15,
+      "name": "Martin \u00d8degaard",
+      "shortName": "\u00d8degaard",
+      "position": "MID",
+      "team": "Arsenal",
+      "avatar": "M\u00d8",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a36.5m",
+      "owned": "8.1%",
+      "points": 9,
+      "epNext": 2.3,
+      "form": 9.0,
+      "minutes": 56,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.14,
+      "xa": 0.08,
+      "valueScore": 1.4,
+      "tackles": 2,
+      "clearancesBlocksInterceptions": 1,
+      "recoveries": 3,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Aston Villa (A)",
+      "fdr": 4,
+      "fdrClass": "hard"
+    },
     "411": {
       "id": 411,
       "name": "Erling Haaland",
@@ -4265,68 +4326,6 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
-    "4": {
-      "id": 4,
-      "name": "Gabriel dos Santos Magalh\u00e3es",
-      "shortName": "Gabriel",
-      "position": "DEF",
-      "team": "Arsenal",
-      "avatar": "GD",
-      "avatarClass": "",
-      "price": "\u00a38.0m",
-      "owned": "29.7%",
-      "points": 1,
-      "epNext": 4.0,
-      "form": 1.0,
-      "minutes": 18,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "valueScore": 0.1,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 0,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 5,
-      "fixture": "vs Aston Villa (A)",
-      "fdr": 4,
-      "fdrClass": "hard"
-    },
-    "426": {
-      "id": 426,
-      "name": "Bruno Borges Fernandes",
-      "shortName": "B.Fernandes",
-      "position": "MID",
-      "team": "Man Utd",
-      "avatar": "BB",
-      "avatarClass": "orange-avatar",
-      "price": "\u00a312.0m",
-      "owned": "52.1%",
-      "points": 0,
-      "epNext": 4.0,
-      "form": 0.0,
-      "minutes": 0,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "valueScore": 0.0,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 0,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4,
-      "fixture": "vs Ipswich Town (H)",
-      "fdr": 2,
-      "fdrClass": "easy"
-    },
     "26": {
       "id": 26,
       "name": "Kai Havertz",
@@ -4336,18 +4335,18 @@
       "avatar": "KH",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.5m",
-      "owned": "5.3%",
-      "points": 5,
+      "owned": "5.4%",
+      "points": 6,
       "epNext": 2.4,
-      "form": 5.0,
-      "minutes": 18,
+      "form": 6.0,
+      "minutes": 56,
       "goals": 1,
       "assists": 0,
       "xg": 0.24,
-      "xa": 0.0,
-      "valueScore": 0.7,
+      "xa": 0.02,
+      "valueScore": 0.8,
       "tackles": 0,
-      "clearancesBlocksInterceptions": 0,
+      "clearancesBlocksInterceptions": 1,
       "recoveries": 0,
       "saves": 0,
       "cleanSheets": 0,
@@ -4371,15 +4370,77 @@
       "points": 4,
       "epNext": 2.5,
       "form": 4.0,
-      "minutes": 18,
+      "minutes": 56,
       "goals": 0,
       "assists": 1,
-      "xg": 0.0,
+      "xg": 0.08,
       "xa": 0.05,
       "valueScore": 0.7,
       "tackles": 1,
-      "clearancesBlocksInterceptions": 2,
+      "clearancesBlocksInterceptions": 3,
       "recoveries": 1,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Aston Villa (A)",
+      "fdr": 4,
+      "fdrClass": "hard"
+    },
+    "10": {
+      "id": 10,
+      "name": "Benjamin White",
+      "shortName": "White",
+      "position": "DEF",
+      "team": "Arsenal",
+      "avatar": "BW",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a35.5m",
+      "owned": "4.5%",
+      "points": 4,
+      "epNext": 2.5,
+      "form": 4.0,
+      "minutes": 56,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.09,
+      "xa": 0.16,
+      "valueScore": 0.7,
+      "tackles": 0,
+      "clearancesBlocksInterceptions": 3,
+      "recoveries": 1,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Aston Villa (A)",
+      "fdr": 4,
+      "fdrClass": "hard"
+    },
+    "557": {
+      "id": 557,
+      "name": "Christos Tzolis",
+      "shortName": "Tzolis",
+      "position": "MID",
+      "team": "Arsenal",
+      "avatar": "CT",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a36.5m",
+      "owned": "25.2%",
+      "points": 4,
+      "epNext": 2.3,
+      "form": 4.0,
+      "minutes": 56,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.17,
+      "xa": 0.09,
+      "valueScore": 0.6,
+      "tackles": 1,
+      "clearancesBlocksInterceptions": 1,
+      "recoveries": 3,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -4402,7 +4463,7 @@
       "points": 1,
       "epNext": 4.0,
       "form": 1.0,
-      "minutes": 18,
+      "minutes": 56,
       "goals": 0,
       "assists": 0,
       "xg": 0.0,
@@ -4410,7 +4471,7 @@
       "valueScore": 0.2,
       "tackles": 0,
       "clearancesBlocksInterceptions": 0,
-      "recoveries": 2,
+      "recoveries": 5,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -4420,28 +4481,28 @@
       "fdr": 4,
       "fdrClass": "hard"
     },
-    "10": {
-      "id": 10,
-      "name": "Benjamin White",
-      "shortName": "White",
+    "4": {
+      "id": 4,
+      "name": "Gabriel dos Santos Magalh\u00e3es",
+      "shortName": "Gabriel",
       "position": "DEF",
       "team": "Arsenal",
-      "avatar": "BW",
-      "avatarClass": "orange-avatar",
-      "price": "\u00a35.5m",
-      "owned": "4.5%",
-      "points": 1,
-      "epNext": 2.5,
-      "form": 1.0,
-      "minutes": 18,
+      "avatar": "GD",
+      "avatarClass": "",
+      "price": "\u00a38.0m",
+      "owned": "29.7%",
+      "points": 0,
+      "epNext": 4.0,
+      "form": 0.0,
+      "minutes": 56,
       "goals": 0,
       "assists": 0,
       "xg": 0.0,
-      "xa": 0.06,
-      "valueScore": 0.2,
+      "xa": 0.0,
+      "valueScore": 0.0,
       "tackles": 0,
-      "clearancesBlocksInterceptions": 1,
-      "recoveries": 0,
+      "clearancesBlocksInterceptions": 0,
+      "recoveries": 2,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -4464,76 +4525,14 @@
       "points": 1,
       "epNext": 2.5,
       "form": 1.0,
-      "minutes": 18,
+      "minutes": 56,
       "goals": 0,
       "assists": 0,
       "xg": 0.0,
       "xa": 0.0,
       "valueScore": 0.2,
       "tackles": 0,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 1,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 5,
-      "fixture": "vs Aston Villa (A)",
-      "fdr": 4,
-      "fdrClass": "hard"
-    },
-    "557": {
-      "id": 557,
-      "name": "Christos Tzolis",
-      "shortName": "Tzolis",
-      "position": "MID",
-      "team": "Arsenal",
-      "avatar": "CT",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a36.5m",
-      "owned": "25.1%",
-      "points": 1,
-      "epNext": 2.3,
-      "form": 1.0,
-      "minutes": 18,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.17,
-      "xa": 0.04,
-      "valueScore": 0.2,
-      "tackles": 1,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 1,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 5,
-      "fixture": "vs Aston Villa (A)",
-      "fdr": 4,
-      "fdrClass": "hard"
-    },
-    "12": {
-      "id": 12,
-      "name": "Bukayo Saka",
-      "shortName": "Saka",
-      "position": "MID",
-      "team": "Arsenal",
-      "avatar": "BS",
-      "avatarClass": "",
-      "price": "\u00a39.5m",
-      "owned": "9.2%",
-      "points": 1,
-      "epNext": 3.2,
-      "form": 1.0,
-      "minutes": 18,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.09,
-      "xa": 0.02,
-      "valueScore": 0.1,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 0,
+      "clearancesBlocksInterceptions": 1,
       "recoveries": 2,
       "saves": 0,
       "cleanSheets": 0,
@@ -4557,15 +4556,15 @@
       "points": 1,
       "epNext": 2.6,
       "form": 1.0,
-      "minutes": 18,
+      "minutes": 56,
       "goals": 0,
       "assists": 0,
-      "xg": 0.02,
-      "xa": 0.03,
+      "xg": 0.07,
+      "xa": 0.07,
       "valueScore": 0.1,
       "tackles": 0,
-      "clearancesBlocksInterceptions": 1,
-      "recoveries": 0,
+      "clearancesBlocksInterceptions": 2,
+      "recoveries": 3,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -4574,99 +4573,6 @@
       "fixture": "vs Aston Villa (A)",
       "fdr": 4,
       "fdrClass": "hard"
-    },
-    "15": {
-      "id": 15,
-      "name": "Martin \u00d8degaard",
-      "shortName": "\u00d8degaard",
-      "position": "MID",
-      "team": "Arsenal",
-      "avatar": "M\u00d8",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a36.5m",
-      "owned": "8.1%",
-      "points": 1,
-      "epNext": 2.3,
-      "form": 1.0,
-      "minutes": 18,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "valueScore": 0.2,
-      "tackles": 1,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 0,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 5,
-      "fixture": "vs Aston Villa (A)",
-      "fdr": 4,
-      "fdrClass": "hard"
-    },
-    "173": {
-      "id": 173,
-      "name": "Bobby Thomas",
-      "shortName": "Thomas",
-      "position": "DEF",
-      "team": "Coventry City",
-      "avatar": "BT",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a34.0m",
-      "owned": "8.1%",
-      "points": 1,
-      "epNext": 1.0,
-      "form": 1.0,
-      "minutes": 18,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "valueScore": 0.2,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 4,
-      "recoveries": 0,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 2,
-      "teamStrengthAway": 2,
-      "fixture": "vs Hull City (H)",
-      "fdr": 2,
-      "fdrClass": "easy"
-    },
-    "175": {
-      "id": 175,
-      "name": "Milan van Ewijk",
-      "shortName": "van Ewijk",
-      "position": "DEF",
-      "team": "Coventry City",
-      "avatar": "MV",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a34.0m",
-      "owned": "14.1%",
-      "points": 1,
-      "epNext": 1.0,
-      "form": 1.0,
-      "minutes": 18,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "valueScore": 0.2,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 1,
-      "recoveries": 1,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 2,
-      "teamStrengthAway": 2,
-      "fixture": "vs Hull City (H)",
-      "fdr": 2,
-      "fdrClass": "easy"
     },
     "14": {
       "id": 14,
@@ -4708,7 +4614,7 @@
       "avatar": "VG",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "9.2%",
+      "owned": "9.1%",
       "points": 0,
       "epNext": 2.4,
       "form": 0.0,
@@ -5266,7 +5172,7 @@
       "avatar": "BV",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "22.2%",
+      "owned": "22.1%",
       "points": 0,
       "epNext": 1.9,
       "form": 0.0,
@@ -5483,7 +5389,7 @@
       "avatar": "RL",
       "avatarClass": "",
       "price": "\u00a35.0m",
-      "owned": "2.3%",
+      "owned": "2.4%",
       "points": 0,
       "epNext": 2.6,
       "form": 0.0,
@@ -5514,7 +5420,7 @@
       "avatar": "RJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "9.9%",
+      "owned": "10.0%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -5722,6 +5628,68 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
+    "173": {
+      "id": 173,
+      "name": "Bobby Thomas",
+      "shortName": "Thomas",
+      "position": "DEF",
+      "team": "Coventry City",
+      "avatar": "BT",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a34.0m",
+      "owned": "8.1%",
+      "points": 0,
+      "epNext": 1.0,
+      "form": 0.0,
+      "minutes": 56,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "xa": 0.01,
+      "valueScore": 0.0,
+      "tackles": 0,
+      "clearancesBlocksInterceptions": 5,
+      "recoveries": 1,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 2,
+      "fixture": "vs Hull City (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
+    },
+    "175": {
+      "id": 175,
+      "name": "Milan van Ewijk",
+      "shortName": "van Ewijk",
+      "position": "DEF",
+      "team": "Coventry City",
+      "avatar": "MV",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a34.0m",
+      "owned": "14.0%",
+      "points": 0,
+      "epNext": 1.0,
+      "form": 0.0,
+      "minutes": 56,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "xa": 0.01,
+      "valueScore": 0.0,
+      "tackles": 0,
+      "clearancesBlocksInterceptions": 3,
+      "recoveries": 2,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 2,
+      "fixture": "vs Hull City (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
+    },
     "201": {
       "id": 201,
       "name": "Daniel Mu\u00f1oz Mej\u00eda",
@@ -5793,7 +5761,7 @@
       "avatar": "IS",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "4.8%",
+      "owned": "4.7%",
       "points": 0,
       "epNext": 2.3,
       "form": 0.0,
@@ -6289,7 +6257,7 @@
       "avatar": "LD",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "5.4%",
+      "owned": "5.3%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -6351,7 +6319,7 @@
       "avatar": "HW",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "6.5%",
+      "owned": "6.4%",
       "points": 0,
       "epNext": 2.3,
       "form": 0.0,
@@ -6537,7 +6505,7 @@
       "avatar": "VV",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "18.8%",
+      "owned": "18.9%",
       "points": 0,
       "epNext": 3.1,
       "form": 0.0,
@@ -6599,7 +6567,7 @@
       "avatar": "MK",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "3.7%",
+      "owned": "3.8%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -6940,7 +6908,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.5m",
-      "owned": "26.4%",
+      "owned": "26.3%",
       "points": 0,
       "epNext": 2.9,
       "form": 0.0,
@@ -6971,7 +6939,7 @@
       "avatar": "PF",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.0m",
-      "owned": "4.3%",
+      "owned": "4.4%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -7095,7 +7063,7 @@
       "avatar": "YT",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.0m",
-      "owned": "2.5%",
+      "owned": "2.6%",
       "points": 0,
       "epNext": 2.1,
       "form": 0.0,
@@ -7241,6 +7209,37 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
+    "426": {
+      "id": 426,
+      "name": "Bruno Borges Fernandes",
+      "shortName": "B.Fernandes",
+      "position": "MID",
+      "team": "Man Utd",
+      "avatar": "BB",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a312.0m",
+      "owned": "52.0%",
+      "points": 0,
+      "epNext": 4.0,
+      "form": 0.0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "valueScore": 0.0,
+      "tackles": 0,
+      "clearancesBlocksInterceptions": 0,
+      "recoveries": 0,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Ipswich Town (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
+    },
     "427": {
       "id": 427,
       "name": "Bryan Mbeumo",
@@ -7250,7 +7249,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "39.1%",
+      "owned": "39.0%",
       "points": 0,
       "epNext": 2.8,
       "form": 0.0,
@@ -7489,37 +7488,6 @@
       "fdr": 4,
       "fdrClass": "hard"
     },
-    "489": {
-      "id": 489,
-      "name": "Ryan Yates",
-      "shortName": "Yates",
-      "position": "MID",
-      "team": "Nott'm Forest",
-      "avatar": "RY",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a34.5m",
-      "owned": "2.0%",
-      "points": 0,
-      "epNext": 0.0,
-      "form": 0.0,
-      "minutes": 0,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "valueScore": 0.0,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 0,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Liverpool (A)",
-      "fdr": 4,
-      "fdrClass": "hard"
-    },
     "491": {
       "id": 491,
       "name": "Igor Jesus Maciel da Cruz",
@@ -7622,7 +7590,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "24.7%",
+      "owned": "24.6%",
       "points": 0,
       "epNext": 1.9,
       "form": 0.0,
@@ -7653,7 +7621,7 @@
       "avatar": "MD",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "19.9%",
+      "owned": "19.8%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -7684,7 +7652,7 @@
       "avatar": "MS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "8.1%",
+      "owned": "8.2%",
       "points": 0,
       "epNext": 2.8,
       "form": 0.0,
@@ -7715,7 +7683,7 @@
       "avatar": "PP",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "17.6%",
+      "owned": "17.4%",
       "points": 0,
       "epNext": 0.0,
       "form": 0.0,
@@ -7777,7 +7745,7 @@
       "avatar": "MV",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.0m",
-      "owned": "5.8%",
+      "owned": "5.7%",
       "points": 0,
       "epNext": 0.0,
       "form": 0.0,
@@ -7963,7 +7931,7 @@
       "avatar": "TH",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.5m",
-      "owned": "7.2%",
+      "owned": "7.1%",
       "points": 0,
       "epNext": 1.7,
       "form": 0.0,
@@ -8110,7 +8078,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 9002361,
+  "totalManagers": 9034502,
   "totalPlayers": 600,
   "priceMovement": {
     "risers": [],
@@ -8120,27 +8088,35 @@
     "eventName": "Gameweek 1",
     "points": [
       {
-        "id": "26",
-        "value": 8
+        "id": "15",
+        "value": 11
+      },
+      {
+        "id": "10",
+        "value": 10
+      },
+      {
+        "id": "12",
+        "value": 10
       },
       {
         "id": "8",
-        "value": 6
-      },
-      {
-        "id": "173",
-        "value": 2
+        "value": 9
       },
       {
         "id": "1",
-        "value": 1
-      },
-      {
-        "id": "4",
-        "value": 1
+        "value": 6
       }
     ],
     "goals": [
+      {
+        "id": "12",
+        "value": 1
+      },
+      {
+        "id": "15",
+        "value": 1
+      },
       {
         "id": "26",
         "value": 1
@@ -8150,15 +8126,41 @@
       {
         "id": "8",
         "value": 1
+      },
+      {
+        "id": "10",
+        "value": 1
+      },
+      {
+        "id": "557",
+        "value": 1
       }
     ],
     "defensive": [
       {
-        "id": "173",
-        "value": 4
+        "id": "12",
+        "value": 7
       },
       {
-        "id": "8",
+        "id": "15",
+        "value": 7
+      },
+      {
+        "id": "13",
+        "value": 5
+      },
+      {
+        "id": "557",
+        "value": 5
+      },
+      {
+        "id": "173",
+        "value": 5
+      }
+    ],
+    "bonus": [
+      {
+        "id": "15",
         "value": 3
       },
       {
@@ -8166,25 +8168,7 @@
         "value": 2
       },
       {
-        "id": "557",
-        "value": 2
-      },
-      {
         "id": "10",
-        "value": 1
-      }
-    ],
-    "bonus": [
-      {
-        "id": "26",
-        "value": 3
-      },
-      {
-        "id": "8",
-        "value": 2
-      },
-      {
-        "id": "173",
         "value": 1
       }
     ],
@@ -8203,14 +8187,6 @@
       "id": "400",
       "status": "i",
       "news": "Calf injury - Expected back 5 Sep",
-      "chanceThisRound": 0,
-      "chanceNextRound": 0,
-      "improving": false
-    },
-    {
-      "id": "489",
-      "status": "i",
-      "news": "Unspecified injury - Unknown return date",
       "chanceThisRound": 0,
       "chanceNextRound": 0,
       "improving": false
@@ -8237,45 +8213,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 5184
+        "netTransfersEvent": 12038
       },
       {
         "id": "557",
-        "netTransfersEvent": 2959
+        "netTransfersEvent": 8686
       },
       {
         "id": "26",
-        "netTransfersEvent": 2731
+        "netTransfersEvent": 6353
       },
       {
         "id": "112",
-        "netTransfersEvent": 2075
+        "netTransfersEvent": 3319
       },
       {
         "id": "32",
-        "netTransfersEvent": 1546
+        "netTransfersEvent": 2968
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -13580
+        "netTransfersEvent": -22174
       },
       {
         "id": "503",
-        "netTransfersEvent": -5573
+        "netTransfersEvent": -9266
       },
       {
         "id": "25",
-        "netTransfersEvent": -3139
-      },
-      {
-        "id": "452",
-        "netTransfersEvent": -2543
+        "netTransfersEvent": -6369
       },
       {
         "id": "31",
-        "netTransfersEvent": -2348
+        "netTransfersEvent": -5801
+      },
+      {
+        "id": "452",
+        "netTransfersEvent": -4771
       }
     ]
   }

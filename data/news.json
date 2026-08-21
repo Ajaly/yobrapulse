@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-21T19:26:13.188646+00:00",
+  "generatedAt": "2026-08-21T20:22:47.073576+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man Utd agree \u00a370m deal for Baleba",
+      "description": "Manchester United have agreed a &#163;70m deal for Brighton midfielder Carlos Baleba.",
+      "link": "https://www.skysports.com/football/news/11095/13575603/carlos-baleba-transfer-news-manchester-united-and-brighton-agree-70m-deal-for-midfielder",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T20:38:00+00:00"
+    },
     {
       "title": "Clinical! Havertz fires Arsenal in front against Coventry",
       "description": "Kai Havertz fires Arsenal in front against Coventry as the Gunners begin their title defence.",
@@ -13,6 +22,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T20:21:00+00:00"
+    },
+    {
+      "title": "Man Utd agree \u00a370m fee for Brighton's Baleba",
+      "description": "Manchester United agree a fee of up to \u00a370m for Brighton midfielder Carlos Baleba.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwy452d662ko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T19:58:11+00:00"
+    },
+    {
+      "title": "Saturday's gossip: Liverpool enquire about Real Madrid's Endrick",
+      "description": "Liverpool make Endrick enquiry, Chelsea brace for a Nicolas Jackson offer and Arsenal make request to Victor Osimhen, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy4kjg3j4d3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T19:48:23+00:00"
     },
     {
       "title": "Inter Milan sign Jones from Liverpool",
@@ -42,7 +69,7 @@
       "pubDateISO": "2026-08-21T18:24:00+00:00"
     },
     {
-      "title": "Saka and Havertz give Arsenal flying start in Premier League opener LIVE!",
+      "title": "Odegaard adds another with Arsenal thrashing Coventry LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/arsenal-vs-coventry-city/live/559444",
       "source": "Sky Sports",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T17:17:08+00:00"
-    },
-    {
-      "title": "Bolt registers to play for Manchester Sunday league team",
-      "description": "Eight-time Olympic champion sprinter Usain Bolt has registered to play for a veterans' Sunday league football team in Manchester.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2reg3de87o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T17:14:32+00:00"
-    },
-    {
-      "title": "'I'm here to win' - Arsenal announce \u00a355m Konsa deal",
-      "description": "Arsenal have completed the &#163;55m deal to sign defender Ezri Konsa from Aston Villa.",
-      "link": "https://www.skysports.com/football/news/11095/13574990/ezri-konsa-arsenal-complete-51m-deal-for-aston-villa-and-england-defender",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T16:00:00+00:00"
-    },
-    {
-      "title": "PL is back TONIGHT! Recap all the must-read features!",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13574293/premier-league-2026-27-preview-team-news-analysis-injury-latest-suspensions-and-fantasy-football",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T16:00:00+00:00"
     }
   ]
 }
