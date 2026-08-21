@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-21T18:32:04.583341+00:00",
+  "generatedAt": "2026-08-21T19:26:13.188646+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Clinical! Havertz fires Arsenal in front against Coventry",
+      "description": "Kai Havertz fires Arsenal in front against Coventry as the Gunners begin their title defence.",
+      "link": "https://www.skysports.com/watch/video/13575602/kai-havertz-fires-arsenal-in-front-against-coventry",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T20:21:00+00:00"
+    },
     {
       "title": "Inter Milan sign Jones from Liverpool",
       "description": "Inter Milan have confirmed the signing of Curtis Jones in a &#163;30m (&#8364;35m) deal from Liverpool.",
@@ -13,6 +22,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-21T19:30:00+00:00"
+    },
+    {
+      "title": "Inter complete \u00a330m deal for Liverpool's Jones",
+      "description": "Inter Milan sign midfielder Curtis Jones from Liverpool in a deal worth \u00a330m.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czdm9pjd0ero",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T18:48:15+00:00"
     },
     {
       "title": "Brighton reject \u00a360m Liverpool bid for Minteh",
@@ -24,7 +42,7 @@
       "pubDateISO": "2026-08-21T18:24:00+00:00"
     },
     {
-      "title": "Bruno absent for Arsenal vs Coventry on Sky!",
+      "title": "Saka and Havertz give Arsenal flying start in Premier League opener LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/arsenal-vs-coventry-city/live/559444",
       "source": "Sky Sports",
@@ -76,24 +94,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T17:14:32+00:00"
-    },
-    {
-      "title": "Leeds latest: Chelsea reject opening offer for Mudryk",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13353569/leeds-united-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T16:30:00+00:00"
-    },
-    {
-      "title": "Chelsea to host Shakhtar's Champions League home games amid ongoing exile",
-      "description": "Shakhtar&#160;Donetsk will play their Champions League home games at&#160;Stamford Bridge&#160;this season after coming to an agreement with&#160;Chelsea&#160;to host their European matches while they remain in exile from their Donbas Arena home.",
-      "link": "https://www.skysports.com/football/news/11095/13575487/why-are-shakhtar-playing-at-chelsea-stamford-bridge-to-host-exiled-ukrainian-sides-champions-league-home-games",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T16:30:00+00:00"
     },
     {
       "title": "'I'm here to win' - Arsenal announce \u00a355m Konsa deal",
