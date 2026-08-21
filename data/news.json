@@ -1,18 +1,36 @@
 {
-  "generatedAt": "2026-08-21T09:34:33.485060+00:00",
+  "generatedAt": "2026-08-21T10:27:31.459947+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Palace latest: Deal for Chelsea defender Disasi close",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "title": "Rise of Espanyol's English winger Dolan: 'I am not the player I was a year ago'",
+      "description": "Tyrhys Dolan made an explosive start to the season in LaLiga with a goal in Espanyol&#8217;s 3-0 win over Levante. The English forward looked particularly sharp. Something has changed. &#8220;I am not the person or player I was a year ago,&#8221; Dolan tells <em>Sky Sports</em>.",
+      "link": "https://www.skysports.com/football/news/11095/13574143/tyrhys-dolan-interview-espanyol-winger-scored-against-levante-in-laliga-opener-and-is-ready-to-face-real-madrid-next",
       "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T11:00:00+00:00"
+    },
+    {
+      "title": "Joao Pedro set to sign new Chelsea deal",
+      "description": "Chelsea striker Joao Pedro is set to sign a new contract with the club until 2032, with the option of two further years.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o",
+      "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T09:55:00+00:00"
+      "pubDateISO": "2026-08-21T10:03:59+00:00"
+    },
+    {
+      "title": "The inside story of how Trabzonspor pulled off Salah deal",
+      "description": "Mohamed Salah was expected to move to Saudi Arabia or the United States after leaving Liverpool, but Turkish side Trabzonspor pulled off one of the coups of the transfer window.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg0jgy929do",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T09:41:46+00:00"
     },
     {
       "title": "PL is back TONIGHT! Your thoughts and predictions ahead of new season...",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T07:19:37+00:00"
-    },
-    {
-      "title": "Inverness dream big after dark days - watch Partick Thistle match on BBC",
-      "description": "Inverness Caledonian Thistle have been through a lot in 12 months and now harbour ambitions of returning to the top flight. Watch their Friday BBC Scotland live match with Partick Thistle.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c87nz9dwlddo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T07:19:37+00:00"
-    },
-    {
-      "title": "Would Marmoush joining Tottenham be a masterstroke or risk?",
-      "description": "Tottenham are working on a deal for Omar Marmoush, but what could the Man City forward bring to the north London team?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr49yypz01eo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T07:04:54+00:00"
     }
   ]
 }
