@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-21T20:22:47.073576+00:00",
+  "generatedAt": "2026-08-21T21:22:19.278766+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Arsenal cruise to victory over Coventry on Premier League return",
+      "description": "Highlights from the Premier League match between Arsenal and Coventry.",
+      "link": "https://www.skysports.com/watch/video/13575642/arsenal-3-0-coventry-premier-league-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T21:58:00+00:00"
+    },
+    {
+      "title": "Arsenal kick off title defence with thumping win over Coventry",
+      "description": "Arsenal made a flying start to their Premier League title defence with a 3-0 thumping of newly-promoted Coventry City in the season opener at the Emirates Stadium.",
+      "link": "https://www.skysports.com/football/arsenal-vs-coventry-city/report/559444",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T21:50:00+00:00"
+    },
+    {
+      "title": "Tzolis shines on Premier League debut - Arsenal v Coventry player ratings",
+      "description": "How Arsenal and Coventry's players rated following their Premier League match.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crl7g4e4pdno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T20:52:32+00:00"
+    },
+    {
+      "title": "Bavidge earns Inverness CT a point against Partick Thistle",
+      "description": "Watch the goals as Alfie Bavidge's late goal earns Inverness Caledonian Thistle a draw against Partick Thistle in the Scottish Championship.",
+      "link": "https://www.bbc.co.uk/sport/videos/cvgl2zz12xeo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T20:42:09+00:00"
+    },
+    {
+      "title": "Bavidge earns Inverness CT a point against Partick Thistle",
+      "description": "Watch the goals as Alfie Bavidge's late goal earns Inverness Caledonian Thistle a draw against Partick Thistle in the Scottish Championship.",
+      "link": "https://www.bbc.co.uk/sport/videos/cvgl2zz12xeo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T20:42:09+00:00"
+    },
     {
       "title": "Man Utd agree \u00a370m deal for Baleba",
       "description": "Manchester United have agreed a &#163;70m deal for Brighton midfielder Carlos Baleba.",
@@ -13,15 +58,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-21T20:38:00+00:00"
-    },
-    {
-      "title": "Clinical! Havertz fires Arsenal in front against Coventry",
-      "description": "Kai Havertz fires Arsenal in front against Coventry as the Gunners begin their title defence.",
-      "link": "https://www.skysports.com/watch/video/13575602/kai-havertz-fires-arsenal-in-front-against-coventry",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T20:21:00+00:00"
     },
     {
       "title": "Man Utd agree \u00a370m fee for Brighton's Baleba",
@@ -69,49 +105,13 @@
       "pubDateISO": "2026-08-21T18:24:00+00:00"
     },
     {
-      "title": "Odegaard adds another with Arsenal thrashing Coventry LIVE!",
+      "title": "Arsenal thrash Coventry to make perfect start to PL title defence LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/arsenal-vs-coventry-city/live/559444",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T18:00:00+00:00"
-    },
-    {
-      "title": "Mohamed Salah: Inside his move to Trabzonspor",
-      "description": "Mohamed Salah was expected to move to Saudi Arabia or the United States after leaving Liverpool, but Turkish side Trabzonspor pulled off one of the coups of the transfer window.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cx2reg4knn5o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T17:44:55+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T17:34:27+00:00"
-    },
-    {
-      "title": "Brighton reject Liverpool's new \u00a360m Minteh bid",
-      "description": "Liverpool have an improved bid of \u00a360m for winger Yankuba Minteh rejected by Brighton but talks between the clubs continue.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce97ky3vkx4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T17:26:49+00:00"
-    },
-    {
-      "title": "Where next for Chelsea's Delap and can he bounce back?",
-      "description": "Chelsea striker Liam Delap has been made available for sale just a year into his Stamford Bridge career. Where will he go and can he bounce back?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g3n9zryx8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T17:17:08+00:00"
     }
   ]
 }
