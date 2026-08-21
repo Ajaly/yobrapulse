@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-21T21:22:19.278766+00:00",
+  "generatedAt": "2026-08-21T22:21:43.572240+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'A massive 10 days' - Neville calls on Arsenal to go for Alvarez before deadline",
+      "description": "Defending Premier League champions Arsenal would become Champions League winners if they land Julian Alvarez in the final days of the transfer window, says Gary Neville.",
+      "link": "https://www.skysports.com/football/news/11095/13575645/arsenal-transfer-news-julian-alvarez-would-add-magic-to-gunners-frontline-says-gary-neville-as-he-urges-them-to-sign-atletico-madrid-striker",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T23:06:00+00:00"
+    },
+    {
+      "title": "PL predictions: Brentford to give Spurs a reality check",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/11095/13575143/premier-league-predictions-jones-knows-best-bets-champions-again-ole-ole-arsenal-to-make-fast-start-on-fnf",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T23:00:00+00:00"
+    },
+    {
+      "title": "Man Utd latest: Carrick on protecting Bruno and CL hopes",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T22:48:00+00:00"
+    },
+    {
+      "title": "'Alvarez pushes Arsenal over CL line' - Nev insists Gunners need world-class attacker",
+      "description": "The Friday Night Football panel discuss whether Arsenal are still shy of a world-class attacker that would see them get over the line to win their first UEFA Champions League title.",
+      "link": "https://www.skysports.com/watch/video/13575653/arsenal-vs-coventry-gary-neville-believes-arsenal-still-lack-a-world-class-attacker",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T22:38:00+00:00"
+    },
+    {
+      "title": "Lampard praises Coventry's courage in 3-0 defeat by Arsenal",
+      "description": "Coventry City manager Frank Lampard shares his thoughts on his side's 3-0 defeat by Arsenal in their first game back in the Premier League since 2001.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/ckg97d082wyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T22:00:36+00:00"
+    },
     {
       "title": "Arsenal cruise to victory over Coventry on Premier League return",
       "description": "Highlights from the Premier League match between Arsenal and Coventry.",
@@ -13,6 +58,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T21:58:00+00:00"
+    },
+    {
+      "title": "'A lot to like!' Arteta delighted with opening win for Arsenal",
+      "description": "Arsenal manager Mikel Arteta gives his thoughts on his side's 3-0 win over Coventry City in the opening game of the Premier League season.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c4gjn9j3d47o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T21:56:44+00:00"
     },
     {
       "title": "Arsenal kick off title defence with thumping win over Coventry",
@@ -24,7 +78,25 @@
       "pubDateISO": "2026-08-21T21:50:00+00:00"
     },
     {
-      "title": "Tzolis shines on Premier League debut - Arsenal v Coventry player ratings",
+      "title": "Arsenal start title defence with comfortable win over Coventry",
+      "description": "Goals from Kai Havertz, Bukayo Saka and Martin Odegaard give champions Arsenal a comfortable 3-0 win over newcomers Coventry City, in the opening game of the Premier League campaign at the Emirates Stadium.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cgr7e17010go",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T21:35:28+00:00"
+    },
+    {
+      "title": "Inter complete \u00a330m deal for Liverpool's Jones",
+      "description": "Inter Milan sign midfielder Curtis Jones from Liverpool in a deal worth \u00a330m.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czdm9pjd0ero",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T21:23:29+00:00"
+    },
+    {
+      "title": "Tzolis shines in Premier League opener - Arsenal v Coventry player ratings",
       "description": "How Arsenal and Coventry's players rated following their Premier League match.",
       "link": "https://www.bbc.co.uk/sport/football/articles/crl7g4e4pdno",
       "source": "BBC Sport",
@@ -40,78 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T20:42:09+00:00"
-    },
-    {
-      "title": "Bavidge earns Inverness CT a point against Partick Thistle",
-      "description": "Watch the goals as Alfie Bavidge's late goal earns Inverness Caledonian Thistle a draw against Partick Thistle in the Scottish Championship.",
-      "link": "https://www.bbc.co.uk/sport/videos/cvgl2zz12xeo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T20:42:09+00:00"
-    },
-    {
-      "title": "Man Utd agree \u00a370m deal for Baleba",
-      "description": "Manchester United have agreed a &#163;70m deal for Brighton midfielder Carlos Baleba.",
-      "link": "https://www.skysports.com/football/news/11095/13575603/carlos-baleba-transfer-news-manchester-united-and-brighton-agree-70m-deal-for-midfielder",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T20:38:00+00:00"
-    },
-    {
-      "title": "Man Utd agree \u00a370m fee for Brighton's Baleba",
-      "description": "Manchester United agree a fee of up to \u00a370m for Brighton midfielder Carlos Baleba.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwy452d662ko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T19:58:11+00:00"
-    },
-    {
-      "title": "Saturday's gossip: Liverpool enquire about Real Madrid's Endrick",
-      "description": "Liverpool make Endrick enquiry, Chelsea brace for a Nicolas Jackson offer and Arsenal make request to Victor Osimhen, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy4kjg3j4d3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T19:48:23+00:00"
-    },
-    {
-      "title": "Inter Milan sign Jones from Liverpool",
-      "description": "Inter Milan have confirmed the signing of Curtis Jones in a &#163;30m (&#8364;35m) deal from Liverpool.",
-      "link": "https://www.skysports.com/football/news/11095/13575215/curtis-jones-transfer-news-inter-milan-sign-midfielder-from-liverpool-in-30m-deal-with-sell-on-clause-included",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T19:30:00+00:00"
-    },
-    {
-      "title": "Inter complete \u00a330m deal for Liverpool's Jones",
-      "description": "Inter Milan sign midfielder Curtis Jones from Liverpool in a deal worth \u00a330m.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czdm9pjd0ero",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T18:48:15+00:00"
-    },
-    {
-      "title": "Brighton reject \u00a360m Liverpool bid for Minteh",
-      "description": "Brighton have rejected a &#163;60m bid from Liverpool for winger Yankuba Minteh.",
-      "link": "https://www.skysports.com/football/news/11095/13575558/yankuba-minteh-transfer-news-brighton-reject-liverpool-bid-of-60m-for-winger",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T18:24:00+00:00"
-    },
-    {
-      "title": "Arsenal thrash Coventry to make perfect start to PL title defence LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/arsenal-vs-coventry-city/live/559444",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T18:00:00+00:00"
     }
   ]
 }
