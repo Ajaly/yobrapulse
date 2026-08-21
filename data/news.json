@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-21T05:31:27.427078+00:00",
+  "generatedAt": "2026-08-21T06:39:21.049804+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Spurs agree \u00a375m deal to sign Man City's Savinho",
+      "description": "Tottenham agree a deal to sign Manchester City winger Savinho for \u00a375m, with a further \u00a310m in potential add-ons.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwyl0r8g4lwo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T06:30:48+00:00"
+    },
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your football knowledge with today's Who Am I?, Five in Five and Brainteaser quizzes.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gxxyyn8yeo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T06:29:11+00:00"
+    },
+    {
+      "title": "Break-up of Villa's Europa heroes leaves cracks for Emery to fill",
+      "description": "Aston Villa have already sold three key players this summer, a figure that could potentially double by the end of the transfer window.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20j3vjvy48o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T05:28:59+00:00"
+    },
     {
       "title": "PL predictions: Champions again, ole, ole? Arsenal to make fast start on FNF",
       "description": "",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-20T20:58:57+00:00"
-    },
-    {
-      "title": "Arsenal exploring Yildiz move - Friday's gossip",
-      "description": "Arsenal explore move for Kenan Yildiz, Atletico Madrid trying to finalise Nicolas Jackson signing and Manchester City in talks over Allan Elias, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czxqvllyg72o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T20:47:42+00:00"
-    },
-    {
-      "title": "Parrott makes move to Real Betis from AZ Alkmaar",
-      "description": "Republic of Ireland striker Troy Parrott completes his transfer from Dutch team AZ Alkmaar to Spanish side Real Betis.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdew1782493o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-20T20:15:59+00:00"
-    },
-    {
-      "title": "Brighton frustrated by Tromso in first leg of Conference League tie",
-      "description": "Brighton were forced to settle for a goalless draw against a stubborn Tromso side in the first leg of their Conference League play-off.",
-      "link": "https://www.skysports.com/football/tromso-vs-brighton-and-hove-albion/report/577284",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-20T20:00:00+00:00"
     }
   ]
 }
