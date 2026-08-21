@@ -1,18 +1,63 @@
 {
-  "generatedAt": "2026-08-21T17:26:47.588566+00:00",
+  "generatedAt": "2026-08-21T18:32:04.583341+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "The Premier League is back! Arsenal vs Coventry LIVE on Sky!",
+      "title": "Inter Milan sign Jones from Liverpool",
+      "description": "Inter Milan have confirmed the signing of Curtis Jones in a &#163;30m (&#8364;35m) deal from Liverpool.",
+      "link": "https://www.skysports.com/football/news/11095/13575215/curtis-jones-transfer-news-inter-milan-sign-midfielder-from-liverpool-in-30m-deal-with-sell-on-clause-included",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T19:30:00+00:00"
+    },
+    {
+      "title": "Brighton reject \u00a360m Liverpool bid for Minteh",
+      "description": "Brighton have rejected a &#163;60m bid from Liverpool for winger Yankuba Minteh.",
+      "link": "https://www.skysports.com/football/news/11095/13575558/yankuba-minteh-transfer-news-brighton-reject-liverpool-bid-of-60m-for-winger",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T18:24:00+00:00"
+    },
+    {
+      "title": "Bruno absent for Arsenal vs Coventry on Sky!",
       "description": "",
       "link": "https://www.skysports.com/football/arsenal-vs-coventry-city/live/559444",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T18:00:00+00:00"
+    },
+    {
+      "title": "Mohamed Salah: Inside his move to Trabzonspor",
+      "description": "Mohamed Salah was expected to move to Saudi Arabia or the United States after leaving Liverpool, but Turkish side Trabzonspor pulled off one of the coups of the transfer window.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cx2reg4knn5o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T17:44:55+00:00"
+    },
+    {
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T17:34:27+00:00"
+    },
+    {
+      "title": "Brighton reject Liverpool's new \u00a360m Minteh bid",
+      "description": "Liverpool have an improved bid of \u00a360m for winger Yankuba Minteh rejected by Brighton but talks between the clubs continue.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce97ky3vkx4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T17:26:49+00:00"
     },
     {
       "title": "Where next for Chelsea's Delap and can he bounce back?",
@@ -51,24 +96,6 @@
       "pubDateISO": "2026-08-21T16:30:00+00:00"
     },
     {
-      "title": "Sunderland latest: Defender Methalie joins with deal agreed for midfielder",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T16:06:00+00:00"
-    },
-    {
-      "title": "We don't have enough wingers for start of season - Iraola",
-      "description": "Liverpool boss Andoni Iraola believes his side don't have enough wide players for the start of the season - but is confident he will find a solution.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce97ky3vkx4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T16:01:55+00:00"
-    },
-    {
       "title": "'I'm here to win' - Arsenal announce \u00a355m Konsa deal",
       "description": "Arsenal have completed the &#163;55m deal to sign defender Ezri Konsa from Aston Villa.",
       "link": "https://www.skysports.com/football/news/11095/13574990/ezri-konsa-arsenal-complete-51m-deal-for-aston-villa-and-england-defender",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T16:00:00+00:00"
-    },
-    {
-      "title": "Spurs agree \u00a385m Savinho deal and close in on Marmoush",
-      "description": "Tottenham are closing in on signing Manchester City pair Savinho and Omar Marmoush.",
-      "link": "https://www.skysports.com/football/news/11095/13575264/savinho-transfer-tottenham-agree-85m-deal-to-sign-man-city-winger-as-spurs-close-in-on-omar-marmoush",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T15:51:00+00:00"
-    },
-    {
-      "title": "What does Heggebo's deception ban mean for football?",
-      "description": "BBC Sport explores the fallout from the decision to ban West Brom striker Aune Heggebo for two matches for \"successfully deceiving a match official\".",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c05q3946r6ro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T15:45:19+00:00"
-    },
-    {
-      "title": "Shakhtar agree to play Champions League ties at Chelsea",
-      "description": "Ukrainian club Shakhtar Donetsk agree to play Champions League home games at Chelsea's Stamford Bridge this season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cpw9e1dz9kko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T15:40:04+00:00"
     }
   ]
 }
