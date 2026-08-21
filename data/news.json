@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-21T13:44:29.883554+00:00",
+  "generatedAt": "2026-08-21T14:32:47.014029+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T14:21:36+00:00"
+    },
+    {
+      "title": "Villa expected to make Jackson move if Watkins sold to Al Hilal",
+      "description": "Aston Villa are expected to make a move for Nicolas Jackson if they sell Ollie Watkins to Al Hilal.",
+      "link": "https://www.skysports.com/football/news/11095/13575424/aston-villa-transfer-news-unai-emerys-side-expected-to-make-nicolas-jackson-approach-if-ollie-watkins-sold-to-al-hilal",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T14:21:00+00:00"
+    },
+    {
+      "title": "Argentina's Paredes banned for 10 games after World Cup clashes",
+      "description": "Fifa ban Argentina midfielder Leandro Paredes for 10 matches over his role in clashes with Spanish players after the World Cup final.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c98v7p1pr3eo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T14:20:26+00:00"
+    },
     {
       "title": "Aston Villa latest: 'We have an issue,' says Emery on Watkins' future",
       "description": "",
@@ -13,6 +40,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T14:10:00+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "John Murray, Ian Dennis & Ali Bruce-Ball return for The Commentators' View.",
+      "link": "https://www.bbc.co.uk/sounds/play/m00310qd",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T14:00:00+00:00"
+    },
+    {
+      "title": "Liverpool latest: Iraola frustrated by a lack of wing options",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T14:00:00+00:00"
     },
     {
       "title": "Tottenham latest: De Zerbi reveals new captain...",
@@ -33,85 +78,40 @@
       "pubDateISO": "2026-08-21T14:00:00+00:00"
     },
     {
-      "title": "Speed-dating, sharks & Hunted - unique pre-season tales from WSL 2",
-      "description": "BBC Sport looks into some of the unique ways Women's Super League 2 clubs have been preparing during pre-season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cevmky1vgzzo",
+      "title": "Where next for Chelsea's Delap and can he bounce back?",
+      "description": "Chelsea striker Liam Delap has been made available for sale just a year into his Stamford Bridge career. Where will he go and can he bounce back?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g3n9zryx8o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T13:22:35+00:00"
+      "pubDateISO": "2026-08-21T13:58:22+00:00"
     },
     {
-      "title": "Speed-dating, sharks & Hunted - unique pre-season tales from WSL 2",
-      "description": "BBC Sport looks into some of the unique ways Women's Super League 2 clubs have been preparing during pre-season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cevmky1vgzzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T13:22:35+00:00"
-    },
-    {
-      "title": "Why don't Chelsea or Sunderland have a shirt sponsor?",
-      "description": "BBC Sport's Ask Me Anything team look at why Chelsea and Sunderland are the only Premier League clubs without a front-of-shirt sponsor.",
-      "link": "https://www.bbc.co.uk/sport/articles/cn0r9xk94l9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T13:18:43+00:00"
-    },
-    {
-      "title": "England Women U20s squad named amid boycott threat",
-      "description": "Manager Lydia Bedford has named her England squad for the upcoming Fifa U20s Women's World Cup amid ongoing threat of a boycott from European nations.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2el8j10vl3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T13:00:06+00:00"
-    },
-    {
-      "title": "England Women U20s squad named amid boycott threat",
-      "description": "Manager Lydia Bedford has named her England squad for the upcoming Fifa U20s Women's World Cup amid ongoing threat of a boycott from European nations.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2el8j10vl3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T13:00:06+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "title": "The 20 most expensive transfers of the summer (so far)",
+      "description": "From Morgan Rogers to Ismael Saibari, BBC Sport lists the 20 biggest transfers of the summer so far.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyjmd19887o",
       "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T12:52:03+00:00"
+      "pubDateISO": "2026-08-21T13:51:24+00:00"
     },
     {
-      "title": "Gyokeres proud of impact at Arsenal last season",
-      "description": "Striker Viktor Gyokeres says he is proud of his contribution to Arsenal last season as they begin the defence of their Premier League title at home to his former side Coventry City on Friday.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cy5dxg3kv6eo",
+      "title": "Watkins could leave Villa before transfer deadline - Emery",
+      "description": "Aston Villa boss Unai Emery says striker Ollie Watkins could follow several star players out of the door this summer.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4wj07e8eo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T13:47:42+00:00"
+    },
+    {
+      "title": "Speed-dating, sharks & Hunted - unique pre-season tales from WSL 2",
+      "description": "BBC Sport looks into some of the unique ways Women's Super League 2 clubs have been preparing during pre-season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cevmky1vgzzo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T12:46:52+00:00"
-    },
-    {
-      "title": "Stamenic gets love back after traumatic year",
-      "description": "Marko Stamenic says \"the people around Swansea City\" have helped him rediscover his love for football during his first year at the Championship club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx27wl292eno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T12:00:17+00:00"
-    },
-    {
-      "title": "Arsenal latest: Owners release statement ahead of season opener",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T11:49:00+00:00"
+      "pubDateISO": "2026-08-21T13:22:35+00:00"
     }
   ]
 }
