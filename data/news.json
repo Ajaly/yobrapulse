@@ -1,18 +1,36 @@
 {
-  "generatedAt": "2026-08-21T16:29:11.738992+00:00",
+  "generatedAt": "2026-08-21T17:26:47.588566+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Bournemouth latest: Cherries in talks to sign Juventus goalkeeper",
+      "title": "The Premier League is back! Arsenal vs Coventry LIVE on Sky!",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "link": "https://www.skysports.com/football/arsenal-vs-coventry-city/live/559444",
       "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T17:22:00+00:00"
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T18:00:00+00:00"
+    },
+    {
+      "title": "Where next for Chelsea's Delap and can he bounce back?",
+      "description": "Chelsea striker Liam Delap has been made available for sale just a year into his Stamford Bridge career. Where will he go and can he bounce back?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g3n9zryx8o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T17:17:08+00:00"
+    },
+    {
+      "title": "Bolt registers to play for Manchester Sunday league team",
+      "description": "Eight-time Olympic champion sprinter Usain Bolt has registered to play for a veterans' Sunday league football team in Manchester.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2reg3de87o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T17:14:32+00:00"
     },
     {
       "title": "Leeds latest: Chelsea reject opening offer for Mudryk",
@@ -51,21 +69,21 @@
       "pubDateISO": "2026-08-21T16:01:55+00:00"
     },
     {
-      "title": "PL is back TONIGHT! Q&A with predictions guru Jones Knows....",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13574293/premier-league-2026-27-preview-team-news-analysis-injury-latest-suspensions-and-fantasy-football",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T16:00:00+00:00"
-    },
-    {
       "title": "'I'm here to win' - Arsenal announce \u00a355m Konsa deal",
       "description": "Arsenal have completed the &#163;55m deal to sign defender Ezri Konsa from Aston Villa.",
       "link": "https://www.skysports.com/football/news/11095/13574990/ezri-konsa-arsenal-complete-51m-deal-for-aston-villa-and-england-defender",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T16:00:00+00:00"
+    },
+    {
+      "title": "PL is back TONIGHT! Recap all the must-read features!",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13574293/premier-league-2026-27-preview-team-news-analysis-injury-latest-suspensions-and-fantasy-football",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T16:00:00+00:00"
     },
     {
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T15:40:04+00:00"
-    },
-    {
-      "title": "Argentina's Paredes banned for 10 games after World Cup clashes",
-      "description": "Fifa ban Argentina midfielder Leandro Paredes for 10 matches over his role in clashes with Spanish players after the World Cup final.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c98v7p1pr3eo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T15:26:05+00:00"
-    },
-    {
-      "title": "Chelsea reject initial Leeds loan bid for Mudryk",
-      "description": "Chelsea reject an initial season-long loan offer from Leeds United for winger Mykhailo Mudryk.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gjv4xq2l8o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T15:22:37+00:00"
     }
   ]
 }
