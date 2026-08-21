@@ -1,18 +1,27 @@
 {
-  "generatedAt": "2026-08-21T11:24:31.663939+00:00",
+  "generatedAt": "2026-08-21T12:38:08.941016+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man City latest: Talks opened with Palmeiras over deal for Allan",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
+      "title": "All done deals in August 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
+      "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T11:59:00+00:00"
+      "pubDateISO": "2026-08-21T12:06:31+00:00"
+    },
+    {
+      "title": "Stamenic gets love back after traumatic year",
+      "description": "Marko Stamenic says \"the people around Swansea City\" have helped him rediscover his love for football during his first year at the Championship club.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx27wl292eno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T12:00:17+00:00"
     },
     {
       "title": "Arsenal latest: Owners release statement ahead of season opener",
@@ -33,6 +42,15 @@
       "pubDateISO": "2026-08-21T11:24:00+00:00"
     },
     {
+      "title": "De Zerbi let us bond over a few beers - Maddison",
+      "description": "Midfielder James Maddison says Tottenham boss Roberto de Zerbi let the team bond over some beers before the new season, where they hope to improve on finishing 17th last term.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c0km6pzplrzo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T11:22:59+00:00"
+    },
+    {
       "title": "Medication switch behind Musiala collapses - Bayern",
       "description": "Bayern Munich boss Vincent Kompany says a \"slight\" change in Musiala's medication led to two collapses in four days.",
       "link": "https://www.bbc.co.uk/sport/football/articles/crl7g5ypdeeo",
@@ -40,6 +58,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T11:21:18+00:00"
+    },
+    {
+      "title": "Carra meets Iraola! Liverpool boss on playing style, transfers & Newcastle",
+      "description": "Andoni Iraola sits down for a revealing and wide-ranging chat with Jamie Carragher in which the Liverpool head coach discusses his playing, the club's summer transfer business and his side's tricky season opener at Newcastle United on <em>Super Sunday.</em>",
+      "link": "https://www.skysports.com/football/news/11095/13575327/andoni-iraola-new-liverpool-boss-explains-his-coaching-philosophy-ahead-of-premier-league-opener-at-newcastle",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T11:12:00+00:00"
     },
     {
       "title": "West Ham's Wan\u2011Bissaka joins Aston Villa on loan",
@@ -85,33 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-21T09:41:46+00:00"
-    },
-    {
-      "title": "PL is back TONIGHT! Your thoughts and predictions ahead of new season...",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13574293/premier-league-2026-27-preview-team-news-analysis-injury-latest-suspensions-and-fantasy-football",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T09:30:00+00:00"
-    },
-    {
-      "title": "Five things in EFL: Fallen giants and ambitious upstarts",
-      "description": "West Ham and Leicester look to bounce back - BBC Sport highlights five things to keep an eye on in this weekend's EFL schedule.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2ldd3yyy0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T08:42:12+00:00"
-    },
-    {
-      "title": "Spurs latest: Talks continue over deal to sign second Man City player",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T08:13:00+00:00"
     }
   ]
 }
