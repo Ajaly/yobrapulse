@@ -1,18 +1,54 @@
 {
-  "generatedAt": "2026-08-21T22:21:43.572240+00:00",
+  "generatedAt": "2026-08-21T23:21:57.922001+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "'A massive 10 days' - Neville calls on Arsenal to go for Alvarez before deadline",
+      "title": "Papers: Atletico Madrid ready to sell Alvarez to Arsenal",
+      "description": "The top stories and transfer rumours from Saturday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13575656/arsenal-transfer-news-atletico-madrid-finally-shift-julian-alvarez-position-and-now-willing-to-sell-striker-to-the-gunners-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T23:30:00+00:00"
+    },
+    {
+      "title": "Coventry latest: No tackles for 69 mins - but Lampard happy with effort",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13541482/coventry-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T23:15:00+00:00"
+    },
+    {
+      "title": "Lessons learned for Coventry in difficult top-flight return",
+      "description": "Twenty-five years, 94 days and countless twists later, Coventry City have started life back in the Premier League, but it was a tough baptism of fire with a 3-0 loss at defending champions Arsenal.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp8e37mpp0eo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T23:13:13+00:00"
+    },
+    {
+      "title": "'A massive 10 days' - Neville tells Arsenal to get Alvarez before deadline",
       "description": "Defending Premier League champions Arsenal would become Champions League winners if they land Julian Alvarez in the final days of the transfer window, says Gary Neville.",
       "link": "https://www.skysports.com/football/news/11095/13575645/arsenal-transfer-news-julian-alvarez-would-add-magic-to-gunners-frontline-says-gary-neville-as-he-urges-them-to-sign-atletico-madrid-striker",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-21T23:06:00+00:00"
+    },
+    {
+      "title": "'Liverpool's best XI is still better than Man Utd's' | Carra and Nev clash on who is looking better!",
+      "description": "Jamie Carragher believes Liverpool boast a stronger starting eleven than Manchester United heading into the 2026/27 Premier League season, but says the Reds still need to add depth and quality before the transfer window closes.",
+      "link": "https://www.skysports.com/watch/video/13575664/jamie-carragher-believes-liverpools-starting-eleven-is-better-than-man-utds-going-into-the-2026-27-pl-season",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-21T23:01:00+00:00"
     },
     {
       "title": "PL predictions: Brentford to give Spurs a reality check",
@@ -22,6 +58,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T23:00:00+00:00"
+    },
+    {
+      "title": "Swaggering Arsenal want title attack, not defence",
+      "description": "Arsenal started last season as nearly men but their title win has given them a swagger - as Coventry discovered on the Premier League's opening night.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cpw94evj1q7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-21T22:55:40+00:00"
     },
     {
       "title": "Man Utd latest: Carrick on protecting Bruno and CL hopes",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T21:56:44+00:00"
-    },
-    {
-      "title": "Arsenal kick off title defence with thumping win over Coventry",
-      "description": "Arsenal made a flying start to their Premier League title defence with a 3-0 thumping of newly-promoted Coventry City in the season opener at the Emirates Stadium.",
-      "link": "https://www.skysports.com/football/arsenal-vs-coventry-city/report/559444",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T21:50:00+00:00"
-    },
-    {
-      "title": "Arsenal start title defence with comfortable win over Coventry",
-      "description": "Goals from Kai Havertz, Bukayo Saka and Martin Odegaard give champions Arsenal a comfortable 3-0 win over newcomers Coventry City, in the opening game of the Premier League campaign at the Emirates Stadium.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cgr7e17010go",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T21:35:28+00:00"
-    },
-    {
-      "title": "Inter complete \u00a330m deal for Liverpool's Jones",
-      "description": "Inter Milan sign midfielder Curtis Jones from Liverpool in a deal worth \u00a330m.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czdm9pjd0ero",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T21:23:29+00:00"
-    },
-    {
-      "title": "Tzolis shines in Premier League opener - Arsenal v Coventry player ratings",
-      "description": "How Arsenal and Coventry's players rated following their Premier League match.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crl7g4e4pdno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T20:52:32+00:00"
-    },
-    {
-      "title": "Bavidge earns Inverness CT a point against Partick Thistle",
-      "description": "Watch the goals as Alfie Bavidge's late goal earns Inverness Caledonian Thistle a draw against Partick Thistle in the Scottish Championship.",
-      "link": "https://www.bbc.co.uk/sport/videos/cvgl2zz12xeo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T20:42:09+00:00"
     }
   ]
 }
