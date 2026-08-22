@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T06:33:10.810683+00:00",
+  "generatedAt": "2026-08-22T07:30:28.282729+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -4671,7 +4671,7 @@
       "avatar": "EK",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "13.2%",
+      "owned": "13.1%",
       "points": 0,
       "epNext": 1.7,
       "form": 0.0,
@@ -7616,7 +7616,7 @@
       "avatar": "MD",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "19.8%",
+      "owned": "19.7%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -8073,7 +8073,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 9131494,
+  "totalManagers": 9138994,
   "totalPlayers": 600,
   "priceMovement": {
     "risers": [],
@@ -8244,45 +8244,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 30560
+        "netTransfersEvent": 31895
       },
       {
         "id": "557",
-        "netTransfersEvent": 20651
+        "netTransfersEvent": 21619
       },
       {
         "id": "26",
-        "netTransfersEvent": 15927
+        "netTransfersEvent": 16612
       },
       {
         "id": "15",
-        "netTransfersEvent": 14489
+        "netTransfersEvent": 15478
       },
       {
         "id": "112",
-        "netTransfersEvent": 7446
+        "netTransfersEvent": 7690
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -50939
+        "netTransfersEvent": -52720
       },
       {
         "id": "25",
-        "netTransfersEvent": -23044
+        "netTransfersEvent": -24347
       },
       {
         "id": "503",
-        "netTransfersEvent": -21124
+        "netTransfersEvent": -21942
       },
       {
         "id": "31",
-        "netTransfersEvent": -16571
+        "netTransfersEvent": -17329
       },
       {
         "id": "452",
-        "netTransfersEvent": -13307
+        "netTransfersEvent": -13958
       }
     ]
   }
