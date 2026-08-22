@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-22T16:20:22.845926+00:00",
+  "generatedAt": "2026-08-22T17:19:38.548115+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Janelt doubles Brentford's lead as Spurs struggle",
+      "description": "Vitaly Janelt makes it two for the home side as Brentford lead Spurs 2-0 in the first half.",
+      "link": "https://www.skysports.com/watch/video/13576037/goal-v-janelt-33-brentford-2-0-tottenham-hotspur",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T18:08:00+00:00"
+    },
+    {
+      "title": "'This is brilliant!' | Lewis-Potter puts Brentford ahead vs Spurs",
+      "description": "A perfect pass from Mamadou Sangare sees Keane Lewis-Potter's strike put Brentford 1-0 up against Spurs.",
+      "link": "https://www.skysports.com/watch/video/13576021/goal-k-lewis-potter-12-brentford-1-0-tottenham-hotspur",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T17:48:00+00:00"
+    },
     {
       "title": "Hull stun Man Utd in perfect Premier League return",
       "description": "Highlights from the Premier League match between Hull and Manchester United.",
@@ -15,7 +33,16 @@
       "pubDateISO": "2026-08-22T17:15:00+00:00"
     },
     {
-      "title": "Everton outclass Palace in Premier League opener",
+      "title": "Castellanos misses late penalty as West Ham beaten by Charlton",
+      "description": "Charlton maintained their perfect start to the Championship season with a 2-1 victory at West Ham in a pulsating London derby to pile pressure on Hammers boss Nuno Espirito Santo.",
+      "link": "https://www.skysports.com/football/west-ham-united-vs-charlton-athletic/report/560520",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T17:15:00+00:00"
+    },
+    {
+      "title": "Everton outclass wasteful Palace in Premier League opener",
       "description": "Everton made a winning start to the new Premier League campaign by beating Crystal Palace 2-0 thanks to classy goals from Kiernan Dewsbury-Hall and Thierno Barry.",
       "link": "https://www.skysports.com/football/everton-vs-crystal-palace/report/559446",
       "source": "Sky Sports",
@@ -31,6 +58,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T17:03:00+00:00"
+    },
+    {
+      "title": "Leicester booed off after nightmare defeat to Burton",
+      "description": "Burton Albion stunned Leicester City at the King Power Stadium, as the former Premier League champions were booed off after being beaten 2-1 by Gary Bowyer's side.",
+      "link": "https://www.skysports.com/football/leicester-city-vs-burton-albion/report/561617",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T17:00:00+00:00"
+    },
+    {
+      "title": "'I'm very happy and have many compliments for my players' - Farke",
+      "description": "Leeds United manager Daniel Farke reacts to his side's 1\u20130 win against Nottingham Forest, sealed by Anton Stach's free\u2011kick in the opening game of their 2026-27 Premier League season.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cn5n57dwewko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T16:55:35+00:00"
     },
     {
       "title": "Clarke haunts Sunderland as Ipswich get off to winning start",
@@ -60,58 +105,13 @@
       "pubDateISO": "2026-08-22T16:39:00+00:00"
     },
     {
-      "title": "Man Utd 'didn't look ready' - but hurting Carrick remains calm",
-      "description": "Manchester United boss Michael Carrick is refusing to panic despite shock loss at newly promoted Hull City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c87n78p070do",
+      "title": "'Maybe people will stop sleeping on us' - Hull enjoy dream return",
+      "description": "Relegation favourites Hull City start the season well with a victory over Manchester United as their manager says \"we are trying to prove people wrong\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c62x2z0k0p6o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T15:44:28+00:00"
-    },
-    {
-      "title": "Carrick defends dismal Man Utd loss: 'We did some good things'",
-      "description": "Man Utd boss Michael Carrick focused on the \"good things\" his side had done despite a dismal 2-0 defeat at newly-promoted Hull City on the opening day of the new season.",
-      "link": "https://www.skysports.com/football/news/11095/13575881/michael-carrick-insists-man-utd-did-some-good-things-despite-dismal-hull-defeat-on-opening-premier-league-weekend",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T15:36:00+00:00"
-    },
-    {
-      "title": "'We didn't click' - Carrick on Man Utd's loss",
-      "description": "Manchester United head coach Michael Carrick says his side 'didn't click' as they suffered a 2-0 defeat at newly promoted Hull City in their first game of the 2026-27 Premier League season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cr5956led9lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T14:40:57+00:00"
-    },
-    {
-      "title": "Villa close to signing Germany midfielder Goretzka",
-      "description": "Aston Villa are close to signing free agent Leon Goretzka, who left Bayern Munich in the summer after eight years.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cnvnvjer47mo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-22T14:39:46+00:00"
-    },
-    {
-      "title": "Can Pocognoli afford to continue McBurnie's Scotland exile?",
-      "description": "With a fresh face in the Scotland dugout, are excuses running dry about whether Oli McBurnie should feature in Sebastien Pocognoli's first squad next month?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crrvr9xgqx5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T14:34:07+00:00"
-    },
-    {
-      "title": "Can Pocognoli afford to continue McBurnie's Scotland exile?",
-      "description": "With a fresh face in the Scotland dugout, are excuses running dry about whether Oli McBurnie should feature in Sebastien Pocognoli's first squad next month?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crrvr9xgqx5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T14:34:07+00:00"
+      "pubDateISO": "2026-08-22T16:17:18+00:00"
     }
   ]
 }
