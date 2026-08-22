@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-22T17:19:38.548115+00:00",
+  "generatedAt": "2026-08-22T18:24:08.499241+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Reality check' for Spurs as Kayode makes it three for The Bees",
+      "description": "Michael Kayode makes it three for Brentford three minutes into the second half against Spurs.",
+      "link": "https://www.skysports.com/watch/video/13576053/goal-m-kayode-49-brentford-3-0-tottenham-hotspur",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T18:43:00+00:00"
+    },
     {
       "title": "Janelt doubles Brentford's lead as Spurs struggle",
       "description": "Vitaly Janelt makes it two for the home side as Brentford lead Spurs 2-0 in the first half.",
@@ -13,6 +22,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T18:08:00+00:00"
+    },
+    {
+      "title": "Ex-West Brom midfielder Castro, 25, dies during friendly",
+      "description": "Former West Brom midfielder Quevin Castro dies at the age of 25 after collapsing during a match in Portugal.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8dnd416pzyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T18:06:43+00:00"
+    },
+    {
+      "title": "Mateta claims final year of Palace deal is invalid",
+      "description": "Jean-Philippe Mateta is challenging the validity of the final 10 months on his Crystal Palace contract.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cdx7x90dxywo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T17:49:41+00:00"
     },
     {
       "title": "'This is brilliant!' | Lewis-Potter puts Brentford ahead vs Spurs",
@@ -24,18 +51,45 @@
       "pubDateISO": "2026-08-22T17:48:00+00:00"
     },
     {
+      "title": "'No button to press' - Glasner and Forest must find stability",
+      "description": "Anton Stach's late goal for Leeds hands Oliver Glasner a defeat in his first game at Nottingham Forest.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3v0vlngz2do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T17:43:18+00:00"
+    },
+    {
+      "title": "Parkinson admits no guarantees of Wrexham signings",
+      "description": "Ryan Reynolds and Rob Mac held discussions over transfers with Parkinson prior to the 1-1 draw with Watford.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp8x8lkwpz0o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T17:37:23+00:00"
+    },
+    {
+      "title": "Barry-Murphy expects Cardiff to make signing soon",
+      "description": "Brian Barry-Murphy is expecting Cardiff City to complete a signing before their Carabao Cup second-round tie against Norwich City on Tuesday, 25 August.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5y4yxgw1p1o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T17:37:19+00:00"
+    },
+    {
+      "title": "'Maybe people will stop sleeping on us' - Hull enjoy dream return",
+      "description": "Relegation favourites Hull City start the season well with a victory over Manchester United as their manager says \"we are trying to prove people wrong\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c62x2z0k0p6o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T17:35:09+00:00"
+    },
+    {
       "title": "Hull stun Man Utd in perfect Premier League return",
       "description": "Highlights from the Premier League match between Hull and Manchester United.",
       "link": "https://www.skysports.com/watch/video/13575830/hull-2-0-manchester-united-premier-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T17:15:00+00:00"
-    },
-    {
-      "title": "Castellanos misses late penalty as West Ham beaten by Charlton",
-      "description": "Charlton maintained their perfect start to the Championship season with a 2-1 victory at West Ham in a pulsating London derby to pile pressure on Hammers boss Nuno Espirito Santo.",
-      "link": "https://www.skysports.com/football/west-ham-united-vs-charlton-athletic/report/560520",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
@@ -58,60 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T17:03:00+00:00"
-    },
-    {
-      "title": "Leicester booed off after nightmare defeat to Burton",
-      "description": "Burton Albion stunned Leicester City at the King Power Stadium, as the former Premier League champions were booed off after being beaten 2-1 by Gary Bowyer's side.",
-      "link": "https://www.skysports.com/football/leicester-city-vs-burton-albion/report/561617",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T17:00:00+00:00"
-    },
-    {
-      "title": "'I'm very happy and have many compliments for my players' - Farke",
-      "description": "Leeds United manager Daniel Farke reacts to his side's 1\u20130 win against Nottingham Forest, sealed by Anton Stach's free\u2011kick in the opening game of their 2026-27 Premier League season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cn5n57dwewko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T16:55:35+00:00"
-    },
-    {
-      "title": "Clarke haunts Sunderland as Ipswich get off to winning start",
-      "description": "Former Sunderland player Jack Clarke struck a 90th-minute winner for Ipswich Town on their return to the Premier League in a 2-1 win over the Black Cats.",
-      "link": "https://www.skysports.com/football/ipswich-town-vs-sunderland/report/559448",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T16:46:00+00:00"
-    },
-    {
-      "title": "Stach snatches win for Leeds at Forest",
-      "description": "Anton Stach's stunning late free-kick snatched the points for Leeds as Oliver Glasner lost his first Premier League game in charge of Nottingham Forest 1-0 at the City Ground.",
-      "link": "https://www.skysports.com/football/nottingham-forest-vs-leeds-united/report/559449",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T16:45:00+00:00"
-    },
-    {
-      "title": "Tottenham latest: Gray becomes club's youngest-ever PL captain",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T16:39:00+00:00"
-    },
-    {
-      "title": "'Maybe people will stop sleeping on us' - Hull enjoy dream return",
-      "description": "Relegation favourites Hull City start the season well with a victory over Manchester United as their manager says \"we are trying to prove people wrong\".",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62x2z0k0p6o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T16:17:18+00:00"
     }
   ]
 }
