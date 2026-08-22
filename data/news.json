@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-22T07:30:28.971095+00:00",
+  "generatedAt": "2026-08-22T08:25:13.660469+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Aston Villa latest: Talks begin to sign free agent Goretzka",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T08:59:00+00:00"
+    },
+    {
+      "title": "VOTE: Who has the better 'best XI' - Man Utd or Liverpool?",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13574293/premier-league-2026-27-preview-team-news-analysis-injury-latest-suspensions-and-fantasy-football",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T08:30:00+00:00"
+    },
+    {
+      "title": "Messi fined for slapping opponent in MLS game",
+      "description": "Lionel Messi is fined by Major League Soccer after slapping Philadelphia Union's Quinn during Inter Miami's draw on Wednesday.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cz05k0j72p5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T08:05:09+00:00"
+    },
+    {
+      "title": "The ex-Blackburn winger facing Mourinho and Real Madrid",
+      "description": "Tyrhys Dolan, who played for Blackburn Rovers for five years before joining Espanyol last summer, says he is ready to take on one of the biggest tests of his career against Real Madrid on Saturday.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g3nr57kdlo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T07:44:05+00:00"
+    },
     {
       "title": "'I'm not ashamed' - Ellison on mental health and playing at 47",
       "description": "Striker Kevin Ellison, who once signed for Premier League Leicester City, opens up about playing at 47 - and why it's important to talk about mental health.",
@@ -76,42 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-21T23:06:00+00:00"
-    },
-    {
-      "title": "'Liverpool's best XI is still better than Man Utd's' | Carra and Nev clash on who is looking better!",
-      "description": "Jamie Carragher believes Liverpool boast a stronger starting eleven than Manchester United heading into the 2026/27 Premier League season, but says the Reds still need to add depth and quality before the transfer window closes.",
-      "link": "https://www.skysports.com/watch/video/13575664/jamie-carragher-believes-liverpools-starting-eleven-is-better-than-man-utds-going-into-the-2026-27-pl-season",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T23:01:00+00:00"
-    },
-    {
-      "title": "PL predictions: Brentford to give Spurs a reality check",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13575143/premier-league-predictions-jones-knows-best-bets-champions-again-ole-ole-arsenal-to-make-fast-start-on-fnf",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T23:00:00+00:00"
-    },
-    {
-      "title": "Swaggering Arsenal want title attack, not defence",
-      "description": "Arsenal started last season as nearly men but their title win has given them a swagger - as Coventry discovered on the Premier League's opening night.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cpw94evj1q7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T22:55:40+00:00"
-    },
-    {
-      "title": "Man Utd latest: Carrick on protecting Bruno and CL hopes",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T22:48:00+00:00"
     }
   ]
 }
