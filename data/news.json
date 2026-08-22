@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-08-22T13:31:22.235426+00:00",
+  "generatedAt": "2026-08-22T14:19:31.431551+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Hull stun Man Utd in opener - Hull v Man Utd player ratings",
+      "title": "Birmingham strike late to hold Bristol City",
+      "description": "Demarai Gray rescued a point for Birmingham with a late penalty in their 2-2 Championship draw at home to Bristol City.",
+      "link": "https://www.skysports.com/football/birmingham-city-vs-bristol-city/report/560510",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T14:30:00+00:00"
+    },
+    {
+      "title": "Lincoln beaten by Portsmouth as second-tier football returns to Sincil Bank",
+      "description": "Portsmouth claimed their first win of the Championship season with a comprehensive 3-1 success at Lincoln.",
+      "link": "https://www.skysports.com/football/lincoln-city-vs-portsmouth/report/560513",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T14:30:00+00:00"
+    },
+    {
+      "title": "Mauled by the Tigers! Lacklustre Man Utd stunned by brilliant Hull",
+      "description": "A lacklustre Man Utd were left stunned as they slipped to a 2-0 defeat to newly-promoted Hull City in their Premier League season opener at the MKM Stadium.",
+      "link": "https://www.skysports.com/football/hull-city-vs-manchester-united/report/559447",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T14:20:00+00:00"
+    },
+    {
+      "title": "Millwall ease past 10-man Norwich",
+      "description": "Tairyk Arconte scored his first two goals for Millwall as they breezed past 10-man Norwich 3-0 to make it two wins from two in the Sky Bet Championship this season.",
+      "link": "https://www.skysports.com/football/millwall-vs-norwich-city/report/560514",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T14:15:00+00:00"
+    },
+    {
+      "title": "Ajayi is rock at the back as Hull stun Man Utd - player ratings",
       "description": "How Hull City and Manchester United's players rated following their Premier League match.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cpw94jp02xxo",
       "source": "BBC Sport",
@@ -15,16 +51,16 @@
       "pubDateISO": "2026-08-22T13:24:59+00:00"
     },
     {
-      "title": "Three new Leeds signings start at Forest LIVE!",
+      "title": "Nottingham Forest vs Leeds LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/nottingham-forest-vs-leeds-united/live/559449",
       "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
+      "category": "club",
+      "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T13:00:00+00:00"
     },
     {
-      "title": "McNeil starts for Palace at Everton as Johnson on bench LIVE!",
+      "title": "Mateta misses big early chance for Palace at Everton LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/everton-vs-crystal-palace/live/559446",
       "source": "Sky Sports",
@@ -42,21 +78,21 @@
       "pubDateISO": "2026-08-22T12:22:26+00:00"
     },
     {
-      "title": "Millwall cruise past Norwich, Portsmouth win - EFL LIVE!",
+      "title": "West Ham TRAIL Charlton! Burton LEAD at Leicester - EFL LIVE!",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13575067/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
+      "link": "https://www.skysports.com/football/west-ham-united-vs-charlton-athletic/live/560520",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T12:00:00+00:00"
     },
     {
-      "title": "Ipswich hand debuts to SEVEN new signings vs Sunderland LIVE!",
+      "title": "Sunderland go close early on at Ipswich LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/ipswich-town-vs-sunderland/live/559448",
       "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
+      "category": "club",
+      "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T12:00:00+00:00"
     },
     {
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T10:40:00+00:00"
-    },
-    {
-      "title": "Joao Pedro extends Chelsea stay until 2034",
-      "description": "Chelsea striker Joao Pedro signs a new contract with the club until 2032, with the option of two further years.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-22T10:07:37+00:00"
-    },
-    {
-      "title": "How Liverpool are preparing to face six new managers in first six games",
-      "description": "For Liverpool and Andoni Iraola, the Premier League schedule means they will face six teams with new managers in their first six matches.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cg5l9qz1dvno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T09:36:48+00:00"
-    },
-    {
-      "title": "Rangers linked with striker Fofana - gossip",
-      "description": "Rangers consider loan striker from France as Celtic home in on Bosnia-Herzegovina star...",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c70g20d6klpo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-22T09:09:03+00:00"
-    },
-    {
-      "title": "Messi fined for slapping opponent in MLS game",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T09:00:00+00:00"
     }
   ]
 }
