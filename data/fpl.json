@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T21:20:17.356597+00:00",
+  "generatedAt": "2026-08-22T22:19:55.839251+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -105,7 +105,7 @@
       "237",
       "15",
       "94",
-      "304"
+      "469"
     ],
     "saves": []
   },
@@ -4419,7 +4419,7 @@
       "goals": 1,
       "assists": 0,
       "xg": 0.12,
-      "xa": 0.15,
+      "xa": 0.17,
       "valueScore": 1.7,
       "tackles": 2,
       "clearancesBlocksInterceptions": 1,
@@ -4511,8 +4511,8 @@
       "minutes": 90,
       "goals": 0,
       "assists": 1,
-      "xg": 0.31,
-      "xa": 0.34,
+      "xg": 0.24,
+      "xa": 0.32,
       "valueScore": 1.5,
       "tackles": 4,
       "clearancesBlocksInterceptions": 0,
@@ -4573,7 +4573,7 @@
       "minutes": 62,
       "goals": 0,
       "assists": 0,
-      "xg": 0.77,
+      "xg": 0.7,
       "xa": 0.02,
       "valueScore": 0.3,
       "tackles": 2,
@@ -4681,34 +4681,34 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
-    "304": {
-      "id": 304,
-      "name": "Dara O'Shea",
-      "shortName": "O'Shea",
+    "469": {
+      "id": 469,
+      "name": "Neco Williams",
+      "shortName": "N.Williams",
       "position": "DEF",
-      "team": "Ipswich Town",
-      "avatar": "DO",
-      "avatarClass": "",
-      "price": "\u00a34.0m",
-      "owned": "3.5%",
-      "points": 4,
-      "epNext": 1.0,
-      "form": 4.0,
+      "team": "Nott'm Forest",
+      "avatar": "NW",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a35.0m",
+      "owned": "10.1%",
+      "points": 2,
+      "epNext": 2.2,
+      "form": 2.0,
       "minutes": 90,
       "goals": 0,
       "assists": 0,
       "xg": 0.0,
-      "xa": 0.16,
-      "valueScore": 1.0,
+      "xa": 0.02,
+      "valueScore": 0.4,
       "tackles": 3,
-      "clearancesBlocksInterceptions": 15,
-      "recoveries": 6,
+      "clearancesBlocksInterceptions": 3,
+      "recoveries": 10,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
-      "teamStrengthHome": 2,
-      "teamStrengthAway": 2,
-      "fixture": "vs Man Utd (A)",
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Liverpool (A)",
       "fdr": 4,
       "fdrClass": "hard"
     },
@@ -4764,7 +4764,7 @@
       "valueScore": 1.6,
       "tackles": 3,
       "clearancesBlocksInterceptions": 2,
-      "recoveries": 7,
+      "recoveries": 8,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -4783,7 +4783,7 @@
       "avatar": "KA",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "3.5%",
+      "owned": "3.6%",
       "points": 8,
       "epNext": 1.7,
       "form": 8.0,
@@ -4907,7 +4907,7 @@
       "avatar": "CM",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "6.3%",
+      "owned": "6.2%",
       "points": 6,
       "epNext": 2.5,
       "form": 6.0,
@@ -4976,7 +4976,7 @@
       "minutes": 90,
       "goals": 0,
       "assists": 0,
-      "xg": 0.03,
+      "xg": 0.05,
       "xa": 0.0,
       "valueScore": 1.0,
       "tackles": 1,
@@ -5146,6 +5146,37 @@
       "fdr": 4,
       "fdrClass": "hard"
     },
+    "304": {
+      "id": 304,
+      "name": "Dara O'Shea",
+      "shortName": "O'Shea",
+      "position": "DEF",
+      "team": "Ipswich Town",
+      "avatar": "DO",
+      "avatarClass": "",
+      "price": "\u00a34.0m",
+      "owned": "3.5%",
+      "points": 4,
+      "epNext": 1.0,
+      "form": 4.0,
+      "minutes": 90,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "xa": 0.16,
+      "valueScore": 1.0,
+      "tackles": 2,
+      "clearancesBlocksInterceptions": 16,
+      "recoveries": 6,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 2,
+      "fixture": "vs Man Utd (A)",
+      "fdr": 4,
+      "fdrClass": "hard"
+    },
     "13": {
       "id": 13,
       "name": "Declan Rice",
@@ -5291,7 +5322,7 @@
       "valueScore": 0.5,
       "tackles": 1,
       "clearancesBlocksInterceptions": 4,
-      "recoveries": 5,
+      "recoveries": 6,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -5424,37 +5455,6 @@
       "fixture": "vs Ipswich Town (H)",
       "fdr": 2,
       "fdrClass": "easy"
-    },
-    "469": {
-      "id": 469,
-      "name": "Neco Williams",
-      "shortName": "N.Williams",
-      "position": "DEF",
-      "team": "Nott'm Forest",
-      "avatar": "NW",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a35.0m",
-      "owned": "10.1%",
-      "points": 2,
-      "epNext": 2.2,
-      "form": 2.0,
-      "minutes": 90,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.02,
-      "valueScore": 0.4,
-      "tackles": 3,
-      "clearancesBlocksInterceptions": 3,
-      "recoveries": 10,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Liverpool (A)",
-      "fdr": 4,
-      "fdrClass": "hard"
     },
     "471": {
       "id": 471,
@@ -5690,7 +5690,7 @@
       "goals": 0,
       "assists": 0,
       "xg": 0.0,
-      "xa": 0.07,
+      "xa": 0.03,
       "valueScore": 0.3,
       "tackles": 1,
       "clearancesBlocksInterceptions": 0,
@@ -5720,7 +5720,7 @@
       "minutes": 66,
       "goals": 0,
       "assists": 0,
-      "xg": 0.37,
+      "xg": 0.3,
       "xa": 0.0,
       "valueScore": 0.3,
       "tackles": 0,
@@ -6185,7 +6185,7 @@
       "minutes": 66,
       "goals": 0,
       "assists": 0,
-      "xg": 0.02,
+      "xg": 0.01,
       "xa": 0.01,
       "valueScore": 0.2,
       "tackles": 1,
@@ -6581,7 +6581,7 @@
       "avatar": "BV",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "21.8%",
+      "owned": "21.7%",
       "points": 0,
       "epNext": 1.9,
       "form": 0.0,
@@ -7053,7 +7053,7 @@
       "minutes": 54,
       "goals": 0,
       "assists": 0,
-      "xg": 0.25,
+      "xg": 0.23,
       "xa": 0.01,
       "valueScore": 0.0,
       "tackles": 1,
@@ -8018,7 +8018,7 @@
       "xa": 0.01,
       "valueScore": 0.0,
       "tackles": 2,
-      "clearancesBlocksInterceptions": 6,
+      "clearancesBlocksInterceptions": 7,
       "recoveries": 0,
       "saves": 0,
       "cleanSheets": 0,
@@ -8061,7 +8061,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 9305530,
+  "totalManagers": 9310224,
   "totalPlayers": 604,
   "priceMovement": {
     "risers": [],
@@ -8149,11 +8149,11 @@
         "value": 13
       },
       {
-        "id": "237",
-        "value": 12
+        "id": "544",
+        "value": 13
       },
       {
-        "id": "544",
+        "id": "237",
         "value": 12
       }
     ],
@@ -8272,45 +8272,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 61409
+        "netTransfersEvent": 62548
       },
       {
         "id": "557",
-        "netTransfersEvent": 42122
+        "netTransfersEvent": 42828
       },
       {
         "id": "15",
-        "netTransfersEvent": 40909
+        "netTransfersEvent": 42049
       },
       {
         "id": "26",
-        "netTransfersEvent": 27623
+        "netTransfersEvent": 28009
       },
       {
-        "id": "88",
-        "netTransfersEvent": 17694
+        "id": "565",
+        "netTransfersEvent": 20071
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -93678
+        "netTransfersEvent": -95533
       },
       {
         "id": "25",
-        "netTransfersEvent": -43056
+        "netTransfersEvent": -43747
       },
       {
         "id": "503",
-        "netTransfersEvent": -38169
+        "netTransfersEvent": -38807
       },
       {
         "id": "31",
-        "netTransfersEvent": -34139
+        "netTransfersEvent": -34792
       },
       {
         "id": "452",
-        "netTransfersEvent": -25805
+        "netTransfersEvent": -26269
       }
     ]
   }

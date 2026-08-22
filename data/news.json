@@ -1,18 +1,36 @@
 {
-  "generatedAt": "2026-08-22T21:20:17.954581+00:00",
+  "generatedAt": "2026-08-22T22:19:56.518698+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Match of the Day",
+      "title": "Man City latest: Maresca: Man City need to find a new Rodri",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T22:44:00+00:00"
+    },
+    {
+      "title": "Watch Match of the Day",
       "description": "Highlights of the opening weekend of the 2026/27 Premier League season.",
       "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T22:41:54+00:00"
+    },
+    {
+      "title": "De Zerbi admits 'we're not a team yet' as Redknapp labels Spurs 'strangers'",
+      "description": "Tottenham boss Roberto De Zerbi believes their dismal 3-0 opening-season defeat at Brentford shows his new-look side are \"not a team yet\" after a big summer of spending.",
+      "link": "https://www.skysports.com/football/news/11095/13575888/roberto-de-zerbi-tottenham-boss-admits-were-not-a-team-yet-after-new-look-side-suffer-dismal-brentford-loss",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T22:20:00+00:00"
     },
     {
       "title": "Papers: Arsenal pair Arteta and Berta in 'frequent contact' with Alvarez",
@@ -31,6 +49,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-22T21:40:00+00:00"
+    },
+    {
+      "title": "Man City will 'try to find the new Rodri' - Maresca",
+      "description": "Manchester City will \"try to find the new Rodri\" after the Spain captain left the club earlier this week to join La Liga champions Barcelona, says manager Enzo Maresca.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T21:30:32+00:00"
     },
     {
       "title": "We let fans down, says Nuno after West Ham defeat",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T20:16:00+00:00"
-    },
-    {
-      "title": "Is Barry emerging as frontman Everton can finally count on?",
-      "description": "After finding the back of the net in Everton's 2-0 win over Crystal Palace, is Thierno Barry on course to become Everton's main man up front?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c39e9vpjg1do",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T20:10:40+00:00"
-    },
-    {
-      "title": "Spurs latest: 'We weren't ready to fight' - De Zerbi apologises for loss",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T20:10:00+00:00"
-    },
-    {
-      "title": "Euro latest: Stones makes Inter debut in win as Spence and \u2060Jones watch on",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T19:43:00+00:00"
     }
   ]
 }
