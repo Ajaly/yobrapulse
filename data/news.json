@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-22T09:25:30.173486+00:00",
+  "generatedAt": "2026-08-22T10:21:09.731145+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man Utd latest: Rashford's squad number confirmed",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T10:40:00+00:00"
+    },
+    {
+      "title": "Everton latest: Fiorentina interested in Beto",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T10:30:00+00:00"
+    },
+    {
+      "title": "Joao Pedro extends Chelsea stay until 2034",
+      "description": "Chelsea striker Joao Pedro signs a new contract with the club until 2032, with the option of two further years.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c79g2z11r81o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T10:07:37+00:00"
+    },
+    {
+      "title": "Chelsea latest: Joao Pedro signs new eight-year deal at Stamford Bridge",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T10:00:00+00:00"
+    },
+    {
+      "title": "How Liverpool are preparing to face six new managers in first six games",
+      "description": "For Liverpool and Andoni Iraola, the Premier League schedule means they will face six teams with new managers in their first six matches.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cg5l9qz1dvno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T09:36:48+00:00"
+    },
     {
       "title": "Rangers linked with striker Fofana - gossip",
       "description": "Rangers consider loan striker from France as Celtic home in on Bosnia-Herzegovina star...",
@@ -13,6 +58,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-22T09:09:03+00:00"
+    },
+    {
+      "title": "Messi fined for slapping opponent in MLS game",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T09:00:00+00:00"
     },
     {
       "title": "Aston Villa latest: Talks begin to sign free agent Goretzka",
@@ -58,60 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-22T07:44:05+00:00"
-    },
-    {
-      "title": "'I'm not ashamed' - Ellison on mental health and playing at 47",
-      "description": "Striker Kevin Ellison, who once signed for Premier League Leicester City, opens up about playing at 47 - and why it's important to talk about mental health.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2k78nk1n34o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-22T06:19:35+00:00"
-    },
-    {
-      "title": "Flex your football brain with our daily quizzes",
-      "description": "Test your ball knowledge with today's Who Am I?, Five in Five and Brainteaser.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2llxl79y1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T06:00:53+00:00"
-    },
-    {
-      "title": "Second set of twins a good distraction from injury - Maddison",
-      "description": "Tottenham midfielder James Maddison says having five children aged four and under - including a second set of twins - helpfully distracted him from his ACL injury last season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20j3vx6ne4o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-22T05:28:50+00:00"
-    },
-    {
-      "title": "My family got me through injury - Maddison",
-      "description": "Tottenham midfielder James Maddison discusses life under boss Roberto de Zerbi and how the distraction of having five children under five at home kept him busy while he was out with a long-term injury.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c4g30ewkx75o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-22T05:20:29+00:00"
-    },
-    {
-      "title": "Papers: Atletico Madrid ready to sell Alvarez to Arsenal",
-      "description": "The top stories and transfer rumours from Saturday's newspapers...",
-      "link": "https://www.skysports.com/football/news/11095/13575656/arsenal-transfer-news-atletico-madrid-finally-shift-julian-alvarez-position-and-now-willing-to-sell-striker-to-the-gunners-paper-talk",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T23:30:00+00:00"
-    },
-    {
-      "title": "Coventry latest: No tackles for 69 mins - but Lampard happy with effort",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13541482/coventry-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T23:15:00+00:00"
     }
   ]
 }
