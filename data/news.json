@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-22T08:25:13.660469+00:00",
+  "generatedAt": "2026-08-22T09:25:30.173486+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Rangers linked with striker Fofana - gossip",
+      "description": "Rangers consider loan striker from France as Celtic home in on Bosnia-Herzegovina star...",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c70g20d6klpo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T09:09:03+00:00"
+    },
     {
       "title": "Aston Villa latest: Talks begin to sign free agent Goretzka",
       "description": "",
@@ -13,6 +22,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-22T08:59:00+00:00"
+    },
+    {
+      "title": "How new-look Spurs are shaping up under De Zerbi",
+      "description": "Roberto de Zerbi has had time and money over the summer to start creating a new-look Tottenham. So how are they shaping up?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx25xy7p9zpo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T08:41:57+00:00"
     },
     {
       "title": "VOTE: Who has the better 'best XI' - Man Utd or Liverpool?",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T23:15:00+00:00"
-    },
-    {
-      "title": "Lessons learned, but Coventry's top-flight return about more than result",
-      "description": "Twenty-five years, 94 days and countless twists later, Coventry City have started life back in the Premier League, but it was a tough baptism of fire with a 3-0 loss at defending champions Arsenal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp8e37mpp0eo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T23:13:13+00:00"
-    },
-    {
-      "title": "'A massive 10 days' - Neville tells Arsenal to get Alvarez before deadline",
-      "description": "Defending Premier League champions Arsenal would become Champions League winners if they land Julian Alvarez in the final days of the transfer window, says Gary Neville.",
-      "link": "https://www.skysports.com/football/news/11095/13575645/arsenal-transfer-news-julian-alvarez-would-add-magic-to-gunners-frontline-says-gary-neville-as-he-urges-them-to-sign-atletico-madrid-striker",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-21T23:06:00+00:00"
     }
   ]
 }
