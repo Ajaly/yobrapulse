@@ -1,10 +1,73 @@
 {
-  "generatedAt": "2026-08-22T20:20:16.838567+00:00",
+  "generatedAt": "2026-08-22T21:20:17.954581+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Match of the Day",
+      "description": "Highlights of the opening weekend of the 2026/27 Premier League season.",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T22:41:54+00:00"
+    },
+    {
+      "title": "Papers: Arsenal pair Arteta and Berta in 'frequent contact' with Alvarez",
+      "description": "The top stories and transfer rumours from Sunday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13576128/arsenal-transfer-news-mikel-arteta-and-andrea-berta-in-frequent-contact-with-julian-alvarez-amid-hope-of-luring-atletico-madrid-star-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T22:00:00+00:00"
+    },
+    {
+      "title": "Olise stars as Bayern beat Dortmund to win Supercup",
+      "description": "Bayern Munich beat Borussia Dortmund 2-1 to retain the Franz Beckenbauer Supercup at Signal Iduna Park.",
+      "link": "https://www.skysports.com/football/borussia-dortmund-vs-bayern-munich/report/556006",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T21:40:00+00:00"
+    },
+    {
+      "title": "We let fans down, says Nuno after West Ham defeat",
+      "description": "Nuno Espirito Santo says West Ham \"let down\" their fans as they lost 2-1 to Charlton in their first Championship home match this season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj363xln6e6o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T20:54:01+00:00"
+    },
+    {
+      "title": "Alvarez open to Arsenal transfer - Sunday's gossip",
+      "description": "Atletico Madrid forward Julian Alvarez open to Arsenal transfer, Spurs confident on completing Omar Marmoush deal, Ollie Watkins wants Al-Hilal move, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg0gxxkp1vo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T20:39:00+00:00"
+    },
+    {
+      "title": "Tote bags & derby wins - how Pressley has defied Dundee expectations",
+      "description": "Steven Pressley says he is \"immensely proud\" of his Dundee players as the head coach's redemption arc continues with another derby victory.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c86n6j1x36zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T20:20:34+00:00"
+    },
+    {
+      "title": "Tote bags & derby wins - how Pressley has defied Dundee expectations",
+      "description": "Steven Pressley says he is \"immensely proud\" of his Dundee players as the head coach's redemption arc continues with another derby victory.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c86n6j1x36zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T20:20:34+00:00"
+    },
     {
       "title": "Hits and misses: Man Utd lack guts and fight, but can Leeds dare to dream?",
       "description": "",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T19:43:00+00:00"
-    },
-    {
-      "title": "Spurs crumble as Brentford show brilliance in convincing win",
-      "description": "Highlights from the Premier League match between Brentford and Tottenham Hotspur.",
-      "link": "https://www.skysports.com/watch/video/13576076/brentford-3-0-tottenham-hotspur-premier-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T19:28:00+00:00"
-    },
-    {
-      "title": "Spurs 'didn't fight in the right way' - De Zerbi",
-      "description": "Tottenham Hotspur head coach Roberto Di Zerbi believes his side \"didn't fight in the right way\" in their 3-0 loss to Brentford in the opening match of the 2026-27 Premier League season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cp8x8jl4yj2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T19:23:56+00:00"
-    },
-    {
-      "title": "Woeful Spurs easily beaten at Brentford despite big-spending summer",
-      "description": "A woeful Tottenham started their new Premier League season dismally with a 3-0 loss at Brentford despite a big summer of spending.",
-      "link": "https://www.skysports.com/football/brentford-vs-tottenham-hotspur/report/559445",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T19:20:00+00:00"
-    },
-    {
-      "title": "'Maybe people will stop sleeping on us' - Hull enjoy dream return",
-      "description": "Relegation favourites Hull City start the season well with a victory over Manchester United as their manager says \"we are trying to prove people wrong\".",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62x2z0k0p6o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T19:07:15+00:00"
-    },
-    {
-      "title": "Man Utd 'didn't look ready' - but hurting Carrick remains calm",
-      "description": "Manchester United boss Michael Carrick is refusing to panic despite shock loss at newly promoted Hull City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c87n78p070do",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T19:06:02+00:00"
-    },
-    {
-      "title": "Brentford beat lacklustre Spurs in comfortable opening day win",
-      "description": "Tottenham Hotspur's Premier League season under Roberto De Zerbi gets off to a dismal start as they lose 3-0 to a dominant Brentford side at the Gtech Community Stadium.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cqx75yq28rwo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T19:02:31+00:00"
-    },
-    {
-      "title": "Late drama as Ipswich stun Sunderland",
-      "description": "Ipswich Town beat Sunderland as Jack Clarke scores a 90th minute winner to open their account on their return to the Premier League.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cvg0214evlmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T19:01:50+00:00"
     }
   ]
 }
