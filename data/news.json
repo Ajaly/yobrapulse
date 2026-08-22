@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-08-22T12:29:37.265790+00:00",
+  "generatedAt": "2026-08-22T13:31:22.235426+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Off the Ball take petty & ill-informed look at Scottish football",
-      "description": "The most petty and ill-informed football show on radio.",
-      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+      "title": "Hull stun Man Utd in opener - Hull v Man Utd player ratings",
+      "description": "How Hull City and Manchester United's players rated following their Premier League match.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cpw94jp02xxo",
       "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T13:24:59+00:00"
+    },
+    {
+      "title": "Three new Leeds signings start at Forest LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/nottingham-forest-vs-leeds-united/live/559449",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T13:00:00+00:00"
+    },
+    {
+      "title": "McNeil starts for Palace at Everton as Johnson on bench LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/everton-vs-crystal-palace/live/559446",
+      "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T13:00:00+00:00"
@@ -24,12 +42,21 @@
       "pubDateISO": "2026-08-22T12:22:26+00:00"
     },
     {
-      "title": "Millwall, Pompey & Bristol City all lead - EFL LIVE on Sky!",
+      "title": "Millwall cruise past Norwich, Portsmouth win - EFL LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13575067/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T12:00:00+00:00"
+    },
+    {
+      "title": "Ipswich hand debuts to SEVEN new signings vs Sunderland LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/ipswich-town-vs-sunderland/live/559448",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-22T12:00:00+00:00"
     },
     {
@@ -60,15 +87,6 @@
       "pubDateISO": "2026-08-22T10:07:37+00:00"
     },
     {
-      "title": "Chelsea latest: Joao Pedro signs new eight-year deal at Stamford Bridge",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-22T10:00:00+00:00"
-    },
-    {
       "title": "How Liverpool are preparing to face six new managers in first six games",
       "description": "For Liverpool and Andoni Iraola, the Premier League schedule means they will face six teams with new managers in their first six matches.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cg5l9qz1dvno",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T09:00:00+00:00"
-    },
-    {
-      "title": "Aston Villa latest: Talks begin to sign free agent Goretzka",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-22T08:59:00+00:00"
-    },
-    {
-      "title": "How new-look Spurs are shaping up under De Zerbi",
-      "description": "Roberto de Zerbi has had time and money over the summer to start creating a new-look Tottenham. So how are they shaping up?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx25xy7p9zpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T08:41:57+00:00"
     }
   ]
 }
