@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-22T05:25:19.690035+00:00",
+  "generatedAt": "2026-08-22T06:33:11.647619+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'I'm not ashamed' - Ellison on mental health and playing at 47",
+      "description": "Striker Kevin Ellison, who once signed for Premier League Leicester City, opens up about playing at 47 - and why it's important to talk about mental health.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2k78nk1n34o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T06:19:35+00:00"
+    },
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge with today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2llxl79y1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T06:00:53+00:00"
+    },
+    {
+      "title": "Second set of twins a good distraction from injury - Maddison",
+      "description": "Tottenham midfielder James Maddison says having five children aged four and under - including a second set of twins - helpfully distracted him from his ACL injury last season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20j3vx6ne4o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-22T05:28:50+00:00"
+    },
     {
       "title": "My family got me through injury - Maddison",
       "description": "Tottenham midfielder James Maddison discusses life under boss Roberto de Zerbi and how the distraction of having five children under five at home kept him busy while he was out with a long-term injury.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-21T22:48:00+00:00"
-    },
-    {
-      "title": "'Alvarez pushes Arsenal over CL line' - Nev insists Gunners need world-class attacker",
-      "description": "The Friday Night Football panel discuss whether Arsenal are still shy of a world-class attacker that would see them get over the line to win their first UEFA Champions League title.",
-      "link": "https://www.skysports.com/watch/video/13575653/arsenal-vs-coventry-gary-neville-believes-arsenal-still-lack-a-world-class-attacker",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T22:38:00+00:00"
-    },
-    {
-      "title": "Lampard praises Coventry's courage in 3-0 defeat by Arsenal",
-      "description": "Coventry City manager Frank Lampard shares his thoughts on his side's 3-0 defeat by Arsenal in their first game back in the Premier League since 2001.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/ckg97d082wyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T22:00:36+00:00"
-    },
-    {
-      "title": "Arsenal cruise to victory over Coventry on Premier League return",
-      "description": "Highlights from the Premier League match between Arsenal and Coventry.",
-      "link": "https://www.skysports.com/watch/video/13575642/arsenal-3-0-coventry-premier-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-21T21:58:00+00:00"
     }
   ]
 }
