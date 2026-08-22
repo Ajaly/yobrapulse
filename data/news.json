@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-22T22:19:56.518698+00:00",
+  "generatedAt": "2026-08-22T23:18:46.323946+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "How Arsenal 'punished' newly promoted Coventry",
+      "description": "Match of the Day's Mark Chapman, Alan Shearer and Wayne Rooney discuss Arsenal's quality against Coventry City, praising the hosts but stressing that Frank Lampard's side shouldn't be judged.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c70g0xnewwzo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T23:13:35+00:00"
+    },
+    {
+      "title": "Why Spurs' defeat to Brentford is 'worrying' after summer signings",
+      "description": "Match of the Day's Mark Chapman, Alan Shearer and Wayne Rooney discuss how Tottenham Hotspur's heavy loss to Brentford is cause for concern considering how much money they have spent.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cr494we52ddo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-22T23:10:45+00:00"
+    },
+    {
+      "title": "How the 'new boys' of Ipswich got their season off to a dream start",
+      "description": "Match of the Day's Wayne Rooney is full of praise for Ipswich Town on their return to the Premier League as they earn a late victory over Sunderland.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cz7d7le4vrgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T23:06:30+00:00"
+    },
+    {
+      "title": "'They just didn't look fit at all' - Shearer on Man Utd",
+      "description": "Match of the Day pundits Alan Shearer and Wayne Rooney analyse Manchester United's performance in their 2-0 loss on the opening day of the Premier League to newly promoted Hull City.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/clyqylwkl2no",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T23:01:53+00:00"
+    },
     {
       "title": "Man City latest: Maresca: Man City need to find a new Rodri",
       "description": "",
@@ -13,15 +49,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T22:44:00+00:00"
-    },
-    {
-      "title": "Watch Match of the Day",
-      "description": "Highlights of the opening weekend of the 2026/27 Premier League season.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T22:41:54+00:00"
     },
     {
       "title": "De Zerbi admits 'we're not a team yet' as Redknapp labels Spurs 'strangers'",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T20:20:34+00:00"
-    },
-    {
-      "title": "Tote bags & derby wins - how Pressley has defied Dundee expectations",
-      "description": "Steven Pressley says he is \"immensely proud\" of his Dundee players as the head coach's redemption arc continues with another derby victory.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c86n6j1x36zo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T20:20:34+00:00"
-    },
-    {
-      "title": "Hits and misses: Man Utd lack guts and fight, but can Leeds dare to dream?",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13575708/man-utd-lack-guts-and-fight-leeds-have-a-right-to-dream-and-arsenal-have-rejuvenated-attack-premier-league-hits-and-misses",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T20:20:00+00:00"
-    },
-    {
-      "title": "De Zerbi learns cash alone cannot fix Spurs' losing mentality",
-      "description": "Spurs head coach Roberto De Zerbi discovers cash is no cure for a losing mentality as they crash to a heavy defeat at Brentford, says chief football writer Phil McNulty.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cd696j44jqyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T20:16:00+00:00"
     }
   ]
 }
