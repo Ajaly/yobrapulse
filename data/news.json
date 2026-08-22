@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-22T10:21:09.731145+00:00",
+  "generatedAt": "2026-08-22T11:19:33.779133+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Norwich, Birmingham & Pompey in action - EFL LIVE on Sky!",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575067/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-22T12:00:00+00:00"
+    },
     {
       "title": "Man Utd latest: Rashford's squad number confirmed",
       "description": "",
@@ -13,15 +22,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T10:40:00+00:00"
-    },
-    {
-      "title": "Everton latest: Fiorentina interested in Beto",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T10:30:00+00:00"
     },
     {
       "title": "Joao Pedro extends Chelsea stay until 2034",
