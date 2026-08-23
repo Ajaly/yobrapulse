@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-23T21:19:25.577571+00:00",
+  "generatedAt": "2026-08-23T22:19:53.733522+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Gordon gets two assists in Barca rout | Amorim's AC Milan win | PSG draw",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T22:45:00+00:00"
+    },
+    {
+      "title": "Watch Match of the Day",
+      "description": "Highlights of the day's three matches in the Premier League.",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T22:30:25+00:00"
+    },
+    {
+      "title": "Papers: Palace prepare audacious \u00a350m bid for West Ham captain Bowen",
+      "description": "The top stories and transfer rumours from Monday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13576453/crystal-palace-transfer-news-eagles-prepare-audacious-50m-bid-to-lure-jarrod-bowen-back-to-premier-league-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-23T22:25:00+00:00"
+    },
     {
       "title": "Hits and misses: Maresca's Man City experiment gets lucky",
       "description": "",
@@ -85,33 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-08-23T19:27:12+00:00"
-    },
-    {
-      "title": "Wissa shines as Isak struggles - Newcastle v Liverpool player ratings",
-      "description": "How Newcastle United and Liverpool's players rated in their Premier League match.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9q9q2gnxvjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T19:22:48+00:00"
-    },
-    {
-      "title": "Gvardiol rescues result for Maresca - player ratings for Man City v Bournemouth",
-      "description": "How Man City and Bournemouth players rated following their Premier League match.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy0j01pr0p0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T19:17:27+00:00"
-    },
-    {
-      "title": "'Up front next week?' Maresca's Guehi gamble pays off",
-      "description": "Rather than playing safe in selecting his Manchester City side for the first time in the Premier League, Enzo Maresca made a bold choice in midfield. Ultimately, it paid off.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqx7x1wpz20o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T19:13:12+00:00"
     }
   ]
 }

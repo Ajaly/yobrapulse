@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T21:19:25.020464+00:00",
+  "generatedAt": "2026-08-23T22:19:53.138898+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -98,9 +98,9 @@
     "tackles": [
       "449",
       "498",
-      "115",
       "237",
-      "15"
+      "15",
+      "94"
     ],
     "saves": []
   },
@@ -4276,17 +4276,17 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.5%",
+      "owned": "2.6%",
       "points": 17,
       "epNext": 1.7,
       "form": 17.0,
       "minutes": 77,
       "goals": 1,
       "assists": 1,
-      "xg": 1.4,
-      "xa": 0.18,
+      "xg": 1.47,
+      "xa": 0.21,
       "valueScore": 3.8,
-      "tackles": 4,
+      "tackles": 3,
       "clearancesBlocksInterceptions": 1,
       "recoveries": 3,
       "saves": 0,
@@ -4400,7 +4400,7 @@
       "avatar": "CG",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.0m",
-      "owned": "3.7%",
+      "owned": "3.8%",
       "points": 12,
       "epNext": 2.5,
       "form": 12.0,
@@ -4431,7 +4431,7 @@
       "avatar": "BW",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "5.0%",
+      "owned": "5.1%",
       "points": 11,
       "epNext": 2.5,
       "form": 11.0,
@@ -4794,6 +4794,37 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
+    "94": {
+      "id": 94,
+      "name": "Kevin Schade",
+      "shortName": "Schade",
+      "position": "MID",
+      "team": "Brentford",
+      "avatar": "KS",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a36.0m",
+      "owned": "3.6%",
+      "points": 3,
+      "epNext": 2.2,
+      "form": 3.0,
+      "minutes": 90,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.52,
+      "xa": 0.01,
+      "valueScore": 0.5,
+      "tackles": 3,
+      "clearancesBlocksInterceptions": 1,
+      "recoveries": 5,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": null,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Leeds (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
     "236": {
       "id": 236,
       "name": "Kiernan Dewsbury-Hall",
@@ -4989,7 +5020,7 @@
       "avatar": "JP",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "8.2%",
+      "owned": "8.3%",
       "points": 7,
       "epNext": 3.3,
       "form": 7.0,
@@ -5151,7 +5182,7 @@
       "minutes": 85,
       "goals": 0,
       "assists": 1,
-      "xg": 0.19,
+      "xg": 0.18,
       "xa": 0.48,
       "valueScore": 1.2,
       "tackles": 3,
@@ -5182,7 +5213,7 @@
       "minutes": 90,
       "goals": 0,
       "assists": 0,
-      "xg": 0.19,
+      "xg": 0.13,
       "xa": 0.03,
       "valueScore": 1.2,
       "tackles": 0,
@@ -5392,7 +5423,7 @@
       "avatar": "FE",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.0m",
-      "owned": "2.4%",
+      "owned": "2.5%",
       "points": 4,
       "epNext": 2.0,
       "form": 4.0,
@@ -5475,37 +5506,6 @@
       "fixture": "vs Aston Villa (A)",
       "fdr": 4,
       "fdrClass": "hard"
-    },
-    "94": {
-      "id": 94,
-      "name": "Kevin Schade",
-      "shortName": "Schade",
-      "position": "MID",
-      "team": "Brentford",
-      "avatar": "KS",
-      "avatarClass": "orange-avatar",
-      "price": "\u00a36.0m",
-      "owned": "3.6%",
-      "points": 3,
-      "epNext": 2.2,
-      "form": 3.0,
-      "minutes": 90,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.52,
-      "xa": 0.01,
-      "valueScore": 0.5,
-      "tackles": 3,
-      "clearancesBlocksInterceptions": 1,
-      "recoveries": 5,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Leeds (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
     },
     "173": {
       "id": 173,
@@ -5710,11 +5710,11 @@
       "goals": 0,
       "assists": 0,
       "xg": 0.0,
-      "xa": 0.25,
+      "xa": 0.27,
       "valueScore": 0.4,
       "tackles": 3,
       "clearancesBlocksInterceptions": 0,
-      "recoveries": 3,
+      "recoveries": 2,
       "saves": 0,
       "cleanSheets": 1,
       "positionPercentile": null,
@@ -5950,7 +5950,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.5m",
-      "owned": "26.0%",
+      "owned": "25.9%",
       "points": 2,
       "epNext": 2.9,
       "form": 2.0,
@@ -6012,7 +6012,7 @@
       "avatar": "EA",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "7.7%",
+      "owned": "7.6%",
       "points": 2,
       "epNext": 1.7,
       "form": 2.0,
@@ -6322,7 +6322,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "23.9%",
+      "owned": "23.8%",
       "points": 2,
       "epNext": 1.9,
       "form": 2.0,
@@ -7190,7 +7190,7 @@
       "avatar": "OW",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "10.2%",
+      "owned": "10.1%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -7934,7 +7934,7 @@
       "avatar": "PP",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "15.4%",
+      "owned": "15.3%",
       "points": 0,
       "epNext": 1.9,
       "form": 0.0,
@@ -8058,7 +8058,7 @@
       "avatar": "MC",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "8.8%",
+      "owned": "8.7%",
       "points": -1,
       "epNext": 1.7,
       "form": -1.0,
@@ -8081,7 +8081,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9436250,
+  "totalManagers": 9441053,
   "totalPlayers": 609,
   "priceMovement": {
     "risers": [],
@@ -8316,45 +8316,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 100337
+        "netTransfersEvent": 102011
       },
       {
         "id": "565",
-        "netTransfersEvent": 81602
+        "netTransfersEvent": 84260
       },
       {
         "id": "15",
-        "netTransfersEvent": 81186
+        "netTransfersEvent": 82990
       },
       {
         "id": "88",
-        "netTransfersEvent": 73883
+        "netTransfersEvent": 75967
       },
       {
         "id": "115",
-        "netTransfersEvent": 66673
+        "netTransfersEvent": 70814
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -151315
+        "netTransfersEvent": -153195
       },
       {
         "id": "25",
-        "netTransfersEvent": -65680
+        "netTransfersEvent": -66713
       },
       {
         "id": "31",
-        "netTransfersEvent": -61037
+        "netTransfersEvent": -62261
       },
       {
         "id": "503",
-        "netTransfersEvent": -59550
+        "netTransfersEvent": -60447
       },
       {
         "id": "208",
-        "netTransfersEvent": -46161
+        "netTransfersEvent": -47249
       }
     ]
   }
