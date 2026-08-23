@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-23T12:30:48.073124+00:00",
+  "generatedAt": "2026-08-23T13:31:53.910320+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Price double gives West Brom turnaround win over Burnley",
+      "description": "Isaac Price inspired West Bromwich Albion to a 3-1 comeback win against promotion favourites Burnley in the Sky Bet Championship.",
+      "link": "https://www.skysports.com/football/west-bromwich-albion-vs-burnley/report/560519",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T14:15:00+00:00"
+    },
+    {
+      "title": "Newcastle latest: Burn and Joelinton to miss Liverpool curtain-raiser",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T13:40:00+00:00"
+    },
+    {
+      "title": "Price double helps West Brom see off Burnley",
+      "description": "Two-goal Isaac Price and Harry Whitwell score as West Bromwich Albion beat Burnley to make it two league wins out of two.",
+      "link": "https://www.bbc.co.ukundefined/",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T13:24:46+00:00"
+    },
     {
       "title": "Man City agree record-breaking deal with Lille to sign Bouaddi",
       "description": "Manchester City have agreed a deal with Lille for Morocco international midfielder Ayyoub Bouaddi worth up to &#163;86m (&#8364;100m).",
@@ -13,15 +40,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-23T13:02:00+00:00"
-    },
-    {
-      "title": "Off The Ball with more petty and ill-informed football views",
-      "description": "The most petty and ill-informed football show on radio.",
-      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T13:00:00+00:00"
     },
     {
       "title": "Spurs latest: Savinho absent from City squad but Marmoush on bench",
@@ -33,16 +51,34 @@
       "pubDateISO": "2026-08-23T13:00:00+00:00"
     },
     {
+      "title": "The maths whizz turned \u00a386m teenage star heading to Man City",
+      "description": "Manchester City have agreed a deal in principle with Lille to sign midfielder Ayyoub Bouaddi - what makes him such a highly rated talent?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwylg0kp5lwo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-23T12:44:36+00:00"
+    },
+    {
       "title": "Man City agree \u00a386m deal for teen midfielder Bouaddi",
       "description": "Manchester City agree a deal in principle for 18-year-old Lille midfielder Ayyoub Bouaddi worth 100m euros (\u00a386m).",
       "link": "https://www.bbc.co.uk/sport/football/articles/clyjy0e0pkzo",
       "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-23T12:19:43+00:00"
+      "pubDateISO": "2026-08-23T12:41:05+00:00"
     },
     {
-      "title": "Vuskovic makes PL debut for Brighton as Villa leave out star names LIVE!",
+      "title": "'New season, new trim' - Haaland reveals buzzcut",
+      "description": "Manchester City striker Erling Haaland reveals his new buzz cut on social media.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr4941zkgevo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T12:36:54+00:00"
+    },
+    {
+      "title": "Brighton double lead against Aston Villa LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-aston-villa/live/559450",
       "source": "Sky Sports",
@@ -51,7 +87,16 @@
       "pubDateISO": "2026-08-23T12:00:00+00:00"
     },
     {
-      "title": "Lewis starts for Man City as Silva makes Bournemouth debut LIVE!",
+      "title": "Rodri's heir? Why Man City have spent big on Bouaddi",
+      "description": "Those who followed Morocco's recent World Cup campaign will recognise the name Ayyoub Bouaddi. Perhaps those who only took a passing glance will remember him, too. He tends to stand out.",
+      "link": "https://www.skysports.com/football/news/11095/13571912/ayyoub-bouaddi-transfer-why-do-man-city-want-to-spend-big-on-another-midfielder-after-signing-elliot-anderson",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T12:00:00+00:00"
+    },
+    {
+      "title": "New-look Haaland misses sitter as Man City test Bournemouth LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/manchester-city-vs-bournemouth/live/559451",
       "source": "Sky Sports",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T11:55:00+00:00"
-    },
-    {
-      "title": "Rooney says Man Utd must become feared - but what went wrong at Hull?",
-      "description": "Manchester United made an awful start to their Premier League campaign at newly-promoted Hull. What went wrong?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvgxg1g8nkro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T11:43:19+00:00"
-    },
-    {
-      "title": "Mourinho urges 'bullied' Vinicius Jr to control emotions when being provoked",
-      "description": "Jose Mourinho says Real Madrid's Brazil winger Vinicius Jr \"needs to have great emotional control\" when being bullied in games.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1414my6165o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T11:40:14+00:00"
-    },
-    {
-      "title": "Where's it all gone? Haaland reveals new shaven haircut",
-      "description": "Erling Haaland revealed a fresh haircut before Manchester City's Premier League curtain raiser against Bournemouth on Sunday afternoon, live on Sky Sports.",
-      "link": "https://www.skysports.com/football/news/11095/13576220/erling-haaland-haircut-manchester-city-forward-reveals-fresh-shaven-style-ahead-of-new-premier-league-season",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T11:19:00+00:00"
-    },
-    {
-      "title": "Chelsea latest: Essugo available for loan with PL clubs interested",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-23T11:15:00+00:00"
-    },
-    {
-      "title": "'It hurts' - Alexander-Arnold reveals he still receives abuse after Liverpool exit",
-      "description": "Trent Alexander-Arnold says he still receives abuse from Liverpool fans online after leaving Anfield for Real Madrid 14 months ago.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqjxj2zz77ro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T10:05:27+00:00"
     }
   ]
 }
