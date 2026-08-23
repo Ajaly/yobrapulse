@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-23T06:34:13.077099+00:00",
+  "generatedAt": "2026-08-23T07:32:30.270167+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Life after Salah - why Isak and Wirtz must step up for Liverpool",
+      "description": "Liverpool are preparing to begin a season without Mohamed Salah for the first time in a decade - but they haven't replaced him yet. This is why.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd69dd1q4qlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T06:31:21+00:00"
+    },
     {
       "title": "Flex your football brain with our daily quizzes",
       "description": "Test your ball knowledge with today's Who Am I?, Five in Five and Brainteaser.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T20:54:01+00:00"
-    },
-    {
-      "title": "Alvarez open to Arsenal transfer - Sunday's gossip",
-      "description": "Atletico Madrid forward Julian Alvarez open to Arsenal transfer, Spurs confident on completing Omar Marmoush deal, Ollie Watkins wants Al-Hilal move, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvg0gxxkp1vo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-22T20:39:00+00:00"
     }
   ]
 }
