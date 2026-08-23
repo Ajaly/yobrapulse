@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T10:21:33.628253+00:00",
+  "generatedAt": "2026-08-23T11:19:46.401432+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -169,7 +169,6 @@
     "418",
     "423",
     "112",
-    "525",
     "529",
     "539",
     "25",
@@ -4256,7 +4255,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "3.7%",
+      "owned": "3.8%",
       "points": 14,
       "epNext": 2.0,
       "form": 14.0,
@@ -4411,7 +4410,7 @@
       "avatar": "M\u00d8",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.5m",
-      "owned": "8.9%",
+      "owned": "9.0%",
       "points": 11,
       "epNext": 2.3,
       "form": 11.0,
@@ -5496,7 +5495,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "11.6%",
+      "owned": "11.5%",
       "points": 2,
       "epNext": 2.8,
       "form": 2.0,
@@ -5713,7 +5712,7 @@
       "avatar": "BB",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "14.1%",
+      "owned": "14.0%",
       "points": 2,
       "epNext": 2.0,
       "form": 2.0,
@@ -5930,7 +5929,7 @@
       "avatar": "DC",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "30.9%",
+      "owned": "30.8%",
       "points": 1,
       "epNext": 2.0,
       "form": 1.0,
@@ -6098,37 +6097,6 @@
       "tackles": 2,
       "clearancesBlocksInterceptions": 7,
       "recoveries": 3,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Newcastle (H)",
-      "fdr": 2,
-      "fdrClass": "easy"
-    },
-    "525": {
-      "id": 525,
-      "name": "Mateus Fernandes",
-      "shortName": "Fernandes",
-      "position": "MID",
-      "team": "Spurs",
-      "avatar": "MF",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a36.0m",
-      "owned": "2.0%",
-      "points": 1,
-      "epNext": 2.1,
-      "form": 1.0,
-      "minutes": 45,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.06,
-      "valueScore": 0.2,
-      "tackles": 1,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 1,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -8061,7 +8029,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 9345035,
+  "totalManagers": 9349841,
   "totalPlayers": 604,
   "priceMovement": {
     "risers": [],
@@ -8272,45 +8240,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 69741
+        "netTransfersEvent": 70690
       },
       {
         "id": "15",
-        "netTransfersEvent": 48882
+        "netTransfersEvent": 49796
       },
       {
         "id": "557",
-        "netTransfersEvent": 47484
+        "netTransfersEvent": 48116
       },
       {
         "id": "565",
-        "netTransfersEvent": 39910
+        "netTransfersEvent": 42046
       },
       {
         "id": "88",
-        "netTransfersEvent": 33423
+        "netTransfersEvent": 34998
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -108138
+        "netTransfersEvent": -109588
       },
       {
         "id": "25",
-        "netTransfersEvent": -48446
+        "netTransfersEvent": -49041
       },
       {
         "id": "503",
-        "netTransfersEvent": -43311
+        "netTransfersEvent": -43856
       },
       {
         "id": "31",
-        "netTransfersEvent": -39564
+        "netTransfersEvent": -40181
       },
       {
         "id": "452",
-        "netTransfersEvent": -29537
+        "netTransfersEvent": -29938
       }
     ]
   }

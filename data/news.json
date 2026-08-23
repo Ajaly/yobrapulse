@@ -1,12 +1,66 @@
 {
-  "generatedAt": "2026-08-23T10:21:34.834956+00:00",
+  "generatedAt": "2026-08-23T11:19:47.004407+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man City latest: Where's it all gone?! Haaland reveals new shaven haircut",
+      "title": "Off The Ball with more petty and ill-informed football views",
+      "description": "The most petty and ill-informed football show on radio.",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T13:00:00+00:00"
+    },
+    {
+      "title": "Brighton vs Aston Villa team news LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-aston-villa/live/559450",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T12:00:00+00:00"
+    },
+    {
+      "title": "Man City vs Bournemouth LIVE! & highlights",
+      "description": "",
+      "link": "https://www.skysports.com/football/manchester-city-vs-bournemouth/live/559451",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T11:56:00+00:00"
+    },
+    {
+      "title": "Burnley boss Hayen explains Flemming absence vs WBA amid Lille interest",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T11:55:00+00:00"
+    },
+    {
+      "title": "Where's it all gone? Haaland reveals new shaven haircut",
+      "description": "Erling Haaland revealed a fresh haircut before Manchester City's Premier League curtain raiser against Bournemouth on Sunday afternoon, live on Sky Sports.",
+      "link": "https://www.skysports.com/football/news/11095/13576220/erling-haaland-haircut-manchester-city-forward-reveals-fresh-shaven-style-ahead-of-new-premier-league-season",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T11:19:00+00:00"
+    },
+    {
+      "title": "Chelsea latest: Essugo available for loan with PL clubs interested",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-23T11:15:00+00:00"
+    },
+    {
+      "title": "Man City latest: Man City need to find a new Rodri, says Maresca",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
@@ -58,60 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T08:08:17+00:00"
-    },
-    {
-      "title": "Why a new stand has become symbolic for Wrexham",
-      "description": "The towering new Kop stand at the Racecourse dominates the Wrexham skyline - a tangible reminder of the scale of ambition at the north Wales club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1714xr0w7jo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T07:51:51+00:00"
-    },
-    {
-      "title": "What does Savinho's \u00a375m move reveal about Man City's multi-club model?",
-      "description": "Does Savinho's \u00a375m move from Manchester City to Tottenham represent a sporting success for the Abu Dhabi-owned club?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3w0wpy86z7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T07:43:38+00:00"
-    },
-    {
-      "title": "Life after Salah - why Isak and Wirtz must step up for Liverpool",
-      "description": "Liverpool are preparing to begin a season without Mohamed Salah for the first time in a decade - but they haven't replaced him yet. This is why.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cd69dd1q4qlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T06:31:21+00:00"
-    },
-    {
-      "title": "Flex your football brain with our daily quizzes",
-      "description": "Test your ball knowledge with today's Who Am I?, Five in Five and Brainteaser.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gddy77ev3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T05:59:40+00:00"
-    },
-    {
-      "title": "Relive: Keegan's Newcastle lose thriller to Liverpool",
-      "description": "BBC Sport looks back at one of the Premier League's best ever games as Newcastle, then managed by Kevin Keegan, lost a thriller to Liverpool. Both clubs will pay tribute to Keegan before their Premier League opener at St James' Park.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c4gvjep9wr2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T05:17:21+00:00"
-    },
-    {
-      "title": "How Arsenal 'punished' newly promoted Coventry",
-      "description": "Match of the Day's Mark Chapman, Alan Shearer and Wayne Rooney discuss Arsenal's quality against Coventry City, praising the hosts but stressing that Frank Lampard's side shouldn't be judged.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c70g0xnewwzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T23:13:35+00:00"
     }
   ]
 }
