@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-23T11:19:47.004407+00:00",
+  "generatedAt": "2026-08-23T12:30:48.073124+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man City agree record-breaking deal with Lille to sign Bouaddi",
+      "description": "Manchester City have agreed a deal with Lille for Morocco international midfielder Ayyoub Bouaddi worth up to &#163;86m (&#8364;100m).",
+      "link": "https://www.skysports.com/football/news/11095/13576242/ayyoub-bouaddi-transfer-manchester-city-reach-agreement-with-lille-to-sign-18-year-old-morocco-midfielder",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-23T13:02:00+00:00"
+    },
     {
       "title": "Off The Ball with more petty and ill-informed football views",
       "description": "The most petty and ill-informed football show on radio.",
@@ -15,7 +24,25 @@
       "pubDateISO": "2026-08-23T13:00:00+00:00"
     },
     {
-      "title": "Brighton vs Aston Villa team news LIVE!",
+      "title": "Spurs latest: Savinho absent from City squad but Marmoush on bench",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T13:00:00+00:00"
+    },
+    {
+      "title": "Man City agree \u00a386m deal for teen midfielder Bouaddi",
+      "description": "Manchester City agree a deal in principle for 18-year-old Lille midfielder Ayyoub Bouaddi worth 100m euros (\u00a386m).",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyjy0e0pkzo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-23T12:19:43+00:00"
+    },
+    {
+      "title": "Vuskovic makes PL debut for Brighton as Villa leave out star names LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-aston-villa/live/559450",
       "source": "Sky Sports",
@@ -24,7 +51,7 @@
       "pubDateISO": "2026-08-23T12:00:00+00:00"
     },
     {
-      "title": "Man City vs Bournemouth LIVE! & highlights",
+      "title": "Lewis starts for Man City as Silva makes Bournemouth debut LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/manchester-city-vs-bournemouth/live/559451",
       "source": "Sky Sports",
@@ -40,6 +67,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T11:55:00+00:00"
+    },
+    {
+      "title": "Rooney says Man Utd must become feared - but what went wrong at Hull?",
+      "description": "Manchester United made an awful start to their Premier League campaign at newly-promoted Hull. What went wrong?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgxg1g8nkro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T11:43:19+00:00"
+    },
+    {
+      "title": "Mourinho urges 'bullied' Vinicius Jr to control emotions when being provoked",
+      "description": "Jose Mourinho says Real Madrid's Brazil winger Vinicius Jr \"needs to have great emotional control\" when being bullied in games.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c1414my6165o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T11:40:14+00:00"
     },
     {
       "title": "Where's it all gone? Haaland reveals new shaven haircut",
@@ -60,15 +105,6 @@
       "pubDateISO": "2026-08-23T11:15:00+00:00"
     },
     {
-      "title": "Man City latest: Man City need to find a new Rodri, says Maresca",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T10:20:00+00:00"
-    },
-    {
       "title": "'It hurts' - Alexander-Arnold reveals he still receives abuse after Liverpool exit",
       "description": "Trent Alexander-Arnold says he still receives abuse from Liverpool fans online after leaving Anfield for Real Madrid 14 months ago.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cqjxj2zz77ro",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T10:05:27+00:00"
-    },
-    {
-      "title": "Mourinho says Vinicius Jr a target for \u2018bullying\u2019 as Bellingham seals Real win",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T09:00:00+00:00"
-    },
-    {
-      "title": "'It's not doom and gloom just yet' - what is going on at Morton?",
-      "description": "It's been a rocky start to the season for Morton with seven straight defeats, while the fans' group running the Championship club are dealing with a shortfall in funding.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crl7l3yx0g9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T08:58:49+00:00"
-    },
-    {
-      "title": "Every angle of Ballard's OUTRAGEOUS backheel goal!",
-      "description": "Check out all the angles to Dom Ballard's incredible backheel goal for Bristol City.",
-      "link": "https://www.skysports.com/watch/video/13576191/every-angle-of-dom-ballards-outrageous-backheel-goal",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T08:11:00+00:00"
-    },
-    {
-      "title": "Celtic pursue Serie A midfielder Gineitis - gossip",
-      "description": "Celtic continue their pursuit of midfield options as Rangers prepare for a big name departure...",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqjxjg5r0kyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T08:08:17+00:00"
     }
   ]
 }
