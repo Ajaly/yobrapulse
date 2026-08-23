@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-23T22:19:53.733522+00:00",
+  "generatedAt": "2026-08-23T23:19:50.215493+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "How Hull kept plan to stun Man Utd secret",
+      "description": "Hull City boss Sergej Jakirovic kept his plan to topple Manchester United on their Premier League return under wraps for weeks, assistant head coach Dean Holden tells Match of the Day.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce343r7245no",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T23:12:00+00:00"
+    },
+    {
+      "title": "Why 'woeful' Villa crumbled against Brighton",
+      "description": "Match of the Day's Danny Murphy, Gabby Logan and Joe Hart analyse Aston Villa's \"woeful\" performance against Brighton, which saw them lose 4-0.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c39e9gvxznro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T23:03:23+00:00"
+    },
+    {
+      "title": "How the Guehi gamble paid off for Maresca",
+      "description": "Match of the Day's Joe Hart discusses Manchester City's Marc Guehi and his performance in midfield, with plenty of praise for the centre half in a different position against Bournemouth.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cdewe13009do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T23:02:43+00:00"
+    },
+    {
+      "title": "'Energy, pace, passion' - Newcastle's dynamic performance against Liverpool",
+      "description": "Match of the Day's Joe Hart, Danny Murphy and Gabby Logan analyse Newcastle's energetic performance in their Premier League opener against Liverpool.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cr595yvrevjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T23:01:50+00:00"
+    },
     {
       "title": "Gordon gets two assists in Barca rout | Amorim's AC Milan win | PSG draw",
       "description": "",
@@ -15,13 +51,13 @@
       "pubDateISO": "2026-08-23T22:45:00+00:00"
     },
     {
-      "title": "Watch Match of the Day",
-      "description": "Highlights of the day's three matches in the Premier League.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "title": "'It would appear he's no longer wanting to play for Aston Villa' - does Watkins want out?",
+      "description": "After being left out of Aston Villa's match-day squad against Brighton, Match of the Day's Gabby Logan, Danny Murphy and Joe Hart consider if Ollie Watkins is on the verge of leaving the club for Al Hilal.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwy4y5k4kg4o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T22:30:25+00:00"
+      "pubDateISO": "2026-08-23T22:39:24+00:00"
     },
     {
       "title": "Papers: Palace prepare audacious \u00a350m bid for West Ham captain Bowen",
@@ -76,42 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-23T20:19:00+00:00"
-    },
-    {
-      "title": "Liverpool latest: Iraola says Isak expected hostile return at Newcastle",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T20:12:00+00:00"
-    },
-    {
-      "title": "Newcastle latest: Jaissle offers cryptic clue over Magpies signings",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-23T20:07:00+00:00"
-    },
-    {
-      "title": "Pre-season optimism quickly fades for some fans",
-      "description": "Pre-season optimism is already fading for Manchester United, Tottenham, West Ham and Rangers fans.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy0j0651ee6o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T20:03:14+00:00"
-    },
-    {
-      "title": "Relief for Iraola but Liverpool have work to do",
-      "description": "Dominik Szoboszlai's injury-time penalty rescues a point at the start of the Andoni Iraola era - but Liverpool need to improv after below-par performance.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdrvr73egnlo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-23T19:27:12+00:00"
     }
   ]
 }
