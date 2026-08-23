@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-23T09:25:54.436676+00:00",
+  "generatedAt": "2026-08-23T10:21:34.834956+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man City latest: Where's it all gone?! Haaland reveals new shaven haircut",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T10:20:00+00:00"
+    },
+    {
+      "title": "'It hurts' - Alexander-Arnold reveals he still receives abuse after Liverpool exit",
+      "description": "Trent Alexander-Arnold says he still receives abuse from Liverpool fans online after leaving Anfield for Real Madrid 14 months ago.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqjxj2zz77ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T10:05:27+00:00"
+    },
     {
       "title": "Mourinho says Vinicius Jr a target for \u2018bullying\u2019 as Bellingham seals Real win",
       "description": "",
@@ -22,6 +40,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T08:58:49+00:00"
+    },
+    {
+      "title": "Every angle of Ballard's OUTRAGEOUS backheel goal!",
+      "description": "Check out all the angles to Dom Ballard's incredible backheel goal for Bristol City.",
+      "link": "https://www.skysports.com/watch/video/13576191/every-angle-of-dom-ballards-outrageous-backheel-goal",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T08:11:00+00:00"
     },
     {
       "title": "Celtic pursue Serie A midfielder Gineitis - gossip",
@@ -78,15 +105,6 @@
       "pubDateISO": "2026-08-23T05:17:21+00:00"
     },
     {
-      "title": "Maguire-Mazraoui grappling mix-up - what happened in build-up to Hull opener?",
-      "description": "Manchester United defenders Harry Maguire and Noussair Mazraoui seemed to get mixed-up in the build up to Hull's opening goal on Saturday.",
-      "link": "https://www.skysports.com/watch/video/13576065/man-utd-harry-maguire-and-noussair-mazraoui-in-mix-up-for-hull-opening-goal",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T23:59:00+00:00"
-    },
-    {
       "title": "How Arsenal 'punished' newly promoted Coventry",
       "description": "Match of the Day's Mark Chapman, Alan Shearer and Wayne Rooney discuss Arsenal's quality against Coventry City, praising the hosts but stressing that Frank Lampard's side shouldn't be judged.",
       "link": "https://www.bbc.co.uk/sport/football/videos/c70g0xnewwzo",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T23:13:35+00:00"
-    },
-    {
-      "title": "Why Spurs' defeat to Brentford is 'worrying' after summer signings",
-      "description": "Match of the Day's Mark Chapman, Alan Shearer and Wayne Rooney discuss how Tottenham Hotspur's heavy loss to Brentford is cause for concern considering how much money they have spent.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cr494we52ddo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-22T23:10:45+00:00"
-    },
-    {
-      "title": "How the 'new boys' of Ipswich got their season off to a dream start",
-      "description": "Match of the Day's Wayne Rooney is full of praise for Ipswich Town on their return to the Premier League as they earn a late victory over Sunderland.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cz7d7le4vrgo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T23:06:30+00:00"
     }
   ]
 }
