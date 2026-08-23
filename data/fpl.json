@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T05:27:19.564256+00:00",
+  "generatedAt": "2026-08-23T06:34:12.120989+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -5558,7 +5558,7 @@
       "avatar": "ST",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "4.3%",
+      "owned": "4.2%",
       "points": 2,
       "epNext": 2.0,
       "form": 2.0,
@@ -8061,7 +8061,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 9328287,
+  "totalManagers": 9330707,
   "totalPlayers": 604,
   "priceMovement": {
     "risers": [],
@@ -8272,45 +8272,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 66159
+        "netTransfersEvent": 66649
       },
       {
         "id": "15",
-        "netTransfersEvent": 45536
+        "netTransfersEvent": 46022
       },
       {
         "id": "557",
-        "netTransfersEvent": 45086
+        "netTransfersEvent": 45358
       },
       {
         "id": "565",
-        "netTransfersEvent": 29605
+        "netTransfersEvent": 31036
       },
       {
         "id": "26",
-        "netTransfersEvent": 29333
+        "netTransfersEvent": 29525
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -102156
+        "netTransfersEvent": -103039
       },
       {
         "id": "25",
-        "netTransfersEvent": -45934
+        "netTransfersEvent": -46274
       },
       {
         "id": "503",
-        "netTransfersEvent": -41149
+        "netTransfersEvent": -41468
       },
       {
         "id": "31",
-        "netTransfersEvent": -37248
+        "netTransfersEvent": -37572
       },
       {
         "id": "452",
-        "netTransfersEvent": -27866
+        "netTransfersEvent": -28072
       }
     ]
   }
