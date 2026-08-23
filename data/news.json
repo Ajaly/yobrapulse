@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-23T14:21:46.542443+00:00",
+  "generatedAt": "2026-08-23T15:20:53.079126+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Nightmare start! Aston Villa concede four first-half goals in thumping by Brighton",
+      "description": "Aston Villa produced one of the worst opening 45 minutes in Premier League history on their way to a heavy 4-0 defeat at Brighton.",
+      "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-aston-villa/report/559450",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T15:55:00+00:00"
+    },
+    {
+      "title": "Arsenal target Alvarez starts on bench for Atletico against Villarreal",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T15:20:00+00:00"
+    },
+    {
+      "title": "Sub Cherki rescues result for Maresca - player ratings for Man City v Bournemouth",
+      "description": "How Man City and Bournemouth players rated following their Premier League match.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy0j01pr0p0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T15:05:14+00:00"
+    },
+    {
+      "title": "Manchester Utd midfielder Devaney joins Hibs on loan",
+      "description": "Manchester United teenager Jacob Devaney is joining Hibernian on a season-long loan, with the Edinburgh club holding an option to make the move permanent.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce343p742v9o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-23T15:01:52+00:00"
+    },
+    {
+      "title": "Man City strike twice late on to beat Bournemouth",
+      "description": "Manchester City score two late goals to earn Enzo Maresca a win in his first Premier League game in charge and deny Marco Rose the perfect start as Bournemouth boss.",
+      "link": "https://www.bbc.co.ukundefined/",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T15:00:48+00:00"
+    },
     {
       "title": "Man Utd latest: Neville reflects on Carrick's 'disappointing' start to season",
       "description": "",
@@ -33,7 +78,7 @@
       "pubDateISO": "2026-08-23T14:15:00+00:00"
     },
     {
-      "title": "Newcastle vs Liverpool team news LIVE!",
+      "title": "Newcastle vs Liverpool: Isak starts, three Magpies debutants LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/newcastle-united-vs-liverpool/live/559452",
       "source": "Sky Sports",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T13:00:00+00:00"
-    },
-    {
-      "title": "The maths whizz turned \u00a386m teenage star heading to Man City",
-      "description": "Manchester City have agreed a deal in principle with Lille to sign midfielder Ayyoub Bouaddi - what makes him such a highly rated talent?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwylg0kp5lwo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-23T12:44:36+00:00"
-    },
-    {
-      "title": "Man City agree \u00a386m deal for teen midfielder Bouaddi",
-      "description": "Manchester City agree a deal in principle for 18-year-old Lille midfielder Ayyoub Bouaddi worth 100m euros (\u00a386m).",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyjy0e0pkzo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-23T12:41:05+00:00"
-    },
-    {
-      "title": "'New season, new trim' - Haaland reveals buzzcut",
-      "description": "Manchester City striker Erling Haaland reveals his new buzz cut on social media.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr4941zkgevo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T12:36:54+00:00"
-    },
-    {
-      "title": "'Brighton running riot!' Seagulls FOUR up after half an hour vs 10-man Villa LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-aston-villa/live/559450",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T12:00:00+00:00"
-    },
-    {
-      "title": "Rodri's heir? Why Man City have spent big on Bouaddi",
-      "description": "Those who followed Morocco's recent World Cup campaign will recognise the name Ayyoub Bouaddi. Perhaps those who only took a passing glance will remember him, too. He tends to stand out.",
-      "link": "https://www.skysports.com/football/news/11095/13571912/ayyoub-bouaddi-transfer-why-do-man-city-want-to-spend-big-on-another-midfielder-after-signing-elliot-anderson",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T12:00:00+00:00"
     }
   ]
 }
