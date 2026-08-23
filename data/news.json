@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-23T13:31:53.910320+00:00",
+  "generatedAt": "2026-08-23T14:21:46.542443+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man Utd latest: Neville reflects on Carrick's 'disappointing' start to season",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T14:55:00+00:00"
+    },
+    {
+      "title": "Kane first Englishman to win Germany's player of the year award",
+      "description": "Harry Kane has been voted 2026 German footballer of the year, becoming the first Englishman to win the award.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g4g83v25yo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T14:16:55+00:00"
+    },
     {
       "title": "Price double gives West Brom turnaround win over Burnley",
       "description": "Isaac Price inspired West Bromwich Albion to a 3-1 comeback win against promotion favourites Burnley in the Sky Bet Championship.",
@@ -15,6 +33,15 @@
       "pubDateISO": "2026-08-23T14:15:00+00:00"
     },
     {
+      "title": "Newcastle vs Liverpool team news LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/newcastle-united-vs-liverpool/live/559452",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T14:00:00+00:00"
+    },
+    {
       "title": "Newcastle latest: Burn and Joelinton to miss Liverpool curtain-raiser",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
@@ -22,15 +49,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T13:40:00+00:00"
-    },
-    {
-      "title": "Price double helps West Brom see off Burnley",
-      "description": "Two-goal Isaac Price and Harry Whitwell score as West Bromwich Albion beat Burnley to make it two league wins out of two.",
-      "link": "https://www.bbc.co.ukundefined/",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T13:24:46+00:00"
     },
     {
       "title": "Man City agree record-breaking deal with Lille to sign Bouaddi",
@@ -78,7 +96,7 @@
       "pubDateISO": "2026-08-23T12:36:54+00:00"
     },
     {
-      "title": "Brighton double lead against Aston Villa LIVE!",
+      "title": "'Brighton running riot!' Seagulls FOUR up after half an hour vs 10-man Villa LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-aston-villa/live/559450",
       "source": "Sky Sports",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T12:00:00+00:00"
-    },
-    {
-      "title": "New-look Haaland misses sitter as Man City test Bournemouth LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/manchester-city-vs-bournemouth/live/559451",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T11:56:00+00:00"
-    },
-    {
-      "title": "Burnley boss Hayen explains Flemming absence vs WBA amid Lille interest",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T11:55:00+00:00"
     }
   ]
 }
