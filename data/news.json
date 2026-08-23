@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-23T19:22:30.520817+00:00",
+  "generatedAt": "2026-08-23T20:19:46.495537+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man Utd latest: Baleba passes medical",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-23T20:19:00+00:00"
+    },
     {
       "title": "Liverpool latest: Iraola says Isak expected hostile return at Newcastle",
       "description": "",
@@ -22,6 +31,33 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-23T20:07:00+00:00"
+    },
+    {
+      "title": "Pre-season optimism quickly fades for some fans",
+      "description": "Pre-season optimism is already fading for Manchester United, Tottenham, West Ham and Rangers fans.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy0j0651ee6o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T20:03:14+00:00"
+    },
+    {
+      "title": "Relief for Iraola but Liverpool have work to do",
+      "description": "Dominik Szoboszlai's injury-time penalty rescues a point at the start of the Andoni Iraola era - but Liverpool need to improv after below-par performance.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cdrvr73egnlo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-23T19:27:12+00:00"
+    },
+    {
+      "title": "Wissa shines as Isak struggles - Newcastle v Liverpool player ratings",
+      "description": "How Newcastle United and Liverpool's players rated in their Premier League match.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9q9q2gnxvjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T19:22:48+00:00"
     },
     {
       "title": "Gvardiol rescues result for Maresca - player ratings for Man City v Bournemouth",
@@ -60,7 +96,7 @@
       "pubDateISO": "2026-08-23T19:03:31+00:00"
     },
     {
-      "title": "Brighton dominate ten-man Villa",
+      "title": "Brighton dominate 10-man Villa",
       "description": "Brighton start their season with an emphatic win at home against Europa League winners Aston Villa, with four first-half goals.",
       "link": "https://www.bbc.co.uk/sport/football/videos/c78g8gdkgnzo",
       "source": "BBC Sport",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T19:01:23+00:00"
-    },
-    {
-      "title": "Late Liverpool pen sees Szoboszlai silence Newcastle in draw",
-      "description": "FREE TO WATCH: Highlights from the Premier League match between Newcastle and Liverpool.",
-      "link": "https://www.skysports.com/watch/video/13576408/newcastle-2-2-liverpool-premier-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T18:47:00+00:00"
-    },
-    {
-      "title": "'When you score at the end it tastes better' - Iraola",
-      "description": "Liverpool head coach Andoni Iraola reacts to his sides 2-2 draw against Newcastle United on the opening weekend of the 2026-27 Premier League season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c4gvgj0w9j2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T18:28:28+00:00"
-    },
-    {
-      "title": "Arsenal target Alvarez whistled and jeered on Atletico return",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T18:20:00+00:00"
-    },
-    {
-      "title": "Szoboszlai snatches 99th-min Liverpool leveller to deny Newcastle win",
-      "description": "Dominik Szoboszlai's last-gasp penalty earned Andoni Iraola a debut Liverpool point to deny Newcastle victory on Matthias Jaissle's managerial debut in a pulsating 2-2 draw at St James' Park.",
-      "link": "https://www.skysports.com/football/newcastle-united-vs-liverpool/report/559452",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T18:15:00+00:00"
     }
   ]
 }

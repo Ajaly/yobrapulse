@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T19:22:28.327296+00:00",
+  "generatedAt": "2026-08-23T20:19:44.795163+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -68,17 +68,17 @@
     "115",
     "565",
     "88",
+    "367",
     "10",
-    "15",
-    "236"
+    "15"
   ],
   "leaderboards": {
     "points": [
       "115",
       "565",
       "88",
-      "10",
-      "15"
+      "367",
+      "10"
     ],
     "assists": [
       "565",
@@ -108,10 +108,10 @@
     "115",
     "565",
     "88",
+    "367",
     "10",
     "15",
     "236",
-    "367",
     "388",
     "8",
     "12",
@@ -4276,7 +4276,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.4%",
+      "owned": "2.5%",
       "points": 17,
       "epNext": 1.7,
       "form": 17.0,
@@ -4391,6 +4391,37 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
+    "367": {
+      "id": 367,
+      "name": "Cody Gakpo",
+      "shortName": "Gakpo",
+      "position": "MID",
+      "team": "Liverpool",
+      "avatar": "CG",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a37.0m",
+      "owned": "3.7%",
+      "points": 12,
+      "epNext": 2.5,
+      "form": 12.0,
+      "minutes": 90,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.3,
+      "xa": 0.15,
+      "valueScore": 1.7,
+      "tackles": 3,
+      "clearancesBlocksInterceptions": 4,
+      "recoveries": 5,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Nott'm Forest (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
     "10": {
       "id": 10,
       "name": "Benjamin White",
@@ -4452,37 +4483,6 @@
       "fixture": "vs Aston Villa (A)",
       "fdr": 4,
       "fdrClass": "hard"
-    },
-    "236": {
-      "id": 236,
-      "name": "Kiernan Dewsbury-Hall",
-      "shortName": "Dewsbury-Hall",
-      "position": "MID",
-      "team": "Everton",
-      "avatar": "KD",
-      "avatarClass": "",
-      "price": "\u00a36.5m",
-      "owned": "3.8%",
-      "points": 11,
-      "epNext": 2.3,
-      "form": 11.0,
-      "minutes": 90,
-      "goals": 1,
-      "assists": 0,
-      "xg": 0.12,
-      "xa": 0.17,
-      "valueScore": 1.7,
-      "tackles": 2,
-      "clearancesBlocksInterceptions": 1,
-      "recoveries": 5,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Bournemouth (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
     },
     "399": {
       "id": 399,
@@ -4593,7 +4593,7 @@
       "minutes": 90,
       "goals": 0,
       "assists": 0,
-      "xg": 1.03,
+      "xg": 1.09,
       "xa": 0.01,
       "valueScore": 0.2,
       "tackles": 0,
@@ -4679,7 +4679,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a37.0m",
-      "owned": "41.8%",
+      "owned": "41.9%",
       "points": 8,
       "epNext": 2.5,
       "form": 8.0,
@@ -4794,34 +4794,34 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
-    "367": {
-      "id": 367,
-      "name": "Cody Gakpo",
-      "shortName": "Gakpo",
+    "236": {
+      "id": 236,
+      "name": "Kiernan Dewsbury-Hall",
+      "shortName": "Dewsbury-Hall",
       "position": "MID",
-      "team": "Liverpool",
-      "avatar": "CG",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a37.0m",
-      "owned": "3.7%",
-      "points": 10,
-      "epNext": 2.5,
-      "form": 10.0,
+      "team": "Everton",
+      "avatar": "KD",
+      "avatarClass": "",
+      "price": "\u00a36.5m",
+      "owned": "3.8%",
+      "points": 11,
+      "epNext": 2.3,
+      "form": 11.0,
       "minutes": 90,
       "goals": 1,
       "assists": 0,
-      "xg": 0.24,
-      "xa": 0.15,
-      "valueScore": 1.4,
+      "xg": 0.12,
+      "xa": 0.17,
+      "valueScore": 1.7,
       "tackles": 2,
-      "clearancesBlocksInterceptions": 4,
+      "clearancesBlocksInterceptions": 1,
       "recoveries": 5,
       "saves": 0,
-      "cleanSheets": 0,
+      "cleanSheets": 1,
       "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4,
-      "fixture": "vs Nott'm Forest (H)",
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Bournemouth (A)",
       "fdr": 3,
       "fdrClass": "mid"
     },
@@ -4865,7 +4865,7 @@
       "avatar": "JG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "11.4%",
+      "owned": "11.5%",
       "points": 9,
       "epNext": 2.5,
       "form": 9.0,
@@ -5864,7 +5864,7 @@
       "minutes": 90,
       "goals": 0,
       "assists": 0,
-      "xg": 0.21,
+      "xg": 0.25,
       "xa": 0.01,
       "valueScore": 0.3,
       "tackles": 2,
@@ -5895,7 +5895,7 @@
       "minutes": 62,
       "goals": 0,
       "assists": 0,
-      "xg": 0.17,
+      "xg": 0.26,
       "xa": 0.04,
       "valueScore": 0.3,
       "tackles": 1,
@@ -6694,7 +6694,7 @@
       "avatar": "SW",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.2%",
+      "owned": "2.3%",
       "points": 1,
       "epNext": 1.0,
       "form": 1.0,
@@ -6942,7 +6942,7 @@
       "avatar": "LS",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "21.0%",
+      "owned": "20.9%",
       "points": 1,
       "epNext": 1.7,
       "form": 1.0,
@@ -6973,7 +6973,7 @@
       "avatar": "JP",
       "avatarClass": "",
       "price": "\u00a35.0m",
-      "owned": "10.6%",
+      "owned": "10.5%",
       "points": 1,
       "epNext": 2.2,
       "form": 1.0,
@@ -7810,7 +7810,7 @@
       "avatar": "JF",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "3.6%",
+      "owned": "3.5%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -7996,7 +7996,7 @@
       "avatar": "DB",
       "avatarClass": "",
       "price": "\u00a35.0m",
-      "owned": "5.6%",
+      "owned": "5.5%",
       "points": 0,
       "epNext": 2.2,
       "form": 0.0,
@@ -8081,7 +8081,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9424092,
+  "totalManagers": 9429982,
   "totalPlayers": 609,
   "priceMovement": {
     "risers": [],
@@ -8103,11 +8103,11 @@
         "value": 13
       },
       {
-        "id": "10",
-        "value": 11
+        "id": "367",
+        "value": 12
       },
       {
-        "id": "15",
+        "id": "10",
         "value": 11
       }
     ],
@@ -8316,45 +8316,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 95873
+        "netTransfersEvent": 98282
       },
       {
         "id": "15",
-        "netTransfersEvent": 76439
+        "netTransfersEvent": 79139
       },
       {
         "id": "565",
-        "netTransfersEvent": 74968
+        "netTransfersEvent": 78484
       },
       {
         "id": "88",
-        "netTransfersEvent": 68411
+        "netTransfersEvent": 71350
       },
       {
         "id": "557",
-        "netTransfersEvent": 62539
+        "netTransfersEvent": 63888
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -146412
+        "netTransfersEvent": -149091
       },
       {
         "id": "25",
-        "netTransfersEvent": -63017
+        "netTransfersEvent": -64444
       },
       {
         "id": "31",
-        "netTransfersEvent": -57958
+        "netTransfersEvent": -59648
       },
       {
         "id": "503",
-        "netTransfersEvent": -57400
+        "netTransfersEvent": -58552
       },
       {
         "id": "208",
-        "netTransfersEvent": -43378
+        "netTransfersEvent": -44875
       }
     ]
   }
