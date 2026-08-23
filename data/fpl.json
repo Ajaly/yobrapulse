@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:18:45.611349+00:00",
+  "generatedAt": "2026-08-23T01:00:53.542089+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -4256,7 +4256,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "3.5%",
+      "owned": "3.6%",
       "points": 14,
       "epNext": 2.0,
       "form": 14.0,
@@ -4938,7 +4938,7 @@
       "avatar": "KH",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.5m",
-      "owned": "5.8%",
+      "owned": "5.9%",
       "points": 6,
       "epNext": 2.4,
       "form": 6.0,
@@ -5682,7 +5682,7 @@
       "avatar": "EL",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "10.2%",
+      "owned": "10.1%",
       "points": 2,
       "epNext": 2.1,
       "form": 2.0,
@@ -7294,7 +7294,7 @@
       "avatar": "VV",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "19.3%",
+      "owned": "19.4%",
       "points": 0,
       "epNext": 3.1,
       "form": 0.0,
@@ -7511,7 +7511,7 @@
       "avatar": "AI",
       "avatarClass": "pink-avatar",
       "price": "\u00a39.0m",
-      "owned": "16.9%",
+      "owned": "17.0%",
       "points": 0,
       "epNext": 2.7,
       "form": 0.0,
@@ -8061,7 +8061,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 9314626,
+  "totalManagers": 9319751,
   "totalPlayers": 604,
   "priceMovement": {
     "risers": [],
@@ -8272,45 +8272,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 63481
+        "netTransfersEvent": 64557
       },
       {
         "id": "557",
-        "netTransfersEvent": 43406
+        "netTransfersEvent": 44108
       },
       {
         "id": "15",
-        "netTransfersEvent": 42932
+        "netTransfersEvent": 43985
       },
       {
         "id": "26",
-        "netTransfersEvent": 28375
+        "netTransfersEvent": 28764
       },
       {
         "id": "565",
-        "netTransfersEvent": 22668
+        "netTransfersEvent": 25509
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -97110
+        "netTransfersEvent": -99044
       },
       {
         "id": "25",
-        "netTransfersEvent": -44290
+        "netTransfersEvent": -44931
       },
       {
         "id": "503",
-        "netTransfersEvent": -39361
+        "netTransfersEvent": -40052
       },
       {
         "id": "31",
-        "netTransfersEvent": -35427
+        "netTransfersEvent": -36169
       },
       {
         "id": "452",
-        "netTransfersEvent": -26675
+        "netTransfersEvent": -27113
       }
     ]
   }
