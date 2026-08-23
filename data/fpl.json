@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T02:26:34.066190+00:00",
+  "generatedAt": "2026-08-23T03:48:55.104544+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -5992,7 +5992,7 @@
       "avatar": "DD",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.0m",
-      "owned": "2.8%",
+      "owned": "2.7%",
       "points": 1,
       "epNext": 2.2,
       "form": 1.0,
@@ -6054,7 +6054,7 @@
       "avatar": "LS",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "21.3%",
+      "owned": "21.2%",
       "points": 1,
       "epNext": 1.7,
       "form": 1.0,
@@ -8061,7 +8061,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 9322803,
+  "totalManagers": 9325338,
   "totalPlayers": 604,
   "priceMovement": {
     "risers": [],
@@ -8272,45 +8272,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 65171
+        "netTransfersEvent": 65563
       },
       {
         "id": "15",
-        "netTransfersEvent": 44582
+        "netTransfersEvent": 44990
       },
       {
         "id": "557",
-        "netTransfersEvent": 44453
+        "netTransfersEvent": 44703
       },
       {
         "id": "26",
-        "netTransfersEvent": 28936
+        "netTransfersEvent": 29072
       },
       {
         "id": "565",
-        "netTransfersEvent": 27013
+        "netTransfersEvent": 28031
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -100182
+        "netTransfersEvent": -101005
       },
       {
         "id": "25",
-        "netTransfersEvent": -45278
+        "netTransfersEvent": -45520
       },
       {
         "id": "503",
-        "netTransfersEvent": -40438
+        "netTransfersEvent": -40722
       },
       {
         "id": "31",
-        "netTransfersEvent": -36573
+        "netTransfersEvent": -36850
       },
       {
         "id": "452",
-        "netTransfersEvent": -27368
+        "netTransfersEvent": -27558
       }
     ]
   }
