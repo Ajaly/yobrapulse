@@ -1,10 +1,73 @@
 {
-  "generatedAt": "2026-08-23T17:20:07.823438+00:00",
+  "generatedAt": "2026-08-23T18:23:59.872344+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Late Liverpool pen sees Szoboszlai silence Newcastle in draw",
+      "description": "FREE TO WATCH: Highlights from the Premier League match between Newcastle and Liverpool.",
+      "link": "https://www.skysports.com/watch/video/13576408/newcastle-2-2-liverpool-premier-league-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T18:47:00+00:00"
+    },
+    {
+      "title": "Arsenal target Alvarez whistled and jeered on Atletico return",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T18:20:00+00:00"
+    },
+    {
+      "title": "Szoboszlai snatches 99th-min Liverpool leveller to deny Newcastle deserved win",
+      "description": "Dominik Szoboszlai's last-gasp penalty earned Andoni Iraola a debut Liverpool point to deny Newcastle a deserved win on Matthias Jaissle's managerial debut in a pulsating 2-2 draw at St James' Park.",
+      "link": "https://www.skysports.com/football/newcastle-united-vs-liverpool/report/559452",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T18:15:00+00:00"
+    },
+    {
+      "title": "Watkins' absence at Brighton a question for him - Emery",
+      "description": "Ollie Watkins' absence in Aston Villa's thrashing at Brighton is a question for the striker, says boss Unai Emery.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20j3vjvy48o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T18:05:17+00:00"
+    },
+    {
+      "title": "Al-Hilal open talks to sign Arsenal winger Martinelli",
+      "description": "Saudi Arabian club Al-Hilal open negotiations with Arsenal over a move for Brazil forward Gabriel Martinelli.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgk4k444rmmo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-23T17:37:06+00:00"
+    },
+    {
+      "title": "Wissa shines as Isak struggles - Newcastle v Liverpool player ratings",
+      "description": "How Newcastle United and Liverpool's players rated in their Premier League match.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9q9q2gnxvjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T17:36:18+00:00"
+    },
+    {
+      "title": "Manchester Utd midfielder Devaney joins Hibs on loan",
+      "description": "Manchester United teenager Jacob Devaney is joining Hibernian on a season-long loan, with the Edinburgh club holding an option to make the move permanent.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce343p742v9o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-23T17:19:53+00:00"
+    },
     {
       "title": "McGinn apologises to Villa fans but provides hope despite Brighton horror show",
       "description": "John McGinn apologised to the Aston Villa fans after the 4-0 thumping at Brighton, but the team's captain is refusing to hit the panic button just yet.",
@@ -24,24 +87,6 @@
       "pubDateISO": "2026-08-23T17:01:00+00:00"
     },
     {
-      "title": "Watkins' absence at Brighton a question for him - Emery",
-      "description": "Ollie Watkins' absence in Aston Villa's thrashing at Brighton is a question for the striker, says boss Unai Emery.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20j3vjvy48o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T16:57:02+00:00"
-    },
-    {
-      "title": "Bournemouth latest: Rose laments 'unlucky' late loss at City",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T16:50:00+00:00"
-    },
-    {
       "title": "'Ask him' - Emery cryptic on Watkins amid transfer interest",
       "description": "Unai Emery&#160;gave a coy and cryptic response to questions about&#160;Ollie Watkins' absence from&#160;Aston Villa's&#160;squad for their Premier League defeat at&#160;Brighton.&#160;",
       "link": "https://www.skysports.com/football/news/11095/13576353/ollie-watkins-transfer-news-aston-villa-boss-unai-emery-gives-cryptic-answer-when-asked-about-striker-amid-al-hilal-interest",
@@ -51,7 +96,7 @@
       "pubDateISO": "2026-08-23T16:46:00+00:00"
     },
     {
-      "title": "Podcast: Dundee derby reaction, Scotland & Serie A",
+      "title": "Dundee derby reaction, Scotland & Serie A",
       "description": "The Dundee derby, the Scotland manager, Scots playing in Italy, and Edinburgh Fringe.",
       "link": "https://www.bbc.co.uk/sounds/play/p0p5ys18",
       "source": "BBC Sport",
@@ -60,58 +105,13 @@
       "pubDateISO": "2026-08-23T16:27:00+00:00"
     },
     {
-      "title": "'Up front next week?' Guehi proves Maresca's midfield masterstroke",
+      "title": "'Up front next week?' Maresca's Guehi gamble pays off",
       "description": "Rather than playing safe in selecting his Manchester City side for the first time in the Premier League, Enzo Maresca made a bold choice in midfield. Ultimately, it paid off.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cqx7x1wpz20o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T16:26:44+00:00"
-    },
-    {
-      "title": "Late goals see Man City snatch win against Cherries",
-      "description": "FREE TO WATCH: Highlights from the Premier League match between Manchester City and Bournemouth.",
-      "link": "https://www.skysports.com/watch/video/13576332/man-city-2-1-bournemouth-premier-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T16:23:00+00:00"
-    },
-    {
-      "title": "Aston Villa 'must accept everything' - Emery after Brighton thrashing",
-      "description": "Aston Villa manager Unai Emery reacts to a difficult opening day after a thrashing at the hands of Brighton, having conceding four goals in the first half.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c78g8y8vxpmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T16:20:57+00:00"
-    },
-    {
-      "title": "Brighton blow Villa away in first-half masterclass at The Amex",
-      "description": "Highlights from the Premier League match between Brighton and Aston Villa.",
-      "link": "https://www.skysports.com/watch/video/13576325/brighton-4-0-aston-villa-premier-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T16:13:00+00:00"
-    },
-    {
-      "title": "Experimental Man City survive Bournemouth scare to win Maresca's first game",
-      "description": "Manchester City survived a serious scare in Enzo Maresca's first Premier League game in charge, forced to come from behind to earn a dramatic, late 2-1 victory over Bournemouth.",
-      "link": "https://www.skysports.com/football/manchester-city-vs-bournemouth/report/559451",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T16:00:00+00:00"
-    },
-    {
-      "title": "Man City latest: We're a work in progress, says Maresca after late Cherries win",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-23T16:00:00+00:00"
     }
   ]
 }
