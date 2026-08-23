@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T08:26:45.643219+00:00",
+  "generatedAt": "2026-08-23T09:25:54.436676+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -13,6 +13,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-23T09:00:00+00:00"
+    },
+    {
+      "title": "'It's not doom and gloom just yet' - what is going on at Morton?",
+      "description": "It's been a rocky start to the season for Morton with seven straight defeats, while the fans' group running the Championship club are dealing with a shortfall in funding.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crl7l3yx0g9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T08:58:49+00:00"
     },
     {
       "title": "Celtic pursue Serie A midfielder Gineitis - gossip",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-22T23:06:30+00:00"
-    },
-    {
-      "title": "'They just didn't look fit at all' - Shearer on Man Utd",
-      "description": "Match of the Day pundits Alan Shearer and Wayne Rooney analyse Manchester United's performance in their 2-0 loss on the opening day of the Premier League to newly promoted Hull City.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/clyqylwkl2no",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T23:01:53+00:00"
     }
   ]
 }
