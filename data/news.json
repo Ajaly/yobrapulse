@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-23T04:34:51.255041+00:00",
+  "generatedAt": "2026-08-23T05:27:20.353636+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Relive: Keegan's Newcastle lose thriller to Liverpool",
+      "description": "BBC Sport looks back at one of the Premier League's best ever games as Newcastle, then managed by Kevin Keegan, lost a thriller to Liverpool. Both clubs will pay tribute to Keegan before their Premier League opener at St James' Park.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c4gvjep9wr2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T05:17:21+00:00"
+    },
     {
       "title": "How Arsenal 'punished' newly promoted Coventry",
       "description": "Match of the Day's Mark Chapman, Alan Shearer and Wayne Rooney discuss Arsenal's quality against Coventry City, praising the hosts but stressing that Frank Lampard's side shouldn't be judged.",
@@ -103,15 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-22T20:39:00+00:00"
-    },
-    {
-      "title": "Tote bags & derby wins - how Pressley has defied Dundee expectations",
-      "description": "Steven Pressley says he is \"immensely proud\" of his Dundee players as the head coach's redemption arc continues with another derby victory.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c86n6j1x36zo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-22T20:20:34+00:00"
     }
   ]
 }
