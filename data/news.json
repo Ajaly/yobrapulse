@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-24T11:25:33.275625+00:00",
+  "generatedAt": "2026-08-24T12:40:48.257300+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Arsenal or Barcelona? | Where will Alvarez end up?",
+      "description": "Sky Sports' Sam Blitz takes a closer look at the future of striker Julian Alvarez and where he may end up should he leave Atletico Madrid.",
+      "link": "https://www.skysports.com/watch/video/13576624/arsenal-or-barcelona-where-will-julian-alvarez-end-up",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T13:16:00+00:00"
+    },
+    {
+      "title": "Liverpool latest: Van Dijk demands response after \u2018unacceptable\u2019 season",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T13:04:00+00:00"
+    },
+    {
+      "title": "Newcastle latest: Injured Burn out until international break",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-24T12:37:00+00:00"
+    },
     {
       "title": "Fans suffer firework burns and eye injuries in Eredivisie",
       "description": "Dutch side SC Cambuur says fans were left with \"burns, hearing damage and eye injuries\" after Feyenoord supporters threw fireworks during Sunday's Eredivisie match.",
@@ -85,33 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-24T07:41:49+00:00"
-    },
-    {
-      "title": "Alvarez booed by Atletico fans amid Arsenal interest - so will he leave?",
-      "description": "Julian Alvarez was booed by Atletico Madrid supporters on Sunday after all the transfer window noise around him - does that mean a move to Barcelona or Arsenal is any closer?",
-      "link": "https://www.skysports.com/football/news/11095/13576511/julian-alvarez-does-atletico-madrid-fans-booing-their-own-striker-increase-his-chances-of-an-arsenal-or-barcelona-move",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T07:25:00+00:00"
-    },
-    {
-      "title": "Watch: Stenny, Hamilton & Clyde on the up in SPFL",
-      "description": "Watch the best of the action from the weekend's action in the Scottish Championship, League 1 and League 2.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c5yj8de5d94o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T07:00:08+00:00"
-    },
-    {
-      "title": "Podcast: A derby win, a new Championship leader and who is winning the transfer window?",
-      "description": "Dundee Derby drama, transfer talk and a changing Championship picture.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p5z6zj",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T07:00:00+00:00"
     }
   ]
 }
