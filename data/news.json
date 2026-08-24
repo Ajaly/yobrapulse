@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-24T20:26:43.850095+00:00",
+  "generatedAt": "2026-08-24T21:27:05.828532+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man City interested in Gakpo",
+      "description": "Manchester City are interested in signing Tottenham target Cody Gakpo from Liverpool.",
+      "link": "https://www.skysports.com/football/news/11095/13576800/cody-gakpo-transfer-news-man-city-interested-in-signing-tottenham-target-from-liverpool-but-reds-dont-want-to-sell",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T21:50:00+00:00"
+    },
+    {
+      "title": "Chelsea's electric front three edge out Fulham in pulsating MNF opener",
+      "description": "Cole Palmer was back to his best to get Xabi Alonso's Chelsea career off to a winning start in a chaotic 3-2 victory at Fulham on Monday Night Football.",
+      "link": "https://www.skysports.com/football/fulham-vs-chelsea/report/559453",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T21:45:00+00:00"
+    },
+    {
+      "title": "Newcastle latest: Willock's showing against Liverpool could resurrect Toon career",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T21:26:00+00:00"
+    },
+    {
+      "title": "Forest latest: Progress being made in pursuit of \u00a350m-valued striker",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13279316/nottingham-forest-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T21:05:00+00:00"
+    },
     {
       "title": "Wirtz and a worst-ever transfer window? Carra's damning Liverpool verdict",
       "description": "Jamie Carragher says he doesn't see where Florian Wirtz fits into the Liverpool team - and the &#163;116.5m German could be part of the worst transfer window in Premier League history.",
@@ -13,6 +49,24 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-24T21:00:00+00:00"
+    },
+    {
+      "title": "Rogers & Palmer star but Sanchez struggles - Fulham v Chelsea player ratings",
+      "description": "Morgan Rogers scores on his Chelsea debut as Xabi Alonso's side beat Fulham at Craven Cottage - here are BBC Sport's player ratings.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2d2w7z190o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T20:54:09+00:00"
+    },
+    {
+      "title": "Man City enter race for Gakpo - Tuesday's gossip",
+      "description": "Manchester City emerge as surprise Cody Gakpo suitors, Newcastle agree to sign Nico Gonzalez, and Manchester United are confident of signing Myles Lewis-Skelly, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T20:48:21+00:00"
     },
     {
       "title": "'Don't see where he fits in!' - Carra calls for Wirtz midfield replacement",
@@ -58,60 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-24T19:06:00+00:00"
-    },
-    {
-      "title": "BBC Women's Football Weekly",
-      "description": "Featuring Eder Maestre, Godfrey, Goodwin, Fernandez, Kennedy and new signing Mary Earps!",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p63gnz",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T19:06:00+00:00"
-    },
-    {
-      "title": "Villa in talks with Club Brugge for defender Ordonez",
-      "description": "Aston Villa are working on a move for Club Brugge central defender Joel Ordonez after failing to agree a deal with Southampton for Taylor Harwood-Bellis.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c0469r217q5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T18:41:46+00:00"
-    },
-    {
-      "title": "Uefa chief Ceferin rules out Fifa presidency bid",
-      "description": "Uefa president Aleksander Ceferin rules himself out of the running to replace Gianni Infantino, but expects a candidate to challenge the Fifa president's leadership in March.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp878rp71v2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T18:30:32+00:00"
-    },
-    {
-      "title": "Mateta's contract claim leaves Palace with transfer decision",
-      "description": "Following a dispute over the length of his contract, will Jean-Philippe Mateta stay at Crystal Palace beyond the transfer window?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cz6465pj4njo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T18:19:40+00:00"
-    },
-    {
-      "title": "Celtic full-back Johnston out until October",
-      "description": "Celtic full-back Alistair Johnston will be out of action until October, manager Martin O'Neill confirms.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj4jxwxxvqyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T17:28:40+00:00"
-    },
-    {
-      "title": "Celtic to 'have a little look' at defenders with Johnston out until October",
-      "description": "Celtic full-back Alistair Johnston will be out of action until October, manager Martin O'Neill confirms.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj4jxwxxvqyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T17:28:40+00:00"
     }
   ]
 }
