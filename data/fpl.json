@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T05:37:46.891863+00:00",
+  "generatedAt": "2026-08-24T06:47:10.909978+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -4276,7 +4276,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.8%",
+      "owned": "2.9%",
       "points": 17,
       "epNext": 1.7,
       "form": 17.0,
@@ -4307,7 +4307,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "4.4%",
+      "owned": "4.5%",
       "points": 14,
       "epNext": 2.0,
       "form": 14.0,
@@ -4501,7 +4501,7 @@
       "goals": 0,
       "assists": 2,
       "xg": 0.0,
-      "xa": 0.47,
+      "xa": 0.5,
       "valueScore": 1.1,
       "tackles": 0,
       "clearancesBlocksInterceptions": 0,
@@ -4656,7 +4656,7 @@
       "goals": 1,
       "assists": 0,
       "xg": 0.89,
-      "xa": 0.31,
+      "xa": 0.32,
       "valueScore": 1.7,
       "tackles": 3,
       "clearancesBlocksInterceptions": 1,
@@ -4865,7 +4865,7 @@
       "avatar": "JT",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.0m",
-      "owned": "3.2%",
+      "owned": "3.3%",
       "points": 9,
       "epNext": 2.6,
       "form": 9.0,
@@ -4907,7 +4907,7 @@
       "xa": 0.05,
       "valueScore": 1.6,
       "tackles": 2,
-      "clearancesBlocksInterceptions": 3,
+      "clearancesBlocksInterceptions": 5,
       "recoveries": 5,
       "saves": 0,
       "cleanSheets": 0,
@@ -5764,7 +5764,7 @@
       "avatar": "ID",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.0m",
-      "owned": "18.1%",
+      "owned": "18.0%",
       "points": 2,
       "epNext": 1.0,
       "form": 2.0,
@@ -5988,7 +5988,7 @@
       "minutes": 90,
       "goals": 0,
       "assists": 0,
-      "xg": 0.85,
+      "xg": 0.74,
       "xa": 0.02,
       "valueScore": 0.1,
       "tackles": 0,
@@ -6012,7 +6012,7 @@
       "avatar": "EA",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "7.6%",
+      "owned": "7.5%",
       "points": 2,
       "epNext": 1.7,
       "form": 2.0,
@@ -6023,7 +6023,7 @@
       "xa": 0.25,
       "valueScore": 0.3,
       "tackles": 2,
-      "clearancesBlocksInterceptions": 2,
+      "clearancesBlocksInterceptions": 1,
       "recoveries": 3,
       "saves": 0,
       "cleanSheets": 0,
@@ -6043,7 +6043,7 @@
       "avatar": "YT",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.0m",
-      "owned": "2.6%",
+      "owned": "2.5%",
       "points": 2,
       "epNext": 2.2,
       "form": 2.0,
@@ -6229,7 +6229,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "11.4%",
+      "owned": "11.3%",
       "points": 2,
       "epNext": 2.8,
       "form": 2.0,
@@ -7717,7 +7717,7 @@
       "avatar": "JK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "7.4%",
+      "owned": "7.3%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -8081,7 +8081,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9458183,
+  "totalManagers": 9460965,
   "totalPlayers": 609,
   "priceMovement": {
     "risers": [],
@@ -8316,45 +8316,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 107677
+        "netTransfersEvent": 108901
       },
       {
         "id": "565",
-        "netTransfersEvent": 93105
-      },
-      {
-        "id": "15",
-        "netTransfersEvent": 89488
+        "netTransfersEvent": 95076
       },
       {
         "id": "115",
-        "netTransfersEvent": 89221
+        "netTransfersEvent": 93165
+      },
+      {
+        "id": "15",
+        "netTransfersEvent": 90921
       },
       {
         "id": "88",
-        "netTransfersEvent": 83218
+        "netTransfersEvent": 84741
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -160363
+        "netTransfersEvent": -161976
       },
       {
         "id": "25",
-        "netTransfersEvent": -70275
+        "netTransfersEvent": -71155
       },
       {
         "id": "31",
-        "netTransfersEvent": -66673
+        "netTransfersEvent": -67622
       },
       {
         "id": "503",
-        "netTransfersEvent": -63501
+        "netTransfersEvent": -64169
       },
       {
         "id": "208",
-        "netTransfersEvent": -50834
+        "netTransfersEvent": -51652
       }
     ]
   }
