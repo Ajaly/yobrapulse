@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:35:12.525909+00:00",
+  "generatedAt": "2026-08-24T19:28:20.513102+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -13,6 +13,42 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-24T19:24:00+00:00"
+    },
+    {
+      "title": "Forest working on deal for Chelsea striker Delap",
+      "description": "Nottingham Forest are working on a deal to sign Chelsea striker Liam Delap.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8xkl50ylweo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T19:12:07+00:00"
+    },
+    {
+      "title": "BBC Women's Football Weekly",
+      "description": "Featuring Eder Maestre, Godfrey, Goodwin, Fernandez, Kennedy and new signing Mary Earps!",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p63gnz",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T19:06:00+00:00"
+    },
+    {
+      "title": "BBC Women's Football Weekly",
+      "description": "Featuring Eder Maestre, Godfrey, Goodwin, Fernandez, Kennedy and new signing Mary Earps!",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p63gnz",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T19:06:00+00:00"
+    },
+    {
+      "title": "Villa in talks with Club Brugge for defender Ordonez",
+      "description": "Aston Villa are working on a move for Club Brugge central defender Joel Ordonez after failing to agree a deal with Southampton for Taylor Harwood-Bellis.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0469r217q5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T18:41:46+00:00"
     },
     {
       "title": "Uefa chief Ceferin rules out Fifa presidency bid",
@@ -31,6 +67,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-24T18:19:40+00:00"
+    },
+    {
+      "title": "Celtic full-back Johnston out until October",
+      "description": "Celtic full-back Alistair Johnston will be out of action until October, manager Martin O'Neill confirms.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj4jxwxxvqyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T17:28:40+00:00"
     },
     {
       "title": "Celtic to 'have a little look' at defenders with Johnston out until October",
@@ -67,51 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-24T16:07:06+00:00"
-    },
-    {
-      "title": "Docherty appointed Scotland Under-21 head coach",
-      "description": "Tony Docherty is named Scotland Under-21 head coach, with Steven Naismith as assistant.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy4zyk4w78no",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T15:33:02+00:00"
-    },
-    {
-      "title": "Don't panic! Why Man Utd and Carrick get a pass after flat Hull defeat",
-      "description": "I was at the game on Saturday and it was clear early on in the game that Manchester United were not at the races against Hull City.",
-      "link": "https://www.skysports.com/football/news/11095/13576671/man-utd-why-there-shouldnt-be-panic-after-michael-carricks-side-suffered-premier-league-loss-at-hull-on-opening-day",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T15:28:00+00:00"
-    },
-    {
-      "title": "Barcelona say police used 'disproportionate' force on fans",
-      "description": "Barcelona accuse police of using \"disproportionate force\" against their fans before Sunday's 5-0 win away at Elche.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cpwl87rlqjvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T15:14:22+00:00"
-    },
-    {
-      "title": "Man Utd latest: Why United could wait a year to sign desired left-back",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T14:59:00+00:00"
-    },
-    {
-      "title": "Does Elliott have a Liverpool future after latest omission?",
-      "description": "Harvey Elliott's position at Liverpool looks uncertain following his absence from the matchday squad at Newcastle on the opening weekend of the Premier League season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5y589nwjk9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T14:23:54+00:00"
     }
   ]
 }
