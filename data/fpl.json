@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:39:36.444520+00:00",
+  "generatedAt": "2026-08-24T15:42:48.606878+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -258,7 +258,7 @@
       "adjustedSwing": 0.67,
       "nearFdr": 3.67,
       "laterFdr": 3.0,
-      "squadAvailability": 0.95,
+      "squadAvailability": 0.77,
       "fixtures": [
         "@ Liverpool",
         "vs Spurs",
@@ -351,16 +351,16 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 54,
-      "drawPct": 24,
+      "homeWinPct": 55,
+      "drawPct": 23,
       "awayWinPct": 22,
-      "predictedScore": "1.6 \u2014 1.0",
+      "predictedScore": "1.7 \u2014 0.9",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.95,
-        "awayAvailability": 0.95,
+        "awayAvailability": 0.77,
         "homeTransferImpactM": 5.5,
         "awayTransferImpactM": -12.0
       },
@@ -4309,7 +4309,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "4.7%",
+      "owned": "4.8%",
       "points": 14,
       "epNext": 2.0,
       "form": 14.0,
@@ -4371,7 +4371,7 @@
       "avatar": "MK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "4.5%",
+      "owned": "4.6%",
       "points": 13,
       "epNext": 1.7,
       "form": 13.0,
@@ -4526,7 +4526,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "40.4%",
+      "owned": "40.5%",
       "points": 9,
       "epNext": 2.5,
       "form": 9.0,
@@ -4557,7 +4557,7 @@
       "avatar": "CT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "25.4%",
+      "owned": "25.5%",
       "points": 6,
       "epNext": 2.3,
       "form": 6.0,
@@ -4681,7 +4681,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "17.7%",
+      "owned": "17.8%",
       "points": 10,
       "epNext": 2.8,
       "form": 10.0,
@@ -4867,7 +4867,7 @@
       "avatar": "JG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "11.7%",
+      "owned": "11.8%",
       "points": 9,
       "epNext": 2.5,
       "form": 9.0,
@@ -5022,7 +5022,7 @@
       "avatar": "JP",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "8.3%",
+      "owned": "8.4%",
       "points": 7,
       "epNext": 3.3,
       "form": 7.0,
@@ -6138,7 +6138,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a312.0m",
-      "owned": "50.7%",
+      "owned": "50.6%",
       "points": 2,
       "epNext": 4.0,
       "form": 2.0,
@@ -6295,7 +6295,7 @@
       "price": "\u00a38.0m",
       "owned": "11.3%",
       "points": 2,
-      "epNext": 2.8,
+      "epNext": 2.1,
       "form": 2.0,
       "minutes": 90,
       "goals": 0,
@@ -6479,7 +6479,7 @@
       "avatar": "EL",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "9.8%",
+      "owned": "9.7%",
       "points": 2,
       "epNext": 2.2,
       "form": 2.0,
@@ -6696,7 +6696,7 @@
       "avatar": "NB",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "2.7%",
+      "owned": "2.6%",
       "points": 1,
       "epNext": 1.8,
       "form": 1.0,
@@ -6882,7 +6882,7 @@
       "avatar": "PF",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.0m",
-      "owned": "4.4%",
+      "owned": "4.3%",
       "points": 1,
       "epNext": 2.5,
       "form": 1.0,
@@ -6975,7 +6975,7 @@
       "avatar": "HM",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.0m",
-      "owned": "17.9%",
+      "owned": "17.8%",
       "points": 1,
       "epNext": 2.2,
       "form": 1.0,
@@ -8145,7 +8145,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9497143,
+  "totalManagers": 9502886,
   "totalPlayers": 609,
   "priceMovement": {
     "risers": [],
@@ -8328,6 +8328,14 @@
       "improving": false
     },
     {
+      "id": "480",
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
+      "chanceThisRound": null,
+      "chanceNextRound": 75,
+      "improving": false
+    },
+    {
       "id": "499",
       "status": "d",
       "news": "Lack of match fitness - 75% chance of playing",
@@ -8380,45 +8388,45 @@
     "rising": [
       {
         "id": "115",
-        "netTransfersEvent": 123077
+        "netTransfersEvent": 126984
       },
       {
         "id": "8",
-        "netTransfersEvent": 119340
+        "netTransfersEvent": 120734
       },
       {
         "id": "565",
-        "netTransfersEvent": 114788
+        "netTransfersEvent": 117684
       },
       {
         "id": "15",
-        "netTransfersEvent": 101964
+        "netTransfersEvent": 103419
       },
       {
         "id": "88",
-        "netTransfersEvent": 97678
+        "netTransfersEvent": 99410
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -174276
+        "netTransfersEvent": -175936
       },
       {
         "id": "25",
-        "netTransfersEvent": -78409
+        "netTransfersEvent": -79321
       },
       {
         "id": "31",
-        "netTransfersEvent": -75183
+        "netTransfersEvent": -76120
       },
       {
         "id": "503",
-        "netTransfersEvent": -69812
+        "netTransfersEvent": -70573
       },
       {
         "id": "208",
-        "netTransfersEvent": -58635
+        "netTransfersEvent": -59550
       }
     ]
   }
