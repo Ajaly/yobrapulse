@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-23T23:19:50.215493+00:00",
+  "generatedAt": "2026-08-24T00:58:39.164911+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'A win at home in the first game was beyond anyone's dreams' - Holden on MOTD",
+      "description": "Following their huge win against Manchester United, Hull City assistant head coach Dean Holden joins Gabby Logan, Danny Murphy and Joe Hart in the Match of the Day studio.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c0kmk6rd30no",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-23T23:37:29+00:00"
+    },
+    {
+      "title": "Infantino must remember he is European - Ceferin",
+      "description": "Uefa president Aleksander Ceferin says his Fifa counterpart Gianni Infantino's attempt to sell off a stake in the World Cup was \"worse than the Super League\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp878rp71v2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-23T23:20:31+00:00"
+    },
     {
       "title": "How Hull kept plan to stun Man Utd secret",
       "description": "Hull City boss Sergej Jakirovic kept his plan to topple Manchester United on their Premier League return under wraps for weeks, assistant head coach Dean Holden tells Match of the Day.",
@@ -94,24 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-23T20:38:18+00:00"
-    },
-    {
-      "title": "Monday's gossip: Man City ready to meet Chelsea's Fernandez demand",
-      "description": "Manchester City are ready to make Enzo Fernandez move, Liverpool consider a third bid for Yankuba Minteh, and a Barcelona full-back pushes to join Manchester United.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czxqx29jy02o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-23T20:36:34+00:00"
-    },
-    {
-      "title": "Man Utd latest: Baleba passes medical",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-23T20:19:00+00:00"
     }
   ]
 }
