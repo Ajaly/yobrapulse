@@ -1,18 +1,27 @@
 {
-  "generatedAt": "2026-08-24T12:40:48.257300+00:00",
+  "generatedAt": "2026-08-24T13:49:25.892216+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Arsenal or Barcelona? | Where will Alvarez end up?",
-      "description": "Sky Sports' Sam Blitz takes a closer look at the future of striker Julian Alvarez and where he may end up should he leave Atletico Madrid.",
-      "link": "https://www.skysports.com/watch/video/13576624/arsenal-or-barcelona-where-will-julian-alvarez-end-up",
+      "title": "Spurs latest: Sherwood criticises De Zerbi and players after Brentford loss",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T13:16:00+00:00"
+      "pubDateISO": "2026-08-24T14:12:00+00:00"
+    },
+    {
+      "title": "Girona winger Kim to undergo Rangers medical",
+      "description": "Girona winger Kim Min-Su is expected to arrive in Glasgow in the next 48 hours before a prospective move to Rangers.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crr4ldl1wp0o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T13:29:22+00:00"
     },
     {
       "title": "Liverpool latest: Van Dijk demands response after \u2018unacceptable\u2019 season",
@@ -22,6 +31,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-24T13:04:00+00:00"
+    },
+    {
+      "title": "Heggebo ban opens can of worms for FA - West Brom boss Morrison",
+      "description": "West Bromwich Albion head coach James Morrison says the FA have \"opened a can of worms\" over Aune Heggebo's two-match ban for deception.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2zn8ynj9eo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T13:02:05+00:00"
     },
     {
       "title": "Newcastle latest: Injured Burn out until international break",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-24T08:00:00+00:00"
-    },
-    {
-      "title": "What does your Premiership club need in final 11 days of transfer window?",
-      "description": "BBC Scotland assesses the 12 top-flight clubs' needs as the transfer deadline approaches.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgmkmpj03zmo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T07:41:49+00:00"
-    },
-    {
-      "title": "What does your Premiership club need in final 11 days of transfer window?",
-      "description": "BBC Scotland assesses the 12 top-flight clubs' needs as the transfer deadline approaches.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgmkmpj03zmo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T07:41:49+00:00"
     }
   ]
 }
