@@ -1,18 +1,27 @@
 {
-  "generatedAt": "2026-08-24T08:44:46.984711+00:00",
+  "generatedAt": "2026-08-24T09:44:27.269915+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Bournemouth latest: Goalkeeper flying to UK as Cherries move edges closer",
+      "title": "Premier League weekend reaction with Ref Watch to come LIVE!",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "link": "https://www.skysports.com/football/live-blog/11095/13576553/ref-watch-premier-league-weekend-reaction-live-dermot-gallagher-assesses-the-big-refereeing-decisions",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T08:23:00+00:00"
+      "pubDateISO": "2026-08-24T09:47:00+00:00"
+    },
+    {
+      "title": "Premier League review: Hull glorious & Spurs dismal",
+      "description": "Rick Edwards, Luke Edwards, Charlie Austin & Dean Holden discuss the opening weekend.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p60w5k",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T08:59:00+00:00"
     },
     {
       "title": "Mateta's contract claim leaves Palace with transfer decision",
@@ -60,6 +69,15 @@
       "pubDateISO": "2026-08-24T07:41:49+00:00"
     },
     {
+      "title": "Alvarez booed by Atletico fans amid Arsenal interest - so will he leave?",
+      "description": "Julian Alvarez was booed by Atletico Madrid supporters on Sunday after all the transfer window noise around him - does that mean a move to Barcelona or Arsenal is any closer?",
+      "link": "https://www.skysports.com/football/news/11095/13576511/julian-alvarez-does-atletico-madrid-fans-booing-their-own-striker-increase-his-chances-of-an-arsenal-or-barcelona-move",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T07:25:00+00:00"
+    },
+    {
       "title": "Watch: Stenny, Hamilton & Clyde on the up in SPFL",
       "description": "Watch the best of the action from the weekend's action in the Scottish Championship, League 1 and League 2.",
       "link": "https://www.bbc.co.uk/sport/football/videos/c5yj8de5d94o",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-24T06:59:58+00:00"
-    },
-    {
-      "title": "Maradona's 'Hand of God' ball sells for \u00a32.5m",
-      "description": "The football with which Diego Maradona scored his famous 'hand of God' goal in the 1986 World Cup quarter-final victory over England is sold at auction.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqxvj8j7gy8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T06:55:06+00:00"
-    },
-    {
-      "title": "Why are Australians thriving in WSL but not Premier League?",
-      "description": "The Premier League used to feature a host of top Australians. Now there is just one player from the country in the competition, but it's a very different story in the WSL.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2v3yy9ed9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T06:51:10+00:00"
     }
   ]
 }
