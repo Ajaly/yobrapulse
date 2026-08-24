@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-24T17:30:05.770264+00:00",
+  "generatedAt": "2026-08-24T18:35:12.525909+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man City latest: Agreement reached for Brazilian winger",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T19:24:00+00:00"
+    },
+    {
+      "title": "Uefa chief Ceferin rules out Fifa presidency bid",
+      "description": "Uefa president Aleksander Ceferin rules himself out of the running to replace Gianni Infantino, but expects a candidate to challenge the Fifa president's leadership in March.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp878rp71v2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T18:30:32+00:00"
+    },
+    {
+      "title": "Mateta's contract claim leaves Palace with transfer decision",
+      "description": "Following a dispute over the length of his contract, will Jean-Philippe Mateta stay at Crystal Palace beyond the transfer window?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cz6465pj4njo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T18:19:40+00:00"
+    },
+    {
+      "title": "Celtic to 'have a little look' at defenders with Johnston out until October",
+      "description": "Celtic full-back Alistair Johnston will be out of action until October, manager Martin O'Neill confirms.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj4jxwxxvqyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T17:28:40+00:00"
+    },
     {
       "title": "Sunderland sign Ahoka from Royal Antwerp",
       "description": "Sunderland confirm the signing of midfielder Jules Ahoka for a 10m euros (\u00a38.6m) fee.",
@@ -31,15 +67,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-24T16:07:06+00:00"
-    },
-    {
-      "title": "When are the Europa and Conference League draws and how do they work?",
-      "description": "The Europa League and Conference League league phase draws will see British clubs - including Bournemouth, Sunderland, Crystal Palace - discover their opponents.",
-      "link": "https://www.skysports.com/football/news/11095/13576627/europa-league-and-conference-league-group-stage-draws-british-clubs-including-bournemouth-sunderland-crystal-palace-to-discover-opponents",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T16:00:00+00:00"
     },
     {
       "title": "Docherty appointed Scotland Under-21 head coach",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-24T14:23:54+00:00"
-    },
-    {
-      "title": "McInnes could be in stand for first Old Firm game",
-      "description": "Derek McInnes could be in the stand for his first Old Firm match as Rangers manager after a hearing date of 31 August was set for his appeal against a touchline ban.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c750nd2419ko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T14:15:19+00:00"
-    },
-    {
-      "title": "McInnes could be in stand for first Old Firm game",
-      "description": "Derek McInnes could be in the stand for his first Old Firm match as Rangers manager after a hearing date of 31 August was set for his appeal against a touchline ban.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c750nd2419ko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T14:15:19+00:00"
-    },
-    {
-      "title": "Spurs latest: Sherwood criticises De Zerbi and players after Brentford loss",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T14:12:00+00:00"
     }
   ]
 }
