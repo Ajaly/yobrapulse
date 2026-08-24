@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T09:44:26.654274+00:00",
+  "generatedAt": "2026-08-24T10:36:03.510304+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -4278,7 +4278,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "3.0%",
+      "owned": "3.1%",
       "points": 17,
       "epNext": 1.7,
       "form": 17.0,
@@ -4681,7 +4681,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "17.6%",
+      "owned": "17.7%",
       "points": 10,
       "epNext": 2.8,
       "form": 10.0,
@@ -4960,7 +4960,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a37.0m",
-      "owned": "42.0%",
+      "owned": "42.1%",
       "points": 8,
       "epNext": 2.5,
       "form": 8.0,
@@ -5115,7 +5115,7 @@
       "avatar": "KH",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.5m",
-      "owned": "6.3%",
+      "owned": "6.4%",
       "points": 6,
       "epNext": 2.4,
       "form": 6.0,
@@ -5363,7 +5363,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "29.6%",
+      "owned": "29.5%",
       "points": 5,
       "epNext": 4.0,
       "form": 5.0,
@@ -6386,7 +6386,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "23.8%",
+      "owned": "23.7%",
       "points": 2,
       "epNext": 1.9,
       "form": 2.0,
@@ -6789,7 +6789,7 @@
       "avatar": "DC",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "30.5%",
+      "owned": "30.4%",
       "points": 1,
       "epNext": 2.0,
       "form": 1.0,
@@ -7936,7 +7936,7 @@
       "avatar": "DB",
       "avatarClass": "",
       "price": "\u00a35.0m",
-      "owned": "2.4%",
+      "owned": "2.3%",
       "points": 0,
       "epNext": 0.0,
       "form": 0.0,
@@ -8029,7 +8029,7 @@
       "avatar": "MV",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.0m",
-      "owned": "4.9%",
+      "owned": "4.8%",
       "points": 0,
       "epNext": 1.1,
       "form": 0.0,
@@ -8145,7 +8145,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9471979,
+  "totalManagers": 9476131,
   "totalPlayers": 609,
   "priceMovement": {
     "risers": [],
@@ -8380,45 +8380,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 112938
+        "netTransfersEvent": 113976
       },
       {
         "id": "115",
-        "netTransfersEvent": 105420
+        "netTransfersEvent": 108478
       },
       {
         "id": "565",
-        "netTransfersEvent": 102634
+        "netTransfersEvent": 104673
       },
       {
         "id": "15",
-        "netTransfersEvent": 95447
+        "netTransfersEvent": 96594
       },
       {
         "id": "88",
-        "netTransfersEvent": 89896
+        "netTransfersEvent": 91291
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -166840
+        "netTransfersEvent": -168084
       },
       {
         "id": "25",
-        "netTransfersEvent": -74065
+        "netTransfersEvent": -74804
       },
       {
         "id": "31",
-        "netTransfersEvent": -70698
+        "netTransfersEvent": -71451
       },
       {
         "id": "503",
-        "netTransfersEvent": -66391
+        "netTransfersEvent": -66956
       },
       {
         "id": "208",
-        "netTransfersEvent": -54408
+        "netTransfersEvent": -55171
       }
     ]
   }
