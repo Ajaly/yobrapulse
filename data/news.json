@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-24T19:28:20.513102+00:00",
+  "generatedAt": "2026-08-24T20:26:43.850095+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Wirtz and a worst-ever transfer window? Carra's damning Liverpool verdict",
+      "description": "Jamie Carragher says he doesn't see where Florian Wirtz fits into the Liverpool team - and the &#163;116.5m German could be part of the worst transfer window in Premier League history.",
+      "link": "https://www.skysports.com/football/news/11095/13576764/liverpool-florian-wirtz-part-of-potentially-a-worst-ever-transfer-window-says-jamie-carragher-as-reds-midfield-problems-exposed",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T21:00:00+00:00"
+    },
+    {
+      "title": "'Don't see where he fits in!' - Carra calls for Wirtz midfield replacement",
+      "description": "Jamie Carragher calls for Liverpool to strengthen their midfield after he was left unimpressed by Florian Wirtz's performance against Newcastle..",
+      "link": "https://www.skysports.com/watch/video/13576775/jamie-carragher-calls-for-florian-wirtz-midfield-replacement",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T20:11:00+00:00"
+    },
+    {
+      "title": "Man City agree deal for Palmeiras winger Allan",
+      "description": "Manchester City agree to sign winger Allan Elias from Palmeiras in a deal worth up to \u00a334.2m.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cpveylz0n8go",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T19:27:47+00:00"
+    },
     {
       "title": "Man City latest: Agreement reached for Brazilian winger",
       "description": "",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-24T17:28:40+00:00"
-    },
-    {
-      "title": "Sunderland sign Ahoka from Royal Antwerp",
-      "description": "Sunderland confirm the signing of midfielder Jules Ahoka for a 10m euros (\u00a38.6m) fee.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2ze3dz4jro",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T16:50:16+00:00"
-    },
-    {
-      "title": "Watkins' departure would cut deepest - and Villa did not see it coming",
-      "description": "Ollie Watkins has been an Aston Villa legend but it appears his time at the club is nearing a painful end amid interest from Saudi Arabia.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq63ry9q6jzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T16:43:58+00:00"
-    },
-    {
-      "title": "Alvarez's Arsenal dilemma amid summer's most bitter transfer tussle",
-      "description": "An analysis of Julian Alvarez's future with the transfer window closing on 1 September - and the Argentine's chances of a move from Atletico Madrid to Arsenal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c750nd7yq7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T16:07:06+00:00"
     }
   ]
 }
