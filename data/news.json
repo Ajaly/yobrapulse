@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-24T16:33:15.184164+00:00",
+  "generatedAt": "2026-08-24T17:30:05.770264+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Sunderland sign Ahoka from Royal Antwerp",
+      "description": "Sunderland confirm the signing of midfielder Jules Ahoka for a 10m euros (\u00a38.6m) fee.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2ze3dz4jro",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-24T16:50:16+00:00"
+    },
+    {
+      "title": "Watkins' departure would cut deepest - and Villa did not see it coming",
+      "description": "Ollie Watkins has been an Aston Villa legend but it appears his time at the club is nearing a painful end amid interest from Saudi Arabia.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq63ry9q6jzo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T16:43:58+00:00"
+    },
     {
       "title": "Alvarez's Arsenal dilemma amid summer's most bitter transfer tussle",
       "description": "An analysis of Julian Alvarez's future with the transfer window closing on 1 September - and the Argentine's chances of a move from Atletico Madrid to Arsenal.",
@@ -13,6 +31,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-24T16:07:06+00:00"
+    },
+    {
+      "title": "When are the Europa and Conference League draws and how do they work?",
+      "description": "The Europa League and Conference League league phase draws will see British clubs - including Bournemouth, Sunderland, Crystal Palace - discover their opponents.",
+      "link": "https://www.skysports.com/football/news/11095/13576627/europa-league-and-conference-league-group-stage-draws-british-clubs-including-bournemouth-sunderland-crystal-palace-to-discover-opponents",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-24T16:00:00+00:00"
     },
     {
       "title": "Docherty appointed Scotland Under-21 head coach",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-24T14:12:00+00:00"
-    },
-    {
-      "title": "Girona winger Kim to undergo Rangers medical",
-      "description": "Girona winger Kim Min-Su is expected to arrive in Glasgow in the next 48 hours before a prospective move to Rangers.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crr4ldl1wp0o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T13:29:22+00:00"
-    },
-    {
-      "title": "Liverpool latest: Van Dijk demands response after \u2018unacceptable\u2019 season",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T13:04:00+00:00"
-    },
-    {
-      "title": "Heggebo deception ban opens can of worms for FA - West Brom boss",
-      "description": "West Bromwich Albion head coach James Morrison says the FA have \"opened a can of worms\" over Aune Heggebo's two-match ban for deception.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2zn8ynj9eo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T13:02:05+00:00"
     }
   ]
 }
