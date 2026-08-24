@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:57:21.420709+00:00",
+  "generatedAt": "2026-08-24T08:44:46.009698+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -136,6 +136,7 @@
     "329",
     "334",
     "4",
+    "371",
     "473",
     "79",
     "304",
@@ -4277,7 +4278,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.9%",
+      "owned": "3.0%",
       "points": 17,
       "epNext": 1.7,
       "form": 17.0,
@@ -4494,7 +4495,7 @@
       "avatar": "RC",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.5m",
-      "owned": "8.6%",
+      "owned": "8.7%",
       "points": 8,
       "epNext": 2.6,
       "form": 8.0,
@@ -5384,6 +5385,37 @@
       "fdr": 4,
       "fdrClass": "hard"
     },
+    "371": {
+      "id": 371,
+      "name": "Ryan Gravenberch",
+      "shortName": "Gravenberch",
+      "position": "MID",
+      "team": "Liverpool",
+      "avatar": "RG",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a36.0m",
+      "owned": "2.0%",
+      "points": 5,
+      "epNext": 2.2,
+      "form": 5.0,
+      "minutes": 77,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.06,
+      "xa": 0.05,
+      "valueScore": 0.8,
+      "tackles": 1,
+      "clearancesBlocksInterceptions": 2,
+      "recoveries": 8,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Nott'm Forest (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
     "473": {
       "id": 473,
       "name": "Ola Aina",
@@ -5920,7 +5952,7 @@
       "avatar": "FW",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.5m",
-      "owned": "12.6%",
+      "owned": "12.5%",
       "points": 2,
       "epNext": 2.6,
       "form": 2.0,
@@ -7222,7 +7254,7 @@
       "avatar": "OW",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "10.1%",
+      "owned": "10.0%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -8113,7 +8145,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9464669,
+  "totalManagers": 9467609,
   "totalPlayers": 609,
   "priceMovement": {
     "risers": [],
@@ -8348,45 +8380,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 110441
+        "netTransfersEvent": 111509
       },
       {
         "id": "115",
-        "netTransfersEvent": 98151
+        "netTransfersEvent": 101284
       },
       {
         "id": "565",
-        "netTransfersEvent": 97964
+        "netTransfersEvent": 99933
       },
       {
         "id": "15",
-        "netTransfersEvent": 92757
+        "netTransfersEvent": 93966
       },
       {
         "id": "88",
-        "netTransfersEvent": 86757
+        "netTransfersEvent": 88100
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -163859
+        "netTransfersEvent": -165155
       },
       {
         "id": "25",
-        "netTransfersEvent": -72249
+        "netTransfersEvent": -73011
       },
       {
         "id": "31",
-        "netTransfersEvent": -68853
+        "netTransfersEvent": -69608
       },
       {
         "id": "503",
-        "netTransfersEvent": -65079
+        "netTransfersEvent": -65640
       },
       {
         "id": "208",
-        "netTransfersEvent": -52710
+        "netTransfersEvent": -53393
       }
     ]
   }
