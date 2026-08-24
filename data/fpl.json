@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T06:47:10.909978+00:00",
+  "generatedAt": "2026-08-24T07:57:21.420709+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -91,16 +91,16 @@
       "115",
       "379",
       "106",
-      "388",
-      "368"
+      "464",
+      "388"
     ],
     "value": [],
     "tackles": [
       "449",
       "498",
       "237",
-      "15",
-      "94"
+      "464",
+      "15"
     ],
     "saves": []
   },
@@ -139,6 +139,7 @@
     "473",
     "79",
     "304",
+    "464",
     "13",
     "94",
     "173",
@@ -4369,7 +4370,7 @@
       "avatar": "MK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "4.3%",
+      "owned": "4.4%",
       "points": 13,
       "epNext": 1.7,
       "form": 13.0,
@@ -4639,6 +4640,37 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
+    "464": {
+      "id": 464,
+      "name": "Yoane Wissa",
+      "shortName": "Wissa",
+      "position": "FWD",
+      "team": "Newcastle",
+      "avatar": "YW",
+      "avatarClass": "",
+      "price": "\u00a36.0m",
+      "owned": "2.0%",
+      "points": 4,
+      "epNext": 2.0,
+      "form": 4.0,
+      "minutes": 90,
+      "goals": 0,
+      "assists": 1,
+      "xg": 1.0,
+      "xa": 0.02,
+      "valueScore": 0.7,
+      "tackles": 4,
+      "clearancesBlocksInterceptions": 1,
+      "recoveries": 3,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 3,
+      "fixture": "vs Spurs (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
     "388": {
       "id": 388,
       "name": "Marc Gu\u00e9hi",
@@ -4667,37 +4699,6 @@
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Crystal Palace (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
-    },
-    "368": {
-      "id": 368,
-      "name": "Dominik Szoboszlai",
-      "shortName": "Szoboszlai",
-      "position": "MID",
-      "team": "Liverpool",
-      "avatar": "DS",
-      "avatarClass": "",
-      "price": "\u00a37.0m",
-      "owned": "42.0%",
-      "points": 8,
-      "epNext": 2.5,
-      "form": 8.0,
-      "minutes": 90,
-      "goals": 1,
-      "assists": 0,
-      "xg": 0.85,
-      "xa": 0.27,
-      "valueScore": 1.1,
-      "tackles": 1,
-      "clearancesBlocksInterceptions": 2,
-      "recoveries": 4,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4,
-      "fixture": "vs Nott'm Forest (H)",
       "fdr": 3,
       "fdrClass": "mid"
     },
@@ -4791,37 +4792,6 @@
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Bournemouth (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
-    },
-    "94": {
-      "id": 94,
-      "name": "Kevin Schade",
-      "shortName": "Schade",
-      "position": "MID",
-      "team": "Brentford",
-      "avatar": "KS",
-      "avatarClass": "orange-avatar",
-      "price": "\u00a36.0m",
-      "owned": "3.6%",
-      "points": 3,
-      "epNext": 2.2,
-      "form": 3.0,
-      "minutes": 90,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.52,
-      "xa": 0.01,
-      "valueScore": 0.5,
-      "tackles": 3,
-      "clearancesBlocksInterceptions": 1,
-      "recoveries": 5,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Leeds (A)",
       "fdr": 3,
       "fdrClass": "mid"
     },
@@ -4977,6 +4947,37 @@
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Leeds (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
+    "368": {
+      "id": 368,
+      "name": "Dominik Szoboszlai",
+      "shortName": "Szoboszlai",
+      "position": "MID",
+      "team": "Liverpool",
+      "avatar": "DS",
+      "avatarClass": "",
+      "price": "\u00a37.0m",
+      "owned": "42.0%",
+      "points": 8,
+      "epNext": 2.5,
+      "form": 8.0,
+      "minutes": 90,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.85,
+      "xa": 0.27,
+      "valueScore": 1.1,
+      "tackles": 1,
+      "clearancesBlocksInterceptions": 2,
+      "recoveries": 4,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Nott'm Forest (H)",
       "fdr": 3,
       "fdrClass": "mid"
     },
@@ -5507,6 +5508,37 @@
       "fdr": 4,
       "fdrClass": "hard"
     },
+    "94": {
+      "id": 94,
+      "name": "Kevin Schade",
+      "shortName": "Schade",
+      "position": "MID",
+      "team": "Brentford",
+      "avatar": "KS",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a36.0m",
+      "owned": "3.6%",
+      "points": 3,
+      "epNext": 2.2,
+      "form": 3.0,
+      "minutes": 90,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.52,
+      "xa": 0.01,
+      "valueScore": 0.5,
+      "tackles": 3,
+      "clearancesBlocksInterceptions": 1,
+      "recoveries": 5,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": null,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Leeds (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
     "173": {
       "id": 173,
       "name": "Bobby Thomas",
@@ -5919,7 +5951,7 @@
       "avatar": "NO",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.5m",
-      "owned": "21.4%",
+      "owned": "21.3%",
       "points": 2,
       "epNext": 3.1,
       "form": 2.0,
@@ -6601,7 +6633,7 @@
       "avatar": "TM",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "6.2%",
+      "owned": "6.1%",
       "points": 1,
       "epNext": 1.7,
       "form": 1.0,
@@ -7655,7 +7687,7 @@
       "avatar": "WH",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "11.8%",
+      "owned": "11.7%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -8081,7 +8113,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9460965,
+  "totalManagers": 9464669,
   "totalPlayers": 609,
   "priceMovement": {
     "risers": [],
@@ -8316,45 +8348,45 @@
     "rising": [
       {
         "id": "8",
-        "netTransfersEvent": 108901
-      },
-      {
-        "id": "565",
-        "netTransfersEvent": 95076
+        "netTransfersEvent": 110441
       },
       {
         "id": "115",
-        "netTransfersEvent": 93165
+        "netTransfersEvent": 98151
+      },
+      {
+        "id": "565",
+        "netTransfersEvent": 97964
       },
       {
         "id": "15",
-        "netTransfersEvent": 90921
+        "netTransfersEvent": 92757
       },
       {
         "id": "88",
-        "netTransfersEvent": 84741
+        "netTransfersEvent": 86757
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -161976
+        "netTransfersEvent": -163859
       },
       {
         "id": "25",
-        "netTransfersEvent": -71155
+        "netTransfersEvent": -72249
       },
       {
         "id": "31",
-        "netTransfersEvent": -67622
+        "netTransfersEvent": -68853
       },
       {
         "id": "503",
-        "netTransfersEvent": -64169
+        "netTransfersEvent": -65079
       },
       {
         "id": "208",
-        "netTransfersEvent": -51652
+        "netTransfersEvent": -52710
       }
     ]
   }
