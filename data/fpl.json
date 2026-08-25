@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T20:25:50.767864+00:00",
+  "generatedAt": "2026-08-25T21:25:47.201315+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -225,7 +225,6 @@
     "301",
     "357",
     "358",
-    "448",
     "497",
     "499",
     "503",
@@ -4330,7 +4329,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "5.8%",
+      "owned": "5.9%",
       "points": 17,
       "epNext": 1.7,
       "form": 17.0,
@@ -4361,7 +4360,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "6.5%",
+      "owned": "6.6%",
       "points": 14,
       "epNext": 2.0,
       "form": 14.0,
@@ -4671,7 +4670,7 @@
       "avatar": "YW",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "2.6%",
+      "owned": "2.7%",
       "points": 4,
       "epNext": 2.0,
       "form": 4.0,
@@ -4888,7 +4887,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "66.1%",
+      "owned": "66.2%",
       "points": 11,
       "epNext": 2.4,
       "form": 11.0,
@@ -5167,7 +5166,7 @@
       "avatar": "TB",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "2.1%",
+      "owned": "2.2%",
       "points": 8,
       "epNext": 1.8,
       "form": 8.0,
@@ -5539,7 +5538,7 @@
       "avatar": "GG",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "2.8%",
+      "owned": "2.9%",
       "points": 6,
       "epNext": 2.0,
       "form": 6.0,
@@ -5818,7 +5817,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "17.5%",
+      "owned": "17.4%",
       "points": 3,
       "epNext": 2.6,
       "form": 3.0,
@@ -6438,7 +6437,7 @@
       "avatar": "EA",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "6.7%",
+      "owned": "6.6%",
       "points": 2,
       "epNext": 1.7,
       "form": 2.0,
@@ -6500,7 +6499,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a312.0m",
-      "owned": "49.5%",
+      "owned": "49.4%",
       "points": 2,
       "epNext": 4.0,
       "form": 2.0,
@@ -7337,7 +7336,7 @@
       "avatar": "LS",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "20.2%",
+      "owned": "20.1%",
       "points": 1,
       "epNext": 1.7,
       "form": 1.0,
@@ -7864,7 +7863,7 @@
       "avatar": "WH",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "11.3%",
+      "owned": "11.2%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -7988,7 +7987,7 @@
       "avatar": "MK",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "3.7%",
+      "owned": "3.6%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -8007,37 +8006,6 @@
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Nott'm Forest (H)",
-      "fdr": 3,
-      "fdrClass": "mid"
-    },
-    "448": {
-      "id": 448,
-      "name": "Dan Burn",
-      "shortName": "Burn",
-      "position": "DEF",
-      "team": "Newcastle",
-      "avatar": "DB",
-      "avatarClass": "",
-      "price": "\u00a35.0m",
-      "owned": "2.0%",
-      "points": 0,
-      "epNext": 0.0,
-      "form": 0.0,
-      "minutes": 0,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "valueScore": 0.0,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 0,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 2,
-      "teamStrengthAway": 3,
-      "fixture": "vs Spurs (A)",
       "fdr": 3,
       "fdrClass": "mid"
     },
@@ -8081,7 +8049,7 @@
       "avatar": "PP",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "14.0%",
+      "owned": "13.9%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -8228,7 +8196,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9667906,
+  "totalManagers": 9673435,
   "totalPlayers": 612,
   "priceMovement": {
     "risers": [],
@@ -8419,14 +8387,6 @@
       "improving": false
     },
     {
-      "id": "448",
-      "status": "i",
-      "news": "Ankle injury - Expected back 14 Sep",
-      "chanceThisRound": null,
-      "chanceNextRound": 0,
-      "improving": false
-    },
-    {
       "id": "480",
       "status": "d",
       "news": "Knee injury - 75% chance of playing",
@@ -8471,45 +8431,45 @@
     "rising": [
       {
         "id": "115",
-        "netTransfersEvent": 312212
+        "netTransfersEvent": 316453
       },
       {
         "id": "565",
-        "netTransfersEvent": 250710
+        "netTransfersEvent": 255479
       },
       {
         "id": "165",
-        "netTransfersEvent": 200321
+        "netTransfersEvent": 203497
       },
       {
         "id": "8",
-        "netTransfersEvent": 199330
+        "netTransfersEvent": 200752
       },
       {
         "id": "88",
-        "netTransfersEvent": 196197
+        "netTransfersEvent": 198017
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -256239
+        "netTransfersEvent": -256959
       },
       {
         "id": "25",
-        "netTransfersEvent": -141441
+        "netTransfersEvent": -142839
       },
       {
         "id": "480",
-        "netTransfersEvent": -135744
-      },
-      {
-        "id": "31",
-        "netTransfersEvent": -127637
+        "netTransfersEvent": -138086
       },
       {
         "id": "55",
-        "netTransfersEvent": -127116
+        "netTransfersEvent": -128769
+      },
+      {
+        "id": "31",
+        "netTransfersEvent": -128672
       }
     ]
   }
