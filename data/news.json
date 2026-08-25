@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-25T22:24:25.046836+00:00",
+  "generatedAt": "2026-08-25T23:24:20.679555+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Exhausted & fragile - how Celtic's capitulation unfolded",
+      "description": "BBC Scotland guides you through the timeline in Celtic's Champions League reverse in Austria.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crerjz8814qo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T23:12:09+00:00"
+    },
+    {
+      "title": "'Super proud' - Smith wins consecutive PFA young player of the year",
+      "description": "Arsenal's Olivia Smith wants to \"keep setting standards high\" as she receives her second consecutive PFA young player of the year award.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwyzv42l624o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T23:06:50+00:00"
+    },
     {
       "title": "Papers: Man City set for late Fernandez move as Chelsea replacement emerges",
       "description": "The top stories and transfer rumours from Wednesday's newspapers...",
@@ -24,15 +42,6 @@
       "pubDateISO": "2026-08-25T22:12:35+00:00"
     },
     {
-      "title": "Wilson scores on full debut as Brentford hit Birmingham for six",
-      "description": "Callum Wilson scored just six minutes into his full debut and captain Nathan Collins converted two headers as Brentford routed Championship side Birmingham 6-1.",
-      "link": "https://www.skysports.com/football/birmingham-city-vs-brentford/report/577421",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T22:00:00+00:00"
-    },
-    {
       "title": "Leeds earn second win at Forest in three days in Carabao Cup",
       "description": "Leeds United registered a second win at Nottingham Forest in three days as they booked their spot in the Carabao Cup third round.",
       "link": "https://www.skysports.com/football/nottingham-forest-vs-leeds-united/report/577433",
@@ -42,13 +51,22 @@
       "pubDateISO": "2026-08-25T22:00:00+00:00"
     },
     {
-      "title": "Coventry latest: Lampard pleased to cast eye over squad in cup win at Plymouth",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13541482/coventry-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "title": "Wilson scores on full debut as Brentford hit Birmingham for six",
+      "description": "Callum Wilson scored just six minutes into his full debut and captain Nathan Collins converted two headers as Brentford routed Championship side Birmingham 6-1.",
+      "link": "https://www.skysports.com/football/birmingham-city-vs-brentford/report/577421",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T22:00:00+00:00"
+    },
+    {
+      "title": "'We apologise to the fans' - Celtic throw away four-goal lead to crash out of CL",
+      "description": "Celtic suffered a stunning Champions League play-off collapse as LASK overturned a 3-0 first-leg deficit to win 5-4 after extra-time and sent the Scottish champions crashing into the Europa League.",
+      "link": "https://www.skysports.com/football/linz-ask-vs-celtic/report/577269",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T21:50:00+00:00"
     },
     {
       "title": "Coventry survive Plymouth scare to progress in Carabao Cup",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T21:29:08+00:00"
-    },
-    {
-      "title": "Cardiff's Anyadike, 15, sets new EFL Cup record as youngest player",
-      "description": "Cardiff City's Noah Anyadike, 15, becomes the youngest player in EFL Cup history after starting their second-round defeat against Norwich City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/czrzgzn1z5ro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T21:17:12+00:00"
-    },
-    {
-      "title": "'A huge award' - O'Reilly named PFA young player of the year",
-      "description": "Manchester City and England full-back Nico O'Reilly says \"it feels amazing\" after receiving the 2026 PFA young player of the year award.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cn74yyepggmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T21:02:32+00:00"
     }
   ]
 }
