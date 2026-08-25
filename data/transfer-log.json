@@ -300,6 +300,16 @@
       "toTeam": "Arsenal",
       "detectedAt": "2026-08-21T15:25:46.329995+00:00",
       "marketValue": 45
+    },
+    {
+      "playerId": 403,
+      "playerName": "Savinho",
+      "fromTeamId": 15,
+      "fromTeam": "Man City",
+      "toTeamId": 19,
+      "toTeam": "Spurs",
+      "detectedAt": "2026-08-25T14:37:59.076827+00:00",
+      "marketValue": 65
     }
   ]
 }

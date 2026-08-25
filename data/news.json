@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T13:48:11.922491+00:00",
+  "generatedAt": "2026-08-25T14:42:56.712571+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -31,6 +31,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T14:00:00+00:00"
+    },
+    {
+      "title": "All the best Savinho - welcome Savio... new club, new name for Spurs signing",
+      "description": "Tottenham sign Brazil winger Savinho from Manchester City for an initial \u00a375m - and he reverts to being called Savio.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy7z637nj8jo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T13:57:46+00:00"
     },
     {
       "title": "Cole leaves role as England U21 coach",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T10:55:25+00:00"
-    },
-    {
-      "title": "Savinho changes name to Savio as he joins Spurs for \u00a385m",
-      "description": "Tottenham have confirmed the signing of winger Savio from Manchester City in an &#163;85m deal.",
-      "link": "https://www.skysports.com/football/news/11095/13575398/savio-transfer-news-tottenham-sign-winger-from-manchester-city-in-85m-deal",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-25T10:06:00+00:00"
     }
   ]
 }

@@ -241,6 +241,10 @@
       "team": 2,
       "name": "Lynch"
     },
+    "611": {
+      "team": 2,
+      "name": "Wan-Bissaka"
+    },
     "57": {
       "team": 3,
       "name": "Petrovi\u0107"
@@ -1797,10 +1801,6 @@
       "team": 15,
       "name": "Rodrigo"
     },
-    "403": {
-      "team": 15,
-      "name": "Savinho"
-    },
     "404": {
       "team": 15,
       "name": "Reijnders"
@@ -2197,6 +2197,10 @@
       "team": 19,
       "name": "Van Hecke"
     },
+    "403": {
+      "team": 19,
+      "name": "Savinho"
+    },
     "455": {
       "team": 19,
       "name": "Tonali"
@@ -2440,6 +2444,10 @@
     "553": {
       "team": 20,
       "name": "Isidor"
+    },
+    "612": {
+      "team": 20,
+      "name": "Methalie"
     }
   }
 }
