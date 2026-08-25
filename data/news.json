@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T16:33:22.962022+00:00",
+  "generatedAt": "2026-08-25T17:30:07.704245+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -33,6 +33,15 @@
       "pubDateISO": "2026-08-25T17:15:00+00:00"
     },
     {
+      "title": "LASK to hold silence for Celtic fan who died during Champions League match",
+      "description": "The 65-year-old supporter took ill during the first leg of the Champions League play-off in Glasgow last week.",
+      "link": "https://www.bbc.co.uk/news/articles/cj642ld8px1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T16:46:38+00:00"
+    },
+    {
       "title": "Man Utd complete Baleba signing",
       "description": "Manchester United have completed the signing of midfielder Carlos Baleba from Brighton.",
       "link": "https://www.skysports.com/football/news/11095/13575283/carlos-baleba-transfer-manchester-united-complete-signing-of-cameroon-midfielder-from-brighton",
@@ -49,6 +58,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T16:30:00+00:00"
+    },
+    {
+      "title": "Irish FA withdraws support for Infantino",
+      "description": "The Irish Football Association says it is \"time for change\" at Fifa and they will not be voting for president Gianni Infantino's re-election next year.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgk5ylln5l5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T16:29:57+00:00"
     },
     {
       "title": "\u00a31.5m-rated Abdulmalik asks to leave Boreham Wood",
@@ -94,24 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-25T15:55:56+00:00"
-    },
-    {
-      "title": "Why is Crystal Palace's home kit white?",
-      "description": "BBC Sport's Ask Me Anything team explains why Crystal Palace are wearing a white home shirt during the 2026-27 season",
-      "link": "https://www.bbc.co.uk/sport/articles/czxzlv8dpj2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T15:43:13+00:00"
-    },
-    {
-      "title": "Ethiopia bids to host 2028 Afcon despite having only one approved stadium",
-      "description": "Ethiopia submits a bid to host the 2028 Africa Cup of Nations despite lacking enough stadiums to host a 24-team tournament.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2e0dl2xkzko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T15:38:41+00:00"
     }
   ]
 }
