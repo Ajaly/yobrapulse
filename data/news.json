@@ -1,10 +1,64 @@
 {
-  "generatedAt": "2026-08-25T08:39:06.841341+00:00",
+  "generatedAt": "2026-08-25T09:33:39.018768+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Savinho changes name to Savio as he joins Spurs for \u00a385m",
+      "description": "Tottenham have confirmed the signing of winger Savio from Manchester City in an &#163;85m deal.",
+      "link": "https://www.skysports.com/football/news/11095/13575398/savio-transfer-news-tottenham-sign-winger-from-manchester-city-in-85m-deal",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T10:06:00+00:00"
+    },
+    {
+      "title": "Chelsea 2.0: How transitional Blues are rebuilding for WSL and WCL success",
+      "description": "\"Chelsea are going through a transitional moment and it takes time for the club to rebuild.\"",
+      "link": "https://www.skysports.com/football/news/11095/13568830/chelsea-women-sonia-bompastor-and-ellie-carpenter-on-blues-transitional-moment-as-they-target-wsl-and-champions-league-success",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T10:00:00+00:00"
+    },
+    {
+      "title": "Tottenham sign Savinho from Man City for \u00a375m",
+      "description": "Tottenham sign Brazil winger Savinho from Manchester City for an initial \u00a375m.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy7z637nj8jo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T09:14:39+00:00"
+    },
+    {
+      "title": "Man City enter race for Gakpo - Tuesday's gossip",
+      "description": "Manchester City emerge as surprise Cody Gakpo suitors, Newcastle agree to sign Nico Gonzalez, and Manchester United are confident of signing Myles Lewis-Skelly, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T09:05:33+00:00"
+    },
+    {
+      "title": "How does prize money work in the EFL Cup?",
+      "description": "BBC Sport's Ask Me Anything team explains how prize money works in the EFL Cup",
+      "link": "https://www.bbc.co.uk/sport/articles/c8xkl258871o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T08:54:07+00:00"
+    },
+    {
+      "title": "How did all nine new managers fare in Premier League openers?",
+      "description": "Who impressed and who has work to do? BBC Sport chief football writer Phil McNulty looks at how the nine new managerial appointments fared on the opening week of the Premier League season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr4v0p1xqryo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T08:54:05+00:00"
+    },
     {
       "title": "Villa make 'serious' approach to sign Leao from AC Milan",
       "description": "Aston Villa&#160;have made an approach for AC Milan forward Rafael Leao, according to Sky in Italy.",
@@ -33,6 +87,15 @@
       "pubDateISO": "2026-08-25T08:44:00+00:00"
     },
     {
+      "title": "What does your Premier League club still need in the transfer window?",
+      "description": "BBC Sport takes a look at what each of the Premier League clubs still need before the summer transfer window shuts in seven days.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gql9p0qn2o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T08:40:20+00:00"
+    },
+    {
       "title": "Have your say: What should Liverpool do with Wirtz?",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T08:00:00+00:00"
-    },
-    {
-      "title": "Villa latest: 'Watkins returns and apologises to teammates for Brighton absence'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T07:50:00+00:00"
-    },
-    {
-      "title": "Ranking the best managers in Premier League history",
-      "description": "Thirteen managers have won the Premier League title, but which of them will make it into our top 10 covering the competition's history?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr59zj42plvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T07:42:03+00:00"
-    },
-    {
-      "title": "Are O'Neill's Celtic ready for Champions League?",
-      "description": "How ready are Celtic for the season ahead?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p64scs",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T07:07:00+00:00"
-    },
-    {
-      "title": "Hearts close to deal for teenage winger Benjaminsen - gossip",
-      "description": "Hearts emerge as favourites for Faroese winger, while Celtic face competition for midfield target.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cd94dy2yxelo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-25T06:40:29+00:00"
-    },
-    {
-      "title": "'Change is necessary' - players unite against Fifa",
-      "description": "A number of current and former footballers unite against Fifa president Gianni Infantino, stating that \"change is necessary\" at the global governing body.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy4zl2mz9rko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T06:31:19+00:00"
-    },
-    {
-      "title": "Grealish back for Man City - but for how long?",
-      "description": "Man City winger has made two substitute appearances so far this season, but his future remains in doubt.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy0znx93x05o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-25T06:09:10+00:00"
-    },
-    {
-      "title": "Flex your football brain with our daily quizzes",
-      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cd7llw7yzggo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T05:24:31+00:00"
     }
   ]
 }
