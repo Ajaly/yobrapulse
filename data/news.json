@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-25T09:33:39.018768+00:00",
+  "generatedAt": "2026-08-25T10:29:05.948107+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Aston Villa latest: 'Bid for Mateta falls short of Palace valuation'",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T11:00:00+00:00"
+    },
+    {
+      "title": "West Ham latest: Olympiakos make loan bid for Alvarez",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13210475/west-ham-latest-news",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T10:33:00+00:00"
+    },
     {
       "title": "Savinho changes name to Savio as he joins Spurs for \u00a385m",
       "description": "Tottenham have confirmed the signing of winger Savio from Manchester City in an &#163;85m deal.",
@@ -13,6 +31,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-25T10:06:00+00:00"
+    },
+    {
+      "title": "Dalglish and Carney win PFA Merit Awards",
+      "description": "Liverpool and Scotland legend Sir Kenny Dalglish and 144-cap England great Karen Carney are named the Professional Footballers' Association Merit Award winners for 2026.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn8e7q501j3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T10:01:23+00:00"
     },
     {
       "title": "Chelsea 2.0: How transitional Blues are rebuilding for WSL and WCL success",
@@ -69,24 +96,6 @@
       "pubDateISO": "2026-08-25T08:52:00+00:00"
     },
     {
-      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-25T08:50:00+00:00"
-    },
-    {
-      "title": "Leeds and Rangers co-owner York arrested",
-      "description": "Leeds United and Rangers co-owner Jed York was arrested over the weekend in Ohio and pleaded no contest to misdemeanour charges of disorderly conduct and possessing criminal tools.",
-      "link": "https://www.skysports.com/football/news/11095/13576878/leeds-and-rangers-co-owner-jed-york-arrested-in-ohio-and-pleads-no-contest-to-misdemeanour-charges-of-disorderly-conduct-and-possessing-criminal-tools",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T08:44:00+00:00"
-    },
-    {
       "title": "What does your Premier League club still need in the transfer window?",
       "description": "BBC Sport takes a look at what each of the Premier League clubs still need before the summer transfer window shuts in seven days.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c4gql9p0qn2o",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T08:22:00+00:00"
-    },
-    {
-      "title": "Problems mounting for threadbare Villa and Emery ahead of Arsenal",
-      "description": "A threadbare Aston Villa squad fell apart against Brighton at the Amex Stadium - and champions Arsenal are on the horizon with problems mounting for Unai Emery.",
-      "link": "https://www.skysports.com/football/news/11095/13576531/aston-villa-unai-emerys-problems-mounting-ahead-of-arsenal-test-after-threadbare-squad-falls-apart-against-brighton",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T08:00:00+00:00"
     }
   ]
 }
