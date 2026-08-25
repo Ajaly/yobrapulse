@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-08-25T17:30:07.704245+00:00",
+  "generatedAt": "2026-08-25T18:34:40.062308+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Arsenal latest: Atleti tell 'devastated' Alvarez he will not be sold to Barca",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T19:24:00+00:00"
+    },
+    {
+      "title": "Alvarez left with two options: Atletico or Arsenal",
+      "description": "Julian Alvarez must take one of two paths before the transfer deadline: stay at Atletico Madrid and try to rebuild his connection with the fans or get his head around a potential move to Arsenal.",
+      "link": "https://www.skysports.com/football/news/11095/13576975/julian-alvarez-transfer-latest-atletico-standing-firm-on-barcelona-as-arsenal-become-only-get-out-for-argentine-striker",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T19:00:00+00:00"
+    },
+    {
+      "title": "Carabao Cup round two build-up LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/ipswich-town-vs-leicester-city/live/577431",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T18:55:00+00:00"
+    },
+    {
+      "title": "Forest agree club-record deal for Chelsea's Delap",
+      "description": "Nottingham Forest have agreed a club-record &#163;50m deal to sign Liam Delap from Chelsea.",
+      "link": "https://www.skysports.com/football/news/11095/13577090/liam-delap-transfer-nottingham-forest-agree-club-record-deal-to-sign-chelsea-striker",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T18:45:00+00:00"
+    },
+    {
+      "title": "Liverpool hold fresh Barcola talks with PSG",
+      "description": "Liverpool are holding further talks with Paris Saint-Germain on Tuesday for Bradley Barcola.",
+      "link": "https://www.skysports.com/football/news/11095/13567087/bradley-barcola-transfer-news-liverpool-hold-positive-talks-with-optimism-deal-can-be-done-with-psg-for-france-international",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T18:20:00+00:00"
+    },
     {
       "title": "Tottenham latest: Savio could make debut on Wednesday...",
       "description": "",
@@ -51,15 +96,6 @@
       "pubDateISO": "2026-08-25T16:45:00+00:00"
     },
     {
-      "title": "Abdulmalik releases statement as Boreham Wood reject ANOTHER \u00a31m+ offer",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T16:30:00+00:00"
-    },
-    {
       "title": "Irish FA withdraws support for Infantino",
       "description": "The Irish Football Association says it is \"time for change\" at Fifa and they will not be voting for president Gianni Infantino's re-election next year.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cgk5ylln5l5o",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T16:18:23+00:00"
-    },
-    {
-      "title": "What does your Premier League club still need in the transfer window?",
-      "description": "BBC Sport takes a look at what each of the Premier League clubs still need before the summer transfer window shuts in seven days.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gql9p0qn2o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-25T16:17:47+00:00"
-    },
-    {
-      "title": "Newcastle latest: Gonzalez travelling for medical ahead move from Man City",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-25T16:15:00+00:00"
-    },
-    {
-      "title": "Man Utd's midfield spending is done - now for a left-back?",
-      "description": "After spending \u00a3155m on three midfielders, now Manchester United must decide whether to try to buy a left-back",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clykngy3gldo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T16:03:24+00:00"
-    },
-    {
-      "title": "Baleba completes \u00a370m Man Utd move from Brighton",
-      "description": "Manchester United sign Cameroon midfielder Carlos Baleba from Brighton in a \u00a370m deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1mv0rxpd1no",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-25T15:55:56+00:00"
     }
   ]
 }
