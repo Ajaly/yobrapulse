@@ -16,10 +16,11 @@
         "awayWinPct": 7
       },
       "loggedAt": "2026-08-12T14:44:18.558424+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "3 \u2014 0"
     },
     {
       "id": 4,
@@ -37,10 +38,11 @@
         "awayWinPct": 66
       },
       "loggedAt": "2026-08-12T14:44:18.558424+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 3,
@@ -58,10 +60,11 @@
         "awayWinPct": 28
       },
       "loggedAt": "2026-08-12T14:44:18.558424+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 5,
@@ -79,10 +82,11 @@
         "awayWinPct": 36
       },
       "loggedAt": "2026-08-12T14:44:18.558424+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": false,
+      "actualScore": "2 \u2014 1"
     },
     {
       "id": 6,
@@ -100,10 +104,11 @@
         "awayWinPct": 30
       },
       "loggedAt": "2026-08-12T14:44:18.558424+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "0 \u2014 1"
     },
     {
       "id": 2,
@@ -121,10 +126,11 @@
         "awayWinPct": 34
       },
       "loggedAt": "2026-08-12T14:44:18.558424+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "3 \u2014 0"
     },
     {
       "id": 7,
@@ -142,10 +148,11 @@
         "awayWinPct": 33
       },
       "loggedAt": "2026-08-12T14:44:18.558424+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": false,
+      "marketCorrect": true,
+      "actualScore": "4 \u2014 0"
     },
     {
       "id": 8,
@@ -163,10 +170,11 @@
         "awayWinPct": 16
       },
       "loggedAt": "2026-08-12T14:44:18.558424+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 1"
     },
     {
       "id": 9,
@@ -184,10 +192,11 @@
         "awayWinPct": 46
       },
       "loggedAt": "2026-08-12T14:44:18.558424+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "2 \u2014 2"
     },
     {
       "id": 10,
@@ -205,10 +214,11 @@
         "awayWinPct": 44
       },
       "loggedAt": "2026-08-12T14:44:18.558424+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 3"
     },
     {
       "id": 11,

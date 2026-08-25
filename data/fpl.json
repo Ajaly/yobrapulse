@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T07:43:42.177616+00:00",
+  "generatedAt": "2026-08-25T08:39:05.679079+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -7,6 +7,28 @@
     "deadlineLabel": "Fri 28 Aug \u00b7 17:30 UTC"
   },
   "captainPicks": [
+    {
+      "id": "154",
+      "score": 8.35,
+      "factors": {
+        "epNext": 3.2,
+        "ownForm": 13.0,
+        "teamForm": null,
+        "opponentForm": null,
+        "venueForm": null,
+        "venueFormSource": null,
+        "opponentVenueForm": null,
+        "fixtureLoad": 1,
+        "opponent": "Brighton",
+        "isHome": true,
+        "trackRecordVsOpponent": {
+          "meetings": 4,
+          "goals": 5,
+          "assists": 0,
+          "involvementsPerMatch": 1.25
+        }
+      }
+    },
     {
       "id": "115",
       "score": 6.8,
@@ -39,28 +61,6 @@
         "opponent": "Leeds",
         "isHome": false,
         "trackRecordVsOpponent": null
-      }
-    },
-    {
-      "id": "12",
-      "score": 6.1,
-      "factors": {
-        "epNext": 3.2,
-        "ownForm": 9.0,
-        "teamForm": null,
-        "opponentForm": null,
-        "venueForm": null,
-        "venueFormSource": null,
-        "opponentVenueForm": null,
-        "fixtureLoad": 1,
-        "opponent": "Aston Villa",
-        "isHome": false,
-        "trackRecordVsOpponent": {
-          "meetings": 5,
-          "goals": 0,
-          "assists": 1,
-          "involvementsPerMatch": 0.2
-        }
       }
     }
   ],
@@ -518,15 +518,15 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 54,
+      "homeWinPct": 55,
       "drawPct": 23,
-      "awayWinPct": 23,
-      "predictedScore": "1.6 \u2014 1.0",
+      "awayWinPct": 22,
+      "predictedScore": "1.7 \u2014 1.0",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.87,
+        "homeAvailability": 0.94,
         "awayAvailability": 0.9,
         "homeTransferImpactM": 24.5,
         "awayTransferImpactM": -1.0
@@ -696,10 +696,14 @@
   ],
   "predictionTrackRecord": {
     "totalLogged": 20,
-    "totalResolved": 0,
-    "correct": 0,
-    "accuracyPct": null,
-    "marketComparison": null
+    "totalResolved": 10,
+    "correct": 6,
+    "accuracyPct": 60.0,
+    "marketComparison": {
+      "sampleSize": 10,
+      "marketAccuracyPct": 60.0,
+      "modelAccuracyPct": 60.0
+    }
   },
   "friendlyPredictions": [],
   "friendlyTrackRecord": {
@@ -4274,6 +4278,37 @@
     }
   ],
   "players": {
+    "154": {
+      "id": 154,
+      "name": "Cole Palmer",
+      "shortName": "Palmer",
+      "position": "MID",
+      "team": "Chelsea",
+      "avatar": "CP",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a39.5m",
+      "owned": "11.9%",
+      "points": 13,
+      "epNext": 3.2,
+      "form": 13.0,
+      "minutes": 82,
+      "goals": 1,
+      "assists": 1,
+      "xg": 0.28,
+      "xa": 0.19,
+      "valueScore": 1.4,
+      "tackles": 2,
+      "clearancesBlocksInterceptions": 0,
+      "recoveries": 7,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Brighton (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
+    },
     "115": {
       "id": 115,
       "name": "Maxim De Cuyper",
@@ -4283,7 +4318,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "4.7%",
+      "owned": "4.8%",
       "points": 17,
       "epNext": 1.7,
       "form": 17.0,
@@ -4336,37 +4371,6 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
-    "12": {
-      "id": 12,
-      "name": "Bukayo Saka",
-      "shortName": "Saka",
-      "position": "MID",
-      "team": "Arsenal",
-      "avatar": "BS",
-      "avatarClass": "",
-      "price": "\u00a39.5m",
-      "owned": "10.2%",
-      "points": 9,
-      "epNext": 3.2,
-      "form": 9.0,
-      "minutes": 67,
-      "goals": 1,
-      "assists": 0,
-      "xg": 0.64,
-      "xa": 0.08,
-      "valueScore": 0.9,
-      "tackles": 1,
-      "clearancesBlocksInterceptions": 2,
-      "recoveries": 4,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 5,
-      "fixture": "vs Aston Villa (A)",
-      "fdr": 4,
-      "fdrClass": "hard"
-    },
     "88": {
       "id": 88,
       "name": "Michael Kayode",
@@ -4376,7 +4380,7 @@
       "avatar": "MK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "5.3%",
+      "owned": "5.4%",
       "points": 13,
       "epNext": 1.7,
       "form": 13.0,
@@ -4397,37 +4401,6 @@
       "fixture": "vs Leeds (A)",
       "fdr": 3,
       "fdrClass": "mid"
-    },
-    "154": {
-      "id": 154,
-      "name": "Cole Palmer",
-      "shortName": "Palmer",
-      "position": "MID",
-      "team": "Chelsea",
-      "avatar": "CP",
-      "avatarClass": "orange-avatar",
-      "price": "\u00a39.5m",
-      "owned": "11.9%",
-      "points": 13,
-      "epNext": 2.4,
-      "form": 13.0,
-      "minutes": 82,
-      "goals": 1,
-      "assists": 1,
-      "xg": 0.28,
-      "xa": 0.19,
-      "valueScore": 1.4,
-      "tackles": 2,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 7,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4,
-      "fixture": "vs Brighton (H)",
-      "fdr": 2,
-      "fdrClass": "easy"
     },
     "367": {
       "id": 367,
@@ -4531,7 +4504,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "40.9%",
+      "owned": "41.0%",
       "points": 9,
       "epNext": 2.5,
       "form": 9.0,
@@ -4562,7 +4535,7 @@
       "avatar": "CT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "25.6%",
+      "owned": "25.7%",
       "points": 6,
       "epNext": 2.3,
       "form": 6.0,
@@ -4686,7 +4659,7 @@
       "avatar": "MR",
       "avatarClass": "",
       "price": "\u00a37.5m",
-      "owned": "25.1%",
+      "owned": "25.2%",
       "points": 8,
       "epNext": 2.6,
       "form": 8.0,
@@ -4841,7 +4814,7 @@
       "avatar": "M\u00d8",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.5m",
-      "owned": "10.3%",
+      "owned": "10.4%",
       "points": 11,
       "epNext": 2.3,
       "form": 11.0,
@@ -4872,7 +4845,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "65.2%",
+      "owned": "65.3%",
       "points": 11,
       "epNext": 2.4,
       "form": 11.0,
@@ -4986,6 +4959,37 @@
       "fixture": "vs Crystal Palace (A)",
       "fdr": 3,
       "fdrClass": "mid"
+    },
+    "12": {
+      "id": 12,
+      "name": "Bukayo Saka",
+      "shortName": "Saka",
+      "position": "MID",
+      "team": "Arsenal",
+      "avatar": "BS",
+      "avatarClass": "",
+      "price": "\u00a39.5m",
+      "owned": "10.2%",
+      "points": 9,
+      "epNext": 3.2,
+      "form": 9.0,
+      "minutes": 67,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.64,
+      "xa": 0.08,
+      "valueScore": 0.9,
+      "tackles": 1,
+      "clearancesBlocksInterceptions": 2,
+      "recoveries": 4,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Aston Villa (A)",
+      "fdr": 4,
+      "fdrClass": "hard"
     },
     "385": {
       "id": 385,
@@ -5461,7 +5465,7 @@
       "avatar": "GG",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "2.5%",
+      "owned": "2.6%",
       "points": 6,
       "epNext": 2.0,
       "form": 6.0,
@@ -5585,7 +5589,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "29.5%",
+      "owned": "29.4%",
       "points": 5,
       "epNext": 4.0,
       "form": 5.0,
@@ -5771,7 +5775,7 @@
       "avatar": "KS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "3.6%",
+      "owned": "3.5%",
       "points": 3,
       "epNext": 2.2,
       "form": 3.0,
@@ -6112,7 +6116,7 @@
       "avatar": "ID",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.0m",
-      "owned": "17.8%",
+      "owned": "17.7%",
       "points": 2,
       "epNext": 1.0,
       "form": 2.0,
@@ -6298,7 +6302,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.5m",
-      "owned": "25.4%",
+      "owned": "25.3%",
       "points": 2,
       "epNext": 2.9,
       "form": 2.0,
@@ -6360,7 +6364,7 @@
       "avatar": "EA",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "7.0%",
+      "owned": "6.9%",
       "points": 2,
       "epNext": 1.7,
       "form": 2.0,
@@ -6422,7 +6426,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a312.0m",
-      "owned": "50.0%",
+      "owned": "49.9%",
       "points": 2,
       "epNext": 4.0,
       "form": 2.0,
@@ -6546,7 +6550,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "10.5%",
+      "owned": "10.4%",
       "points": 2,
       "epNext": 2.1,
       "form": 2.0,
@@ -6763,7 +6767,7 @@
       "avatar": "BB",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "13.6%",
+      "owned": "13.5%",
       "points": 2,
       "epNext": 2.0,
       "form": 2.0,
@@ -7507,7 +7511,7 @@
       "avatar": "OW",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "9.5%",
+      "owned": "9.4%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -7600,7 +7604,7 @@
       "avatar": "FK",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.6%",
+      "owned": "2.5%",
       "points": 0,
       "epNext": 1.3,
       "form": 0.0,
@@ -7631,7 +7635,7 @@
       "avatar": "RJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "10.3%",
+      "owned": "10.2%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -8150,7 +8154,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9584524,
+  "totalManagers": 9588726,
   "totalPlayers": 610,
   "priceMovement": {
     "risers": [],
@@ -8317,14 +8321,6 @@
       "improving": false
     },
     {
-      "id": "154",
-      "status": "d",
-      "news": "Calf injury - 75% chance of playing",
-      "chanceThisRound": null,
-      "chanceNextRound": 75,
-      "improving": false
-    },
-    {
       "id": "159",
       "status": "d",
       "news": "Unspecified injury - 75% chance of playing",
@@ -8354,6 +8350,14 @@
       "news": "Ankle injury - Expected back 14 Sep",
       "chanceThisRound": null,
       "chanceNextRound": 0,
+      "improving": false
+    },
+    {
+      "id": "480",
+      "status": "d",
+      "news": "Knee injury - 75% chance of playing",
+      "chanceThisRound": null,
+      "chanceNextRound": 75,
       "improving": false
     }
   ],
@@ -8393,45 +8397,45 @@
     "rising": [
       {
         "id": "115",
-        "netTransfersEvent": 236638
+        "netTransfersEvent": 242214
       },
       {
         "id": "565",
-        "netTransfersEvent": 192402
+        "netTransfersEvent": 196477
       },
       {
         "id": "8",
-        "netTransfersEvent": 168157
+        "netTransfersEvent": 170360
       },
       {
         "id": "88",
-        "netTransfersEvent": 158104
+        "netTransfersEvent": 160880
       },
       {
         "id": "15",
-        "netTransfersEvent": 145027
+        "netTransfersEvent": 146955
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -227771
+        "netTransfersEvent": -230426
       },
       {
         "id": "25",
-        "netTransfersEvent": -115127
+        "netTransfersEvent": -117036
       },
       {
         "id": "31",
-        "netTransfersEvent": -106963
+        "netTransfersEvent": -108490
       },
       {
         "id": "480",
-        "netTransfersEvent": -96288
+        "netTransfersEvent": -99033
       },
       {
         "id": "55",
-        "netTransfersEvent": -96095
+        "netTransfersEvent": -98411
       }
     ]
   }
