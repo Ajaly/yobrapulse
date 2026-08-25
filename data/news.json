@@ -1,19 +1,10 @@
 {
-  "generatedAt": "2026-08-25T11:25:53.625376+00:00",
+  "generatedAt": "2026-08-25T12:39:42.869289+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
-    {
-      "title": "FREE STREAM: Transfer Talk on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-25T12:20:00+00:00"
-    },
     {
       "title": "Villa make contact for Mateta and approach AC Milan for Leao",
       "description": "Aston Villa&#160;have made initial contact with Crystal Palace for Jean-Philippe Mateta after also approaching AC Milan about signing winger Rafael Leao.",
@@ -22,6 +13,33 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-25T12:00:00+00:00"
+    },
+    {
+      "title": "FA approves WSL academy sides in National League",
+      "description": "Women's Super League (WSL) academy sides will play in tier three of the football pyramid from the 2027-28 season with the divisive proposal approved by the Football Association.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2zyzvvvzpo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T11:47:26+00:00"
+    },
+    {
+      "title": "FA approves WSL academy sides in National League",
+      "description": "Women's Super League (WSL) academy sides will play in tier three of the football pyramid from the 2027-28 season with the divisive proposal approved by the Football Association.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2zyzvvvzpo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T11:47:26+00:00"
+    },
+    {
+      "title": "When is the EFL Cup third-round draw?",
+      "description": "The third-round draw of the EFL Cup takes place on Wednesday, with nine Premier League teams entering the competition at this stage.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyegmmvr4vo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T11:22:52+00:00"
     },
     {
       "title": "Aston Villa latest: 'Watkins returns to training and apologises'",
@@ -49,6 +67,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T10:55:25+00:00"
+    },
+    {
+      "title": "West Ham latest: Olympiakos make loan bid for Alvarez",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13210475/west-ham-latest-news",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T10:33:00+00:00"
     },
     {
       "title": "Savinho changes name to Savio as he joins Spurs for \u00a385m",
@@ -85,33 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-25T09:14:39+00:00"
-    },
-    {
-      "title": "Man City enter race for Gakpo - Tuesday's gossip",
-      "description": "Manchester City emerge as surprise Cody Gakpo suitors, Newcastle agree to sign Nico Gonzalez, and Manchester United are confident of signing Myles Lewis-Skelly, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-25T09:05:33+00:00"
-    },
-    {
-      "title": "How does prize money work in the EFL Cup?",
-      "description": "BBC Sport's Ask Me Anything team explains how prize money works in the EFL Cup",
-      "link": "https://www.bbc.co.uk/sport/articles/c8xkl258871o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T08:54:07+00:00"
-    },
-    {
-      "title": "How did all nine new managers fare in Premier League openers?",
-      "description": "Who impressed and who has work to do? BBC Sport chief football writer Phil McNulty looks at how the nine new managerial appointments fared on the opening week of the Premier League season.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr4v0p1xqryo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T08:54:05+00:00"
     }
   ]
 }
