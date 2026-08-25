@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-25T05:30:16.013376+00:00",
+  "generatedAt": "2026-08-25T06:39:46.315020+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Change is necessary' - players unite against Fifa",
+      "description": "A number of current and former footballers unite against Fifa president Gianni Infantino, stating that \"change is necessary\" at the global governing body.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy4zl2mz9rko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T06:31:19+00:00"
+    },
+    {
+      "title": "Grealish back for Man City - but for how long?",
+      "description": "Man City winger has made two substitute appearances so far this season, but his future remains in doubt.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy0znx93x05o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-25T06:09:10+00:00"
+    },
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd7llw7yzggo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T05:24:31+00:00"
+    },
     {
       "title": "Champions? Relegated? One to watch? Carra and Neville's season predictions!",
       "description": "Jamie Carragher and Gary Neville made their 2026/27 Premier League season predictions on Monday Night Football.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-24T21:53:24+00:00"
-    },
-    {
-      "title": "Man City interested in Gakpo",
-      "description": "Manchester City are interested in signing Tottenham target Cody Gakpo from Liverpool.",
-      "link": "https://www.skysports.com/football/news/11095/13576800/cody-gakpo-transfer-news-man-city-interested-in-signing-tottenham-target-from-liverpool-but-reds-dont-want-to-sell",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T21:50:00+00:00"
-    },
-    {
-      "title": "Chelsea's electric front three edge out Fulham in pulsating MNF opener",
-      "description": "Cole Palmer was back to his best to get Xabi Alonso's Chelsea career off to a winning start in a chaotic 3-2 victory at Fulham on Monday Night Football.",
-      "link": "https://www.skysports.com/football/fulham-vs-chelsea/report/559453",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-24T21:45:00+00:00"
-    },
-    {
-      "title": "Al-Hilal in advanced talks to sign Arsenal's Martinelli",
-      "description": "Arsenal are in advanced talks with Saudi Arabian club Al-Hilal over the sale of Gabriel Martinelli for at least \u00a350m.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgk4k444rmmo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-24T21:37:26+00:00"
     }
   ]
 }
