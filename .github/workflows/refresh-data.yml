@@ -70,11 +70,24 @@ jobs:
         with:
           node-version: "20"
 
+      # continue-on-error: this step has been failing every run since it
+      # was added (FIREBASE_SERVICE_ACCOUNT secret was never actually
+      # added to the repo) - it was silently emailing a failure notice
+      # on every single hourly run for days before that got noticed.
+      # Once the secret is real, this should start succeeding and this
+      # safety net stops mattering; until then, it fails loud in the log
+      # (see the explicit check below) without spamming a failure email
+      # every hour over a known, already-diagnosed cause.
       - name: Deploy to Firebase Hosting
         if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
+          if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
+            echo "::error::FIREBASE_SERVICE_ACCOUNT repo secret is not set - see .github/workflows/refresh-data.yml. Skipping deploy, not treating this as a hard failure."
+            exit 0
+          fi
           echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/firebase-service-account.json
           export GOOGLE_APPLICATION_CREDENTIALS=/tmp/firebase-service-account.json
           npm install -g firebase-tools
