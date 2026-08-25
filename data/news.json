@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-25T19:30:32.941274+00:00",
+  "generatedAt": "2026-08-25T20:25:51.698891+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Fernandes crowned PFA Players' Player of the Year as Shaw wins women's award",
+      "description": "Manchester United captain Bruno Fernandes has been crowned the men's PFA Players' Player of the Year for the 2025/26 season, as Manchester City's Bunny Shaw won the women's award for a second time.",
+      "link": "https://www.skysports.com/football/news/11095/13577089/bruno-fernandes-man-utd-captain-wins-2025-26-pfa-players-player-of-the-year-as-bunny-shaw-wins-womens-award",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T21:00:00+00:00"
+    },
+    {
+      "title": "Wednesday's gossip: Villa make offer for Palace striker Mateta",
+      "description": "Aston Villa make a move for Jean-Philippe Mateta and Nicolas Jackson, Manchester United eye a promising defender, and Manchester City aren't ready to give up on signing Enzo Fernandez.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce8e0l7prg6o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T20:12:19+00:00"
+    },
     {
       "title": "Brighton latest: Left-back Hadjam joins from Young Boys",
       "description": "",
@@ -13,6 +31,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-25T20:10:00+00:00"
+    },
+    {
+      "title": "Fernandes and Shaw win PFA player of the year awards",
+      "description": "Manchester United captain Bruno Fernandes and Manchester City forward Khadija Shaw win the Professional Footballers' Associations men's and women's player of the year awards.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckgwj62e5yno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T19:47:35+00:00"
     },
     {
       "title": "Arsenal latest: Atleti tell 'devastated' Alvarez he will not be sold to Barca",
@@ -42,7 +69,7 @@
       "pubDateISO": "2026-08-25T19:00:00+00:00"
     },
     {
-      "title": "Carabao Cup: Brentford pegged back; Coventry, Wolves lead LIVE!",
+      "title": "Carabao Cup: Brentford, Leeds & Coventry all lead LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13577036/carabao-cup-round-two-live-commentary-updates-scores-streams-and-team-news-with-leeds-brentford-west-ham-in-action",
       "source": "Sky Sports",
@@ -69,6 +96,15 @@
       "pubDateISO": "2026-08-25T18:20:00+00:00"
     },
     {
+      "title": "Forest agree \u00a350m deal for Chelsea striker Delap",
+      "description": "Nottingham Forest have agreed a fee worth around \u00a350m to sign Chelsea striker Liam Delap.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g5zg526gdo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-25T18:06:53+00:00"
+    },
+    {
       "title": "Tottenham latest: Savio could make debut on Wednesday...",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T17:24:00+00:00"
-    },
-    {
-      "title": "Aston Villa latest: 'Talks begin with Chelsea over \u00a365m striker deal'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T17:21:00+00:00"
-    },
-    {
-      "title": "Man Utd latest: 'Club of my dreams' - Baleba's first words after arrival...",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T17:15:00+00:00"
-    },
-    {
-      "title": "Man Utd complete Baleba signing",
-      "description": "Manchester United have completed the signing of midfielder Carlos Baleba from Brighton.",
-      "link": "https://www.skysports.com/football/news/11095/13575283/carlos-baleba-transfer-manchester-united-complete-signing-of-cameroon-midfielder-from-brighton",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-25T16:45:00+00:00"
-    },
-    {
-      "title": "Irish FA withdraws support for Infantino",
-      "description": "The Irish Football Association says it is \"time for change\" at Fifa and they will not be voting for president Gianni Infantino's re-election next year.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgk5ylln5l5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T16:29:57+00:00"
     }
   ]
 }
