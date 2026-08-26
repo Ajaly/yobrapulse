@@ -1,12 +1,30 @@
 {
-  "generatedAt": "2026-08-26T10:33:00.406679+00:00",
+  "generatedAt": "2026-08-26T11:27:33.861098+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man City latest: Bouaddi's first words after \u00a386m move",
+      "title": "Man City considering bid for Chelsea's Fernandez",
+      "description": "Manchester City are considering making a bid for Enzo Fernandez before the deadline.",
+      "link": "https://www.skysports.com/football/news/11095/13570597/enzo-fernandez-transfer-news-man-city-considering-bid-for-chelsea-midfielder",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T11:45:00+00:00"
+    },
+    {
+      "title": "Aston Villa latest: Major changes on the way? Leao, Jackson & Matata updates",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T11:35:00+00:00"
+    },
+    {
+      "title": "Man City latest: Club also keen on Scott and Kone as midfield options",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
@@ -24,7 +42,16 @@
       "pubDateISO": "2026-08-26T11:15:00+00:00"
     },
     {
-      "title": "Man City complete \u00a385.6m Bouaddi signing from Lille",
+      "title": "Postecoglou subs off Ronaldo to spark dramatic Al-Nassr comeback",
+      "description": "Cristiano Ronaldo is taken off at half-time with his 10-man Al-Nassr side 2-0 down - but they fight back to seal a dramatic win over Al-Ettifaq.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c62kd8027w1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T10:33:42+00:00"
+    },
+    {
+      "title": "Man City complete \u00a386m Bouaddi signing from Lille",
       "description": "Manchester City complete the signing of Morocco midfielder Ayyoub Bouaddi from Lille in a \u00a385.6m deal on a five-year contract.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c8d3jej2lqlo",
       "source": "BBC Sport",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-26T09:21:47+00:00"
-    },
-    {
-      "title": "Newcastle latest: Gonzalez undergoing medical ahead of \u00a350m move",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-26T09:18:00+00:00"
-    },
-    {
-      "title": "Villa make offer for Mateta - Wednesday's gossip",
-      "description": "Aston Villa make a move for Jean-Philippe Mateta and Nicolas Jackson, Manchester United eye a promising defender, and Manchester City aren't ready to give up on signing Enzo Fernandez.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8e0l7prg6o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-26T09:07:26+00:00"
-    },
-    {
-      "title": "'No major damage' for Forfar player after game abandoned for neck injury",
-      "description": "Forfar Athletic say Adam Livingstone has not suffered any major damage after Tuesday's Challenge Cup match against Formartine United was abandoned because of a neck injury suffered by the defender.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c986ywln1ydo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-26T08:57:38+00:00"
     }
   ]
 }
