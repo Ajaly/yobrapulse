@@ -310,6 +310,16 @@
       "toTeam": "Spurs",
       "detectedAt": "2026-08-25T14:37:59.076827+00:00",
       "marketValue": 65
+    },
+    {
+      "playerId": 131,
+      "playerName": "Baleba",
+      "fromTeamId": 5,
+      "fromTeam": "Brighton",
+      "toTeamId": 16,
+      "toTeam": "Man Utd",
+      "detectedAt": "2026-08-26T14:37:22.851427+00:00",
+      "marketValue": 50
     }
   ]
 }

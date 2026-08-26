@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:53:50.740200+00:00",
+  "generatedAt": "2026-08-26T14:42:22.542603+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -40,7 +40,7 @@
         "venueForm": null,
         "venueFormSource": null,
         "opponentVenueForm": null,
-        "fixtureLoad": 1,
+        "fixtureLoad": 2,
         "opponent": "Chelsea",
         "isHome": false,
         "trackRecordVsOpponent": null
@@ -57,7 +57,7 @@
         "venueForm": null,
         "venueFormSource": null,
         "opponentVenueForm": null,
-        "fixtureLoad": 1,
+        "fixtureLoad": 2,
         "opponent": "Chelsea",
         "isHome": false,
         "trackRecordVsOpponent": null
@@ -515,7 +515,7 @@
         "away": {
           "transfers": {
             "in": 0,
-            "out": 0,
+            "out": 1,
             "windowDays": 30
           },
           "managerChange": null
@@ -530,9 +530,9 @@
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.95,
-        "awayAvailability": 0.91,
+        "awayAvailability": 0.92,
         "homeTransferImpactM": 24.5,
-        "awayTransferImpactM": -1.0
+        "awayTransferImpactM": -6.0
       },
       "marketOdds": null
     },
@@ -626,7 +626,7 @@
         "trackingSince": "2026-08-13T06:10:25.404980+00:00",
         "home": {
           "transfers": {
-            "in": 0,
+            "in": 1,
             "out": 0,
             "windowDays": 30
           },
@@ -649,9 +649,9 @@
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.97,
+        "homeAvailability": 0.96,
         "awayAvailability": 0.94,
-        "homeTransferImpactM": 10.5,
+        "homeTransferImpactM": 15.5,
         "awayTransferImpactM": 5.0
       },
       "marketOdds": null
@@ -1389,7 +1389,7 @@
       "nextFdr": 3,
       "nextFdrClass": "mid",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
         "out": 0,
@@ -1456,6 +1456,11 @@
         {
           "id": 504,
           "name": "Vuskovic",
+          "position": "DEF"
+        },
+        {
+          "id": 614,
+          "name": "Hadjam",
           "position": "DEF"
         },
         {
@@ -1534,11 +1539,6 @@
           "position": "MID"
         },
         {
-          "id": 131,
-          "name": "Baleba",
-          "position": "MID"
-        },
-        {
           "id": 132,
           "name": "Howell",
           "position": "MID"
@@ -1570,7 +1570,7 @@
         }
       ],
       "squadRating": null,
-      "squadValue": "\u00a3165.6m",
+      "squadValue": "\u00a3165.1m",
       "leagueRank": null,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -1579,10 +1579,10 @@
       "nextFdr": 4,
       "nextFdrClass": "hard",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
-        "out": 0,
+        "out": 1,
         "windowDays": 30
       },
       "managerChange": null
@@ -1984,7 +1984,7 @@
       "nextFdr": 2,
       "nextFdrClass": "easy",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 1,
         "out": 0,
@@ -2169,7 +2169,7 @@
       "nextFdr": 4,
       "nextFdrClass": "hard",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 1,
         "out": 0,
@@ -2459,7 +2459,7 @@
       "nextFdr": 3,
       "nextFdrClass": "mid",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
         "out": 0,
@@ -3019,7 +3019,7 @@
       "nextFdr": 3,
       "nextFdrClass": "mid",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
         "out": 1,
@@ -3389,7 +3389,7 @@
       "nextFdr": 3,
       "nextFdrClass": "mid",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
         "out": 1,
@@ -3401,7 +3401,7 @@
       "name": "Man Utd",
       "shortName": "MUN",
       "crestClass": "",
-      "squadSize": 33,
+      "squadSize": 34,
       "squad": [
         {
           "id": 416,
@@ -3494,6 +3494,11 @@
           "position": "MID"
         },
         {
+          "id": 131,
+          "name": "Baleba",
+          "position": "MID"
+        },
+        {
           "id": 162,
           "name": "Andrey Santos",
           "position": "MID"
@@ -3570,7 +3575,7 @@
         }
       ],
       "squadRating": null,
-      "squadValue": "\u00a3179.5m",
+      "squadValue": "\u00a3184.5m",
       "leagueRank": null,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -3581,7 +3586,7 @@
       "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
-        "in": 0,
+        "in": 1,
         "out": 0,
         "windowDays": 30
       },
@@ -3911,7 +3916,7 @@
       "nextFdr": 4,
       "nextFdrClass": "hard",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
         "out": 1,
@@ -4126,7 +4131,7 @@
       "nextFdr": 2,
       "nextFdrClass": "easy",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 1,
         "out": 0,
@@ -4138,7 +4143,7 @@
       "name": "Sunderland",
       "shortName": "SUN",
       "crestClass": "",
-      "squadSize": 26,
+      "squadSize": 27,
       "squad": [
         {
           "id": 532,
@@ -4269,10 +4274,15 @@
           "id": 551,
           "name": "Angulo",
           "position": "MID"
+        },
+        {
+          "id": 613,
+          "name": "Ahoka",
+          "position": "MID"
         }
       ],
       "squadRating": null,
-      "squadValue": "\u00a3127.5m",
+      "squadValue": "\u00a3132.0m",
       "leagueRank": null,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -4281,7 +4291,7 @@
       "nextFdr": 2,
       "nextFdrClass": "easy",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
         "out": 0,
@@ -4424,7 +4434,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.6m",
-      "owned": "7.0%",
+      "owned": "7.1%",
       "points": 14,
       "epNext": 2.0,
       "form": 14.0,
@@ -4455,7 +4465,7 @@
       "avatar": "MK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "6.4%",
+      "owned": "6.5%",
       "points": 13,
       "epNext": 1.7,
       "form": 13.0,
@@ -4517,7 +4527,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "41.3%",
+      "owned": "41.4%",
       "points": 9,
       "epNext": 2.5,
       "form": 9.0,
@@ -5044,7 +5054,7 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.5m",
-      "owned": "10.3%",
+      "owned": "10.4%",
       "points": 9,
       "epNext": 3.2,
       "form": 9.0,
@@ -5075,7 +5085,7 @@
       "avatar": "JT",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.0m",
-      "owned": "3.8%",
+      "owned": "3.9%",
       "points": 9,
       "epNext": 2.6,
       "form": 9.0,
@@ -5292,7 +5302,7 @@
       "avatar": "CK",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.0m",
-      "owned": "6.3%",
+      "owned": "6.4%",
       "points": 7,
       "epNext": 2.6,
       "form": 7.0,
@@ -5943,7 +5953,7 @@
       "avatar": "BT",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "8.0%",
+      "owned": "7.9%",
       "points": 3,
       "epNext": 1.0,
       "form": 3.0,
@@ -6470,7 +6480,7 @@
       "avatar": "EH",
       "avatarClass": "pink-avatar",
       "price": "\u00a315.5m",
-      "owned": "68.3%",
+      "owned": "68.2%",
       "points": 2,
       "epNext": 4.0,
       "form": 2.0,
@@ -6563,7 +6573,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a312.0m",
-      "owned": "49.2%",
+      "owned": "49.1%",
       "points": 2,
       "epNext": 4.0,
       "form": 2.0,
@@ -6780,7 +6790,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "23.1%",
+      "owned": "23.0%",
       "points": 2,
       "epNext": 1.9,
       "form": 2.0,
@@ -6842,7 +6852,7 @@
       "avatar": "TH",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.5m",
-      "owned": "6.6%",
+      "owned": "6.5%",
       "points": 2,
       "epNext": 1.7,
       "form": 2.0,
@@ -6873,7 +6883,7 @@
       "avatar": "EL",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "9.2%",
+      "owned": "9.1%",
       "points": 2,
       "epNext": 2.2,
       "form": 2.0,
@@ -7028,7 +7038,7 @@
       "avatar": "MV",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.0m",
-      "owned": "13.3%",
+      "owned": "13.2%",
       "points": 1,
       "epNext": 1.0,
       "form": 1.0,
@@ -7369,7 +7379,7 @@
       "avatar": "HM",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.0m",
-      "owned": "17.4%",
+      "owned": "17.3%",
       "points": 1,
       "epNext": 2.2,
       "form": 1.0,
@@ -7524,7 +7534,7 @@
       "avatar": "VG",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.4m",
-      "owned": "7.5%",
+      "owned": "7.4%",
       "points": 0,
       "epNext": 2.3,
       "form": 0.0,
@@ -7648,7 +7658,7 @@
       "avatar": "OW",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "8.9%",
+      "owned": "8.8%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -7927,7 +7937,7 @@
       "avatar": "WH",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "11.2%",
+      "owned": "11.1%",
       "points": 0,
       "epNext": 1.0,
       "form": 0.0,
@@ -8260,8 +8270,8 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9724269,
-  "totalPlayers": 612,
+  "totalManagers": 9728855,
+  "totalPlayers": 614,
   "priceMovement": {
     "risers": [
       {
@@ -8450,10 +8460,10 @@
     },
     {
       "id": "208",
-      "status": "d",
-      "news": "Groin injury - 75% chance of playing",
+      "status": "i",
+      "news": "Groin injury - Unknown return date",
       "chanceThisRound": null,
-      "chanceNextRound": 75,
+      "chanceNextRound": 0,
       "improving": false
     },
     {
@@ -8509,45 +8519,45 @@
     "rising": [
       {
         "id": "115",
-        "netTransfersEvent": 342330
+        "netTransfersEvent": 344583
       },
       {
         "id": "565",
-        "netTransfersEvent": 282694
+        "netTransfersEvent": 284983
       },
       {
         "id": "165",
-        "netTransfersEvent": 231464
+        "netTransfersEvent": 234279
       },
       {
         "id": "88",
-        "netTransfersEvent": 217303
+        "netTransfersEvent": 219140
       },
       {
         "id": "8",
-        "netTransfersEvent": 214513
+        "netTransfersEvent": 215886
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -264017
+        "netTransfersEvent": -264690
       },
       {
         "id": "480",
-        "netTransfersEvent": -159080
+        "netTransfersEvent": -161239
       },
       {
         "id": "25",
-        "netTransfersEvent": -154428
+        "netTransfersEvent": -155439
       },
       {
         "id": "55",
-        "netTransfersEvent": -143718
+        "netTransfersEvent": -145250
       },
       {
         "id": "31",
-        "netTransfersEvent": -137480
+        "netTransfersEvent": -138283
       }
     ]
   }
