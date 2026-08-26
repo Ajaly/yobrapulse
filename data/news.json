@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-26T06:41:49.246760+00:00",
+  "generatedAt": "2026-08-26T07:45:04.735200+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Sterling charged with dangerous driving after crash",
+      "description": "Raheem Sterling will appear in court next month to face charges of dangerous driving after crashing his car into motorway barriers in May.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c23xkk1vkkpo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T07:42:51+00:00"
+    },
+    {
+      "title": "Scottish Football Podcast",
+      "description": "What does Celtic\u2019s Champions League humbling mean for Scottish Football?",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p69mj3",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T07:00:00+00:00"
+    },
+    {
+      "title": "Celtic deficiencies laid bare on another night of Champions League pain",
+      "description": "When Callum McGregor eviscerated his own team-mates in the wake of Celtic's stupefying Champions League collapse against LASK, he delivered their one coherent moment of a spineless night, writes Tom English.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjdv5xvgv9lo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T06:52:56+00:00"
+    },
+    {
+      "title": "Celtic deficiencies laid bare on another night of Champions League pain",
+      "description": "When Callum McGregor eviscerated his own team-mates in the wake of Celtic's stupefying Champions League collapse against LASK, he delivered their one coherent moment of a spineless night, writes Tom English.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjdv5xvgv9lo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T06:52:56+00:00"
+    },
     {
       "title": "Liverpool's midfield is fragile - will they act in the window?",
       "description": "Liverpool's draw at Newcastle emphasised once again their midfield fragility but will they act in the market and bring in a defensive-minded player?",
@@ -33,7 +69,7 @@
       "pubDateISO": "2026-08-26T05:17:10+00:00"
     },
     {
-      "title": "Taekwondo, stats, painful goodbyes - how Smith became women's first \u00a31m player",
+      "title": "Taekwondo, stats and \u00a31m record - the rise of Arsenal striker Smith",
       "description": "Olivia Smith's career has been in the limelight since she was 15 - but she had been preparing herself for it even before she was a professional footballer.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c8jdl0n0r7mo",
       "source": "BBC Sport",
@@ -42,7 +78,7 @@
       "pubDateISO": "2026-08-26T05:16:06+00:00"
     },
     {
-      "title": "Taekwondo, stats, painful goodbyes - how Smith became women's first \u00a31m player",
+      "title": "Taekwondo, stats and \u00a31m record - the rise of Arsenal striker Smith",
       "description": "Olivia Smith's career has been in the limelight since she was 15 - but she had been preparing herself for it even before she was a professional footballer.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c8jdl0n0r7mo",
       "source": "BBC Sport",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T23:12:09+00:00"
-    },
-    {
-      "title": "Exhausted & fragile - how Celtic's capitulation unfolded",
-      "description": "BBC Scotland guides you through the timeline in Celtic's Champions League reverse in Austria.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crerjz8814qo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T23:12:09+00:00"
-    },
-    {
-      "title": "'Super proud' - Smith wins consecutive PFA young player of the year",
-      "description": "Arsenal's Olivia Smith wants to \"keep setting standards high\" as she receives her second consecutive PFA young player of the year award.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cwyzv42l624o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T23:06:50+00:00"
-    },
-    {
-      "title": "Papers: Man City set for late Fernandez move as Chelsea replacement emerges",
-      "description": "The top stories and transfer rumours from Wednesday's newspapers...",
-      "link": "https://www.skysports.com/football/news/11095/13577214/enzo-fernandez-transfer-news-manchester-city-to-make-late-move-for-chelsea-midfielder-paper-talk",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-25T22:51:00+00:00"
-    },
-    {
-      "title": "'Truly honoured' - Shaw wins PFA player of the year award",
-      "description": "Manchester City forward Khadija Shaw reacts to winning her second PFA player of the year award in three seasons.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cm27ymnk7jwo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T22:12:35+00:00"
     }
   ]
 }
