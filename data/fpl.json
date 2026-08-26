@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T00:59:31.156550+00:00",
+  "generatedAt": "2026-08-26T02:27:05.973644+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -117,6 +117,7 @@
     "165",
     "236",
     "68",
+    "572",
     "388",
     "8",
     "12",
@@ -4547,7 +4548,7 @@
       "avatar": "BW",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "5.8%",
+      "owned": "5.9%",
       "points": 11,
       "epNext": 2.5,
       "form": 11.0,
@@ -4971,6 +4972,37 @@
       "fixture": "vs Everton (H)",
       "fdr": 3,
       "fdrClass": "mid"
+    },
+    "572": {
+      "id": 572,
+      "name": "Konstantinos Tzolakis",
+      "shortName": "Tzolakis",
+      "position": "GKP",
+      "team": "Hull City",
+      "avatar": "KT",
+      "avatarClass": "",
+      "price": "\u00a34.5m",
+      "owned": "2.0%",
+      "points": 10,
+      "epNext": 1.9,
+      "form": 10.0,
+      "minutes": 90,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "valueScore": 2.2,
+      "tackles": 0,
+      "clearancesBlocksInterceptions": 0,
+      "recoveries": 22,
+      "saves": 5,
+      "cleanSheets": 1,
+      "positionPercentile": null,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 2,
+      "fixture": "vs Coventry City (A)",
+      "fdr": 2,
+      "fdrClass": "easy"
     },
     "388": {
       "id": 388,
@@ -6748,7 +6780,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "23.2%",
+      "owned": "23.1%",
       "points": 2,
       "epNext": 1.9,
       "form": 2.0,
@@ -8228,7 +8260,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9685813,
+  "totalManagers": 9688884,
   "totalPlayers": 612,
   "priceMovement": {
     "risers": [
@@ -8362,6 +8394,10 @@
     ],
     "saves": [
       {
+        "id": "572",
+        "value": 5
+      },
+      {
         "id": "496",
         "value": 5
       },
@@ -8375,10 +8411,6 @@
       },
       {
         "id": "140",
-        "value": 4
-      },
-      {
-        "id": "226",
         "value": 4
       }
     ]
@@ -8477,45 +8509,45 @@
     "rising": [
       {
         "id": "115",
-        "netTransfersEvent": 323928
+        "netTransfersEvent": 325154
       },
       {
         "id": "565",
-        "netTransfersEvent": 263391
+        "netTransfersEvent": 264551
       },
       {
         "id": "165",
-        "netTransfersEvent": 209372
+        "netTransfersEvent": 210794
       },
       {
         "id": "8",
-        "netTransfersEvent": 203575
+        "netTransfersEvent": 204309
       },
       {
         "id": "88",
-        "netTransfersEvent": 201495
+        "netTransfersEvent": 202499
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -258327
+        "netTransfersEvent": -258737
       },
       {
         "id": "25",
-        "netTransfersEvent": -145365
+        "netTransfersEvent": -145964
       },
       {
         "id": "480",
-        "netTransfersEvent": -142262
+        "netTransfersEvent": -143326
       },
       {
         "id": "55",
-        "netTransfersEvent": -131574
+        "netTransfersEvent": -132325
       },
       {
         "id": "31",
-        "netTransfersEvent": -130608
+        "netTransfersEvent": -131049
       }
     ]
   }
