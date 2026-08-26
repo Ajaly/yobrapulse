@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T12:42:54.877870+00:00",
+  "generatedAt": "2026-08-26T13:53:50.740200+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -530,7 +530,7 @@
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.95,
-        "awayAvailability": 0.9,
+        "awayAvailability": 0.91,
         "homeTransferImpactM": 24.5,
         "awayTransferImpactM": -1.0
       },
@@ -4300,7 +4300,7 @@
       "avatar": "CP",
       "avatarClass": "orange-avatar",
       "price": "\u00a39.5m",
-      "owned": "13.7%",
+      "owned": "13.8%",
       "points": 13,
       "epNext": 3.2,
       "form": 13.0,
@@ -4331,7 +4331,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.6m",
-      "owned": "6.3%",
+      "owned": "6.4%",
       "points": 17,
       "epNext": 1.9,
       "form": 17.0,
@@ -4362,7 +4362,7 @@
       "avatar": "JH",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.0m",
-      "owned": "2.1%",
+      "owned": "2.2%",
       "points": 16,
       "epNext": 2.2,
       "form": 16.0,
@@ -4889,7 +4889,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "66.5%",
+      "owned": "66.6%",
       "points": 11,
       "epNext": 2.4,
       "form": 11.0,
@@ -4920,7 +4920,7 @@
       "avatar": "KD",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "4.3%",
+      "owned": "4.4%",
       "points": 11,
       "epNext": 2.3,
       "form": 11.0,
@@ -5106,7 +5106,7 @@
       "avatar": "JG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "12.9%",
+      "owned": "13.0%",
       "points": 9,
       "epNext": 2.5,
       "form": 9.0,
@@ -5168,7 +5168,7 @@
       "avatar": "KA",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "3.8%",
+      "owned": "3.9%",
       "points": 8,
       "epNext": 1.7,
       "form": 8.0,
@@ -5354,7 +5354,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "38.1%",
+      "owned": "38.2%",
       "points": 6,
       "epNext": 4.0,
       "form": 6.0,
@@ -5881,7 +5881,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "17.4%",
+      "owned": "17.3%",
       "points": 3,
       "epNext": 2.6,
       "form": 3.0,
@@ -6253,7 +6253,7 @@
       "avatar": "ID",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.0m",
-      "owned": "17.5%",
+      "owned": "17.4%",
       "points": 2,
       "epNext": 1.0,
       "form": 2.0,
@@ -6594,7 +6594,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "36.6%",
+      "owned": "36.5%",
       "points": 2,
       "epNext": 2.8,
       "form": 2.0,
@@ -6718,7 +6718,7 @@
       "avatar": "IJ",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.0m",
-      "owned": "4.0%",
+      "owned": "3.9%",
       "points": 2,
       "epNext": 2.0,
       "form": 2.0,
@@ -7431,7 +7431,7 @@
       "avatar": "JP",
       "avatarClass": "",
       "price": "\u00a35.0m",
-      "owned": "10.0%",
+      "owned": "9.9%",
       "points": 1,
       "epNext": 2.2,
       "form": 1.0,
@@ -8113,7 +8113,7 @@
       "avatar": "PP",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "13.9%",
+      "owned": "13.8%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -8206,7 +8206,7 @@
       "avatar": "NM",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.5m",
-      "owned": "2.7%",
+      "owned": "2.6%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -8260,7 +8260,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9718641,
+  "totalManagers": 9724269,
   "totalPlayers": 612,
   "priceMovement": {
     "risers": [
@@ -8509,45 +8509,45 @@
     "rising": [
       {
         "id": "115",
-        "netTransfersEvent": 340264
+        "netTransfersEvent": 342330
       },
       {
         "id": "565",
-        "netTransfersEvent": 280641
+        "netTransfersEvent": 282694
       },
       {
         "id": "165",
-        "netTransfersEvent": 229008
+        "netTransfersEvent": 231464
       },
       {
         "id": "88",
-        "netTransfersEvent": 215516
+        "netTransfersEvent": 217303
       },
       {
         "id": "8",
-        "netTransfersEvent": 213231
+        "netTransfersEvent": 214513
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -263385
+        "netTransfersEvent": -264017
       },
       {
         "id": "480",
-        "netTransfersEvent": -157323
+        "netTransfersEvent": -159080
       },
       {
         "id": "25",
-        "netTransfersEvent": -153559
+        "netTransfersEvent": -154428
       },
       {
         "id": "55",
-        "netTransfersEvent": -142453
+        "netTransfersEvent": -143718
       },
       {
         "id": "31",
-        "netTransfersEvent": -136694
+        "netTransfersEvent": -137480
       }
     ]
   }
