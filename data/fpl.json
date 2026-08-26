@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T23:24:19.874179+00:00",
+  "generatedAt": "2026-08-26T00:59:31.156550+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "gameweek": {
     "name": "Gameweek 2",
@@ -47,18 +47,18 @@
       }
     },
     {
-      "id": "565",
-      "score": 6.2,
+      "id": "123",
+      "score": 7.0,
       "factors": {
-        "epNext": 2.0,
-        "ownForm": 14.0,
+        "epNext": 2.2,
+        "ownForm": 16.0,
         "teamForm": null,
         "opponentForm": null,
         "venueForm": null,
         "venueFormSource": null,
         "opponentVenueForm": null,
         "fixtureLoad": 1,
-        "opponent": "Leeds",
+        "opponent": "Chelsea",
         "isHome": false,
         "trackRecordVsOpponent": null
       }
@@ -66,19 +66,19 @@
   ],
   "topPerformers": [
     "115",
+    "123",
     "586",
     "565",
     "88",
-    "154",
-    "367"
+    "154"
   ],
   "leaderboards": {
     "points": [
       "115",
+      "123",
       "586",
       "565",
-      "88",
-      "154"
+      "88"
     ],
     "assists": [
       "565",
@@ -89,10 +89,10 @@
     ],
     "xg": [
       "115",
+      "123",
       "379",
       "106",
-      "464",
-      "40"
+      "464"
     ],
     "value": [],
     "tackles": [
@@ -106,6 +106,7 @@
   },
   "comparisonPool": [
     "115",
+    "123",
     "586",
     "565",
     "88",
@@ -4298,7 +4299,7 @@
       "avatar": "CP",
       "avatarClass": "orange-avatar",
       "price": "\u00a39.5m",
-      "owned": "13.2%",
+      "owned": "13.3%",
       "points": 13,
       "epNext": 3.2,
       "form": 13.0,
@@ -4351,36 +4352,36 @@
       "fdr": 4,
       "fdrClass": "hard"
     },
-    "565": {
-      "id": 565,
-      "name": "Mamadou Sangar\u00e9",
-      "shortName": "M.Sangar\u00e9",
+    "123": {
+      "id": 123,
+      "name": "Jack Hinshelwood",
+      "shortName": "Hinshelwood",
       "position": "MID",
-      "team": "Brentford",
-      "avatar": "MS",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a35.6m",
-      "owned": "6.7%",
-      "points": 14,
-      "epNext": 2.0,
-      "form": 14.0,
-      "minutes": 75,
-      "goals": 0,
-      "assists": 2,
-      "xg": 0.05,
-      "xa": 0.33,
-      "valueScore": 2.5,
+      "team": "Brighton",
+      "avatar": "JH",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a36.0m",
+      "owned": "2.0%",
+      "points": 16,
+      "epNext": 2.2,
+      "form": 16.0,
+      "minutes": 63,
+      "goals": 2,
+      "assists": 0,
+      "xg": 1.41,
+      "xa": 0.02,
+      "valueScore": 2.7,
       "tackles": 2,
-      "clearancesBlocksInterceptions": 4,
-      "recoveries": 7,
+      "clearancesBlocksInterceptions": 0,
+      "recoveries": 1,
       "saves": 0,
       "cleanSheets": 1,
       "positionPercentile": null,
-      "teamStrengthHome": 3,
+      "teamStrengthHome": 2,
       "teamStrengthAway": 3,
-      "fixture": "vs Leeds (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
+      "fixture": "vs Chelsea (A)",
+      "fdr": 4,
+      "fdrClass": "hard"
     },
     "586": {
       "id": 586,
@@ -4413,6 +4414,37 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
+    "565": {
+      "id": 565,
+      "name": "Mamadou Sangar\u00e9",
+      "shortName": "M.Sangar\u00e9",
+      "position": "MID",
+      "team": "Brentford",
+      "avatar": "MS",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a35.6m",
+      "owned": "6.7%",
+      "points": 14,
+      "epNext": 2.0,
+      "form": 14.0,
+      "minutes": 75,
+      "goals": 0,
+      "assists": 2,
+      "xg": 0.05,
+      "xa": 0.33,
+      "valueScore": 2.5,
+      "tackles": 2,
+      "clearancesBlocksInterceptions": 4,
+      "recoveries": 7,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": null,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Leeds (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
     "88": {
       "id": 88,
       "name": "Michael Kayode",
@@ -4441,37 +4473,6 @@
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Leeds (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
-    },
-    "367": {
-      "id": 367,
-      "name": "Cody Gakpo",
-      "shortName": "Gakpo",
-      "position": "MID",
-      "team": "Liverpool",
-      "avatar": "CG",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a37.0m",
-      "owned": "5.2%",
-      "points": 12,
-      "epNext": 2.5,
-      "form": 12.0,
-      "minutes": 90,
-      "goals": 1,
-      "assists": 0,
-      "xg": 0.3,
-      "xa": 0.15,
-      "valueScore": 1.7,
-      "tackles": 3,
-      "clearancesBlocksInterceptions": 4,
-      "recoveries": 5,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4,
-      "fixture": "vs Nott'm Forest (H)",
       "fdr": 3,
       "fdrClass": "mid"
     },
@@ -4692,37 +4693,6 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
-    "40": {
-      "id": 40,
-      "name": "Morgan Rogers",
-      "shortName": "Rogers",
-      "position": "MID",
-      "team": "Chelsea",
-      "avatar": "MR",
-      "avatarClass": "",
-      "price": "\u00a37.5m",
-      "owned": "25.6%",
-      "points": 8,
-      "epNext": 2.6,
-      "form": 8.0,
-      "minutes": 81,
-      "goals": 1,
-      "assists": 0,
-      "xg": 0.96,
-      "xa": 0.1,
-      "valueScore": 1.1,
-      "tackles": 2,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 5,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4,
-      "fixture": "vs Brighton (H)",
-      "fdr": 2,
-      "fdrClass": "easy"
-    },
     "200": {
       "id": 200,
       "name": "Maxence Lacroix",
@@ -4847,6 +4817,37 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
+    "367": {
+      "id": 367,
+      "name": "Cody Gakpo",
+      "shortName": "Gakpo",
+      "position": "MID",
+      "team": "Liverpool",
+      "avatar": "CG",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a37.0m",
+      "owned": "5.2%",
+      "points": 12,
+      "epNext": 2.5,
+      "form": 12.0,
+      "minutes": 90,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.3,
+      "xa": 0.15,
+      "valueScore": 1.7,
+      "tackles": 3,
+      "clearancesBlocksInterceptions": 4,
+      "recoveries": 5,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Nott'm Forest (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
     "15": {
       "id": 15,
       "name": "Martin \u00d8degaard",
@@ -4887,7 +4888,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.5m",
-      "owned": "66.2%",
+      "owned": "66.3%",
       "points": 11,
       "epNext": 2.4,
       "form": 11.0,
@@ -5156,6 +5157,37 @@
       "fixture": "vs Leeds (A)",
       "fdr": 3,
       "fdrClass": "mid"
+    },
+    "40": {
+      "id": 40,
+      "name": "Morgan Rogers",
+      "shortName": "Rogers",
+      "position": "MID",
+      "team": "Chelsea",
+      "avatar": "MR",
+      "avatarClass": "",
+      "price": "\u00a37.5m",
+      "owned": "25.6%",
+      "points": 8,
+      "epNext": 2.6,
+      "form": 8.0,
+      "minutes": 81,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.96,
+      "xa": 0.1,
+      "valueScore": 1.1,
+      "tackles": 2,
+      "clearancesBlocksInterceptions": 0,
+      "recoveries": 5,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Brighton (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
     },
     "249": {
       "id": 249,
@@ -6623,7 +6655,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "9.9%",
+      "owned": "9.8%",
       "points": 2,
       "epNext": 2.1,
       "form": 2.0,
@@ -6809,7 +6841,7 @@
       "avatar": "EL",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "9.3%",
+      "owned": "9.2%",
       "points": 2,
       "epNext": 2.2,
       "form": 2.0,
@@ -7708,7 +7740,7 @@
       "avatar": "RJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "10.2%",
+      "owned": "10.1%",
       "points": 0,
       "epNext": 2.5,
       "form": 0.0,
@@ -8196,7 +8228,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 9680996,
+  "totalManagers": 9685813,
   "totalPlayers": 612,
   "priceMovement": {
     "risers": [
@@ -8224,6 +8256,10 @@
         "value": 17
       },
       {
+        "id": "123",
+        "value": 16
+      },
+      {
         "id": "586",
         "value": 15
       },
@@ -8234,13 +8270,13 @@
       {
         "id": "88",
         "value": 13
-      },
-      {
-        "id": "154",
-        "value": 13
       }
     ],
     "goals": [
+      {
+        "id": "123",
+        "value": 2
+      },
       {
         "id": "12",
         "value": 1
@@ -8255,10 +8291,6 @@
       },
       {
         "id": "68",
-        "value": 1
-      },
-      {
-        "id": "88",
         "value": 1
       }
     ],
@@ -8320,11 +8352,11 @@
         "value": 3
       },
       {
-        "id": "154",
+        "id": "123",
         "value": 3
       },
       {
-        "id": "236",
+        "id": "154",
         "value": 3
       }
     ],
@@ -8445,45 +8477,45 @@
     "rising": [
       {
         "id": "115",
-        "netTransfersEvent": 322117
+        "netTransfersEvent": 323928
       },
       {
         "id": "565",
-        "netTransfersEvent": 261574
+        "netTransfersEvent": 263391
       },
       {
         "id": "165",
-        "netTransfersEvent": 207278
+        "netTransfersEvent": 209372
       },
       {
         "id": "8",
-        "netTransfersEvent": 202519
+        "netTransfersEvent": 203575
       },
       {
         "id": "88",
-        "netTransfersEvent": 200100
+        "netTransfersEvent": 201495
       }
     ],
     "falling": [
       {
         "id": "499",
-        "netTransfersEvent": -257804
+        "netTransfersEvent": -258327
       },
       {
         "id": "25",
-        "netTransfersEvent": -144498
+        "netTransfersEvent": -145365
       },
       {
         "id": "480",
-        "netTransfersEvent": -140619
+        "netTransfersEvent": -142262
       },
       {
         "id": "55",
-        "netTransfersEvent": -130565
+        "netTransfersEvent": -131574
       },
       {
         "id": "31",
-        "netTransfersEvent": -129953
+        "netTransfersEvent": -130608
       }
     ]
   }

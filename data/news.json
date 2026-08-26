@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-25T23:24:20.679555+00:00",
+  "generatedAt": "2026-08-26T00:59:36.751888+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "O'Neill takes responsibility with nowhere to hide for Celtic",
+      "description": "Celtic manager Martin O'Neill says his team have a \"million miles to go\" after defeat in Austria.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c7506lkw1gno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T23:35:46+00:00"
+    },
+    {
+      "title": "O'Neill takes responsibility with nowhere to hide for Celtic",
+      "description": "Celtic manager Martin O'Neill says his team have a \"million miles to go\" after defeat in Austria.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c7506lkw1gno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T23:35:46+00:00"
+    },
+    {
+      "title": "Exhausted and fragile - how Celtic's capitulation unfolded",
+      "description": "BBC Scotland guides you through the timeline in Celtic's Champions League reverse in Austria.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crerjz8814qo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-25T23:12:09+00:00"
+    },
     {
       "title": "Exhausted & fragile - how Celtic's capitulation unfolded",
       "description": "BBC Scotland guides you through the timeline in Celtic's Champions League reverse in Austria.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T21:35:00+00:00"
-    },
-    {
-      "title": "Hull require penalties to overcome stubborn Stoke",
-      "description": "Premier League new boys Hull followed up their 2-0 win over Manchester United on Saturday by knocking Stoke out of the Carabao Cup on penalties after a 1-1 draw at the bet365 Stadium.",
-      "link": "https://www.skysports.com/football/stoke-city-vs-hull-city/report/577438",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-08-25T21:35:00+00:00"
-    },
-    {
-      "title": "West Ham hit back to thump four past Southampton",
-      "description": "Teenager Josh Ayala scored twice on his full professional debut as West Ham came from behind to thrash Championship rivals Southampton 4-1 in the Carabao Cup.",
-      "link": "https://www.skysports.com/football/southampton-vs-west-ham-united/report/577436",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T21:35:00+00:00"
-    },
-    {
-      "title": "'I'm very proud of this' - Fernandes wins PFA player of the year",
-      "description": "Manchester United captain Bruno Fernandes reacts to winning the men's 2026 PFA player of the year award.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cjdv55g4871o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T21:29:08+00:00"
     }
   ]
 }
