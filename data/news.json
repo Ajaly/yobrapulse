@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-08-26T11:27:33.861098+00:00",
+  "generatedAt": "2026-08-26T12:42:56.230684+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "European nations to withdraw threat of boycott but discussing Infantino protests",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T13:30:00+00:00"
+    },
+    {
+      "title": "Sage provides updates on Mateta and Sarr - can Palace keep them?",
+      "description": "Crystal Palace manager Pierre Sage provides a transfer update on Jean-Philippe Mateta and Ismaila Sarr and says he expects both of them to stay at the club.",
+      "link": "https://www.skysports.com/watch/video/13577368/crystal-palace-transfer-latest-sage-provides-update-on-jean-philippe-mateta-and-ismaila-sarr",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-26T13:15:00+00:00"
+    },
+    {
+      "title": "Wrexham close in on Ekomie and Kabore deals",
+      "description": "Manchester City's Issa Kabore is poised to seal a permanent switch to Championship club Wrexham, who are also close to signing left-back Jacques Ekomie from French side Angers.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn5dr0vyd3ro",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-26T12:25:08+00:00"
+    },
+    {
+      "title": "Palace latest: Disasi joins on loan from Chelsea",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-26T12:00:00+00:00"
+    },
     {
       "title": "Man City considering bid for Chelsea's Fernandez",
       "description": "Manchester City are considering making a bid for Enzo Fernandez before the deadline.",
@@ -69,15 +105,6 @@
       "pubDateISO": "2026-08-26T10:15:00+00:00"
     },
     {
-      "title": "Inside the rebuild of Borussia Dortmund",
-      "description": "There is optimism at Borussia Dortmund again. A new season upon the German giants and the sense of a team not just rebuilding but recapturing something lost. &#8220;Overall, we are mixing a good team,&#8221; explains head coach Niko Kovac at the club&#8217;s training ground.",
-      "link": "https://www.skysports.com/football/news/11095/13574800/how-borussia-dortmund-are-trying-to-recreate-the-exciting-bvb-of-the-past-as-they-rebuild-with-youth-under-niko-kovac",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-26T10:00:00+00:00"
-    },
-    {
       "title": "Man City to make offer for \u00a3120m-rated Fernandez",
       "description": "Manchester City are set to make an opening offer for priority midfield target Enzo Fernandez.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cgewvygeq8vo",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-26T09:55:42+00:00"
-    },
-    {
-      "title": "Carabao Cup second round: Chelsea and Spurs in action tonight live on Sky",
-      "description": "The Carabao Cup is back for the 2026/27 season, with every second-round tie live on Sky Sports!",
-      "link": "https://www.skysports.com/football/news/11095/13576598/carabao-cup-2026-27-watch-nottm-forest-vs-leeds-chelsea-vs-luton-tottenham-vs-charlton-and-more-with-every-game-live-on-sky-sports",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-26T09:52:00+00:00"
-    },
-    {
-      "title": "Tottenham agree deal for Man City's Marmoush",
-      "description": "Tottenham&#160;have agreed a deal to sign&#160;Omar Marmoush from Manchester City.",
-      "link": "https://www.skysports.com/football/news/11095/13577289/omar-marmoush-transfer-news-tottenham-agree-deal-to-sign-man-city-forward-on-loan-with-60m-obligation-to-buy",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-26T09:27:00+00:00"
-    },
-    {
-      "title": "When is the Champions League draw and who is in each pot?",
-      "description": "BBC Sport's Ask Me Anything team explains when the league phase draw for the 2026-27 Champions League is, as well as looking at who is in each pot",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3v0q3r554xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-26T09:21:47+00:00"
     }
   ]
 }
