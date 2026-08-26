@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-08-26T04:38:10.149253+00:00",
+  "generatedAt": "2026-08-26T05:32:17.724030+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge with today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgxxx4r7zxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T05:17:10+00:00"
+    },
+    {
+      "title": "Taekwondo, stats, painful goodbyes - how Smith became women's first \u00a31m player",
+      "description": "Olivia Smith's career has been in the limelight since she was 15 - but she had been preparing herself for it even before she was a professional footballer.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8jdl0n0r7mo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T05:16:06+00:00"
+    },
+    {
+      "title": "Taekwondo, stats, painful goodbyes - how Smith became women's first \u00a31m player",
+      "description": "Olivia Smith's career has been in the limelight since she was 15 - but she had been preparing herself for it even before she was a professional footballer.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8jdl0n0r7mo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T05:16:06+00:00"
+    },
     {
       "title": "O'Neill takes responsibility with nowhere to hide for Celtic",
       "description": "Celtic manager Martin O'Neill says his team have a \"million miles to go\" after defeat in Austria.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-25T22:00:00+00:00"
-    },
-    {
-      "title": "'We apologise to the fans' - Celtic throw away four-goal lead to crash out of CL",
-      "description": "Celtic suffered a stunning Champions League play-off collapse as LASK overturned a 3-0 first-leg deficit to win 5-4 after extra-time and sent the Scottish champions crashing into the Europa League.",
-      "link": "https://www.skysports.com/football/linz-ask-vs-celtic/report/577269",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T21:50:00+00:00"
-    },
-    {
-      "title": "Coventry survive Plymouth scare to progress in Carabao Cup",
-      "description": "Premier League new boys Coventry survived an EFL Cup second-round scare at League One Plymouth before easing through 4-2 at Home Park.",
-      "link": "https://www.skysports.com/football/plymouth-argyle-vs-coventry-city/report/577439",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T21:35:00+00:00"
-    },
-    {
-      "title": "Nunez's halfway stunner helps Ipswich past Leicester",
-      "description": "Marcelino Nunez scored a sensational goal from the halfway line to help Ipswich claim a hard-fought 3-1 win over Leicester in the Carabao Cup.",
-      "link": "https://www.skysports.com/football/ipswich-town-vs-leicester-city/report/577431",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-25T21:35:00+00:00"
     }
   ]
 }
