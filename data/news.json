@@ -1,18 +1,54 @@
 {
-  "generatedAt": "2026-08-26T08:40:04.074625+00:00",
+  "generatedAt": "2026-08-26T09:38:43.892872+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Spurs agree deal to sign Marmoush from Man City",
-      "description": "Tottenham&#160;have agreed a deal to sign&#160;Omar Marmoush&#160;from&#160;Manchester City.",
+      "title": "Arsenal latest: Alvarez misses Atletico Madrid training",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T10:15:00+00:00"
+    },
+    {
+      "title": "Inside the rebuild of Borussia Dortmund",
+      "description": "There is optimism at Borussia Dortmund again. A new season upon the German giants and the sense of a team not just rebuilding but recapturing something lost. &#8220;Overall, we are mixing a good team,&#8221; explains head coach Niko Kovac at the club&#8217;s training ground.",
+      "link": "https://www.skysports.com/football/news/11095/13574800/how-borussia-dortmund-are-trying-to-recreate-the-exciting-bvb-of-the-past-as-they-rebuild-with-youth-under-niko-kovac",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T10:00:00+00:00"
+    },
+    {
+      "title": "Carabao Cup second round: Chelsea and Spurs in action tonight live on Sky",
+      "description": "The Carabao Cup is back for the 2026/27 season, with every second-round tie live on Sky Sports!",
+      "link": "https://www.skysports.com/football/news/11095/13576598/carabao-cup-2026-27-watch-nottm-forest-vs-leeds-chelsea-vs-luton-tottenham-vs-charlton-and-more-with-every-game-live-on-sky-sports",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T09:52:00+00:00"
+    },
+    {
+      "title": "Tottenham agree deal for Man City's Marmoush",
+      "description": "Tottenham&#160;have agreed a deal to sign&#160;Omar Marmoush from Manchester City.",
       "link": "https://www.skysports.com/football/news/11095/13577289/omar-marmoush-transfer-news-tottenham-agree-deal-to-sign-man-city-forward-on-loan-with-60m-obligation-to-buy",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-26T09:27:00+00:00"
+    },
+    {
+      "title": "When is the Champions League draw and who is in each pot?",
+      "description": "BBC Sport's Ask Me Anything team explains when the league phase draw for the 2026-27 Champions League is, as well as looking at who is in each pot",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3v0q3r554xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-26T09:21:47+00:00"
     },
     {
       "title": "Newcastle latest: Gonzalez undergoing medical ahead of \u00a350m move",
@@ -24,6 +60,15 @@
       "pubDateISO": "2026-08-26T09:18:00+00:00"
     },
     {
+      "title": "Villa make offer for Mateta - Wednesday's gossip",
+      "description": "Aston Villa make a move for Jean-Philippe Mateta and Nicolas Jackson, Manchester United eye a promising defender, and Manchester City aren't ready to give up on signing Enzo Fernandez.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce8e0l7prg6o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-26T09:07:26+00:00"
+    },
+    {
       "title": "Sterling charged with dangerous driving after crash",
       "description": "Former England player Raheem Sterling has been charged with dangerous driving and possession of nitrous oxide after a crash involving a Lamborghini on the motorway, police have said.",
       "link": "https://www.skysports.com/football/news/11095/13577278/raheem-sterling-charged-with-dangerous-driving-and-possession-of-nitrous-oxide-after-a-crash-involving-a-lamborghini-on-the-motorway",
@@ -31,6 +76,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-26T08:59:00+00:00"
+    },
+    {
+      "title": "'No major damage' for Forfar player after game abandoned for neck injury",
+      "description": "Forfar Athletic say Adam Livingstone has not suffered any major damage after Tuesday's Challenge Cup match against Formartine United was abandoned because of a neck injury suffered by the defender.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c986ywln1ydo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-26T08:57:38+00:00"
     },
     {
       "title": "Brighton latest: Asking price for Minteh revealed amid Liverpool interest",
@@ -42,7 +96,7 @@
       "pubDateISO": "2026-08-26T08:49:00+00:00"
     },
     {
-      "title": "Liverpool latest: Talks for Minteh not progressing after rejected bids",
+      "title": "Liverpool latest: Talks for Minteh stall after rejected bids",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
@@ -58,60 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-26T08:18:41+00:00"
-    },
-    {
-      "title": "Newcastle agree \u00a352m deal for Man City's Gonzalez",
-      "description": "Newcastle United agree a deal worth up to \u00a352m for Manchester City midfielder Nico Gonzalez.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2zlnpnk4zo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-26T07:59:50+00:00"
-    },
-    {
-      "title": "Sterling charged with dangerous driving after crash",
-      "description": "Raheem Sterling will appear in court next month to face charges of dangerous driving after crashing his car into motorway barriers in May.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c23xkk1vkkpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-26T07:42:51+00:00"
-    },
-    {
-      "title": "Celtic face competition for Bosnia star - gossip",
-      "description": "PAOK emerge as contenders for Celtic-linked midfielder, while Falkirk close in on another loan deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v9pgre9p0o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-26T07:41:21+00:00"
-    },
-    {
-      "title": "The relationship between the Irish League and gambling",
-      "description": "From changing culture to investment and criticism, BBC Sport NI examines the Irish League's ever-changing relationship with gambling.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwy0dp85688o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-26T07:26:26+00:00"
-    },
-    {
-      "title": "Celtic deficiencies laid bare on another night of Champions League pain",
-      "description": "When Callum McGregor eviscerated his own team-mates in the wake of Celtic's stupefying Champions League collapse against LASK, he delivered their one coherent moment of a spineless night, writes Tom English.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjdv5xvgv9lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-26T06:52:56+00:00"
-    },
-    {
-      "title": "Liverpool's midfield is fragile - will they act in the window?",
-      "description": "Liverpool's draw at Newcastle emphasised once again their midfield fragility but will they act in the market and bring in a defensive-minded player?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2zgzydd16o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-26T06:04:34+00:00"
     }
   ]
 }
