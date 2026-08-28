@@ -320,6 +320,56 @@
       "toTeam": "Man Utd",
       "detectedAt": "2026-08-26T14:37:22.851427+00:00",
       "marketValue": 50
+    },
+    {
+      "playerId": 91,
+      "playerName": "Pinnock",
+      "fromTeamId": 4,
+      "fromTeam": "Brentford",
+      "toTeamId": 7,
+      "toTeam": "Coventry City",
+      "detectedAt": "2026-08-28T13:21:47.845979+00:00",
+      "marketValue": 45
+    },
+    {
+      "playerId": 153,
+      "playerName": "Disasi",
+      "fromTeamId": 6,
+      "fromTeam": "Chelsea",
+      "toTeamId": 8,
+      "toTeam": "Crystal Palace",
+      "detectedAt": "2026-08-28T13:21:47.845979+00:00",
+      "marketValue": 45
+    },
+    {
+      "playerId": 405,
+      "playerName": "N.Gonzalez",
+      "fromTeamId": 15,
+      "fromTeam": "Man City",
+      "toTeamId": 17,
+      "toTeam": "Newcastle",
+      "detectedAt": "2026-08-28T13:21:47.845979+00:00",
+      "marketValue": 55
+    },
+    {
+      "playerId": 167,
+      "playerName": "Delap",
+      "fromTeamId": 6,
+      "fromTeam": "Chelsea",
+      "toTeamId": 18,
+      "toTeam": "Nott'm Forest",
+      "detectedAt": "2026-08-28T13:21:47.845979+00:00",
+      "marketValue": 55
+    },
+    {
+      "playerId": 401,
+      "playerName": "Marmoush",
+      "fromTeamId": 15,
+      "fromTeam": "Man City",
+      "toTeamId": 19,
+      "toTeam": "Spurs",
+      "detectedAt": "2026-08-28T13:21:47.845979+00:00",
+      "marketValue": 70
     }
   ]
 }
