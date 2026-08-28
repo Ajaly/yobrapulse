@@ -1,117 +1,117 @@
 {
-  "generatedAt": "2026-08-28T08:32:14.602877+00:00",
+  "generatedAt": "2026-08-28T20:39:39.598899+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Forest latest: Palace consider \u00a322m Forest offer for Munoz",
+      "title": "Atletico set deadline for Alvarez decision on staying or move to Arsenal",
+      "description": "Atletico Madrid&#160;have given&#160;Julian Alvarez&#160;until Sunday to make a decision; open up to the idea of a move to&#160;Arsenal&#160;or stay at the club.&#160;",
+      "link": "https://www.skysports.com/football/news/11095/13578318/julian-alvarez-transfer-news-atletico-madrid-set-deadline-for-striker-to-decide-whether-he-stays-or-joins-arsenal",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-28T20:07:00+00:00"
+    },
+    {
+      "title": "Rangers and Celtic hit with stadium closure sanction after fan trouble",
+      "description": "Celtic and Rangers will play their next home ties in the Scottish Cup behind closed doors.",
+      "link": "https://www.skysports.com/football/news/11095/13578090/old-firm-rangers-and-celtic-both-ordered-to-play-next-scottish-cup-home-game-behind-closed-doors-after-crowd-trouble",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-28T19:23:00+00:00"
+    },
+    {
+      "title": "How will Scottish clubs respond to Euro disappointments?",
+      "description": "Read the best storylines before this weekend's full card of Scottish Premiership fixtures.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cddv0564vy7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-28T19:21:38+00:00"
+    },
+    {
+      "title": "How will clubs respond to Euro disappointments?",
+      "description": "Read the best storylines before this weekend's full card of Scottish Premiership fixtures.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cddv0564vy7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-28T19:21:38+00:00"
+    },
+    {
+      "title": "Villa confirm club-record Jackson signing as deal agreed for Mbaye",
+      "description": "Aston Villa have confirmed the club-record signing of Nicolas Jackson from Chelsea while also reaching a verbal agreement to sign Paris Saint-Germain winger Ibrahim Mbaye.",
+      "link": "https://www.skysports.com/football/news/11095/13578279/nicolas-jackson-transfer-news-aston-villa-confirm-club-record-65m-signing-as-deal-agreed-to-sign-ibrahim-mbaye-from-psg",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-28T19:20:00+00:00"
+    },
+    {
+      "title": "What will Jackson bring to Villa with Watkins set for exit?",
+      "description": "BBC Sport examines what new striker Nicolas Jackson will bring to Aston Villa, with Ollie Watkins looking set to join Al-Hilal.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/czjz9j3r8p8o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-28T19:14:48+00:00"
+    },
+    {
+      "title": "Rangers to give Celtic 300 tickets for cup game",
+      "description": "Rangers confirm they will provide Celtic with 300 tickets for the League Cup quarter-final at Ibrox on 13 September.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgyw4zyyp2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-28T18:59:28+00:00"
+    },
+    {
+      "title": "BBC Women's Football Weekly",
+      "description": "Martin Ho, Vic Pelova, Kirsty Hanson, Signe Gaupset and Tinka Tandberg join Ben Haines.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p6wqs6",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-28T18:49:00+00:00"
+    },
+    {
+      "title": "BBC Women's Football Weekly",
+      "description": "Martin Ho, Vic Pelova, Kirsty Hanson, Signe Gaupset and Tinka Tandberg join Ben Haines.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p6wqs6",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-28T18:49:00+00:00"
+    },
+    {
+      "title": "Celtic & Rangers to play home cup ties behind closed doors after fan disorder",
+      "description": "Celtic and Rangers are ordered to play their next home Scottish Cup ties behind closed doors after fan disorder last season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gk206k95xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-28T18:36:00+00:00"
+    },
+    {
+      "title": "Stadium closures for Old Firm over fan disorder",
+      "description": "Celtic and Rangers are ordered to play their next home Scottish Cup ties behind closed doors after fan disorder last season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gk206k95xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-28T18:36:00+00:00"
+    },
+    {
+      "title": "Birmingham quickly restore lead at Wrexham LIVE!",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279316/nottingham-forest-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "link": "https://www.skysports.com/football/wrexham-vs-birmingham-city/live/560533",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-28T08:55:00+00:00"
-    },
-    {
-      "title": "FREE STREAM: Good Morning Transfers on Sky Sports News",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13569345/free-stream-the-transfer-show-on-sky-sports-news-latest-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-28T08:50:00+00:00"
-    },
-    {
-      "title": "Chelsea prepared to sell Fernandez to Man City for right price",
-      "description": "Chelsea&#160;are prepared to sell&#160;Enzo Fernandez&#160;to&#160;Manchester City&#160;for the right price - and if they can improve their squad before the window closes.",
-      "link": "https://www.skysports.com/football/news/11095/13578017/enzo-fernandez-transfer-news-chelsea-prepared-to-sell-argentina-midfielder-to-manchester-city-for-right-price",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-28T08:15:00+00:00"
-    },
-    {
-      "title": "Managers under pressure already - preview of the EFL weekend",
-      "description": "BBC Sport picks out five highlights to keep an eye on in Saturday's busy EFL programme.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2zlg01q7go",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-28T07:37:55+00:00"
-    },
-    {
-      "title": "Rangers remain in talks for Brighton winger Cozier-Duberry - gossip",
-      "description": "Rangers continue their pursuit of forward players, while Celtic are keen on an England international goalkeeper.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c0e3nz3n1y3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-28T07:05:20+00:00"
-    },
-    {
-      "title": "European debrief and weekend lookahead",
-      "description": "The European de-brief plus a full look ahead to the Premiership weekend.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p6qwvl",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-28T07:00:00+00:00"
-    },
-    {
-      "title": "Why Spurs' under-the-radar buy might be summer's smartest deal",
-      "description": "Why Kirsty Hanson's move from Aston Villa to Tottenham could be the key transfer of the Women's Super League summer.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj3d1ky2642o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-28T06:48:31+00:00"
-    },
-    {
-      "title": "Why Spurs' under-the-radar buy might be summer's smartest deal",
-      "description": "Why Kirsty Hanson's move from Aston Villa to Tottenham could be the key transfer of the Women's Super League summer.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj3d1ky2642o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-28T06:48:31+00:00"
-    },
-    {
-      "title": "What is the aim for Kompany, Kane and Bayern?",
-      "description": "Bayern Munich start their latest title defence as overwhelming odds-on favourites to win the Bundesliga again - so what would constitute success?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvg967e3qqdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-28T06:04:22+00:00"
-    },
-    {
-      "title": "Flex your football brain with our daily quizzes",
-      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyz7481wr7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-28T05:41:36+00:00"
-    },
-    {
-      "title": "Sell Man Utd players already? FPL gameweek two dilemmas",
-      "description": "BBC Sport FPL expert Pras looks at some of the biggest dilemmas facing FPL managers heading into gameweek two, including whether to captain Erling Haaland or Bruno Fernandes.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2l8914lk77o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-28T05:21:58+00:00"
-    },
-    {
-      "title": "Kane on Ballon d'Or hopes",
-      "description": "Harry Kane discusses potential Ballon d'Or hopes after becoming the first Englishman to win Germany's footballer of the year award for the 2025-26 season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/czjz9g977p0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-28T05:05:59+00:00"
+      "pubDateISO": "2026-08-28T18:30:00+00:00"
     }
   ]
 }
