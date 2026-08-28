@@ -241,6 +241,10 @@
       "team": 2,
       "name": "Lynch"
     },
+    "611": {
+      "team": 2,
+      "name": "Wan-Bissaka"
+    },
     "57": {
       "team": 3,
       "name": "Petrovi\u0107"
@@ -353,6 +357,10 @@
       "team": 3,
       "name": "Jebbison"
     },
+    "615": {
+      "team": 3,
+      "name": "Di Gregorio"
+    },
     "82": {
       "team": 4,
       "name": "Kelleher"
@@ -388,10 +396,6 @@
     "90": {
       "team": 4,
       "name": "Hickey"
-    },
-    "91": {
-      "team": 4,
-      "name": "Pinnock"
     },
     "92": {
       "team": 4,
@@ -537,10 +541,6 @@
       "team": 5,
       "name": "Wieffer"
     },
-    "131": {
-      "team": 5,
-      "name": "Baleba"
-    },
     "132": {
       "team": 5,
       "name": "Howell"
@@ -588,6 +588,10 @@
     "605": {
       "team": 5,
       "name": "Yalcouy\u00e9"
+    },
+    "614": {
+      "team": 5,
+      "name": "Hadjam"
     },
     "40": {
       "team": 6,
@@ -653,10 +657,6 @@
       "team": 6,
       "name": "Palestra"
     },
-    "153": {
-      "team": 6,
-      "name": "Disasi"
-    },
     "154": {
       "team": 6,
       "name": "Palmer"
@@ -701,10 +701,6 @@
       "team": 6,
       "name": "N.Jackson"
     },
-    "167": {
-      "team": 6,
-      "name": "Delap"
-    },
     "168": {
       "team": 6,
       "name": "Marc Guiu"
@@ -740,6 +736,10 @@
     "583": {
       "team": 6,
       "name": "Chavarria"
+    },
+    "91": {
+      "team": 7,
+      "name": "Pinnock"
     },
     "104": {
       "team": 7,
@@ -876,6 +876,10 @@
     "42": {
       "team": 8,
       "name": "Guessand"
+    },
+    "153": {
+      "team": 8,
+      "name": "Disasi"
     },
     "198": {
       "team": 8,
@@ -1789,25 +1793,13 @@
       "team": 15,
       "name": "Doku"
     },
-    "401": {
-      "team": 15,
-      "name": "Marmoush"
-    },
     "402": {
       "team": 15,
       "name": "Rodrigo"
     },
-    "403": {
-      "team": 15,
-      "name": "Savinho"
-    },
     "404": {
       "team": 15,
       "name": "Reijnders"
-    },
-    "405": {
-      "team": 15,
-      "name": "N.Gonzalez"
     },
     "406": {
       "team": 15,
@@ -1841,9 +1833,17 @@
       "team": 15,
       "name": "Rulli"
     },
+    "616": {
+      "team": 15,
+      "name": "Bouaddi"
+    },
     "43": {
       "team": 16,
       "name": "Tielemans"
+    },
+    "131": {
+      "team": 16,
+      "name": "Baleba"
     },
     "162": {
       "team": 16,
@@ -1973,6 +1973,10 @@
       "team": 16,
       "name": "Obi"
     },
+    "405": {
+      "team": 17,
+      "name": "N.Gonzalez"
+    },
     "442": {
       "team": 17,
       "name": "Pope"
@@ -2080,6 +2084,10 @@
     "609": {
       "team": 17,
       "name": "Shahar"
+    },
+    "167": {
+      "team": 18,
+      "name": "Delap"
     },
     "467": {
       "team": 18,
@@ -2196,6 +2204,14 @@
     "112": {
       "team": 19,
       "name": "Van Hecke"
+    },
+    "401": {
+      "team": 19,
+      "name": "Marmoush"
+    },
+    "403": {
+      "team": 19,
+      "name": "S\u00e1vio"
     },
     "455": {
       "team": 19,
@@ -2440,6 +2456,14 @@
     "553": {
       "team": 20,
       "name": "Isidor"
+    },
+    "612": {
+      "team": 20,
+      "name": "Methalie"
+    },
+    "613": {
+      "team": 20,
+      "name": "Ahoka"
     }
   }
 }

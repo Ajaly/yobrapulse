@@ -161,7 +161,7 @@ function openPlayerModal(key, triggerEl) {
   document.querySelector('#pm-price').textContent = p.price;
   document.querySelector('#pm-owned').textContent = p.owned;
   document.querySelector('#pm-points').textContent = p.points;
-  document.querySelector('#pm-points-label').textContent = isReal ? 'Points (25/26)' : 'GW9 pts';
+  document.querySelector('#pm-points-label').textContent = isReal ? `Points (${p.currentSeason || ''})` : 'GW9 pts';
   const formEl = document.querySelector('#pm-form');
   if (Array.isArray(p.form)) {
     formEl.innerHTML = p.form.map((level) => `<i class="${level}"></i>`).join('');
@@ -680,6 +680,17 @@ fetch('data/fpl.json', { cache: 'no-store' })
       setupPlayerComparison(data.comparisonPool, data.players);
     }
 
+    // "25/26 season" labels (Stats leaderboards, dashboard top scorer,
+    // player-modal points) used to be hardcoded and silently went stale
+    // the moment the real season rolled over - now driven by the one
+    // real value the backend actually tracks (data.currentSeason),
+    // so it can't happen again next season either.
+    if (data.currentSeason) {
+      document.querySelectorAll('.season-kicker').forEach((el) => {
+        el.textContent = `${data.currentSeason} season${el.dataset.suffix || ''}`;
+      });
+    }
+
     // Dashboard metric-grid: replace illustrative cards with real figures
     // derived from this same fpl.json payload (no fabricated trend data -
     // see code review notes for why "prediction accuracy" and "alerts"
@@ -863,6 +874,7 @@ fetch('data/fpl.json', { cache: 'no-store' })
     Object.entries(data.players).forEach(([id, p]) => {
       players['fpl-' + id] = {
         isReal: true,
+        currentSeason: data.currentSeason,
         name: p.name,
         position: p.position,
         team: p.team,
@@ -889,7 +901,7 @@ fetch('data/fpl.json', { cache: 'no-store' })
       const rankValue = document.querySelector('#rank-metric-value');
       const rankSub = document.querySelector('#rank-metric-sub');
       if (rankValue) rankValue.textContent = topScorer.points;
-      if (rankSub) rankSub.innerHTML = `<i data-lucide="trending-up"></i> ${topScorer.shortName} · 25/26`;
+      if (rankSub) rankSub.innerHTML = `<i data-lucide="trending-up"></i> ${topScorer.shortName} · ${data.currentSeason || ''}`;
     }
 
     // Real, always-available, non-personal FPL facts - not a stand-in for

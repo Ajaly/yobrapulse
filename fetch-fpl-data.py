@@ -2159,6 +2159,15 @@ def main():
     result = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "source": "Fantasy Premier League API (fantasy.premierleague.com)",
+        # Real, single source of truth for every "this season" label the
+        # frontend shows (leaderboards, player-modal points, dashboard top
+        # scorer) - CURRENT_SEASON was already used internally (match
+        # history archiving) but never actually reached the client, so
+        # those labels were hardcoded "25/26" text that silently went
+        # stale the moment the real season rolled over to 2026/27. Reading
+        # it from here instead of hardcoding it again means it can't
+        # happen a second time.
+        "currentSeason": CURRENT_SEASON,
         "gameweek": {
             "name": next_event["name"],
             "deadlineISO": next_event["deadline_time"],
