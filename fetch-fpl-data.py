@@ -285,10 +285,7 @@ def price_str(now_cost):
     return f"£{now_cost / 10:.1f}m"
 
 
-MIN_SQUAD_MINUTES = 2000  # ~22 full matches worth, spread across a squad
-
-
-def compute_squad_ratings(data):
+def compute_squad_ratings(data, completed_gameweeks):
     """team_id -> real points-per-90, minutes-weighted across the whole
     squad (sum of points / sum of minutes), or None if there isn't
     enough real Premier League playing time to trust a number at all.
@@ -299,12 +296,21 @@ def compute_squad_ratings(data):
     the Championship, which this data doesn't track, so e.g. Coventry
     had exactly one player with any real PL minutes (88, one cameo)
     and that one small, noisy number became "Coventry's squad rating"
-    - 12.3, higher than Arsenal's. Caught by spot-checking the actual
-    prediction output before shipping it, not by inspecting the code.
-    Weighting by minutes and requiring a real sample (established
-    clubs have 30,000-48,000 total squad minutes; the promoted three
-    have 0-812) fixes it honestly: no reliable number, so no number,
-    rather than a wrong one."""
+    - 12.3, higher than Arsenal's. Weighting by minutes and requiring a
+    real sample fixes it honestly: no reliable number, so no number,
+    rather than a wrong one.
+
+    That sample floor used to be a flat 2000 - close to, but just
+    under, what 2 completed real gameweeks can produce for a normal
+    squad (11 starters * 90min * 2 games = 1980 theoretical max, real
+    teams checked at ~935-1973), so it stayed empty for every team for
+    the first couple of real gameweeks of the season. Scaled to a
+    fraction of the real minutes actually available by this point in
+    the season instead (same fix as build_leaderboards' minutes
+    floor, same reasoning) - floored so it still requires genuinely
+    tracked PL minutes, not zero, during a real preseason with
+    completed_gameweeks==0."""
+    min_squad_minutes = max(90, int(completed_gameweeks * 990 * 0.4))
     by_team = {}
     for e in data["elements"]:
         by_team.setdefault(e["team"], []).append(e)
@@ -312,7 +318,7 @@ def compute_squad_ratings(data):
     for team_id, squad in by_team.items():
         total_minutes = sum(e["minutes"] for e in squad)
         total_points = sum(e["total_points"] for e in squad)
-        ratings[team_id] = (total_points / total_minutes * 90) if total_minutes >= MIN_SQUAD_MINUTES else None
+        ratings[team_id] = (total_points / total_minutes * 90) if total_minutes >= min_squad_minutes else None
     return ratings
 
 
@@ -537,12 +543,13 @@ def predict_fixture(home_team, away_team, squad_ratings, espn_context, home_avai
     real net summer transfer value (price-weighted, see
     compute_transfer_impact) - added specifically because squad_ratings
     needs real accumulated current-season minutes to trust a number
-    (MIN_SQUAD_MINUTES), which early in a season (when a real marquee
-    signing matters most) most or every club hasn't reached yet, so
-    quality_diff alone was silently blind exactly when transfer
-    activity is most relevant. Kept deliberately modest relative to the
-    established signals (see the *4/*3 weights below) since this is a
-    newer, less-proven addition. Base rates (45/25/30) reflect the
+    (see compute_squad_ratings' minutes floor), which early in a
+    season (when a real marquee signing matters most) most or every
+    club hasn't reached yet, so quality_diff alone was silently blind
+    exactly when transfer activity is most relevant. Kept deliberately
+    modest relative to the established signals (see the *4/*3 weights
+    below) since this is a newer, less-proven addition. Base rates
+    (45/25/30) reflect the
     actual long-run Premier League home-advantage split. Any signal
     that isn't available for a given fixture is dropped from the blend
     entirely rather than treated as zero - see the compute_* functions
@@ -1806,19 +1813,31 @@ def compute_percentiles(eligible):
     return percentiles
 
 
-def build_leaderboards(eligible):
+def build_leaderboards(eligible, completed_gameweeks):
     """Real, transparent rankings for the Stats view - top 5 each, no
-    model involved, just sorting real fields. Value-for-money requires
-    a minutes floor (900, ~10 matches) for the same reason team/player
-    ratings elsewhere need one: a cheap player with a lucky start and
-    almost no minutes would otherwise top the list on noise."""
+    model involved, just sorting real fields.
+
+    Value-for-money and Most saves need a minutes floor for the same
+    reason team/player ratings elsewhere need one: a cheap player with
+    a lucky start and almost no minutes would otherwise top the list
+    on noise. That floor used to be a flat 900 (~10 matches) -
+    unreachable by anyone until roughly gameweek 11, so both leaderboards
+    stayed genuinely empty for the first quarter of every season (found
+    live: still 0 candidates at real gameweek 3, where the real
+    maximum anyone could have is 180). Scaling it to roughly half of
+    the real minutes actually available so far this season (floored at
+    one real appearance) means it's usable from week 1 while still
+    filtering out a one-cameo fluke, and it naturally tightens back
+    toward the old ~900 bar by roughly week 20 on its own - no second
+    magic number to remember to revisit."""
+    min_value_minutes = max(90, int(completed_gameweeks * 90 * 0.5))
     by_xg = sorted(eligible, key=lambda e: float(e["expected_goals"] or 0), reverse=True)[:5]
     by_assists = sorted(eligible, key=lambda e: e["assists"], reverse=True)[:5]
     by_points = sorted(eligible, key=lambda e: e["total_points"], reverse=True)[:5]
-    value_pool = [e for e in eligible if e["minutes"] >= 900]
+    value_pool = [e for e in eligible if e["minutes"] >= min_value_minutes]
     by_value = sorted(value_pool, key=lambda e: e["total_points"] / (e["now_cost"] / 10), reverse=True)[:5]
     by_tackles = sorted(eligible, key=lambda e: e["tackles"], reverse=True)[:5]
-    goalkeepers = [e for e in eligible if e["element_type"] == 1 and e["minutes"] >= 900]
+    goalkeepers = [e for e in eligible if e["element_type"] == 1 and e["minutes"] >= min_value_minutes]
     by_saves = sorted(goalkeepers, key=lambda e: e["saves"], reverse=True)[:5]
     return {
         "points": by_points, "assists": by_assists, "xg": by_xg, "value": by_value,
@@ -2057,7 +2076,11 @@ def main():
     data = fetch_json(BOOTSTRAP_URL)
     teams = {t["id"]: t["name"] for t in data["teams"]}
     teams_by_id = {t["id"]: t for t in data["teams"]}
-    squad_ratings = compute_squad_ratings(data)
+    # Computed early (moved up from where it's used further down) so
+    # compute_squad_ratings can use it too - see that function for why.
+    next_event = next((ev for ev in data["events"] if ev.get("is_next")), data["events"][0])
+    completed_gameweeks = max(0, next_event["id"] - 1)
+    squad_ratings = compute_squad_ratings(data, completed_gameweeks)
 
     # Real squad-change detection: diff this run's roster against the
     # last one BEFORE anything else touches data["elements"], so the
@@ -2071,7 +2094,6 @@ def main():
     all_transfer_events = load_transfer_log()
     manager_changes = load_manager_changes()
 
-    next_event = next((ev for ev in data["events"] if ev.get("is_next")), data["events"][0])
     fixtures = fetch_json(FIXTURES_URL.format(event_id=next_event["id"]))
     fixture_lookup = build_fixture_lookup(fixtures, teams)
     fixtures_list = build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, data["elements"], all_transfer_events, manager_changes, tracking_since)
@@ -2145,7 +2167,7 @@ def main():
     # Top performers: highest cumulative points (last completed season).
     top_performers = sorted(eligible, key=lambda e: e["total_points"], reverse=True)[:6]
 
-    leaderboards = build_leaderboards(eligible)
+    leaderboards = build_leaderboards(eligible, completed_gameweeks)
 
     price_risers, price_fallers = build_price_movement(eligible)
 
