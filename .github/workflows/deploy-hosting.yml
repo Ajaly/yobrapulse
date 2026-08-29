@@ -15,6 +15,22 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Real incident: pushing several commits in quick succession queued
+# several of these runs close together. A slow one (cold npm install,
+# 4-6 min) can finish its actual `firebase deploy` call AFTER a faster
+# later run (warm npm cache, ~20s) already deployed the newer commit -
+# silently overwriting newer live content with older content, with
+# both runs still individually reporting "success" since neither one
+# actually failed. Confirmed happening: a run for the latest commit
+# reported success, but the live site still showed an older commit's
+# content until a manual redeploy. This concurrency group makes GitHub
+# cancel any older, still-running deploy for this workflow the moment
+# a newer one starts, so only the latest commit's deploy can ever
+# actually finish and take effect.
+concurrency:
+  group: firebase-hosting-deploy
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
