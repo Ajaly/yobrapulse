@@ -459,7 +459,7 @@ function renderTrackRecord(record) {
   if (accuracySub) {
     accuracySub.textContent = record.totalResolved
       ? `${record.correct} of ${record.totalResolved} correct`
-      : 'No resolved predictions yet - check back after Gameweek 1';
+      : 'No resolved predictions yet - check back once this season\'s first gameweek finishes';
   }
 
   if (record.marketComparison) {

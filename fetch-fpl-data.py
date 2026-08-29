@@ -1939,14 +1939,32 @@ def build_price_movement(eligible, top_n=5):
 
 
 def find_stats_event(events):
-    """The gameweek to pull live per-gameweek stats for: the most
-    recently finished one, or the one currently in progress. None
-    pre-season, before any gameweek has kicked off - event/{id}/live
-    returns no elements at all until a gameweek actually starts."""
+    """The gameweek to pull live per-gameweek stats for: the one
+    currently in progress if there is one, otherwise the most recently
+    finished one. None pre-season, before any gameweek has kicked off -
+    event/{id}/live returns no elements at all until a gameweek
+    actually starts.
+
+    Real incident: checking "does any finished gameweek exist" before
+    "is there a current one" meant this stayed stuck on the very first
+    finished gameweek (GW1) even once a later one was well underway -
+    real, verified state: GW2 had every match played but FPL's own
+    event object doesn't flip finished=True until its bonus-points/
+    stats finalization completes some time later (checked directly:
+    GW2 was finished=False, is_current=True while GW1 sat at
+    finished=True, is_current=False), and the old order preferred
+    "any finished gameweek" unconditionally over the actual current
+    one. event/{id}/live already has real per-player stats for a
+    current-but-not-yet-finished gameweek (confirmed directly - 623
+    real elements back for GW2), so there was no reason to prefer the
+    older, administratively-finalized one."""
+    current = next((ev for ev in events if ev.get("is_current")), None)
+    if current:
+        return current
     finished = [ev for ev in events if ev.get("finished")]
     if finished:
         return max(finished, key=lambda ev: ev["id"])
-    return next((ev for ev in events if ev.get("is_current")), None)
+    return None
 
 
 def build_gameweek_performers(eligible, live_stats, top_n=5):
