@@ -100,11 +100,24 @@ def parse_table(standings_json):
     table = []
     for e in entries:
         stats = {s["name"]: s for s in e["stats"]}
+        # Real incident (found live, cost over a week of stale tables
+        # before it was noticed): defaulting a missing "gamesPlayed" stat
+        # to 0 made a real-looking table of every team on 0 played/0
+        # points - identical to a genuinely not-yet-started season -
+        # whenever ESPN's response for a given request omitted per-team
+        # stat values (still returned the real team list, just no
+        # stats). No exception, so main()'s existing fallback-to-
+        # last-good-data safety net never triggered; the fabricated
+        # zeros got committed and redeployed as if real. Raising here
+        # instead makes that failure loud, so the real safety net
+        # actually does its job.
+        if "gamesPlayed" not in stats:
+            raise ValueError(f"{e['team']['displayName']}: standings response missing gamesPlayed stat - not trusting a fabricated 0")
         table.append({
             "rank": int(stats["rank"]["value"]) if "rank" in stats else None,
             "team": e["team"]["displayName"],
             "shortTeam": e["team"].get("shortDisplayName", e["team"]["displayName"]),
-            "played": int(stats["gamesPlayed"]["value"]) if "gamesPlayed" in stats else 0,
+            "played": int(stats["gamesPlayed"]["value"]),
             "wins": int(stats["wins"]["value"]) if "wins" in stats else 0,
             "draws": int(stats["ties"]["value"]) if "ties" in stats else 0,
             "losses": int(stats["losses"]["value"]) if "losses" in stats else 0,
@@ -151,7 +164,8 @@ def main():
             })
             print(f"  {league['name']}: current {len(leagues_out[-1]['current'])} teams, last season {len(leagues_out[-1]['lastSeason'])} teams")
         except Exception as err:
-            print(f"  {league['name']}: real fetch failed ({err}) - keeping previous data for this league only" if league["code"] in previous else f"  {league['name']}: real fetch failed ({err}) - no previous data to fall back to, skipping")
+            detail = f"{type(err).__name__}: {err}"
+            print(f"  {league['name']}: real fetch failed ({detail}) - keeping previous data for this league only" if league["code"] in previous else f"  {league['name']}: real fetch failed ({detail}) - no previous data to fall back to, skipping")
             if league["code"] in previous:
                 leagues_out.append(previous[league["code"]])
 

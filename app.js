@@ -582,9 +582,18 @@ fetch('data/fpl.json', { cache: 'no-store' })
       renderTeamChips(data.teams.map((t) => t.name).sort());
     }
 
-    function renderLeaderboard(containerId, ids, valueFn) {
+    function renderLeaderboard(containerId, ids, valueFn, emptyMessage) {
       const container = document.querySelector('#' + containerId);
-      if (!container || !ids || !ids.length) return;
+      if (!container) return;
+      if (!ids || !ids.length) {
+        // Real data loaded, genuinely nothing qualifies yet (e.g. a
+        // minutes floor no one's reached this early in the season) -
+        // distinct from still-loading, so say so instead of leaving the
+        // "Fetching live stats..." placeholder stuck forever implying a
+        // load that already finished is still in progress.
+        container.innerHTML = `<p class="lede" style="margin:0;font-size:12px">${emptyMessage || 'No qualifying players yet.'}</p>`;
+        return;
+      }
       container.innerHTML = ids.map((id, i) => {
         const p = data.players[id];
         return `<div class="leaderboard-row" data-player="fpl-${id}" tabindex="0" role="button" aria-label="View ${p.name}">
@@ -666,12 +675,12 @@ fetch('data/fpl.json', { cache: 'no-store' })
     }
 
     if (data.leaderboards) {
-      renderLeaderboard('leaderboard-points', data.leaderboards.points, (p) => `${p.points} pts`);
-      renderLeaderboard('leaderboard-assists', data.leaderboards.assists, (p) => `${p.assists} assists`);
-      renderLeaderboard('leaderboard-xg', data.leaderboards.xg, (p) => `${p.xg.toFixed(1)} xG`);
-      renderLeaderboard('leaderboard-value', data.leaderboards.value, (p) => `${p.valueScore.toFixed(1)} pts/£m`);
-      renderLeaderboard('leaderboard-tackles', data.leaderboards.tackles, (p) => `${p.tackles} tackles`);
-      renderLeaderboard('leaderboard-saves', data.leaderboards.saves, (p) => `${p.saves} saves`);
+      renderLeaderboard('leaderboard-points', data.leaderboards.points, (p) => `${p.points} pts`, 'No real points logged yet this season.');
+      renderLeaderboard('leaderboard-assists', data.leaderboards.assists, (p) => `${p.assists} assists`, 'No real assists logged yet this season.');
+      renderLeaderboard('leaderboard-xg', data.leaderboards.xg, (p) => `${p.xg.toFixed(1)} xG`, 'No real xG logged yet this season.');
+      renderLeaderboard('leaderboard-value', data.leaderboards.value, (p) => `${p.valueScore.toFixed(1)} pts/£m`, 'Needs 900+ real minutes played - not enough games yet this season.');
+      renderLeaderboard('leaderboard-tackles', data.leaderboards.tackles, (p) => `${p.tackles} tackles`, 'No real tackles logged yet this season.');
+      renderLeaderboard('leaderboard-saves', data.leaderboards.saves, (p) => `${p.saves} saves`, 'Needs 900+ real minutes played by a GK - not enough games yet this season.');
       const statsBadge = document.querySelector('#stats-live-badge');
       if (statsBadge) statsBadge.hidden = false;
     }
@@ -743,6 +752,13 @@ fetch('data/fpl.json', { cache: 'no-store' })
         const avg = rated.reduce((sum, t) => sum + t.squadRating, 0) / rated.length;
         perfAvgRating.textContent = avg.toFixed(2);
         if (perfAvgRatingSub) perfAvgRatingSub.textContent = `Across ${rated.length} Premier League clubs`;
+      } else {
+        // Real data loaded, genuinely no club has hit the real minutes
+        // floor yet this early in the season - distinct from still
+        // loading, so say so rather than leaving "Fetching live
+        // stats..." looking stuck.
+        perfAvgRating.textContent = '—';
+        if (perfAvgRatingSub) perfAvgRatingSub.textContent = 'Not enough games played yet this season';
       }
     }
     const perfGoalsTracked = document.querySelector('#perf-goals-tracked');
