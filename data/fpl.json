@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T20:15:58.488012+00:00",
+  "generatedAt": "2026-08-29T20:44:00.509718+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -236,8 +236,53 @@
     "32"
   ],
   "transferAdvice": {
-    "in": [],
-    "out": []
+    "in": [
+      {
+        "id": "544",
+        "reason": "Sunderland's fixtures ease up over the next 6 gameweeks",
+        "factors": {
+          "epNext": 4.5,
+          "ownForm": 4.5,
+          "teamForm": 0.6,
+          "opponentForm": 0.9,
+          "venueForm": 0.37,
+          "venueFormSource": "last season",
+          "opponentVenueForm": 0.56,
+          "fixtureLoad": 2,
+          "opponent": "Brentford",
+          "isHome": false,
+          "trackRecordVsOpponent": {
+            "meetings": 2,
+            "goals": 0,
+            "assists": 1,
+            "involvementsPerMatch": 0.5
+          }
+        }
+      },
+      {
+        "id": "569",
+        "reason": "Fulham's fixtures ease up over the next 6 gameweeks",
+        "factors": {
+          "epNext": 3.0,
+          "ownForm": 3.0,
+          "teamForm": 0.51,
+          "opponentForm": 0.37,
+          "venueForm": 0.61,
+          "venueFormSource": "last season",
+          "opponentVenueForm": 0.42,
+          "fixtureLoad": 2,
+          "opponent": "Crystal Palace",
+          "isHome": true,
+          "trackRecordVsOpponent": null
+        }
+      }
+    ],
+    "out": [
+      {
+        "id": "346",
+        "reason": "Leeds's fixtures get tougher over the next 6 gameweeks"
+      }
+    ]
   },
   "wildcardWatch": [
     {
@@ -642,9 +687,9 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 36,
+        "homeWinPct": 37,
         "drawPct": 28,
-        "awayWinPct": 36
+        "awayWinPct": 35
       }
     },
     {
@@ -5285,7 +5330,7 @@
       "avatar": "RC",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.6m",
-      "owned": "15.0%",
+      "owned": "15.1%",
       "points": 22,
       "epNext": 11.0,
       "form": 11.0,
@@ -5688,7 +5733,7 @@
       "avatar": "EH",
       "avatarClass": "pink-avatar",
       "price": "\u00a315.5m",
-      "owned": "68.6%",
+      "owned": "68.7%",
       "points": 15,
       "epNext": 7.5,
       "form": 7.5,
@@ -6060,7 +6105,7 @@
       "avatar": "CP",
       "avatarClass": "orange-avatar",
       "price": "\u00a39.6m",
-      "owned": "17.0%",
+      "owned": "17.1%",
       "points": 13,
       "epNext": 6.5,
       "form": 6.5,
@@ -6370,7 +6415,7 @@
       "avatar": "YW",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "4.2%",
+      "owned": "4.3%",
       "points": 11,
       "epNext": 5.5,
       "form": 5.5,
@@ -7672,7 +7717,7 @@
       "avatar": "MS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "7.4%",
+      "owned": "7.3%",
       "points": 3,
       "epNext": 1.5,
       "form": 1.5,
@@ -8199,7 +8244,7 @@
       "avatar": "BB",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "12.5%",
+      "owned": "12.4%",
       "points": 2,
       "epNext": 1.0,
       "form": 1.0,
@@ -8509,7 +8554,7 @@
       "avatar": "SL",
       "avatarClass": "",
       "price": "\u00a35.0m",
-      "owned": "15.4%",
+      "owned": "15.3%",
       "points": 1,
       "epNext": 0.5,
       "form": 0.5,
@@ -9400,7 +9445,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 10031047,
+  "totalManagers": 10032608,
   "totalPlayers": 623,
   "priceMovement": {
     "risers": [
@@ -9645,45 +9690,45 @@
     "rising": [
       {
         "id": "399",
-        "netTransfersEvent": 366156
+        "netTransfersEvent": 369408
       },
       {
         "id": "391",
-        "netTransfersEvent": 102147
+        "netTransfersEvent": 104036
       },
       {
         "id": "115",
-        "netTransfersEvent": 92722
+        "netTransfersEvent": 94198
       },
       {
         "id": "411",
-        "netTransfersEvent": 62089
+        "netTransfersEvent": 63048
       },
       {
         "id": "464",
-        "netTransfersEvent": 56648
+        "netTransfersEvent": 60029
       }
     ],
     "falling": [
       {
         "id": "427",
-        "netTransfersEvent": -114077
+        "netTransfersEvent": -115225
       },
       {
         "id": "426",
-        "netTransfersEvent": -90195
+        "netTransfersEvent": -91383
       },
       {
         "id": "397",
-        "netTransfersEvent": -62679
+        "netTransfersEvent": -63334
       },
       {
         "id": "223",
-        "netTransfersEvent": -59334
+        "netTransfersEvent": -60122
       },
       {
         "id": "201",
-        "netTransfersEvent": -32257
+        "netTransfersEvent": -32688
       }
     ]
   }

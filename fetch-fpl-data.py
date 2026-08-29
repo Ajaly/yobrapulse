@@ -1863,9 +1863,21 @@ def build_transfer_advice(eligible, swing, teams_by_id, team_context, fixture_lo
     with the worst (most-worsening) fixture swing, since "transfer
     out" only makes sense for someone plausibly already owned - stays
     ownership-driven on purpose, this isn't a performance ranking.
-    Requires a real minutes sample (>=450) so a fringe player with a
-    lucky cameo doesn't get recommended."""
-    sample = [e for e in eligible if e["minutes"] >= 450]
+
+    Minutes floor is intentionally low (>=90, one real appearance) -
+    not the >=450 (5 full matches) this used to require. That floor
+    made the whole feature return nothing at all for the first several
+    real gameweeks of every season (found live: genuinely empty for
+    all of GW1-3 2026/27), which defeats the point of a recommendation
+    engine. Safe to lower because compute_player_score's real base
+    signal is ep_next - FPL's own projection, derived from price and
+    real prior-season history, not from this season's minutes - so a
+    low-minutes player here isn't scored off a lucky cameo the way a
+    raw points-per-appearance ranking would be. Still excludes true
+    zero-minute players (an unused bench option) rather than going to
+    0, since ep_next alone for someone who hasn't featured at all yet
+    is too thin to act on."""
+    sample = [e for e in eligible if e["minutes"] >= 90]
     by_team = {}
     for e in sample:
         by_team.setdefault(e["team"], []).append(e)
