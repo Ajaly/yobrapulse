@@ -3,12 +3,17 @@ name: Refresh live data
 # Runs the same fetch scripts you'd otherwise run by hand, on a schedule,
 # and commits the results, then deploys straight to Firebase Hosting.
 #
-# The deploy step here exists specifically because this job's own push
-# uses the default GITHUB_TOKEN, which GitHub deliberately does NOT let
-# trigger other on:push workflows (anti-recursion protection) - so
+# The deploy job here exists specifically because this workflow's own
+# push uses the default GITHUB_TOKEN, which GitHub deliberately does NOT
+# let trigger other on:push workflows (anti-recursion protection) - so
 # deploy-hosting.yml's push trigger never fires for this bot's own
-# commits, only for real pushes from a human. Deploying directly in this
-# same job is what closes that specific gap.
+# commits, only for real pushes from a human. Deploying directly from
+# this workflow is what closes that specific gap.
+#
+# Two separate jobs (refresh, deploy) rather than one, specifically so
+# `deploy` can share deploy-hosting.yml's concurrency group without that
+# also cancelling the data-fetch/commit work if a race is detected - see
+# the deploy job below for the real incident this fixes.
 #
 # Hourly keeps News feeling current without wasting Actions minutes:
 # public repos get unlimited free minutes; private repos get 2,000/month
@@ -25,6 +30,8 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -64,27 +71,44 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+  # Separate job (not a step in `refresh`) specifically so it can share
+  # deploy-hosting.yml's concurrency group. Real incident this fixes: an
+  # hourly scheduled run's deploy (unprotected by any concurrency
+  # control, since it lived as a step inside the single `refresh` job)
+  # finished its actual firebase deploy call AFTER several later, faster
+  # deploy-hosting.yml runs for newer manual commits had already
+  # deployed - silently reverting the live site to older content despite
+  # every individual run reporting success. deploy-hosting.yml's own
+  # cancel-in-progress fix only covered races WITHIN that one workflow,
+  # not races BETWEEN it and this one - concurrency groups are scoped to
+  # the repo, not a single workflow file, so using the identical group
+  # name here closes that cross-workflow gap too.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: firebase-hosting-deploy
+      cancel-in-progress: true
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
       - name: Set up Node.js
-        if: steps.commit.outputs.changed == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      # continue-on-error: this step has been failing every run since it
-      # was added (FIREBASE_SERVICE_ACCOUNT secret was never actually
-      # added to the repo) - it was silently emailing a failure notice
-      # on every single hourly run for days before that got noticed.
-      # Once the secret is real, this should start succeeding and this
-      # safety net stops mattering; until then, it fails loud in the log
-      # (see the explicit check below) without spamming a failure email
-      # every hour over a known, already-diagnosed cause.
-      # --non-interactive + CI=true + timeout-minutes: see
-      # deploy-hosting.yml's matching step for why - a fresh
+      # continue-on-error: this step failed every run for days before
+      # the FIREBASE_SERVICE_ACCOUNT secret was actually added - fails
+      # loud in the log via the explicit check below instead of
+      # spamming a failure email every hour over a known cause.
+      #
+      # --non-interactive + CI=true + timeout-minutes: a fresh
       # firebase-tools install can hit an interactive prompt (e.g. CLI
-      # analytics consent) that hangs forever with no stdin in a runner,
-      # instead of failing. Same fix here.
+      # analytics consent) that hangs forever with no stdin in a
+      # runner, instead of failing.
       - name: Deploy to Firebase Hosting
-        if: steps.commit.outputs.changed == 'true'
         continue-on-error: true
         timeout-minutes: 5
         env:
