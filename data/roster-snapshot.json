@@ -221,6 +221,10 @@
       "team": 2,
       "name": "Garnacho"
     },
+    "166": {
+      "team": 2,
+      "name": "N.Jackson"
+    },
     "582": {
       "team": 2,
       "name": "Madjo"
@@ -704,10 +708,6 @@
     "165": {
       "team": 6,
       "name": "Jo\u00e3o Pedro"
-    },
-    "166": {
-      "team": 6,
-      "name": "N.Jackson"
     },
     "168": {
       "team": 6,
@@ -1852,6 +1852,14 @@
     "616": {
       "team": 15,
       "name": "Bouaddi"
+    },
+    "621": {
+      "team": 15,
+      "name": "McAidoo"
+    },
+    "622": {
+      "team": 15,
+      "name": "Braithwaite"
     },
     "43": {
       "team": 16,

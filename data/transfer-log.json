@@ -370,6 +370,16 @@
       "toTeam": "Spurs",
       "detectedAt": "2026-08-28T13:21:47.845979+00:00",
       "marketValue": 70
+    },
+    {
+      "playerId": 166,
+      "playerName": "N.Jackson",
+      "fromTeamId": 6,
+      "fromTeam": "Chelsea",
+      "toTeamId": 2,
+      "toTeam": "Aston Villa",
+      "detectedAt": "2026-08-29T02:59:27.790430+00:00",
+      "marketValue": 65
     }
   ]
 }
