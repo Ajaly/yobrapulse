@@ -30,10 +30,24 @@ jobs:
       # continue-on-error: see refresh-data.yml's matching step for why -
       # same missing-secret cause, same "fail loud in the log, not via a
       # failure email" fix.
+      #
+      # --non-interactive + CI=true + timeout-minutes: real incident -
+      # the first real run after the secret was finally added hung for
+      # 6+ minutes with zero log output past "npm install", never
+      # completing. firebase-tools can prompt interactively on a fresh
+      # install (e.g. CLI error-reporting/analytics consent) - with no
+      # human and no stdin in a GitHub Actions runner, that prompt waits
+      # forever instead of failing, and GitHub's default 6-hour job
+      # timeout means nothing would surface that for a very long time.
+      # --non-interactive makes the CLI take defaults instead of
+      # prompting; timeout-minutes is a hard backstop in case some other
+      # prompt shows up that flag doesn't cover.
       - name: Deploy to Firebase Hosting
         continue-on-error: true
+        timeout-minutes: 5
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          CI: "true"
         run: |
           if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
             echo "::error::FIREBASE_SERVICE_ACCOUNT repo secret is not set - see .github/workflows/deploy-hosting.yml. Skipping deploy, not treating this as a hard failure."
@@ -42,5 +56,5 @@ jobs:
           echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/firebase-service-account.json
           export GOOGLE_APPLICATION_CREDENTIALS=/tmp/firebase-service-account.json
           npm install -g firebase-tools
-          firebase deploy --only hosting --project yobrapulse-a0389
+          firebase deploy --only hosting --project yobrapulse-a0389 --non-interactive
           rm -f /tmp/firebase-service-account.json

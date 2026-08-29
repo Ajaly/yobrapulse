@@ -78,11 +78,18 @@ jobs:
       # safety net stops mattering; until then, it fails loud in the log
       # (see the explicit check below) without spamming a failure email
       # every hour over a known, already-diagnosed cause.
+      # --non-interactive + CI=true + timeout-minutes: see
+      # deploy-hosting.yml's matching step for why - a fresh
+      # firebase-tools install can hit an interactive prompt (e.g. CLI
+      # analytics consent) that hangs forever with no stdin in a runner,
+      # instead of failing. Same fix here.
       - name: Deploy to Firebase Hosting
         if: steps.commit.outputs.changed == 'true'
         continue-on-error: true
+        timeout-minutes: 5
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          CI: "true"
         run: |
           if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
             echo "::error::FIREBASE_SERVICE_ACCOUNT repo secret is not set - see .github/workflows/refresh-data.yml. Skipping deploy, not treating this as a hard failure."
@@ -91,5 +98,5 @@ jobs:
           echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/firebase-service-account.json
           export GOOGLE_APPLICATION_CREDENTIALS=/tmp/firebase-service-account.json
           npm install -g firebase-tools
-          firebase deploy --only hosting --project yobrapulse-a0389
+          firebase deploy --only hosting --project yobrapulse-a0389 --non-interactive
           rm -f /tmp/firebase-service-account.json
