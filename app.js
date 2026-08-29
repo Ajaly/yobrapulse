@@ -933,7 +933,13 @@ fetch('data/fpl.json', { cache: 'no-store' })
     }
 
     const captainList = document.querySelector('#captain-list');
-    if (captainList && data.captainPicks.length) {
+    if (captainList && !data.captainPicks.length) {
+      // Real data loaded, genuinely no qualifying pick yet - distinct
+      // from the static illustrative markup this element ships with,
+      // which must never be left showing silently (see transfer-list's
+      // matching fix below for why that's a real, previously-shipped bug).
+      captainList.innerHTML = '<p class="lede" style="margin:0;font-size:12px">No captain picks yet - not enough real season data.</p>';
+    } else if (captainList && data.captainPicks.length) {
       captainList.innerHTML = data.captainPicks.map((cp, i) => {
         const p = data.players[cp.id];
         return `<article class="captain-row${i === 0 ? ' top-pick' : ''}" data-player="fpl-${cp.id}" tabindex="0" role="button" aria-label="View ${p.name}">
@@ -949,7 +955,21 @@ fetch('data/fpl.json', { cache: 'no-store' })
     }
 
     const transferList = document.querySelector('#transfer-list');
-    if (transferList && data.transferAdvice && (data.transferAdvice.in.length || data.transferAdvice.out.length)) {
+    if (transferList && data.transferAdvice && !(data.transferAdvice.in.length || data.transferAdvice.out.length)) {
+      // Real incident: this element ships with static illustrative
+      // markup (named real players, real-looking prices/ownership) as
+      // placeholder content - when the real transferAdvice list is
+      // genuinely empty, this branch used to just never run at all,
+      // leaving that illustrative markup showing indefinitely with no
+      // visual distinction from a genuine live recommendation. Two of
+      // the three illustrative examples (Sterling, Trafford) had
+      // themselves gone stale in the real world by the time this was
+      // reported - directly confirmed as the cause of a real "why does
+      // this app show wrong player data" bug report. Replacing with an
+      // explicit empty state instead of ever falling back to
+      // illustrative-but-possibly-wrong player data again.
+      transferList.innerHTML = '<p class="lede" style="margin:0;font-size:12px">No transfer advice right now - fixture-difficulty swing is flat across tracked players this week.</p>';
+    } else if (transferList && data.transferAdvice && (data.transferAdvice.in.length || data.transferAdvice.out.length)) {
       const inRows = data.transferAdvice.in.map((item) => {
         const p = data.players[item.id];
         return `<article class="transfer-row" data-player="fpl-${item.id}" tabindex="0" role="button" aria-label="View ${p.name}" title="${playerFactorsTitle(item.factors)}">
