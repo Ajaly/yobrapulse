@@ -700,6 +700,29 @@ fetch('data/fpl.json', { cache: 'no-store' })
       });
     }
 
+    // Real report: neither the captain picks nor the transfer advice
+    // panel said which gameweek they were actually for - both are
+    // genuinely tied to one (captain picks are for the next real
+    // fixture each player has; transfer advice's fixture-swing window
+    // starts there too), just wasn't shown. TRANSFER_SWING_WINDOW_GWS
+    // mirrors fetch-fpl-data.py's own SWING_WINDOW constant - keep
+    // them in sync if that one ever changes.
+    const TRANSFER_SWING_WINDOW_GWS = 6;
+    if (data.gameweek && data.gameweek.name) {
+      const captainKicker = document.querySelector('#captain-kicker');
+      if (captainKicker) captainKicker.textContent = `Armband pick · ${data.gameweek.name}`;
+
+      const transferKicker = document.querySelector('#transfer-kicker');
+      if (transferKicker) transferKicker.textContent = `Fixture swing · from ${data.gameweek.name}`;
+
+      const gwNumber = parseInt(data.gameweek.name.replace(/[^0-9]/g, ''), 10);
+      const transferLede = document.querySelector('#transfer-lede');
+      if (transferLede && !Number.isNaN(gwNumber)) {
+        const endGw = gwNumber + TRANSFER_SWING_WINDOW_GWS - 1;
+        transferLede.textContent = `Based on real fixture-difficulty swing from Gameweek ${gwNumber} through Gameweek ${endGw}, not transfer-market momentum.`;
+      }
+    }
+
     // Dashboard metric-grid: replace illustrative cards with real figures
     // derived from this same fpl.json payload (no fabricated trend data -
     // see code review notes for why "prediction accuracy" and "alerts"
