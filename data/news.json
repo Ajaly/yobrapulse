@@ -1,117 +1,117 @@
 {
-  "generatedAt": "2026-08-30T18:25:15.119596+00:00",
+  "generatedAt": "2026-08-30T21:52:03.048295+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
+      "title": "Watch: Match of the Day",
+      "description": "Highlights of four Premier League matches, including Manchester United v Ipswich.",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T22:40:29+00:00"
+    },
+    {
+      "title": "Papers: Arsenal could eye Rashford loan to replace Martinelli",
+      "description": "The top stories and transfer rumours from Monday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13579254/arsenal-transfer-news-marcus-rashford-loan-could-be-explored-as-replacement-for-gabriel-martinelli-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-30T22:15:00+00:00"
+    },
+    {
+      "title": "Tottenham enquire about Pulisic - Monday's gossip",
+      "description": "Spurs turn attention to Christian Pulisic, Liverpool and Everton show interest in Stuttgart winger Jamie Leweling, and Crystal Palace want to keep Dean Henderson after Nottingham Forest bid.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c89jxnelpywo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T20:59:21+00:00"
+    },
+    {
+      "title": "Arsenal latest: Alvarez returns to Atletico training as deadline expires",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T20:50:00+00:00"
+    },
+    {
+      "title": "Palace latest: Sarr wants out but Eagles refusing to sell",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T20:45:00+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "Aaron Paul talks Premier League with Charlie Austin & Luke Edwards. Hear from De Zerbi.",
+      "link": "https://www.bbc.co.uk/sounds/play/m003123c",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T20:10:00+00:00"
+    },
+    {
+      "title": "A new Man Utd era - but Fernandes still sets the standard",
+      "description": "For all the new signings, it is still captain Bruno Fernandes who sets the standard at Manchester United, writes Simon Stone.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cpwl248p5vgo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-30T20:04:26+00:00"
+    },
+    {
+      "title": "'It doesn't feel like a goal' - O'Neil questions law after 'blatant' Maguire handball",
+      "description": "Ipswich Town manager Gary O'Neil questions the handball rule after a loophole allowed Harry Maguire's handling offence to stand as a Jacob Greaves own goal.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwyzxz0yvz0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T20:01:40+00:00"
+    },
+    {
+      "title": "'It doesn't feel like a goal' - O'Neil questions law after 'blatant' Maguire handball",
+      "description": "Ipswich Town manager Gary O'Neil questions the handball rule after a loophole allowed Harry Maguire's handling offence to stand as a Jacob Greaves own goal.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwyzxz0yvz0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T20:01:40+00:00"
+    },
+    {
+      "title": "Carrick 'really pleased' as Fernandes hat-trick sparks Man Utd comeback",
+      "description": "Manchester United manager Michael Carrick is \"really pleased\" with his team as Bruno Fernandes' hat-trick inspires a 5-2 comeback win over Ipswich Town, following last weekend's opening-day defeat.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c05rprn1ld1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T19:41:31+00:00"
+    },
+    {
+      "title": "Man Utd latest: Carrick 'looking for more' in transfer window",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-30T19:31:00+00:00"
+    },
+    {
       "title": "Watch: Sportscene - Sunday's Scottish Premiership highlights",
-      "description": "Highlights from the afternoon's games in the Scottish Premiership.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcscotland",
+      "description": "With Aberdeen v Rangers, Dundee v Hibs and St Mirren v Motherwell",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m00312t8",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-30T19:15:44+00:00"
-    },
-    {
-      "title": "Goals galore! Man Utd come from behind to win with Bruno hat-trick",
-      "description": "FREE TO WATCH: Highlights from the Premier League match between Manchester United and Ipswich Town.",
-      "link": "https://www.skysports.com/watch/video/13579195/manchester-united-5-2-ipswich-premier-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T18:45:00+00:00"
-    },
-    {
-      "title": "Fernandes hat-trick helps Man Utd come from behind to beat Ipswich",
-      "description": "Bruno Fernandes scored a hat-trick as Manchester United came from behind to beat Ipswich 5-2 at Old Trafford and pick up their first win of the season.",
-      "link": "https://www.skysports.com/football/manchester-united-vs-ipswich-town/report/559461",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T18:40:00+00:00"
-    },
-    {
-      "title": "Aston Villa latest: Watkins pens farewell after Al Hilal move",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T18:27:00+00:00"
-    },
-    {
-      "title": "Why Man Utd goal was allowed to stand - despite Maguire 'handball'",
-      "description": "The handball law often serves to confuse supporters - and it reared its head again as Harry Maguire celebrated putting Manchester United in front against Ipswich Town.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62ewy19w2ro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T18:11:57+00:00"
-    },
-    {
-      "title": "Watkins joins Al Hilal as Villa agree Harwood-Bellis deal",
-      "description": "Ollie Watkins has completed his &#163;50m move from Aston Villa to Al Hilal.",
-      "link": "https://www.skysports.com/football/news/11095/13579158/aston-villa-transfer-news-ollie-watkins-joins-al-hilal-as-deal-agreed-for-taylor-harwood-bellis",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-30T17:43:00+00:00"
-    },
-    {
-      "title": "Tech trouble leaves Chelsea game ref without comms",
-      "description": "When referee Michael Oliver emerged for the second half at Stamford Bridge on Sunday something important was missing - his communications pack.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yl4lzp9gzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T17:41:22+00:00"
-    },
-    {
-      "title": "How did Rashford do on return to Man Utd XI? Player ratings",
-      "description": "How Manchester United and Ipswich Town's players rated following their Premier League match.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2z6kkqdxqo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T17:32:04+00:00"
-    },
-    {
-      "title": "Watkins completes \u00a351m move to Saudi side Al-Hilal",
-      "description": "Ollie Watkins completes his \u00a351m move to Saudi Pro League side Al Hilal from Aston Villa.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c70le5gllyeo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-30T17:12:52+00:00"
-    },
-    {
-      "title": "Why Chelsea need more than a new goalkeeper to be title challengers",
-      "description": "Chelsea's new goalkeeper Emiliano Martinez made his debut in a thrilling 4-3 win over Brighton - but is unable to solve his new club's defensive problems on his own.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyzpez3x3go",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T17:12:39+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-30T17:11:42+00:00"
-    },
-    {
-      "title": "Is 'bitty' Pittodrie win turning point for McInnes and Rangers?",
-      "description": "Until Sunday's trip north to Aberdeen, Derek McInnes had not really enjoyed watching his Rangers team. That changed after an unconvincing win at Pittodrie.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckgwz6g45lpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T16:38:50+00:00"
     }
   ]
 }
