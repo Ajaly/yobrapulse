@@ -380,6 +380,16 @@
       "toTeam": "Aston Villa",
       "detectedAt": "2026-08-29T02:59:27.790430+00:00",
       "marketValue": 65
+    },
+    {
+      "playerId": 28,
+      "playerName": "Martinez",
+      "fromTeamId": 2,
+      "fromTeam": "Aston Villa",
+      "toTeamId": 6,
+      "toTeam": "Chelsea",
+      "detectedAt": "2026-08-30T14:19:52.967021+00:00",
+      "marketValue": 50
     }
   ]
 }

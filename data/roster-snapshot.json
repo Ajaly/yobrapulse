@@ -117,10 +117,6 @@
       "team": 1,
       "name": "Tzolis"
     },
-    "28": {
-      "team": 2,
-      "name": "Martinez"
-    },
     "29": {
       "team": 2,
       "name": "M.Bizot"
@@ -604,6 +600,10 @@
     "614": {
       "team": 5,
       "name": "Hadjam"
+    },
+    "28": {
+      "team": 6,
+      "name": "Martinez"
     },
     "40": {
       "team": 6,
