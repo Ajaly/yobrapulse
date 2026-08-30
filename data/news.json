@@ -1,54 +1,99 @@
 {
-  "generatedAt": "2026-08-30T14:24:35.261131+00:00",
+  "generatedAt": "2026-08-30T18:25:15.119596+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Liverpool latest: Barcola undergoing medical as Van Dijk pleads for Gakpo to stay",
+      "title": "Watch: Sportscene - Sunday's Scottish Premiership highlights",
+      "description": "Highlights from the afternoon's games in the Scottish Premiership.",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcscotland",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T19:15:44+00:00"
+    },
+    {
+      "title": "Goals galore! Man Utd come from behind to win with Bruno hat-trick",
+      "description": "FREE TO WATCH: Highlights from the Premier League match between Manchester United and Ipswich Town.",
+      "link": "https://www.skysports.com/watch/video/13579195/manchester-united-5-2-ipswich-premier-league-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T18:45:00+00:00"
+    },
+    {
+      "title": "Fernandes hat-trick helps Man Utd come from behind to beat Ipswich",
+      "description": "Bruno Fernandes scored a hat-trick as Manchester United came from behind to beat Ipswich 5-2 at Old Trafford and pick up their first win of the season.",
+      "link": "https://www.skysports.com/football/manchester-united-vs-ipswich-town/report/559461",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T18:40:00+00:00"
+    },
+    {
+      "title": "Aston Villa latest: Watkins pens farewell after Al Hilal move",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T18:27:00+00:00"
+    },
+    {
+      "title": "Why Man Utd goal was allowed to stand - despite Maguire 'handball'",
+      "description": "The handball law often serves to confuse supporters - and it reared its head again as Harry Maguire celebrated putting Manchester United in front against Ipswich Town.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c62ewy19w2ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T18:11:57+00:00"
+    },
+    {
+      "title": "Watkins joins Al Hilal as Villa agree Harwood-Bellis deal",
+      "description": "Ollie Watkins has completed his &#163;50m move from Aston Villa to Al Hilal.",
+      "link": "https://www.skysports.com/football/news/11095/13579158/aston-villa-transfer-news-ollie-watkins-joins-al-hilal-as-deal-agreed-for-taylor-harwood-bellis",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-30T15:10:00+00:00"
+      "pubDateISO": "2026-08-30T17:43:00+00:00"
     },
     {
-      "title": "Arsenal latest: Arsenal agree club-record Martinelli sale",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
+      "title": "Tech trouble leaves Chelsea game ref without comms",
+      "description": "When referee Michael Oliver emerged for the second half at Stamford Bridge on Sunday something important was missing - his communications pack.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5yl4lzp9gzo",
+      "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T14:51:00+00:00"
+      "pubDateISO": "2026-08-30T17:41:22+00:00"
     },
     {
-      "title": "McInnes' Rangers earn first league win as VAR denies Aberdeen equaliser",
-      "description": "Lawrence Shankland's penalty proved decisive as Rangers secured a 1-0 win at Aberdeen, their first Scottish Premiership win of the season, after the home side were denied a late equaliser by VAR at Pittodrie, easing the pressure on Derek McInnes.",
-      "link": "https://www.skysports.com/football/aberdeen-vs-rangers/report/558351",
-      "source": "Sky Sports",
+      "title": "How did Rashford do on return to Man Utd XI? Player ratings",
+      "description": "How Manchester United and Ipswich Town's players rated following their Premier League match.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2z6kkqdxqo",
+      "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T14:32:00+00:00"
+      "pubDateISO": "2026-08-30T17:32:04+00:00"
     },
     {
-      "title": "Barcelona close to deal for Arsenal's Jesus",
-      "description": "Barcelona are closing in on a move for Arsenal striker Gabriel Jesus in a deal worth \u00a38.6m.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9qr79jr1qqo",
+      "title": "Watkins completes \u00a351m move to Saudi side Al-Hilal",
+      "description": "Ollie Watkins completes his \u00a351m move to Saudi Pro League side Al Hilal from Aston Villa.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c70le5gllyeo",
       "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-30T14:08:03+00:00"
+      "pubDateISO": "2026-08-30T17:12:52+00:00"
     },
     {
-      "title": "Barcelona agree deal to sign Jesus from Arsenal",
-      "description": "Barcelona have agreed a deal in principle with Arsenal to sign Gabriel Jesus for &#163;8.6m (&#8364;10m).&#160;",
-      "link": "https://www.skysports.com/football/news/11095/13579021/gabriel-jesus-barcelona-agree-8-6m-deal-in-principle-to-sign-arsenal-and-brazil-forward",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-30T14:01:00+00:00"
+      "title": "Why Chelsea need more than a new goalkeeper to be title challengers",
+      "description": "Chelsea's new goalkeeper Emiliano Martinez made his debut in a thrilling 4-3 win over Brighton - but is unable to solve his new club's defensive problems on his own.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwyzpez3x3go",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T17:12:39+00:00"
     },
     {
       "title": "All done deals in August 2026",
@@ -57,61 +102,16 @@
       "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-30T12:54:26+00:00"
+      "pubDateISO": "2026-08-30T17:11:42+00:00"
     },
     {
-      "title": "Man Utd pay tribute to 'proud Red' officer who died in A66 crash",
-      "description": "The widow and two children of PC Matthew Blades will be at Old Trafford for Manchester United's Premier League game with Ipswich.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg8x0ex8gno",
+      "title": "Is 'bitty' Pittodrie win turning point for McInnes and Rangers?",
+      "description": "Until Sunday's trip north to Aberdeen, Derek McInnes had not really enjoyed watching his Rangers team. That changed after an unconvincing win at Pittodrie.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckgwz6g45lpo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T12:46:10+00:00"
-    },
-    {
-      "title": "Everton latest: Balogun under consideration as Richarlison alternative",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T12:30:00+00:00"
-    },
-    {
-      "title": "Coventry sign Mfuni on loan from Man City",
-      "description": "Coventry City sign English defender Stephen Mfuni on a season-long loan deal from Manchester City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4g73yvjz9do",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-30T11:55:34+00:00"
-    },
-    {
-      "title": "West Brom sign Collyer from Manchester United",
-      "description": "West Bromwich Albion sign midfielder Toby Collyer from Manchester United for an undisclosed fee.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62ew152y7vo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-30T11:45:59+00:00"
-    },
-    {
-      "title": "Hamburg in advanced talks for Arsenal's Vieira",
-      "description": "Hamburg are in advanced talks to buy Arsenal midfielder Fabio Vieira in a 10m euro (\u00a38.6m) deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5ymvz83dy1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T11:27:02+00:00"
-    },
-    {
-      "title": "Wrexham boss Parkinson 'probably under pressure' for first time",
-      "description": "With no wins yet this season, ex-Wales striker Iwan Roberts believes Phil Parkinson is probably under pressure for the first time as Wrexham boss.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce87epm56n0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T11:05:21+00:00"
+      "pubDateISO": "2026-08-30T16:38:50+00:00"
     }
   ]
 }
