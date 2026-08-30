@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T23:53:43.671536+00:00",
+  "generatedAt": "2026-08-30T03:02:59.759997+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -135,12 +135,12 @@
     "335",
     "368",
     "388",
+    "464",
     "10",
     "15",
     "68",
     "165",
     "173",
-    "464",
     "226",
     "249",
     "379",
@@ -2379,7 +2379,7 @@
       ],
       "squadRating": 5.29,
       "squadValue": "\u00a3126.5m",
-      "leagueRank": 6,
+      "leagueRank": 7,
       "strengthHome": 3,
       "strengthAway": 3,
       "nextOpponent": "Man Utd",
@@ -3827,9 +3827,9 @@
           "position": "MID"
         }
       ],
-      "squadRating": 5.29,
+      "squadRating": 5.33,
       "squadValue": "\u00a3144.3m",
-      "leagueRank": 7,
+      "leagueRank": 6,
       "strengthHome": 2,
       "strengthAway": 3,
       "nextOpponent": "Bournemouth",
@@ -4413,7 +4413,7 @@
       "avatar": "RC",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.6m",
-      "owned": "15.3%",
+      "owned": "15.4%",
       "points": 22,
       "epNext": 11.0,
       "form": 11.0,
@@ -4444,7 +4444,7 @@
       "avatar": "SA",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.0m",
-      "owned": "2.6%",
+      "owned": "2.7%",
       "points": 20,
       "epNext": 10.0,
       "form": 10.0,
@@ -4475,7 +4475,7 @@
       "avatar": "KT",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "3.6%",
+      "owned": "3.7%",
       "points": 20,
       "epNext": 10.0,
       "form": 10.0,
@@ -4537,7 +4537,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.6m",
-      "owned": "9.9%",
+      "owned": "10.0%",
       "points": 17,
       "epNext": 8.5,
       "form": 8.5,
@@ -4568,7 +4568,7 @@
       "avatar": "JE",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "2.1%",
+      "owned": "2.2%",
       "points": 17,
       "epNext": 8.5,
       "form": 8.5,
@@ -4948,11 +4948,11 @@
       "goals": 0,
       "assists": 0,
       "xg": 0.03,
-      "xa": 0.65,
+      "xa": 0.66,
       "valueScore": 2.8,
       "tackles": 7,
-      "clearancesBlocksInterceptions": 18,
-      "recoveries": 13,
+      "clearancesBlocksInterceptions": 17,
+      "recoveries": 14,
       "saves": 0,
       "cleanSheets": 1,
       "positionPercentile": null,
@@ -5188,18 +5188,18 @@
       "avatar": "AE",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "2.9%",
+      "owned": "3.0%",
       "points": 17,
       "epNext": 8.5,
       "form": 8.5,
       "minutes": 156,
       "goals": 2,
       "assists": 0,
-      "xg": 0.4,
+      "xg": 0.42,
       "xa": 0.11,
       "valueScore": 2.8,
       "tackles": 2,
-      "clearancesBlocksInterceptions": 2,
+      "clearancesBlocksInterceptions": 1,
       "recoveries": 2,
       "saves": 0,
       "cleanSheets": 1,
@@ -5489,6 +5489,37 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
+    "464": {
+      "id": 464,
+      "name": "Yoane Wissa",
+      "shortName": "Wissa",
+      "position": "FWD",
+      "team": "Newcastle",
+      "avatar": "YW",
+      "avatarClass": "",
+      "price": "\u00a36.0m",
+      "owned": "4.5%",
+      "points": 12,
+      "epNext": 6.0,
+      "form": 6.0,
+      "minutes": 171,
+      "goals": 1,
+      "assists": 1,
+      "xg": 1.35,
+      "xa": 0.02,
+      "valueScore": 2.0,
+      "tackles": 5,
+      "clearancesBlocksInterceptions": 2,
+      "recoveries": 7,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": null,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 3,
+      "fixture": "vs Bournemouth (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
     "10": {
       "id": 10,
       "name": "Benjamin White",
@@ -5613,37 +5644,6 @@
       "fdr": 5,
       "fdrClass": "hard"
     },
-    "464": {
-      "id": 464,
-      "name": "Yoane Wissa",
-      "shortName": "Wissa",
-      "position": "FWD",
-      "team": "Newcastle",
-      "avatar": "YW",
-      "avatarClass": "",
-      "price": "\u00a36.0m",
-      "owned": "4.5%",
-      "points": 11,
-      "epNext": 5.5,
-      "form": 5.5,
-      "minutes": 171,
-      "goals": 1,
-      "assists": 1,
-      "xg": 1.38,
-      "xa": 0.02,
-      "valueScore": 1.8,
-      "tackles": 5,
-      "clearancesBlocksInterceptions": 2,
-      "recoveries": 7,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 2,
-      "teamStrengthAway": 3,
-      "fixture": "vs Bournemouth (H)",
-      "fdr": 3,
-      "fdrClass": "mid"
-    },
     "12": {
       "id": 12,
       "name": "Bukayo Saka",
@@ -5653,7 +5653,7 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.5m",
-      "owned": "10.4%",
+      "owned": "10.3%",
       "points": 9,
       "epNext": 4.5,
       "form": 4.5,
@@ -5870,7 +5870,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.5m",
-      "owned": "23.2%",
+      "owned": "23.1%",
       "points": 7,
       "epNext": 3.5,
       "form": 3.5,
@@ -6087,7 +6087,7 @@
       "avatar": "DG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.0m",
-      "owned": "3.9%",
+      "owned": "3.8%",
       "points": 6,
       "epNext": 3.0,
       "form": 3.0,
@@ -6559,7 +6559,7 @@
       "minutes": 164,
       "goals": 0,
       "assists": 0,
-      "xg": 0.17,
+      "xg": 0.09,
       "xa": 0.08,
       "valueScore": 0.7,
       "tackles": 1,
@@ -7172,7 +7172,7 @@
       "avatar": "MS",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "9.1%",
+      "owned": "9.0%",
       "points": 2,
       "epNext": 1.0,
       "form": 1.0,
@@ -7214,7 +7214,7 @@
       "xa": 0.06,
       "valueScore": 0.4,
       "tackles": 4,
-      "clearancesBlocksInterceptions": 12,
+      "clearancesBlocksInterceptions": 13,
       "recoveries": 7,
       "saves": 0,
       "cleanSheets": 0,
@@ -7768,12 +7768,12 @@
       "minutes": 90,
       "goals": 0,
       "assists": 0,
-      "xg": 0.19,
+      "xg": 0.33,
       "xa": 0.1,
       "valueScore": 0.2,
       "tackles": 1,
       "clearancesBlocksInterceptions": 3,
-      "recoveries": 1,
+      "recoveries": 2,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -8424,7 +8424,7 @@
       "valueScore": 0.0,
       "tackles": 1,
       "clearancesBlocksInterceptions": 7,
-      "recoveries": 3,
+      "recoveries": 4,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -8528,7 +8528,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 10039501,
+  "totalManagers": 10042916,
   "totalPlayers": 623,
   "priceMovement": {
     "risers": [
@@ -8642,10 +8642,6 @@
         "value": 14
       },
       {
-        "id": "449",
-        "value": 14
-      },
-      {
         "id": "237",
         "value": 13
       },
@@ -8655,6 +8651,10 @@
       },
       {
         "id": "368",
+        "value": 13
+      },
+      {
+        "id": "449",
         "value": 13
       }
     ],
@@ -8789,45 +8789,45 @@
     "rising": [
       {
         "id": "399",
-        "netTransfersEvent": 383851
+        "netTransfersEvent": 391101
       },
       {
         "id": "391",
-        "netTransfersEvent": 113011
+        "netTransfersEvent": 114956
       },
       {
         "id": "115",
-        "netTransfersEvent": 100930
+        "netTransfersEvent": 104466
       },
       {
         "id": "464",
-        "netTransfersEvent": 77391
+        "netTransfersEvent": 84553
       },
       {
         "id": "411",
-        "netTransfersEvent": 67084
+        "netTransfersEvent": 69063
       }
     ],
     "falling": [
       {
         "id": "427",
-        "netTransfersEvent": -120690
+        "netTransfersEvent": -123055
       },
       {
         "id": "426",
-        "netTransfersEvent": -96506
+        "netTransfersEvent": -98779
       },
       {
         "id": "397",
-        "netTransfersEvent": -66365
+        "netTransfersEvent": -67877
       },
       {
         "id": "223",
-        "netTransfersEvent": -63626
+        "netTransfersEvent": -65310
       },
       {
         "id": "346",
-        "netTransfersEvent": -39068
+        "netTransfersEvent": -41348
       }
     ]
   }
