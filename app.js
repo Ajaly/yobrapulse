@@ -832,7 +832,14 @@ fetch('data/fpl.json', { cache: 'no-store' })
       if (filter === 'rising') {
         rows = rows.filter((p) => p.form >= 6).sort((a, b) => b.form - a.form);
       } else if (filter === 'attention') {
-        rows = rows.filter((p) => p.minutes >= 450 && p.form <= 3).sort((a, b) => a.form - b.form);
+        // Real report: this stayed permanently empty this early in the
+        // season - >=450 minutes (5 full matches) was unreachable at a
+        // real max of 180 (2 completed gameweeks). Lowered to >=90 (one
+        // real appearance), same reasoning as build_transfer_advice's
+        // identical fix server-side: form is FPL's own rolling metric,
+        // not a raw single-game stat, so it's not being judged off one
+        // noisy cameo the way a bare points tally would be.
+        rows = rows.filter((p) => p.minutes >= 90 && p.form <= 3).sort((a, b) => a.form - b.form);
       } else {
         rows = rows.sort((a, b) => metricValue(b, performanceMetric) - metricValue(a, performanceMetric));
       }
@@ -845,6 +852,23 @@ fetch('data/fpl.json', { cache: 'no-store' })
       if (metricName) metricName.textContent = METRIC_LABELS[performanceMetric];
 
       table.querySelectorAll('.table-row').forEach((row) => row.remove());
+      table.querySelectorAll('.table-empty-message').forEach((el) => el.remove());
+      if (!rows.length) {
+        // Real report: filtering to a genuinely empty result (e.g. no
+        // one currently qualifies for "Needs attention") used to leave
+        // just the bare table header with nothing under it - looked
+        // broken/stuck rather than a real, honest "nobody matches
+        // right now" answer.
+        const empty = document.createElement('p');
+        empty.className = 'lede table-empty-message';
+        empty.style.cssText = 'grid-column:1/-1;margin:0;font-size:12px;padding:14px 0';
+        empty.textContent = filter === 'attention'
+          ? 'No tracked player currently matches - needs at least one real appearance and a real poor-form reading.'
+          : filter === 'rising'
+            ? 'No tracked player is currently in hot form (6.0+).'
+            : 'No tracked players match the current filter.';
+        table.appendChild(empty);
+      }
       rows.forEach((p) => {
         const row = document.createElement('div');
         row.className = 'table-row';
