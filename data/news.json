@@ -1,18 +1,99 @@
 {
-  "generatedAt": "2026-08-30T03:03:00.436015+00:00",
+  "generatedAt": "2026-08-30T09:03:40.818493+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Lookman scores as Alvarez misses Atletico win | Juventus maintain perfect start",
+      "title": "Chelsea sign Martinez in \u00a37.5m deal from Villa",
+      "description": "Chelsea have signed Emi Martinez from Aston Villa on a three-year deal.",
+      "link": "https://www.skysports.com/football/news/11095/13578946/emi-martinez-transfer-news-chelsea-complete-signing-of-argentina-international-goalkeeper-from-aston-villa",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-30T09:10:00+00:00"
+    },
+    {
+      "title": "Liverpool latest: Barcola undergoing medical ahead of move from PSG",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-30T09:08:00+00:00"
+    },
+    {
+      "title": "Everton call off Armstrong sale after fan backlash",
+      "description": "Everton have called off a proposed deal to sell midfielder Harrison Armstrong to Nottingham Forest following a backlash from the club's supporters.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0lrge3dwklo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-30T08:58:28+00:00"
+    },
+    {
+      "title": "Martinez is eighth Chelsea-Villa deal in four years",
+      "description": "After Emiliano Martinez's move, BBC Sport looks at why Aston Villa and Chelsea have become one of the Premier League\u2019s busiest transfer partnerships since 2022.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgy0qjl0xno",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-30T08:51:08+00:00"
+    },
+    {
+      "title": "'Sevelj poised for Dundee United exit to Neftci Baku' - gossip",
+      "description": "Dundee United reportedly agree a fee for Vicko Sevelj to join Neftci Baku as St Mirren appear poised to sign a Serbian striker on Sunday and Monaco are linked with Rangers' Djeidi Gassama.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c0klvrj7007o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-30T08:06:44+00:00"
+    },
+    {
+      "title": "Barcola - the 'grasshopper' who has overcome setbacks",
+      "description": "As Liverpool agree a \u00a3123m deal for Bradley Barcola, BBC Sport looks at how he has ridden triumphs and setbacks to reach the top with the help of his family.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ceqewejnpr3o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-08-30T07:38:07+00:00"
+    },
+    {
+      "title": "Antonio helps young Ghanaians chase Premier League dreams",
+      "description": "Former West Ham forward Michail Antonio is helping players from a Ghana academy, who have travelled to England in the hope of turning pro.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvg0n8l87g7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T07:01:58+00:00"
+    },
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cpd0q82zpxyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T06:22:41+00:00"
+    },
+    {
+      "title": "Alvarez misses Atletico win - but expected back on 'decision day'",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-29T23:20:00+00:00"
+    },
+    {
+      "title": "Newly promoted Elversberg stun Leverkusen in five-goal thriller",
+      "description": "Bundesliga newcomers Elversberg hold on to secure a famous 3-2 win over Bayer Leverkusen at home. Elversverg has a population of just 13,000 people and is the smallest town to host a Bundesliga club.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cx2zyqdnxlvo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-29T23:07:02+00:00"
     },
     {
       "title": "'Confidence' and 'desire' - why Bournemouth's Scott is in demand",
@@ -31,87 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-29T22:34:12+00:00"
-    },
-    {
-      "title": "How new signing Gonzalez can be Newcastle's 'quarterback'",
-      "description": "BBC Sport pundit Ashley Williams explains how Nico Gonzalez' ability to play forward passes quickly encouraged Anthony Elanga to make runs in behind the Tottenham defence in Newcastle's 2-0 win over the North London side in the Premier League.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cde0k31731xo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-29T22:26:51+00:00"
-    },
-    {
-      "title": "Hull agree deal with Frankfurt for winger Bahoya",
-      "description": "Hull City agree a deal with Eintracht Frankfurt to sign winger Jean-Matteo Bahoya.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdj4g2zrdpjo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-29T22:24:56+00:00"
-    },
-    {
-      "title": "Papers: Liverpool continue talks to sign Crystal Palace winger Sarr",
-      "description": "The top stories and transfer rumours from Sunday's newspapers...",
-      "link": "https://www.skysports.com/football/news/11095/13578898/liverpool-transfer-news-reds-continue-talks-with-crystal-palace-to-sign-ismaila-sarr-paper-talk",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-29T22:22:00+00:00"
-    },
-    {
-      "title": "Newcastle show there's plenty of life after Tonali",
-      "description": "Newcastle United sold Sandro Tonali to Tottenham Hotspur, but the club look to have reinvested the money wisely following United's 2-0 win in north London.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c14d0elejzdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-29T21:28:16+00:00"
-    },
-    {
-      "title": "Napoli interested in Woltemade loan - Sunday's gossip",
-      "description": "Napoli show interest in Newcastle forward Nick Woltemade, Manchester City winger Jack Grealish is wanted by Sunderland and Arsenal explore a move for Lille forward Matias Fernandez-Pardo.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckg8x1wwgn8o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-29T21:19:11+00:00"
-    },
-    {
-      "title": "\u00a3300m spent, bottom of the table... but Spurs boss De Zerbi 'not angry'",
-      "description": "Having spent more than \u00a3300m in the summer, Tottenham find themselves bottom of the Premier League, without a point or a goal, but boss Roberto de Zerbi remains optimistic.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyqn158n5jo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-29T21:15:46+00:00"
-    },
-    {
-      "title": "Tottenham latest: De Zerbi reveals trio want to leave",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-29T21:04:00+00:00"
-    },
-    {
-      "title": "All done deals in August 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-29T20:41:04+00:00"
-    },
-    {
-      "title": "Hits and misses: Newcastle duo Elanga and Wissa are reborn under Jaissle",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13578505/newcastle-duo-anthony-elanga-and-yoane-wissa-thriving-under-matthias-jaissle-after-win-over-tottenham-premier-league-hits-and-misses",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-29T20:30:00+00:00"
     }
   ]
 }
