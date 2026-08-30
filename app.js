@@ -524,7 +524,7 @@ fetch('data/fpl.json', { cache: 'no-store' })
         </article>
       `).join('');
       const fplFixturesKicker = document.querySelector('#fpl-fixtures-kicker');
-      if (fplFixturesKicker) fplFixturesKicker.textContent = data.gameweek.name;
+      if (fplFixturesKicker) fplFixturesKicker.textContent = data.fixturesGameweekName || data.gameweek.name;
       const fplFixturesBadge = document.querySelector('#fpl-fixtures-live-badge');
       if (fplFixturesBadge) fplFixturesBadge.hidden = false;
       refreshIcons();
@@ -731,7 +731,7 @@ fetch('data/fpl.json', { cache: 'no-store' })
     const dashFixturesSub = document.querySelector('#dash-fixtures-sub');
     if (dashFixturesCount && data.fixtures) {
       dashFixturesCount.textContent = data.fixtures.length;
-      if (dashFixturesSub) dashFixturesSub.innerHTML = `<i data-lucide="calendar-days"></i> ${data.gameweek.name} &middot; model-based`;
+      if (dashFixturesSub) dashFixturesSub.innerHTML = `<i data-lucide="calendar-days"></i> ${data.fixturesGameweekName || data.gameweek.name} &middot; model-based`;
     }
     const dashTrackedCount = document.querySelector('#dash-tracked-count');
     if (dashTrackedCount && data.comparisonPool) {

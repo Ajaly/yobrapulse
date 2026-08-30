@@ -2112,7 +2112,34 @@ def main():
     all_transfer_events = load_transfer_log()
     manager_changes = load_manager_changes()
 
-    fixtures = fetch_json(FIXTURES_URL.format(event_id=next_event["id"]))
+    # Real incident: FPL's own is_next flag jumps to the following
+    # gameweek the moment the current one's transfer deadline passes -
+    # often while real matches from the current gameweek are still
+    # unplayed, since a real PL gameweek's fixtures spread across
+    # several real days (Fri-Mon) and the deadline sits before the
+    # first of them, not after the last. Using next_event
+    # unconditionally meant the Predictions page skipped straight to
+    # next gameweek's fixtures while real, still-pending current-
+    # gameweek matches (checked directly: 5 real GW2 fixtures with
+    # started=False, kicking off after GW3's own deadline had already
+    # passed) never appeared at all. Show the current gameweek's own
+    # remaining real fixtures while any exist; only roll over to
+    # next_event once it's genuinely done. current_event may be
+    # missing (very start of preseason) or equal to next_event
+    # (deadline hasn't passed yet) - both correctly fall through to
+    # the next_event branch unchanged from before.
+    current_event = next((ev for ev in data["events"] if ev.get("is_current")), None)
+    fixtures_event = next_event
+    fixtures = []
+    if current_event and current_event["id"] != next_event["id"]:
+        current_fixtures = fetch_json(FIXTURES_URL.format(event_id=current_event["id"]))
+        pending_current = [f for f in current_fixtures if not f.get("started")]
+        if pending_current:
+            fixtures_event = current_event
+            fixtures = pending_current
+    if not fixtures:
+        fixtures = fetch_json(FIXTURES_URL.format(event_id=next_event["id"]))
+
     fixture_lookup = build_fixture_lookup(fixtures, teams)
     fixtures_list = build_fixtures_list(fixtures, teams, teams_by_id, squad_ratings, data["elements"], all_transfer_events, manager_changes, tracking_since)
 
@@ -2225,6 +2252,12 @@ def main():
             "deadlineISO": next_event["deadline_time"],
             "deadlineLabel": deadline.strftime("%a %d %b · %H:%M UTC"),
         },
+        # Which real gameweek fixtures_list's fixtures actually belong to
+        # - not always the same as gameweek.name above (see the real
+        # incident noted where `fixtures` is built earlier in main()) -
+        # the frontend must label the fixtures panel with this, not
+        # gameweek.name, or the label and the fixtures shown disagree.
+        "fixturesGameweekName": fixtures_event["name"],
         "captainPicks": [
             {"id": register(e), "score": captain_scores[e["id"]][0], "factors": captain_scores[e["id"]][1]}
             for e in captain_picks
