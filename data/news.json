@@ -1,18 +1,45 @@
 {
-  "generatedAt": "2026-08-30T21:52:03.048295+00:00",
+  "generatedAt": "2026-08-31T00:11:33.850475+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Watch: Match of the Day",
-      "description": "Highlights of four Premier League matches, including Manchester United v Ipswich.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "title": "Given credits Farke's second-half tactical shift in Brentford draw",
+      "description": "Match of the Day pundit Shay Given commends Leeds United's second-half tactical shift after Dominic Calvert-Lewin struck late to salvage a 1-1 draw with Brentford.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c770rlyx817o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T22:40:29+00:00"
+      "pubDateISO": "2026-08-30T23:09:18+00:00"
+    },
+    {
+      "title": "Can Chelsea win the league with three at the back? - Given's verdict",
+      "description": "Match of the Day pundit Shay Given praises Chelsea's flying wing-backs, backing Xabi Alonso's side to win the Premier League title using a three-at-the-back system.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwyz17d1vy9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T22:59:49+00:00"
+    },
+    {
+      "title": "MOTD pundits debate controversial own goal in Man Utd victory",
+      "description": "Match of the Day pundits Ellen White and Shay Given discuss the refereeing controversy at Old Trafford whereby a loophole allowed a Harry Maguire handball to stand as a Jacob Greaves own goal.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cp93xrk5k5xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T22:47:53+00:00"
+    },
+    {
+      "title": "'He's on it all the time' - White praises 'unbelievable' Fernandes",
+      "description": "Match of the Day pundit Ellen White labels Bruno Fernandes \"unbelievable\", after the midfielder's hat-trick in Manchester United's 5-2 comeback win against Ipswich Town.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cy4zmlrrpxxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-30T22:37:24+00:00"
     },
     {
       "title": "Papers: Arsenal could eye Rashford loan to replace Martinelli",
@@ -78,15 +105,6 @@
       "pubDateISO": "2026-08-30T20:01:40+00:00"
     },
     {
-      "title": "'It doesn't feel like a goal' - O'Neil questions law after 'blatant' Maguire handball",
-      "description": "Ipswich Town manager Gary O'Neil questions the handball rule after a loophole allowed Harry Maguire's handling offence to stand as a Jacob Greaves own goal.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cwyzxz0yvz0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T20:01:40+00:00"
-    },
-    {
       "title": "Carrick 'really pleased' as Fernandes hat-trick sparks Man Utd comeback",
       "description": "Manchester United manager Michael Carrick is \"really pleased\" with his team as Bruno Fernandes' hat-trick inspires a 5-2 comeback win over Ipswich Town, following last weekend's opening-day defeat.",
       "link": "https://www.bbc.co.uk/sport/football/videos/c05rprn1ld1o",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-08-30T19:41:31+00:00"
-    },
-    {
-      "title": "Man Utd latest: Carrick 'looking for more' in transfer window",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-08-30T19:31:00+00:00"
-    },
-    {
-      "title": "Watch: Sportscene - Sunday's Scottish Premiership highlights",
-      "description": "With Aberdeen v Rangers, Dundee v Hibs and St Mirren v Motherwell",
-      "link": "https://www.bbc.co.uk/iplayer/episode/m00312t8",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T19:15:44+00:00"
     }
   ]
 }
