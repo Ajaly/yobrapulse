@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-31T00:11:33.850475+00:00",
+  "generatedAt": "2026-08-31T06:36:04.830406+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge with today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4g7ljprwzmo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-08-31T05:45:38+00:00"
+    },
+    {
+      "title": "'It's not a good relationship, it's a deal for money' - Emery on Villa-Chelsea moves",
+      "description": "Unai Emery insists that there are no \"good relations\" between Chelsea and Aston Villa after a series of transfers between the clubs.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgy0qjl0xno",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-08-31T05:31:02+00:00"
+    },
     {
       "title": "Given credits Farke's second-half tactical shift in Brentford draw",
       "description": "Match of the Day pundit Shay Given commends Leeds United's second-half tactical shift after Dominic Calvert-Lewin struck late to salvage a 1-1 draw with Brentford.",
@@ -15,7 +33,7 @@
       "pubDateISO": "2026-08-30T23:09:18+00:00"
     },
     {
-      "title": "Can Chelsea win the league with three at the back? - Given's verdict",
+      "title": "Can Chelsea win the league with three at the back? Given's verdict",
       "description": "Match of the Day pundit Shay Given praises Chelsea's flying wing-backs, backing Xabi Alonso's side to win the Premier League title using a three-at-the-back system.",
       "link": "https://www.bbc.co.uk/sport/football/videos/cwyz17d1vy9o",
       "source": "BBC Sport",
@@ -94,24 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-30T20:04:26+00:00"
-    },
-    {
-      "title": "'It doesn't feel like a goal' - O'Neil questions law after 'blatant' Maguire handball",
-      "description": "Ipswich Town manager Gary O'Neil questions the handball rule after a loophole allowed Harry Maguire's handling offence to stand as a Jacob Greaves own goal.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cwyzxz0yvz0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T20:01:40+00:00"
-    },
-    {
-      "title": "Carrick 'really pleased' as Fernandes hat-trick sparks Man Utd comeback",
-      "description": "Manchester United manager Michael Carrick is \"really pleased\" with his team as Bruno Fernandes' hat-trick inspires a 5-2 comeback win over Ipswich Town, following last weekend's opening-day defeat.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c05rprn1ld1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-30T19:41:31+00:00"
     }
   ]
 }
