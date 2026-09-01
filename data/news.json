@@ -1,13 +1,22 @@
 {
-  "generatedAt": "2026-09-01T00:22:27.386399+00:00",
+  "generatedAt": "2026-09-01T06:02:09.914505+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
+      "title": "Arsenal explore late move for Alvarez - Tuesday gossip",
+      "description": "Arsenal still interested in signing Julian Alvarez, Liverpool reject \u00a330m bid from Nottingham Forest for Trey Nyoni, Borussia Dortmund consider move for Jadon Sancho.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwyz130nxkro",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-01T05:43:23+00:00"
+    },
+    {
       "title": "Arteta joins elite 250 club - but where does he rank?",
-      "description": "At full-time in Arsenal's 1-0 win at Aston Villa, the travelling supporters sang about how their team will win the league again with Mikel Arteta in charge.",
+      "description": "Arsenal's fans are singing about winning the league again under Mikel Arteta. Monday's 1-0 win at Aston Villa demonstrated the strengths they have developed under their long-serving manager.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cy4z8qjx931o",
       "source": "BBC Sport",
       "category": "transfer",
@@ -103,15 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-08-31T21:07:46+00:00"
-    },
-    {
-      "title": "Mudryk to Spurs as Chelsea's Sanchez heads to Como",
-      "description": "Chelsea accept offers from Tottenham for winger Mykhailo Mudryk and defender Tosin Adarabioyo, as well as a bid from Italian club Como for goalkeeper Robert Sanchez.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gj341p8ypo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-08-31T21:05:13+00:00"
     }
   ]
 }
