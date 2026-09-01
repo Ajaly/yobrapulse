@@ -231,10 +231,11 @@
       "predictedScore": "1.2 \u2014 1.3",
       "marketOdds": null,
       "loggedAt": "2026-08-21T18:27:40.421706+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": true,
+      "marketCorrect": null,
+      "actualScore": "1 \u2014 4"
     },
     {
       "id": 14,
@@ -247,10 +248,11 @@
       "predictedScore": "1.7 \u2014 1.0",
       "marketOdds": null,
       "loggedAt": "2026-08-21T18:27:40.421712+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": null,
+      "actualScore": "2 \u2014 2"
     },
     {
       "id": 12,
@@ -263,10 +265,11 @@
       "predictedScore": "1.4 \u2014 1.2",
       "marketOdds": null,
       "loggedAt": "2026-08-21T18:27:40.421714+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": null,
+      "actualScore": "1 \u2014 1"
     },
     {
       "id": 13,
@@ -279,10 +282,11 @@
       "predictedScore": "1.6 \u2014 1.1",
       "marketOdds": null,
       "loggedAt": "2026-08-21T18:27:40.421715+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": null,
+      "actualScore": "0 \u2014 1"
     },
     {
       "id": 15,
@@ -295,10 +299,11 @@
       "predictedScore": "1.4 \u2014 1.2",
       "marketOdds": null,
       "loggedAt": "2026-08-21T18:27:40.421719+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": null,
+      "actualScore": "0 \u2014 2"
     },
     {
       "id": 16,
@@ -311,10 +316,11 @@
       "predictedScore": "1.7 \u2014 1.0",
       "marketOdds": null,
       "loggedAt": "2026-08-21T18:27:40.421721+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": null,
+      "actualScore": "4 \u2014 3"
     },
     {
       "id": 17,
@@ -327,10 +333,11 @@
       "predictedScore": "1.3 \u2014 1.2",
       "marketOdds": null,
       "loggedAt": "2026-08-21T18:27:40.421722+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": null,
+      "actualScore": "1 \u2014 1"
     },
     {
       "id": 19,
@@ -343,10 +350,11 @@
       "predictedScore": "1.4 \u2014 1.2",
       "marketOdds": null,
       "loggedAt": "2026-08-21T18:27:40.421726+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": null,
+      "actualScore": "1 \u2014 0"
     },
     {
       "id": 18,
@@ -359,10 +367,11 @@
       "predictedScore": "1.8 \u2014 0.9",
       "marketOdds": null,
       "loggedAt": "2026-08-21T18:27:40.421730+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": null,
+      "actualScore": "5 \u2014 2"
     },
     {
       "id": 20,
@@ -375,10 +384,11 @@
       "predictedScore": "1.2 \u2014 1.4",
       "marketOdds": null,
       "loggedAt": "2026-08-21T18:27:40.421732+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": true,
+      "marketCorrect": null,
+      "actualScore": "0 \u2014 1"
     },
     {
       "id": 21,
