@@ -390,6 +390,16 @@
       "toTeam": "Chelsea",
       "detectedAt": "2026-08-30T14:19:52.967021+00:00",
       "marketValue": 50
+    },
+    {
+      "playerId": 201,
+      "playerName": "Mu\u00f1oz",
+      "fromTeamId": 8,
+      "fromTeam": "Crystal Palace",
+      "toTeamId": 18,
+      "toTeam": "Nott'm Forest",
+      "detectedAt": "2026-09-01T15:53:51.616241+00:00",
+      "marketValue": 54
     }
   ]
 }
