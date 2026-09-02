@@ -613,6 +613,10 @@
       "team": 5,
       "name": "Cozier-Duberry"
     },
+    "639": {
+      "team": 5,
+      "name": "Andr\u00e9s"
+    },
     "28": {
       "team": 6,
       "name": "Martinez"
@@ -657,10 +661,6 @@
       "team": 6,
       "name": "B.Badiashile"
     },
-    "147": {
-      "team": 6,
-      "name": "Tosin"
-    },
     "148": {
       "team": 6,
       "name": "Hato"
@@ -684,10 +684,6 @@
     "154": {
       "team": 6,
       "name": "Palmer"
-    },
-    "155": {
-      "team": 6,
-      "name": "Enzo"
     },
     "156": {
       "team": 6,
@@ -748,10 +744,6 @@
     "568": {
       "team": 6,
       "name": "Barco"
-    },
-    "578": {
-      "team": 6,
-      "name": "Mudryk"
     },
     "583": {
       "team": 6,
@@ -1029,6 +1021,18 @@
       "team": 8,
       "name": "Ahanor"
     },
+    "643": {
+      "team": 8,
+      "name": "Chilwell"
+    },
+    "644": {
+      "team": 8,
+      "name": "Timber"
+    },
+    "647": {
+      "team": 8,
+      "name": "Osorio"
+    },
     "21": {
       "team": 9,
       "name": "N\u00f8rgaard"
@@ -1081,17 +1085,13 @@
       "team": 9,
       "name": "Dewsbury-Hall"
     },
-    "237": {
+    "238": {
       "team": 9,
-      "name": "Ndiaye"
+      "name": "Grealish"
     },
     "239": {
       "team": 9,
       "name": "Garner"
-    },
-    "240": {
-      "team": 9,
-      "name": "Iroegbunam"
     },
     "242": {
       "team": 9,
@@ -1124,6 +1124,10 @@
     "249": {
       "team": 9,
       "name": "Barry"
+    },
+    "649": {
+      "team": 9,
+      "name": "Maitland-Niles"
     },
     "250": {
       "team": 10,
@@ -1228,6 +1232,18 @@
     "635": {
       "team": 10,
       "name": "Larsson"
+    },
+    "636": {
+      "team": 10,
+      "name": "\u00c1ngel"
+    },
+    "650": {
+      "team": 10,
+      "name": "Affengruber"
+    },
+    "240": {
+      "team": 11,
+      "name": "Iroegbunam"
     },
     "273": {
       "team": 11,
@@ -1381,6 +1397,22 @@
       "team": 11,
       "name": "Ansah"
     },
+    "637": {
+      "team": 11,
+      "name": "Vaz"
+    },
+    "638": {
+      "team": 11,
+      "name": "Norton-Cuffy"
+    },
+    "642": {
+      "team": 11,
+      "name": "Thomas"
+    },
+    "645": {
+      "team": 11,
+      "name": "Mouzakitis"
+    },
     "259": {
       "team": 12,
       "name": "Diop"
@@ -1521,6 +1553,10 @@
       "team": 12,
       "name": "Palacios"
     },
+    "640": {
+      "team": 12,
+      "name": "Flemming"
+    },
     "260": {
       "team": 13,
       "name": "Wilson"
@@ -1636,6 +1672,14 @@
     "629": {
       "team": 13,
       "name": "Zetterer"
+    },
+    "641": {
+      "team": 13,
+      "name": "Bard"
+    },
+    "648": {
+      "team": 13,
+      "name": "Bahoya"
     },
     "350": {
       "team": 14,
@@ -1781,9 +1825,13 @@
       "team": 14,
       "name": "Barcola"
     },
-    "238": {
+    "155": {
       "team": 15,
-      "name": "Grealish"
+      "name": "Enzo"
+    },
+    "237": {
+      "team": 15,
+      "name": "Ndiaye"
     },
     "384": {
       "team": 15,
@@ -2281,6 +2329,10 @@
       "team": 19,
       "name": "Van Hecke"
     },
+    "147": {
+      "team": 19,
+      "name": "Tosin"
+    },
     "401": {
       "team": 19,
       "name": "Marmoush"
@@ -2320,10 +2372,6 @@
     "500": {
       "team": 19,
       "name": "Romero"
-    },
-    "501": {
-      "team": 19,
-      "name": "Danso"
     },
     "502": {
       "team": 19,
@@ -2429,9 +2477,17 @@
       "team": 19,
       "name": "Scarlett"
     },
+    "578": {
+      "team": 19,
+      "name": "Mudryk"
+    },
     "601": {
       "team": 19,
       "name": "Williams-Barnett"
+    },
+    "501": {
+      "team": 20,
+      "name": "Danso"
     },
     "529": {
       "team": 20,
@@ -2540,6 +2596,14 @@
     "613": {
       "team": 20,
       "name": "Ahoka"
+    },
+    "646": {
+      "team": 20,
+      "name": "Fofana"
+    },
+    "651": {
+      "team": 20,
+      "name": "J.Angulo"
     }
   }
 }

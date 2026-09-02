@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T14:57:23.853460+00:00",
+  "generatedAt": "2026-09-02T18:24:20.383868+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -225,7 +225,6 @@
     "106",
     "28",
     "223",
-    "248",
     "350",
     "112",
     "401",
@@ -234,7 +233,6 @@
     "452",
     "32",
     "142",
-    "155",
     "159",
     "204",
     "556",
@@ -242,6 +240,7 @@
     "357",
     "358",
     "579",
+    "155",
     "499",
     "539",
     "25",
@@ -254,8 +253,7 @@
     "301",
     "201",
     "497",
-    "503",
-    "528"
+    "503"
   ],
   "transferAdvice": {
     "in": [
@@ -345,7 +343,7 @@
       "adjustedSwing": 1.0,
       "nearFdr": 3.33,
       "laterFdr": 2.33,
-      "squadAvailability": 0.95,
+      "squadAvailability": 0.94,
       "fixtures": [
         "@ Man City",
         "vs Brighton",
@@ -390,7 +388,7 @@
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.91,
+        "homeAvailability": 0.9,
         "awayAvailability": 0.95,
         "homeTransferImpactM": 5.0,
         "awayTransferImpactM": 5.5
@@ -437,7 +435,7 @@
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.92,
+        "homeAvailability": 0.91,
         "awayAvailability": 0.92,
         "homeTransferImpactM": 0,
         "awayTransferImpactM": 0
@@ -462,16 +460,16 @@
         },
         "away": {
           "transfers": {
-            "in": 0,
+            "in": 1,
             "out": 0,
             "windowDays": 30
           },
           "managerChange": null
         }
       },
-      "homeWinPct": 49,
+      "homeWinPct": 48,
       "drawPct": 24,
-      "awayWinPct": 27,
+      "awayWinPct": 28,
       "predictedScore": "1.6 \u2014 1.0",
       "factors": {
         "homeForm": null,
@@ -480,7 +478,7 @@
         "homeAvailability": 0.96,
         "awayAvailability": 0.97,
         "homeTransferImpactM": -15.0,
-        "awayTransferImpactM": 0
+        "awayTransferImpactM": 5.0
       },
       "marketOdds": null
     },
@@ -574,8 +572,8 @@
         "trackingSince": "2026-08-13T06:10:25.404980+00:00",
         "home": {
           "transfers": {
-            "in": 0,
-            "out": 3,
+            "in": 2,
+            "out": 4,
             "windowDays": 30
           },
           "managerChange": null
@@ -589,17 +587,17 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 69,
+      "homeWinPct": 71,
       "drawPct": 21,
-      "awayWinPct": 10,
+      "awayWinPct": 8,
       "predictedScore": "2.1 \u2014 0.6",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.98,
-        "awayAvailability": 0.95,
-        "homeTransferImpactM": -11.0,
+        "awayAvailability": 0.94,
+        "homeTransferImpactM": -4.6,
         "awayTransferImpactM": 14.0
       },
       "marketOdds": null
@@ -622,8 +620,8 @@
         },
         "away": {
           "transfers": {
-            "in": 2,
-            "out": 0,
+            "in": 4,
+            "out": 1,
             "windowDays": 30
           },
           "managerChange": null
@@ -640,7 +638,7 @@
         "homeAvailability": 0.96,
         "awayAvailability": 0.95,
         "homeTransferImpactM": -1.1,
-        "awayTransferImpactM": 24.0
+        "awayTransferImpactM": 28.9
       },
       "marketOdds": null
     },
@@ -654,7 +652,7 @@
         "trackingSince": "2026-08-13T06:10:25.404980+00:00",
         "home": {
           "transfers": {
-            "in": 1,
+            "in": 2,
             "out": 0,
             "windowDays": 30
           },
@@ -669,17 +667,17 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 55,
+      "homeWinPct": 56,
       "drawPct": 22,
-      "awayWinPct": 23,
+      "awayWinPct": 22,
       "predictedScore": "1.6 \u2014 1.0",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.85,
+        "homeAvailability": 0.87,
         "awayAvailability": 0.91,
-        "homeTransferImpactM": 0,
+        "homeTransferImpactM": 5.0,
         "awayTransferImpactM": -22.0
       },
       "marketOdds": null
@@ -694,8 +692,8 @@
         "trackingSince": "2026-08-13T06:10:25.404980+00:00",
         "home": {
           "transfers": {
-            "in": 0,
-            "out": 0,
+            "in": 1,
+            "out": 2,
             "windowDays": 30
           },
           "managerChange": null
@@ -709,9 +707,9 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 43,
+      "homeWinPct": 42,
       "drawPct": 25,
-      "awayWinPct": 32,
+      "awayWinPct": 33,
       "predictedScore": "1.5 \u2014 1.1",
       "factors": {
         "homeForm": null,
@@ -719,7 +717,7 @@
         "h2h": null,
         "homeAvailability": 0.98,
         "awayAvailability": 0.96,
-        "homeTransferImpactM": -1.0,
+        "homeTransferImpactM": -5.5,
         "awayTransferImpactM": 15.5
       },
       "marketOdds": null
@@ -743,14 +741,14 @@
         "away": {
           "transfers": {
             "in": 1,
-            "out": 3,
+            "out": 6,
             "windowDays": 30
           },
           "managerChange": null
         }
       },
-      "homeWinPct": 56,
-      "drawPct": 23,
+      "homeWinPct": 57,
+      "drawPct": 22,
       "awayWinPct": 21,
       "predictedScore": "1.7 \u2014 0.9",
       "factors": {
@@ -760,7 +758,7 @@
         "homeAvailability": 0.99,
         "awayAvailability": 0.96,
         "homeTransferImpactM": 10.0,
-        "awayTransferImpactM": 13.0
+        "awayTransferImpactM": -3.8
       },
       "marketOdds": null
     }
@@ -1489,7 +1487,7 @@
       "name": "Brighton",
       "shortName": "BHA",
       "crestClass": "blue-crest",
-      "squadSize": 34,
+      "squadSize": 35,
       "squad": [
         {
           "id": 113,
@@ -1660,11 +1658,16 @@
           "id": 624,
           "name": "Cozier-Duberry",
           "position": "MID"
+        },
+        {
+          "id": 639,
+          "name": "Andr\u00e9s",
+          "position": "MID"
         }
       ],
       "squadRating": 5.25,
-      "squadValue": "\u00a3170.0m",
-      "leagueRank": 6,
+      "squadValue": "\u00a3175.5m",
+      "leagueRank": 5,
       "strengthHome": 2,
       "strengthAway": 3,
       "nextOpponent": "Leeds",
@@ -1684,7 +1687,7 @@
       "name": "Chelsea",
       "shortName": "CHE",
       "crestClass": "orange-crest",
-      "squadSize": 36,
+      "squadSize": 33,
       "squad": [
         {
           "id": 142,
@@ -1709,11 +1712,6 @@
         {
           "id": 146,
           "name": "B.Badiashile",
-          "position": "DEF"
-        },
-        {
-          "id": 147,
-          "name": "Tosin",
           "position": "DEF"
         },
         {
@@ -1817,11 +1815,6 @@
           "position": "MID"
         },
         {
-          "id": 155,
-          "name": "Enzo",
-          "position": "MID"
-        },
-        {
           "id": 156,
           "name": "Neto",
           "position": "MID"
@@ -1860,15 +1853,10 @@
           "id": 568,
           "name": "Barco",
           "position": "MID"
-        },
-        {
-          "id": 578,
-          "name": "Mudryk",
-          "position": "MID"
         }
       ],
-      "squadRating": 4.57,
-      "squadValue": "\u00a3195.9m",
+      "squadRating": 4.58,
+      "squadValue": "\u00a3179.1m",
       "leagueRank": 10,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -1880,7 +1868,7 @@
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 1,
-        "out": 3,
+        "out": 6,
         "windowDays": 30
       },
       "managerChange": null
@@ -2089,7 +2077,7 @@
       "name": "Crystal Palace",
       "shortName": "CRY",
       "crestClass": "",
-      "squadSize": 33,
+      "squadSize": 36,
       "squad": [
         {
           "id": 153,
@@ -2144,6 +2132,11 @@
         {
           "id": 633,
           "name": "Ahanor",
+          "position": "DEF"
+        },
+        {
+          "id": 643,
+          "name": "Chilwell",
           "position": "DEF"
         },
         {
@@ -2255,10 +2248,20 @@
           "id": 595,
           "name": "Gozo",
           "position": "MID"
+        },
+        {
+          "id": 644,
+          "name": "Timber",
+          "position": "MID"
+        },
+        {
+          "id": 647,
+          "name": "Osorio",
+          "position": "MID"
         }
       ],
       "squadRating": 2.21,
-      "squadValue": "\u00a3164.2m",
+      "squadValue": "\u00a3179.2m",
       "leagueRank": 18,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -2317,6 +2320,11 @@
           "position": "DEF"
         },
         {
+          "id": 649,
+          "name": "Maitland-Niles",
+          "position": "DEF"
+        },
+        {
           "id": 248,
           "name": "Beto",
           "position": "FWD"
@@ -2357,18 +2365,13 @@
           "position": "MID"
         },
         {
-          "id": 237,
-          "name": "Ndiaye",
+          "id": 238,
+          "name": "Grealish",
           "position": "MID"
         },
         {
           "id": 239,
           "name": "Garner",
-          "position": "MID"
-        },
-        {
-          "id": 240,
-          "name": "Iroegbunam",
           "position": "MID"
         },
         {
@@ -2402,9 +2405,9 @@
           "position": "MID"
         }
       ],
-      "squadRating": 5.29,
+      "squadRating": 5.16,
       "squadValue": "\u00a3125.9m",
-      "leagueRank": 5,
+      "leagueRank": 6,
       "strengthHome": 3,
       "strengthAway": 3,
       "nextOpponent": "Man Utd",
@@ -2412,10 +2415,10 @@
       "nextFdr": 4,
       "nextFdrClass": "hard",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
-        "in": 0,
-        "out": 0,
+        "in": 1,
+        "out": 2,
         "windowDays": 30
       },
       "managerChange": null
@@ -2424,7 +2427,7 @@
       "name": "Fulham",
       "shortName": "FUL",
       "crestClass": "orange-crest",
-      "squadSize": 26,
+      "squadSize": 28,
       "squad": [
         {
           "id": 253,
@@ -2464,6 +2467,11 @@
         {
           "id": 610,
           "name": "De Fougerolles",
+          "position": "DEF"
+        },
+        {
+          "id": 650,
+          "name": "Affengruber",
           "position": "DEF"
         },
         {
@@ -2555,10 +2563,15 @@
           "id": 635,
           "name": "Larsson",
           "position": "MID"
+        },
+        {
+          "id": 636,
+          "name": "\u00c1ngel",
+          "position": "MID"
         }
       ],
       "squadRating": 3.06,
-      "squadValue": "\u00a3126.5m",
+      "squadValue": "\u00a3136.0m",
       "leagueRank": 16,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -2579,7 +2592,7 @@
       "name": "Hull City",
       "shortName": "HUL",
       "crestClass": "pink-crest",
-      "squadSize": 38,
+      "squadSize": 43,
       "squad": [
         {
           "id": 277,
@@ -2642,6 +2655,11 @@
           "position": "DEF"
         },
         {
+          "id": 638,
+          "name": "Norton-Cuffy",
+          "position": "DEF"
+        },
+        {
           "id": 295,
           "name": "McBurnie",
           "position": "FWD"
@@ -2659,6 +2677,11 @@
         {
           "id": 632,
           "name": "Ansah",
+          "position": "FWD"
+        },
+        {
+          "id": 637,
+          "name": "Vaz",
           "position": "FWD"
         },
         {
@@ -2685,6 +2708,11 @@
           "id": 572,
           "name": "Tzolakis",
           "position": "GKP"
+        },
+        {
+          "id": 240,
+          "name": "Iroegbunam",
+          "position": "MID"
         },
         {
           "id": 286,
@@ -2770,10 +2798,20 @@
           "id": 617,
           "name": "Cho",
           "position": "MID"
+        },
+        {
+          "id": 642,
+          "name": "Thomas",
+          "position": "MID"
+        },
+        {
+          "id": 645,
+          "name": "Mouzakitis",
+          "position": "MID"
         }
       ],
-      "squadRating": 6.12,
-      "squadValue": "\u00a3170.6m",
+      "squadRating": 6.15,
+      "squadValue": "\u00a3195.1m",
       "leagueRank": 2,
       "strengthHome": 2,
       "strengthAway": 2,
@@ -2784,7 +2822,7 @@
       "form": null,
       "fixtureLoad": 2,
       "recentTransfers": {
-        "in": 1,
+        "in": 2,
         "out": 0,
         "windowDays": 30
       },
@@ -2794,7 +2832,7 @@
       "name": "Ipswich Town",
       "shortName": "IPS",
       "crestClass": "",
-      "squadSize": 35,
+      "squadSize": 36,
       "squad": [
         {
           "id": 259,
@@ -2859,6 +2897,11 @@
         {
           "id": 322,
           "name": "Al-Hamadi",
+          "position": "FWD"
+        },
+        {
+          "id": 640,
+          "name": "Flemming",
           "position": "FWD"
         },
         {
@@ -2973,7 +3016,7 @@
         }
       ],
       "squadRating": 3.79,
-      "squadValue": "\u00a3164.2m",
+      "squadValue": "\u00a3169.7m",
       "leagueRank": 12,
       "strengthHome": 2,
       "strengthAway": 2,
@@ -2994,7 +3037,7 @@
       "name": "Leeds",
       "shortName": "LEE",
       "crestClass": "blue-crest",
-      "squadSize": 29,
+      "squadSize": 31,
       "squad": [
         {
           "id": 327,
@@ -3039,6 +3082,11 @@
         {
           "id": 603,
           "name": "Lienou",
+          "position": "DEF"
+        },
+        {
+          "id": 641,
+          "name": "Bard",
           "position": "DEF"
         },
         {
@@ -3140,10 +3188,15 @@
           "id": 604,
           "name": "Cresswell",
           "position": "MID"
+        },
+        {
+          "id": 648,
+          "name": "Bahoya",
+          "position": "MID"
         }
       ],
       "squadRating": 5.1,
-      "squadValue": "\u00a3143.2m",
+      "squadValue": "\u00a3152.7m",
       "leagueRank": 7,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -3369,7 +3422,7 @@
       "name": "Man City",
       "shortName": "MCI",
       "crestClass": "pink-crest",
-      "squadSize": 31,
+      "squadSize": 32,
       "squad": [
         {
           "id": 387,
@@ -3447,8 +3500,13 @@
           "position": "GKP"
         },
         {
-          "id": 238,
-          "name": "Grealish",
+          "id": 155,
+          "name": "Enzo",
+          "position": "MID"
+        },
+        {
+          "id": 237,
+          "name": "Ndiaye",
           "position": "MID"
         },
         {
@@ -3527,8 +3585,8 @@
           "position": "MID"
         }
       ],
-      "squadRating": 4.98,
-      "squadValue": "\u00a3185.8m",
+      "squadRating": 5.06,
+      "squadValue": "\u00a3192.2m",
       "leagueRank": 8,
       "strengthHome": 4,
       "strengthAway": 5,
@@ -3539,8 +3597,8 @@
       "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
-        "in": 0,
-        "out": 3,
+        "in": 2,
+        "out": 4,
         "windowDays": 30
       },
       "managerChange": null
@@ -4096,11 +4154,16 @@
       "name": "Spurs",
       "shortName": "TOT",
       "crestClass": "pink-crest",
-      "squadSize": 39,
+      "squadSize": 40,
       "squad": [
         {
           "id": 112,
           "name": "Van Hecke",
+          "position": "DEF"
+        },
+        {
+          "id": 147,
+          "name": "Tosin",
           "position": "DEF"
         },
         {
@@ -4116,11 +4179,6 @@
         {
           "id": 500,
           "name": "Romero",
-          "position": "DEF"
-        },
-        {
-          "id": 501,
-          "name": "Danso",
           "position": "DEF"
         },
         {
@@ -4289,13 +4347,18 @@
           "position": "MID"
         },
         {
+          "id": 578,
+          "name": "Mudryk",
+          "position": "MID"
+        },
+        {
           "id": 601,
           "name": "Williams-Barnett",
           "position": "MID"
         }
       ],
       "squadRating": 2.1,
-      "squadValue": "\u00a3200.6m",
+      "squadValue": "\u00a3205.5m",
       "leagueRank": 19,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -4304,10 +4367,10 @@
       "nextFdr": 3,
       "nextFdrClass": "mid",
       "form": null,
-      "fixtureLoad": 1,
+      "fixtureLoad": 2,
       "recentTransfers": {
-        "in": 2,
-        "out": 0,
+        "in": 4,
+        "out": 1,
         "windowDays": 30
       },
       "managerChange": null
@@ -4316,8 +4379,13 @@
       "name": "Sunderland",
       "shortName": "SUN",
       "crestClass": "",
-      "squadSize": 27,
+      "squadSize": 30,
       "squad": [
+        {
+          "id": 501,
+          "name": "Danso",
+          "position": "DEF"
+        },
         {
           "id": 532,
           "name": "Ballard",
@@ -4381,6 +4449,11 @@
         {
           "id": 553,
           "name": "Isidor",
+          "position": "FWD"
+        },
+        {
+          "id": 651,
+          "name": "J.Angulo",
           "position": "FWD"
         },
         {
@@ -4452,10 +4525,15 @@
           "id": 613,
           "name": "Ahoka",
           "position": "MID"
+        },
+        {
+          "id": 646,
+          "name": "Fofana",
+          "position": "MID"
         }
       ],
       "squadRating": 4.7,
-      "squadValue": "\u00a3131.6m",
+      "squadValue": "\u00a3146.6m",
       "leagueRank": 9,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -4466,7 +4544,7 @@
       "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
-        "in": 0,
+        "in": 1,
         "out": 0,
         "windowDays": 30
       },
@@ -4483,7 +4561,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a312.0m",
-      "owned": "48.5%",
+      "owned": "48.6%",
       "points": 25,
       "epNext": 12.5,
       "form": 12.5,
@@ -4514,7 +4592,7 @@
       "avatar": "RC",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.7m",
-      "owned": "25.0%",
+      "owned": "25.3%",
       "points": 22,
       "epNext": 11.0,
       "form": 11.0,
@@ -4576,7 +4654,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a35.6m",
-      "owned": "43.4%",
+      "owned": "43.5%",
       "points": 20,
       "epNext": 10.0,
       "form": 10.0,
@@ -4638,7 +4716,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.7m",
-      "owned": "69.9%",
+      "owned": "69.8%",
       "points": 20,
       "epNext": 10.0,
       "form": 10.0,
@@ -4700,7 +4778,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.7m",
-      "owned": "12.9%",
+      "owned": "13.0%",
       "points": 18,
       "epNext": 9.0,
       "form": 9.0,
@@ -4731,7 +4809,7 @@
       "avatar": "DG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.0m",
-      "owned": "4.4%",
+      "owned": "4.5%",
       "points": 11,
       "epNext": 5.5,
       "form": 5.5,
@@ -4762,7 +4840,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "30.1%",
+      "owned": "30.0%",
       "points": 13,
       "epNext": 6.5,
       "form": 6.5,
@@ -4855,7 +4933,7 @@
       "avatar": "SA",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.1m",
-      "owned": "7.7%",
+      "owned": "7.8%",
       "points": 20,
       "epNext": 10.0,
       "form": 10.0,
@@ -4886,7 +4964,7 @@
       "avatar": "KT",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "6.8%",
+      "owned": "6.9%",
       "points": 20,
       "epNext": 10.0,
       "form": 10.0,
@@ -4917,7 +4995,7 @@
       "avatar": "JE",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "4.2%",
+      "owned": "4.3%",
       "points": 17,
       "epNext": 8.5,
       "form": 8.5,
@@ -4979,7 +5057,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.7m",
-      "owned": "14.5%",
+      "owned": "14.6%",
       "points": 17,
       "epNext": 8.5,
       "form": 8.5,
@@ -5103,7 +5181,7 @@
       "avatar": "LH",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.1m",
-      "owned": "8.3%",
+      "owned": "8.4%",
       "points": 14,
       "epNext": 7.0,
       "form": 7.0,
@@ -5382,7 +5460,7 @@
       "avatar": "AE",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.1m",
-      "owned": "8.0%",
+      "owned": "8.1%",
       "points": 17,
       "epNext": 8.5,
       "form": 8.5,
@@ -5444,7 +5522,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "14.4%",
+      "owned": "14.5%",
       "points": 15,
       "epNext": 7.5,
       "form": 7.5,
@@ -5475,7 +5553,7 @@
       "avatar": "EH",
       "avatarClass": "pink-avatar",
       "price": "\u00a315.5m",
-      "owned": "70.7%",
+      "owned": "70.8%",
       "points": 15,
       "epNext": 7.5,
       "form": 7.5,
@@ -5506,7 +5584,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a37.9m",
-      "owned": "9.2%",
+      "owned": "9.3%",
       "points": 15,
       "epNext": 7.5,
       "form": 7.5,
@@ -5630,7 +5708,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "26.6%",
+      "owned": "26.5%",
       "points": 13,
       "epNext": 6.5,
       "form": 6.5,
@@ -5750,11 +5828,11 @@
       "name": "Iliman Ndiaye",
       "shortName": "Ndiaye",
       "position": "MID",
-      "team": "Everton",
+      "team": "Man City",
       "avatar": "IN",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "14.0%",
+      "owned": "13.8%",
       "points": 13,
       "epNext": 6.5,
       "form": 6.5,
@@ -5770,11 +5848,11 @@
       "saves": 0,
       "cleanSheets": 1,
       "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Man Utd (H)",
-      "fdr": 4,
-      "fdrClass": "hard"
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Coventry City (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
     },
     "1": {
       "id": 1,
@@ -5847,7 +5925,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a37.0m",
-      "owned": "41.6%",
+      "owned": "41.5%",
       "points": 12,
       "epNext": 6.0,
       "form": 6.0,
@@ -5909,7 +5987,7 @@
       "avatar": "YW",
       "avatarClass": "",
       "price": "\u00a36.1m",
-      "owned": "11.0%",
+      "owned": "11.2%",
       "points": 12,
       "epNext": 6.0,
       "form": 6.0,
@@ -5940,7 +6018,7 @@
       "avatar": "AD",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.0%",
+      "owned": "2.1%",
       "points": 12,
       "epNext": 6.0,
       "form": 6.0,
@@ -6033,7 +6111,7 @@
       "avatar": "BT",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "8.3%",
+      "owned": "8.4%",
       "points": 11,
       "epNext": 5.5,
       "form": 5.5,
@@ -6064,7 +6142,7 @@
       "avatar": "MS",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "8.3%",
+      "owned": "8.2%",
       "points": 11,
       "epNext": 5.5,
       "form": 5.5,
@@ -6157,7 +6235,7 @@
       "avatar": "CK",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.0m",
-      "owned": "7.1%",
+      "owned": "7.2%",
       "points": 9,
       "epNext": 4.5,
       "form": 4.5,
@@ -6219,7 +6297,7 @@
       "avatar": "DC",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "26.7%",
+      "owned": "26.6%",
       "points": 9,
       "epNext": 4.5,
       "form": 4.5,
@@ -6622,7 +6700,7 @@
       "avatar": "CT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.5m",
-      "owned": "22.2%",
+      "owned": "22.1%",
       "points": 6,
       "epNext": 3.0,
       "form": 3.0,
@@ -6994,7 +7072,7 @@
       "avatar": "ID",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.0m",
-      "owned": "16.0%",
+      "owned": "15.9%",
       "points": 4,
       "epNext": 2.0,
       "form": 2.0,
@@ -7118,7 +7196,7 @@
       "avatar": "NO",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.5m",
-      "owned": "19.2%",
+      "owned": "19.1%",
       "points": 4,
       "epNext": 2.0,
       "form": 2.0,
@@ -7605,37 +7683,6 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
-    "248": {
-      "id": 248,
-      "name": "Norberto Bercique Gomes Betuncal",
-      "shortName": "Beto",
-      "position": "FWD",
-      "team": "Everton",
-      "avatar": "NB",
-      "avatarClass": "",
-      "price": "\u00a35.4m",
-      "owned": "2.0%",
-      "points": 2,
-      "epNext": 1.0,
-      "form": 1.0,
-      "minutes": 31,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.09,
-      "xa": 0.0,
-      "valueScore": 0.4,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 1,
-      "recoveries": 0,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Man Utd (H)",
-      "fdr": 4,
-      "fdrClass": "hard"
-    },
     "350": {
       "id": 350,
       "name": "Alisson Becker",
@@ -7862,7 +7909,7 @@
       "avatar": "RJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "8.6%",
+      "owned": "8.5%",
       "points": 1,
       "epNext": 0.5,
       "form": 0.5,
@@ -7875,37 +7922,6 @@
       "tackles": 0,
       "clearancesBlocksInterceptions": 6,
       "recoveries": 5,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4,
-      "fixture": "vs Arsenal (A)",
-      "fdr": 5,
-      "fdrClass": "hard"
-    },
-    "155": {
-      "id": 155,
-      "name": "Enzo Fern\u00e1ndez",
-      "shortName": "Enzo",
-      "position": "MID",
-      "team": "Chelsea",
-      "avatar": "EF",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a36.9m",
-      "owned": "3.5%",
-      "points": 1,
-      "epNext": 0.5,
-      "form": 0.5,
-      "minutes": 25,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.02,
-      "valueScore": 0.1,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 3,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -8132,6 +8148,37 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
+    "155": {
+      "id": 155,
+      "name": "Enzo Fern\u00e1ndez",
+      "shortName": "Enzo",
+      "position": "MID",
+      "team": "Man City",
+      "avatar": "EF",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a36.9m",
+      "owned": "3.5%",
+      "points": 1,
+      "epNext": 0.5,
+      "form": 0.5,
+      "minutes": 25,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "xa": 0.02,
+      "valueScore": 0.1,
+      "tackles": 0,
+      "clearancesBlocksInterceptions": 0,
+      "recoveries": 3,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Coventry City (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
+    },
     "499": {
       "id": 499,
       "name": "Pedro Porro Sauceda",
@@ -8141,7 +8188,7 @@
       "avatar": "PP",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "12.2%",
+      "owned": "12.1%",
       "points": 1,
       "epNext": 0.5,
       "form": 0.5,
@@ -8203,7 +8250,7 @@
       "avatar": "VG",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.3m",
-      "owned": "5.3%",
+      "owned": "5.2%",
       "points": 0,
       "epNext": 0.0,
       "form": 0.0,
@@ -8327,7 +8374,7 @@
       "avatar": "FK",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.4m",
-      "owned": "2.1%",
+      "owned": "2.0%",
       "points": 0,
       "epNext": 0.0,
       "form": 0.0,
@@ -8534,41 +8581,10 @@
       "fixture": "vs Nott'm Forest (A)",
       "fdr": 3,
       "fdrClass": "mid"
-    },
-    "528": {
-      "id": 528,
-      "name": "Dane Scarlett",
-      "shortName": "Scarlett",
-      "position": "FWD",
-      "team": "Spurs",
-      "avatar": "DS",
-      "avatarClass": "",
-      "price": "\u00a34.5m",
-      "owned": "2.0%",
-      "points": 0,
-      "epNext": 0.0,
-      "form": 0.0,
-      "minutes": 0,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.0,
-      "valueScore": 0.0,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 0,
-      "recoveries": 0,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Nott'm Forest (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
     }
   },
-  "totalManagers": 10313708,
-  "totalPlayers": 635,
+  "totalManagers": 10322833,
+  "totalPlayers": 651,
   "priceMovement": {
     "risers": [
       {
@@ -8610,7 +8626,7 @@
         "changeEvent": -0.1
       },
       {
-        "id": "155",
+        "id": "159",
         "changeEvent": -0.1
       }
     ]
@@ -8812,45 +8828,45 @@
     "rising": [
       {
         "id": "399",
-        "netTransfersEvent": 1143410
+        "netTransfersEvent": 1165469
       },
       {
         "id": "464",
-        "netTransfersEvent": 595002
+        "netTransfersEvent": 612543
       },
       {
         "id": "454",
-        "netTransfersEvent": 463426
+        "netTransfersEvent": 473832
       },
       {
         "id": "115",
-        "netTransfersEvent": 435858
+        "netTransfersEvent": 445704
       },
       {
         "id": "279",
-        "netTransfersEvent": 398461
+        "netTransfersEvent": 406566
       }
     ],
     "falling": [
       {
         "id": "427",
-        "netTransfersEvent": -418046
+        "netTransfersEvent": -427108
       },
       {
         "id": "557",
-        "netTransfersEvent": -271965
+        "netTransfersEvent": -283696
       },
       {
         "id": "397",
-        "netTransfersEvent": -239607
+        "netTransfersEvent": -244676
       },
       {
         "id": "552",
-        "netTransfersEvent": -201453
+        "netTransfersEvent": -206412
       },
       {
         "id": "223",
-        "netTransfersEvent": -195228
+        "netTransfersEvent": -198690
       }
     ]
   }

@@ -1,18 +1,99 @@
 {
-  "generatedAt": "2026-09-02T14:57:24.817721+00:00",
+  "generatedAt": "2026-09-02T18:24:22.035481+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man Utd latest: 'Midfield rebuild provides room for optimism'",
+      "title": "West Brom, Middlesbrough, Wrexham in action - EFL LIVE on Sky!",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "link": "https://www.skysports.com/football/live-blog/11095/13579447/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-02T15:20:00+00:00"
+      "pubDateISO": "2026-09-02T19:15:00+00:00"
+    },
+    {
+      "title": "Spurs latest: Club braced for Richarlison approach from Turkish side",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-02T18:36:00+00:00"
+    },
+    {
+      "title": "Raskin starts after Rangers reject bid, Celtic arrivals on bench LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/falkirk-vs-rangers/live/558359",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-02T18:30:00+00:00"
+    },
+    {
+      "title": "Why Balogun's move collapsed to leave Everton, Chelsea and Monaco upset",
+      "description": "The biggest controversy of the summer transfer window happened on Deadline Day, involving three clubs and two players.",
+      "link": "https://www.skysports.com/football/news/11095/13580477/why-folarin-baloguns-everton-move-collapsed-on-deadline-day-leaving-toffees-chelsea-and-monaco-frustrated",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-02T18:25:00+00:00"
+    },
+    {
+      "title": "Sunderland latest: Fofana FINALLY arrives in North East!",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-02T18:00:00+00:00"
+    },
+    {
+      "title": "Celtic loan keeper Johnstone & teenage Chelsea duo Mheuka & Emenalo",
+      "description": "Celtic complete loan deals for former England goalkeeper Sam Johnstone and teenage Chelsea duo Shumaira Mheuka and Landon Emenalo.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c07lzmp03kpo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-02T17:25:41+00:00"
+    },
+    {
+      "title": "Celtic loan keeper Johnstone & teenage Chelsea duo Mheuka & Emenalo",
+      "description": "Celtic complete loan deals for former England goalkeeper Sam Johnstone and teenage Chelsea duo Shumaira Mheuka and Landon Emenalo.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c07lzmp03kpo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-02T17:25:41+00:00"
+    },
+    {
+      "title": "Aasgaard set for Anderlecht switch as Rangers reject Raskin bid",
+      "description": "Rangers midfielder Thelo Aasgaard is on the verge of a loan move to Anderlecht, while the Ibrox club have knocked back an loan bid from Besiktas for Belgium midfielder Nicolas Raskin.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c624z0q5y5jo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-02T16:21:25+00:00"
+    },
+    {
+      "title": "Aasgaard set for Anderlecht switch as Rangers reject Raskin bid",
+      "description": "Rangers midfielder Thelo Aasgaard is on the verge of a loan move to Anderlecht, while the Ibrox club have knocked back an loan bid from Besiktas for Belgium midfielder Nicolas Raskin.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c624z0q5y5jo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-02T16:21:25+00:00"
+    },
+    {
+      "title": "Man Utd latest: Obi set for season-long loan switch to Eredivisie side",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-02T16:00:00+00:00"
     },
     {
       "title": "Liverpool latest: 'Transfer business not bad but not great'",
@@ -24,94 +105,13 @@
       "pubDateISO": "2026-09-02T15:15:00+00:00"
     },
     {
-      "title": "Late-night transfer fallout sparks Chelsea-Monaco row",
-      "description": "How Chelsea, Everton and Monaco all missed out after late-night drama on deadline day. Nizaar Kinsella reports.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1wx0g1npn9o",
+      "title": "72+: The EFL Podcast",
+      "description": "Aaron Paul and Jobi McAnuff are joined by Norwich City sporting director Ben Knapper.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p7kbw4",
       "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-02T14:48:09+00:00"
-    },
-    {
-      "title": "Celtic sign keeper Johnstone & striker Mheuka on loan",
-      "description": "Former England goalkeeper Sam Johnstone joins Celtic on a season-long loan from Wolves as striker Shumaira Mheuka arrives from Chelsea.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c07lzmp03kpo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-02T14:25:14+00:00"
-    },
-    {
-      "title": "Celtic sign keeper Johnstone & striker Mheuka on loan",
-      "description": "Former England goalkeeper Sam Johnstone joins Celtic on a season-long loan from Wolves as striker Shumaira Mheuka arrives from Chelsea.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c07lzmp03kpo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-02T14:25:14+00:00"
-    },
-    {
-      "title": "Who are the free agents after transfer deadline day?",
-      "description": "BBC Sport takes a look at the players still without a club after the 2026 summer transfer window shut.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yd4065nlwo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-02T13:53:47+00:00"
-    },
-    {
-      "title": "How does every Premier League club's summer window rank?",
-      "description": "After a summer that brought record spending and Deadline Day drama, Sky Sports' reporters rank every Premier League club's window...",
-      "link": "https://www.skysports.com/football/news/11095/13580212/premier-league-transfer-window-sky-sports-reporters-rank-your-clubs-summer-after-dramatic-deadline-day",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-02T13:00:00+00:00"
-    },
-    {
-      "title": "Best (and worst) buyers and sellers of the transfer window revealed",
-      "description": "Premier League spending totalled &#163;3.4bn in a record-breaking summer transfer window - but how well did your club actually buy and sell?",
-      "link": "https://www.skysports.com/football/news/11095/13579892/chelsea-liverpool-aston-villa-best-and-worst-buyers-and-sellers-of-the-summer-transfer-window-between-the-lines",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-02T13:00:00+00:00"
-    },
-    {
-      "title": "How Everton's deadline day debacle leaves owners facing fan mutiny",
-      "description": "Everton's transfer deadline day debacle over Folarin Balogun leaves owners The Friedkin facing fan mutiny, says chief football writer Phil McNulty.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9861n79kepo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-02T12:33:25+00:00"
-    },
-    {
-      "title": "'I'll bet on this' - Vrancken backs Braga to stay at Hearts",
-      "description": "Head coach Wouter Vrancken would wager on Claudio Braga remaining at Hearts and thinks a second full season at Tynecastle can enhance the striker's chances of a big move.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwyzdp4p3j8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-02T12:30:32+00:00"
-    },
-    {
-      "title": "Trabzonspor U-turn to accept manager's resignation",
-      "description": "The Turkish club accepts the \"emotional\" resignation of head coach Fatih Tekke after initially rejecting his request to step down.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqxv037gw8qo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-02T12:24:32+00:00"
-    },
-    {
-      "title": "Every done deal on transfer deadline day",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-02T12:17:43+00:00"
+      "pubDateISO": "2026-09-02T14:55:00+00:00"
     }
   ]
 }

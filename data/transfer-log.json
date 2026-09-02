@@ -400,6 +400,76 @@
       "toTeam": "Nott'm Forest",
       "detectedAt": "2026-09-01T15:53:51.616241+00:00",
       "marketValue": 54
+    },
+    {
+      "playerId": 238,
+      "playerName": "Grealish",
+      "fromTeamId": 15,
+      "fromTeam": "Man City",
+      "toTeamId": 9,
+      "toTeam": "Everton",
+      "detectedAt": "2026-09-02T18:19:17.867869+00:00",
+      "marketValue": 65
+    },
+    {
+      "playerId": 240,
+      "playerName": "Iroegbunam",
+      "fromTeamId": 9,
+      "fromTeam": "Everton",
+      "toTeamId": 11,
+      "toTeam": "Hull City",
+      "detectedAt": "2026-09-02T18:19:17.867869+00:00",
+      "marketValue": 50
+    },
+    {
+      "playerId": 155,
+      "playerName": "Enzo",
+      "fromTeamId": 6,
+      "fromTeam": "Chelsea",
+      "toTeamId": 15,
+      "toTeam": "Man City",
+      "detectedAt": "2026-09-02T18:19:17.867869+00:00",
+      "marketValue": 69
+    },
+    {
+      "playerId": 237,
+      "playerName": "Ndiaye",
+      "fromTeamId": 9,
+      "fromTeam": "Everton",
+      "toTeamId": 15,
+      "toTeam": "Man City",
+      "detectedAt": "2026-09-02T18:19:17.867869+00:00",
+      "marketValue": 60
+    },
+    {
+      "playerId": 147,
+      "playerName": "Tosin",
+      "fromTeamId": 6,
+      "fromTeam": "Chelsea",
+      "toTeamId": 19,
+      "toTeam": "Spurs",
+      "detectedAt": "2026-09-02T18:19:17.867869+00:00",
+      "marketValue": 45
+    },
+    {
+      "playerId": 578,
+      "playerName": "Mudryk",
+      "fromTeamId": 6,
+      "fromTeam": "Chelsea",
+      "toTeamId": 19,
+      "toTeam": "Spurs",
+      "detectedAt": "2026-09-02T18:19:17.867869+00:00",
+      "marketValue": 54
+    },
+    {
+      "playerId": 501,
+      "playerName": "Danso",
+      "fromTeamId": 19,
+      "fromTeam": "Spurs",
+      "toTeamId": 20,
+      "toTeam": "Sunderland",
+      "detectedAt": "2026-09-02T18:19:17.867869+00:00",
+      "marketValue": 50
     }
   ]
 }
