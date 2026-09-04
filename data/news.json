@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-09-03T22:12:09.585910+00:00",
+  "generatedAt": "2026-09-04T00:41:31.652378+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
+      "description": "Josh McPake has made a significant impact since joining Hearts. Could he now do the same for the Scotland national team?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c70l5nrrj02o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-03T23:40:13+00:00"
+    },
     {
       "title": "Transfer Centre: Scotland and WSL transfer windows CLOSED!",
       "description": "",
@@ -24,6 +33,15 @@
       "pubDateISO": "2026-09-03T23:00:00+00:00"
     },
     {
+      "title": "Football Daily",
+      "description": "John Bennett looks at the transfer window's impact on Ligue 1.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p7x2v4",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-03T22:52:00+00:00"
+    },
+    {
       "title": "PL Predictions: More Iraola issues? Liverpool to slip at Ipswich",
       "description": "Our top tipster Lewis Jones, aka Jones Knows, provides his analysis and betting insight across the weekend Premier League action.",
       "link": "https://www.skysports.com/football/news/11095/13581012/premier-league-predictions-jones-knows-best-bets-more-andoni-iraola-issues-liverpool-to-slip-at-ipswich",
@@ -31,6 +49,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-03T22:50:00+00:00"
+    },
+    {
+      "title": "West Ham latest: Kretinsky to become largest Hammers shareholder",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13210475/west-ham-latest-news",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-03T22:45:00+00:00"
+    },
+    {
+      "title": "WSL latest: De Almeida completes deadline day move to Arsenal",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-03T22:30:00+00:00"
     },
     {
       "title": "Papers: Everton eye shock Vardy move to solve striker problem",
@@ -42,13 +78,13 @@
       "pubDateISO": "2026-09-03T22:30:00+00:00"
     },
     {
-      "title": "Palace latest: Sarr included in Europa League squad as Guessand misses out",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
+      "title": "Chiesa & Endo left out of Liverpool's Champions League squad",
+      "description": "Liverpool leave Federico Chiesa and Wataru Endo out of their 25-man squad for the league phase of the Champions League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr4vnzpw57lo",
+      "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-03T22:10:00+00:00"
+      "pubDateISO": "2026-09-03T22:13:22+00:00"
     },
     {
       "title": "Kretinsky agrees to become largest West Ham shareholder",
@@ -60,13 +96,13 @@
       "pubDateISO": "2026-09-03T21:52:23+00:00"
     },
     {
-      "title": "Is Hearts' derby hero McPake ready for Scotland?",
-      "description": "Alasdair Lamont, Scott Allan and Ryan Stevenson review Hibs 1-3 Hearts at Easter Road",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p7ww7y",
-      "source": "BBC Sport",
+      "title": "Derby delight for Vrancken as Hearts beat 10-man Hibs",
+      "description": "Wouter Vrancken enjoyed a memorable first Edinburgh derby in charge of Hearts as his rampant side cruised to a deserved 3-1 victory over 10-man Hibernian at Easter Road.",
+      "link": "https://www.skysports.com/football/hibernian-vs-hearts/report/558360",
+      "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-03T21:32:00+00:00"
+      "pubDateISO": "2026-09-03T21:35:00+00:00"
     },
     {
       "title": "Arsenal sign France defender De Almeida from PSG",
@@ -76,42 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-09-03T21:00:09+00:00"
-    },
-    {
-      "title": "Arsenal sign France defender De Almeida from PSG",
-      "description": "Arsenal confirm the signing of France defender Elisa de Almeida from Paris St-Germain.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgl7yw9y1weo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-03T21:00:09+00:00"
-    },
-    {
-      "title": "Everton eye free agent Vardy - Friday's gossip",
-      "description": "Everton weigh up moves for Jamie Vardy or Anthony Martial, Wilfried Zaha could join AC Milan, Estevao Willian considers move from Chelsea.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62jgzxkjypo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-03T20:54:27+00:00"
-    },
-    {
-      "title": "Man City sign England goalkeeper Moorhouse on loan",
-      "description": "Manchester City sign England goalkeeper Anna Moorhouse on a short-term loan from Orlando Pride.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yep5d6qnno",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-03T20:30:19+00:00"
-    },
-    {
-      "title": "Man City sign England goalkeeper Moorhouse on loan",
-      "description": "Manchester City sign England goalkeeper Anna Moorhouse on a short-term loan from Orlando Pride.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yep5d6qnno",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-03T20:30:19+00:00"
     }
   ]
 }
