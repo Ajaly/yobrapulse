@@ -1,27 +1,54 @@
 {
-  "generatedAt": "2026-09-04T18:02:58.694729+00:00",
+  "generatedAt": "2026-09-04T20:28:49.407708+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Ipswich vs Liverpool LIVE on Sky! Barcola on bench for visitors",
-      "description": "",
-      "link": "https://www.skysports.com/football/ipswich-town-vs-liverpool/live/559470",
+      "title": "Star-studded London City cruise to win over Man Utd",
+      "description": "London City Lionesses started their star-studded era and the new season with a comfortable 2-1 win over Manchester United.",
+      "link": "https://www.skysports.com/football/london-city-lionesses-vs-manchester-united-women/report/575755",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-04T18:00:00+00:00"
+      "pubDateISO": "2026-09-04T21:00:00+00:00"
     },
     {
-      "title": "Putellas starts but Earps on the bench for London City vs Man Utd LIVE!",
+      "title": "Luis Enrique signs PSG contract extension",
       "description": "",
-      "link": "https://www.skysports.com/football/london-city-lionesses-vs-manchester-united-women/live/575755",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-04T21:00:00+00:00"
+    },
+    {
+      "title": "Liverpool latest: Barcola benched...have your say!",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-04T18:00:00+00:00"
+      "pubDateISO": "2026-09-04T19:55:00+00:00"
+    },
+    {
+      "title": "Luis Enrique signs new deal to extend PSG stay",
+      "description": "Paris St-Germain manager Luis Enrique agrees a three-year contract extension that will keep him at the club until 2030.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c36l79n02r8o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-04T19:43:26+00:00"
+    },
+    {
+      "title": "Guendouzi and Greenwood banned  after brawl",
+      "description": "Fenerbahce midfielder Matteo Guendouzi gets a four-match European ban and is fined 50,000 euros after a brawl following the Champions League play-off win at Lyon.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cly7874vxzlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-04T19:24:48+00:00"
     },
     {
       "title": "Dean says he always applied laws - but which matches did he play games in?",
@@ -30,7 +57,16 @@
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-04T16:30:52+00:00"
+      "pubDateISO": "2026-09-04T18:33:30+00:00"
+    },
+    {
+      "title": "Liverpool still lead at Ipswich through Isak double LIVE on Sky!",
+      "description": "",
+      "link": "https://www.skysports.com/football/ipswich-town-vs-liverpool/live/559470",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-04T18:00:00+00:00"
     },
     {
       "title": "Takeover collapse took wind out of Derby's sails",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-04T15:57:24+00:00"
-    },
-    {
-      "title": "SFA propose youth quotas along with financial incentives",
-      "description": "The Scottish FA is proposing financial incentives - and penalties - in a bid to get more homegrown talent playing, with clubs to vote on three initiatives aimed at increased game-time for under-21s.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjdvx8ed3d4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-04T15:41:55+00:00"
-    },
-    {
-      "title": "SFA propose youth quotas along with financial incentives",
-      "description": "The Scottish FA is proposing financial incentives - and penalties - in a bid to get more homegrown talent playing, with clubs to vote on three initiatives aimed at increased game-time for under-21s.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjdvx8ed3d4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-04T15:41:55+00:00"
-    },
-    {
-      "title": "Richarlison omission not my decision - De Zerbi",
-      "description": "Tottenham Hotspur manager Roberto de Zerbi says it was not his decision to leave Richarlison out of the club's Premier League squad.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c79038z3q4yo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-04T15:32:22+00:00"
-    },
-    {
-      "title": "Kretinsky to become largest West Ham shareholder",
-      "description": "Daniel Kretinsky says West Ham have been provided with much-needed certainty after it was confirmed he will become the club's largest shareholder.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cly45z47543o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-04T15:06:04+00:00"
     }
   ]
 }
