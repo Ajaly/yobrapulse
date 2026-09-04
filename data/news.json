@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-09-04T00:41:31.652378+00:00",
+  "generatedAt": "2026-09-04T05:24:33.775873+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
+      "description": "Josh McPake has made a significant impact since joining Hearts. Could he now do the same for the Scotland national team?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c70l5nrrj02o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-03T23:40:13+00:00"
+    },
     {
       "title": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
       "description": "Josh McPake has made a significant impact since joining Hearts. Could he now do the same for the Scotland national team?",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-03T21:35:00+00:00"
-    },
-    {
-      "title": "Arsenal sign France defender De Almeida from PSG",
-      "description": "Arsenal confirm the signing of France defender Elisa de Almeida from Paris St-Germain.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgl7yw9y1weo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-03T21:00:09+00:00"
     }
   ]
 }
