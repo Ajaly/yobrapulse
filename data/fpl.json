@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T22:47:20.974754+00:00",
+  "generatedAt": "2026-09-05T00:37:29.202883+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -897,7 +897,7 @@
         }
       ],
       "squadRating": 6.71,
-      "squadValue": "\u00a3178.2m",
+      "squadValue": "\u00a3177.9m",
       "leagueRank": 1,
       "strengthHome": 4,
       "strengthAway": 5,
@@ -1422,7 +1422,7 @@
         }
       ],
       "squadRating": 5.8,
-      "squadValue": "\u00a3135.1m",
+      "squadValue": "\u00a3135.0m",
       "leagueRank": 3,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -1627,7 +1627,7 @@
         }
       ],
       "squadRating": 5.25,
-      "squadValue": "\u00a3180.9m",
+      "squadValue": "\u00a3180.7m",
       "leagueRank": 5,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -1817,7 +1817,7 @@
         }
       ],
       "squadRating": 4.58,
-      "squadValue": "\u00a3179.1m",
+      "squadValue": "\u00a3178.9m",
       "leagueRank": 11,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -2532,7 +2532,7 @@
         }
       ],
       "squadRating": 3.06,
-      "squadValue": "\u00a3135.9m",
+      "squadValue": "\u00a3135.8m",
       "leagueRank": 16,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -2772,7 +2772,7 @@
         }
       ],
       "squadRating": 6.15,
-      "squadValue": "\u00a3195.1m",
+      "squadValue": "\u00a3195.0m",
       "leagueRank": 2,
       "strengthHome": 2,
       "strengthAway": 2,
@@ -2977,7 +2977,7 @@
         }
       ],
       "squadRating": 3.29,
-      "squadValue": "\u00a3169.6m",
+      "squadValue": "\u00a3169.5m",
       "leagueRank": 15,
       "strengthHome": 2,
       "strengthAway": 2,
@@ -3157,7 +3157,7 @@
         }
       ],
       "squadRating": 5.1,
-      "squadValue": "\u00a3152.7m",
+      "squadValue": "\u00a3152.5m",
       "leagueRank": 7,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -3362,7 +3362,7 @@
         }
       ],
       "squadRating": 4.65,
-      "squadValue": "\u00a3196.6m",
+      "squadValue": "\u00a3196.4m",
       "leagueRank": 10,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -3547,7 +3547,7 @@
         }
       ],
       "squadRating": 5.06,
-      "squadValue": "\u00a3192.1m",
+      "squadValue": "\u00a3192.0m",
       "leagueRank": 8,
       "strengthHome": 4,
       "strengthAway": 5,
@@ -3742,7 +3742,7 @@
         }
       ],
       "squadRating": 4.06,
-      "squadValue": "\u00a3183.7m",
+      "squadValue": "\u00a3183.4m",
       "leagueRank": 12,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -3912,7 +3912,7 @@
         }
       ],
       "squadRating": 5.33,
-      "squadValue": "\u00a3150.1m",
+      "squadValue": "\u00a3150.0m",
       "leagueRank": 4,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -4494,7 +4494,7 @@
         }
       ],
       "squadRating": 4.7,
-      "squadValue": "\u00a3146.6m",
+      "squadValue": "\u00a3146.4m",
       "leagueRank": 9,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -4522,7 +4522,7 @@
       "avatar": "CG",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.1m",
-      "owned": "8.8%",
+      "owned": "8.9%",
       "points": 28,
       "epNext": 9.3,
       "form": 9.3,
@@ -4581,7 +4581,7 @@
       "avatar": "AI",
       "avatarClass": "pink-avatar",
       "price": "\u00a39.0m",
-      "owned": "16.4%",
+      "owned": "16.5%",
       "points": 23,
       "epNext": 7.7,
       "form": 7.7,
@@ -4608,8 +4608,8 @@
       "team": "Man City",
       "avatar": "RC",
       "avatarClass": "pink-avatar",
-      "price": "\u00a37.7m",
-      "owned": "30.4%",
+      "price": "\u00a37.8m",
+      "owned": "30.5%",
       "points": 22,
       "epNext": 7.3,
       "form": 7.3,
@@ -4618,7 +4618,7 @@
       "assists": 2,
       "xg": 0.35,
       "xa": 1.05,
-      "valueScore": 2.9,
+      "valueScore": 2.8,
       "tackles": 0,
       "clearancesBlocksInterceptions": 0,
       "recoveries": 3,
@@ -4640,7 +4640,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a35.7m",
-      "owned": "45.6%",
+      "owned": "45.7%",
       "points": 20,
       "epNext": 6.7,
       "form": 6.7,
@@ -4671,7 +4671,7 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.5m",
-      "owned": "10.9%",
+      "owned": "11.0%",
       "points": 20,
       "epNext": 6.7,
       "form": 6.7,
@@ -4794,8 +4794,8 @@
       "team": "Man Utd",
       "avatar": "BM",
       "avatarClass": "pink-avatar",
-      "price": "\u00a38.0m",
-      "owned": "27.0%",
+      "price": "\u00a37.9m",
+      "owned": "26.9%",
       "points": 13,
       "epNext": 4.3,
       "form": 4.3,
@@ -5502,7 +5502,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "15.9%",
+      "owned": "16.0%",
       "points": 15,
       "epNext": 5.0,
       "form": 5.0,
@@ -5533,7 +5533,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a37.0m",
-      "owned": "41.2%",
+      "owned": "41.1%",
       "points": 15,
       "epNext": 5.0,
       "form": 5.0,
@@ -5809,7 +5809,7 @@
       "avatar": "MR",
       "avatarClass": "",
       "price": "\u00a37.5m",
-      "owned": "24.8%",
+      "owned": "24.9%",
       "points": 13,
       "epNext": 4.3,
       "form": 4.3,
@@ -5840,7 +5840,7 @@
       "avatar": "KD",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "4.3%",
+      "owned": "4.4%",
       "points": 13,
       "epNext": 4.3,
       "form": 4.3,
@@ -5870,7 +5870,7 @@
       "team": "Man City",
       "avatar": "IN",
       "avatarClass": "blue-avatar",
-      "price": "\u00a36.0m",
+      "price": "\u00a35.9m",
       "owned": "11.6%",
       "points": 13,
       "epNext": 4.3,
@@ -5902,7 +5902,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "38.4%",
+      "owned": "38.5%",
       "points": 12,
       "epNext": 4.0,
       "form": 4.0,
@@ -5995,7 +5995,7 @@
       "avatar": "YW",
       "avatarClass": "",
       "price": "\u00a36.1m",
-      "owned": "15.3%",
+      "owned": "15.4%",
       "points": 12,
       "epNext": 4.0,
       "form": 4.0,
@@ -6149,7 +6149,7 @@
       "team": "Man Utd",
       "avatar": "MS",
       "avatarClass": "",
-      "price": "\u00a38.0m",
+      "price": "\u00a37.9m",
       "owned": "7.8%",
       "points": 11,
       "epNext": 3.7,
@@ -6364,7 +6364,7 @@
       "avatar": "DC",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "26.0%",
+      "owned": "25.9%",
       "points": 9,
       "epNext": 3.0,
       "form": 3.0,
@@ -6422,7 +6422,7 @@
       "team": "Liverpool",
       "avatar": "FW",
       "avatarClass": "orange-avatar",
-      "price": "\u00a37.5m",
+      "price": "\u00a37.4m",
       "owned": "9.6%",
       "points": 9,
       "epNext": 3.0,
@@ -7400,7 +7400,7 @@
       "avatar": "BB",
       "avatarClass": "",
       "price": "\u00a35.9m",
-      "owned": "9.2%",
+      "owned": "9.1%",
       "points": 4,
       "epNext": 1.3,
       "form": 1.3,
@@ -7462,7 +7462,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "8.0%",
+      "owned": "7.9%",
       "points": 3,
       "epNext": 1.0,
       "form": 1.0,
@@ -7555,7 +7555,7 @@
       "avatar": "LS",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "15.8%",
+      "owned": "15.7%",
       "points": 3,
       "epNext": 1.0,
       "form": 1.0,
@@ -7617,7 +7617,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "19.5%",
+      "owned": "19.4%",
       "points": 3,
       "epNext": 1.0,
       "form": 1.0,
@@ -7989,7 +7989,7 @@
       "avatar": "TM",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "4.7%",
+      "owned": "4.6%",
       "points": 1,
       "epNext": 0.3,
       "form": 0.3,
@@ -8200,7 +8200,7 @@
       "avatar": "VG",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.3m",
-      "owned": "4.6%",
+      "owned": "4.5%",
       "points": 0,
       "epNext": 0.0,
       "form": 0.0,
@@ -8231,7 +8231,7 @@
       "avatar": "OW",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.8m",
-      "owned": "4.2%",
+      "owned": "4.1%",
       "points": 0,
       "epNext": 0.0,
       "form": 0.0,
@@ -8476,7 +8476,7 @@
       "avatar": "MD",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "18.0%",
+      "owned": "18.1%",
       "points": 0,
       "epNext": 0.0,
       "form": 0.0,
@@ -8530,11 +8530,33 @@
       "fdrClass": "mid"
     }
   },
-  "totalManagers": 10451239,
+  "totalManagers": 10453498,
   "totalPlayers": 652,
   "priceMovement": {
-    "risers": [],
-    "fallers": []
+    "risers": [
+      {
+        "id": "399",
+        "changeEvent": 0.1
+      }
+    ],
+    "fallers": [
+      {
+        "id": "366",
+        "changeEvent": -0.1
+      },
+      {
+        "id": "237",
+        "changeEvent": -0.1
+      },
+      {
+        "id": "427",
+        "changeEvent": -0.1
+      },
+      {
+        "id": "428",
+        "changeEvent": -0.1
+      }
+    ]
   },
   "gameweekPerformers": {
     "eventName": "Gameweek 3",
@@ -8685,45 +8707,45 @@
     "rising": [
       {
         "id": "367",
-        "netTransfersEvent": 35380
+        "netTransfersEvent": 42442
       },
       {
         "id": "464",
-        "netTransfersEvent": 32700
+        "netTransfersEvent": 38610
       },
       {
         "id": "154",
-        "netTransfersEvent": 31636
+        "netTransfersEvent": 36275
+      },
+      {
+        "id": "40",
+        "netTransfersEvent": 28279
       },
       {
         "id": "379",
-        "netTransfersEvent": 25383
-      },
-      {
-        "id": "399",
-        "netTransfersEvent": 23182
+        "netTransfersEvent": 27912
       }
     ],
     "falling": [
       {
         "id": "427",
-        "netTransfersEvent": -37271
+        "netTransfersEvent": -43659
       },
       {
         "id": "366",
-        "netTransfersEvent": -22314
-      },
-      {
-        "id": "557",
-        "netTransfersEvent": -22151
+        "netTransfersEvent": -26951
       },
       {
         "id": "368",
-        "netTransfersEvent": -20273
+        "netTransfersEvent": -25201
+      },
+      {
+        "id": "557",
+        "netTransfersEvent": -25190
       },
       {
         "id": "237",
-        "netTransfersEvent": -19534
+        "netTransfersEvent": -22652
       }
     ]
   }
