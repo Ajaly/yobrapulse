@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T20:57:33.678439+00:00",
+  "generatedAt": "2026-09-05T22:38:14.919106+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -1127,7 +1127,7 @@
           "position": "MID"
         }
       ],
-      "squadRating": 4.9,
+      "squadRating": 5.05,
       "squadValue": "\u00a3135.0m",
       "leagueRank": 5,
       "strengthHome": 3,
@@ -4470,7 +4470,7 @@
       "minutes": 210,
       "goals": 0,
       "assists": 2,
-      "xg": 0.4,
+      "xg": 0.41,
       "xa": 0.37,
       "valueScore": 3.2,
       "tackles": 7,
@@ -4547,7 +4547,7 @@
       "avatar": "AI",
       "avatarClass": "pink-avatar",
       "price": "\u00a39.0m",
-      "owned": "17.2%",
+      "owned": "17.3%",
       "points": 23,
       "epNext": 7.7,
       "form": 7.7,
@@ -4606,7 +4606,7 @@
       "avatar": "NM",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.0m",
-      "owned": "5.6%",
+      "owned": "5.7%",
       "points": 24,
       "epNext": 8.0,
       "form": 8.0,
@@ -4634,7 +4634,7 @@
       "avatar": "JE",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "5.3%",
+      "owned": "5.4%",
       "points": 23,
       "epNext": 7.7,
       "form": 7.7,
@@ -4945,7 +4945,7 @@
       "avatar": "JG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.6m",
-      "owned": "18.8%",
+      "owned": "18.9%",
       "points": 22,
       "epNext": 7.3,
       "form": 7.3,
@@ -4973,7 +4973,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "2.5%",
+      "owned": "2.6%",
       "points": 21,
       "epNext": 7.0,
       "form": 7.0,
@@ -5032,7 +5032,7 @@
       "avatar": "CP",
       "avatarClass": "orange-avatar",
       "price": "\u00a39.6m",
-      "owned": "19.8%",
+      "owned": "19.9%",
       "points": 20,
       "epNext": 6.7,
       "form": 6.7,
@@ -5063,7 +5063,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.7m",
-      "owned": "71.5%",
+      "owned": "71.6%",
       "points": 20,
       "epNext": 6.7,
       "form": 6.7,
@@ -5122,7 +5122,7 @@
       "avatar": "BW",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "7.6%",
+      "owned": "7.7%",
       "points": 18,
       "epNext": 6.0,
       "form": 6.0,
@@ -5160,7 +5160,7 @@
       "minutes": 267,
       "goals": 1,
       "assists": 1,
-      "xg": 1.09,
+      "xg": 1.03,
       "xa": 0.65,
       "valueScore": 3.3,
       "tackles": 4,
@@ -5331,11 +5331,11 @@
       "minutes": 270,
       "goals": 0,
       "assists": 1,
-      "xg": 0.05,
-      "xa": 0.6,
+      "xg": 0.06,
+      "xa": 0.57,
       "valueScore": 3.3,
       "tackles": 5,
-      "clearancesBlocksInterceptions": 6,
+      "clearancesBlocksInterceptions": 7,
       "recoveries": 23,
       "saves": 0,
       "cleanSheets": 1,
@@ -5380,7 +5380,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "16.0%",
+      "owned": "16.1%",
       "points": 16,
       "epNext": 5.3,
       "form": 5.3,
@@ -5436,7 +5436,7 @@
       "avatar": "IN",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.9m",
-      "owned": "11.3%",
+      "owned": "11.2%",
       "points": 16,
       "epNext": 5.3,
       "form": 5.3,
@@ -5472,7 +5472,7 @@
       "goals": 1,
       "assists": 0,
       "xg": 0.77,
-      "xa": 0.12,
+      "xa": 0.2,
       "valueScore": 2.5,
       "tackles": 5,
       "clearancesBlocksInterceptions": 4,
@@ -5520,7 +5520,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a37.0m",
-      "owned": "40.6%",
+      "owned": "40.5%",
       "points": 15,
       "epNext": 5.0,
       "form": 5.0,
@@ -5756,7 +5756,7 @@
       "avatar": "YW",
       "avatarClass": "",
       "price": "\u00a36.1m",
-      "owned": "15.9%",
+      "owned": "16.0%",
       "points": 13,
       "epNext": 4.3,
       "form": 4.3,
@@ -5847,8 +5847,8 @@
       "minutes": 258,
       "goals": 1,
       "assists": 0,
-      "xg": 1.23,
-      "xa": 0.25,
+      "xg": 1.21,
+      "xa": 0.23,
       "valueScore": 2.2,
       "tackles": 6,
       "clearancesBlocksInterceptions": 1,
@@ -5986,7 +5986,7 @@
       "avatar": "MY",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.2%",
+      "owned": "2.3%",
       "points": 11,
       "epNext": 3.7,
       "form": 3.7,
@@ -6384,7 +6384,7 @@
       "avatar": "FW",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.4m",
-      "owned": "9.3%",
+      "owned": "9.2%",
       "points": 9,
       "epNext": 3.0,
       "form": 3.0,
@@ -6468,7 +6468,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "19.3%",
+      "owned": "19.2%",
       "points": 9,
       "epNext": 3.0,
       "form": 3.0,
@@ -7211,7 +7211,7 @@
       "avatar": "NO",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.5m",
-      "owned": "18.0%",
+      "owned": "17.9%",
       "points": 4,
       "epNext": 1.0,
       "form": 1.3,
@@ -7680,7 +7680,7 @@
       "avatar": "DM",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.4m",
-      "owned": "6.4%",
+      "owned": "6.3%",
       "points": 1,
       "epNext": 0.3,
       "form": 0.3,
@@ -7927,7 +7927,7 @@
       "teamStrengthAway": 3
     }
   },
-  "totalManagers": 10496107,
+  "totalManagers": 10498982,
   "totalPlayers": 653,
   "priceMovement": {
     "risers": [
@@ -8025,11 +8025,11 @@
     ],
     "defensive": [
       {
-        "id": "533",
-        "value": 14
+        "id": "544",
+        "value": 15
       },
       {
-        "id": "544",
+        "id": "533",
         "value": 14
       },
       {
@@ -8176,45 +8176,45 @@
     "rising": [
       {
         "id": "367",
-        "netTransfersEvent": 141061
+        "netTransfersEvent": 148331
       },
       {
         "id": "464",
-        "netTransfersEvent": 86398
+        "netTransfersEvent": 91445
       },
       {
         "id": "379",
-        "netTransfersEvent": 84907
+        "netTransfersEvent": 89178
       },
       {
         "id": "154",
-        "netTransfersEvent": 81166
+        "netTransfersEvent": 85734
       },
       {
         "id": "115",
-        "netTransfersEvent": 58971
+        "netTransfersEvent": 62111
       }
     ],
     "falling": [
       {
         "id": "427",
-        "netTransfersEvent": -74618
+        "netTransfersEvent": -77172
       },
       {
         "id": "368",
-        "netTransfersEvent": -72950
+        "netTransfersEvent": -75838
       },
       {
         "id": "387",
-        "netTransfersEvent": -63814
+        "netTransfersEvent": -70639
       },
       {
         "id": "557",
-        "netTransfersEvent": -54098
+        "netTransfersEvent": -56809
       },
       {
         "id": "366",
-        "netTransfersEvent": -53775
+        "netTransfersEvent": -55326
       }
     ]
   }

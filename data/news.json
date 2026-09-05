@@ -1,18 +1,54 @@
 {
-  "generatedAt": "2026-09-05T20:57:34.776179+00:00",
+  "generatedAt": "2026-09-05T22:38:15.740392+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Bayern Munich fire Bundesliga blank for first time in over 18 months",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "title": "Watch: Match of the Day",
+      "description": "Highlights of eight Premier League matches, including Hull City v Aston Villa.",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-05T23:01:15+00:00"
+    },
+    {
+      "title": "Papers: Saudi move most likely for Richarlison",
+      "description": "The top stories and transfer rumours from Sunday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13582156/tottenham-transfer-news-saudi-pro-league-most-likely-destination-for-richarlison-after-being-left-out-of-pl-squad-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-05T22:30:00+00:00"
+    },
+    {
+      "title": "How Man Utd plan to compete at top with richer rivals",
+      "description": "Manager Michael Carrick and chief executive Omar Berrada are united in their viewthat Manchester United can be successful despite the club's relatively low summer spending.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cg49v57rxvgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-05T21:57:48+00:00"
+    },
+    {
+      "title": "Celtic come from behind at St Mirren to maintain winning start",
+      "description": "Celtic came from behind to hold onto their winning start to their Scottish Premiership title defence as St Mirren suffered their first defeat of the season.",
+      "link": "https://www.skysports.com/football/st-mirren-vs-celtic/report/558368",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-05T21:00:00+00:00"
+      "pubDateISO": "2026-09-05T21:50:00+00:00"
+    },
+    {
+      "title": "Seven points from three games - are Hull on track to avoid relegation?",
+      "description": "It might be too early to settle survival talk, but newly promoted Hull City have given themselves the perfect platform to build on in the Premier League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy8zd574yzyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-05T20:56:25+00:00"
     },
     {
       "title": "Liverpool may make January move for Sarr - Sunday's gossip",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-05T19:22:17+00:00"
-    },
-    {
-      "title": "'That's a sackable performance' - what next for Martin at Leicester?",
-      "description": "Tipped for a turnaround in fortunes, the Foxes and their boss continue to falter in the third tier.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyqvjjq923o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-05T19:17:29+00:00"
-    },
-    {
-      "title": "Aston Villa still winless after stalemate at Hull",
-      "description": "Aston Villa remain winless three games into the new Premier League season after they were held to a goalless draw by newly promoted Hull City.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c9w48xp5g14o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-05T19:17:00+00:00"
-    },
-    {
-      "title": "Arsenal had more than 20 players on shortlist to capitalise on title win",
-      "description": "Senior football correspondent Sami Mokbel goes inside Arsenal's bid to capitalise on their Premier League title and strengthen their squad this summer.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-05T19:08:30+00:00"
-    },
-    {
-      "title": "Ramsey strikes late as Newcastle salvage Bournemouth draw",
-      "description": "Newcastle fought back from 2-0 down to earn a hard-fought Premier League point at home to Bournemouth thanks to Jacob Ramsey's 88th minute equaliser.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cvgye9zy419o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-05T19:00:52+00:00"
     }
   ]
 }
