@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-05T22:38:15.740392+00:00",
+  "generatedAt": "2026-09-06T00:33:06.478569+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Watch: Match of the Day",
-      "description": "Highlights of eight Premier League matches, including Hull City v Aston Villa.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "title": "How Crystal Palace exposed Fulham's defence",
+      "description": "BBC pundit and ex-Fulham midfielder Danny Murphy gives his analysis on Fulham's performance against Crystal Palace at Craven Cottage.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c5y5qpnjgglo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-05T23:01:15+00:00"
+      "pubDateISO": "2026-09-05T23:03:57+00:00"
     },
     {
       "title": "Papers: Saudi move most likely for Richarlison",
@@ -22,6 +22,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-09-05T22:30:00+00:00"
+    },
+    {
+      "title": "Wrexham boss Parkinson says Swansea captain should have seen red",
+      "description": "The Wrexham boss claimed the Wales international's challenge on Callum O'Hare was a 'leg-breaker'",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3eq5pl3y41o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-05T22:18:56+00:00"
     },
     {
       "title": "How Man Utd plan to compete at top with richer rivals",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-05T19:30:00+00:00"
-    },
-    {
-      "title": "Chilwell scores on Palace return in victory at Fulham",
-      "description": "Ben Chilwell scored on his Crystal Palace return as the Eagles came from behind twice to earn a 3-2 win at Fulham.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cg59dgn7jm9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-05T19:22:17+00:00"
     }
   ]
 }
