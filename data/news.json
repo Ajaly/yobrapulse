@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-09-07T21:03:53.425475+00:00",
+  "generatedAt": "2026-09-07T23:25:35.386015+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Man Utd monitoring Dortmund star Nmecha",
+      "description": "The top stories and transfer rumours from Tuesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13582860/transfer-news-borussia-dortmund-midfielder-felix-nmecha-on-man-utds-radar-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-07T23:15:00+00:00"
+    },
+    {
+      "title": "Chiesa might leave Liverpool - Tuesday's gossip",
+      "description": "Federico Chiesa's future at Liverpool is in doubt, Jadon Sancho might return to the Premier League, Real Madrid's Endrick is attracting interest from Italy, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgy87d2lj9o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-07T22:05:37+00:00"
+    },
     {
       "title": "Champions League returns - who are favourites and players to watch?",
       "description": "The Champions League is back and BBC Sport take a look at who the favourites are to win the title plus predictions from the experts.",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-07T16:03:24+00:00"
-    },
-    {
-      "title": "Barton to remain in custody ahead of trial next year",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-07T15:55:00+00:00"
-    },
-    {
-      "title": "Who will be new Liverpool sporting director - and what issues do they face?",
-      "description": "The possible candidates to succeed Richard Hughes - plus the numerous tasks facing Liverpool's next sporting director.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yw73ppwd1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-07T15:52:04+00:00"
     }
   ]
 }
