@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-09-07T00:40:41.754825+00:00",
+  "generatedAt": "2026-09-07T05:39:02.235543+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c046pxeeqe6o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-07T05:05:20+00:00"
+    },
     {
       "title": "Young praises Rashford and Shaw chemistry",
       "description": "Match of the Day pundit Ashley Young looks at Marcus Rashford and Luke Shaw's connection on the left in Manchester United's 2-2 draw against Everton.at the Hill Dickinson Stadium.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-06T20:54:40+00:00"
-    },
-    {
-      "title": "Four wins in a row, but can it only get better for Hearts?",
-      "description": "Hearts move up to second place in the Premiership as new head coach Wouter Vrancken gets to grips with a much-changed squad at Tynecastle.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr7dz7j10dro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-06T20:30:28+00:00"
     }
   ]
 }
