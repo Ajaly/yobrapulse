@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-09-06T22:53:57.733659+00:00",
+  "generatedAt": "2026-09-07T00:40:41.754825+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Young praises Rashford and Shaw chemistry",
+      "description": "Match of the Day pundit Ashley Young looks at Marcus Rashford and Luke Shaw's connection on the left in Manchester United's 2-2 draw against Everton.at the Hill Dickinson Stadium.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cpwlqre0qy9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-06T23:07:31+00:00"
+    },
     {
       "title": "Man City latest: Ndiaye says next move 'was always going to be City'",
       "description": "",
@@ -15,6 +24,15 @@
       "pubDateISO": "2026-09-06T23:00:00+00:00"
     },
     {
+      "title": "Gabriel was 'extremely lucky' to avoid red - Rooney",
+      "description": "Match of the Day pundit Wayne Rooney says Gabriel was 'extremely lucky' to stay on the pitch after his challenge on Chelsea's Emi Martinez.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cgk531g8gr2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-06T22:50:22+00:00"
+    },
+    {
       "title": "Papers: Ex Man-Utd winger Sancho set for stunning Borussia Dortmund return",
       "description": "The top stories and transfer rumours from Monday's newspapers...",
       "link": "https://www.skysports.com/football/news/11095/13582586/transfer-news-former-manchester-united-and-england-winger-jadon-sancho-lined-up-for-stunning-borussia-dortmund-return-paper-talk",
@@ -22,6 +40,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-09-06T22:41:00+00:00"
+    },
+    {
+      "title": "Odegaard 'desire' in Chelsea win impresses Rooney",
+      "description": "Match of the Day pundit Wayne Rooney analyses how Martin Odegaard took control of the game as Arsenal faced Chelsea at the Emirates Stadium.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c8e34k1r3j9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-06T22:32:06+00:00"
     },
     {
       "title": "Who has made Troy's Premier League team of the week?",
@@ -60,6 +87,15 @@
       "pubDateISO": "2026-09-06T21:30:03+00:00"
     },
     {
+      "title": "Football Daily",
+      "description": "Rick Edwards, Luke Edwards and Clinton Morrison discuss the Premier League weekend.",
+      "link": "https://www.bbc.co.uk/sounds/play/m00319lp",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-06T21:07:00+00:00"
+    },
+    {
       "title": "Chelsea plot early move for Scott - Monday's gossip",
       "description": "Chelsea plot early move for Bournemouth midfielder Alex Scott, Chelsea winger Pedro Neto attracts interest, and Manchester United and Newcastle United inquire about Christopher Nkunku.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cj3dj6djrd3o",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-06T20:30:28+00:00"
-    },
-    {
-      "title": "No new striker, no worries - Havertz and Odegaard torment Chelsea",
-      "description": "Nine points from three games, one goal conceded and big players stepping up - are Arsenal still ahead of the rest in the race for the Premier League title?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqjkql0rkneo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-06T20:25:24+00:00"
-    },
-    {
-      "title": "'All over the place' - Neville questions Chelsea defence after defeat",
-      "description": "Gary Neville criticised Chelsea's \"all over the place\" back three in their Super Sunday defeat to Arsenal - but believes Xabi Alonso's side are capable of finshing second or third in the Premier League table.",
-      "link": "https://www.skysports.com/football/news/11095/13582543/arsenal-2-1-chelsea-gary-neville-questions-chelseas-all-over-the-place-back-three-after-defeat-but-is-confident-they-can-finish-top-three",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-06T20:14:00+00:00"
-    },
-    {
-      "title": "Arsenal latest: Arteta gives Mosquera injury update as Konsa stars",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-06T20:00:00+00:00"
-    },
-    {
-      "title": "Carrick's Man Utd missing spark as Konsa shines for Arsenal",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13582506/man-utd-miss-attacking-spark-against-everton-as-ezri-konsa-for-arsenal-premier-league-hits-and-misses",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-06T20:00:00+00:00"
     }
   ]
 }
