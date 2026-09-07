@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-09-07T17:05:46.537745+00:00",
+  "generatedAt": "2026-09-07T21:03:53.425475+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Champions League returns - who are favourites and players to watch?",
+      "description": "The Champions League is back and BBC Sport take a look at who the favourites are to win the title plus predictions from the experts.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c17j5lr8kkqo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-07T20:30:53+00:00"
+    },
+    {
+      "title": "EFL latest: Wolves sign Traore on one-year deal",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-07T19:42:00+00:00"
+    },
+    {
+      "title": "Villa latest: Goretzka out until after international break with injury setback",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-07T19:00:00+00:00"
+    },
+    {
+      "title": "Man City latest: Doku and O\u2019Reilly not part of squad for Porto trip",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-07T18:30:00+00:00"
+    },
     {
       "title": "Liverpool latest: Isak feeling 'good' and says Reds must keep pushing",
       "description": "",
@@ -13,6 +49,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-07T17:35:00+00:00"
+    },
+    {
+      "title": "Motherwell fail to cut fine for Celtic penalty reaction",
+      "description": "Motherwell fail in an attempt to reduce a \u00a35,000 fine for their reaction to a last-gasp penalty award to Celtic at Fir Park in May, but former player Elliot Watt's suspension has been cut.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2zng3de43o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-07T17:10:11+00:00"
     },
     {
       "title": "Forest latest: Edu's contract as global head of football terminated",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-07T15:52:04+00:00"
-    },
-    {
-      "title": "American consortium cleared to buy Shrewsbury",
-      "description": "Shrewsbury Town's long-running takeover saga is set to end after an American consortium is granted approval to buy the club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cdx05qpn0kvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-07T15:43:08+00:00"
-    },
-    {
-      "title": "All the goals from the opening weekend of the WSL",
-      "description": "Watch every goal from the opening weekend of the Women's Super League 2026-27 season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cn4k1lwl2zxo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-07T15:21:29+00:00"
-    },
-    {
-      "title": "Everton latest: Maitland-Niles ready to fight for his place",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-07T15:15:00+00:00"
-    },
-    {
-      "title": "BBC Women's Football Weekly",
-      "description": "Should the league be supporting home grown talent more?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p8dwmw",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-07T14:11:00+00:00"
-    },
-    {
-      "title": "BBC Women's Football Weekly",
-      "description": "Should the league be supporting home grown talent more?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p8dwmw",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-07T14:11:00+00:00"
     }
   ]
 }
