@@ -1,18 +1,63 @@
 {
-  "generatedAt": "2026-09-09T15:02:43.677297+00:00",
+  "generatedAt": "2026-09-09T18:24:56.671917+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Pocognoli names Scotland backroom team",
+      "title": "Norwich, Derby & QPR in action - Championship LIVE on Sky!",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
+      "link": "https://www.skysports.com/football/live-blog/11095/13583696/championship-live-scores-match-updates-and-free-highlights-plus-efl-latest-from-league-one-and-league-two",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-09T15:00:00+00:00"
+      "pubDateISO": "2026-09-09T19:12:00+00:00"
+    },
+    {
+      "title": "Alonso gives 16-year-old Watson debut vs Leeds in Carabao Cup LIVE! on Sky",
+      "description": "",
+      "link": "https://www.skysports.com/football/chelsea-vs-leeds-united/live/577586",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-09T18:30:00+00:00"
+    },
+    {
+      "title": "Johnstone in for Celtic as Hogh returns, Kelsy & Bouanani start for Rangers LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/st-johnstone-vs-celtic/live/558350",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-09T18:28:00+00:00"
+    },
+    {
+      "title": "Barcola starts for Liverpool as Alvarez comes in for Atletico LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/liverpool-vs-atletico-madrid/live/577604",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-09T18:00:00+00:00"
+    },
+    {
+      "title": "'This Is Anfield' sign fetches \u00a3115k at auction",
+      "description": "The original sign from Liverpool's stadium tunnel fetched almost eight times its estimated guide price.",
+      "link": "https://www.bbc.co.uk/news/articles/c87ve5vw953o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-09T16:00:46+00:00"
+    },
+    {
+      "title": "'Spoke brilliantly' but Liverpool fans torn on Mac Allister contract comments",
+      "description": "Alexis Mac Allister splits opinion on his public comments regarding his contract at Liverpool, as fans and BBC Sport pundit Pat Nevin share opinions.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3v4379d4ylo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-09T15:07:17+00:00"
     },
     {
       "title": "The Rwandan eyeing Champions League history against Man Utd",
@@ -42,15 +87,6 @@
       "pubDateISO": "2026-09-09T14:39:26+00:00"
     },
     {
-      "title": "'This Is Anfield' sign fetches \u00a3115k at auction",
-      "description": "The original sign from Liverpool's stadium tunnel fetched almost eight times its estimated guide price.",
-      "link": "https://www.bbc.co.uk/news/articles/c87ve5vw953o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-09T14:33:52+00:00"
-    },
-    {
       "title": "Messi set to buy LaLiga 2 team",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
@@ -69,15 +105,6 @@
       "pubDateISO": "2026-09-09T12:43:00+00:00"
     },
     {
-      "title": "Man City latest: Merson gives PL title verdict after winning start",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-09T12:35:00+00:00"
-    },
-    {
       "title": "Who are the record Champions League goalscorers?",
       "description": "Our Ask Me Anything team looks at which players have scored the most goals in the Champions League.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cgk0yyepkxjo",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-09T12:02:30+00:00"
-    },
-    {
-      "title": "Messi agrees to buy second Spanish club",
-      "description": "Spanish second-division side Eldense say Argentina great Lionel Messi has reached a \"preliminary agreement\" to become the club's majority shareholder.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c99dmky78d3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-09T11:56:09+00:00"
-    },
-    {
-      "title": "After 717 days and nine 'career over' diagnoses, player makes 'surreal' return",
-      "description": "Aldershot Town defender Ollie Harfield talks about his return to action after a serious knee injury.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c93e9vn9vgvo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-09T11:42:10+00:00"
-    },
-    {
-      "title": "Man Utd latest: Carrick explains Shaw absence as Rashford trains ahead of Sabah clash",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-09T11:27:00+00:00"
     }
   ]
 }
