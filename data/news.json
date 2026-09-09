@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-09-08T22:20:34.461695+00:00",
+  "generatedAt": "2026-09-09T01:02:19.337430+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Blow for Man Utd as top target agrees new contract",
+      "description": "The top stories and transfer rumours from Tuesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13583358/transfer-news-manchester-united-suffer-hammer-blow-after-top-target-lewis-hall-agrees-five-year-newcastle-deal-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-08T23:15:00+00:00"
+    },
+    {
+      "title": "In the middle again - but Mourinho says Alexander-Arnold 'not a midfielder'",
+      "description": "Trent Alexander-Arnold started in midfield for Real Madrid's win over Inter - but Jose Mourinho says it is not his best position.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c980lgdrlzno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-08T23:14:36+00:00"
+    },
     {
       "title": "EFL latest: Vardy's intelligence will help Burnley climb, says Hayen",
       "description": "",
@@ -22,6 +40,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-08T22:42:00+00:00"
+    },
+    {
+      "title": "West Ham go top of Championship - are they ready to leave past behind?",
+      "description": "Three wins in a row, top of the table, unity at the club - are West Ham ready to leave the past behind on and off the pitch?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp80znxj2dmo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-08T22:38:58+00:00"
     },
     {
       "title": "Bouaddi impresses on first start - have Man City found 'a gem'?",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-08T21:35:00+00:00"
-    },
-    {
-      "title": "Southampton knock Swansea off Championship top spot",
-      "description": "Cyle Larin scored his fifth goal of the season as Southampton beat Swansea 3-1 to humble a table-topper for the second home match in a row.",
-      "link": "https://www.skysports.com/football/southampton-vs-swansea-city/report/560563",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-08T21:30:00+00:00"
-    },
-    {
-      "title": "Burnley still without a win after draw at Wrexham",
-      "description": "Wrexham's wait for a home win goes on after they were held to a 1-1 draw by winless Burnley who sit one place off the bottom of the Sky Bet Championship.",
-      "link": "https://www.skysports.com/football/wrexham-vs-burnley/report/560569",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-08T21:30:00+00:00"
-    },
-    {
-      "title": "Sheff Utd return to winning ways at Blackburn",
-      "description": "Sheffield United returned to winning ways after a display of ruthless finishing secured a 2-1 win at Blackburn.",
-      "link": "https://www.skysports.com/football/blackburn-rovers-vs-sheffield-united/report/560558",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-08T21:30:00+00:00"
     }
   ]
 }
