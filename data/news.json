@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-09-10T16:54:56.036669+00:00",
+  "generatedAt": "2026-09-10T19:29:46.558125+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Spurs and Richarlison in dispute over contract",
+      "description": "Tottenham and their forward Richarlison are in dispute over the remaining nine months on his contract.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c62mq8j4j5lo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T18:48:12+00:00"
+    },
+    {
+      "title": "Sutton's predictions v Dorking Wanderers manager Marc White",
+      "description": "BBC Sport football expert Chris Sutton takes on Dorking Wanderers manager Marc White, plus the BBC readers and AI with his predictions for this weekend's Premier League fixtures.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c1dlnq215zeo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T18:47:34+00:00"
+    },
+    {
+      "title": "De Zerbi 'was the key' - Fernandes on his Spurs switch and trophy ambitions",
+      "description": "Spurs may have failed to win any of their first three Premier League games this season, but summer signing Matheus Fernandes is convinced he has joined a squad set to start fighting for trophies.",
+      "link": "https://www.skysports.com/football/news/11095/13584072/matheus-fernandes-interview-spurs-midfielder-on-the-passion-of-head-coach-roberto-de-zerbi-and-trophy-ambitions",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-10T17:11:00+00:00"
+    },
     {
       "title": "George calls for courage as Barry insists he's not feeling the pressure",
       "description": "",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-10T15:30:57+00:00"
-    },
-    {
-      "title": "Gordon a better fit for Barca than Rashford - Deco",
-      "description": "Barcelona sporting director Deco says Anthony Gordon's style was a better fit for Hansi Flick's side than Marcus Rashford's as the club strengthened their squad this summer.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyl7njnk46o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T15:30:53+00:00"
-    },
-    {
-      "title": "Newcastle latest: Jaissle calls on 'ambitious' Newcastle to maintain strong start",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T15:28:00+00:00"
-    },
-    {
-      "title": "'Get a life' - non-league club condemn man impersonating manager",
-      "description": "Gainsborough Trinity condemn a person who has been approaching players while falsely claiming to be their manager.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c0re0gevpnxo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T15:22:16+00:00"
     }
   ]
 }
