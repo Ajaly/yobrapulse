@@ -1,10 +1,109 @@
 {
-  "generatedAt": "2026-09-10T19:29:46.558125+00:00",
+  "generatedAt": "2026-09-10T22:15:08.435822+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Zubimendi may push to leave Arsenal",
+      "description": "The top stories and transfer rumours from Friday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13584130/arsenal-transfer-news-martin-zubimendi-may-push-to-leave-premier-league-champions-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-10T23:00:00+00:00"
+    },
+    {
+      "title": "UEFA Champions League",
+      "description": "Highlights from the opening round of matches in the UEFA Champions League group stage.",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T22:41:15+00:00"
+    },
+    {
+      "title": "Late drama as Lens fight back to beat 10-man Slavia Prague",
+      "description": "Lens score two goals in stoppage time as they come from behind twice to beat 10-man Slavia Prague at the Fortuna Arena.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cly4ll2wwz5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T22:07:09+00:00"
+    },
+    {
+      "title": "Olise scores twice as Bayern thrash Bodo/Glimt",
+      "description": "England captain Harry Kane scores his 55th Champions League goal and Michael Olise strikes twice as Bayern Munich begin their campaign by comfortably beating Bodo/Glimt.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c1mvzgmdje5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T21:50:13+00:00"
+    },
+    {
+      "title": "Champions League new boys Como dominant Leipzig",
+      "description": "Como made an impressive Champions League debut by defeating visitors RB Leipzig 4-1 in their opening league-phase outing at Stadio Giuseppe Sinigaglia.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/czxzwwdz19zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T21:45:10+00:00"
+    },
+    {
+      "title": "Fenerbahce boss stuns club by quitting after Roma draw",
+      "description": "Ismail Kartal resigns as Fenerbahce's head coach just minutes after the Turkish side's 1-1 draw with Roma in the Champions League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8r6vyjpye2o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-10T21:42:26+00:00"
+    },
+    {
+      "title": "Brown scores fine equaliser as Fenerbahce draw with Roma",
+      "description": "Englishman Archie Brown scores as Fenerbahce begin their return to Champions League football by holding Roma to a draw.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c1dlnedp7yeo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T21:05:17+00:00"
+    },
+    {
+      "title": "Man United put four past Sabah on Champions League return",
+      "description": "Manchester United recorded their biggest Champions League victory since 2020 as they swept Sabah FK aside at Old Trafford.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/crl600nz58lo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T21:01:24+00:00"
+    },
+    {
+      "title": "PSV & Shakhtar Donetsk open Champions League campaign with draw",
+      "description": "PSV Eindhoven and Shakhtar Donetsk played out a 1-1 draw to open their Champions League campaign at Philips Stadion.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cx2z0j25mmjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T21:00:29+00:00"
+    },
+    {
+      "title": "Fernandes finishes off brilliant move to double Man Utd lead",
+      "description": "Manchester United captain Bruno Fernandes rounds off a brilliant team move to double his side's lead over Sabah at Old Trafford.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c70d1rg9e0wo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-10T20:59:52+00:00"
+    },
+    {
+      "title": "Chelsea and Real Madrid keen on Arsenal's Zubimendi - Friday's gossip",
+      "description": "Martin Zubimendi may seek to leave Arsenal in January, Mauro Icardi open to Everton move while Toffees play down move for Anthony Martial.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cd68352z4vjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T20:13:27+00:00"
+    },
     {
       "title": "Spurs and Richarlison in dispute over contract",
       "description": "Tottenham and their forward Richarlison are in dispute over the remaining nine months on his contract.",
@@ -13,105 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-10T18:48:12+00:00"
-    },
-    {
-      "title": "Sutton's predictions v Dorking Wanderers manager Marc White",
-      "description": "BBC Sport football expert Chris Sutton takes on Dorking Wanderers manager Marc White, plus the BBC readers and AI with his predictions for this weekend's Premier League fixtures.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1dlnq215zeo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T18:47:34+00:00"
-    },
-    {
-      "title": "De Zerbi 'was the key' - Fernandes on his Spurs switch and trophy ambitions",
-      "description": "Spurs may have failed to win any of their first three Premier League games this season, but summer signing Matheus Fernandes is convinced he has joined a squad set to start fighting for trophies.",
-      "link": "https://www.skysports.com/football/news/11095/13584072/matheus-fernandes-interview-spurs-midfielder-on-the-passion-of-head-coach-roberto-de-zerbi-and-trophy-ambitions",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-10T17:11:00+00:00"
-    },
-    {
-      "title": "George calls for courage as Barry insists he's not feeling the pressure",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T16:50:00+00:00"
-    },
-    {
-      "title": "McInnes: Rangers must get fans on side in Old Firm cup clash",
-      "description": "Derek McInnes wants Rangers to \"bring the crowd with us\" in Sunday's Old Firm clash at Ibrox.",
-      "link": "https://www.skysports.com/football/news/11095/13584014/derek-mcinnes-says-rangers-must-get-fans-on-side-against-celtic-in-league-cup-and-sets-target-to-become-relevant-again",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T16:17:00+00:00"
-    },
-    {
-      "title": "Washington Spirit sign Luvanga - but is it a record deal?",
-      "description": "Tanzanian striker Clara Luvanga has joined Washington Spirit from Al-Nassr in a deal believed to be one of the most costly in the history of women's football - and possibly one that sets a world record.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8xkrjkw1y0o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-10T16:10:00+00:00"
-    },
-    {
-      "title": "Washington Spirit sign Luvanga - but is it a record deal?",
-      "description": "Tanzanian striker Clara Luvanga has joined Washington Spirit from Al-Nassr in a deal believed to be one of the most costly in the history of women's football - and possibly one that sets a world record.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8xkrjkw1y0o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-10T16:10:00+00:00"
-    },
-    {
-      "title": "Doncaster boss McCann reveals skin cancer treatment",
-      "description": "Doncaster Rovers boss Grant McCann reveals he was diagnosed with skin cancer last year but is \"ok now\".",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c2l8xzpkl02o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T16:08:22+00:00"
-    },
-    {
-      "title": "Tottenham latest: Michael Bridge answers YOUR questions in a Q&A!",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T16:02:00+00:00"
-    },
-    {
-      "title": "Sunderland latest: Le Bris hopes Black Cats will rise to challenge of facing Arsenal",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T15:42:00+00:00"
-    },
-    {
-      "title": "Jaissle questions booking compared to rival managers",
-      "description": "Newcastle United head coach Matthias Jaissle has questioned why he was booked for his touchline behaviour after he felt some other animated managers were not.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp80j2x85xyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T15:38:44+00:00"
-    },
-    {
-      "title": "Why have the Premier League announced Christmas fixtures early?",
-      "description": "BBC Sport's Ask Me Anything team explain why this season's Christmas fixtures have been announced more than a month earlier than scheduled",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvgy4wg703go",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T15:30:57+00:00"
     }
   ]
 }
