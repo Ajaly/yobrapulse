@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-09-10T02:38:04.746227+00:00",
+  "generatedAt": "2026-09-10T07:49:56.783719+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Poch: I hope to return to Premier League in future",
+      "description": "Mauricio Pochettino has always been good company - warm, engaging and likeable. Having had a few weeks to reset away from the spotlight, there were enthusiastic hugs all round for the <em>Sky Sports News</em> team as we all swapped summer stories. His, though, has been rather busier than ours.",
+      "link": "https://www.skysports.com/football/news/11095/13583564/mauricio-pochettino-ex-tottenham-and-chelsea-boss-hopes-to-return-to-premier-league-in-future",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T07:48:00+00:00"
+    },
+    {
+      "title": "O'Neill 'not sure what to make of' Celtic, so what are issues?",
+      "description": "What did manager Martin O'Neill learn about his Celtic squad after a much-changed side earned a narrow 1-0 victory away to St Johnstone?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cevw23z7l03o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T07:39:05+00:00"
+    },
+    {
+      "title": "Barca's Rodri apologises over Valencia 'weak' comments",
+      "description": "Barcelona midfielder Rodri says he has apologised to the entire Valencia squad after television cameras appeared to catch him describing the La Liga strugglers as \"very weak\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgyrx8gd71o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T07:27:34+00:00"
+    },
+    {
+      "title": "Gossip: Johnstone to keep Celtic place for Old Firm cup tie?",
+      "description": "Celtic boss has a decision to make on which goalkeeper starts against Rangers on Sunday and why did VAR not intervene for disallowed goal at McDiarmid Park?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c23x7k8r3pzo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T06:59:28+00:00"
+    },
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cdr7jm864pmo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T05:42:43+00:00"
+    },
     {
       "title": "Star subs rescue Chelsea as Alonso 'takes blame'",
       "description": "Chelsea get the better of Leeds in a cup thriller, but Blues boss Xabi Alonso has food for thought after needing rescue act from his star substitutes.",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-09T22:35:51+00:00"
-    },
-    {
-      "title": "Newcastle still open to Hall sale - Thursday's gossip",
-      "description": "Lewis Hall could still leave Newcastle despite new contract, Yasin Ayari close to committing to Brighton but Kaoru Mitoma set for exit, and Chelsea to go back for Manu Kone in midfielder search.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvgy303wwpno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-09T22:32:51+00:00"
-    },
-    {
-      "title": "How Mac Allister 'let his feet do the talking' - Warnock",
-      "description": "Match of the Day pundit Stephen Warnock praises an \"exceptional\" Alexis Mac Allister as the Argentinian midfielder scores a brilliant winner in Liverpool's 2-1 Champions League win over Atletico Madrid at Anfield.",
-      "link": "https://www.bbc.co.uk/sport/videos/c1mvpvk5jryo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-09T22:21:42+00:00"
-    },
-    {
-      "title": "Odegaard gives dominant Arsenal win over Napoli",
-      "description": "Martin Odegaard's superb strike gave Arsenal a deserved 1-0 victory over Napoli in their Champions League opener.",
-      "link": "https://www.skysports.com/football/napoli-vs-arsenal/report/577605",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-09T22:07:00+00:00"
-    },
-    {
-      "title": "Chelsea hit SIX second-half goals to see off Leeds in Carabao Cup classic",
-      "description": "An incredible second-half comeback including six goals in 41 minutes saw Chelsea finally blow away Leeds 6-3 in one of the all-time Carabao Cup classics at Stamford Bridge.",
-      "link": "https://www.skysports.com/football/chelsea-vs-leeds-united/report/577586",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-09T22:00:00+00:00"
-    },
-    {
-      "title": "Torres nets hat-trick as PSG hammer Slovan Bratislava",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-09T22:00:00+00:00"
     }
   ]
 }
