@@ -1,18 +1,90 @@
 {
-  "generatedAt": "2026-09-11T18:09:27.832121+00:00",
+  "generatedAt": "2026-09-11T21:34:33.198055+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "VAR Review: Celtic goal amid handball, Hibs penalty at Ibrox & more analysed",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13429187/scottish-football-var-review-scottish-premiership-league-cup-scottish-cup-decisions-analysed",
+      "title": "Alonso: Benzema-like Joao Pedro is on same level as Haaland",
+      "description": "Xabi Alonso has likened Joao Pedro to Karim Benzema and said the Chelsea striker is on the same level as Erling Haaland.",
+      "link": "https://www.skysports.com/football/news/11095/13584444/joao-pedro-reminds-me-of-karim-benzema-and-is-on-same-level-as-erling-haaland-says-chelsea-boss-xabi-alonso",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T18:15:00+00:00"
+      "pubDateISO": "2026-09-11T22:30:00+00:00"
+    },
+    {
+      "title": "West Ham thrash Wrexham to go top of the Championship",
+      "description": "West Ham made easy work of Wrexham in a 6-0 victory at the London Stadium to make it four in a row and go top of the Championship.",
+      "link": "https://www.skysports.com/football/west-ham-united-vs-wrexham/report/560581",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T22:00:00+00:00"
+    },
+    {
+      "title": "Tottenham latest: Richarlison's move to Vasco da Gama 'off'",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-11T21:31:00+00:00"
+    },
+    {
+      "title": "Like Benzema & as good as Haaland - Alonso on Joao Pedro",
+      "description": "Chelsea manager Xabi Alonso says striker Joao Pedro is similar stylistically to his former Real Madrid team-mate Karim Benzema and is at a comparable level to Manchester City's Erling Haaland.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c1j4z1ry29jo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T21:30:23+00:00"
+    },
+    {
+      "title": "Richarlison's move to Vasco da Gama falls through",
+      "description": "Tottenham forward Richarlison's proposed move to Vasco da Gama falls through amid ongoing uncertainty over the Brazilian's future.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr50q58vqggo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-11T20:49:46+00:00"
+    },
+    {
+      "title": "'Beautifully worked, perfectly finished!' | Bowen strike opens the scoring",
+      "description": "Jarrod Bowen opens the scoring for West Ham against Wrexham.",
+      "link": "https://www.skysports.com/watch/video/13584587/west-ham-vs-wrexham-jarrod-bowen-strike-opens-the-scoring",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T20:38:00+00:00"
+    },
+    {
+      "title": "Kartal still Fenerbahce boss despite resigning",
+      "description": "Ismail Kartal remains as head coach of Fenerbahce, despite resigning following Thursday's Champions League game with Roma.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy0zvxx2eldo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-11T19:51:32+00:00"
+    },
+    {
+      "title": "Solomon strikes as West Ham embarrass Wrexham LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/west-ham-united-vs-wrexham/live/560581",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T19:00:00+00:00"
+    },
+    {
+      "title": "Moroccan official told to stop making 2030 final promise",
+      "description": "Morocco's prime minister tells the head of the country's football federation to stop making promises about the 2030 World Cup final, while the head of the Spanish federation says the showpiece should be played in Spain.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c4gv7n50lnwo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T18:58:10+00:00"
     },
     {
       "title": "Kings of Manchester: Who will reign when United and City clash?",
@@ -33,15 +105,6 @@
       "pubDateISO": "2026-09-11T16:49:50+00:00"
     },
     {
-      "title": "Infantino confirms FIFA presidency bid in newly surfaced video",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T16:35:00+00:00"
-    },
-    {
       "title": "Athletic Club forward Williams retires from Ghana duty",
       "description": "Inaki Williams says the time has come to bring his journey with the Black Stars to an end four years after making his international debut.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c7v41ype378o",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-11T16:18:27+00:00"
-    },
-    {
-      "title": "Football Daily",
-      "description": "John Murray, Ian Dennis & Ali Bruce-Ball discuss life as football commentators.",
-      "link": "https://www.bbc.co.uk/sounds/play/m00318bk",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T15:59:00+00:00"
-    },
-    {
-      "title": "Bergvall signs new deal - but no news on Richarlison",
-      "description": "Lucas Bergvall signs a new contract at Tottenham after telling the club he wanted to leave, but there is no update on Richarlison's future",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c99dg2gzdl4o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-11T15:40:50+00:00"
-    },
-    {
-      "title": "Liverpool unveil memorials for former manager Beard",
-      "description": "Liverpool have unveiled permanent memorials at their training ground and outside Anfield in tribute to former women's team manager Matt Beard.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20939pqy78o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-11T15:32:08+00:00"
-    },
-    {
-      "title": "Liverpool unveil memorials for former manager Beard",
-      "description": "Liverpool have unveiled permanent memorials at their training ground and outside Anfield in tribute to former women's team manager Matt Beard.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20939pqy78o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-11T15:32:08+00:00"
-    },
-    {
-      "title": "Collins a doubt for Republic of Ireland with calf injury",
-      "description": "Republic of Ireland captain Nathan Collins is a doubt for the start of the upcoming Nations League campaign after picking up a calf injury.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c36lkl4xp0yo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-11T15:26:54+00:00"
-    },
-    {
-      "title": "Gray has no issue with flak as Hibs eye semi-final",
-      "description": "David Gray insists he is not preoccupied by rumbling criticism after a disappointing start to the season as Hibernian set their sights on the first semi-final of his reign.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9w4d04xx49o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T15:24:19+00:00"
-    },
-    {
-      "title": "Gray has no issue with flak as Hibs eye semi-final",
-      "description": "David Gray insists he is not preoccupied by rumbling criticism after a disappointing start to the season as Hibernian set their sights on the first semi-final of his reign.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9w4d04xx49o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T15:24:19+00:00"
     }
   ]
 }
