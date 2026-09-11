@@ -1,81 +1,99 @@
 {
-  "generatedAt": "2026-09-11T05:36:06.207168+00:00",
+  "generatedAt": "2026-09-11T10:28:57.025091+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Saint-Maximin on speaking out after his children were racially abused",
-      "description": "Former Newcastle winger Allan Saint-Maximin says he felt it was important to speak out after his children were racially abused earlier this year in Mexico.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8xzg9e81ro",
+      "title": "Man City latest: O'Reilly injury update ahead of Manchester derby",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-11T10:20:00+00:00"
+    },
+    {
+      "title": "Arteta: I sabotaged our travel plans so players get used to problems",
+      "description": "Arsenal manager Mikel Arteta says he deliberately sabotaged the club's travel plans during pre-season - to get his players used to difficulties on the road.",
+      "link": "https://www.skysports.com/football/news/11095/13584290/mikel-arteta-arsenal-manager-says-he-deliberately-sabotaged-his-teams-travel-plans-to-prepare-for-difficulties-on-the-road",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T10:15:00+00:00"
+    },
+    {
+      "title": "Arsenal latest: Timber and Mosquera could return vs Sunderland",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T10:15:00+00:00"
+    },
+    {
+      "title": "Hull winger Thomas unhurt after car crash",
+      "description": "Premier League winger Sorba Thomas's Land Rover overturns on Millhouse Woods Lane in Cottingham.",
+      "link": "https://www.bbc.co.uk/news/articles/cn8m2p4dmjro",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T05:23:22+00:00"
+      "pubDateISO": "2026-09-11T10:10:35+00:00"
     },
     {
-      "title": "Papers: Zubimendi may push to leave Arsenal",
-      "description": "The top stories and transfer rumours from Friday's newspapers...",
-      "link": "https://www.skysports.com/football/news/11095/13584130/arsenal-transfer-news-martin-zubimendi-may-push-to-leave-premier-league-champions-paper-talk",
+      "title": "Chelsea latest: Joao Pedro speaks after PL player of the month award",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T10:07:00+00:00"
+    },
+    {
+      "title": "Newcastle latest: New contract 'really proud' moment for Hall",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T10:00:00+00:00"
+    },
+    {
+      "title": "Fulham latest: Arbeloa responds to squad unrest reports",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13279313/fulham-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T10:00:00+00:00"
+    },
+    {
+      "title": "A cup weekend that could define three managerial tenures",
+      "description": "Aberdeen head coach Stephen Robinson, Hibernian boss David Gray and Kilmarnock\u2019s Neil McCann are all feeling the heat. Could League Cup quarter-final weekend shape their futures?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c17j90yx9ldo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T09:45:23+00:00"
+    },
+    {
+      "title": "Hall signs new deal at Newcastle after Man Utd interest",
+      "description": "Lewis Hall&#160;has signed a new long-term contract at&#160;Newcastle United.",
+      "link": "https://www.skysports.com/football/news/11095/13584251/lewis-hall-newcastle-united-left-back-signs-long-term-contract-at-st-james-park",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-10T23:00:00+00:00"
+      "pubDateISO": "2026-09-11T09:00:00+00:00"
     },
     {
-      "title": "Two goals in two games - Sesko gives Man Utd a different threat",
-      "description": "Benjamin Sesko's return to Manchester United's starting line-up is well timed ahead of Sunday's Premier League encounter with Manchester City",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c770d63d850o",
+      "title": "West Ham's Alvarez denies kidnapping accusation",
+      "description": "West Ham and Mexico midfielder Edson Alvarez posts a statement on social media denying the allegation made by film producer Juan Jose Lopez Ordonez.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c62kzljxy3yo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T22:41:17+00:00"
-    },
-    {
-      "title": "Ballon d'Or shortlist and a shock resignation",
-      "description": "The Ballon D'or shortlist, the dominance of Spanish coaches and a shock resignation",
-      "link": "https://www.bbc.co.uk/sounds/play/p0p9273l",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-10T22:25:00+00:00"
-    },
-    {
-      "title": "Is Dorgu the answer at left -back for Man Utd?",
-      "description": "Champions League analyst Stephen Warnock and European football journalist Julien Laurens look at the performance of Patrick Dorgu during Manchester United's 4-0 win over Sabah at Old Trafford.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c0lrkkwdj97o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T22:24:15+00:00"
-    },
-    {
-      "title": "Late drama as Lens fight back to beat 10-man Slavia Prague",
-      "description": "Lens score two goals in stoppage time as they come from behind twice to beat 10-man Slavia Prague at the Fortuna Arena.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cly4ll2wwz5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T22:07:09+00:00"
-    },
-    {
-      "title": "Olise scores twice as Bayern thrash Bodo/Glimt",
-      "description": "England captain Harry Kane scores his 55th Champions League goal and Michael Olise strikes twice as Bayern Munich begin their campaign by comfortably beating Bodo/Glimt.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c1mvzgmdje5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T21:50:13+00:00"
-    },
-    {
-      "title": "Champions League new boys Como dominate Leipzig",
-      "description": "Como made an impressive Champions League debut by defeating visitors RB Leipzig 4-1 in their opening league-phase outing at Stadio Giuseppe Sinigaglia.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/czxzwwdz19zo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T21:45:10+00:00"
+      "pubDateISO": "2026-09-11T08:42:22+00:00"
     },
     {
       "title": "Fenerbahce boss stuns club by quitting after Roma draw",
@@ -84,34 +102,16 @@
       "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-10T21:42:26+00:00"
+      "pubDateISO": "2026-09-11T08:06:08+00:00"
     },
     {
-      "title": "Brown scores fine equaliser as Fenerbahce draw with Roma",
-      "description": "Englishman Archie Brown scores as Fenerbahce begin their return to Champions League football by holding Roma to a draw.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c1dlnedp7yeo",
+      "title": "Hall signs new contract with Newcastle until 2031",
+      "description": "Newcastle United defender Lewis Hall signs a new contract with the club that runs until 2031.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce9e3d5exp8o",
       "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T21:05:17+00:00"
-    },
-    {
-      "title": "Man Utd put four past Sabah on Champions League return",
-      "description": "Manchester United recorded their biggest Champions League victory since 2020 as they swept Sabah FK aside at Old Trafford.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/crl600nz58lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T21:01:24+00:00"
-    },
-    {
-      "title": "PSV & Shakhtar Donetsk open Champions League campaign with draw",
-      "description": "PSV Eindhoven and Shakhtar Donetsk played out a 1-1 draw to open their Champions League campaign at Philips Stadion.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cx2z0j25mmjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T21:00:29+00:00"
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-11T08:00:07+00:00"
     }
   ]
 }
