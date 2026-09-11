@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-09-11T21:34:33.198055+00:00",
+  "generatedAt": "2026-09-11T23:51:31.937830+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Amorim takes swipe at Man Utd players-turned-pundits",
+      "description": "The top stories and transfer rumours from Saturday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13584647/manchester-united-news-ruben-amorim-takes-a-swipe-at-the-clubs-former-players-now-working-in-the-media-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-11T23:16:00+00:00"
+    },
+    {
+      "title": "Arsenal latest: Arteta striving to 'build the best club in the world'",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T22:42:00+00:00"
+    },
     {
       "title": "Alonso: Benzema-like Joao Pedro is on same level as Haaland",
       "description": "Xabi Alonso has likened Joao Pedro to Karim Benzema and said the Chelsea striker is on the same level as Erling Haaland.",
@@ -13,6 +31,24 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-11T22:30:00+00:00"
+    },
+    {
+      "title": "Tottenham latest: Richarlison fails to agree terms with Vasco da Gama",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T22:28:00+00:00"
+    },
+    {
+      "title": "Richarlison could still leave Spurs - Saturday's gossip",
+      "description": "Interest in Richarlison, Philippe Coutinho agrees Santos deal and Manchester United monitoring Adrien Truffert.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cn0jrn8n7pjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T22:18:17+00:00"
     },
     {
       "title": "West Ham thrash Wrexham to go top of the Championship",
@@ -24,13 +60,13 @@
       "pubDateISO": "2026-09-11T22:00:00+00:00"
     },
     {
-      "title": "Tottenham latest: Richarlison's move to Vasco da Gama 'off'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
+      "title": "Bergvall signs new Spurs deal after uncertain future",
+      "description": "Lucas Bergvall signs a new contract at Tottenham after telling the club he wanted to leave in the summer.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c99dg2gzdl4o",
+      "source": "BBC Sport",
       "category": "transfer",
       "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-11T21:31:00+00:00"
+      "pubDateISO": "2026-09-11T21:40:56+00:00"
     },
     {
       "title": "Like Benzema & as good as Haaland - Alonso on Joao Pedro",
@@ -69,15 +105,6 @@
       "pubDateISO": "2026-09-11T19:51:32+00:00"
     },
     {
-      "title": "Solomon strikes as West Ham embarrass Wrexham LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/west-ham-united-vs-wrexham/live/560581",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T19:00:00+00:00"
-    },
-    {
       "title": "Moroccan official told to stop making 2030 final promise",
       "description": "Morocco's prime minister tells the head of the country's football federation to stop making promises about the 2030 World Cup final, while the head of the Spanish federation says the showpiece should be played in Spain.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c4gv7n50lnwo",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-11T18:58:10+00:00"
-    },
-    {
-      "title": "Kings of Manchester: Who will reign when United and City clash?",
-      "description": "Manchester City have been \"the Kings of Manchester\".",
-      "link": "https://www.skysports.com/football/news/11095/13584470/man-utd-vs-man-city-kings-of-manchester-hotly-debated-ahead-of-old-trafford-derby-showdown",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T17:00:00+00:00"
-    },
-    {
-      "title": "Dictator meme shows lack of human awareness - Mbappe",
-      "description": "Kylian Mbappe criticises a viral meme which superimposes his face on the body of a dictator, saying it shows \"a lack of political and human awareness\".",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8jdmdjydp1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T16:49:50+00:00"
-    },
-    {
-      "title": "Athletic Club forward Williams retires from Ghana duty",
-      "description": "Inaki Williams says the time has come to bring his journey with the Black Stars to an end four years after making his international debut.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c7v41ype378o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T16:18:27+00:00"
     }
   ]
 }
