@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:15:08.435822+00:00",
+  "generatedAt": "2026-09-11T00:49:55.007359+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -15,13 +15,31 @@
       "pubDateISO": "2026-09-10T23:00:00+00:00"
     },
     {
-      "title": "UEFA Champions League",
-      "description": "Highlights from the opening round of matches in the UEFA Champions League group stage.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "title": "Two goals in two games - Sesko gives Man Utd a different threat",
+      "description": "Benjamin Sesko's return to Manchester United's starting line-up is well timed ahead of Sunday's Premier League encounter with Manchester City",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c770d63d850o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T22:41:15+00:00"
+      "pubDateISO": "2026-09-10T22:41:17+00:00"
+    },
+    {
+      "title": "Ballon d'Or shortlist and a shock resignation",
+      "description": "The Ballon D'or shortlist, the dominance of Spanish coaches and a shock resignation",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p9273l",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-10T22:25:00+00:00"
+    },
+    {
+      "title": "Is Dorgu the answer at left -back for Man Utd?",
+      "description": "Champions League analyst Stephen Warnock and European football journalist Julien Laurens look at the performance of Patrick Dorgu during Manchester United's 4-0 win over Sabah at Old Trafford.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c0lrkkwdj97o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-10T22:24:15+00:00"
     },
     {
       "title": "Late drama as Lens fight back to beat 10-man Slavia Prague",
@@ -42,7 +60,7 @@
       "pubDateISO": "2026-09-10T21:50:13+00:00"
     },
     {
-      "title": "Champions League new boys Como dominant Leipzig",
+      "title": "Champions League new boys Como dominate Leipzig",
       "description": "Como made an impressive Champions League debut by defeating visitors RB Leipzig 4-1 in their opening league-phase outing at Stadio Giuseppe Sinigaglia.",
       "link": "https://www.bbc.co.uk/sport/football/videos/czxzwwdz19zo",
       "source": "BBC Sport",
@@ -94,24 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-09-10T20:59:52+00:00"
-    },
-    {
-      "title": "Chelsea and Real Madrid keen on Arsenal's Zubimendi - Friday's gossip",
-      "description": "Martin Zubimendi may seek to leave Arsenal in January, Mauro Icardi open to Everton move while Toffees play down move for Anthony Martial.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cd68352z4vjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T20:13:27+00:00"
-    },
-    {
-      "title": "Spurs and Richarlison in dispute over contract",
-      "description": "Tottenham and their forward Richarlison are in dispute over the remaining nine months on his contract.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62mq8j4j5lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-10T18:48:12+00:00"
     }
   ]
 }
