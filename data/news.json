@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-09-11T00:49:55.007359+00:00",
+  "generatedAt": "2026-09-11T05:36:06.207168+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Saint-Maximin on speaking out after his children were racially abused",
+      "description": "Former Newcastle winger Allan Saint-Maximin says he felt it was important to speak out after his children were racially abused earlier this year in Mexico.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ce8xzg9e81ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-11T05:23:22+00:00"
+    },
     {
       "title": "Papers: Zubimendi may push to leave Arsenal",
       "description": "The top stories and transfer rumours from Friday's newspapers...",
@@ -87,7 +96,7 @@
       "pubDateISO": "2026-09-10T21:05:17+00:00"
     },
     {
-      "title": "Man United put four past Sabah on Champions League return",
+      "title": "Man Utd put four past Sabah on Champions League return",
       "description": "Manchester United recorded their biggest Champions League victory since 2020 as they swept Sabah FK aside at Old Trafford.",
       "link": "https://www.bbc.co.uk/sport/football/videos/crl600nz58lo",
       "source": "BBC Sport",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-10T21:00:29+00:00"
-    },
-    {
-      "title": "Fernandes finishes off brilliant move to double Man Utd lead",
-      "description": "Manchester United captain Bruno Fernandes rounds off a brilliant team move to double his side's lead over Sabah at Old Trafford.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c70d1rg9e0wo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-10T20:59:52+00:00"
     }
   ]
 }
