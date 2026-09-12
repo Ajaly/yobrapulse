@@ -1,117 +1,117 @@
 {
-  "generatedAt": "2026-09-12T20:04:21.797191+00:00",
+  "generatedAt": "2026-09-12T22:11:45.538991+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Spurs latest: Unwanted history made in goalless start to season",
+      "title": "Euro latest: Bellingham and Mbappe strike in Real Madrid win over Rayo Vallecano",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T22:49:00+00:00"
+    },
+    {
+      "title": "Guimaraes haunts Sunderland as Arsenal continue winning start",
+      "description": "Bruno Guimaraes scored a stunning goal two minutes after David Raya had saved a penalty as Arsenal beat Sunderland 2-0 to move above Manchester City at the top of the Premier League.",
+      "link": "https://www.skysports.com/football/sunderland-vs-arsenal/report/559482",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T22:00:00+00:00"
+    },
+    {
+      "title": "Arsenal hold off energetic Sunderland to continue perfect title defence",
+      "description": "Arsenal maintain their 100% start to their Premier League season with a win at Sunderland, who mount an admirable push for a point before Bukayo Saka's penalty puts the result beyond doubt.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c5ympj1m71ko",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-12T21:53:50+00:00"
+    },
+    {
+      "title": "Arteta 'very worried & very sad' over penalty incident",
+      "description": "Mikel Arteta is pleased with Arsenal's performance against Sunderland, but is \"very worried and very sad\" about the penalty awarded to their opponents during the match at the Stadium of Light.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cd94ke0z07qo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T21:45:43+00:00"
+    },
+    {
+      "title": "Arsenal monitoring Como's Paz - Sunday's gossip",
+      "description": "Arsenal are monitoring Nico Paz, Liverpool and Aston Villa are tracking Cher Ndour and Sunderland are refusing to give up on Geny Catamo, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c2e0mzdwmkko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T21:35:12+00:00"
+    },
+    {
+      "title": "Tottenham's wait for league goal continues after Everton draw",
+      "description": "Tottenham's wait for a first Premier League goal and win this season continues after Roberto de Zerbi's side were held to a goalless home draw by Everton.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cg49xg625n0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T21:32:43+00:00"
+    },
+    {
+      "title": "Fulham take first point of the season at lacklustre Liverpool",
+      "description": "Fulham claim their first Premier League point of the season after a difficult start under Alvaro Arbeloa, as Liverpool fail to score for the first time this season just days after their Champions League victory over Atletico Madrid.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c780zx2wl9vo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T21:31:46+00:00"
+    },
+    {
+      "title": "Flemming's late strike earns Ipswich win over 10-man Crystal Palace",
+      "description": "Zian Flemming scores his first goal for Ipswich to give the club a late victory over 10-man Crystal Palace at Selhurst Park.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c7504wz4xgxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T21:31:11+00:00"
+    },
+    {
+      "title": "Brentford hold Bournemouth as Rose's wait for a win continues",
+      "description": "Marco Rose's wait for a first Premier League victory as Bournemouth head coach continues as they are held to a 2-2 draw by Brentford at Vitality Stadium.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c1l6ennjpnzo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T21:30:25+00:00"
+    },
+    {
+      "title": "Jesus snatches late win for Forest as Villa's poor start continues",
+      "description": "Igor Jesus scores an 88th minute winner as Nottingham Forest beat Aston Villa at Villa Park for the first time in 32 years and gives Oliver Glasner his first victory as Forest head coach since taking charge in the summer.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cj64yzk2894o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T21:30:21+00:00"
+    },
+    {
+      "title": "Hull remain unbeaten in league after impressive Chelsea draw",
+      "description": "In-form striker Joao Pedro scores a second-half equaliser as Chelsea rescues a point at home to promoted Hull City.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwyz533qlw8o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T21:30:16+00:00"
+    },
+    {
+      "title": "Spurs latest: De Zerbi 'calm' over goalless start as he explains Tel exchange",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T19:59:00+00:00"
-    },
-    {
-      "title": "More dropped points at Anfield - is it too early for Liverpool to worry?",
-      "description": "Liverpool have failed to win either of their first two Premier League games at Anfield. But is it too early to worry?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62j0lr1rzmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T19:30:02+00:00"
-    },
-    {
-      "title": "Winless Spurs remain goalless after another bore draw against Everton",
-      "description": "Tottenham&#8217;s winless and goalless start to the Premier League season continued with a 0-0 draw at home to unbeaten Everton.",
-      "link": "https://www.skysports.com/football/tottenham-hotspur-vs-everton/report/559483",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T19:30:00+00:00"
-    },
-    {
-      "title": "'Tired' Liverpool, Chelsea's leaky defence and Villa's attacking concerns",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13583460/liverpool-fail-fulham-test-as-chelseas-defensive-problems-continue-to-hamper-their-title-challenge-credentials-premier-league-hits-and-misses",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T19:00:00+00:00"
-    },
-    {
-      "title": "Chelsea latest: Alonso eager for \u2018boring\u2019 win as Blues' defensive frailties continue",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T19:00:00+00:00"
-    },
-    {
-      "title": "Iraola bemoans Liverpool's lack of cutting edge and explains Barcola plan",
-      "description": "Liverpool manager Andoni Iraola bemoaned lack of creativity and cutting edge after his side were held to a 0-0 draw by Fulham at Anfield.",
-      "link": "https://www.skysports.com/football/news/11095/13585141/liverpool-boss-andoni-iraola-bemoans-lack-of-creativity-and-cutting-edge-against-fulham-and-explains-bradley-barcola-plan",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T18:47:00+00:00"
-    },
-    {
-      "title": "Pickford joins Premier League clean sheet 100 club",
-      "description": "Our Ask Me Anything team look at which goalkeepers have achieved 100 Premier League clean sheets.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvg5n27w3rpo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-12T18:36:17+00:00"
-    },
-    {
-      "title": "Solanke struggles, but Branthwaite solid - Spurs v Everton player ratings",
-      "description": "How Spurs and Everton's players rated following their Premier League match, which ended in a goalless draw.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8043gn8ng3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T18:32:15+00:00"
-    },
-    {
-      "title": "Liverpool latest: Barcola and other wingers will play off left and right",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T18:30:00+00:00"
-    },
-    {
-      "title": "New system, same problems - Alonso not happy with 'soft' Chelsea",
-      "description": "It was subdued at Stamford Bridge after Chelsea's 2-2 draw with newly promoted Hull City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1l6qd2qvyzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T18:22:46+00:00"
-    },
-    {
-      "title": "Emery left searching for answers after another Villa loss",
-      "description": "Aston Villa have lost three of their opening four Premier League games to leave boss Unai Emery struggling for answers.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clye91zj7l0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T18:06:29+00:00"
-    },
-    {
-      "title": "Emery fumes over McAtee tackle on Maatsen: 'It's a red card'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T18:00:00+00:00"
+      "pubDateISO": "2026-09-12T21:05:00+00:00"
     }
   ]
 }
