@@ -1,21 +1,75 @@
 {
-  "generatedAt": "2026-09-12T11:57:49.666255+00:00",
+  "generatedAt": "2026-09-12T14:52:13.275444+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Listen: Off the Ball",
-      "description": "The most petty and ill-informed football show on radio.",
-      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
-      "source": "BBC Sport",
+      "title": "Tottenham vs Everton team news LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/tottenham-hotspur-vs-everton/live/559483",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T15:41:00+00:00"
+    },
+    {
+      "title": "West Ham shock London City Lionesses for first WSL win of season",
+      "description": "Highlights of West Ham United against London City Lionesses in the Women's Super League.",
+      "link": "https://www.skysports.com/watch/video/13584857/west-ham-united-2-1-london-city-lionesses-womens-super-league-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T14:44:00+00:00"
+    },
+    {
+      "title": "No, really... Is this actually the worst miss ever?",
+      "description": "Luis Vasquez was gifted with an easy chance to make it three for Birmingham vs Derby but somehow skied it.",
+      "link": "https://www.skysports.com/watch/video/13584832/derby-v-birmingham-that-is-an-extraordinary-miss-vazquez-skies-golden-opportunity",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T14:27:00+00:00"
+    },
+    {
+      "title": "Kluivert hits back for Bournemouth minutes after Brentford opener LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/bournemouth-vs-brentford/live/559475",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T13:20:00+00:00"
+    },
+    {
+      "title": "Davis heads Ipswich in front against 10-man Palace LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/crystal-palace-vs-ipswich-town/live/559478",
+      "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-12T13:00:00+00:00"
     },
     {
-      "title": "Aston Villa vs Nottingham Forest LIVE!",
+      "title": "Jacquet clears off the line and Munoz hits the bar for Liverpool LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/liverpool-vs-fulham/live/559480",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T12:00:00+00:00"
+    },
+    {
+      "title": "Unbelievable turnaround! Hull lead Chelsea and currently top of Premier League LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/chelsea-vs-hull-city/live/559476",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T12:00:00+00:00"
+    },
+    {
+      "title": "Forest waste big chance for opener against Aston Villa LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/aston-villa-vs-nottingham-forest/live/559474",
       "source": "Sky Sports",
@@ -24,9 +78,9 @@
       "pubDateISO": "2026-09-12T12:00:00+00:00"
     },
     {
-      "title": "Cardiff, Birmingham, West Brom in action - EFL on Sky LIVE!",
+      "title": "Boro lead Norwich; Swansea ahead - EFL LIVE!",
       "description": "",
-      "link": "https://www.skysports.com/football/derby-county-vs-birmingham-city/live/560573",
+      "link": "https://www.skysports.com/football/middlesbrough-vs-norwich-city/live/560574",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
@@ -58,60 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-09-12T07:47:25+00:00"
-    },
-    {
-      "title": "'A legacy' at 26 - how Hemp has grown at Man City",
-      "description": "Manchester City forward Lauren Hemp has already achieved more than most footballers at the age of 26.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj4je2eveewo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T07:39:53+00:00"
-    },
-    {
-      "title": "'A legacy' at 26 - how Hemp has grown at Man City",
-      "description": "Manchester City forward Lauren Hemp has already achieved more than most footballers at the age of 26.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj4je2eveewo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T07:39:53+00:00"
-    },
-    {
-      "title": "Signed instead of Rashford, Gordon is proving worth at Barca",
-      "description": "Anthony Gordon's \u00a370m move to Barcelona was questioned by some - but the England winger is already proving his worth for the free-scoring Spanish giants.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgk5n3xpkv2o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-12T06:14:51+00:00"
-    },
-    {
-      "title": "Flex your football brain with our daily quizzes",
-      "description": "Test your ball knowledge with today's Who Am I?, Five in Five and Brainteaser.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy8zrxvpvlyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T05:54:29+00:00"
-    },
-    {
-      "title": "New Man City signings desperate to win - Dias",
-      "description": "Manchester City have brought in summer signings who are \"desperate to win\" and the whole squad is \"buying into the idea\" of new manager Enzo Maresca, says new captain Ruben Dias.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy5zp9llp3ro",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-12T05:24:51+00:00"
-    },
-    {
-      "title": "Maresca is 'perfect person' for Man City job - Dias",
-      "description": "Manchester City defender Ruben Dias speaks to BBC Sport's Kelly Somers about the changes at the club following Pep Guardiola's departure.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cm2rd3m01x0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T05:19:02+00:00"
     }
   ]
 }
