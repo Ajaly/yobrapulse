@@ -1,18 +1,81 @@
 {
-  "generatedAt": "2026-09-12T07:38:29.246119+00:00",
+  "generatedAt": "2026-09-12T11:57:49.666255+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "EFL latest: SEVEN games live on Sky at 12.30pm!",
+      "title": "Listen: Off the Ball",
+      "description": "The most petty and ill-informed football show on radio.",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T13:00:00+00:00"
+    },
+    {
+      "title": "Aston Villa vs Nottingham Forest LIVE!",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
+      "link": "https://www.skysports.com/football/aston-villa-vs-nottingham-forest/live/559474",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-12T07:00:00+00:00"
+      "pubDateISO": "2026-09-12T12:00:00+00:00"
+    },
+    {
+      "title": "Cardiff, Birmingham, West Brom in action - EFL on Sky LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/derby-county-vs-birmingham-city/live/560573",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T11:30:00+00:00"
+    },
+    {
+      "title": "London Stadium a big advantage for West Ham - Nuno",
+      "description": "West Ham United head coach Nuno Espirito Santo believes the size of the Hammers' home crowds is a big advantage in the Championship.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2zpex1w27o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T11:27:15+00:00"
+    },
+    {
+      "title": "'I've turned the page' - Camara on Chelsea deal collapse",
+      "description": "Monaco and Senegal midfielder Lamine Camara says he is moving on from his failed \u00a347.1m move to Chelsea.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj9x7e40gr2o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-12T10:07:36+00:00"
+    },
+    {
+      "title": "Celtic's Nygren reveals summer transfer interest",
+      "description": "Celtic's Benjamin Nygren reveals summer transfer interest as Rangers rule out a move to Saudi Arabia for Nico Raskin...",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c770z8dmemzo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-12T07:47:25+00:00"
+    },
+    {
+      "title": "'A legacy' at 26 - how Hemp has grown at Man City",
+      "description": "Manchester City forward Lauren Hemp has already achieved more than most footballers at the age of 26.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj4je2eveewo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T07:39:53+00:00"
+    },
+    {
+      "title": "'A legacy' at 26 - how Hemp has grown at Man City",
+      "description": "Manchester City forward Lauren Hemp has already achieved more than most footballers at the age of 26.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj4je2eveewo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T07:39:53+00:00"
     },
     {
       "title": "Signed instead of Rashford, Gordon is proving worth at Barca",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-12T05:19:02+00:00"
-    },
-    {
-      "title": "Papers: Amorim takes swipe at Man Utd players-turned-pundits",
-      "description": "The top stories and transfer rumours from Saturday's newspapers...",
-      "link": "https://www.skysports.com/football/news/11095/13584647/manchester-united-news-ruben-amorim-takes-a-swipe-at-the-clubs-former-players-now-working-in-the-media-paper-talk",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-11T23:16:00+00:00"
-    },
-    {
-      "title": "Arsenal latest: Arteta striving to 'build the best club in the world'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T22:42:00+00:00"
-    },
-    {
-      "title": "Alonso: Benzema-like Joao Pedro is on same level as Haaland",
-      "description": "Xabi Alonso has likened Joao Pedro to Karim Benzema and said the Chelsea striker is on the same level as Erling Haaland.",
-      "link": "https://www.skysports.com/football/news/11095/13584444/joao-pedro-reminds-me-of-karim-benzema-and-is-on-same-level-as-erling-haaland-says-chelsea-boss-xabi-alonso",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T22:30:00+00:00"
-    },
-    {
-      "title": "Tottenham latest: Richarlison fails to agree terms with Vasco da Gama",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T22:28:00+00:00"
-    },
-    {
-      "title": "Richarlison could still leave Spurs - Saturday's gossip",
-      "description": "Interest in Richarlison, Philippe Coutinho agrees Santos deal and Manchester United monitoring Adrien Truffert.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn0jrn8n7pjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T22:18:17+00:00"
-    },
-    {
-      "title": "West Ham thrash Wrexham to go top of the Championship",
-      "description": "West Ham made easy work of Wrexham in a 6-0 victory at the London Stadium to make it four in a row and go top of the Championship.",
-      "link": "https://www.skysports.com/football/west-ham-united-vs-wrexham/report/560581",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T22:00:00+00:00"
-    },
-    {
-      "title": "Bergvall signs new Spurs deal after uncertain future",
-      "description": "Lucas Bergvall signs a new contract at Tottenham after telling the club he wanted to leave in the summer.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c99dg2gzdl4o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-11T21:40:56+00:00"
     }
   ]
 }
