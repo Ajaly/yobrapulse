@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-09-12T02:40:36.711680+00:00",
+  "generatedAt": "2026-09-12T07:38:29.246119+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "EFL latest: SEVEN games live on Sky at 12.30pm!",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T07:00:00+00:00"
+    },
+    {
+      "title": "Signed instead of Rashford, Gordon is proving worth at Barca",
+      "description": "Anthony Gordon's \u00a370m move to Barcelona was questioned by some - but the England winger is already proving his worth for the free-scoring Spanish giants.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgk5n3xpkv2o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-12T06:14:51+00:00"
+    },
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge with today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy8zrxvpvlyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T05:54:29+00:00"
+    },
+    {
+      "title": "New Man City signings desperate to win - Dias",
+      "description": "Manchester City have brought in summer signings who are \"desperate to win\" and the whole squad is \"buying into the idea\" of new manager Enzo Maresca, says new captain Ruben Dias.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cy5zp9llp3ro",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-12T05:24:51+00:00"
+    },
+    {
+      "title": "Maresca is 'perfect person' for Man City job - Dias",
+      "description": "Manchester City defender Ruben Dias speaks to BBC Sport's Kelly Somers about the changes at the club following Pep Guardiola's departure.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cm2rd3m01x0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-12T05:19:02+00:00"
+    },
     {
       "title": "Papers: Amorim takes swipe at Man Utd players-turned-pundits",
       "description": "The top stories and transfer rumours from Saturday's newspapers...",
@@ -67,51 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-09-11T21:40:56+00:00"
-    },
-    {
-      "title": "Like Benzema & as good as Haaland - Alonso on Joao Pedro",
-      "description": "Chelsea manager Xabi Alonso says striker Joao Pedro is similar stylistically to his former Real Madrid team-mate Karim Benzema and is at a comparable level to Manchester City's Erling Haaland.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1j4z1ry29jo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T21:30:23+00:00"
-    },
-    {
-      "title": "Richarlison's move to Vasco da Gama falls through",
-      "description": "Tottenham forward Richarlison's proposed move to Vasco da Gama falls through amid ongoing uncertainty over the Brazilian's future.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr50q58vqggo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-11T20:49:46+00:00"
-    },
-    {
-      "title": "'Beautifully worked, perfectly finished!' | Bowen strike opens the scoring",
-      "description": "Jarrod Bowen opens the scoring for West Ham against Wrexham.",
-      "link": "https://www.skysports.com/watch/video/13584587/west-ham-vs-wrexham-jarrod-bowen-strike-opens-the-scoring",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T20:38:00+00:00"
-    },
-    {
-      "title": "Kartal still Fenerbahce boss despite resigning",
-      "description": "Ismail Kartal remains as head coach of Fenerbahce, despite resigning following Thursday's Champions League game with Roma.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cy0zvxx2eldo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-11T19:51:32+00:00"
-    },
-    {
-      "title": "Moroccan official told to stop making 2030 final promise",
-      "description": "Morocco's prime minister tells the head of the country's football federation to stop making promises about the 2030 World Cup final, while the head of the Spanish federation says the showpiece should be played in Spain.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c4gv7n50lnwo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-11T18:58:10+00:00"
     }
   ]
 }
