@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-09-13T20:10:38.273944+00:00",
+  "generatedAt": "2026-09-13T22:49:54.544325+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Intelligence & resilience key in statement win for Maresca's Man City - Murphy",
+      "description": "Match of the Day pundit Danny Murphy explains how Manchester City beat Manchester United at Old Trafford despite being down to 10 men for most of the game.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq6384g0pqyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-13T22:20:42+00:00"
+    },
+    {
+      "title": "Awarding Man City's winner at Man Utd an error, admits refereeing body",
+      "description": "Refereeing body Pro Ref has admitted an error in awarding Manchester City's winner at Manchester United in their 1-0 victory at Old Trafford.",
+      "link": "https://www.skysports.com/football/news/11095/13585607/erling-haalands-man-city-goal-decision-vs-man-utd-an-error-of-judgement-says-pro-ref",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-13T21:00:00+00:00"
+    },
     {
       "title": "Kane hits landmark goal in Bayern win as Barca maintain perfect start",
       "description": "",
@@ -13,6 +31,33 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-13T20:37:00+00:00"
+    },
+    {
+      "title": "Refereeing body admits judgement error over Haaland derby winner",
+      "description": "The Premier League refereeing body Pro Ref admits an error of judgement in awarding Erling Haaland's winner in the Manchester derby.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5ym9ky3rzxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-13T20:29:58+00:00"
+    },
+    {
+      "title": "Bayern monitoring Wirtz - Monday's gossip",
+      "description": "Florian Wirtz is being monitored by Bayern Munich, Bournemouth's Brazil forward Rayan could be a Liverpool target next summer and Borussia Dortmund rule out move for Jadon Sancho.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr4v345pdq0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-13T20:23:02+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "Rick Edwards, Luke Edwards and Charlie Austin discuss the latest Premier League weekend.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p9gjr9",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-13T20:23:00+00:00"
     },
     {
       "title": "Joint-worst start since 1992 and fan protests - Man Utd's day to forget",
@@ -42,24 +87,6 @@
       "pubDateISO": "2026-09-13T19:32:55+00:00"
     },
     {
-      "title": "Bundesliga",
-      "description": "Watch highlights from matchday three in the Bundesliga.",
-      "link": "https://www.bbc.co.uk/iplayer/episode/l0058t4y",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-13T19:14:17+00:00"
-    },
-    {
-      "title": "Was Haaland's winner a VAR error? Man Utd fury at 'injustice'",
-      "description": "Manchester City celebrate a remarkable derby win over Manchester United but questions remain over whether Erling Haaland's winning goal should have stood in a match fraught with controversy.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5ym9ky3rzxo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-13T19:13:19+00:00"
-    },
-    {
       "title": "Haaland scores controversial winner as Man City win derby despite Foden red",
       "description": "Erling Haaland's goal helps Manchester City win a highly controversial Manchester derby at rivals Manchester United despite playing with 10 men for more than 70 minutes.",
       "link": "https://www.bbc.co.uk/sport/football/videos/cpd0j54xlyyo",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-13T18:46:00+00:00"
-    },
-    {
-      "title": "Haaland scores controversial derby winner for Man City after Foden red",
-      "description": "Erling Haaland's contentious winner earned 10-man Manchester City a derby win over rivals United at Old Trafford - after Phil Foden's controversial first-half red card.",
-      "link": "https://www.skysports.com/football/manchester-united-vs-manchester-city/report/559481",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-13T18:30:00+00:00"
-    },
-    {
-      "title": "Fernandes and Foden should have been sent off - Maresca",
-      "description": "Enzo Maresca believes both Phil Foden and Bruno Fernandes should have been sent off in Manchester City's derby victory against Manchester United.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cj061413lmqo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-13T18:26:24+00:00"
-    },
-    {
-      "title": "Neville: Officials got Haaland winner wrong - Man Utd can expect apology",
-      "description": "Gary Neville believes the VAR officials were \"wrong\" to award Manchester City's winner at Manchester United in their 1-0 victory at Old Trafford.",
-      "link": "https://www.skysports.com/football/news/11095/13585530/gary-neville-man-utd-can-expect-apology-from-pro-ref-for-erling-haalands-winner-in-manchester-derby",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-13T18:15:00+00:00"
     }
   ]
 }
