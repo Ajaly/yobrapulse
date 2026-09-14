@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-09-14T00:39:07.951881+00:00",
+  "generatedAt": "2026-09-14T05:42:15.346150+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man City maintain perfect WSL start with win at Villa",
+      "description": "Manchester City become the only side to win both of their opening two Women's Super League fixtures with an impressive performance against Aston Villa.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c86x0e0v042o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-14T05:12:52+00:00"
+    },
     {
       "title": "'Why not have go?!' - Dunk's wonder goal against Coventry",
       "description": "Match of the Day pundits Danny Murphy and Wayne Rooney take a look at Lewis Dunk's incredible long-range strike in Brighton's 5-0 win against Coventry, praising the defender for his technique.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-13T19:32:55+00:00"
-    },
-    {
-      "title": "Haaland scores controversial winner as Man City win derby despite Foden red",
-      "description": "Erling Haaland's goal helps Manchester City win a highly controversial Manchester derby at rivals Manchester United despite playing with 10 men for more than 70 minutes.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cpd0j54xlyyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-13T19:06:08+00:00"
     }
   ]
 }
