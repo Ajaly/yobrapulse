@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-09-13T22:49:54.544325+00:00",
+  "generatedAt": "2026-09-14T00:39:07.951881+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Why not have go?!' - Dunk's wonder goal against Coventry",
+      "description": "Match of the Day pundits Danny Murphy and Wayne Rooney take a look at Lewis Dunk's incredible long-range strike in Brighton's 5-0 win against Coventry, praising the defender for his technique.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cvgyree8zpro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-13T22:59:21+00:00"
+    },
+    {
+      "title": "Getting goal decision so wrong is 'baffling' - Rooney",
+      "description": "Match of the Day pundits Wayne Rooney and Danny Murphy finds it \"baffling\" that Erling Haaland's winning goal in the Manchester derby was not ruled out by VAR, but think Phil Foden's red card was the correct decision.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c9w4755n70wo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-13T22:59:17+00:00"
+    },
     {
       "title": "Intelligence & resilience key in statement win for Maresca's Man City - Murphy",
       "description": "Match of the Day pundit Danny Murphy explains how Manchester City beat Manchester United at Old Trafford despite being down to 10 men for most of the game.",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-13T19:06:08+00:00"
-    },
-    {
-      "title": "Dunk scores screamer as Brighton thrash 10-man Coventry",
-      "description": "Coventry's poor start to the Premier League season continues after they're thrashed 5-0 at home to Brighton, having played most of the second half with ten men after having Taiwo Awoniyi sent off at the CBS Arena.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cly7408jg0go",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-13T19:00:21+00:00"
-    },
-    {
-      "title": "Huge controversy and confusion as Man City win dramatic VAR-filled derby",
-      "description": "FREE TO WATCH: Highlights from Manchester United&#8217;s match against Manchester City in the Premier League.",
-      "link": "https://www.skysports.com/watch/video/13585545/manchester-united-0-1-manchester-city-premier-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-13T18:46:00+00:00"
     }
   ]
 }
