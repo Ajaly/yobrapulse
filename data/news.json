@@ -1,27 +1,99 @@
 {
-  "generatedAt": "2026-09-15T15:28:10.966247+00:00",
+  "generatedAt": "2026-09-15T19:30:14.352450+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man Utd latest: Why does Gabriel want to leave Old Trafford?",
+      "title": "Millwall lead at Boro - Championship LIVE on Sky!",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "link": "https://www.skysports.com/football/middlesbrough-vs-millwall/live/560562",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T16:00:00+00:00"
+      "pubDateISO": "2026-09-15T19:15:00+00:00"
     },
     {
-      "title": "Explained: Why 15-year-old prodigy JJ Gabriel wants to leave Man Utd",
-      "description": "Dan Khan updates us on 15-year-old prodigy JJ Gabriel decision to leave Manchester United.",
-      "link": "https://www.skysports.com/watch/video/13586221/15-year-old-prodigy-jj-gabriel-has-asked-to-leave-manchester-united",
+      "title": "Mac Allister fires Liverpool in front against Tottenham LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/liverpool-vs-tottenham-hotspur/live/577579",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T15:46:00+00:00"
+      "pubDateISO": "2026-09-15T18:30:00+00:00"
+    },
+    {
+      "title": "All done deals in September 2026",
+      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-15T18:27:42+00:00"
+    },
+    {
+      "title": "Dowman and Madueke give Arsenal two-goal lead at Ipswich LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/ipswich-town-vs-arsenal/live/577577",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-15T18:20:00+00:00"
+    },
+    {
+      "title": "Classy Palacios restores Fulham's lead vs West Ham LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/west-ham-united-vs-fulham/live/577587",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-15T18:15:00+00:00"
+    },
+    {
+      "title": "VAR did not even consider if Fernandez was offside - Webb",
+      "description": "Referees' chief Howard Webb has admitted that the video assistant referee (VAR) did not even consider whether Enzo Fernandez was offside for Erling Haaland's controversial winner in Sunday's Manchester derby.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cv4g5rp56p55o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-15T17:42:20+00:00"
+    },
+    {
+      "title": "Ipswich latest: Webb wants handball law change after Maguire controversy",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13279317/ipswich-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-15T17:01:00+00:00"
+    },
+    {
+      "title": "Webb: VAR had 'tunnel vision' on Haaland which led to Enzo error",
+      "description": "Pro Ref chief Howard Webb says VAR missed Enzo Fernandez being offside for Erling Haaland's winning goal in the Manchester derby due to \"tunnel vision\".",
+      "link": "https://www.skysports.com/football/news/11095/13586101/pro-ref-chief-howard-webb-admits-var-had-tunnel-vision-on-erling-haaland-leading-to-enzo-fernandez-error",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-15T17:00:00+00:00"
+    },
+    {
+      "title": "FULL VAR audio released of Haaland's controversial Manchester derby winner",
+      "description": "Speaking on Match Officials Mic'd Up, Pro Ref chief Howard Webb says that there will be a review into how the VAR process decided to allow Erling Haaland's goal for Manchester City against Manchester United to stand.",
+      "link": "https://www.skysports.com/watch/video/13586149/match-officials-micd-up-where-did-var-go-wrong-with-erling-haaland-goal",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-15T17:00:00+00:00"
+    },
+    {
+      "title": "Webb: Foden red justified but Fernandes escaped yellow for 'petulant' kick",
+      "description": "Pro Ref chief Howard Webb has backed the decision to send off Phil Foden in the Manchester derby but revealed VAR could not intervene to caution Bruno Fernandes for the \"petulant\" kick that sparked the altercation.",
+      "link": "https://www.skysports.com/football/news/11095/13586192/pro-ref-chief-howard-webb-agrees-with-phil-foden-red-card-in-manchester-derby-but-admits-bruno-fernandes-should-have-been-booked",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-15T17:00:00+00:00"
     },
     {
       "title": "Sterling admits dangerous driving after motorway crash",
@@ -30,88 +102,16 @@
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T15:25:09+00:00"
+      "pubDateISO": "2026-09-15T16:24:00+00:00"
     },
     {
-      "title": "The key talking points from Pocognoli's bold Scotland squad",
-      "description": "The Sebastien Pocognoli Scotland era is already creating serious intrigue - and the Belgian's squad are yet to assemble for a training-ground rondo, never mind play a game.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c51kxlek7471o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T15:12:03+00:00"
-    },
-    {
-      "title": "Gabriel asks to leave Man Utd",
-      "description": "Manchester United's 15-year-old academy prodigy JJ Gabriel has asked to leave the club, <em>Sky Sports News</em> understands.",
-      "link": "https://www.skysports.com/football/news/11095/13586188/jj-gabriel-transfer-news-highly-rated-manchester-united-teenage-prospect-asks-to-leave-old-trafford",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T14:21:00+00:00"
-    },
-    {
-      "title": "Chelsea latest: Caicedo an injury doubt for Brentford game",
+      "title": "Man Utd latest: Why does Gabriel want to leave Old Trafford?",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-15T14:20:00+00:00"
-    },
-    {
-      "title": "Eligibility rules 'not particularly fair' - O'Neill",
-      "description": "Northern Ireland manager Michael O'Neill says what upsets him the most regarding rules over international eligibility is the pressure put on young players to make an irreversible choice.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c61kxp0w732vo",
-      "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T14:14:22+00:00"
-    },
-    {
-      "title": "A team in form - how Farke has turned Leeds around",
-      "description": "With Leeds United third in the Premier League, BBC Sport assesses their improvement under Daniel Farke.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6x2zgnngj71o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T14:01:59+00:00"
-    },
-    {
-      "title": "Celtic & Scotland legend McGrain diagnosed with Alzheimer's",
-      "description": "Danny McGrain, described by Celtic as \"Scotland's greatest-ever full-back\", has been diagnosed with Alzheimer's disease, his family confirms.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmew98xy54pjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T13:49:55+00:00"
-    },
-    {
-      "title": "Celtic & Scotland legend McGrain diagnosed with Alzheimer's",
-      "description": "Danny McGrain, described by Celtic as \"Scotland's greatest-ever full-back\", has been diagnosed with Alzheimer's disease, his family confirms.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmew98xy54pjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T13:49:55+00:00"
-    },
-    {
-      "title": "Youth star JJ Gabriel, 15, on brink of leaving Man Utd",
-      "description": "Manchester United's highly-rated 15-year-old forward JJ Gabriel is on the verge of leaving the club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c95y4dxr0v6do",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T13:33:09+00:00"
-    },
-    {
-      "title": "'We can't change the rules' - O'Neill on NI/ROI eligibility",
-      "description": "Northern Ireland manager Michael O'Neill speaks to BBC Sport NI's Stephen Watson about speculation regarding Arsenal youngster Ceadach O'Neill's international future as he is named in the NI squad for their upcoming Nations League fixtures.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cwm2rjzgxex4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T12:43:49+00:00"
+      "pubDateISO": "2026-09-15T16:00:00+00:00"
     }
   ]
 }
