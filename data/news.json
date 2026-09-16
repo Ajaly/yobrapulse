@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T01:02:09.247585+00:00",
+  "generatedAt": "2026-09-16T05:43:31.409747+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -13,6 +13,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-16T00:00:00+00:00"
+    },
+    {
+      "title": "What next for Arsenal prodigy Dowman after latest statement display?",
+      "description": "Max Dowman has waited patiently for opportunities in Arsenal's first team, but when he gets them, he delivers.",
+      "link": "https://www.skysports.com/football/news/11095/13586419/max-dowman-arsenal-prodigy-delivers-latest-statement-performance-as-mikel-arteta-urges-caution-over-16-year-old",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-15T23:23:00+00:00"
     },
     {
       "title": "Spurs latest: De Zerbi encouraged by performance in 'undeserved' Liverpool loss",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-15T21:39:00+00:00"
-    },
-    {
-      "title": "Spurs do score but Szoboszlai stunner seals cup tie for Liverpool",
-      "description": "Dominik Szoboszlai&#8217;s stunning strike sealed a 3-1 win for Liverpool over Tottenham in the third round of the Carabao Cup at Anfield.",
-      "link": "https://www.skysports.com/football/liverpool-vs-tottenham-hotspur/report/577579",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-15T21:35:00+00:00"
     }
   ]
 }
