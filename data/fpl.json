@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T15:20:45.246364+00:00",
+  "generatedAt": "2026-09-16T19:21:49.842934+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -49,8 +49,8 @@
       }
     },
     {
-      "id": "165",
-      "score": 10.99,
+      "id": "124",
+      "score": 10.66,
       "factors": {
         "epNext": 8.2,
         "ownForm": 8.2,
@@ -60,13 +60,13 @@
         "venueFormSource": null,
         "opponentVenueForm": null,
         "fixtureLoad": 1,
-        "opponent": "Brentford",
-        "isHome": false,
+        "opponent": "Arsenal",
+        "isHome": true,
         "trackRecordVsOpponent": {
-          "meetings": 6,
-          "goals": 1,
-          "assists": 1,
-          "involvementsPerMatch": 0.33
+          "meetings": 3,
+          "goals": 0,
+          "assists": 0,
+          "involvementsPerMatch": 0.0
         }
       }
     }
@@ -169,6 +169,7 @@
     "230",
     "350",
     "453",
+    "472",
     "544",
     "385",
     "362",
@@ -321,7 +322,7 @@
       "adjustedSwing": 1.0,
       "nearFdr": 4.0,
       "laterFdr": 3.0,
-      "squadAvailability": 0.94,
+      "squadAvailability": 0.95,
       "fixtures": [
         "vs Crystal Palace",
         "@ Arsenal",
@@ -374,16 +375,16 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 41,
+      "homeWinPct": 45,
       "drawPct": 25,
-      "awayWinPct": 34,
-      "predictedScore": "1.4 \u2014 1.2",
+      "awayWinPct": 30,
+      "predictedScore": "1.6 \u2014 1.0",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.9,
-        "awayAvailability": 0.97,
+        "awayAvailability": 0.58,
         "homeTransferImpactM": -15.0,
         "awayTransferImpactM": -3.8
       },
@@ -414,16 +415,16 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 48,
+      "homeWinPct": 47,
       "drawPct": 24,
-      "awayWinPct": 28,
-      "predictedScore": "1.5 \u2014 1.1",
+      "awayWinPct": 29,
+      "predictedScore": "1.4 \u2014 1.2",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.84,
-        "awayAvailability": 0.74,
+        "awayAvailability": 0.87,
         "homeTransferImpactM": 28.9,
         "awayTransferImpactM": -22.0
       },
@@ -494,15 +495,15 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 57,
+      "homeWinPct": 56,
       "drawPct": 23,
-      "awayWinPct": 20,
+      "awayWinPct": 21,
       "predictedScore": "1.8 \u2014 0.9",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.98,
+        "homeAvailability": 0.97,
         "awayAvailability": 0.99,
         "homeTransferImpactM": -5.5,
         "awayTransferImpactM": 5.0
@@ -534,7 +535,7 @@
         },
         "away": {
           "transfers": {
-            "in": 2,
+            "in": 1,
             "out": 0,
             "windowDays": 30
           },
@@ -549,7 +550,7 @@
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.78,
+        "homeAvailability": 0.79,
         "awayAvailability": 0.84,
         "homeTransferImpactM": 0,
         "awayTransferImpactM": 5.0
@@ -590,7 +591,7 @@
         "awayForm": null,
         "h2h": null,
         "homeAvailability": 0.93,
-        "awayAvailability": 0.88,
+        "awayAvailability": 0.9,
         "homeTransferImpactM": -1.1,
         "awayTransferImpactM": 14.0
       },
@@ -647,7 +648,7 @@
         "home": {
           "transfers": {
             "in": 0,
-            "out": 1,
+            "out": 0,
             "windowDays": 30
           },
           "managerChange": null
@@ -669,7 +670,7 @@
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.94,
+        "homeAvailability": 0.95,
         "awayAvailability": 0.81,
         "homeTransferImpactM": -8.0,
         "awayTransferImpactM": -7.4
@@ -2846,7 +2847,7 @@
       "form": null,
       "fixtureLoad": 1,
       "recentTransfers": {
-        "in": 2,
+        "in": 1,
         "out": 0,
         "windowDays": 30
       },
@@ -3232,7 +3233,7 @@
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
-        "out": 1,
+        "out": 0,
         "windowDays": 30
       },
       "managerChange": null
@@ -4595,7 +4596,7 @@
       "avatar": "JB",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.5m",
-      "owned": "3.7%",
+      "owned": "3.8%",
       "points": 37,
       "epNext": 9.2,
       "form": 9.2,
@@ -4626,7 +4627,7 @@
       "avatar": "JG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.7m",
-      "owned": "23.5%",
+      "owned": "23.7%",
       "points": 33,
       "epNext": 8.2,
       "form": 8.2,
@@ -4648,37 +4649,6 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
-    "165": {
-      "id": 165,
-      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
-      "shortName": "Jo\u00e3o Pedro",
-      "position": "FWD",
-      "team": "Chelsea",
-      "avatar": "JP",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a37.8m",
-      "owned": "75.5%",
-      "points": 33,
-      "epNext": 8.2,
-      "form": 8.2,
-      "minutes": 360,
-      "goals": 3,
-      "assists": 3,
-      "xg": 2.17,
-      "xa": 0.19,
-      "valueScore": 4.2,
-      "tackles": 1,
-      "clearancesBlocksInterceptions": 3,
-      "recoveries": 5,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4,
-      "fixture": "vs Brentford (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
-    },
     "124": {
       "id": 124,
       "name": "Pascal Gro\u00df",
@@ -4688,7 +4658,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a35.7m",
-      "owned": "19.2%",
+      "owned": "19.3%",
       "points": 33,
       "epNext": 8.2,
       "form": 8.2,
@@ -4709,6 +4679,37 @@
       "fixture": "vs Arsenal (H)",
       "fdr": 4,
       "fdrClass": "hard"
+    },
+    "165": {
+      "id": 165,
+      "name": "Jo\u00e3o Pedro Junqueira de Jesus",
+      "shortName": "Jo\u00e3o Pedro",
+      "position": "FWD",
+      "team": "Chelsea",
+      "avatar": "JP",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a37.8m",
+      "owned": "75.4%",
+      "points": 33,
+      "epNext": 6.1,
+      "form": 8.2,
+      "minutes": 360,
+      "goals": 3,
+      "assists": 3,
+      "xg": 2.17,
+      "xa": 0.19,
+      "valueScore": 4.2,
+      "tackles": 1,
+      "clearancesBlocksInterceptions": 3,
+      "recoveries": 5,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4,
+      "fixture": "vs Brentford (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
     },
     "411": {
       "id": 411,
@@ -4874,7 +4875,7 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.5m",
-      "owned": "12.3%",
+      "owned": "12.4%",
       "points": 30,
       "epNext": 7.5,
       "form": 7.5,
@@ -5122,7 +5123,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.7m",
-      "owned": "12.0%",
+      "owned": "11.9%",
       "points": 22,
       "epNext": 5.5,
       "form": 5.5,
@@ -5153,7 +5154,7 @@
       "avatar": "NW",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.0m",
-      "owned": "8.6%",
+      "owned": "8.7%",
       "points": 17,
       "epNext": 4.2,
       "form": 4.2,
@@ -5370,7 +5371,7 @@
       "avatar": "KS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.1m",
-      "owned": "6.3%",
+      "owned": "6.4%",
       "points": 30,
       "epNext": 7.5,
       "form": 7.5,
@@ -5432,7 +5433,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.1m",
-      "owned": "5.6%",
+      "owned": "5.7%",
       "points": 29,
       "epNext": 7.2,
       "form": 7.2,
@@ -5494,7 +5495,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a312.0m",
-      "owned": "41.5%",
+      "owned": "41.4%",
       "points": 29,
       "epNext": 7.2,
       "form": 7.2,
@@ -5587,7 +5588,7 @@
       "avatar": "M\u00d8",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.7m",
-      "owned": "19.4%",
+      "owned": "19.5%",
       "points": 27,
       "epNext": 6.8,
       "form": 6.8,
@@ -5618,7 +5619,7 @@
       "avatar": "MR",
       "avatarClass": "",
       "price": "\u00a37.7m",
-      "owned": "38.0%",
+      "owned": "38.1%",
       "points": 27,
       "epNext": 6.8,
       "form": 6.8,
@@ -5649,7 +5650,7 @@
       "avatar": "MB",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.1m",
-      "owned": "3.3%",
+      "owned": "3.4%",
       "points": 27,
       "epNext": 6.8,
       "form": 6.8,
@@ -5773,7 +5774,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "12.6%",
+      "owned": "12.8%",
       "points": 26,
       "epNext": 6.5,
       "form": 6.5,
@@ -6083,7 +6084,7 @@
       "avatar": "DC",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "22.9%",
+      "owned": "23.0%",
       "points": 20,
       "epNext": 5.0,
       "form": 5.0,
@@ -6207,7 +6208,7 @@
       "avatar": "HB",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "3.2%",
+      "owned": "3.3%",
       "points": 19,
       "epNext": 4.8,
       "form": 4.8,
@@ -6226,6 +6227,37 @@
       "teamStrengthHome": 2,
       "teamStrengthAway": 3,
       "fixture": "vs Hull City (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
+    },
+    "472": {
+      "id": 472,
+      "name": "Murillo Costa dos Santos",
+      "shortName": "Murillo",
+      "position": "DEF",
+      "team": "Nott'm Forest",
+      "avatar": "MC",
+      "avatarClass": "",
+      "price": "\u00a35.5m",
+      "owned": "2.0%",
+      "points": 19,
+      "epNext": 4.8,
+      "form": 4.8,
+      "minutes": 359,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.35,
+      "xa": 0.29,
+      "valueScore": 3.5,
+      "tackles": 8,
+      "clearancesBlocksInterceptions": 34,
+      "recoveries": 16,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": null,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Coventry City (H)",
       "fdr": 2,
       "fdrClass": "easy"
     },
@@ -6331,7 +6363,7 @@
       "avatar": "AE",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.2m",
-      "owned": "9.0%",
+      "owned": "8.8%",
       "points": 18,
       "epNext": 0.0,
       "form": 4.5,
@@ -6424,7 +6456,7 @@
       "avatar": "MK",
       "avatarClass": "",
       "price": "\u00a34.6m",
-      "owned": "8.1%",
+      "owned": "8.0%",
       "points": 17,
       "epNext": 4.2,
       "form": 4.2,
@@ -6517,7 +6549,7 @@
       "avatar": "JP",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "8.8%",
+      "owned": "8.9%",
       "points": 17,
       "epNext": 4.2,
       "form": 4.2,
@@ -6548,7 +6580,7 @@
       "avatar": "KD",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "5.2%",
+      "owned": "5.3%",
       "points": 17,
       "epNext": 4.2,
       "form": 4.2,
@@ -6579,7 +6611,7 @@
       "avatar": "VV",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "16.7%",
+      "owned": "16.6%",
       "points": 17,
       "epNext": 4.2,
       "form": 4.2,
@@ -6610,7 +6642,7 @@
       "avatar": "IN",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.9m",
-      "owned": "7.9%",
+      "owned": "7.8%",
       "points": 17,
       "epNext": 4.2,
       "form": 4.2,
@@ -6641,7 +6673,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "7.6%",
+      "owned": "7.7%",
       "points": 17,
       "epNext": 4.2,
       "form": 4.2,
@@ -7354,7 +7386,7 @@
       "avatar": "EK",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "18.2%",
+      "owned": "18.3%",
       "points": 11,
       "epNext": 2.8,
       "form": 2.8,
@@ -7571,7 +7603,7 @@
       "avatar": "TH",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.4m",
-      "owned": "3.5%",
+      "owned": "3.4%",
       "points": 9,
       "epNext": 2.2,
       "form": 2.2,
@@ -7726,7 +7758,7 @@
       "avatar": "PP",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "9.0%",
+      "owned": "8.9%",
       "points": 8,
       "epNext": 1.5,
       "form": 2.0,
@@ -7759,7 +7791,7 @@
       "price": "\u00a34.4m",
       "owned": "5.2%",
       "points": 7,
-      "epNext": 1.4,
+      "epNext": 1.8,
       "form": 1.8,
       "minutes": 251,
       "goals": 0,
@@ -7881,7 +7913,7 @@
       "avatar": "LS",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.4m",
-      "owned": "10.1%",
+      "owned": "10.0%",
       "points": 7,
       "epNext": 1.4,
       "form": 1.8,
@@ -7943,7 +7975,7 @@
       "avatar": "MV",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.0m",
-      "owned": "10.0%",
+      "owned": "9.9%",
       "points": 6,
       "epNext": 1.5,
       "form": 1.5,
@@ -8098,7 +8130,7 @@
       "avatar": "NO",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.4m",
-      "owned": "12.3%",
+      "owned": "12.2%",
       "points": 5,
       "epNext": 1.2,
       "form": 1.2,
@@ -8586,7 +8618,7 @@
       "fdrClass": "mid"
     }
   },
-  "totalManagers": 10822756,
+  "totalManagers": 10828229,
   "totalPlayers": 659,
   "priceMovement": {
     "risers": [
@@ -8779,10 +8811,10 @@
       "improving": false
     },
     {
-      "id": "32",
+      "id": "165",
       "status": "d",
-      "news": "Muscular injury - 75% chance of playing",
-      "chanceThisRound": 75,
+      "news": "Unspecified injury - 75% chance of playing",
+      "chanceThisRound": null,
       "chanceNextRound": 75,
       "improving": false
     },
@@ -8871,45 +8903,45 @@
     "rising": [
       {
         "id": "40",
-        "netTransfersEvent": 395525
+        "netTransfersEvent": 404298
       },
       {
         "id": "480",
-        "netTransfersEvent": 299832
+        "netTransfersEvent": 312106
       },
       {
         "id": "391",
-        "netTransfersEvent": 296777
+        "netTransfersEvent": 306809
       },
       {
         "id": "124",
-        "netTransfersEvent": 295957
+        "netTransfersEvent": 304280
       },
       {
         "id": "94",
-        "netTransfersEvent": 234334
+        "netTransfersEvent": 239692
       }
     ],
     "falling": [
       {
         "id": "368",
-        "netTransfersEvent": -258371
+        "netTransfersEvent": -262263
       },
       {
         "id": "454",
-        "netTransfersEvent": -242725
+        "netTransfersEvent": -257230
       },
       {
         "id": "423",
-        "netTransfersEvent": -176009
+        "netTransfersEvent": -181146
       },
       {
         "id": "499",
-        "netTransfersEvent": -161737
+        "netTransfersEvent": -166523
       },
       {
         "id": "557",
-        "netTransfersEvent": -141488
+        "netTransfersEvent": -145061
       }
     ]
   }
