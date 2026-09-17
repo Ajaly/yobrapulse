@@ -1,18 +1,63 @@
 {
-  "generatedAt": "2026-09-17T17:28:48.754025+00:00",
+  "generatedAt": "2026-09-17T20:54:48.154131+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man City make TEN changes as Allan handed debut vs Norwich LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/manchester-city-vs-norwich-city/live/577580",
+      "title": "Chris Samba's son Floyd shines on debut as Man City ease past Norwich",
+      "description": "Floyd Samba enjoyed a dream debut by scoring twice as holders Manchester City booked their place in the Carabao Cup fourth round with a 5-0 home win over Norwich.",
+      "link": "https://www.skysports.com/football/manchester-city-vs-norwich-city/report/577580",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-17T18:00:00+00:00"
+      "pubDateISO": "2026-09-17T21:21:00+00:00"
+    },
+    {
+      "title": "Junior Kroupi on Arsenal radar - Friday's gossip",
+      "description": "Arsenal are eyeing Bournemouth youngster Eli Junior Kroupi, Real Madrid are considering a move for Everton's Jarrad Branthwaite, Chelsea are interested in Nico Williams, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crn8ez44ywqdo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-17T20:41:05+00:00"
+    },
+    {
+      "title": "Samba show! Chris celebrates as son Floyd scores twice for Man City!",
+      "description": "Floyd Samba, son of former Premier League defender Chris, scores Man City double on his debut against Norwich in Carabao Cup.",
+      "link": "https://www.skysports.com/watch/video/13589100/floyd-samba-scores-man-city-opener-on-his-debut-against-norwich",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-17T20:10:00+00:00"
+    },
+    {
+      "title": "Arsenal latest: Lewis-Skelly responds to summer transfer speculation",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-17T19:30:00+00:00"
+    },
+    {
+      "title": "Wrexham owners aim Spygate dig at Southampton",
+      "description": "Ryan Reynolds and Rob Mac have poked fun at next opponents Southampton ahead of their Championship fixture this weekend.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxyvz9jy16l3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-17T19:10:00+00:00"
+    },
+    {
+      "title": "Europa League: Palace cruising, Bournemouth ahead, Celtic trail LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/real-sociedad-vs-bournemouth/live/577757",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-17T18:40:00+00:00"
     },
     {
       "title": "Calvert-Lewin becoming the complete striker",
@@ -24,6 +69,24 @@
       "pubDateISO": "2026-09-17T17:40:00+00:00"
     },
     {
+      "title": "Goodwin to resume Dundee Utd duties after three-week absence",
+      "description": "Dundee United manager Jim Goodwin is set to resume his duties at Tannadice after an enforced medical absence.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqevw72d0z0lo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-17T17:26:56+00:00"
+    },
+    {
+      "title": "Goodwin to resume Dundee Utd duties after three-week absence",
+      "description": "Dundee United manager Jim Goodwin is set to resume his duties at Tannadice after an enforced medical absence.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqevw72d0z0lo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-17T17:26:56+00:00"
+    },
+    {
       "title": "The big questions for Tuchel's first England squad since World Cup",
       "description": "Before Thomas Tuchel names his first squad since the World Cup on Friday, BBC Sport looks at the big questions facing the England boss.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cq804jkle8j3o",
@@ -31,15 +94,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-17T16:47:18+00:00"
-    },
-    {
-      "title": "Wrexham owners aim Spygate dig at Southampton",
-      "description": "Wrexham co-owners Ryan Reynolds and Rob Mac have aimed a Spygate dig at Southampton ahead of the Championship fixture between the sides this weekend.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cxyvz9jy16l3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-17T16:33:31+00:00"
     },
     {
       "title": "Will Palmer, Foden and Trent be recalled to England squad?",
@@ -58,60 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-09-17T16:03:00+00:00"
-    },
-    {
-      "title": "Euro Leagues",
-      "description": "Is JJ Gabriel set for Real Madrid? And former Gunners Aubameyang & Jesus keep scoring!",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pb3ytn",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-17T16:00:00+00:00"
-    },
-    {
-      "title": "Newcastle players see Jaissle's angry side - can they respond?",
-      "description": "Newcastle United head coach Matthias Jaissle was forthright in the away dressing room at Elland Road on Monday night following a chastening 4-1 defeat against Leeds United.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck980pprp5n1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-17T15:58:24+00:00"
-    },
-    {
-      "title": "FA writes to Infantino over World Cup sell-off plan and Balogun controversy",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-17T15:33:00+00:00"
-    },
-    {
-      "title": "Why will September international break last three weeks?",
-      "description": "BBC Sport's Ask Me Anything team explain the major changes happening to football's international breaks starting in September 2026",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq5jl744pwpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-17T15:30:03+00:00"
-    },
-    {
-      "title": "Alonso: Chelsea didn't need a reset - they just needed an update",
-      "description": "Xabi Alonso says Chelsea were in need of \"an update\" rather than a full reset when he was appointed manager this summer.",
-      "link": "https://www.skysports.com/football/news/11095/13589015/xabi-alonso-chelsea-manager-says-blues-needed-an-update-rather-than-a-reset-when-he-took-over-at-stamford-bridge",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-17T15:30:00+00:00"
-    },
-    {
-      "title": "Sutton's predictions v legendary guitarist Johnny Marr",
-      "description": "BBC Sport football expert Chris Sutton takes on legendary guitarist and Man City fan Johnny Marr, plus the BBC readers and AI with his predictions for this weekend's Premier League fixtures.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62j06np0gpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-17T15:10:03+00:00"
     }
   ]
 }
