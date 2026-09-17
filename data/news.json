@@ -1,18 +1,45 @@
 {
-  "generatedAt": "2026-09-16T22:37:48.327853+00:00",
+  "generatedAt": "2026-09-17T01:05:23.200141+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Brighton latest: Belief and character helped beat Man Utd, says Hurzeler",
+      "title": "Chelsea latest: Joao Pedro injury worry as Boehly exit confirmed",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-17T00:01:00+00:00"
+    },
+    {
+      "title": "New season, same Man Utd story - Carrick is now firmly feeling the pressure",
+      "description": "This wasn't just a defeat. This wasn't just a collapse. This wasn't just a cup exit. Another Manchester United managerial project is heading in that one, same direction. And even Michael Carrick recognises that.",
+      "link": "https://www.skysports.com/football/news/11095/13588791/man-utd-2-3-brighton-michael-carricks-old-trafford-tenure-is-only-heading-in-one-direction-as-red-devils-face-familiar-story",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-16T23:25:00+00:00"
+      "pubDateISO": "2026-09-16T23:47:00+00:00"
+    },
+    {
+      "title": "Carrick 'not bothered' by pressure - but should he be after this latest mess?",
+      "description": "Manager Michael Carrick insists he does not feel under pressure after Manchester United's EFL Cup exit.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmwyzr576y9zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-16T23:31:38+00:00"
+    },
+    {
+      "title": "Boehly and Walter sell Chelsea stakes to Clearlake",
+      "description": "Clearlake Capital acquires full control of Chelsea as chairman Todd Boehly, director Mark Walter and Hansjorg Wyss sell their stakes in the club.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvrl6egl1254o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-16T23:29:10+00:00"
     },
     {
       "title": "Papers: Shaw may leave Man Utd next summer with no new deal in sight",
@@ -33,6 +60,15 @@
       "pubDateISO": "2026-09-16T23:08:00+00:00"
     },
     {
+      "title": "La Liga roundup: Barca hit seven past Racing",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-16T23:00:00+00:00"
+    },
+    {
       "title": "Liverpool face Chelsea as Carabao Cup fourth-round draw confirmed",
       "description": "Liverpool will host Chelsea in the fourth round of the Carabao Cup, while Premier League champions Arsenal have drawn the lowest-ranked side left in the competition, Fleetwood Town.",
       "link": "https://www.skysports.com/football/news/11095/13588651/carabao-cup-fourth-round-draw-liverpool-to-host-chelsea-as-arsenal-drawn-away-to-league-two-fleetwood",
@@ -40,6 +76,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-16T22:36:00+00:00"
+    },
+    {
+      "title": "Manchester United\u2019s latest nightmare & Sunderland shine in Europe",
+      "description": "Aaron Paul is joined by Jobi McAnuff, Clinton Morrison and, John Murray.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0p9zfpn",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-16T22:34:00+00:00"
     },
     {
       "title": "Everton strike late to beat much-changed Wolves in Carabao Cup",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-16T22:02:44+00:00"
-    },
-    {
-      "title": "League Two Fleetwood host Arsenal in EFL Cup",
-      "description": "League Two side Fleetwood Town will host Premier League champions Arsenal in the fourth round of the EFL Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqd08y9dd5dko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-16T21:57:04+00:00"
-    },
-    {
-      "title": "Man Utd collapse from 2-0 up to exit Carabao Cup to Brighton",
-      "description": "Manchester United hit a new low under Michael Carrick as they threw away a two-goal lead to lose 3-2 to Brighton - and exit the Carabao Cup at the first hurdle for a second straight year.",
-      "link": "https://www.skysports.com/football/manchester-united-vs-brighton-and-hove-albion/report/577581",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-16T21:35:00+00:00"
-    },
-    {
-      "title": "Abraham double helps Villa cruise past Coventry into fourth round",
-      "description": "Tammy Abraham scored twice as Aston Villa won 3-1 at Coventry City to book their place in the fourth round of the Carabao Cup.",
-      "link": "https://www.skysports.com/football/coventry-city-vs-aston-villa/report/577573",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-16T21:35:00+00:00"
-    },
-    {
-      "title": "Horror own goal sees Fleetwood shock Sheff Utd and book Arsenal tie",
-      "description": "Rhys Norrington-Davies' horror own goal sent Fleetwood into the last 16 of the Carabao Cup for the first time as the League Two side stunned Championship Sheffield United 1-0 at Highbury.",
-      "link": "https://www.skysports.com/football/fleetwood-town-vs-sheffield-united/report/577576",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-16T21:35:00+00:00"
-    },
-    {
-      "title": "Painful endgame for Gray as stale Hibs slump",
-      "description": "A club hero, David Gray ends his time as Hibs head coach not to the sound of euphoria from fans, but to the sound of a support collectively exhaling in relief, writes Tom English.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3qjk2nev7r8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-16T20:53:10+00:00"
     }
   ]
 }
