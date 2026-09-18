@@ -1,18 +1,63 @@
 {
-  "generatedAt": "2026-09-18T16:56:45.497162+00:00",
+  "generatedAt": "2026-09-18T19:27:01.818669+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
+      "title": "WSL: Keating error allows Shaw to level for Man City vs Liverpool LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/manchester-city-women-vs-liverpool-women/live/575769",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-18T18:10:00+00:00"
+    },
+    {
+      "title": "Fulham latest: 'Arbeloa must be given time - first league win not far away'",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13279313/fulham-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-18T18:00:00+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "John Murray, Ian Dennis & Ali Bruce-Ball catch up on life as football commentators.",
+      "link": "https://www.bbc.co.uk/sounds/play/m0032gcn",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-18T17:50:00+00:00"
+    },
+    {
+      "title": "Former Man Utd left-back Malacia joins FC Cincinnati",
+      "description": "FC Cincinnati sign former Manchester United left-back Tyrell Malacia on a free transfer.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6vgyjgqgdqwo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-18T17:39:15+00:00"
+    },
+    {
       "title": "Gabriel edging closer to Man Utd exit after Barca talks",
-      "description": "JJ Gabriel and his representatives are in Barcelona for talks about a potential move to the Catalan club.",
+      "description": "JJ Gabriel and his family are in Barcelona for talks about a potential move to the Catalan club.",
       "link": "https://www.skysports.com/football/news/11095/13589387/jj-gabriel-edging-closer-to-manchester-united-exit-amid-barcelona-talks-about-a-potential-move-for-the-forward",
       "source": "Sky Sports",
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-09-18T17:20:00+00:00"
+    },
+    {
+      "title": "Senegal job an 'absolute dream' for new boss Vieira",
+      "description": "Former France international Patrick Vieira, a World Cup winner in 1998, says taking charge of Senegal, the nation of his birth, is an \"honour\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crlyqgqwq8lyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-18T17:01:59+00:00"
     },
     {
       "title": "What are the key questions in Saturday's Scottish Premiership?",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-18T16:03:14+00:00"
-    },
-    {
-      "title": "London City's new training centre 'better than most Premier League clubs' - Kang",
-      "description": "Michele Kang believes London City Lionesses' planned new training ground will set a new standard in the women's game and surpass facilities used by most men's Premier League clubs.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crl69549wzro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T16:03:14+00:00"
-    },
-    {
-      "title": "'I'm not doing this as a charity' - Kang on trying to 'level playing field'",
-      "description": "London City Lionesses owner Michele Kang shares why it is so important for more infrastructure in women's sports.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cq4gmlypvd8vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T16:01:07+00:00"
-    },
-    {
-      "title": "Goodwin in 'good health' but needs 'simple procedure'",
-      "description": "Dundee United manager Jim Goodwin is not for going into detail about his recent hospital scare that requires \"a simple procedure\" but is \"pleased to say I am back to full health and raring to go\" after a three-game absence from the dugout.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c54g7jnjj2mxo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T15:50:56+00:00"
-    },
-    {
-      "title": "Goodwin in 'good health' but needs 'simple procedure'",
-      "description": "Dundee United manager Jim Goodwin is not for going into detail about his recent hospital scare that requires \"a simple procedure\" but is \"pleased to say I am back to full health and raring to go\" after a three-game absence from the dugout.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c54g7jnjj2mxo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T15:50:56+00:00"
-    },
-    {
-      "title": "Man Utd latest: Baleba could make debut against Fulham - Carrick",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T15:35:00+00:00"
     }
   ]
 }
