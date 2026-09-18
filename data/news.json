@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-09-17T23:23:15.686400+00:00",
+  "generatedAt": "2026-09-18T02:43:35.521465+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Leaden, stale, disheartening - where do Celtic & O'Neill go from here?",
+      "description": "After another defeat, keeping the faith is surely becoming more testing for Celtic's fans, writes Tom English.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6dj4mrmd27ko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-17T23:51:07+00:00"
+    },
     {
       "title": "Palace latest: Sage says the fans love Sarr - and he deserves it!",
       "description": "",
@@ -13,6 +22,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-17T23:39:00+00:00"
+    },
+    {
+      "title": "From -17 points to dream European start for Bournemouth",
+      "description": "Bournemouth started a League Two season on -17 points in 2008, now they have made a dream start in European competition.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c539mw7m0x4go",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-17T23:30:34+00:00"
     },
     {
       "title": "Bournemouth latest: Rose sees lots to like in Europa League win",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-17T22:00:00+00:00"
-    },
-    {
-      "title": "Chris Samba's son Floyd shines on debut as Man City ease past Norwich",
-      "description": "Floyd Samba enjoyed a dream debut by scoring twice as holders Manchester City booked their place in the Carabao Cup fourth round with a 5-0 home win over Norwich.",
-      "link": "https://www.skysports.com/football/manchester-city-vs-norwich-city/report/577580",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-17T21:21:00+00:00"
-    },
-    {
-      "title": "Samba show! Chris celebrates as son Floyd scores twice for Man City!",
-      "description": "Floyd Samba, son of former Premier League defender Chris, scores Man City double on his debut against Norwich in Carabao Cup.",
-      "link": "https://www.skysports.com/watch/video/13589100/floyd-samba-scores-man-city-opener-on-his-debut-against-norwich",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-17T20:10:00+00:00"
     }
   ]
 }
