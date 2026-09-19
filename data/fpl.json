@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T17:43:57.172013+00:00",
+  "generatedAt": "2026-09-19T19:56:59.499067+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -126,19 +126,19 @@
     "12",
     "504",
     "286",
-    "1",
     "449",
+    "1",
     "8",
     "15",
     "68",
     "40",
     "367",
     "426",
-    "480",
     "69",
     "98",
     "154",
     "453",
+    "480",
     "230",
     "233",
     "279",
@@ -153,26 +153,27 @@
     "379",
     "109",
     "127",
+    "173",
     "282",
     "112",
     "88",
     "427",
+    "472",
     "565",
     "268",
     "335",
     "10",
     "87",
     "334",
-    "469",
     "13",
     "82",
     "605",
     "236",
     "249",
     "346",
-    "472",
     "26",
     "350",
+    "469",
     "544",
     "385",
     "362",
@@ -187,7 +188,6 @@
     "502",
     "557",
     "79",
-    "173",
     "397",
     "428",
     "503",
@@ -205,14 +205,14 @@
     "569",
     "259",
     "366",
-    "532",
     "491",
+    "532",
     "529",
     "106",
     "304",
-    "167",
     "28",
     "398",
+    "167",
     "499",
     "534",
     "61",
@@ -227,7 +227,6 @@
     "32",
     "175",
     "155",
-    "260",
     "387",
     "201",
     "142",
@@ -698,7 +697,7 @@
       "name": "Aston Villa",
       "shortName": "AVL",
       "crestClass": "orange-crest",
-      "squadSize": 35,
+      "squadSize": 36,
       "squad": [
         {
           "id": 30,
@@ -791,6 +790,11 @@
           "position": "GKP"
         },
         {
+          "id": 667,
+          "name": "Wright",
+          "position": "GKP"
+        },
+        {
           "id": 35,
           "name": "Bogarde",
           "position": "MID"
@@ -877,7 +881,7 @@
         }
       ],
       "squadRating": 3.32,
-      "squadValue": "\u00a3176.3m",
+      "squadValue": "\u00a3180.3m",
       "leagueRank": 18,
       "strengthHome": 3,
       "strengthAway": 4,
@@ -1831,7 +1835,7 @@
           "position": "MID"
         }
       ],
-      "squadRating": 2.24,
+      "squadRating": 3.09,
       "squadValue": "\u00a3170.3m",
       "leagueRank": 20,
       "strengthHome": 2,
@@ -2353,7 +2357,7 @@
       ],
       "squadRating": 3.68,
       "squadValue": "\u00a3134.9m",
-      "leagueRank": 12,
+      "leagueRank": 11,
       "strengthHome": 2,
       "strengthAway": 3,
       "nextOpponent": "Man Utd",
@@ -3568,7 +3572,7 @@
       ],
       "squadRating": 3.74,
       "squadValue": "\u00a3181.8m",
-      "leagueRank": 11,
+      "leagueRank": 10,
       "strengthHome": 4,
       "strengthAway": 4,
       "nextOpponent": "Fulham",
@@ -3588,7 +3592,7 @@
       "name": "Newcastle",
       "shortName": "NEW",
       "crestClass": "blue-crest",
-      "squadSize": 30,
+      "squadSize": 34,
       "squad": [
         {
           "id": 445,
@@ -3636,6 +3640,11 @@
           "position": "DEF"
         },
         {
+          "id": 663,
+          "name": "Pivas",
+          "position": "DEF"
+        },
+        {
           "id": 463,
           "name": "Woltemade",
           "position": "FWD"
@@ -3658,6 +3667,11 @@
         {
           "id": 634,
           "name": "Fernandez-Pardo",
+          "position": "FWD"
+        },
+        {
+          "id": 664,
+          "name": "Salia",
           "position": "FWD"
         },
         {
@@ -3739,10 +3753,20 @@
           "id": 659,
           "name": "Miley",
           "position": "MID"
+        },
+        {
+          "id": 665,
+          "name": "Mills",
+          "position": "MID"
+        },
+        {
+          "id": 666,
+          "name": "Thompson",
+          "position": "MID"
         }
       ],
-      "squadRating": 4.25,
-      "squadValue": "\u00a3154.1m",
+      "squadRating": 4.27,
+      "squadValue": "\u00a3171.6m",
       "leagueRank": 9,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -3923,9 +3947,9 @@
           "position": "MID"
         }
       ],
-      "squadRating": 3.86,
+      "squadRating": 3.64,
       "squadValue": "\u00a3153.2m",
-      "leagueRank": 10,
+      "leagueRank": 12,
       "strengthHome": 3,
       "strengthAway": 3,
       "nextOpponent": null,
@@ -4352,7 +4376,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a35.7m",
-      "owned": "22.9%",
+      "owned": "23.3%",
       "points": 47,
       "epNext": 9.4,
       "form": 9.4,
@@ -4380,7 +4404,7 @@
       "avatar": "JT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.1m",
-      "owned": "14.3%",
+      "owned": "14.4%",
       "points": 43,
       "epNext": 8.6,
       "form": 8.6,
@@ -4408,7 +4432,7 @@
       "avatar": "KS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.1m",
-      "owned": "8.4%",
+      "owned": "8.5%",
       "points": 39,
       "epNext": 7.8,
       "form": 7.8,
@@ -4436,7 +4460,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.9m",
-      "owned": "25.5%",
+      "owned": "25.6%",
       "points": 37,
       "epNext": 7.4,
       "form": 7.4,
@@ -4495,7 +4519,7 @@
       "avatar": "KT",
       "avatarClass": "",
       "price": "\u00a34.6m",
-      "owned": "11.6%",
+      "owned": "11.7%",
       "points": 34,
       "epNext": 6.8,
       "form": 6.8,
@@ -4582,7 +4606,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.8m",
-      "owned": "68.1%",
+      "owned": "68.0%",
       "points": 33,
       "epNext": 4.9,
       "form": 6.6,
@@ -4617,7 +4641,7 @@
       "minutes": 417,
       "goals": 2,
       "assists": 0,
-      "xg": 3.57,
+      "xg": 3.5,
       "xa": 0.15,
       "valueScore": 3.6,
       "tackles": 1,
@@ -4638,7 +4662,7 @@
       "avatar": "EH",
       "avatarClass": "pink-avatar",
       "price": "\u00a315.6m",
-      "owned": "73.3%",
+      "owned": "73.4%",
       "points": 33,
       "epNext": 6.6,
       "form": 6.6,
@@ -4771,7 +4795,7 @@
       "recoveries": 20,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 50,
+      "positionPercentile": 40,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -4791,8 +4815,8 @@
       "minutes": 394,
       "goals": 2,
       "assists": 2,
-      "xg": 0.62,
-      "xa": 0.26,
+      "xg": 0.72,
+      "xa": 0.43,
       "valueScore": 6.1,
       "tackles": 16,
       "clearancesBlocksInterceptions": 14,
@@ -4843,7 +4867,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.6m",
-      "owned": "10.8%",
+      "owned": "10.7%",
       "points": 22,
       "epNext": 4.4,
       "form": 4.4,
@@ -4886,7 +4910,7 @@
       "recoveries": 30,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 90,
+      "positionPercentile": 91,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -5014,7 +5038,7 @@
       "avatar": "JG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.7m",
-      "owned": "26.0%",
+      "owned": "26.1%",
       "points": 33,
       "epNext": 6.6,
       "form": 6.6,
@@ -5064,6 +5088,34 @@
       "teamStrengthHome": 2,
       "teamStrengthAway": 3
     },
+    "449": {
+      "id": 449,
+      "name": "Lewis Hall",
+      "shortName": "Hall",
+      "position": "DEF",
+      "team": "Newcastle",
+      "avatar": "LH",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a35.2m",
+      "owned": "15.2%",
+      "points": 31,
+      "epNext": 6.2,
+      "form": 6.2,
+      "minutes": 449,
+      "goals": 1,
+      "assists": 1,
+      "xg": 0.25,
+      "xa": 0.79,
+      "valueScore": 6.0,
+      "tackles": 13,
+      "clearancesBlocksInterceptions": 33,
+      "recoveries": 38,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": null,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 3
+    },
     "1": {
       "id": 1,
       "name": "David Raya Mart\u00edn",
@@ -5091,34 +5143,6 @@
       "positionPercentile": 83,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
-    },
-    "449": {
-      "id": 449,
-      "name": "Lewis Hall",
-      "shortName": "Hall",
-      "position": "DEF",
-      "team": "Newcastle",
-      "avatar": "LH",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a35.2m",
-      "owned": "15.2%",
-      "points": 30,
-      "epNext": 6.0,
-      "form": 6.0,
-      "minutes": 449,
-      "goals": 1,
-      "assists": 1,
-      "xg": 0.25,
-      "xa": 0.79,
-      "valueScore": 5.8,
-      "tackles": 13,
-      "clearancesBlocksInterceptions": 33,
-      "recoveries": 38,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 2,
-      "teamStrengthAway": 3
     },
     "8": {
       "id": 8,
@@ -5244,7 +5268,7 @@
       "avatar": "CG",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.2m",
-      "owned": "12.8%",
+      "owned": "12.7%",
       "points": 29,
       "epNext": 5.8,
       "form": 5.8,
@@ -5297,34 +5321,6 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
-    "480": {
-      "id": 480,
-      "name": "Morgan Gibbs-White",
-      "shortName": "Gibbs-White",
-      "position": "MID",
-      "team": "Nott'm Forest",
-      "avatar": "MG",
-      "avatarClass": "",
-      "price": "\u00a38.0m",
-      "owned": "16.0%",
-      "points": 29,
-      "epNext": 5.8,
-      "form": 5.8,
-      "minutes": 407,
-      "goals": 1,
-      "assists": 2,
-      "xg": 1.56,
-      "xa": 1.12,
-      "valueScore": 3.6,
-      "tackles": 5,
-      "clearancesBlocksInterceptions": 2,
-      "recoveries": 13,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3
-    },
     "69": {
       "id": 69,
       "name": "Alex Scott",
@@ -5365,7 +5361,7 @@
       "avatar": "CP",
       "avatarClass": "orange-avatar",
       "price": "\u00a39.7m",
-      "owned": "26.9%",
+      "owned": "26.8%",
       "points": 28,
       "epNext": 5.6,
       "form": 5.6,
@@ -5400,7 +5396,7 @@
       "minutes": 450,
       "goals": 1,
       "assists": 3,
-      "xg": 0.58,
+      "xg": 0.62,
       "xa": 0.48,
       "valueScore": 4.6,
       "tackles": 3,
@@ -5408,8 +5404,36 @@
       "recoveries": 16,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 75,
+      "positionPercentile": 60,
       "teamStrengthHome": 2,
+      "teamStrengthAway": 3
+    },
+    "480": {
+      "id": 480,
+      "name": "Morgan Gibbs-White",
+      "shortName": "Gibbs-White",
+      "position": "MID",
+      "team": "Nott'm Forest",
+      "avatar": "MG",
+      "avatarClass": "",
+      "price": "\u00a38.0m",
+      "owned": "16.0%",
+      "points": 28,
+      "epNext": 5.6,
+      "form": 5.6,
+      "minutes": 450,
+      "goals": 1,
+      "assists": 2,
+      "xg": 1.56,
+      "xa": 1.42,
+      "valueScore": 3.5,
+      "tackles": 5,
+      "clearancesBlocksInterceptions": 2,
+      "recoveries": 14,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": 80,
+      "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
     "230": {
@@ -5436,7 +5460,7 @@
       "recoveries": 14,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 80,
+      "positionPercentile": 82,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -5489,7 +5513,7 @@
       "valueScore": 6.3,
       "tackles": 9,
       "clearancesBlocksInterceptions": 50,
-      "recoveries": 13,
+      "recoveries": 12,
       "saves": 0,
       "cleanSheets": 3,
       "positionPercentile": null,
@@ -5533,7 +5557,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "18.6%",
+      "owned": "18.5%",
       "points": 26,
       "epNext": 5.2,
       "form": 5.2,
@@ -5564,7 +5588,7 @@
       "avatar": "RC",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.8m",
-      "owned": "27.9%",
+      "owned": "27.8%",
       "points": 26,
       "epNext": 5.2,
       "form": 5.2,
@@ -5610,7 +5634,7 @@
       "recoveries": 17,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 60,
+      "positionPercentile": 64,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -5666,7 +5690,7 @@
       "recoveries": 10,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 70,
+      "positionPercentile": 73,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
     },
@@ -5729,6 +5753,34 @@
       "teamStrengthHome": 2,
       "teamStrengthAway": 3
     },
+    "173": {
+      "id": 173,
+      "name": "Bobby Thomas",
+      "shortName": "Thomas",
+      "position": "DEF",
+      "team": "Coventry City",
+      "avatar": "BT",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a34.0m",
+      "owned": "8.6%",
+      "points": 24,
+      "epNext": 4.8,
+      "form": 4.8,
+      "minutes": 437,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.49,
+      "xa": 0.3,
+      "valueScore": 6.0,
+      "tackles": 3,
+      "clearancesBlocksInterceptions": 49,
+      "recoveries": 16,
+      "saves": 0,
+      "cleanSheets": 2,
+      "positionPercentile": null,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 2
+    },
     "282": {
       "id": 282,
       "name": "Ryan Giles",
@@ -5750,7 +5802,7 @@
       "valueScore": 6.0,
       "tackles": 5,
       "clearancesBlocksInterceptions": 19,
-      "recoveries": 13,
+      "recoveries": 14,
       "saves": 0,
       "cleanSheets": 3,
       "positionPercentile": null,
@@ -5781,7 +5833,7 @@
       "recoveries": 17,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 50,
+      "positionPercentile": 55,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -5809,6 +5861,34 @@
       "recoveries": 14,
       "saves": 0,
       "cleanSheets": 2,
+      "positionPercentile": null,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3
+    },
+    "472": {
+      "id": 472,
+      "name": "Murillo Costa dos Santos",
+      "shortName": "Murillo",
+      "position": "DEF",
+      "team": "Nott'm Forest",
+      "avatar": "MC",
+      "avatarClass": "",
+      "price": "\u00a35.5m",
+      "owned": "2.1%",
+      "points": 23,
+      "epNext": 4.6,
+      "form": 4.6,
+      "minutes": 449,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.42,
+      "xa": 0.37,
+      "valueScore": 4.2,
+      "tackles": 9,
+      "clearancesBlocksInterceptions": 43,
+      "recoveries": 18,
+      "saves": 0,
+      "cleanSheets": 1,
       "positionPercentile": null,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
@@ -5927,7 +6007,7 @@
       "recoveries": 11,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 40,
+      "positionPercentile": 45,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -5961,34 +6041,6 @@
       "fixture": "vs Crystal Palace (H)",
       "fdr": 3,
       "fdrClass": "mid"
-    },
-    "469": {
-      "id": 469,
-      "name": "Neco Williams",
-      "shortName": "N.Williams",
-      "position": "DEF",
-      "team": "Nott'm Forest",
-      "avatar": "NW",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a35.0m",
-      "owned": "9.1%",
-      "points": 21,
-      "epNext": 4.2,
-      "form": 4.2,
-      "minutes": 407,
-      "goals": 0,
-      "assists": 1,
-      "xg": 0.37,
-      "xa": 0.48,
-      "valueScore": 4.2,
-      "tackles": 13,
-      "clearancesBlocksInterceptions": 15,
-      "recoveries": 24,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3
     },
     "13": {
       "id": 13,
@@ -6062,7 +6114,7 @@
       "minutes": 450,
       "goals": 1,
       "assists": 0,
-      "xg": 1.0,
+      "xg": 0.99,
       "xa": 0.83,
       "valueScore": 3.0,
       "tackles": 11,
@@ -6070,7 +6122,7 @@
       "recoveries": 26,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 25,
+      "positionPercentile": 20,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -6104,34 +6156,6 @@
       "fixture": "vs Crystal Palace (H)",
       "fdr": 3,
       "fdrClass": "mid"
-    },
-    "472": {
-      "id": 472,
-      "name": "Murillo Costa dos Santos",
-      "shortName": "Murillo",
-      "position": "DEF",
-      "team": "Nott'm Forest",
-      "avatar": "MC",
-      "avatarClass": "",
-      "price": "\u00a35.5m",
-      "owned": "2.1%",
-      "points": 20,
-      "epNext": 4.0,
-      "form": 4.0,
-      "minutes": 406,
-      "goals": 0,
-      "assists": 1,
-      "xg": 0.41,
-      "xa": 0.33,
-      "valueScore": 3.6,
-      "tackles": 9,
-      "clearancesBlocksInterceptions": 40,
-      "recoveries": 17,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3
     },
     "26": {
       "id": 26,
@@ -6191,6 +6215,34 @@
       "fixture": "vs Bournemouth (A)",
       "fdr": 3,
       "fdrClass": "mid"
+    },
+    "469": {
+      "id": 469,
+      "name": "Neco Williams",
+      "shortName": "N.Williams",
+      "position": "DEF",
+      "team": "Nott'm Forest",
+      "avatar": "NW",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a35.0m",
+      "owned": "9.1%",
+      "points": 19,
+      "epNext": 3.8,
+      "form": 3.8,
+      "minutes": 450,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.41,
+      "xa": 0.62,
+      "valueScore": 3.8,
+      "tackles": 14,
+      "clearancesBlocksInterceptions": 15,
+      "recoveries": 28,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": 36,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3
     },
     "544": {
       "id": 544,
@@ -6294,7 +6346,7 @@
       "avatar": "AE",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.1m",
-      "owned": "5.6%",
+      "owned": "5.5%",
       "points": 18,
       "epNext": 0.0,
       "form": 3.6,
@@ -6440,7 +6492,7 @@
       "avatar": "IN",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.8m",
-      "owned": "7.2%",
+      "owned": "7.1%",
       "points": 17,
       "epNext": 3.4,
       "form": 3.4,
@@ -6530,7 +6582,7 @@
       "avatar": "CT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.4m",
-      "owned": "13.1%",
+      "owned": "13.0%",
       "points": 16,
       "epNext": 3.2,
       "form": 3.2,
@@ -6548,34 +6600,6 @@
       "positionPercentile": null,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
-    },
-    "173": {
-      "id": 173,
-      "name": "Bobby Thomas",
-      "shortName": "Thomas",
-      "position": "DEF",
-      "team": "Coventry City",
-      "avatar": "BT",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a34.0m",
-      "owned": "8.6%",
-      "points": 16,
-      "epNext": 3.2,
-      "form": 3.2,
-      "minutes": 394,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.43,
-      "xa": 0.3,
-      "valueScore": 4.0,
-      "tackles": 2,
-      "clearancesBlocksInterceptions": 44,
-      "recoveries": 16,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 2,
-      "teamStrengthAway": 2
     },
     "397": {
       "id": 397,
@@ -6715,7 +6739,7 @@
       "goals": 0,
       "assists": 1,
       "xg": 0.21,
-      "xa": 0.58,
+      "xa": 0.59,
       "valueScore": 3.3,
       "tackles": 9,
       "clearancesBlocksInterceptions": 9,
@@ -6773,7 +6797,7 @@
       "minutes": 441,
       "goals": 1,
       "assists": 1,
-      "xg": 2.31,
+      "xg": 2.35,
       "xa": 0.06,
       "valueScore": 2.4,
       "tackles": 6,
@@ -6801,12 +6825,12 @@
       "minutes": 441,
       "goals": 0,
       "assists": 2,
-      "xg": 1.15,
+      "xg": 1.23,
       "xa": 0.13,
       "valueScore": 2.5,
       "tackles": 3,
       "clearancesBlocksInterceptions": 9,
-      "recoveries": 10,
+      "recoveries": 9,
       "saves": 0,
       "cleanSheets": 3,
       "positionPercentile": null,
@@ -6833,11 +6857,11 @@
       "xa": 0.08,
       "valueScore": 2.8,
       "tackles": 0,
-      "clearancesBlocksInterceptions": 46,
+      "clearancesBlocksInterceptions": 45,
       "recoveries": 10,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 30,
+      "positionPercentile": 27,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3
     },
@@ -7042,7 +7066,7 @@
       "recoveries": 21,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 20,
+      "positionPercentile": 18,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
     },
@@ -7077,6 +7101,34 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
+    "491": {
+      "id": 491,
+      "name": "Igor Jesus Maciel da Cruz",
+      "shortName": "Igor Jesus",
+      "position": "FWD",
+      "team": "Nott'm Forest",
+      "avatar": "IJ",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a35.8m",
+      "owned": "2.8%",
+      "points": 12,
+      "epNext": 2.4,
+      "form": 2.4,
+      "minutes": 257,
+      "goals": 1,
+      "assists": 0,
+      "xg": 1.36,
+      "xa": 0.08,
+      "valueScore": 2.1,
+      "tackles": 2,
+      "clearancesBlocksInterceptions": 5,
+      "recoveries": 8,
+      "saves": 0,
+      "cleanSheets": 0,
+      "positionPercentile": null,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3
+    },
     "532": {
       "id": 532,
       "name": "Daniel Ballard",
@@ -7107,34 +7159,6 @@
       "fixture": "vs Man City (A)",
       "fdr": 5,
       "fdrClass": "hard"
-    },
-    "491": {
-      "id": 491,
-      "name": "Igor Jesus Maciel da Cruz",
-      "shortName": "Igor Jesus",
-      "position": "FWD",
-      "team": "Nott'm Forest",
-      "avatar": "IJ",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a35.8m",
-      "owned": "2.8%",
-      "points": 11,
-      "epNext": 2.2,
-      "form": 2.2,
-      "minutes": 226,
-      "goals": 1,
-      "assists": 0,
-      "xg": 1.09,
-      "xa": 0.07,
-      "valueScore": 1.9,
-      "tackles": 2,
-      "clearancesBlocksInterceptions": 5,
-      "recoveries": 5,
-      "saves": 0,
-      "cleanSheets": 0,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3
     },
     "529": {
       "id": 529,
@@ -7187,41 +7211,13 @@
       "xa": 0.26,
       "valueScore": 2.5,
       "tackles": 7,
-      "clearancesBlocksInterceptions": 40,
+      "clearancesBlocksInterceptions": 41,
       "recoveries": 18,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 10,
+      "positionPercentile": 9,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
-    },
-    "167": {
-      "id": 167,
-      "name": "Liam Delap",
-      "shortName": "Delap",
-      "position": "FWD",
-      "team": "Nott'm Forest",
-      "avatar": "LD",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a35.6m",
-      "owned": "2.9%",
-      "points": 10,
-      "epNext": 2.0,
-      "form": 2.0,
-      "minutes": 234,
-      "goals": 1,
-      "assists": 0,
-      "xg": 0.83,
-      "xa": 0.29,
-      "valueScore": 1.8,
-      "tackles": 1,
-      "clearancesBlocksInterceptions": 5,
-      "recoveries": 9,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3
     },
     "398": {
       "id": 398,
@@ -7253,6 +7249,34 @@
       "fixture": "vs Sunderland (H)",
       "fdr": 2,
       "fdrClass": "easy"
+    },
+    "167": {
+      "id": 167,
+      "name": "Liam Delap",
+      "shortName": "Delap",
+      "position": "FWD",
+      "team": "Nott'm Forest",
+      "avatar": "LD",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a35.6m",
+      "owned": "2.9%",
+      "points": 9,
+      "epNext": 1.8,
+      "form": 1.8,
+      "minutes": 277,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.9,
+      "xa": 0.35,
+      "valueScore": 1.6,
+      "tackles": 2,
+      "clearancesBlocksInterceptions": 5,
+      "recoveries": 10,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": null,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3
     },
     "499": {
       "id": 499,
@@ -7502,7 +7526,7 @@
       "avatar": "LS",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.3m",
-      "owned": "8.2%",
+      "owned": "8.1%",
       "points": 7,
       "epNext": 0.7,
       "form": 1.4,
@@ -7642,37 +7666,6 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
-    "260": {
-      "id": 260,
-      "name": "Harry Wilson",
-      "shortName": "Wilson",
-      "position": "MID",
-      "team": "Leeds",
-      "avatar": "HW",
-      "avatarClass": "",
-      "price": "\u00a36.2m",
-      "owned": "2.0%",
-      "points": 5,
-      "epNext": 0.0,
-      "form": 1.0,
-      "minutes": 145,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.01,
-      "xa": 0.09,
-      "valueScore": 0.8,
-      "tackles": 4,
-      "clearancesBlocksInterceptions": 3,
-      "recoveries": 4,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": null,
-      "teamStrengthHome": 2,
-      "teamStrengthAway": 3,
-      "fixture": "vs Crystal Palace (H)",
-      "fdr": 3,
-      "fdrClass": "mid"
-    },
     "387": {
       "id": 387,
       "name": "Nico O'Reilly",
@@ -7714,18 +7707,18 @@
       "avatarClass": "blue-avatar",
       "price": "\u00a35.4m",
       "owned": "5.9%",
-      "points": 4,
-      "epNext": 0.8,
-      "form": 0.8,
-      "minutes": 222,
+      "points": 5,
+      "epNext": 1.0,
+      "form": 1.0,
+      "minutes": 257,
       "goals": 0,
       "assists": 0,
-      "xg": 0.52,
-      "xa": 0.2,
-      "valueScore": 0.7,
-      "tackles": 6,
+      "xg": 0.59,
+      "xa": 0.21,
+      "valueScore": 0.9,
+      "tackles": 7,
       "clearancesBlocksInterceptions": 8,
-      "recoveries": 7,
+      "recoveries": 8,
       "saves": 0,
       "cleanSheets": 0,
       "positionPercentile": null,
@@ -8081,8 +8074,8 @@
       "teamStrengthAway": 3
     }
   },
-  "totalManagers": 10891446,
-  "totalPlayers": 662,
+  "totalManagers": 10894753,
+  "totalPlayers": 667,
   "priceMovement": {
     "risers": [
       {
@@ -8142,14 +8135,14 @@
       },
       {
         "id": "449",
-        "value": 12
+        "value": 13
       },
       {
         "id": "94",
         "value": 9
       },
       {
-        "id": "453",
+        "id": "173",
         "value": 9
       }
     ],
@@ -8203,19 +8196,19 @@
         "value": 14
       },
       {
-        "id": "445",
-        "value": 14
-      },
-      {
         "id": "127",
         "value": 13
       },
       {
-        "id": "504",
-        "value": 12
+        "id": "173",
+        "value": 13
       },
       {
-        "id": "200",
+        "id": "445",
+        "value": 13
+      },
+      {
+        "id": "504",
         "value": 12
       }
     ],
@@ -8229,15 +8222,15 @@
         "value": 3
       },
       {
-        "id": "173",
-        "value": 2
-      },
-      {
         "id": "449",
-        "value": 2
+        "value": 3
       },
       {
         "id": "87",
+        "value": 1
+      },
+      {
+        "id": "115",
         "value": 1
       }
     ],
@@ -8290,14 +8283,6 @@
       "improving": false
     },
     {
-      "id": "260",
-      "status": "i",
-      "news": "Thigh injury - Unknown return date",
-      "chanceThisRound": 0,
-      "chanceNextRound": 0,
-      "improving": false
-    },
-    {
       "id": "398",
       "status": "s",
       "news": "Suspended until 17 Oct",
@@ -8327,6 +8312,14 @@
       "news": "Unspecified injury - Unknown return date",
       "chanceThisRound": 0,
       "chanceNextRound": 0,
+      "improving": false
+    },
+    {
+      "id": "499",
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "chanceThisRound": 100,
+      "chanceNextRound": 75,
       "improving": false
     }
   ],
@@ -8366,45 +8359,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 184995
+        "netTransfersEvent": 223125
       },
       {
         "id": "94",
-        "netTransfersEvent": 78819
+        "netTransfersEvent": 88389
       },
       {
         "id": "115",
-        "netTransfersEvent": 54051
+        "netTransfersEvent": 62665
       },
       {
         "id": "453",
-        "netTransfersEvent": 40837
+        "netTransfersEvent": 44814
       },
       {
-        "id": "391",
-        "netTransfersEvent": 27680
+        "id": "449",
+        "netTransfersEvent": 33636
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -79122
+        "netTransfersEvent": -86397
       },
       {
         "id": "454",
-        "netTransfersEvent": -59159
+        "netTransfersEvent": -65374
       },
       {
         "id": "565",
-        "netTransfersEvent": -47861
+        "netTransfersEvent": -52353
       },
       {
         "id": "557",
-        "netTransfersEvent": -36998
+        "netTransfersEvent": -44239
       },
       {
         "id": "368",
-        "netTransfersEvent": -32791
+        "netTransfersEvent": -37010
       }
     ]
   }
