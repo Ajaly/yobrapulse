@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T00:57:05.570726+00:00",
+  "generatedAt": "2026-09-19T05:28:01.527315+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -69,6 +69,15 @@
       "pubDateISO": "2026-09-18T22:12:00+00:00"
     },
     {
+      "title": "Man City strike late to beat Liverpool and maintain perfect start",
+      "description": "Man City come out on top of a thrilling WSL encounter against Liverpool, requiring two goals in the closing stages of the game to seal a 4-2 win, their third victory in three league fixtures so far this season.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cvlyl0dg98zpo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-18T22:06:52+00:00"
+    },
+    {
       "title": "Brentford stay unbeaten as they put three past Chelsea",
       "description": "Brentford maintain their unbeaten start in the Premier League as they score three second-half goals to beat Chelsea 3-0 at the Gtech Community Stadium.",
       "link": "https://www.bbc.co.uk/sport/football/videos/cx980qll9me8o",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-18T21:56:00+00:00"
-    },
-    {
-      "title": "'Everything was disappointing' - Alonso on Brentford defeat",
-      "description": "'Everything was disappointing' - Alonso on Brentford defeat",
-      "link": "https://www.bbc.co.uk/programmes/p0pbdlmn",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T21:35:44+00:00"
     }
   ]
 }
