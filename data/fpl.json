@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T19:56:59.499067+00:00",
+  "generatedAt": "2026-09-19T22:05:46.289039+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -151,12 +151,12 @@
     "586",
     "305",
     "379",
-    "109",
     "127",
     "173",
     "282",
     "112",
     "88",
+    "109",
     "427",
     "472",
     "565",
@@ -1430,7 +1430,7 @@
           "position": "MID"
         }
       ],
-      "squadRating": 6.24,
+      "squadRating": 6.22,
       "squadValue": "\u00a3184.9m",
       "leagueRank": 1,
       "strengthHome": 2,
@@ -4376,7 +4376,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a35.7m",
-      "owned": "23.3%",
+      "owned": "23.6%",
       "points": 47,
       "epNext": 9.4,
       "form": 9.4,
@@ -4460,17 +4460,17 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.9m",
-      "owned": "25.6%",
-      "points": 37,
-      "epNext": 7.4,
-      "form": 7.4,
+      "owned": "25.7%",
+      "points": 38,
+      "epNext": 7.6,
+      "form": 7.6,
       "minutes": 423,
       "goals": 1,
       "assists": 3,
       "xg": 1.55,
-      "xa": 0.6,
-      "valueScore": 7.6,
-      "tackles": 7,
+      "xa": 0.67,
+      "valueScore": 7.8,
+      "tackles": 8,
       "clearancesBlocksInterceptions": 8,
       "recoveries": 18,
       "saves": 0,
@@ -4606,7 +4606,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.8m",
-      "owned": "68.0%",
+      "owned": "67.9%",
       "points": 33,
       "epNext": 4.9,
       "form": 6.6,
@@ -4693,15 +4693,15 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.5m",
-      "owned": "13.2%",
+      "owned": "13.3%",
       "points": 32,
       "epNext": 6.4,
       "form": 6.4,
       "minutes": 416,
       "goals": 3,
       "assists": 0,
-      "xg": 3.2,
-      "xa": 0.76,
+      "xg": 3.22,
+      "xa": 0.98,
       "valueScore": 3.4,
       "tackles": 6,
       "clearancesBlocksInterceptions": 8,
@@ -4808,7 +4808,7 @@
       "avatar": "MB",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.1m",
-      "owned": "4.4%",
+      "owned": "4.5%",
       "points": 31,
       "epNext": 6.2,
       "form": 6.2,
@@ -5097,7 +5097,7 @@
       "avatar": "LH",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.2m",
-      "owned": "15.2%",
+      "owned": "15.3%",
       "points": 31,
       "epNext": 6.2,
       "form": 6.2,
@@ -5125,7 +5125,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "41.7%",
+      "owned": "41.8%",
       "points": 30,
       "epNext": 6.0,
       "form": 6.0,
@@ -5160,11 +5160,11 @@
       "minutes": 416,
       "goals": 0,
       "assists": 2,
-      "xg": 0.65,
+      "xg": 0.67,
       "xa": 0.62,
       "valueScore": 5.0,
-      "tackles": 5,
-      "clearancesBlocksInterceptions": 13,
+      "tackles": 6,
+      "clearancesBlocksInterceptions": 12,
       "recoveries": 13,
       "saves": 0,
       "cleanSheets": 3,
@@ -5189,7 +5189,7 @@
       "goals": 2,
       "assists": 0,
       "xg": 1.08,
-      "xa": 1.31,
+      "xa": 1.32,
       "valueScore": 4.3,
       "tackles": 6,
       "clearancesBlocksInterceptions": 5,
@@ -5627,7 +5627,7 @@
       "goals": 0,
       "assists": 0,
       "xg": 0.51,
-      "xa": 0.11,
+      "xa": 0.2,
       "valueScore": 3.1,
       "tackles": 6,
       "clearancesBlocksInterceptions": 35,
@@ -5724,34 +5724,6 @@
       "fixture": "vs Bournemouth (A)",
       "fdr": 3,
       "fdrClass": "mid"
-    },
-    "109": {
-      "id": 109,
-      "name": "Bart Verbruggen",
-      "shortName": "Verbruggen",
-      "position": "GKP",
-      "team": "Brighton",
-      "avatar": "BV",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a34.5m",
-      "owned": "21.7%",
-      "points": 24,
-      "epNext": 4.8,
-      "form": 4.8,
-      "minutes": 450,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.2,
-      "valueScore": 5.3,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 3,
-      "recoveries": 34,
-      "saves": 12,
-      "cleanSheets": 3,
-      "positionPercentile": 50,
-      "teamStrengthHome": 2,
-      "teamStrengthAway": 3
     },
     "173": {
       "id": 173,
@@ -5863,6 +5835,34 @@
       "cleanSheets": 2,
       "positionPercentile": null,
       "teamStrengthHome": 3,
+      "teamStrengthAway": 3
+    },
+    "109": {
+      "id": 109,
+      "name": "Bart Verbruggen",
+      "shortName": "Verbruggen",
+      "position": "GKP",
+      "team": "Brighton",
+      "avatar": "BV",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a34.5m",
+      "owned": "21.7%",
+      "points": 23,
+      "epNext": 4.6,
+      "form": 4.6,
+      "minutes": 450,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "xa": 0.2,
+      "valueScore": 5.1,
+      "tackles": 0,
+      "clearancesBlocksInterceptions": 3,
+      "recoveries": 34,
+      "saves": 12,
+      "cleanSheets": 3,
+      "positionPercentile": 50,
+      "teamStrengthHome": 2,
       "teamStrengthAway": 3
     },
     "472": {
@@ -6058,11 +6058,11 @@
       "minutes": 411,
       "goals": 0,
       "assists": 2,
-      "xg": 0.11,
-      "xa": 0.67,
+      "xg": 0.12,
+      "xa": 0.69,
       "valueScore": 2.7,
       "tackles": 7,
-      "clearancesBlocksInterceptions": 17,
+      "clearancesBlocksInterceptions": 18,
       "recoveries": 17,
       "saves": 0,
       "cleanSheets": 3,
@@ -6086,8 +6086,8 @@
       "minutes": 236,
       "goals": 2,
       "assists": 0,
-      "xg": 1.49,
-      "xa": 0.29,
+      "xg": 1.46,
+      "xa": 0.45,
       "valueScore": 4.4,
       "tackles": 6,
       "clearancesBlocksInterceptions": 6,
@@ -6173,7 +6173,7 @@
       "minutes": 437,
       "goals": 2,
       "assists": 0,
-      "xg": 1.71,
+      "xg": 1.67,
       "xa": 0.37,
       "valueScore": 2.5,
       "tackles": 0,
@@ -6315,7 +6315,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a37.0m",
-      "owned": "34.3%",
+      "owned": "34.2%",
       "points": 18,
       "epNext": 3.6,
       "form": 3.6,
@@ -6374,7 +6374,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "18.1%",
+      "owned": "18.0%",
       "points": 18,
       "epNext": 3.6,
       "form": 3.6,
@@ -6590,7 +6590,7 @@
       "goals": 0,
       "assists": 2,
       "xg": 0.19,
-      "xa": 0.56,
+      "xa": 0.55,
       "valueScore": 2.5,
       "tackles": 4,
       "clearancesBlocksInterceptions": 7,
@@ -6902,7 +6902,7 @@
       "avatar": "EA",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.3m",
-      "owned": "4.2%",
+      "owned": "4.1%",
       "points": 13,
       "epNext": 2.6,
       "form": 2.6,
@@ -6933,7 +6933,7 @@
       "avatar": "AD",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.5m",
-      "owned": "2.1%",
+      "owned": "2.0%",
       "points": 13,
       "epNext": 0.0,
       "form": 2.6,
@@ -6999,7 +6999,7 @@
       "minutes": 281,
       "goals": 0,
       "assists": 0,
-      "xg": 0.18,
+      "xg": 0.23,
       "xa": 0.02,
       "valueScore": 2.6,
       "tackles": 5,
@@ -7346,7 +7346,7 @@
       "avatar": "HM",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.9m",
-      "owned": "9.2%",
+      "owned": "9.1%",
       "points": 8,
       "epNext": 1.6,
       "form": 1.6,
@@ -7495,7 +7495,7 @@
       "avatar": "SL",
       "avatarClass": "",
       "price": "\u00a34.9m",
-      "owned": "10.3%",
+      "owned": "10.2%",
       "points": 7,
       "epNext": 1.4,
       "form": 1.4,
@@ -8074,7 +8074,7 @@
       "teamStrengthAway": 3
     }
   },
-  "totalManagers": 10894753,
+  "totalManagers": 10897214,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -8359,45 +8359,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 223125
+        "netTransfersEvent": 256341
       },
       {
         "id": "94",
-        "netTransfersEvent": 88389
+        "netTransfersEvent": 94565
       },
       {
         "id": "115",
-        "netTransfersEvent": 62665
+        "netTransfersEvent": 68194
       },
       {
         "id": "453",
-        "netTransfersEvent": 44814
+        "netTransfersEvent": 47259
       },
       {
         "id": "449",
-        "netTransfersEvent": 33636
+        "netTransfersEvent": 37666
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -86397
+        "netTransfersEvent": -91166
       },
       {
         "id": "454",
-        "netTransfersEvent": -65374
+        "netTransfersEvent": -68978
       },
       {
         "id": "565",
-        "netTransfersEvent": -52353
+        "netTransfersEvent": -55427
       },
       {
         "id": "557",
-        "netTransfersEvent": -44239
+        "netTransfersEvent": -50199
       },
       {
         "id": "368",
-        "netTransfersEvent": -37010
+        "netTransfersEvent": -41463
       }
     ]
   }

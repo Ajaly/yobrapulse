@@ -1,10 +1,91 @@
 {
-  "generatedAt": "2026-09-19T19:57:00.089538+00:00",
+  "generatedAt": "2026-09-19T22:05:47.188700+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Match of the Day",
+      "description": "Highlights of five Premier League matches, including champions Arsenal's trip to Brighton.",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T22:41:14+00:00"
+    },
+    {
+      "title": "Hits and misses: Spurs hit self-destruct again as Arsenal prove imperfect",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/11095/13589567/tottenham-continue-downward-spiral-as-arsenal-prove-they-are-not-perfect-premier-league-hits-and-misses",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T22:09:00+00:00"
+    },
+    {
+      "title": "'Brave' Brighton put in 'complete' performance to beat Arsenal - Murphy",
+      "description": "Match of the Day pundit Danny Murphy praises Brighton's \"incredible\" performance in their 3-0 win over Arsenal, predicting they will cause problems for Premier League teams this season.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqe8xjjw8ed8o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T21:59:01+00:00"
+    },
+    {
+      "title": "Arsenal may move for Endrick in January - Sunday's gossip",
+      "description": "Barcelona may launch a huge offer for Haaland, Arsenal are interested in struggling Endrick, and Liverpool insist on keeping Wirtz",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq1j478n0ll7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T21:39:38+00:00"
+    },
+    {
+      "title": "Gvardiol signals return to best at left-back for Man City",
+      "description": "Josko Gvardiol's season last time out was disrupted by a serious injury but the defender now appears to be returning towards his best by helping Manchester City to an impressive start to the new campaign.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm0e35jrqyd7o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-19T21:31:17+00:00"
+    },
+    {
+      "title": "Carrick has faith in VAR despite derby error",
+      "description": "Manchester United head coach Michael Carrick still has faith in VAR despite the derby blunder that cost his side in their home defeat by Manchester City",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq8r64ppml6lo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T21:30:56+00:00"
+    },
+    {
+      "title": "A Coventry win 25 years in the making",
+      "description": "Coventry City's win over Nottingham Forest - thanks to Jay Dasilva's goal - was a victory which was over 25 years in the making following some dark days for the Sky Blues.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm209djp8d2xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T20:28:19+00:00"
+    },
+    {
+      "title": "Olid's Man Utd take big step forward after 'intense week'",
+      "description": "A week ago, the picture at Manchester United looked bleak. Then on Saturday, victory was snatched away from them at Arsenal. But have we seen signs of improvement from Eva Olid's side?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2z7ev28zeo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-19T20:21:11+00:00"
+    },
+    {
+      "title": "Olid's Man Utd take big step forward after 'intense week'",
+      "description": "A week ago, the picture at Manchester United looked bleak. Then on Saturday, victory was snatched away from them at Arsenal. But have we seen signs of improvement from Eva Olid's side?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2z7ev28zeo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-19T20:21:11+00:00"
+    },
     {
       "title": "Moyes demands more from Everton - but don't mention Europe",
       "description": "Fifth in the Premier League table and yet to lose this season, Everton are on the up, but boss David Moyes wants further improvements - and don't mention Europe.",
@@ -31,87 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-19T19:43:27+00:00"
-    },
-    {
-      "title": "Holmberg breaks Man Utd hearts with 95th-minute equaliser!",
-      "description": "Highlights of the WSL game between Arsenal and Manchester United.",
-      "link": "https://www.skysports.com/watch/video/13589925/arsenal-1-1-manchester-united-wsl-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:33:00+00:00"
-    },
-    {
-      "title": "Coventry seal first PL win in 25 years at Forest amid VAR controversy",
-      "description": "Coventry earned their first Premier League victory in 25 years after Jay Dasilva's winner and a controversial disallowed Nottingham Forest equaliser saw the promoted side win 1-0 at the City Ground.",
-      "link": "https://www.skysports.com/football/nottingham-forest-vs-coventry-city/report/559492",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:30:00+00:00"
-    },
-    {
-      "title": "Coventry need to 'keep feet on the ground' after 'landmark' win - Lampard",
-      "description": "Frank Lampard reacts to Coventry's \"landmark\" day after they earned their first top flight win in 25 years, beating Nottingham Forest 1-0 at the City Ground in the Premier League.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c6kgw17vqk98o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:24:35+00:00"
-    },
-    {
-      "title": "Celtic win 'changes game' - but can they reverse Rangers' derby dominance?",
-      "description": "Former Celtic captain Scott Brown believes a win for the Scottish champions against Rangers on Sunday \"changes the game\" after a turbulent week for Martin O'Neill's side.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c607l0xdm8xro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:19:06+00:00"
-    },
-    {
-      "title": "Celtic win 'changes game' - but can they reverse Rangers' derby dominance?",
-      "description": "Former Celtic captain Scott Brown believes a win for the Scottish champions against Rangers on Sunday \"changes the game\" after a turbulent week for Martin O'Neill's side.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c607l0xdm8xro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:19:06+00:00"
-    },
-    {
-      "title": "Wrexham's boost & Alexander in ideal place - Aaron McLean's EFL takeaways",
-      "description": "BBC Final Score pundit Aaron McLean looks at the weekend's talking points in the EFL, including Wrexham, QPR and Bradford City.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm4gdj405n2no",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:15:35+00:00"
-    },
-    {
-      "title": "Coventry win first points of season in dramatic win over Forest",
-      "description": "Jay Dasilva's strike proves the difference as Coventry earn their first Premier League win since returning to the top flight.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmly4g0rqzwwo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:14:53+00:00"
-    },
-    {
-      "title": "Brighton humbling 'a big lesson' for Arsenal - Arteta",
-      "description": "An uncharacteristic performance from Arsenal saw the Gunners ship three goals in the defeat to Brighton - but could the loss be the \"big lesson\" they needed?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmqlw745q30vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:05:18+00:00"
-    },
-    {
-      "title": "Everton's unbeaten run continues with win over 10-man Ipswich",
-      "description": "Unbeaten Everton move up to fifth in the Premier League, with Thierno Barry's goal making the difference against 10-man Ipswich Town.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmvgy397e5qzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:00:21+00:00"
     }
   ]
 }
