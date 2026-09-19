@@ -1,117 +1,117 @@
 {
-  "generatedAt": "2026-09-19T10:10:53.641525+00:00",
+  "generatedAt": "2026-09-19T14:10:15.460714+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Spurs vs Aston Villa team news LIVE!",
+      "title": "Potter and Malard on target as Chelsea see off Birmingham",
+      "description": "Highlights of the Women's Super League match between Chelsea and Birmingham City.",
+      "link": "https://www.skysports.com/watch/video/13589644/chelsea-2-0-birmingham-city-womens-super-league-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T14:41:00+00:00"
+    },
+    {
+      "title": "Wrexham vs Southampton LIVE!",
       "description": "",
-      "link": "https://www.skysports.com/football/tottenham-hotspur-vs-aston-villa/live/559493",
+      "link": "https://www.skysports.com/football/wrexham-vs-southampton/live/560593",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T10:00:00+00:00"
+      "pubDateISO": "2026-09-19T14:30:00+00:00"
     },
     {
-      "title": "Super 6 jackpot still at \u00a31m!",
+      "title": "Spurs in relegation zone after Villa claim first win",
+      "description": "Tottenham head into the international break without a win in the Premier League after losing 3-2 at home to Aston Villa.",
+      "link": "https://www.skysports.com/football/tottenham-hotspur-vs-aston-villa/report/559493",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T14:00:00+00:00"
+    },
+    {
+      "title": "Cardiff beat Charlton to record first win of the season",
+      "description": "Cardiff's long wait for a first win on their Championship return is finally over after Republic of Ireland star Jack Moylan scored a brace in their 3-1 home victory over Charlton.",
+      "link": "https://www.skysports.com/football/cardiff-city-vs-charlton-athletic/report/560585",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T14:00:00+00:00"
+    },
+    {
+      "title": "Stoke net stunning winner in comeback to sink Sheff Utd",
+      "description": "Battling Stoke staged a fine comeback to stun Sheffield United with a 2-1 win at the bet365 Stadium.",
+      "link": "https://www.skysports.com/football/stoke-city-vs-sheffield-united/report/560591",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T14:00:00+00:00"
+    },
+    {
+      "title": "Goodwin double earns London City win at struggling Charlton",
+      "description": "London City Lionesses earn their first away win of the season, ending a four-game streak without a victory on the road, as they emphatically beat a struggling Charlton side that have lost all three of their WSL games.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cxnvl60le139o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T13:52:53+00:00"
+    },
+    {
+      "title": "Manzambi catches eye as Villa beat Spurs - player ratings",
+      "description": "Tottenham are still looking for their first Premier League goal of the season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqj3d7rvpr7ko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T13:32:46+00:00"
+    },
+    {
+      "title": "Johnson misses big early chance for Everton against Ipswich LIVE!",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13401137/huge-jackpots-to-win-with-super-6-how-to-play-tips-analysis-and-latest-winner-stories",
+      "link": "https://www.skysports.com/football/everton-vs-ipswich-town/live/559487",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T09:00:00+00:00"
+      "pubDateISO": "2026-09-19T13:23:00+00:00"
     },
     {
-      "title": "'Former Ivory Coast boss Fae eyes Hibs job' - gossip",
-      "description": "Former Ivory Coast head coach Emerse Fae is reportedly interested in the Hibernian job as speculation abounds over Martin O'Neill's future with Celtic.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6j9x4379emwo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T08:17:18+00:00"
-    },
-    {
-      "title": "From near oblivion to Europe - Brighton celebrate 125th anniversary",
-      "description": "From obscurity and near oblivion to Premier League and Europe - Brighton celebrate their 125th anniversary.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm3wjl29qp4go",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T06:30:32+00:00"
-    },
-    {
-      "title": "Flex your football brain with our daily quizzes",
-      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cv1j4ey5j2w4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T05:39:43+00:00"
-    },
-    {
-      "title": "Winless Villa and Spurs face telling early showdown",
-      "description": "Aston Villa and Tottenham are winless in the Premier League - and both in need of inspiration as they prepare to face each other on Saturday.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6ly7vg8n7geo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T05:32:46+00:00"
-    },
-    {
-      "title": "'Bullied' and 'out of control' - Chelsea's defensive issues laid bare",
-      "description": "\"You need to feel it. We're not feeling it,\" said Xabi Alonso after Chelsea's 3-0 loss at Brentford. Yet Chelsea are stuck in a familiar feeling.",
-      "link": "https://www.skysports.com/football/news/11095/13589535/brentford-3-0-chelsea-defensive-issues-for-xabi-alonso-laid-bare-after-chastening-west-london-derby-defeat",
+      "title": "Brighton start strongly against Arsenal LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-arsenal/live/559486",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T23:18:00+00:00"
+      "pubDateISO": "2026-09-19T13:00:00+00:00"
     },
     {
-      "title": "'We're unpredictable' - Andrews delighted with 'brilliant' Brentford",
-      "description": "Brentford manager Keith Andrews is full of praise after a resounding 3-0 win against West London rivals Chelsea, branding them \"brilliant\" following a unbeaten start to the Premier League campaign.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cj3v47q6lde1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T22:42:10+00:00"
-    },
-    {
-      "title": "Chelsea miss Joao Pedro... and can't stop conceding goals",
-      "description": "Chelsea's problem was defending, but with Joao Pedro ruled out through injury, scoring goals has also become an issue.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm0qx3yv8z42o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-18T22:39:24+00:00"
-    },
-    {
-      "title": "Kane makes history and Olise nets hat-trick as Bayern thrash Union Berlin",
-      "description": "HHarry Kane makes history by becoming the fastest player to reach 100 Bundesliga goals in his 98th game, while Michael Olise nets a hat-trick as Bayern Munich thrash Union Berlin 7-0.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/ck4gle1ep647o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T22:34:20+00:00"
-    },
-    {
-      "title": "Arteta: Dowman could go out on loan in future",
-      "description": "Arsenal&#160;manager&#160;Mikel Arteta&#160;has not ruled out loaning out&#160;Max Dowman in the future and says the club evaluates the 16-year-old sensation's progress every six months.",
-      "link": "https://www.skysports.com/football/news/11095/13589421/max-dowman-mikel-arteta-admits-16-year-old-arsenal-wonderkid-could-go-out-on-loan-in-the-future",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-18T22:30:00+00:00"
-    },
-    {
-      "title": "Brentford score three in dominant win over Chelsea to continue unbeaten start",
-      "description": "Highlights from the Premier League match between Brentford and Chelsea.",
-      "link": "https://www.skysports.com/watch/video/13589514/brentford-3-0-chelsea-premier-league-highlights",
+      "title": "Willock and Hall give Newcastle dream start vs Hull LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/newcastle-united-vs-hull-city/live/559491",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T22:12:00+00:00"
+      "pubDateISO": "2026-09-19T12:45:00+00:00"
+    },
+    {
+      "title": "WSL: Chelsea see off Birmingham to move second LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/chelsea-women-vs-birmingham-city-women/live/575772",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T12:11:00+00:00"
+    },
+    {
+      "title": "Why the Black Country derby means so much to Wolves and West Brom",
+      "description": "Wolves and West Bromwich Albion meet for the first time in a Black Country derby for the first time in the league since May 2021.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c64gd454lykno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T10:43:41+00:00"
     }
   ]
 }
