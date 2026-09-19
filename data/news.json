@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-09-18T22:13:40.419057+00:00",
+  "generatedAt": "2026-09-19T00:57:05.570726+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Bullied' and 'out of control' - Chelsea's defensive issues laid bare",
+      "description": "\"You need to feel it. We're not feeling it,\" said Xabi Alonso after Chelsea's 3-0 loss at Brentford. Yet Chelsea are stuck in a familiar feeling.",
+      "link": "https://www.skysports.com/football/news/11095/13589535/brentford-3-0-chelsea-defensive-issues-for-xabi-alonso-laid-bare-after-chastening-west-london-derby-defeat",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-18T23:18:00+00:00"
+    },
+    {
+      "title": "Kane racks up 100 Bundesliga goals in record time",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-18T23:00:00+00:00"
+    },
+    {
+      "title": "'We're unpredictable' - Andrews delighted with 'brilliant' Brentford",
+      "description": "Brentford manager Keith Andrews is full of praise after a resounding 3-0 win against West London rivals Chelsea, branding them \"brilliant\" following a unbeaten start to the Premier League campaign.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cj3v47q6lde1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-18T22:42:10+00:00"
+    },
+    {
+      "title": "Chelsea miss Joao Pedro... and can't stop conceding goals",
+      "description": "Chelsea's problem was defending, but with Joao Pedro ruled out through injury, scoring goals has also become an issue.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm0qx3yv8z42o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-18T22:39:24+00:00"
+    },
+    {
+      "title": "Kane makes history and Olise nets hat-trick as Bayern thrash Union Berlin",
+      "description": "HHarry Kane makes history by becoming the fastest player to reach 100 Bundesliga goals in his 98th game, while Michael Olise nets a hat-trick as Bayern Munich thrash Union Berlin 7-0.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/ck4gle1ep647o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-18T22:34:20+00:00"
+    },
     {
       "title": "Arteta: Dowman could go out on loan in future",
       "description": "Arsenal&#160;manager&#160;Mikel Arteta&#160;has not ruled out loaning out&#160;Max Dowman in the future and says the club evaluates the 16-year-old sensation's progress every six months.",
@@ -22,15 +67,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-18T22:12:00+00:00"
-    },
-    {
-      "title": "Man City strike late to beat Liverpool and maintain perfect start",
-      "description": "Man City come out on top of a thrilling WSL encounter against Liverpool, requiring two goals in the closing stages of the game to seal a 4-2 win, their third victory in three league fixtures so far this season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cvlyl0dg98zpo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T22:06:52+00:00"
     },
     {
       "title": "Brentford stay unbeaten as they put three past Chelsea",
@@ -69,49 +105,13 @@
       "pubDateISO": "2026-09-18T21:56:00+00:00"
     },
     {
-      "title": "Arsenal open to Dowman loan in right circumstances",
-      "description": "Arsenal are open to allowing teenage prodigy Max Dowman to leave the club on loan this term if it aids his development.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crp3k23nkl8go",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-18T21:30:38+00:00"
-    },
-    {
-      "title": "Ballard heads Bristol City past Watford as they climb to fifth",
-      "description": "Bristol City moved into the Championship play-off places with a 1-0 victory over depleted Watford.",
-      "link": "https://www.skysports.com/football/bristol-city-vs-watford/report/560583",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T21:30:00+00:00"
-    },
-    {
-      "title": "Hemp double ensures Man City maintain winning start to WSL title defence",
-      "description": "Lauren Hemp bookended a 4-2 victory for Manchester City against Liverpool as the WSL champions maintained a winning start to their title defence.",
-      "link": "https://www.skysports.com/football/manchester-city-women-vs-liverpool-women/report/575769",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T21:15:00+00:00"
-    },
-    {
-      "title": "Man City complete impressive comeback win to maintain perfect start",
-      "description": "Highlights of Manchester City against Liverpool in the WSL.",
-      "link": "https://www.skysports.com/watch/video/13589490/manchester-city-4-2-liverpool-wsl-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T21:12:00+00:00"
-    },
-    {
-      "title": "A weight off Igor Thiago's shoulders - Brentford v Chelsea ratings",
-      "description": "Brentford climb to third in the Premier League with a 2-0 victory over Chelsea - here are BBC Sport's player ratings.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm046x9l6d6po",
+      "title": "'Everything was disappointing' - Alonso on Brentford defeat",
+      "description": "'Everything was disappointing' - Alonso on Brentford defeat",
+      "link": "https://www.bbc.co.uk/programmes/p0pbdlmn",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-18T20:57:06+00:00"
+      "pubDateISO": "2026-09-18T21:35:44+00:00"
     }
   ]
 }
