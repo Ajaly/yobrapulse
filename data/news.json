@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-09-20T20:12:39.765888+00:00",
+  "generatedAt": "2026-09-20T22:56:38.793630+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Match of the Day",
+      "description": "With Man City v Sunderland and Andoni Iraola\u2019s return to Bournemouth with Liverpool",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0031yfv",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-20T22:42:02+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "Rick Edwards, Clinton Morrison and Luke Edwards sum up the weekend's football.",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_five_live",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-20T20:22:00+00:00"
+    },
     {
       "title": "Hits and misses: Maresca's Man City serve up pure chaos as Gakpo shines",
       "description": "",
@@ -13,6 +31,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-20T20:15:00+00:00"
+    },
+    {
+      "title": "Ipswich Town investigates racist abuse of Fatawu",
+      "description": "The club condemns the abuse as \"completely unacceptable\" and says the player has its full support.",
+      "link": "https://www.bbc.co.uk/news/articles/cq0kl25xe60jo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-20T20:08:47+00:00"
     },
     {
       "title": "Spurs eye \u00a3125m move for Gibbs-White - Monday's gossip",
@@ -24,7 +51,7 @@
       "pubDateISO": "2026-09-20T20:04:52+00:00"
     },
     {
-      "title": "Neville: Carrick has got to stop defending the players",
+      "title": "Neville: Carrick must stop defending Man Utd players after Fulham 'disgrace'",
       "description": "Gary Neville has urged Michael Carrick to stop defending Manchester United players after another troubling performance in their draw at Fulham.",
       "link": "https://www.skysports.com/football/news/11095/13590228/gary-neville-michael-carrick-has-got-to-stop-defending-man-utd-players-after-lacklustre-draw-at-fulham",
       "source": "Sky Sports",
@@ -51,8 +78,8 @@
       "pubDateISO": "2026-09-20T19:44:41+00:00"
     },
     {
-      "title": "Carrick refutes Neville's 'pathetic' claim - but Man Utd must improve",
-      "description": "\"Pathetic\" Manchester United? Michael Carrick says not, but knows improvement is required to prove his old team-mate Gary Neville wrong.",
+      "title": "Neville calls Man Utd 'pathetic' - but Carrick maintains belief",
+      "description": "Gary Neville calls Manchester United \"pathetic\", but boss Michael Carrick maintains belief after salvaging draw at Fulham.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cmly4pe6yrqzo",
       "source": "BBC Sport",
       "category": "club",
@@ -69,6 +96,15 @@
       "pubDateISO": "2026-09-20T19:40:25+00:00"
     },
     {
+      "title": "Watch: Rangers' narrow win at Celtic Park on Sportscene",
+      "description": "With the Old Firm derby. Can Celtic get immediate revenge for last week\u2019s Cup defeat?",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-20T19:15:14+00:00"
+    },
+    {
       "title": "What have we learned from the Premier League so far?",
       "description": "BBC Sport takes a look at the opening weeks of the Premier League season as a long international break arrives.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cvp8d4116zglo",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-20T19:08:10+00:00"
-    },
-    {
-      "title": "Cunha's late strike denies Fulham first league win of season",
-      "description": "Matheus Cunha's deflected strike in the 89th minute rescues a point for Manchester United and denies Fulham their first Premier League win of the season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cqpve80lwem9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-20T19:00:29+00:00"
-    },
-    {
-      "title": "Man City beat Sunderland in eight-goal thriller to go three points clear",
-      "description": "Manchester City beat Sunderland 5-3 in a thrilling Etihad encounter, to go three points clear at the top of the Premier League table.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmq5x78j0y1lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-20T19:00:25+00:00"
-    },
-    {
-      "title": "Liverpool boss Iraola makes winning return to Bournemouth",
-      "description": "Liverpool manager Andoni Iraola makes a winning return to his former side Bournemouth, with the Reds securing a 1-0 win at the Vitality Stadium courtesy of a second-half goal from Alexander Isak.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmp3k277095do",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-20T19:00:21+00:00"
-    },
-    {
-      "title": "Leeds continue unbeaten start in league with draw against Palace",
-      "description": "Leeds United maintain their unbeaten start to their Premier League campaign thanks to a hard-earned goalless draw at home against Crystal Palace.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c39w4nydl1dzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-20T19:00:17+00:00"
     }
   ]
 }
