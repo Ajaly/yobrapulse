@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-09-20T00:37:04.273498+00:00",
+  "generatedAt": "2026-09-20T05:40:38.351336+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Will the three-week break put more pressure on managers?",
+      "description": "So far this season two coaches have lost their jobs, but plenty of others will be looking over their shoulders heading into the new, extended international break.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmg49gv74qzlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-20T05:19:50+00:00"
+    },
+    {
+      "title": "Colwill's 'surreal' Ronaldo and Haaland ambition",
+      "description": "In just 12 months, the Cardiff City midfielder has gone from League One football to the prospect of facing Cristiano Ronaldo and Erling Haaland.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm4gj50qqlqwo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-20T05:07:45+00:00"
+    },
     {
       "title": "How Newcastle unpicked Hull's back three - Shearer",
       "description": "Alan Shearer talking on how Newcastle United unlocked Hulls defence in there 2-1 win on Match of the Day.",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-19T20:28:19+00:00"
-    },
-    {
-      "title": "Olid's Man Utd take big step forward after 'intense week'",
-      "description": "A week ago, the picture at Manchester United looked bleak. Then on Saturday, victory was snatched away from them at Arsenal. But have we seen signs of improvement from Eva Olid's side?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2z7ev28zeo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-19T20:21:11+00:00"
-    },
-    {
-      "title": "Olid's Man Utd take big step forward after 'intense week'",
-      "description": "A week ago, the picture at Manchester United looked bleak. Then on Saturday, victory was snatched away from them at Arsenal. But have we seen signs of improvement from Eva Olid's side?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx2z7ev28zeo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-19T20:21:11+00:00"
     }
   ]
 }
