@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T05:40:37.463776+00:00",
+  "generatedAt": "2026-09-20T10:29:03.181667+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -195,9 +195,9 @@
     "290",
     "579",
     "464",
-    "295",
     "445",
     "200",
+    "295",
     "481",
     "593",
     "542",
@@ -2595,7 +2595,7 @@
           "position": "MID"
         }
       ],
-      "squadRating": 4.75,
+      "squadRating": 4.73,
       "squadValue": "\u00a3195.2m",
       "leagueRank": 7,
       "strengthHome": 2,
@@ -4376,7 +4376,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a35.8m",
-      "owned": "23.9%",
+      "owned": "24.2%",
       "points": 47,
       "epNext": 9.4,
       "form": 9.4,
@@ -4432,7 +4432,7 @@
       "avatar": "KS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.1m",
-      "owned": "8.6%",
+      "owned": "8.7%",
       "points": 39,
       "epNext": 7.8,
       "form": 7.8,
@@ -4749,7 +4749,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.9m",
-      "owned": "21.4%",
+      "owned": "21.3%",
       "points": 23,
       "epNext": 4.6,
       "form": 4.6,
@@ -4867,7 +4867,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.6m",
-      "owned": "10.7%",
+      "owned": "10.6%",
       "points": 22,
       "epNext": 4.4,
       "form": 4.4,
@@ -5038,7 +5038,7 @@
       "avatar": "JG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.7m",
-      "owned": "26.1%",
+      "owned": "26.2%",
       "points": 33,
       "epNext": 6.6,
       "form": 6.6,
@@ -5097,7 +5097,7 @@
       "avatar": "LH",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.2m",
-      "owned": "15.3%",
+      "owned": "15.4%",
       "points": 31,
       "epNext": 6.2,
       "form": 6.2,
@@ -5417,7 +5417,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "16.0%",
+      "owned": "15.9%",
       "points": 28,
       "epNext": 5.6,
       "form": 5.6,
@@ -6051,7 +6051,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.4m",
-      "owned": "12.4%",
+      "owned": "12.3%",
       "points": 20,
       "epNext": 4.0,
       "form": 4.0,
@@ -6107,7 +6107,7 @@
       "avatar": "KD",
       "avatarClass": "",
       "price": "\u00a36.6m",
-      "owned": "6.2%",
+      "owned": "6.1%",
       "points": 20,
       "epNext": 4.0,
       "form": 4.0,
@@ -6809,34 +6809,6 @@
       "teamStrengthHome": 2,
       "teamStrengthAway": 3
     },
-    "295": {
-      "id": 295,
-      "name": "Oli McBurnie",
-      "shortName": "McBurnie",
-      "position": "FWD",
-      "team": "Hull City",
-      "avatar": "OM",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a35.5m",
-      "owned": "2.0%",
-      "points": 14,
-      "epNext": 2.8,
-      "form": 2.8,
-      "minutes": 441,
-      "goals": 0,
-      "assists": 2,
-      "xg": 1.23,
-      "xa": 0.13,
-      "valueScore": 2.5,
-      "tackles": 3,
-      "clearancesBlocksInterceptions": 9,
-      "recoveries": 9,
-      "saves": 0,
-      "cleanSheets": 3,
-      "positionPercentile": null,
-      "teamStrengthHome": 2,
-      "teamStrengthAway": 2
-    },
     "445": {
       "id": 445,
       "name": "Malick Thiaw",
@@ -6892,6 +6864,34 @@
       "positionPercentile": null,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
+    },
+    "295": {
+      "id": 295,
+      "name": "Oli McBurnie",
+      "shortName": "McBurnie",
+      "position": "FWD",
+      "team": "Hull City",
+      "avatar": "OM",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a35.5m",
+      "owned": "2.0%",
+      "points": 13,
+      "epNext": 2.6,
+      "form": 2.6,
+      "minutes": 441,
+      "goals": 0,
+      "assists": 2,
+      "xg": 1.23,
+      "xa": 0.13,
+      "valueScore": 2.4,
+      "tackles": 3,
+      "clearancesBlocksInterceptions": 9,
+      "recoveries": 9,
+      "saves": 0,
+      "cleanSheets": 3,
+      "positionPercentile": null,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 2
     },
     "481": {
       "id": 481,
@@ -8074,7 +8074,7 @@
       "teamStrengthAway": 3
     }
   },
-  "totalManagers": 10899892,
+  "totalManagers": 10902637,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -8359,45 +8359,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 288906
+        "netTransfersEvent": 313288
       },
       {
         "id": "94",
-        "netTransfersEvent": 103270
+        "netTransfersEvent": 110580
       },
       {
         "id": "115",
-        "netTransfersEvent": 76551
+        "netTransfersEvent": 83766
       },
       {
         "id": "453",
-        "netTransfersEvent": 50893
+        "netTransfersEvent": 53828
       },
       {
         "id": "449",
-        "netTransfersEvent": 43785
+        "netTransfersEvent": 49097
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -98138
+        "netTransfersEvent": -104680
       },
       {
         "id": "454",
-        "netTransfersEvent": -74308
+        "netTransfersEvent": -78750
       },
       {
         "id": "565",
-        "netTransfersEvent": -59391
+        "netTransfersEvent": -62765
       },
       {
         "id": "557",
-        "netTransfersEvent": -56828
+        "netTransfersEvent": -60399
       },
       {
         "id": "368",
-        "netTransfersEvent": -45426
+        "netTransfersEvent": -48226
       }
     ]
   }
