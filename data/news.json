@@ -1,18 +1,36 @@
 {
-  "generatedAt": "2026-09-19T22:05:47.188700+00:00",
+  "generatedAt": "2026-09-20T00:37:04.273498+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Match of the Day",
-      "description": "Highlights of five Premier League matches, including champions Arsenal's trip to Brighton.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "title": "How Newcastle unpicked Hull's back three - Shearer",
+      "description": "Alan Shearer talking on how Newcastle United unlocked Hulls defence in there 2-1 win on Match of the Day.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/ckpd05pvz597o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T22:41:14+00:00"
+      "pubDateISO": "2026-09-19T23:09:32+00:00"
+    },
+    {
+      "title": "How Villa's Jackson left Spurs 'battered' - Shearer",
+      "description": "Match of the Day pundit Alan Shearer praises the performance of Aston Villa's Nicolas Jackson, saying Tottenham's centre-halves \"couldn't keep up\" with the 25-year-old striker.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cq1j47731pk3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T23:08:52+00:00"
+    },
+    {
+      "title": "Arsenal score last-minute equaliser to deny Man Utd first WSL win",
+      "description": "Arsenal steal a last gasp leveller through Smilla Holmberg, denying Eva Olid her first win as Manchester United manager in her third game in charge.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c8r4v5y9w1gyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T22:40:53+00:00"
     },
     {
       "title": "Hits and misses: Spurs hit self-destruct again as Arsenal prove imperfect",
@@ -22,6 +40,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-19T22:09:00+00:00"
+    },
+    {
+      "title": "Raphinha nets hat-trick in Sevilla win to keep Barcelona top",
+      "description": "Raphinha scores a second hat-trick in successive games as Barcelona claim a comfortable victory over Sevilla to increase their lead at the top of the La Liga table.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cm0qx995xzl3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-19T22:04:17+00:00"
     },
     {
       "title": "'Brave' Brighton put in 'complete' performance to beat Arsenal - Murphy",
@@ -85,33 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-09-19T20:21:11+00:00"
-    },
-    {
-      "title": "Moyes demands more from Everton - but don't mention Europe",
-      "description": "Fifth in the Premier League table and yet to lose this season, Everton are on the up, but boss David Moyes wants further improvements - and don't mention Europe.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmlye7z7q5r7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:48:28+00:00"
-    },
-    {
-      "title": "Coventry survive late Forest VAR controversy to claim first PL win in 25 years",
-      "description": "FREE TO WATCH: Highlights from the Premier League match between Nottingham Forest and Coventry.",
-      "link": "https://www.skysports.com/watch/video/13589936/nottingham-forest-0-1-coventry-premier-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:46:00+00:00"
-    },
-    {
-      "title": "Evans committed to Bristol Rovers amid Hibs links",
-      "description": "Bristol Rovers manager Steve Evans says he is 'not going anywhere' amid speculation linking him with the vacant role at Hibernian.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm624j085qxzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-19T19:43:27+00:00"
     }
   ]
 }
