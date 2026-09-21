@@ -1,18 +1,36 @@
 {
-  "generatedAt": "2026-09-21T17:42:33.263796+00:00",
+  "generatedAt": "2026-09-21T21:37:28.878712+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Scotland latest: Tierney, McLean out as uncapped player called up",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
+      "title": "Infantino says he is open to talks over Fifa reform",
+      "description": "Fifa president Gianni Infantino has proposed an external review of how world football's governing body operates. shifting tone as he seeks support to stay on.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c639m2yggm1ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-21T19:50:57+00:00"
+    },
+    {
+      "title": "Atletico hit back at Mourinho for ref criticism after derby defeat",
+      "description": "Atletico Madrid have hit back at Real Madrid's criticism of the referring decisions during the derby on Sunday.&#160;",
+      "link": "https://www.skysports.com/football/news/11095/13590525/jose-mourinho-atletico-madrid-hit-back-at-real-madrid-boss-after-referee-criticism-following-derby-defeat",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-21T18:30:00+00:00"
+      "pubDateISO": "2026-09-21T18:00:00+00:00"
+    },
+    {
+      "title": "Atletico hit back at Mourinho over referee complaints",
+      "description": "Atletico Madrid hit back at Jose Mourinho after he complained about the refereeing in the Madrid derby.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwx2z115lx4mo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-21T17:52:42+00:00"
     },
     {
       "title": "How is Scotland squad shaping up for Pocognoli debut?",
@@ -78,7 +96,7 @@
       "pubDateISO": "2026-09-21T16:00:00+00:00"
     },
     {
-      "title": "Tottenham latest: Has pre-season in Australia hindered Spurs?",
+      "title": "Tottenham latest: Spurs legends back De Zerbi to turn it around",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-21T15:58:00+00:00"
-    },
-    {
-      "title": "BBC Women's Football Weekly",
-      "description": "Flawless in the WSL, but can Manchester City carry their form into Europe?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pbs537",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-21T15:58:00+00:00"
-    },
-    {
-      "title": "Was Neville right to call out Man Utd for a 'lack of effort'?",
-      "description": "Was Gary Neville right to call out Manchester United for a \"lack of effort\" in their 1-1 draw at Fulham on Sunday?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqrl6pe56348o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-21T15:39:36+00:00"
     }
   ]
 }
