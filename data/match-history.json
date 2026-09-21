@@ -2600,7 +2600,621 @@
           "value": 1
         }
       ]
+    },
+    {
+      "id": 41,
+      "gameweek": 5,
+      "kickoffISO": "2026-09-18T19:00:00Z",
+      "home": "Brentford",
+      "away": "Chelsea",
+      "homeScore": 3,
+      "awayScore": 0,
+      "events": [
+        {
+          "type": "goals_scored",
+          "player": "Carvalho",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Anthony",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Thiago",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Schade",
+          "side": "home",
+          "value": 2
+        },
+        {
+          "type": "assists",
+          "player": "Schuster",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Thiago",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "M.Sangar\u00e9",
+          "side": "home",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "gameweek": 5,
+      "kickoffISO": "2026-09-19T11:30:00Z",
+      "home": "Spurs",
+      "away": "Aston Villa",
+      "homeScore": 2,
+      "awayScore": 3,
+      "events": [
+        {
+          "type": "goals_scored",
+          "player": "Van Hecke",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Gallagher",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Buend\u00eda",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Manzambi",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "N.Jackson",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Robertson",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Kudus",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "McGinn",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Kamara",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Manzambi",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Van Hecke",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Cash",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "N.Jackson",
+          "side": "away",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "gameweek": 5,
+      "kickoffISO": "2026-09-19T14:00:00Z",
+      "home": "Brighton",
+      "away": "Arsenal",
+      "homeScore": 3,
+      "awayScore": 0,
+      "events": [
+        {
+          "type": "goals_scored",
+          "player": "Gro\u00df",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Kostoulas",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Andr\u00e9s",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Gro\u00df",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Gomez",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Kostoulas",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "F.Kad\u0131o\u011flu",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "De Cuyper",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Kostoulas",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Struijk",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Rice",
+          "side": "away",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "gameweek": 5,
+      "kickoffISO": "2026-09-19T14:00:00Z",
+      "home": "Everton",
+      "away": "Ipswich Town",
+      "homeScore": 1,
+      "awayScore": 0,
+      "events": [
+        {
+          "type": "goals_scored",
+          "player": "Barry",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Tarkowski",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Mykolenko",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Armstrong",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Flemming",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "red_cards",
+          "player": "Fatawu",
+          "side": "away",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "gameweek": 5,
+      "kickoffISO": "2026-09-19T14:00:00Z",
+      "home": "Newcastle",
+      "away": "Hull City",
+      "homeScore": 2,
+      "awayScore": 1,
+      "events": [
+        {
+          "type": "goals_scored",
+          "player": "Hall",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Willock",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Cho",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Barnes",
+          "side": "home",
+          "value": 2
+        },
+        {
+          "type": "assists",
+          "player": "Belloumi",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "penalties_saved",
+          "player": "Tzolakis",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "penalties_missed",
+          "player": "Wissa",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "J.Murphy",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Giles",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Belloumi",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Crooks",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "McBurnie",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Tzolakis",
+          "side": "away",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "gameweek": 5,
+      "kickoffISO": "2026-09-19T16:30:00Z",
+      "home": "Nott'm Forest",
+      "away": "Coventry City",
+      "homeScore": 0,
+      "awayScore": 1,
+      "events": [
+        {
+          "type": "goals_scored",
+          "player": "Dasilva",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Rushworth",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Delap",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Jair Cunha",
+          "side": "home",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "gameweek": 5,
+      "kickoffISO": "2026-09-20T13:00:00Z",
+      "home": "Bournemouth",
+      "away": "Liverpool",
+      "homeScore": 0,
+      "awayScore": 1,
+      "events": [
+        {
+          "type": "goals_scored",
+          "player": "Isak",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Wirtz",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Silva",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Szoboszlai",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Isak",
+          "side": "away",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "gameweek": 5,
+      "kickoffISO": "2026-09-20T13:00:00Z",
+      "home": "Leeds",
+      "away": "Crystal Palace",
+      "homeScore": 0,
+      "awayScore": 0,
+      "events": [
+        {
+          "type": "yellow_cards",
+          "player": "Bogle",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Tanaka",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Wharton",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Yeremy",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Lerma",
+          "side": "away",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "gameweek": 5,
+      "kickoffISO": "2026-09-20T13:00:00Z",
+      "home": "Man City",
+      "away": "Sunderland",
+      "homeScore": 5,
+      "awayScore": 3,
+      "events": [
+        {
+          "type": "goals_scored",
+          "player": "Semenyo",
+          "side": "home",
+          "value": 2
+        },
+        {
+          "type": "goals_scored",
+          "player": "Enzo",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Cherki",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Haaland",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "goals_scored",
+          "player": "Brobbey",
+          "side": "away",
+          "value": 3
+        },
+        {
+          "type": "assists",
+          "player": "Ndiaye",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Gu\u00e9hi",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Gvardiol",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Semenyo",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Meunier",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "E.Le F\u00e9e",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "N.Angulo",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Methalie",
+          "side": "away",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "gameweek": 5,
+      "kickoffISO": "2026-09-20T15:30:00Z",
+      "home": "Fulham",
+      "away": "Man Utd",
+      "homeScore": 1,
+      "awayScore": 1,
+      "events": [
+        {
+          "type": "goals_scored",
+          "player": "Cunha",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Bassey",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "assists",
+          "player": "Dorgu",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "own_goals",
+          "player": "Martinez",
+          "side": "away",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Castagne",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "King",
+          "side": "home",
+          "value": 1
+        },
+        {
+          "type": "yellow_cards",
+          "player": "Muniz",
+          "side": "home",
+          "value": 1
+        }
+      ]
     }
   ],
-  "generatedAt": "2026-09-21T05:46:42.107362+00:00"
+  "generatedAt": "2026-09-21T11:41:39.816237+00:00"
 }
