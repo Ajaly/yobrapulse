@@ -1,18 +1,108 @@
 {
-  "generatedAt": "2026-09-22T10:49:44.422600+00:00",
+  "generatedAt": "2026-09-22T15:24:41.772803+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "England Q&A! Send in your questions to be answered live on SSN!",
+      "title": "Chelsea latest: Estevao ready to seize chance at Blues",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-22T16:10:00+00:00"
+    },
+    {
+      "title": "Scotland's Pocognoli has 'good mix' as he eyes winning start to his reign",
+      "description": "New Scotland head Sebastien Pocognoli has told Sky Sports it was time for change, believing he has a \"good mix\" in his first squad.",
+      "link": "https://www.skysports.com/football/news/11095/13590702/scotland-sebastian-pocognoli-has-good-mix-as-new-head-coach-targets-winning-start-in-nations-league",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-22T15:30:00+00:00"
+    },
+    {
+      "title": "Liverpool latest: Mbappe reveals how close he came to Anfield move",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-22T15:21:00+00:00"
+    },
+    {
+      "title": "Scot Prem: Celtic's trip to Hearts, Rangers vs Aberdeen among games live on Sky",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-22T15:00:00+00:00"
+    },
+    {
+      "title": "England latest: 'Unresolved issues between Tuchel and Mainoo'",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T09:55:00+00:00"
+      "pubDateISO": "2026-09-22T14:45:00+00:00"
+    },
+    {
+      "title": "Neutral venues and no 'away' fans - how Israel v Republic of Ireland became so contentious",
+      "description": "BBC Sport explores the backdrop to the Republic of Ireland's matches against Israel, amid fraught tensions between the nations.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckz7z5w7ey2jo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-22T14:23:39+00:00"
+    },
+    {
+      "title": "Welsh football chief Mooney challenges Infantino's Fifa reform claims",
+      "description": "Football Association of Wales chief executive Noel Mooney challenges suggestions Fifa is planning major reforms.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck9802yzr716o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-22T13:48:47+00:00"
+    },
+    {
+      "title": "Bradley linked with Hibs as Ferry puts Dundee United talks on hold - gossip",
+      "description": "Dundee United's Republic of Ireland international not willing to decide future in September as Scottish defender helps Turkish side excel.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqlylxz65608o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-22T13:23:36+00:00"
+    },
+    {
+      "title": "Man Utd latest: Sesko comments on injury recovery after international withdrawal",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-22T12:42:00+00:00"
+    },
+    {
+      "title": "'In another galaxy' - La Liga chief dismisses Real's ref conspiracy claims",
+      "description": "La Liga president Javier Tebas says claiming there is a refereeing conspiracy against Real Madrid is like \"living in another galaxy\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmvgye6g53l7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-22T12:09:29+00:00"
+    },
+    {
+      "title": "Arteta agrees new deal with champions Arsenal",
+      "description": "Mikel Arteta agrees an improved new contract with Premier League champions Arsenal.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckd68e40ze3jo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-22T11:48:23+00:00"
     },
     {
       "title": "Who has scored against the most Premier League teams?",
@@ -22,96 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-22T09:30:39+00:00"
-    },
-    {
-      "title": "How do players withdraw from an international squad?",
-      "description": "BBC Sport looks at how players withdraw from international squads, after five players dropped out of the England line-up",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crz6z2y31pvlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T09:06:04+00:00"
-    },
-    {
-      "title": "Egan's late career resurgence back to Premier League",
-      "description": "BBC Sport NI looks at Republic of Ireland centre-back's John Egan's rise back to the Premier League with Hull City and the international set-up under Heimir Hallgrimsson.",
-      "link": "https://www.bbc.co.uk/sport/articles/cgjq1x0wj7qo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T07:06:00+00:00"
-    },
-    {
-      "title": "'This is not Wrexham. I'm not Ryan Reynolds' - behind the scenes at world's oldest club",
-      "description": "A new BBC podcast Mud, Sweat and Cheers: Trouble at the Bottom \u2013 Sheffield FC goes behind the scenes on an extraordinary season at the world's oldest football club.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c617j8rz8q4lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T07:05:29+00:00"
-    },
-    {
-      "title": "Podcast: Celtic - manager problem or club problem?",
-      "description": "Three defeats, one big question: what next for Celtic?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pbv93r",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T07:00:00+00:00"
-    },
-    {
-      "title": "Ferry puts Dundee United contract talks on hold - gossip",
-      "description": "Dundee United's Republic of Ireland international not willing to decide future in September as Scottish defender helps Turkish side excel.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqlylxz65608o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T06:50:58+00:00"
-    },
-    {
-      "title": "'Alarming' - does WSL have a homegrown problem?",
-      "description": "The London City Lionesses raised eyebrows with no English players in their starting line-up against Manchester United, but is there a wider trend?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cew9nqnz9lno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T06:40:41+00:00"
-    },
-    {
-      "title": "'Alarming' - does WSL have a homegrown problem?",
-      "description": "The London City Lionesses raised eyebrows with no English players in their starting line-up against Manchester United, but is there a wider trend?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cew9nqnz9lno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T06:40:41+00:00"
-    },
-    {
-      "title": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
-      "description": "Three years ago, Josh McPake was without a club. Twenty months ago, he was in the shop window but \"no-one wanted him\". This week, he's involved in his first Scotland camp. Here, BBC Sport Scotland charts the fall and rise of the winger who's got everyone in the country talking.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmx2z1jldpnzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T06:32:26+00:00"
-    },
-    {
-      "title": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
-      "description": "Three years ago, Josh McPake was without a club. Twenty months ago, he was in the shop window but \"no-one wanted him\". This week, he's involved in his first Scotland camp. Here, BBC Sport Scotland charts the fall and rise of the winger who's got everyone in the country talking.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmx2z1jldpnzo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T06:32:26+00:00"
-    },
-    {
-      "title": "Chelsea struggles to Villa bench - Garnacho faces defining season",
-      "description": "Alejandro Garnacho joined Aston Villa on loan from Chelsea with a view to kick-starting his career, but his early weeks in the Midlands have been a struggle.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c51kxgj43n89o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-22T06:19:17+00:00"
     }
   ]
 }
