@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T22:41:43.083531+00:00",
+  "generatedAt": "2026-09-23T01:13:52.027318+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -1131,7 +1131,7 @@
         }
       ],
       "squadRating": 3.32,
-      "squadValue": "\u00a3180.2m",
+      "squadValue": "\u00a3180.1m",
       "leagueRank": 19,
       "strengthHome": 3,
       "strengthAway": 4,
@@ -2291,7 +2291,7 @@
         }
       ],
       "squadRating": 3.55,
-      "squadValue": "\u00a3178.0m",
+      "squadValue": "\u00a3177.9m",
       "leagueRank": 14,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -2846,7 +2846,7 @@
         }
       ],
       "squadRating": 4.73,
-      "squadValue": "\u00a3195.2m",
+      "squadValue": "\u00a3195.1m",
       "leagueRank": 8,
       "strengthHome": 2,
       "strengthAway": 2,
@@ -3821,7 +3821,7 @@
         }
       ],
       "squadRating": 3.72,
-      "squadValue": "\u00a3181.7m",
+      "squadValue": "\u00a3181.5m",
       "leagueRank": 10,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -4781,7 +4781,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.9m",
-      "owned": "27.2%",
+      "owned": "27.3%",
       "points": 38,
       "epNext": 5.2,
       "form": 5.2,
@@ -7756,7 +7756,7 @@
       "team": "Man Utd",
       "avatar": "HM",
       "avatarClass": "orange-avatar",
-      "price": "\u00a34.9m",
+      "price": "\u00a34.8m",
       "owned": "8.7%",
       "points": 10,
       "epNext": 2.2,
@@ -7766,7 +7766,7 @@
       "assists": 1,
       "xg": 0.2,
       "xa": 0.46,
-      "valueScore": 2.0,
+      "valueScore": 2.1,
       "tackles": 3,
       "clearancesBlocksInterceptions": 28,
       "recoveries": 21,
@@ -8493,7 +8493,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 10954093,
+  "totalManagers": 10954675,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -8778,45 +8778,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 662169
+        "netTransfersEvent": 664345
       },
       {
         "id": "94",
-        "netTransfersEvent": 303167
+        "netTransfersEvent": 304217
       },
       {
         "id": "138",
-        "netTransfersEvent": 240645
+        "netTransfersEvent": 241382
       },
       {
         "id": "115",
-        "netTransfersEvent": 219067
+        "netTransfersEvent": 220080
       },
       {
         "id": "449",
-        "netTransfersEvent": 188574
+        "netTransfersEvent": 189317
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -281705
+        "netTransfersEvent": -282562
       },
       {
         "id": "368",
-        "netTransfersEvent": -145753
+        "netTransfersEvent": -146349
       },
       {
         "id": "454",
-        "netTransfersEvent": -145723
+        "netTransfersEvent": -146092
       },
       {
         "id": "426",
-        "netTransfersEvent": -134889
+        "netTransfersEvent": -135298
       },
       {
         "id": "565",
-        "netTransfersEvent": -114023
+        "netTransfersEvent": -114347
       }
     ]
   }
