@@ -1,27 +1,90 @@
 {
-  "generatedAt": "2026-09-23T18:13:13.212324+00:00",
+  "generatedAt": "2026-09-23T22:01:22.079899+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Ronaldo eyes scoring 1,000th goal for Portugal after considering international retirement",
+      "title": "Drinking ban at football matches could be scrapped, says Prime Minister",
+      "description": "Prime Minister Andy Burnham still wants to see beer return to football stands.",
+      "link": "https://www.skysports.com/football/news/11095/13591214/andy-burnham-prime-minister-says-drinking-ban-in-stands-at-football-matches-could-be-scrapped",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T22:20:00+00:00"
+    },
+    {
+      "title": "Kaptein scores winner as Chelsea earn narrow victory over Austria Wien",
+      "description": "Wieke Kaptein scored a stunning goal but Chelsea were given a stern test by Austria Wien as they began their Women's Champions League campaign with a hard-fought 1-0 win at Plough Lane.",
+      "link": "https://www.skysports.com/football/chelsea-women-vs-austria-wien-women/report/578238",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T22:00:00+00:00"
+    },
+    {
+      "title": "Barcelona rule out Alvarez deal - Thursday's gossip",
+      "description": "Barcelona rule out Alvarez signing from Atletico Madrid, Liverpool will not allow Wirtz departure, and Chelsea target English midfield duo, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crq5x1n12xexo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-23T21:33:27+00:00"
+    },
+    {
+      "title": "When Bellamy watched on as Ronaldo caused airport lockdown",
+      "description": "Craig Bellamy says Cristiano Ronaldo is \"beyond a superstar\" before his Wales side face the Portugal legend in the opening match of their Nations League A campaign.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmgqdjvvqp2no",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T21:30:59+00:00"
+    },
+    {
+      "title": "Burnham says ban on alcohol for football fans in stands is 'discrimination'",
+      "description": "The prime minister opposes the law - in place since 1985 - and believes there is a case to remove it.",
+      "link": "https://www.bbc.co.uk/news/articles/c933ky0nknxko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T21:01:16+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "Why has Spain been so successful?",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pc4ryn",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T20:26:00+00:00"
+    },
+    {
+      "title": "Serious business resumes for Wales boss Bellamy",
+      "description": "With the Burnley interest firmly behind him, Craig Bellamy is focused on leading Wales in the Nations League, starting against Portugal in Lisbon.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm780yp0nq7eo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T20:00:48+00:00"
+    },
+    {
+      "title": "England latest: Defeat to Argentina was most painful near-miss, says Kane",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T19:13:00+00:00"
+    },
+    {
+      "title": "Ronaldo defiant over Portugal future as he targets 1,000 goals",
       "description": "Cristiano Ronaldo considered retiring from international football after the World Cup before deciding to extend his Portugal career.",
       "link": "https://www.skysports.com/football/news/11095/13591141/cristiano-ronaldo-portugal-legend-considered-international-retirement-after-2026-world-cup-but-is-still-targeting-1000-goals",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-23T18:30:00+00:00"
-    },
-    {
-      "title": "WCL: Chelsea vs Austria Wien LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/chelsea-women-vs-austria-wien-women/live/578238",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-23T18:21:00+00:00"
     },
     {
       "title": "Liverpool latest: Van Dijk dismisses claims he influenced Koeman's World Cup tactics",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-23T16:47:34+00:00"
-    },
-    {
-      "title": "Ronaldo spurred on by 1,000 goals and Portugal glory",
-      "description": "Cristiano Ronaldo contemplated retirement after the World Cup but wants to reach 1,000 career goals and help a new-look Portugal thrive before hanging up his boots.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck4glyl0nwd6o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-23T16:26:38+00:00"
-    },
-    {
-      "title": "England latest: Hall sits out of training as two U19s take part",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-23T16:08:00+00:00"
-    },
-    {
-      "title": "FA charges Cardiff's Bielik as police end inquiry",
-      "description": "The Football Association charges Cardiff City defender Krystian Bielik over an altercation involving Portsmouth fans, but a police investigation has been concluded.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmeq8d8g0zq8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-23T15:37:40+00:00"
-    },
-    {
-      "title": "Spotlight on new coaches as road to Afcon 2027 begins",
-      "description": "Patrick Vieira and Herve Renard are among the high-profile managerial arrivals as the qualification campaign for the 2027 Africa Cup of Nations gets under way.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwn74ppgmeyjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-23T15:30:51+00:00"
-    },
-    {
-      "title": "Spurs latest: 'Give De Zerbi time' - Michael Bridge answers YOUR questions...",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-23T15:27:00+00:00"
-    },
-    {
-      "title": "Aston Villa latest: 'Buendia contract talks begin'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-23T14:36:00+00:00"
-    },
-    {
-      "title": "Man Utd still \u00a31bn in debt with \u00a363.5m spent on new stadium",
-      "description": "Manchester United's overall debt remains over \u00a31bn despite Sir Jim Ratcliffe's extensive cost-cutting measures, with the club also confirming it has spent \u00a363.5m buying land for their new stadium.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5evwlmdmy00o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-23T14:10:21+00:00"
     }
   ]
 }
