@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T01:13:52.027318+00:00",
+  "generatedAt": "2026-09-23T07:12:52.125050+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -4750,7 +4750,7 @@
       "avatar": "KS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.2m",
-      "owned": "10.7%",
+      "owned": "10.8%",
       "points": 39,
       "epNext": 9.0,
       "form": 9.0,
@@ -4905,7 +4905,7 @@
       "avatar": "AI",
       "avatarClass": "pink-avatar",
       "price": "\u00a39.1m",
-      "owned": "22.3%",
+      "owned": "22.4%",
       "points": 33,
       "epNext": 7.8,
       "form": 7.8,
@@ -5432,7 +5432,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.4m",
-      "owned": "15.4%",
+      "owned": "15.5%",
       "points": 33,
       "epNext": 7.8,
       "form": 7.8,
@@ -5587,7 +5587,7 @@
       "avatar": "LH",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.3m",
-      "owned": "16.8%",
+      "owned": "16.9%",
       "points": 31,
       "epNext": 7.0,
       "form": 7.0,
@@ -5804,7 +5804,7 @@
       "avatar": "CP",
       "avatarClass": "orange-avatar",
       "price": "\u00a39.7m",
-      "owned": "26.2%",
+      "owned": "26.1%",
       "points": 28,
       "epNext": 4.2,
       "form": 5.6,
@@ -6734,7 +6734,7 @@
       "avatar": "BW",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "5.1%",
+      "owned": "5.0%",
       "points": 21,
       "epNext": 1.9,
       "form": 2.5,
@@ -7788,7 +7788,7 @@
       "avatar": "TH",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.3m",
-      "owned": "2.9%",
+      "owned": "2.8%",
       "points": 10,
       "epNext": 2.0,
       "form": 2.0,
@@ -8408,7 +8408,7 @@
       "avatar": "JK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "5.5%",
+      "owned": "5.4%",
       "points": 0,
       "epNext": 0.0,
       "form": 0.0,
@@ -8493,7 +8493,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 10954675,
+  "totalManagers": 10955980,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -8778,45 +8778,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 664345
+        "netTransfersEvent": 669293
       },
       {
         "id": "94",
-        "netTransfersEvent": 304217
+        "netTransfersEvent": 306733
       },
       {
         "id": "138",
-        "netTransfersEvent": 241382
+        "netTransfersEvent": 243260
       },
       {
         "id": "115",
-        "netTransfersEvent": 220080
+        "netTransfersEvent": 221986
       },
       {
         "id": "449",
-        "netTransfersEvent": 189317
+        "netTransfersEvent": 190797
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -282562
+        "netTransfersEvent": -284689
       },
       {
         "id": "368",
-        "netTransfersEvent": -146349
+        "netTransfersEvent": -147515
       },
       {
         "id": "454",
-        "netTransfersEvent": -146092
+        "netTransfersEvent": -146853
       },
       {
         "id": "426",
-        "netTransfersEvent": -135298
+        "netTransfersEvent": -136138
       },
       {
         "id": "565",
-        "netTransfersEvent": -114347
+        "netTransfersEvent": -115112
       }
     ]
   }

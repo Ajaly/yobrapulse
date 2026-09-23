@@ -1,10 +1,109 @@
 {
-  "generatedAt": "2026-09-23T01:13:52.666496+00:00",
+  "generatedAt": "2026-09-23T07:12:52.898981+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "The Italian Job gets a sequel! Can Mancini inspire a new generation?",
+      "description": "This year, Italian football fell to its lowest ebb. In Europe, no Italian club made it past the quarter-finals - while Atalanta were the only Serie A side to reach the Champions League last 16. But that was nothing compared to the national team.",
+      "link": "https://www.skysports.com/football/news/11095/13590474/roberto-mancini-returns-as-italy-head-coach-but-can-the-azzurri-recover-from-lowest-ebb-with-a-youth-inspired-revolution",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T08:00:00+00:00"
+    },
+    {
+      "title": "Aston Villa latest: 'LaLiga clubs monitoring Garnacho'",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T07:20:00+00:00"
+    },
+    {
+      "title": "Germany's saviour? How Klopp is looking to turn fortunes around",
+      "description": "As Jurgen Klopp prepares for his first game as Germany manager, BBC Sport looks at how is trying to turn their fortunes around.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmx2z3n88z77o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T07:00:26+00:00"
+    },
+    {
+      "title": "MLS coach sacked after sexist remark to female referee",
+      "description": "MLS club Columbus Crew sack their reserve team coach after he refused to let go of a female referee's hand and says \"don't forget this is a man's game\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6lyr9z9gxwko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T06:51:04+00:00"
+    },
+    {
+      "title": "Kniat, Reedijk & Vasara among names in Hibs frame - gossip",
+      "description": "New names in the frame for Hibs job as Old Firm circle Arsenal teen.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck1wxy01pjlqo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T06:36:10+00:00"
+    },
+    {
+      "title": "How Premier League teams have really started - according to xG",
+      "description": "Which Premier League teams have overperformed their xG and who has underperformed?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck7v4y7jv182o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T06:22:21+00:00"
+    },
+    {
+      "title": "From leaving Rangers to La Liga - Scotland is next step for Ure",
+      "description": "Robbie Ure has made it all the way to Sevilla since failing to break through at Rangers and now a first Scotland cap awaits the striker, writes Tom English.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c617jyexnnd5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T06:20:56+00:00"
+    },
+    {
+      "title": "From leaving Rangers to La Liga - Scotland is next step for Ure",
+      "description": "Robbie Ure has made it all the way to Sevilla since failing to break through at Rangers and now a first Scotland cap awaits the striker, writes Tom English.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c617jyexnnd5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T06:20:56+00:00"
+    },
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwe8erj6pn03o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T05:36:38+00:00"
+    },
+    {
+      "title": "Hunting hidden gems - is there anywhere in the world left to scout?",
+      "description": "Through live scouting and increasing data and footage, top clubs now have tabs on a large proportion of the world's talent.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6y8zp2v1zl4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T05:24:56+00:00"
+    },
+    {
+      "title": "Name Wales' Euro 2016 semi-final XI against Ronaldo's Portugal",
+      "description": "As Craig Bellamy's side travel to Portugal on Thursday, can you name the Wales side that faced Cristiano Ronaldo's side in the semi-final of Euro 2016?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cv1j4y0yp52ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T05:07:11+00:00"
+    },
     {
       "title": "Papers: Rice prepared to commit long-term future to Arsenal",
       "description": "The top stories and transfer rumours from Wednesday's newspapers...",
@@ -13,105 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-09-22T22:00:00+00:00"
-    },
-    {
-      "title": "Man Utd & Liverpool eye Mitchell - Wednesday's gossip",
-      "description": "Manchester United and Liverpool are keen on Crystal Palace defender Tyrick Mitchell, Aston Villa loan attacker Alejandro Garnacho is on the radar of La Liga clubs, while Chelsea want Gambian teenager Adama Jeng, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6g7k421gvj4o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-22T21:19:41+00:00"
-    },
-    {
-      "title": "Arsenal penalty clinches late win in WCL; Man City rescue draw at Bayern",
-      "description": "Mariona Caldentey's second-half stoppage-time penalty secured Arsenal a dramatic 1-0 win over Danish side HB Koge to open their Champions League campaign at Meadow Park.",
-      "link": "https://www.skysports.com/football/arsenal-women-vs-hb-kge-women/report/578232",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T20:21:00+00:00"
-    },
-    {
-      "title": "O'Neill receives Celtic backing after 'painful' week",
-      "description": "Celtic will \"come together and support\" manager Martin O'Neill after a \"painful\" week for the club, says chief executive Michael Nicholson.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmlyq01pzdy8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T20:04:25+00:00"
-    },
-    {
-      "title": "O'Neill receives Celtic backing after 'painful' week",
-      "description": "Celtic will \"come together and support\" manager Martin O'Neill after a \"painful\" week for the club, says chief executive Michael Nicholson.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmlyq01pzdy8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T20:04:25+00:00"
-    },
-    {
-      "title": "Celtic CEO backs O\u2019Neill despite 'painful' week",
-      "description": "Celtic chief executive Michael Nicholson has backed manager Martin O&#8217;Neill despite a \"painful\" week.",
-      "link": "https://www.skysports.com/football/news/11095/13590809/celtic-martin-oneill-backed-by-chief-executive-michael-nicholson-despite-painful-week",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T19:30:00+00:00"
-    },
-    {
-      "title": "Israel FA comments on Hallgrimsson 'unacceptable' - Irish taoiseach Martin",
-      "description": "Irish taoiseach Micheal Martin says comments made by the Israel Football Association about the Republic of Ireland manager Heimir Hallgrimsson are \"unacceptable\".",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmkgw0drzr38o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T19:23:46+00:00"
-    },
-    {
-      "title": "Arteta agrees new Arsenal contract",
-      "description": "Mikel Arteta has agreed a new deal to extend his stay at Arsenal.",
-      "link": "https://www.skysports.com/football/news/11095/13588507/mikel-arteta-contract-arsenal-boss-agrees-new-deal-to-extend-stay-at-premier-league-champions",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-22T18:26:00+00:00"
-    },
-    {
-      "title": "Celtic report \u00a34.8m loss as revenue drops by 22.7%",
-      "description": "Celtic announce a loss after tax of \u00a34.8m for the year ending June 30, 12 months on from making a profit of \u00a333.9m.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cke87m23eg05o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T18:13:01+00:00"
-    },
-    {
-      "title": "Celtic report \u00a34.8m loss as revenue drops by 22.7%",
-      "description": "Celtic announce a loss after tax of \u00a34.8m for the year ending June 30, 12 months on from making a profit of \u00a333.9m.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cke87m23eg05o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T18:13:01+00:00"
-    },
-    {
-      "title": "Nations League a great opportunity for NI - Ballard",
-      "description": "Northern Ireland defender Dan Ballard says the squad have \"a lot of talent and hunger\" as they launch into a busy four-game Nations League schedule.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmrr48zqz1jno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T16:54:21+00:00"
-    },
-    {
-      "title": "Tottenham latest: PL's bottom side 'lose sponsor' after winless start",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-22T16:23:00+00:00"
     }
   ]
 }
