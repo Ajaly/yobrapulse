@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-09-23T22:01:22.079899+00:00",
+  "generatedAt": "2026-09-24T00:17:43.002147+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man Utd hammer Sheffield Utd 10-1 in Subway Women's Players Cup",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-23T23:23:00+00:00"
+    },
+    {
+      "title": "Papers: Man Utd line up Conte for sensational PL return",
+      "description": "The top stories and transfer rumours from Thursday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13591219/man-utd-antonio-conte-lined-up-for-sensational-premier-league-return-as-replacement-for-michael-carrick-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-23T23:20:00+00:00"
+    },
     {
       "title": "Drinking ban at football matches could be scrapped, says Prime Minister",
       "description": "Prime Minister Andy Burnham still wants to see beer return to football stands.",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-23T18:01:00+00:00"
-    },
-    {
-      "title": "The footballer who had a heart transplant - then became a World Cup winner",
-      "description": "Martyn Jackson never thought he'd play football again when he had a heart transplant in 2024. Less than two years later, he was a World Cup winner with England.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-23T17:45:20+00:00"
-    },
-    {
-      "title": "Eriksen leaves Wolfsburg by mutual consent",
-      "description": "Christian Eriksen leaves Wolfsburg by mutual consent, just over three months after collapsing during Denmark's friendly with Ukraine.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm5yezn8w4xdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-23T16:47:34+00:00"
     }
   ]
 }
