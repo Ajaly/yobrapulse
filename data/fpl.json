@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T19:46:59.843876+00:00",
+  "generatedAt": "2026-09-24T22:59:42.650774+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -365,15 +365,15 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 53,
+      "homeWinPct": 52,
       "drawPct": 24,
-      "awayWinPct": 23,
+      "awayWinPct": 24,
       "predictedScore": "1.6 \u2014 1.0",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.92,
+        "homeAvailability": 0.88,
         "awayAvailability": 0.93,
         "homeTransferImpactM": 10.0,
         "awayTransferImpactM": -8.0
@@ -525,15 +525,15 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 26,
-      "drawPct": 28,
-      "awayWinPct": 46,
-      "predictedScore": "1.1 \u2014 1.4",
+      "homeWinPct": 24,
+      "drawPct": 29,
+      "awayWinPct": 47,
+      "predictedScore": "1.0 \u2014 1.5",
       "factors": {
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.96,
+        "homeAvailability": 0.82,
         "awayAvailability": 0.91,
         "homeTransferImpactM": 5.0,
         "awayTransferImpactM": -6.0
@@ -4750,7 +4750,7 @@
       "avatar": "KS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.2m",
-      "owned": "11.0%",
+      "owned": "11.1%",
       "points": 39,
       "epNext": 9.0,
       "form": 9.0,
@@ -4781,7 +4781,7 @@
       "avatar": "MD",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.9m",
-      "owned": "27.4%",
+      "owned": "27.5%",
       "points": 38,
       "epNext": 5.2,
       "form": 5.2,
@@ -5029,7 +5029,7 @@
       "avatar": "KT",
       "avatarClass": "",
       "price": "\u00a34.6m",
-      "owned": "12.6%",
+      "owned": "12.7%",
       "points": 34,
       "epNext": 6.0,
       "form": 6.0,
@@ -5587,7 +5587,7 @@
       "avatar": "LH",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.3m",
-      "owned": "17.0%",
+      "owned": "17.1%",
       "points": 31,
       "epNext": 7.0,
       "form": 7.0,
@@ -5804,7 +5804,7 @@
       "avatar": "CP",
       "avatarClass": "orange-avatar",
       "price": "\u00a39.7m",
-      "owned": "26.0%",
+      "owned": "25.9%",
       "points": 28,
       "epNext": 2.8,
       "form": 3.8,
@@ -6519,7 +6519,7 @@
       "price": "\u00a35.7m",
       "owned": "7.1%",
       "points": 24,
-      "epNext": 5.5,
+      "epNext": 4.1,
       "form": 5.5,
       "minutes": 399,
       "goals": 3,
@@ -6953,7 +6953,7 @@
       "price": "\u00a37.6m",
       "owned": "8.5%",
       "points": 19,
-      "epNext": 3.2,
+      "epNext": 2.4,
       "form": 3.2,
       "minutes": 437,
       "goals": 2,
@@ -8160,7 +8160,7 @@
       "avatar": "MS",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.8m",
-      "owned": "3.6%",
+      "owned": "3.5%",
       "points": 3,
       "epNext": 0.0,
       "form": 0.0,
@@ -8493,7 +8493,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 10971911,
+  "totalManagers": 10973216,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -8694,6 +8694,14 @@
       "improving": false
     },
     {
+      "id": "26",
+      "status": "d",
+      "news": "Hamstring injury - 75% chance of playing",
+      "chanceThisRound": null,
+      "chanceNextRound": 75,
+      "improving": false
+    },
+    {
       "id": "142",
       "status": "d",
       "news": "Hamstring injury - 75% chance of playing",
@@ -8731,14 +8739,6 @@
       "news": "Ankle injury - 75% chance of playing",
       "chanceThisRound": null,
       "chanceNextRound": 75,
-      "improving": false
-    },
-    {
-      "id": "454",
-      "status": "i",
-      "news": "Unspecified injury - Unknown return date",
-      "chanceThisRound": 0,
-      "chanceNextRound": 0,
       "improving": false
     }
   ],
@@ -8778,45 +8778,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 711511
+        "netTransfersEvent": 714580
       },
       {
         "id": "94",
-        "netTransfersEvent": 327663
+        "netTransfersEvent": 329375
       },
       {
         "id": "138",
-        "netTransfersEvent": 257962
+        "netTransfersEvent": 259291
       },
       {
         "id": "115",
-        "netTransfersEvent": 241059
+        "netTransfersEvent": 249123
       },
       {
         "id": "449",
-        "netTransfersEvent": 204398
+        "netTransfersEvent": 205426
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -304508
+        "netTransfersEvent": -305866
       },
       {
         "id": "368",
-        "netTransfersEvent": -158060
+        "netTransfersEvent": -158877
       },
       {
         "id": "454",
-        "netTransfersEvent": -154034
+        "netTransfersEvent": -154553
       },
       {
         "id": "426",
-        "netTransfersEvent": -143444
+        "netTransfersEvent": -143999
       },
       {
         "id": "565",
-        "netTransfersEvent": -121090
+        "netTransfersEvent": -121548
       }
     ]
   }
