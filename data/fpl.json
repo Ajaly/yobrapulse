@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T12:41:32.930489+00:00",
+  "generatedAt": "2026-09-25T17:47:19.297412+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -519,7 +519,7 @@
         "away": {
           "transfers": {
             "in": 0,
-            "out": 1,
+            "out": 0,
             "windowDays": 30
           },
           "managerChange": null
@@ -550,7 +550,7 @@
         "trackingSince": "2026-08-13T06:10:25.404980+00:00",
         "home": {
           "transfers": {
-            "in": 1,
+            "in": 0,
             "out": 0,
             "windowDays": 30
           },
@@ -1693,7 +1693,7 @@
       "fixtureLoad": null,
       "recentTransfers": {
         "in": 0,
-        "out": 1,
+        "out": 0,
         "windowDays": 30
       },
       "managerChange": null
@@ -3832,7 +3832,7 @@
       "form": null,
       "fixtureLoad": null,
       "recentTransfers": {
-        "in": 1,
+        "in": 0,
         "out": 0,
         "windowDays": 30
       },
@@ -4626,7 +4626,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a35.8m",
-      "owned": "28.3%",
+      "owned": "28.4%",
       "points": 47,
       "epNext": 11.2,
       "form": 11.2,
@@ -4688,7 +4688,7 @@
       "avatar": "JT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.1m",
-      "owned": "16.1%",
+      "owned": "16.2%",
       "points": 43,
       "epNext": 9.2,
       "form": 9.2,
@@ -5835,7 +5835,7 @@
       "avatar": "HB",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.1m",
-      "owned": "5.5%",
+      "owned": "5.6%",
       "points": 28,
       "epNext": 6.5,
       "form": 6.5,
@@ -6920,7 +6920,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a37.0m",
-      "owned": "33.0%",
+      "owned": "32.9%",
       "points": 20,
       "epNext": 3.0,
       "form": 3.0,
@@ -6951,7 +6951,7 @@
       "avatar": "KH",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.6m",
-      "owned": "8.5%",
+      "owned": "8.4%",
       "points": 19,
       "epNext": 2.4,
       "form": 3.2,
@@ -8493,7 +8493,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 10975903,
+  "totalManagers": 10977823,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -8778,45 +8778,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 723123
+        "netTransfersEvent": 728391
       },
       {
         "id": "94",
-        "netTransfersEvent": 334000
+        "netTransfersEvent": 337059
       },
       {
         "id": "138",
-        "netTransfersEvent": 264113
+        "netTransfersEvent": 266976
       },
       {
         "id": "115",
-        "netTransfersEvent": 253159
+        "netTransfersEvent": 255679
       },
       {
         "id": "449",
-        "netTransfersEvent": 208138
+        "netTransfersEvent": 209756
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -309415
+        "netTransfersEvent": -311859
       },
       {
         "id": "368",
-        "netTransfersEvent": -161184
+        "netTransfersEvent": -162617
       },
       {
         "id": "454",
-        "netTransfersEvent": -156036
+        "netTransfersEvent": -156939
       },
       {
         "id": "426",
-        "netTransfersEvent": -145504
+        "netTransfersEvent": -146120
       },
       {
         "id": "565",
-        "netTransfersEvent": -122850
+        "netTransfersEvent": -123591
       }
     ]
   }
