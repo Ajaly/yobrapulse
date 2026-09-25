@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T22:59:43.415275+00:00",
+  "generatedAt": "2026-09-25T01:10:05.399503+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -13,6 +13,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-24T22:30:00+00:00"
+    },
+    {
+      "title": "Bellamy wants more from Wales after loss to Portugal",
+      "description": "Craig Bellamy believes there is \"more to come\" from his Wales side in the Nations League following their opening-match loss in Lisbon.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c63eqkdnvkq8o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-24T22:28:33+00:00"
     },
     {
       "title": "Man Utd borrow another \u00a390m as debt tops \u00a31.1bn",
@@ -103,15 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-09-24T20:39:00+00:00"
-    },
-    {
-      "title": "Chelsea lead race for Scott - Friday's gossip",
-      "description": "Chelsea target Bournemouth's Alex Scott, Bayern Munich are interested in Dani Olmo and Jude Bellingham denies Manchester City interest.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6eq8eygy4e5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-24T20:16:58+00:00"
     }
   ]
 }
