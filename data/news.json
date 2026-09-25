@@ -1,10 +1,64 @@
 {
-  "generatedAt": "2026-09-25T21:02:59.154606+00:00",
+  "generatedAt": "2026-09-25T23:57:04.962564+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Parish tells Liverpool \u00a350m Sarr move was 'never going to happen'",
+      "description": "The top stories and transfer rumours from Saturday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13591966/transfer-news-crystal-palace-chairman-steve-parish-tells-liverpool-accepting-50m-ismaila-sarr-bid-was-never-going-to-happen-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-25T23:45:00+00:00"
+    },
+    {
+      "title": "Mbappe scores but injured as Zidane's France win | Northern Ireland beat Georgia",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-25T22:58:00+00:00"
+    },
+    {
+      "title": "Man City charges - what happens now?",
+      "description": "Reports claim that an independent tribunal has reached decisions in Manchester City's 115 charges case. Sky Sports analyses what could happen next in the inquiry...",
+      "link": "https://www.skysports.com/football/news/11095/13591930/man-city-premier-league-charges-what-does-the-appeals-process-look-like-and-what-happens-now",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-25T22:00:00+00:00"
+    },
+    {
+      "title": "Rodri believes in Man City's 'innocence'",
+      "description": "Former Manchester City midfielder Rodri believes the club are innocent of any financial wrongdoing and will trust them unless they are proved otherwise.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmkgwwze9r28o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-25T21:56:35+00:00"
+    },
+    {
+      "title": "Lankshear scores on debut as England U21s beat Kazakhstan",
+      "description": "England came from behind to beat Kazakhstan 4-2 in an entertaining affair at Molineux to all but book their place at the European U21 Championship next year.",
+      "link": "https://www.skysports.com/football/england-u21-vs-kazakhstan-u21/report/527088",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-25T21:42:00+00:00"
+    },
+    {
+      "title": "No relegation clause in Haaland's City deal - Saturday's gossip",
+      "description": "Erling Haaland is without a relegation clause, Premier League clubs are eyeing Marcos Llorente, Juventus are considering Crystal Palace's Tyrick Mitchell.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c84gkkepxxl4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-25T21:10:17+00:00"
+    },
     {
       "title": "Relegation? Titles stripped? Appeals? What next for Man City",
       "description": "It has taken more than two years, but a judgement finally appears to have been made on the 115 charges levelled against Man City. Here's what it means.",
@@ -13,6 +67,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-25T20:48:18+00:00"
+    },
+    {
+      "title": "Late drama as Northern Ireland beat Georgia",
+      "description": "Watch the best of the action as Shea Charles scores a 99th-minute winner as Northern Ireland beat Georgia in the Nations League.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqrl663ew3kxo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-25T20:46:38+00:00"
     },
     {
       "title": "Man City fans face up to reality of guilty verdict",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-25T19:54:46+00:00"
-    },
-    {
-      "title": "Sunderland latest: Ballard ruled out for Northern Ireland with hamstring injury",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-25T19:52:00+00:00"
-    },
-    {
-      "title": "Man City guilty of majority of 115 charges\u00a0- 5 Live reaction",
-      "description": "What next for Man City and the Premier League after being found guilty of 114 charges?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pckjx7",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-25T19:48:00+00:00"
-    },
-    {
-      "title": "EFL latest: Edwards would be prepared to take charge at Saints",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-25T18:42:00+00:00"
-    },
-    {
-      "title": "Brentford hold Schade contract talks as Arsenal, Liverpool track Germany winger",
-      "description": "Brentford have held initial talks with Kevin Schade about a new long-term contract in the wake of his excellent start to the campaign and increasing interest&#160;from bigger clubs including Arsenal and Liverpool.&#160;",
-      "link": "https://www.skysports.com/football/news/11095/13591878/transfer-news-brentford-hold-kevin-schade-contract-talks-as-arsenal-liverpool-track-germany-winger",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-25T17:32:00+00:00"
-    },
-    {
-      "title": "Man City latest: Majority of charges 'proven' amid reports",
-      "description": "According to reports, an independent tribunal has reached decisions in Manchester City's 115 charges case.",
-      "link": "https://www.skysports.com/watch/video/13591858/man-city-premier-league-charges-the-latest-as-majority-of-charges-proven-amid-reports",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-25T16:12:00+00:00"
-    },
-    {
-      "title": "Celtic, Rangers appeal stadium closure sanction after fan trouble",
-      "description": "Celtic and Rangers have appealed against the Scottish FA sanction ordering the two clubs to play their next home Scottish Cup fixture behind closed doors.",
-      "link": "https://www.skysports.com/football/news/11095/13591856/celtic-and-rangers-appeal-scottish-fa-behind-closed-doors-sanction-after-old-firm-crowd-trouble",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-25T16:08:00+00:00"
-    },
-    {
-      "title": "Preston closing in on Alexander appointment",
-      "description": "Preston North End are closing in on the appointment of Bradford City boss Graham Alexander, reports BBC Radio Leeds.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c60m33n3nxgko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-25T16:03:02+00:00"
     }
   ]
 }

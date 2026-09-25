@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T21:02:58.369943+00:00",
+  "generatedAt": "2026-09-25T23:57:04.224670+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -533,7 +533,7 @@
         "homeForm": null,
         "awayForm": null,
         "h2h": null,
-        "homeAvailability": 0.82,
+        "homeAvailability": 0.75,
         "awayAvailability": 0.91,
         "homeTransferImpactM": 5.0,
         "awayTransferImpactM": -6.0
@@ -926,7 +926,7 @@
         }
       ],
       "squadRating": 5.19,
-      "squadValue": "\u00a3177.0m",
+      "squadValue": "\u00a3176.9m",
       "leagueRank": 5,
       "strengthHome": 4,
       "strengthAway": 5,
@@ -2291,7 +2291,7 @@
         }
       ],
       "squadRating": 3.55,
-      "squadValue": "\u00a3177.9m",
+      "squadValue": "\u00a3177.8m",
       "leagueRank": 14,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -4780,7 +4780,7 @@
       "team": "Brighton",
       "avatar": "MD",
       "avatarClass": "pink-avatar",
-      "price": "\u00a34.9m",
+      "price": "\u00a35.0m",
       "owned": "27.6%",
       "points": 38,
       "epNext": 5.2,
@@ -4790,7 +4790,7 @@
       "assists": 3,
       "xg": 1.55,
       "xa": 0.67,
-      "valueScore": 7.8,
+      "valueScore": 7.6,
       "tackles": 8,
       "clearancesBlocksInterceptions": 8,
       "recoveries": 18,
@@ -6641,7 +6641,7 @@
       "avatar": "DC",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "24.9%",
+      "owned": "24.8%",
       "points": 22,
       "epNext": 5.2,
       "form": 5.2,
@@ -7044,7 +7044,7 @@
       "avatar": "FW",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.3m",
-      "owned": "5.8%",
+      "owned": "5.7%",
       "points": 18,
       "epNext": 4.0,
       "form": 4.0,
@@ -7449,7 +7449,7 @@
       "price": "\u00a34.9m",
       "owned": "2.5%",
       "points": 14,
-      "epNext": 3.5,
+      "epNext": 2.6,
       "form": 3.5,
       "minutes": 450,
       "goals": 0,
@@ -8493,7 +8493,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 10979270,
+  "totalManagers": 10979918,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -8510,11 +8510,11 @@
         "changeEvent": 0.1
       },
       {
-        "id": "124",
+        "id": "115",
         "changeEvent": 0.1
       },
       {
-        "id": "138",
+        "id": "124",
         "changeEvent": 0.1
       }
     ],
@@ -8778,45 +8778,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 731139
+        "netTransfersEvent": 732823
       },
       {
         "id": "94",
-        "netTransfersEvent": 338730
+        "netTransfersEvent": 339624
       },
       {
         "id": "138",
-        "netTransfersEvent": 268373
+        "netTransfersEvent": 269069
       },
       {
         "id": "115",
-        "netTransfersEvent": 257865
+        "netTransfersEvent": 260985
       },
       {
         "id": "449",
-        "netTransfersEvent": 210582
+        "netTransfersEvent": 211123
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -313191
+        "netTransfersEvent": -313974
       },
       {
         "id": "368",
-        "netTransfersEvent": -163353
+        "netTransfersEvent": -163859
       },
       {
         "id": "454",
-        "netTransfersEvent": -157404
+        "netTransfersEvent": -157688
       },
       {
         "id": "426",
-        "netTransfersEvent": -146446
+        "netTransfersEvent": -146694
       },
       {
         "id": "565",
-        "netTransfersEvent": -123974
+        "netTransfersEvent": -124184
       }
     ]
   }
