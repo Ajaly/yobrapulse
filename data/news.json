@@ -1,27 +1,99 @@
 {
-  "generatedAt": "2026-09-27T15:00:53.464631+00:00",
+  "generatedAt": "2026-09-27T18:56:40.399623+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Listen: Sportsound with Callum Davidson, Willie Miller & Michael Stewart",
-      "description": "Comprehensive coverage of Scottish sport, including live and exclusive commentary.",
-      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T16:00:00+00:00"
-    },
-    {
-      "title": "Man Utd beat West Ham to claim first WSL victory of the season",
-      "description": "Highlights of the WSL match between Manchester United and West Ham United.",
-      "link": "https://www.skysports.com/watch/video/13592443/manchester-united-2-1-west-ham-united-wsl-highlights",
+      "title": "Medina stars for Man Utd, Liverpool end Anfield hoodoo, Arsenal's title hopes over?",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/11095/13592442/wsl-talking-points",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T15:01:00+00:00"
+      "pubDateISO": "2026-09-27T19:06:00+00:00"
+    },
+    {
+      "title": "Late goal helps Birmingham snatch Palace draw in six-goal thriller",
+      "description": "Suzu Amano's dramatic 87th-minute equaliser helps Birmingham City secure a point after a six-goal thriller against Crystal Palace in the Women's Super League.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/ckx2zq7elpgwo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-27T18:51:44+00:00"
+    },
+    {
+      "title": "Tottenham put four past Villa to continue their brilliant start to the season",
+      "description": "Victoria Pelova scores twice as Tottenham maintain their unbeaten start to the season with a 4-0 victory over Aston Villa.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cjr4vyrxql9ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-27T18:50:00+00:00"
+    },
+    {
+      "title": "Swedish duo help Liverpool to derby win over Everton",
+      "description": "Swedish duo Beata Olsson and Cornelia Kapocs help Liverpool end a run of five consecutive home defeats in Merseyside derbies with a deserved win over Everton.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c65ywngpw59yo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-27T18:49:13+00:00"
+    },
+    {
+      "title": "Thompson strike seals Chelsea win to end Arsenal's unbeaten run",
+      "description": "Alyssa Thompson scored the only goal as Chelsea secured a 1-0 win against Arsenal to end their unbeaten streak in the Women's Super League.",
+      "link": "https://www.skysports.com/football/chelsea-women-vs-arsenal-women/report/575779",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-27T18:30:00+00:00"
+    },
+    {
+      "title": "Man Utd bag their first win of the season against West Ham",
+      "description": "Eva Olid claims her first Women's Super League victory as Manchester United manager, but they were made to work hard to beat West Ham.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cm9qrzlqyz58o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-27T18:03:59+00:00"
+    },
+    {
+      "title": "Man Utd latest: Dorgu forced off during Denmark vs Wales",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-27T17:44:00+00:00"
+    },
+    {
+      "title": "Liverpool latest: Sweden boss Potter issues Isak injury update after Reds return",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-27T17:00:00+00:00"
+    },
+    {
+      "title": "Man Utd earn first WSL win of season as Arsenal's 11-month unbeaten run ends",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/11095/13591752/wsl-man-utd-earn-first-league-win-of-season-as-liverpool-beat-rivals-everton-while-tottenham-thrash-aston-villa",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-27T16:25:00+00:00"
+    },
+    {
+      "title": "Podcast: What challenges will Swiss pose Scots in Nations League?",
+      "description": "Richard Gordon and the team look ahead to Tuesday night's Nations League clash",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pcrfj2",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-27T15:45:00+00:00"
     },
     {
       "title": "Why Premier League faces uncertainty and chaos after Man City ruling",
@@ -40,78 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-27T12:43:59+00:00"
-    },
-    {
-      "title": "Watmore follows Beckham & Pele with UN speech",
-      "description": "Former Premier League forward Duncan Watmore swaps the matchday dressing room for international diplomacy after addressing delegates at the United Nations General Assembly in New York.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cxj06ljvgeq4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T12:43:53+00:00"
-    },
-    {
-      "title": "WSL: Liverpool beat rivals Everton as Man Utd and Spurs earn wins LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/liverpool-women-vs-everton-women/live/575780",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T12:30:00+00:00"
-    },
-    {
-      "title": "Why Tuchel's critics have been forced to stay quiet despite Spain loss",
-      "description": "The narrative before this first post-World Cup international was clear: if England lose, the pressure on Thomas Tuchel could become unbearable.",
-      "link": "https://www.skysports.com/football/news/11095/13592389/thomas-tuchel-why-england-head-coachs-critics-forced-to-stay-quiet-despite-nations-league-loss-to-spain",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T12:30:00+00:00"
-    },
-    {
-      "title": "Bellamy scores 1998 winner for Wales against Denmark",
-      "description": "Watch BBC Sport Wales archive highlights as Craig Bellamy scores Wales' 1998 winner against Denmark.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c9vgyr4k2k0xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T12:28:36+00:00"
-    },
-    {
-      "title": "Why does Robbie Ure have first name on his Scotland shirt?",
-      "description": "Robbie Ure explains why the back of his shirt read 'Robbie Ure' rather than simply 'Ure' against Slovenia.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5gmrrl0dvrdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T11:35:25+00:00"
-    },
-    {
-      "title": "Why does Robbie Ure have Robbie Ure on his Scotland shirt?",
-      "description": "Robbie Ure explains why the back of his shirt read 'Robbie Ure' rather than simply 'Ure' against Slovenia.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5gmrrl0dvrdo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T11:35:25+00:00"
-    },
-    {
-      "title": "Injured Isak returns to Liverpool from Sweden duty",
-      "description": "Liverpool striker Alexander Isak returns to his club after picking up a minor injury while on international duty with Sweden.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cxyvzryd6ne5o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-27T11:26:42+00:00"
-    },
-    {
-      "title": "Two players shine in Spain loss - England player ratings revealed...",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T11:24:00+00:00"
     }
   ]
 }
