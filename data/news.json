@@ -1,10 +1,100 @@
 {
-  "generatedAt": "2026-09-28T14:55:16.259988+00:00",
+  "generatedAt": "2026-09-28T21:04:22.641915+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man City chief refuses to answer questions on 115 charges",
+      "description": "Manchester City chief executive Ferran Soriano declined to answer questions from Sky News as he left a meeting of the executive board of the European Football Clubs' body in Copenhagen.",
+      "link": "https://www.skysports.com/watch/video/13593041/manchester-city-chief-executive-ferran-soriano-declines-to-answer-questions",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T20:46:00+00:00"
+    },
+    {
+      "title": "Man City CEO says fight against Premier League could take years to conclude",
+      "description": "Manchester City chief executive Ferran Soriano has told a meeting of fellow club chiefs their fight against the Premier League could take years to conclude, <em>Sky News</em> understands.",
+      "link": "https://www.skysports.com/football/news/11095/13593034/man-city-ceo-ferran-soriano-says-fight-against-premier-league-could-take-years-to-conclude-amid-reports-of-decision-in-115-charges-case",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T20:06:00+00:00"
+    },
+    {
+      "title": "Tuchel: On the ball, we were a danger to ourselves",
+      "description": "Thomas Tuchel believes England were a danger to themselves on the ball during their 3-2 defeat to Spain.",
+      "link": "https://www.skysports.com/football/news/11095/13592651/england-thomas-tuchel-claims-three-lions-were-a-danger-to-themselves-in-possession-as-he-plays-down-defensive-frailties",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T19:45:00+00:00"
+    },
+    {
+      "title": "Konsa and O'Reilly doubts to face Czech Republic",
+      "description": "Ezri Konsa and Nico O'Reilly are both doubts to play in England's Nations League match against the Czech Republic on Tuesday night.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj62eyx9grzxo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-09-28T19:36:32+00:00"
+    },
+    {
+      "title": "Hart trusts Man City chair Al Mubarak over ruling",
+      "description": "Former Manchester City goalkeeper Joe Hart believes club chairman Khaldoon Al Mubarak's claims they are innocent of breaking the Premier League's financial rules.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c617jky597k7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T19:24:40+00:00"
+    },
+    {
+      "title": "Man City CEO defiant over Premier League charges",
+      "description": "Manchester City chief executive Ferran Soriano issues a defiant message to the executives of other teams about the club being found guilty of a majority of Premier League charges, BBC Sport has been told.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckz7zxzdwl7lo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T18:53:30+00:00"
+    },
+    {
+      "title": "England latest: Tuchel refuses to rule Konsa and O'Reilly out",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T18:30:00+00:00"
+    },
+    {
+      "title": "Scotland latest: Pocognoli prepares for 'special moment' at Hampden",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T16:00:00+00:00"
+    },
+    {
+      "title": "Ferguson retains Rangers dream but Bologna exit never close",
+      "description": "Lewis Ferguson reveals \"nothing was ever that close\" on a move away from Bologna this summer amid reports of interest from Rangers but he does harbour ambitions of a return to his boyhood club.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw62jy1e40mlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T15:27:38+00:00"
+    },
+    {
+      "title": "Ferguson retains Rangers dream but Bologna exit was not 'close'",
+      "description": "Lewis Ferguson reveals \"nothing was ever that close\" on a move away from Bologna this summer amid reports of interest from Rangers but he does harbour ambitions of a return to his boyhood club.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw62jy1e40mlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T15:27:38+00:00"
+    },
     {
       "title": "Man Utd latest: Fernandes to remain with Portugal as Dorgu withdraws from Denmark",
       "description": "",
@@ -15,103 +105,13 @@
       "pubDateISO": "2026-09-28T15:20:00+00:00"
     },
     {
-      "title": "EFL latest: Alexander joins Preston | Savage in talks",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-09-28T14:55:00+00:00"
-    },
-    {
-      "title": "How does Cas work and why can't Man City appeal to it?",
-      "description": "The Court of Arbitration for Sport (CAS) regulates legal disputes across the world of sport",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c920v34y4l2zo",
+      "title": "BBC Women's Football Weekly",
+      "description": "Have Chelsea shown themselves as the biggest threat to Manchester City\u2019s title defence?",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pcwtmc",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T14:43:05+00:00"
-    },
-    {
-      "title": "Liverpool latest: Gakpo withdraws from Netherlands squad with injury",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-28T14:09:00+00:00"
-    },
-    {
-      "title": "Forest Green allow Savage to talk to another club",
-      "description": "Forest Green give manager Robbie Savage permission to speak to another club, amid speculation linking him to Peterborough United.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c68xkzw9r7rko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T13:37:08+00:00"
-    },
-    {
-      "title": "Could Potter be England's next breakthrough star?",
-      "description": "With Sarina Wiegman set to name her latest England squad on Tuesday, there is one name everyone is talking about - Lexi Potter. Here is why.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cry8z31pl534o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T13:33:23+00:00"
-    },
-    {
-      "title": "Could Potter be England's next breakthrough star?",
-      "description": "With Sarina Wiegman set to name her latest England squad on Tuesday, there is one name everyone is talking about - Lexi Potter. Here is why.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cry8z31pl534o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T13:33:23+00:00"
-    },
-    {
-      "title": "Konsa and O'Reilly doubts to face Czech Republic",
-      "description": "Ezri Konsa and Nico O'Reilly are both doubts to play in England's Nations League match against the Czech Republic on Tuesday night.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj62eyx9grzxo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-28T13:20:44+00:00"
-    },
-    {
-      "title": "England latest: Tuchel's 'major problems' in defence as two miss training",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T13:20:00+00:00"
-    },
-    {
-      "title": "Cape Verde hero Vozinha on newfound fame",
-      "description": "Cape Verde's World Cup hero Vozinha says he craves the \"peace and tranquillity\" of the life he led before he shot to fame.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cw4gr1vj845vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T12:59:30+00:00"
-    },
-    {
-      "title": "FAI investigates alleged racist abuse of Idah",
-      "description": "The FAI is amassing high-quality footage of the alleged incident with the aim of presenting evidence to Uefa.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx4gq167288lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T12:17:49+00:00"
-    },
-    {
-      "title": "Bellamy sure Wales belong as Haaland threat looms",
-      "description": "Craig Bellamy expects Norway to be a force for years, but insists Wales have earned the right to be in Nations League A.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6vgy934nvq4o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T12:08:16+00:00"
+      "pubDateISO": "2026-09-28T15:04:00+00:00"
     }
   ]
 }
