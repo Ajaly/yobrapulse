@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T21:52:53.024272+00:00",
+  "generatedAt": "2026-09-28T00:18:26.265890+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -1871,7 +1871,7 @@
         }
       ],
       "squadRating": 3.52,
-      "squadValue": "\u00a3182.5m",
+      "squadValue": "\u00a3182.4m",
       "leagueRank": 15,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -2436,7 +2436,7 @@
         }
       ],
       "squadRating": 5.03,
-      "squadValue": "\u00a3130.3m",
+      "squadValue": "\u00a3130.4m",
       "leagueRank": 6,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -4930,7 +4930,7 @@
       "team": "Everton",
       "avatar": "TB",
       "avatarClass": "blue-avatar",
-      "price": "\u00a35.6m",
+      "price": "\u00a35.7m",
       "owned": "8.3%",
       "points": 20,
       "epNext": 3.0,
@@ -4940,7 +4940,7 @@
       "assists": 0,
       "xg": 3.5,
       "xa": 0.15,
-      "valueScore": 3.6,
+      "valueScore": 3.5,
       "tackles": 1,
       "clearancesBlocksInterceptions": 5,
       "recoveries": 11,
@@ -8488,7 +8488,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 10990393,
+  "totalManagers": 10990636,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -8773,45 +8773,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 751503
+        "netTransfersEvent": 752024
       },
       {
         "id": "94",
-        "netTransfersEvent": 350546
+        "netTransfersEvent": 350864
       },
       {
         "id": "138",
-        "netTransfersEvent": 278721
+        "netTransfersEvent": 278876
       },
       {
         "id": "115",
-        "netTransfersEvent": 268406
+        "netTransfersEvent": 268607
       },
       {
         "id": "449",
-        "netTransfersEvent": 217219
+        "netTransfersEvent": 217367
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -321090
+        "netTransfersEvent": -321267
       },
       {
         "id": "368",
-        "netTransfersEvent": -168761
+        "netTransfersEvent": -168861
       },
       {
         "id": "454",
-        "netTransfersEvent": -161080
+        "netTransfersEvent": -161173
       },
       {
         "id": "426",
-        "netTransfersEvent": -149264
+        "netTransfersEvent": -149348
       },
       {
         "id": "565",
-        "netTransfersEvent": -126744
+        "netTransfersEvent": -126799
       }
     ]
   }

@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-09-27T21:52:54.237170+00:00",
+  "generatedAt": "2026-09-28T00:18:26.755124+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Barca monitoring as Estevao grows impatient with Chelsea role",
+      "description": "The top stories and transfer rumours from Monday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13592576/barcelona-closely-monitoring-as-estevao-grows-impatient-over-chelsea-role-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-09-27T23:00:00+00:00"
+    },
+    {
+      "title": "Republic of Ireland 'raised awareness worldwide' in Israel game",
+      "description": "Republic of Ireland head coach Heimir Hallgrimsson says his players \"raised awareness worldwide\" after they chose not to engage in pre-match formalities with Israel.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6r7dy2yyx2xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-27T22:20:17+00:00"
+    },
+    {
+      "title": "Seventeen titles in five years - why Spain are a dominant force",
+      "description": "We look at what's behind Spain's dominance of football with 17 titles in five years across all age groups and in the men's and women's game.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c39elvrye40o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-27T22:13:19+00:00"
+    },
     {
       "title": "Thompson goal enough to give Chelsea feisty derby win over Arsenal",
       "description": "Chelsea beat Arsenal in a feisty encounter at Stamford Bridge to continue their steady start to the Women's Super League season.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-09-27T19:16:16+00:00"
-    },
-    {
-      "title": "Medina stars for Man Utd, Liverpool end Anfield hoodoo, Arsenal's title hopes over?",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13592442/wsl-talking-points",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T19:06:00+00:00"
-    },
-    {
-      "title": "Fernandes, Gakpo & Dorgu join international break's injury list",
-      "description": "Bruno Fernandes, Cody Gakpo and Patrick Dorgu all join the international break's high-profile injury list after suffering issues that have curtailed their involvement in Nations League matches.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm0qxknzpn8jo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-09-27T19:05:33+00:00"
-    },
-    {
-      "title": "No handshakes between Republic of Ireland and Israel",
-      "description": "The Republic of Ireland and Israel players do not shake hands with each other before or after Sunday's controversial Uefa Nations League game in Hungary.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6r7dy2yyx2xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T18:58:35+00:00"
     }
   ]
 }
