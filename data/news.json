@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-09-28T00:18:26.755124+00:00",
+  "generatedAt": "2026-09-28T06:17:45.499174+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge with today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm36ly6e94x8o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T06:06:48+00:00"
+    },
     {
       "title": "Papers: Barca monitoring as Estevao grows impatient with Chelsea role",
       "description": "The top stories and transfer rumours from Monday's newspapers...",
@@ -103,15 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-09-27T19:46:44+00:00"
-    },
-    {
-      "title": "Bellamy 'hurting' as Denmark outclass Wales",
-      "description": "Craig Bellamy says he is \"hurting\" on the back of Wales' 2-0 Nations League A defeat away to Denmark, but feels his side will continue to improve.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqvgyjp3lgv9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-27T19:16:16+00:00"
     }
   ]
 }
