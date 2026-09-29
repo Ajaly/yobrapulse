@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-09-29T00:58:26.068955+00:00",
+  "generatedAt": "2026-09-29T06:34:58.090641+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Flex your football brain with our daily quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjwyz0yevp40o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-29T06:07:51+00:00"
+    },
+    {
+      "title": "Czech Republic ready for Wembley 30 years after Euro '96",
+      "description": "The Czech Republic are returning to Wembley for a Nations League game with England, just over 30 years after their Euro '96 heartbreak there.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5yeqj0g4ygo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-29T05:10:25+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "The Monday Night Club look at the ongoing fallout from the Man City PL charges verdict",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pcyk1h",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T23:22:00+00:00"
+    },
+    {
+      "title": "O'Neill 'positive' as NI maintain unbeaten start",
+      "description": "Michael O'Neill says he is \"positive\" as Northern Ireland maintain their unbeaten start in the Nations League with a goalless draw with Hungary.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c64gr1nng300o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-09-28T23:21:50+00:00"
+    },
     {
       "title": "Infantino makes bigger cash pledge to Fifa members",
       "description": "Fifa president Gianni Infantino indicates more money could be distributed to the governing body's members from its cash reserves.",
@@ -76,42 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-09-28T19:36:32+00:00"
-    },
-    {
-      "title": "Hart trusts Man City chair Al Mubarak over ruling",
-      "description": "Former Manchester City goalkeeper Joe Hart believes club chairman Khaldoon Al Mubarak's claims they are innocent of breaking the Premier League's financial rules.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c617jky597k7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T19:24:40+00:00"
-    },
-    {
-      "title": "Man City CEO defiant over Premier League charges",
-      "description": "Manchester City chief executive Ferran Soriano issues a defiant message to the executives of other teams about the club being found guilty of a majority of Premier League charges, BBC Sport has been told.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckz7zxzdwl7lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T18:53:30+00:00"
-    },
-    {
-      "title": "England latest: Tuchel refuses to rule Konsa and O'Reilly out",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T18:30:00+00:00"
-    },
-    {
-      "title": "Scotland latest: Pocognoli prepares for 'special moment' at Hampden",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-09-28T16:00:00+00:00"
     }
   ]
 }
