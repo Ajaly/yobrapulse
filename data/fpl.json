@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T23:25:09.676392+00:00",
+  "generatedAt": "2026-09-30T03:32:10.186322+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -5427,7 +5427,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.4m",
-      "owned": "15.4%",
+      "owned": "15.3%",
       "points": 33,
       "epNext": 6.5,
       "form": 8.7,
@@ -6326,7 +6326,7 @@
       "avatar": "BT",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "8.6%",
+      "owned": "8.5%",
       "points": 24,
       "epNext": 4.3,
       "form": 4.3,
@@ -8488,7 +8488,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 10998040,
+  "totalManagers": 10998323,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -8773,45 +8773,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 766684
+        "netTransfersEvent": 767193
       },
       {
         "id": "94",
-        "netTransfersEvent": 360141
+        "netTransfersEvent": 360473
       },
       {
         "id": "138",
-        "netTransfersEvent": 287537
+        "netTransfersEvent": 287845
       },
       {
         "id": "115",
-        "netTransfersEvent": 273962
+        "netTransfersEvent": 274184
       },
       {
         "id": "449",
-        "netTransfersEvent": 221485
+        "netTransfersEvent": 221620
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -326339
+        "netTransfersEvent": -326509
       },
       {
         "id": "368",
-        "netTransfersEvent": -172375
+        "netTransfersEvent": -172569
       },
       {
         "id": "454",
-        "netTransfersEvent": -163883
+        "netTransfersEvent": -163954
       },
       {
         "id": "426",
-        "netTransfersEvent": -151464
+        "netTransfersEvent": -151507
       },
       {
         "id": "565",
-        "netTransfersEvent": -128766
+        "netTransfersEvent": -128833
       }
     ]
   }
