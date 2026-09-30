@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T16:41:13.612250+00:00",
+  "generatedAt": "2026-09-30T21:14:11.000030+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -4964,8 +4964,8 @@
       "price": "\u00a39.5m",
       "owned": "13.7%",
       "points": 32,
-      "epNext": 5.8,
-      "form": 5.8,
+      "epNext": 4.0,
+      "form": 4.0,
       "minutes": 416,
       "goals": 3,
       "assists": 0,
@@ -5708,8 +5708,8 @@
       "price": "\u00a35.8m",
       "owned": "50.5%",
       "points": 29,
-      "epNext": 5.0,
-      "form": 5.0,
+      "epNext": 3.0,
+      "form": 3.0,
       "minutes": 416,
       "goals": 0,
       "assists": 2,
@@ -5739,8 +5739,8 @@
       "price": "\u00a36.8m",
       "owned": "19.8%",
       "points": 29,
-      "epNext": 4.5,
-      "form": 4.5,
+      "epNext": 5.0,
+      "form": 5.0,
       "minutes": 377,
       "goals": 2,
       "assists": 0,
@@ -6142,8 +6142,8 @@
       "price": "\u00a38.0m",
       "owned": "22.7%",
       "points": 25,
-      "epNext": 5.0,
-      "form": 5.0,
+      "epNext": 4.0,
+      "form": 4.0,
       "minutes": 450,
       "goals": 0,
       "assists": 0,
@@ -6481,7 +6481,7 @@
       "avatar": "JP",
       "avatarClass": "",
       "price": "\u00a34.9m",
-      "owned": "6.6%",
+      "owned": "6.5%",
       "points": 24,
       "epNext": 5.5,
       "form": 7.3,
@@ -6731,8 +6731,8 @@
       "price": "\u00a35.5m",
       "owned": "4.9%",
       "points": 21,
-      "epNext": 1.9,
-      "form": 2.5,
+      "epNext": 0.8,
+      "form": 1.0,
       "minutes": 315,
       "goals": 0,
       "assists": 1,
@@ -6824,8 +6824,8 @@
       "price": "\u00a37.4m",
       "owned": "11.6%",
       "points": 20,
-      "epNext": 3.2,
-      "form": 4.2,
+      "epNext": 3.0,
+      "form": 4.0,
       "minutes": 411,
       "goals": 0,
       "assists": 2,
@@ -6948,8 +6948,8 @@
       "price": "\u00a37.6m",
       "owned": "8.3%",
       "points": 19,
-      "epNext": 2.4,
-      "form": 3.2,
+      "epNext": 2.8,
+      "form": 3.7,
       "minutes": 437,
       "goals": 2,
       "assists": 0,
@@ -7165,8 +7165,8 @@
       "price": "\u00a35.4m",
       "owned": "2.2%",
       "points": 17,
-      "epNext": 4.0,
-      "form": 4.0,
+      "epNext": 5.0,
+      "form": 5.0,
       "minutes": 434,
       "goals": 0,
       "assists": 2,
@@ -7227,8 +7227,8 @@
       "price": "\u00a36.3m",
       "owned": "12.2%",
       "points": 16,
-      "epNext": 2.5,
-      "form": 2.5,
+      "epNext": 3.3,
+      "form": 3.3,
       "minutes": 362,
       "goals": 0,
       "assists": 2,
@@ -7568,8 +7568,8 @@
       "price": "\u00a34.6m",
       "owned": "19.4%",
       "points": 12,
-      "epNext": 3.0,
-      "form": 3.0,
+      "epNext": 3.7,
+      "form": 3.7,
       "minutes": 281,
       "goals": 0,
       "assists": 0,
@@ -8002,8 +8002,8 @@
       "price": "\u00a34.4m",
       "owned": "4.8%",
       "points": 6,
-      "epNext": 1.8,
-      "form": 1.8,
+      "epNext": 1.7,
+      "form": 1.7,
       "minutes": 296,
       "goals": 0,
       "assists": 0,
@@ -8188,8 +8188,8 @@
       "price": "\u00a37.1m",
       "owned": "3.1%",
       "points": 2,
-      "epNext": 0.5,
-      "form": 0.5,
+      "epNext": 0.7,
+      "form": 0.7,
       "minutes": 29,
       "goals": 0,
       "assists": 0,
@@ -8488,7 +8488,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 11000242,
+  "totalManagers": 11001315,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -8773,45 +8773,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 771048
+        "netTransfersEvent": 772698
       },
       {
         "id": "94",
-        "netTransfersEvent": 362758
+        "netTransfersEvent": 363797
       },
       {
         "id": "138",
-        "netTransfersEvent": 290119
+        "netTransfersEvent": 291030
       },
       {
         "id": "115",
-        "netTransfersEvent": 275650
+        "netTransfersEvent": 276227
       },
       {
         "id": "449",
-        "netTransfersEvent": 222916
+        "netTransfersEvent": 223406
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -328195
+        "netTransfersEvent": -328709
       },
       {
         "id": "368",
-        "netTransfersEvent": -173933
+        "netTransfersEvent": -174597
       },
       {
         "id": "454",
-        "netTransfersEvent": -164668
+        "netTransfersEvent": -164975
       },
       {
         "id": "426",
-        "netTransfersEvent": -151856
+        "netTransfersEvent": -152011
       },
       {
         "id": "565",
-        "netTransfersEvent": -129394
+        "netTransfersEvent": -129595
       }
     ]
   }
