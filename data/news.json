@@ -1,12 +1,102 @@
 {
-  "generatedAt": "2026-10-02T18:52:22.512126+00:00",
+  "generatedAt": "2026-10-02T22:44:29.791895+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "City sponsor's 2015 statement to US government raises questions about appeal strategy",
+      "title": "Papers: Man Utd to consider legal action if Gabriel leaves",
+      "description": "The top stories and transfer rumours from Saturday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13594537/man-utd-to-consider-legal-action-if-jj-gabriel-leaves-as-bayern-munich-barcelona-and-real-madrid-chase-youngster-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-02T23:07:00+00:00"
+    },
+    {
+      "title": "Aston Villa latest: Garnacho scores in Antonio Puerta Trophy win over Sevilla",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-02T22:40:00+00:00"
+    },
+    {
+      "title": "Which clubs did Man City's 'inflated' money flow to in transfer market?",
+      "description": "BBC Sport follows the trail of transfer money flowing to other clubs during Manchester City's period of financial rule-breaking.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmew9w451vx8o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-02T22:30:24+00:00"
+    },
+    {
+      "title": "Zidane's France held by Italy as De Bruyne inspires Belgium",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-02T22:16:00+00:00"
+    },
+    {
+      "title": "England U21s qualify for Euro 2027 after Slovakia stalemate",
+      "description": "England U21s booked their spot at next summer's European Championship despite being held to a goalless draw by Slovakia in Stoke.",
+      "link": "https://www.skysports.com/football/england-u21-vs-slovakia-u21/report/527118",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-02T22:03:00+00:00"
+    },
+    {
+      "title": "Who has 'no ceiling' as Northern Ireland shine in Nations League?",
+      "description": "After an impressive 3-0 victory over Ukraine in the Nations League, Northern Ireland manager Michael O'Neill was impressed with his young side.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwjdmk3j5xleo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-02T21:48:54+00:00"
+    },
+    {
+      "title": "Brown scores twice as Northen Ireland cruise to win over Ukraine",
+      "description": "Ciaron Brown's first international goals came as a pair to help a young Northern Ireland side stun Ukraine 3-0 and go clear at the top of Nations League Group B2.",
+      "link": "https://www.skysports.com/football/ukraine-vs-northern-ireland/report/554050",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-02T21:47:00+00:00"
+    },
+    {
+      "title": "Chiesa eyes Liverpool exit - Saturday's gossip",
+      "description": "Liverpool forward Federico Chiesa is on the radar of a trio of Serie A clubs, Man City striker Erling Haaland is more likely to head to Barcelona than Arsenal if he leaves the club, Brentford's Michael Kayode is wanted by Juventus, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq70p3w936w9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-02T21:14:32+00:00"
+    },
+    {
+      "title": "Why Aston Villa played Sevilla for a trophy you haven't heard of",
+      "description": "Aston Villa beat Sevilla in the Antonio Puerta Trophy, named in memory of one of the Spanish club's former players.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crvg6xd6p9n5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-02T21:02:23+00:00"
+    },
+    {
+      "title": "Man City whistleblower set to lose protection amid fears for life",
+      "description": "Portuguese computer hacker who released documents which helped trigger the Premier League investigation into Manchester City set to lose his witness protection despite fears for his life.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxyvrp78ddvqo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-02T19:26:13+00:00"
+    },
+    {
+      "title": "Man City sponsor's 2015 statement raises questions about appeal strategy",
       "description": "Manchester City&#8217;s strategy in their bid to clear their name after being found guilty of breaking more than 100 of the Premier League's rules has been brought into question by a statement their main sponsor Etihad Airways submitted to the US government in 2015.",
       "link": "https://www.skysports.com/football/news/11095/13594496/man-city-appeal-clubs-strategy-brought-into-question-by-2015-statement-main-sponsor-etihad-airways-submitted-to-us-government",
       "source": "Sky Sports",
@@ -22,96 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-02T17:43:48+00:00"
-    },
-    {
-      "title": "Man Utd latest: Baleba plays first minutes in behind-closed-doors friendly",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-02T17:26:00+00:00"
-    },
-    {
-      "title": "Football Daily",
-      "description": "John Murray & Ali Bruce-Ball are joined by Conor McNamara to chat commentator life.",
-      "link": "https://www.bbc.co.uk/sounds/play/m0032m7b",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-02T17:18:00+00:00"
-    },
-    {
-      "title": "What can Peterborough fans expect from 'relentless' Savage?",
-      "description": "Peterborough United's director of football Barry Fry predicts life under Robbie Savage will be anything but dull.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmdx366q29klo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-02T16:53:00+00:00"
-    },
-    {
-      "title": "Brighton latest: Hurzeler, Gross and Dunk win Premier League awards for September",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-02T16:07:00+00:00"
-    },
-    {
-      "title": "Why Aston Villa are playing Sevilla for a trophy you haven't heard of",
-      "description": "Aston Villa are set to take on Sevilla in the Antonio Puerta Trophy, named in memory of one of the Spanish club's former players.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crvg6xd6p9n5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-02T15:06:58+00:00"
-    },
-    {
-      "title": "Tuchel would never rule out players not in top flight",
-      "description": "England boss Thomas Tuchel says he would \"never rule out\" selecting someone who is not playing in the top flight, should Manchester City be relegated.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqd095z49gjvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-02T15:05:31+00:00"
-    },
-    {
-      "title": "Scotland reporter notebook: Will the goals come in Skopje?",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-02T15:00:00+00:00"
-    },
-    {
-      "title": "Neville: Man City owners cannot 'retain status' if guilty verdict stands",
-      "description": "Gary Neville believes the ownership group at Manchester City will find it very difficult to \"retain their status\" at the club should the Premier League's ruling over financial breaches still stand following appeal.",
-      "link": "https://www.skysports.com/football/news/11095/13594421/man-city-owners-cannot-retain-status-if-guilty-verdict-stands-after-appeal-says-gary-neville",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-02T14:49:00+00:00"
-    },
-    {
-      "title": "Man City reaction LIVE! Tuchel admits case is 'big topic' in England camp",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13593363/man-city-charges-reaction-and-findings-as-commission-finds-club-guilty-of-all-charges-related-to-serious-financial-breaches",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-02T14:20:00+00:00"
-    },
-    {
-      "title": "Tankards, Clough & 'creaky joints' - Tennent's Sixes returns",
-      "description": "More than three decades since its last staging, Scottish football's cult indoor event makes a comeback with the \"creaky joints\" of former players taking to an ice rink.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cv8e3eyx5y8eo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-02T14:07:42+00:00"
     }
   ]
 }
