@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T22:44:29.165622+00:00",
+  "generatedAt": "2026-10-03T01:37:44.902340+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -410,12 +410,12 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 35,
+      "homeWinPct": 36,
       "drawPct": 27,
-      "awayWinPct": 38,
-      "predictedScore": "1.3 \u2014 1.3",
+      "awayWinPct": 37,
+      "predictedScore": "1.4 \u2014 1.2",
       "factors": {
-        "homeForm": 0.7,
+        "homeForm": 0.83,
         "awayForm": 0.66,
         "h2h": {
           "homeWins": 2,
@@ -972,6 +972,17 @@
         "homeWinPct": 45,
         "drawPct": 25,
         "awayWinPct": 30
+      },
+      {
+        "id": "401882844",
+        "home": "Deportivo",
+        "away": "Levante",
+        "kickoffISO": "2026-10-16T19:00Z",
+        "kickoffLabel": "Fri 16 Oct \u00b7 19:00 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
       }
     ],
     "Serie A": [
@@ -1084,6 +1095,17 @@
         "homeWinPct": 43,
         "drawPct": 25,
         "awayWinPct": 32
+      },
+      {
+        "id": "401874959",
+        "home": "Frosinone",
+        "away": "Sassuolo",
+        "kickoffISO": "2026-10-16T18:45Z",
+        "kickoffLabel": "Fri 16 Oct \u00b7 18:45 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
       }
     ],
     "Bundesliga": [
@@ -1185,6 +1207,17 @@
         "homeWinPct": 45,
         "drawPct": 25,
         "awayWinPct": 30
+      },
+      {
+        "id": "401884770",
+        "home": "Eintracht Frankfurt",
+        "away": "FC Cologne",
+        "kickoffISO": "2026-10-16T18:30Z",
+        "kickoffLabel": "Fri 16 Oct \u00b7 18:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 49,
+        "drawPct": 24,
+        "awayWinPct": 27
       }
     ],
     "Ligue 1": [
@@ -1282,6 +1315,17 @@
         "away": "Marseille",
         "kickoffISO": "2026-10-11T18:45Z",
         "kickoffLabel": "Sun 11 Oct \u00b7 18:45 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
+      },
+      {
+        "id": "401876437",
+        "home": "Le Mans",
+        "away": "Toulouse",
+        "kickoffISO": "2026-10-16T18:45Z",
+        "kickoffLabel": "Fri 16 Oct \u00b7 18:45 UTC",
         "hasRealStrengthData": false,
         "homeWinPct": 45,
         "drawPct": 25,
@@ -1656,7 +1700,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.7,
+      "form": 0.83,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2808,7 +2852,7 @@
         }
       ],
       "squadRating": 3.55,
-      "squadValue": "\u00a3177.7m",
+      "squadValue": "\u00a3177.6m",
       "leagueRank": 14,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -3748,7 +3792,7 @@
         }
       ],
       "squadRating": 5.42,
-      "squadValue": "\u00a3151.7m",
+      "squadValue": "\u00a3151.6m",
       "leagueRank": 2,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -3953,7 +3997,7 @@
         }
       ],
       "squadRating": 4.93,
-      "squadValue": "\u00a3195.0m",
+      "squadValue": "\u00a3194.8m",
       "leagueRank": 7,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -4143,7 +4187,7 @@
         }
       ],
       "squadRating": 5.4,
-      "squadValue": "\u00a3195.8m",
+      "squadValue": "\u00a3195.7m",
       "leagueRank": 3,
       "strengthHome": 4,
       "strengthAway": 5,
@@ -4715,7 +4759,7 @@
         }
       ],
       "squadRating": 3.64,
-      "squadValue": "\u00a3153.1m",
+      "squadValue": "\u00a3153.0m",
       "leagueRank": 12,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -5236,7 +5280,7 @@
       "avatar": "KS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.2m",
-      "owned": "11.6%",
+      "owned": "11.7%",
       "points": 39,
       "epNext": 8.7,
       "form": 8.7,
@@ -7436,7 +7480,7 @@
       "team": "Liverpool",
       "avatar": "DS",
       "avatarClass": "",
-      "price": "\u00a37.0m",
+      "price": "\u00a36.9m",
       "owned": "32.7%",
       "points": 20,
       "epNext": 2.7,
@@ -9010,7 +9054,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 11009365,
+  "totalManagers": 11009633,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -9295,45 +9339,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 792215
+        "netTransfersEvent": 793085
       },
       {
         "id": "94",
-        "netTransfersEvent": 374800
+        "netTransfersEvent": 375260
       },
       {
         "id": "138",
-        "netTransfersEvent": 300902
+        "netTransfersEvent": 301267
       },
       {
         "id": "115",
-        "netTransfersEvent": 282929
+        "netTransfersEvent": 283193
       },
       {
         "id": "449",
-        "netTransfersEvent": 228999
+        "netTransfersEvent": 229231
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -335358
+        "netTransfersEvent": -335605
       },
       {
         "id": "368",
-        "netTransfersEvent": -182751
+        "netTransfersEvent": -183292
       },
       {
         "id": "454",
-        "netTransfersEvent": -168105
+        "netTransfersEvent": -168236
       },
       {
         "id": "426",
-        "netTransfersEvent": -153430
+        "netTransfersEvent": -153519
       },
       {
         "id": "557",
-        "netTransfersEvent": -132492
+        "netTransfersEvent": -132894
       }
     ]
   }
