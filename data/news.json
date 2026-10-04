@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-10-04T09:13:09.023591+00:00",
+  "generatedAt": "2026-10-04T15:04:42.845795+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "England latest: Man City defender called up for Czech Republic game",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-04T14:47:00+00:00"
+    },
+    {
+      "title": "'Promising start' or 'shocking' display? Tartan Army on Skopje win",
+      "description": "The Tartan Army have given a mixed reaction to Scotland's 2-0 win away to North Macedonia in the Nations League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr93zpl4zjpwo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-04T14:45:11+00:00"
+    },
+    {
+      "title": "Chelsea latest: 'Blues at front of queue for Bournemouth midfielder'",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-04T14:23:00+00:00"
+    },
+    {
+      "title": "Robertson savours Scotland century before eyeing Dalglish record",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-04T13:08:00+00:00"
+    },
+    {
+      "title": "Modric 'ashamed' of Croatia's 'catastrophic night'",
+      "description": "Croatia captain Luka Modric says he was \"ashamed\" of his side's performance on a \"catastrophic night\" against England.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwzrdm3lyk21o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-04T10:35:47+00:00"
+    },
     {
       "title": "Bournemouth latest: Tuchel praises Scott as 'complete package'",
       "description": "",
@@ -67,51 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-10-03T23:00:00+00:00"
-    },
-    {
-      "title": "Two going on four, five or six on good night for new Scotland era",
-      "description": "Scotland scored twice in North Macedonia but the scoreline does not reflect their dominance in Skopje, writes Tom English.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx7vp540g75mo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-03T22:22:18+00:00"
-    },
-    {
-      "title": "Two going on four, five or six on good night for new Scotland era",
-      "description": "Scotland scored twice in North Macedonia but the scoreline does not reflect their dominance in Skopje, writes Tom English.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx7vp540g75mo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-03T22:22:18+00:00"
-    },
-    {
-      "title": "'Rampant in Rijeka'! England player ratings from huge victory over Croatia",
-      "description": "Rob Dorsett gives his player ratings for England's dominant 7-0 victory over Croatia.",
-      "link": "https://www.skysports.com/watch/video/13594845/international-ratings-edit-with-fix",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-03T22:06:00+00:00"
-    },
-    {
-      "title": "Third time lucky for Pocognoli as Scotland mark Robertson's 100th cap with win",
-      "description": "Sebastien Pocognoli secured his first Scotland win at the third time of asking as captain Andy Robertson became just the second player to reach 100 caps.",
-      "link": "https://www.skysports.com/football/north-macedonia-vs-scotland/report/554056",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-03T22:00:00+00:00"
-    },
-    {
-      "title": "Celtic hit out at fan group after Desmond targeted at St Andrews",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-03T22:00:00+00:00"
     }
   ]
 }
