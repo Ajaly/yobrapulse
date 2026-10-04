@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-03T22:35:45.120338+00:00",
+  "generatedAt": "2026-10-04T02:18:38.940478+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Arsenal leading race for winger Nusa",
+      "description": "The top stories and transfer rumours from Sunday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13594837/arsenal-leading-race-for-rb-leipzig-winger-antonio-nusa-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-03T23:00:00+00:00"
+    },
     {
       "title": "Two going on four, five or six on good night for new Scotland era",
       "description": "Scotland scored twice in North Macedonia but the scoreline does not reflect their dominance in Skopje, writes Tom English.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-03T20:32:45+00:00"
-    },
-    {
-      "title": "Man City to land Arsenal in deeper trouble? Putellas to star?",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13593893/womens-super-league-live-on-sky-this-weekend-man-city-to-hand-further-punishment-to-renee-slegers-and-arsenal",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-03T19:43:00+00:00"
     }
   ]
 }
