@@ -1,117 +1,117 @@
 {
-  "generatedAt": "2026-10-05T17:41:30.977917+00:00",
+  "generatedAt": "2026-10-05T23:34:13.667873+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man Utd latest: Transfer Talk Podcast assess who's top of January shortlist",
+      "title": "Liverpool latest: Listen to special Reds podcast assessing Iraola's start",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-05T23:55:00+00:00"
+    },
+    {
+      "title": "Papers: Liverpool's Jacquet suffers hamstring strain on France duty",
+      "description": "The top stories and transfer rumours from Tuesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13595580/x-paper-talk",
+      "source": "Sky Sports",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-10-05T23:15:00+00:00"
+    },
+    {
+      "title": "Man City latest: Cherki scores as France hit back to thump Belgium",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-05T22:22:00+00:00"
+    },
+    {
+      "title": "Man Utd latest: Yoro impresses on senior France debut",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-05T18:07:00+00:00"
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-05T22:14:00+00:00"
     },
     {
-      "title": "Pickford \u2018almost caused crash\u2019 in Lamborghini, court hears",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "title": "Mamardashvili's late penalty save denies Northern Ireland win vs Georgia",
+      "description": "Isaac Price missed a late penalty as Northern Ireland were held to a goalless draw by Georgia which nevertheless keeps them top of their Nations League group.",
+      "link": "https://www.skysports.com/football/northern-ireland-vs-georgia/report/554072",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-05T17:44:00+00:00"
+      "pubDateISO": "2026-10-05T22:00:00+00:00"
     },
     {
-      "title": "Referee announced for Sunday's Liverpool vs Man City clash",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-05T17:14:00+00:00"
-    },
-    {
-      "title": "Explained: What other PL clubs expect to happen after Man City rule breaches",
-      "description": "Kaveh Solhekol explains how the other Premier League clubs are reacting to Manchester City's rule breaches ahead of the appeal process",
-      "link": "https://www.skysports.com/watch/video/13595484/manchester-city-what-do-other-pl-clubs-expect-to-happen-after-man-city-rule-breaches",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-05T16:26:00+00:00"
-    },
-    {
-      "title": "Spurs latest: Netherlands boss Xavi issues Van de Ven injury update",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-05T16:04:00+00:00"
-    },
-    {
-      "title": "'Proud and lucky' - Gilmour on reaching 50 caps for Scotland",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13551944/scotland-football-news-live-updates-schedule-and-analysis-of-steve-clarkes-side",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-05T16:00:00+00:00"
-    },
-    {
-      "title": "Transfer Centre LIVE! 'Breakthrough in Kane contract talks with Bayern'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12476234/transfer-centre-live-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-05T15:30:00+00:00"
-    },
-    {
-      "title": "Jesus fires back over Ronaldo question",
-      "description": "Portugal manager Jorge Jesus fires back at a question from the media over his handling of Cristiano Ronaldo after the veteran forward left the squad in a row over playing time.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/ckn8wjezz462o",
+      "title": "Highlights: Northern Ireland frustrated by Georgia",
+      "description": "Watch highlights as Northern Ireland end the extended window with a 0-0 Nations League draw against Georgia at Windsor Park.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/ck5ynp3ej7m8o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-05T15:24:54+00:00"
+      "pubDateISO": "2026-10-05T21:56:05+00:00"
     },
     {
-      "title": "Slegers can no longer hide behind 'fine margins' in defence of Arsenal",
-      "description": "<em>Sky Sports columnist Laura Hunter analyses the big talking points from the second round of Women's Super League matches, bringing you closer to the key stories at the heart of the women's game.</em>",
-      "link": "https://www.skysports.com/football/news/11095/13595352/arsenal-must-be-accountable-for-their-own-failings-in-faltering-womens-super-league-season",
+      "title": "Arsenal latest: Calafiori scores first Italy goal; Gyokeres on target again for Sweden",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-05T15:00:00+00:00"
+      "pubDateISO": "2026-10-05T21:50:00+00:00"
     },
     {
-      "title": "Player welfare, injury worries & boredom - has extended break worked?",
-      "description": "The extended international break was brought in with player welfare in mind, but has it been a success?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq8jz7verm24o",
+      "title": "Humble Gilmour happy with new role as 50th cap beckons",
+      "description": "Billy Gilmour is excited by the prospect of earning a 50th Scotland cap after a key role in Sebastien Pocognoli's first win as national head coach.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmly05el6gz2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-05T21:28:25+00:00"
+    },
+    {
+      "title": "Humble Gilmour happy with new role as 50th cap beckons",
+      "description": "Billy Gilmour is excited by the prospect of earning a 50th Scotland cap after a key role in Sebastien Pocognoli's first win as national head coach.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmly05el6gz2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-05T21:28:25+00:00"
+    },
+    {
+      "title": "Man City reaction: Carra says punishment should last for 'years' if appeal fails",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13593363/man-city-charges-reaction-and-findings-as-commission-finds-club-guilty-of-all-charges-related-to-serious-financial-breaches",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-05T20:45:00+00:00"
+    },
+    {
+      "title": "Juventus & Atletico Madrid eye Madueke - Tuesday's gossip",
+      "description": "Arsenal forward Noni Madueke has suitors in Spain and Italy, five Premier League clubs are interested in Barcelona defender Jules Kounde, England captain Harry Kane is close to signing a new deal at Bayern Munich, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw203mjx7r46o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-05T20:38:51+00:00"
+    },
+    {
+      "title": "Monday Night Club: England, Alex Scott injury & Robbie Savage on his new job",
+      "description": "What are the benefits of players going abroad to play their club football?",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pf4nx4",
       "source": "BBC Sport",
       "category": "injury",
       "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-05T14:54:39+00:00"
-    },
-    {
-      "title": "Pickford 'almost caused crash' with careless driving",
-      "description": "The goalkeeper was pulled over by police after ignoring a give way sign, forcing two cars to brake.",
-      "link": "https://www.bbc.co.uk/news/articles/cxvgd3j2qqnmo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-05T14:42:28+00:00"
-    },
-    {
-      "title": "Man City's rivals do not expect them to be in Premier League next season",
-      "description": "Sympathy is in short supply at other clubs after an independent commission laid bare the scale of Manchester City's rule breaking across nine seasons in a devastating decision published last week.",
-      "link": "https://www.skysports.com/football/news/11095/13595428/man-city-charges-premier-league-clubs-do-not-expect-city-to-be-in-premier-league-next-season-if-appeal-fails",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-05T14:41:00+00:00"
+      "pubDateISO": "2026-10-05T20:31:00+00:00"
     }
   ]
 }
