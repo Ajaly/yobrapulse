@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T23:34:12.817047+00:00",
+  "generatedAt": "2026-10-06T04:16:56.066996+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -380,9 +380,9 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 68,
+        "homeWinPct": 69,
         "drawPct": 19,
-        "awayWinPct": 13
+        "awayWinPct": 12
       }
     },
     {
@@ -773,7 +773,7 @@
           "awayWins": 3,
           "meetings": 5
         },
-        "homeAvailability": 0.71,
+        "homeAvailability": 0.68,
         "awayAvailability": 0.87,
         "homeTransferImpactM": 5.5,
         "awayTransferImpactM": -4.6
@@ -1071,6 +1071,17 @@
         "homeWinPct": 59,
         "drawPct": 23,
         "awayWinPct": 18
+      },
+      {
+        "id": "401882842",
+        "home": "Getafe",
+        "away": "Rayo Vallecano",
+        "kickoffISO": "2026-10-19T19:00Z",
+        "kickoffLabel": "Mon 19 Oct \u00b7 19:00 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
       }
     ],
     "Serie A": [
@@ -1271,6 +1282,28 @@
         "homeWinPct": 50,
         "drawPct": 24,
         "awayWinPct": 26
+      },
+      {
+        "id": "401874762",
+        "home": "Monza",
+        "away": "Cagliari",
+        "kickoffISO": "2026-10-19T16:30Z",
+        "kickoffLabel": "Mon 19 Oct \u00b7 16:30 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
+      },
+      {
+        "id": "401874784",
+        "home": "Parma",
+        "away": "Torino",
+        "kickoffISO": "2026-10-19T18:45Z",
+        "kickoffLabel": "Mon 19 Oct \u00b7 18:45 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
       }
     ],
     "Bundesliga": [
@@ -5807,7 +5840,7 @@
       "avatar": "AI",
       "avatarClass": "pink-avatar",
       "price": "\u00a39.1m",
-      "owned": "22.2%",
+      "owned": "22.1%",
       "points": 33,
       "epNext": 3.8,
       "form": 5.0,
@@ -7359,7 +7392,7 @@
       "price": "\u00a35.0m",
       "owned": "3.5%",
       "points": 24,
-      "epNext": 7.5,
+      "epNext": 5.6,
       "form": 7.5,
       "minutes": 415,
       "goals": 0,
@@ -8938,7 +8971,7 @@
       "avatar": "MV",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.0m",
-      "owned": "8.7%",
+      "owned": "8.6%",
       "points": 6,
       "epNext": 0.0,
       "form": 0.0,
@@ -9395,7 +9428,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 11020398,
+  "totalManagers": 11020773,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -9680,45 +9713,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 829025
+        "netTransfersEvent": 830600
       },
       {
         "id": "94",
-        "netTransfersEvent": 396720
+        "netTransfersEvent": 397798
       },
       {
         "id": "138",
-        "netTransfersEvent": 320298
+        "netTransfersEvent": 321284
       },
       {
         "id": "115",
-        "netTransfersEvent": 297370
+        "netTransfersEvent": 298118
       },
       {
         "id": "449",
-        "netTransfersEvent": 242643
+        "netTransfersEvent": 243310
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -348178
+        "netTransfersEvent": -348835
       },
       {
         "id": "368",
-        "netTransfersEvent": -193021
+        "netTransfersEvent": -193502
       },
       {
         "id": "454",
-        "netTransfersEvent": -174492
+        "netTransfersEvent": -174793
       },
       {
         "id": "426",
-        "netTransfersEvent": -158092
+        "netTransfersEvent": -158285
       },
       {
         "id": "557",
-        "netTransfersEvent": -150374
+        "netTransfersEvent": -151096
       }
     ]
   }
