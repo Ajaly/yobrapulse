@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-10-07T21:05:22.042386+00:00",
+  "generatedAt": "2026-10-08T01:28:54.798414+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Arteta becomes Premier League's highest-paid boss on \u00a320m-a-year",
+      "description": "The top stories and transfer rumours from Wednesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13596325/arsenal-manager-mikel-arteta-becomes-premier-leagues-highest-paid-boss-on-20m-a-year-new-contract-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-07T22:46:00+00:00"
+    },
+    {
+      "title": "Rice close to agreeing new Arsenal deal",
+      "description": "Declan Rice is close to agreeing a new long-term Arsenal contract, sources have told BBC Sport.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9gkvx74je7do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-07T22:21:44+00:00"
+    },
+    {
+      "title": "Euro Leagues: Ronaldo's fallout with Jorge Jesus & is Zidane making his mark?",
+      "description": "Is Ronaldo's behaviour a surprise? And what've we learnt from Zidane's start?",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pfk3y1",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-07T21:49:00+00:00"
+    },
     {
       "title": "Man Utd and Liverpool eye Truffert - Thursday's gossip",
       "description": "Manchester United and Liverpool eye Adrien Truffert, Tyler Morton is wanted by Newcastle and Martin Odegaard is set to sign a new Arsenal deal.",
@@ -51,8 +78,8 @@
       "pubDateISO": "2026-10-07T20:31:17+00:00"
     },
     {
-      "title": "Guardiola set to attend first Man City home game since guilty verdict",
-      "description": "Pep Guardiola is expected to attend Manchester City's Champions League tie against Paris St-Germain next week - the club's first home match since they were found guilty of the majority of the 115 charges brought against them by the Premier League.",
+      "title": "Guardiola set to attend Man City's first home game since guilty verdict",
+      "description": "Pep Guardiola managed Manchester City for a decade, leaving in the summer, and has backed the club's owners since the verdict.",
       "link": "https://www.bbc.co.uk/sport/football/articles/ckrey77jq1n7o",
       "source": "BBC Sport",
       "category": "club",
@@ -85,33 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-10-07T19:31:04+00:00"
-    },
-    {
-      "title": "Football Daily",
-      "description": "John Bennett is joined by Adam Blackmore and Jobi McAnuff to react to the Spygate verdict",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pfjltk",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-07T19:30:00+00:00"
-    },
-    {
-      "title": "Tuchel: England \u201ctrain is rolling\u201d without Palmer",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-07T19:30:00+00:00"
-    },
-    {
-      "title": "Ex-Spurs player Vega set to run for Fifa president",
-      "description": "Former Tottenham defender Ramon Vega says he intends to run in next year's Fifa presidential election - becoming the first person to confirm they want to challenge Gianni Infantino.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c607397pjv37o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-07T19:24:19+00:00"
     }
   ]
 }
