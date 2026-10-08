@@ -1,10 +1,109 @@
 {
-  "generatedAt": "2026-10-08T01:28:54.798414+00:00",
+  "generatedAt": "2026-10-08T08:16:01.964983+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "SPFL pays out close to \u00a350m in record year",
+      "description": "The Scottish Professional Football League (SPFL) pays clubs a record \u00a349.6m in the past year.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm93z85ggy79o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-08T08:00:06+00:00"
+    },
+    {
+      "title": "Working with Iraola, car clauses and hope - the Liverpool academy approach",
+      "description": "Liverpool academy director Alex Inglethorpe talks to BBC Sport about the value and future of Liverpool's academy.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmx2z9z10wezo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-08T07:04:50+00:00"
+    },
+    {
+      "title": "How can home nations reach Women's World Cup?",
+      "description": "England, Wales, Northern Ireland, Scotland and the Republic of Ireland are among those hoping to qualify for next year's Women's World Cup. What awaits them in the play-offs?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqzrdmjp5162o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-08T07:01:10+00:00"
+    },
+    {
+      "title": "How can home nations reach Women's World Cup?",
+      "description": "England, Wales, Northern Ireland, Scotland and the Republic of Ireland are among those hoping to qualify for next year's Women's World Cup. What awaits them in the play-offs?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqzrdmjp5162o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-08T07:01:10+00:00"
+    },
+    {
+      "title": "How early-season data signals Scottish Premiership style shift",
+      "description": "Underlying numbers from the start of the Scottish Premiership season suggest a refreshed approach could be taking hold across the league.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwnv0j499jrgo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-08T06:52:49+00:00"
+    },
+    {
+      "title": "Why early-season data points to Premiership style shift",
+      "description": "Underlying numbers from the start of the Scottish Premiership season suggest a refreshed approach could be taking hold across the league.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwnv0j499jrgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-08T06:52:49+00:00"
+    },
+    {
+      "title": "Celtic-linked manager considers options - gossip",
+      "description": "Manager linked with Celtic takes time to consider future and Aberdeen defender will not be rushed back.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm79p1z393y7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-08T06:24:49+00:00"
+    },
+    {
+      "title": "Who am I? Guess Premier League star No 80",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmd7qnqrzdg1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-08T06:05:33+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "Dale Johnson speaks to Brighton's sporting director Mike Cave.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pffw0n",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-08T06:00:00+00:00"
+    },
+    {
+      "title": "Sky Sports and Guinness launch new accessibility services across PL coverage",
+      "description": "Live Subtitles to be available across all <em>Sky Sports</em> Premier League matches, while Live Descriptive Audio Commentary will be introduced on selected fixtures throughout the season.",
+      "link": "https://www.skysports.com/football/news/11095/13595862/sky-sports-and-guinness-launch-new-accessibility-services-across-premier-league-coverage",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-08T06:00:00+00:00"
+    },
+    {
+      "title": "Inside the \u00a31-an-hour official football shirt factories",
+      "description": "A BBC Sport investigation traces official football shirt production to factories in Cambodia where workers are paid less than \u00a31 an hour.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx2lggyz2wgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-08T05:48:17+00:00"
+    },
     {
       "title": "Papers: Arteta becomes Premier League's highest-paid boss on \u00a320m-a-year",
       "description": "The top stories and transfer rumours from Wednesday's newspapers...",
@@ -13,105 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-10-07T22:46:00+00:00"
-    },
-    {
-      "title": "Rice close to agreeing new Arsenal deal",
-      "description": "Declan Rice is close to agreeing a new long-term Arsenal contract, sources have told BBC Sport.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9gkvx74je7do",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-07T22:21:44+00:00"
-    },
-    {
-      "title": "Euro Leagues: Ronaldo's fallout with Jorge Jesus & is Zidane making his mark?",
-      "description": "Is Ronaldo's behaviour a surprise? And what've we learnt from Zidane's start?",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pfk3y1",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-07T21:49:00+00:00"
-    },
-    {
-      "title": "Man Utd and Liverpool eye Truffert - Thursday's gossip",
-      "description": "Manchester United and Liverpool eye Adrien Truffert, Tyler Morton is wanted by Newcastle and Martin Odegaard is set to sign a new Arsenal deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr2ke0k8g7xeo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-07T20:56:06+00:00"
-    },
-    {
-      "title": "Two icons, a glorious farewell and a potentially bitter ending",
-      "description": "As Lionel Messi's international career ends in fond farewell, Cristiano Ronaldo's is at risk of petering out. BBC Sport takes a look at what could be the end of the international career's of two football greats.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cw5ynm4e0d68o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-07T20:47:17+00:00"
-    },
-    {
-      "title": "Transfer Centre LIVE! 'Rice close to new Arsenal deal'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12476234/transfer-centre-live-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-07T20:39:00+00:00"
-    },
-    {
-      "title": "ARSENAL PODCAST: Listen to an Arteta new contract special!",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-07T20:32:00+00:00"
-    },
-    {
-      "title": "'Amazing' Kane targets 100 international goals",
-      "description": "Striker Harry Kane says he could reach 100 goals for England after equalling his country's appearance record of 125, drawing praise from team-mates Morgan Rogers and Jude Bellingham.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cm75pwl3w2x7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-07T20:31:17+00:00"
-    },
-    {
-      "title": "Guardiola set to attend Man City's first home game since guilty verdict",
-      "description": "Pep Guardiola managed Manchester City for a decade, leaving in the summer, and has backed the club's owners since the verdict.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckrey77jq1n7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-07T20:14:24+00:00"
-    },
-    {
-      "title": "All done deals in September & October 2026",
-      "description": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-07T19:45:58+00:00"
-    },
-    {
-      "title": "McTominay resumes Napoli training after surgery",
-      "description": "Scotland midfielder Scott McTominay returns to training at Napoli following his recent heart surgery.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwly3x2y95emo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-07T19:31:04+00:00"
-    },
-    {
-      "title": "McTominay resumes Napoli training after surgery",
-      "description": "Scotland midfielder Scott McTominay returns to training at Napoli following his recent heart surgery.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwly3x2y95emo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-07T19:31:04+00:00"
     }
   ]
 }
