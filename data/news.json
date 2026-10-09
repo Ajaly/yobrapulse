@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-10-08T21:42:32.314541+00:00",
+  "generatedAt": "2026-10-09T01:37:46.551486+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Papers: Fee Man Utd could receive for wantaway JJ Gabriel revealed",
+      "description": "The top stories and transfer rumours from Friday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13596653/jj-gabriel-manchester-united-could-be-forced-to-accept-small-fee-for-wantaway-teen-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-08T22:30:00+00:00"
+    },
+    {
+      "title": "Spurs' Simons enrols at iconic university Harvard",
+      "description": "Tottenham's Xavi Simons enrols at prestigious American university Harvard as he continues his recovery from a long-term injury.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckpqg9388e7wo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-10-08T22:21:25+00:00"
+    },
     {
       "title": "Real seek McTominay move - Friday's gossip",
       "description": "Real Madrid are interested in former Manchester United midfielder Scott McTominay and France forward Michael Olise, while Chelsea are keen on Frenkie de Jong.",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-08T19:00:00+00:00"
-    },
-    {
-      "title": "How England snub could boost Toone\u2019s World Cup chances",
-      "description": "Ella Toone may have started this international break on the outside looking in, but she looks set to emerge from it with her chances of making it to Brazil next summer strengthened.",
-      "link": "https://www.skysports.com/football/news/11095/13596592/greece-vs-england-how-ella-toones-lionesses-snub-could-boost-her-world-cup-chances",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-08T18:58:00+00:00"
-    },
-    {
-      "title": "Ticket rises and more TV packages - why is price of sport increasing?",
-      "description": "The price of sports tickets and TV subscriptions are on the rise - so what is behind the increases and how are they justified?",
-      "link": "https://www.bbc.co.uk/sport/articles/cx7vpe1p070mo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-08T18:57:13+00:00"
     }
   ]
 }
