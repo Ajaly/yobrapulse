@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T13:12:14.995201+00:00",
+  "generatedAt": "2026-10-10T18:09:34.128775+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -20,44 +20,54 @@
           "rank": 2,
           "team": "Arsenal",
           "shortTeam": "Arsenal",
-          "played": 5,
-          "wins": 4,
+          "played": 6,
+          "wins": 5,
           "draws": 0,
           "losses": 1,
-          "points": 12
+          "points": 15
         },
         {
           "rank": 3,
           "team": "Brighton & Hove Albion",
           "shortTeam": "Brighton",
-          "played": 5,
-          "wins": 3,
+          "played": 6,
+          "wins": 4,
           "draws": 1,
           "losses": 1,
-          "points": 10
+          "points": 13
         },
         {
           "rank": 4,
           "team": "Brentford",
           "shortTeam": "Brentford",
-          "played": 5,
+          "played": 6,
           "wins": 2,
-          "draws": 3,
+          "draws": 4,
           "losses": 0,
-          "points": 9
+          "points": 10
         },
         {
           "rank": 5,
-          "team": "Leeds United",
-          "shortTeam": "Leeds",
-          "played": 5,
-          "wins": 2,
-          "draws": 3,
-          "losses": 0,
-          "points": 9
+          "team": "Chelsea",
+          "shortTeam": "Chelsea",
+          "played": 6,
+          "wins": 3,
+          "draws": 1,
+          "losses": 2,
+          "points": 10
         },
         {
           "rank": 6,
+          "team": "Leeds United",
+          "shortTeam": "Leeds",
+          "played": 6,
+          "wins": 2,
+          "draws": 3,
+          "losses": 1,
+          "points": 9
+        },
+        {
+          "rank": 7,
           "team": "Liverpool",
           "shortTeam": "Liverpool",
           "played": 5,
@@ -67,7 +77,7 @@
           "points": 9
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": "Everton",
           "shortTeam": "Everton",
           "played": 5,
@@ -77,7 +87,17 @@
           "points": 9
         },
         {
-          "rank": 8,
+          "rank": 9,
+          "team": "Ipswich Town",
+          "shortTeam": "Ipswich",
+          "played": 6,
+          "wins": 3,
+          "draws": 0,
+          "losses": 3,
+          "points": 9
+        },
+        {
+          "rank": 10,
           "team": "Hull City",
           "shortTeam": "Hull",
           "played": 5,
@@ -87,7 +107,7 @@
           "points": 8
         },
         {
-          "rank": 9,
+          "rank": 11,
           "team": "Newcastle United",
           "shortTeam": "Newcastle",
           "played": 5,
@@ -95,26 +115,6 @@
           "draws": 2,
           "losses": 1,
           "points": 8
-        },
-        {
-          "rank": 10,
-          "team": "Chelsea",
-          "shortTeam": "Chelsea",
-          "played": 5,
-          "wins": 2,
-          "draws": 1,
-          "losses": 2,
-          "points": 7
-        },
-        {
-          "rank": 11,
-          "team": "Ipswich Town",
-          "shortTeam": "Ipswich",
-          "played": 5,
-          "wins": 2,
-          "draws": 0,
-          "losses": 3,
-          "points": 6
         },
         {
           "rank": 12,
@@ -138,13 +138,13 @@
         },
         {
           "rank": 14,
-          "team": "Sunderland",
-          "shortTeam": "Sunderland",
-          "played": 5,
+          "team": "Aston Villa",
+          "shortTeam": "Aston Villa",
+          "played": 6,
           "wins": 1,
-          "draws": 1,
+          "draws": 2,
           "losses": 3,
-          "points": 4
+          "points": 5
         },
         {
           "rank": 15,
@@ -158,22 +158,22 @@
         },
         {
           "rank": 16,
-          "team": "Aston Villa",
-          "shortTeam": "Aston Villa",
-          "played": 5,
+          "team": "Sunderland",
+          "shortTeam": "Sunderland",
+          "played": 6,
           "wins": 1,
           "draws": 1,
-          "losses": 3,
+          "losses": 4,
           "points": 4
         },
         {
           "rank": 17,
           "team": "AFC Bournemouth",
           "shortTeam": "Bournemouth",
-          "played": 5,
+          "played": 6,
           "wins": 0,
           "draws": 3,
-          "losses": 2,
+          "losses": 3,
           "points": 3
         },
         {
@@ -190,10 +190,10 @@
           "rank": 19,
           "team": "Fulham",
           "shortTeam": "Fulham",
-          "played": 5,
+          "played": 6,
           "wins": 0,
           "draws": 2,
-          "losses": 3,
+          "losses": 4,
           "points": 2
         },
         {
@@ -428,6 +428,10 @@
           "name": "Brentford"
         },
         {
+          "id": "363",
+          "name": "Chelsea"
+        },
+        {
           "id": "357",
           "name": "Leeds United"
         },
@@ -440,20 +444,16 @@
           "name": "Everton"
         },
         {
+          "id": "373",
+          "name": "Ipswich Town"
+        },
+        {
           "id": "306",
           "name": "Hull City"
         },
         {
           "id": "361",
           "name": "Newcastle United"
-        },
-        {
-          "id": "363",
-          "name": "Chelsea"
-        },
-        {
-          "id": "373",
-          "name": "Ipswich Town"
         },
         {
           "id": "360",
@@ -464,16 +464,16 @@
           "name": "Nottingham Forest"
         },
         {
-          "id": "366",
-          "name": "Sunderland"
+          "id": "362",
+          "name": "Aston Villa"
         },
         {
           "id": "384",
           "name": "Crystal Palace"
         },
         {
-          "id": "362",
-          "name": "Aston Villa"
+          "id": "366",
+          "name": "Sunderland"
         },
         {
           "id": "349",
@@ -511,11 +511,11 @@
           "rank": 2,
           "team": "Atl\u00e9tico Madrid",
           "shortTeam": "Atl\u00e9tico",
-          "played": 7,
-          "wins": 5,
+          "played": 8,
+          "wins": 6,
           "draws": 1,
           "losses": 1,
-          "points": 16
+          "points": 19
         },
         {
           "rank": 3,
@@ -551,10 +551,10 @@
           "rank": 6,
           "team": "Alav\u00e9s",
           "shortTeam": "Alav\u00e9s",
-          "played": 7,
+          "played": 8,
           "wins": 3,
           "draws": 2,
-          "losses": 2,
+          "losses": 3,
           "points": 11
         },
         {
@@ -990,18 +990,18 @@
       "current": [
         {
           "rank": 1,
-          "team": "AS Roma",
-          "shortTeam": "AS Roma",
-          "played": 5,
-          "wins": 4,
+          "team": "Internazionale",
+          "shortTeam": "Inter Milan",
+          "played": 6,
+          "wins": 5,
           "draws": 1,
           "losses": 0,
-          "points": 13
+          "points": 16
         },
         {
           "rank": 2,
-          "team": "Internazionale",
-          "shortTeam": "Inter Milan",
+          "team": "AS Roma",
+          "shortTeam": "AS Roma",
           "played": 5,
           "wins": 4,
           "draws": 1,
@@ -1130,16 +1130,6 @@
         },
         {
           "rank": 15,
-          "team": "Parma",
-          "shortTeam": "Parma",
-          "played": 5,
-          "wins": 1,
-          "draws": 1,
-          "losses": 3,
-          "points": 4
-        },
-        {
-          "rank": 16,
           "team": "Monza",
           "shortTeam": "Monza",
           "played": 5,
@@ -1149,17 +1139,37 @@
           "points": 4
         },
         {
-          "rank": 17,
-          "team": "Fiorentina",
-          "shortTeam": "Fiorentina",
-          "played": 5,
+          "rank": 16,
+          "team": "Genoa",
+          "shortTeam": "Genoa",
+          "played": 6,
           "wins": 1,
           "draws": 1,
-          "losses": 3,
+          "losses": 4,
+          "points": 4
+        },
+        {
+          "rank": 17,
+          "team": "Parma",
+          "shortTeam": "Parma",
+          "played": 6,
+          "wins": 1,
+          "draws": 1,
+          "losses": 4,
           "points": 4
         },
         {
           "rank": 18,
+          "team": "Fiorentina",
+          "shortTeam": "Fiorentina",
+          "played": 6,
+          "wins": 1,
+          "draws": 1,
+          "losses": 4,
+          "points": 4
+        },
+        {
+          "rank": 19,
           "team": "Bologna",
           "shortTeam": "Bologna",
           "played": 5,
@@ -1167,16 +1177,6 @@
           "draws": 2,
           "losses": 3,
           "points": 2
-        },
-        {
-          "rank": 19,
-          "team": "Genoa",
-          "shortTeam": "Genoa",
-          "played": 5,
-          "wins": 0,
-          "draws": 1,
-          "losses": 4,
-          "points": 1
         },
         {
           "rank": 20,
@@ -1394,12 +1394,12 @@
       ],
       "teams": [
         {
-          "id": "104",
-          "name": "AS Roma"
-        },
-        {
           "id": "110",
           "name": "Internazionale"
+        },
+        {
+          "id": "104",
+          "name": "AS Roma"
         },
         {
           "id": "112",
@@ -1450,12 +1450,16 @@
           "name": "Torino"
         },
         {
-          "id": "115",
-          "name": "Parma"
-        },
-        {
           "id": "4007",
           "name": "Monza"
+        },
+        {
+          "id": "3263",
+          "name": "Genoa"
+        },
+        {
+          "id": "115",
+          "name": "Parma"
         },
         {
           "id": "109",
@@ -1464,10 +1468,6 @@
         {
           "id": "107",
           "name": "Bologna"
-        },
-        {
-          "id": "3263",
-          "name": "Genoa"
         },
         {
           "id": "17530",
@@ -1493,11 +1493,11 @@
           "rank": 2,
           "team": "Bayern Munich",
           "shortTeam": "Bayern",
-          "played": 4,
+          "played": 5,
           "wins": 3,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
-          "points": 10
+          "points": 11
         },
         {
           "rank": 3,
@@ -1511,6 +1511,26 @@
         },
         {
           "rank": 4,
+          "team": "Bayer Leverkusen",
+          "shortTeam": "Leverkusen",
+          "played": 5,
+          "wins": 3,
+          "draws": 1,
+          "losses": 1,
+          "points": 10
+        },
+        {
+          "rank": 5,
+          "team": "FC Augsburg",
+          "shortTeam": "Augsburg",
+          "played": 5,
+          "wins": 2,
+          "draws": 2,
+          "losses": 1,
+          "points": 8
+        },
+        {
+          "rank": 6,
           "team": "Werder Bremen",
           "shortTeam": "Bremen",
           "played": 5,
@@ -1520,43 +1540,23 @@
           "points": 8
         },
         {
-          "rank": 5,
-          "team": "FC Augsburg",
-          "shortTeam": "Augsburg",
-          "played": 4,
-          "wins": 2,
-          "draws": 1,
-          "losses": 1,
-          "points": 7
-        },
-        {
-          "rank": 6,
-          "team": "Bayer Leverkusen",
-          "shortTeam": "Leverkusen",
-          "played": 4,
-          "wins": 2,
-          "draws": 1,
-          "losses": 1,
-          "points": 7
-        },
-        {
           "rank": 7,
           "team": "Mainz",
           "shortTeam": "Mainz",
-          "played": 4,
+          "played": 5,
           "wins": 2,
           "draws": 1,
-          "losses": 1,
+          "losses": 2,
           "points": 7
         },
         {
           "rank": 8,
           "team": "SV Elversberg",
           "shortTeam": "Elversberg",
-          "played": 4,
+          "played": 5,
           "wins": 2,
           "draws": 1,
-          "losses": 1,
+          "losses": 2,
           "points": 7
         },
         {
@@ -1571,6 +1571,26 @@
         },
         {
           "rank": 10,
+          "team": "VfB Stuttgart",
+          "shortTeam": "Stuttgart",
+          "played": 5,
+          "wins": 2,
+          "draws": 0,
+          "losses": 3,
+          "points": 6
+        },
+        {
+          "rank": 11,
+          "team": "Hamburg SV",
+          "shortTeam": "Hamburg",
+          "played": 5,
+          "wins": 2,
+          "draws": 0,
+          "losses": 3,
+          "points": 6
+        },
+        {
+          "rank": 12,
           "team": "Eintracht Frankfurt",
           "shortTeam": "Frankfurt",
           "played": 4,
@@ -1580,7 +1600,7 @@
           "points": 5
         },
         {
-          "rank": 11,
+          "rank": 13,
           "team": "Schalke 04",
           "shortTeam": "Schalke",
           "played": 4,
@@ -1590,17 +1610,7 @@
           "points": 5
         },
         {
-          "rank": 12,
-          "team": "SC Paderborn 07",
-          "shortTeam": "Paderborn",
-          "played": 4,
-          "wins": 1,
-          "draws": 1,
-          "losses": 2,
-          "points": 4
-        },
-        {
-          "rank": 13,
+          "rank": 14,
           "team": "FC Cologne",
           "shortTeam": "Cologne",
           "played": 4,
@@ -1610,44 +1620,34 @@
           "points": 4
         },
         {
-          "rank": 14,
-          "team": "TSG Hoffenheim",
-          "shortTeam": "Hoffenheim",
-          "played": 4,
-          "wins": 1,
-          "draws": 0,
-          "losses": 3,
-          "points": 3
-        },
-        {
           "rank": 15,
-          "team": "VfB Stuttgart",
-          "shortTeam": "Stuttgart",
-          "played": 4,
+          "team": "SC Paderborn 07",
+          "shortTeam": "Paderborn",
+          "played": 5,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 3,
-          "points": 3
+          "points": 4
         },
         {
           "rank": 16,
-          "team": "Hamburg SV",
-          "shortTeam": "Hamburg",
-          "played": 4,
+          "team": "1. FC Union Berlin",
+          "shortTeam": "Union Berlin",
+          "played": 5,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 3,
-          "points": 3
+          "points": 4
         },
         {
           "rank": 17,
-          "team": "1. FC Union Berlin",
-          "shortTeam": "Union Berlin",
-          "played": 4,
-          "wins": 0,
-          "draws": 1,
-          "losses": 3,
-          "points": 1
+          "team": "TSG Hoffenheim",
+          "shortTeam": "Hoffenheim",
+          "played": 5,
+          "wins": 1,
+          "draws": 0,
+          "losses": 4,
+          "points": 3
         },
         {
           "rank": 18,
@@ -1857,16 +1857,16 @@
           "name": "SC Freiburg"
         },
         {
-          "id": "137",
-          "name": "Werder Bremen"
+          "id": "131",
+          "name": "Bayer Leverkusen"
         },
         {
           "id": "3841",
           "name": "FC Augsburg"
         },
         {
-          "id": "131",
-          "name": "Bayer Leverkusen"
+          "id": "137",
+          "name": "Werder Bremen"
         },
         {
           "id": "2950",
@@ -1881,26 +1881,6 @@
           "name": "RB Leipzig"
         },
         {
-          "id": "125",
-          "name": "Eintracht Frankfurt"
-        },
-        {
-          "id": "133",
-          "name": "Schalke 04"
-        },
-        {
-          "id": "3307",
-          "name": "SC Paderborn 07"
-        },
-        {
-          "id": "122",
-          "name": "FC Cologne"
-        },
-        {
-          "id": "7911",
-          "name": "TSG Hoffenheim"
-        },
-        {
           "id": "134",
           "name": "VfB Stuttgart"
         },
@@ -1909,8 +1889,28 @@
           "name": "Hamburg SV"
         },
         {
+          "id": "125",
+          "name": "Eintracht Frankfurt"
+        },
+        {
+          "id": "133",
+          "name": "Schalke 04"
+        },
+        {
+          "id": "122",
+          "name": "FC Cologne"
+        },
+        {
+          "id": "3307",
+          "name": "SC Paderborn 07"
+        },
+        {
           "id": "598",
           "name": "1. FC Union Berlin"
+        },
+        {
+          "id": "7911",
+          "name": "TSG Hoffenheim"
         },
         {
           "id": "268",
@@ -1924,6 +1924,16 @@
       "current": [
         {
           "rank": 1,
+          "team": "Lille",
+          "shortTeam": "Lille",
+          "played": 6,
+          "wins": 4,
+          "draws": 1,
+          "losses": 1,
+          "points": 13
+        },
+        {
+          "rank": 2,
           "team": "AS Monaco",
           "shortTeam": "Monaco",
           "played": 5,
@@ -1933,7 +1943,7 @@
           "points": 13
         },
         {
-          "rank": 2,
+          "rank": 3,
           "team": "Lyon",
           "shortTeam": "Lyon",
           "played": 6,
@@ -1943,7 +1953,7 @@
           "points": 11
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "Paris FC",
           "shortTeam": "Paris FC",
           "played": 5,
@@ -1951,16 +1961,6 @@
           "draws": 2,
           "losses": 0,
           "points": 11
-        },
-        {
-          "rank": 4,
-          "team": "Lille",
-          "shortTeam": "Lille",
-          "played": 5,
-          "wins": 3,
-          "draws": 1,
-          "losses": 1,
-          "points": 10
         },
         {
           "rank": 5,
@@ -2096,10 +2096,10 @@
           "rank": 18,
           "team": "Le Havre AC",
           "shortTeam": "Le Havre AC",
-          "played": 5,
+          "played": 6,
           "wins": 0,
           "draws": 2,
-          "losses": 3,
+          "losses": 4,
           "points": 2
         }
       ],
@@ -2288,6 +2288,10 @@
       ],
       "teams": [
         {
+          "id": "166",
+          "name": "Lille"
+        },
+        {
           "id": "174",
           "name": "AS Monaco"
         },
@@ -2298,10 +2302,6 @@
         {
           "id": "6851",
           "name": "Paris FC"
-        },
-        {
-          "id": "166",
-          "name": "Lille"
         },
         {
           "id": "169",
