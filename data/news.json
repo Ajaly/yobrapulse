@@ -1,18 +1,90 @@
 {
-  "generatedAt": "2026-10-09T20:26:48.689055+00:00",
+  "generatedAt": "2026-10-10T00:25:43.104554+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Ronaldo scores on Al Nassr return after Portugal walkout",
+      "title": "Man City whistleblower to remain in witness protection",
+      "description": "The computer hacker who released documents which helped trigger the Premier League investigation into Manchester City will remain under witness protection after authorities in Portugal suspend the decision to end it.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq4g1xerk398o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-09T22:59:32+00:00"
+    },
+    {
+      "title": "West Ham latest: Ref admitted he was wrong to give QPR a penalty - Soucek",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
+      "link": "https://www.skysports.com/football/live-blog/11095/13210475/west-ham-latest-news",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T21:20:00+00:00"
+      "pubDateISO": "2026-10-09T22:31:00+00:00"
+    },
+    {
+      "title": "Arteta says conscience clear over time at Man City",
+      "description": "Mikel Arteta has said he has a clear conscience over his former club Manchester City's serious breaches of financial rules.",
+      "link": "https://www.skysports.com/football/news/11095/13596973/man-city-charges-arsenal-boss-mikel-arteta-says-he-has-clear-conscience-over-his-time-at-etihad-after-serious-breaches-of-financial-rules",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-09T22:30:00+00:00"
+    },
+    {
+      "title": "Papers: Man Utd forced into transfer market in January?",
+      "description": "The top stories and transfer rumours from Saturday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13597035/man-utd-may-be-forced-into-transfer-market-in-january-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-09T22:30:00+00:00"
+    },
+    {
+      "title": "Bowen's late penalty saved as West Ham held by QPR",
+      "description": "Jarrod Bowen saw his 91st-minute penalty saved as West Ham missed the chance to move top of the Sky Bet Championship after a 1-1 draw with QPR.",
+      "link": "https://www.skysports.com/football/west-ham-united-vs-queens-park-rangers/report/560605",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-09T22:00:00+00:00"
+    },
+    {
+      "title": "Arteta's conscience clear over Man City charges",
+      "description": "Mikel Arteta says his conscience is clear over Manchester City's rule breaches during a period when he was assistant manager at the club.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6d93ql8jvdko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-09T21:30:52+00:00"
+    },
+    {
+      "title": "NI World Cup hopes gone from 'improbable to impossible'",
+      "description": "Michael McArdle admits Northern Ireland's chances of beating Portugal in a Women's World Cup play-off have \"gone from improbable to impossible\" after a 4-0 first leg defeat.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6gqw03lxxnno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-09T21:24:28+00:00"
+    },
+    {
+      "title": "Arsenal eye deal for teenager Mora - Saturday's gossip",
+      "description": "Arsenal eye deal for Mexico teenager Gilberto Mora, AC Milan in pole position for Endrick, Nottingham Forest braced for Murillo interest",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxr5y36yml21o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-09T21:19:35+00:00"
+    },
+    {
+      "title": "Greek takeaways: What did we learn from Lionesses' win?",
+      "description": "England come away from Greece with a valuable first-leg lead in their Women's World Cup qualifying play-off - but who impressed in the 3-1 victory?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwp8g1ry6rjlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-09T21:15:24+00:00"
     },
     {
       "title": "Liverpool latest: Barcola reveals No 29 shirt was inspired by video game character",
@@ -33,15 +105,6 @@
       "pubDateISO": "2026-10-09T19:30:00+00:00"
     },
     {
-      "title": "O'Neill: Decision to stay at Celtic didn't take long",
-      "description": "Martin O'Neill said it would have been \"poor\" to walk out on Celtic as he explained it \"did not take long\" for him to rediscover his drive to lead the team following a brief period of uncertainty about his future.",
-      "link": "https://www.skysports.com/football/news/11095/13596964/celtic-manager-martin-oneill-says-decision-to-stay-at-scottish-premiership-champions-didnt-take-long",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T18:40:00+00:00"
-    },
-    {
       "title": "Highlights: Albania 0-1 Wales",
       "description": "Watch the best of the action as Wales beat Albania in Shkoder",
       "link": "https://www.bbc.co.uk/sport/football/videos/crlyk7w4zp5xo",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-09T18:20:41+00:00"
-    },
-    {
-      "title": "QPR lead at West Ham after controversial pen LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/west-ham-united-vs-queens-park-rangers/live/560605",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T18:00:00+00:00"
-    },
-    {
-      "title": "Will anyone stop re-election of Infantino as Fifa president?",
-      "description": "Little more than two months since news broke of Infantino's Fifa Forward Enterprise proposal, the chances appear slim that Gianni Infantino might be removed as president.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjn5v7zdrp5po",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T16:28:23+00:00"
-    },
-    {
-      "title": "Decision to stay at Celtic did not take long - O'Neill",
-      "description": "Martin O'Neill suggests he was never close to leaving Celtic after a three-game losing streak, with the veteran manager stressing his \"great enthusiasm\" for the role.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm89z77egpw5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T16:04:03+00:00"
-    },
-    {
-      "title": "Decision to stay at Celtic did not take long - O'Neill",
-      "description": "Martin O'Neill suggests he was never close to leaving Celtic after a three-game losing streak, with the veteran manager stressing his \"great enthusiasm\" for the role.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm89z77egpw5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T16:04:03+00:00"
-    },
-    {
-      "title": "Afcon move to every four years under review by Caf",
-      "description": "The Africa Cup of Nations may continue to be held every two years, with discussions under way to reverse its proposed switch to a four-year cycle.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cv0ldzz7yy3no",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-09T15:57:49+00:00"
-    },
-    {
-      "title": "Football Daily",
-      "description": "Conor McNamara joins Ian Dennis and John Murray ahead of a big Premier League weekend.",
-      "link": "https://www.bbc.co.uk/sounds/play/m0032mc0",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-09T15:51:00+00:00"
-    },
-    {
-      "title": "Everton up for sale again - so what next as owners TFG look for a way out?",
-      "description": "Everton are up for sale again. Chief football writer Phil McNulty looks at what happens next as owners The Friedkin Group look for a way out.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c3y0e8n9q4e0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T15:38:59+00:00"
     }
   ]
 }
