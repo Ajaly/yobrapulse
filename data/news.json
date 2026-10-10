@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-10-10T00:25:43.104554+00:00",
+  "generatedAt": "2026-10-10T06:35:30.382437+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Tottenham to fly to Marbella for team bonding",
+      "description": "Tottenham manager Roberto De Zerbi to take his squad to Marbella for team-bonding training camp after clash against Manchester United",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxr5y32r26l5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-10T06:29:58+00:00"
+    },
+    {
+      "title": "Man City titles 'absolutely not' tainted - Maresca",
+      "description": "Manchester City manager Enzo Maresca says the club's titles are \"absolutely not\" tainted after they were found guilty of the majority of the 115 charges brought against them by the Premier League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmzxjdvv784xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-10T05:56:59+00:00"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5n49xxjxe4zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-10T05:28:48+00:00"
+    },
+    {
+      "title": "Time to rise? Ranking European football's sleeping giants",
+      "description": "From Sampdoria to Saint-Etienne and Real Zaragoza, who are the sleeping giants of European football?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq5yjyyzd35do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-10T05:14:17+00:00"
+    },
     {
       "title": "Man City whistleblower to remain in witness protection",
       "description": "The computer hacker who released documents which helped trigger the Premier League investigation into Manchester City will remain under witness protection after authorities in Portugal suspend the decision to end it.",
@@ -76,42 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-10-09T21:19:35+00:00"
-    },
-    {
-      "title": "Greek takeaways: What did we learn from Lionesses' win?",
-      "description": "England come away from Greece with a valuable first-leg lead in their Women's World Cup qualifying play-off - but who impressed in the 3-1 victory?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwp8g1ry6rjlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T21:15:24+00:00"
-    },
-    {
-      "title": "Liverpool latest: Barcola reveals No 29 shirt was inspired by video game character",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T20:47:00+00:00"
-    },
-    {
-      "title": "England take control of World Cup play-off with win in Greece",
-      "description": "England are in control of their World Cup play-off with Greece after winning the first leg 3-1 in Crete.",
-      "link": "https://www.skysports.com/football/greece-women-vs-england-women/report/559077",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T19:30:00+00:00"
-    },
-    {
-      "title": "Highlights: Albania 0-1 Wales",
-      "description": "Watch the best of the action as Wales beat Albania in Shkoder",
-      "link": "https://www.bbc.co.uk/sport/football/videos/crlyk7w4zp5xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-09T18:20:41+00:00"
     }
   ]
 }
