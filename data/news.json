@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-10-11T01:27:58.617876+00:00",
+  "generatedAt": "2026-10-11T08:07:27.092358+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Carrick must share burden of Man Utd's underperformance with his players",
+      "title": "Highlights and analysis on Match of the Day",
+      "description": "With Man Utd v Spurs, Arsenal v Leeds and Chelsea v Bournemouth as the top flight returns",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0032wxj",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-11T08:00:00+00:00"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmlylg0n5pg7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-11T05:42:58+00:00"
+    },
+    {
+      "title": "Top five Liverpool-Man City moments",
+      "description": "Relive five classic moments between Liverpool and Manchester City before Sunday's Premier League game at Anfield (16:30 BST).",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqvg0m1my97go",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-11T05:37:52+00:00"
+    },
+    {
+      "title": "Toxicity and uncertainty await Man City - will their season even matter?",
+      "description": "Manchester City visit Liverpool on Sunday with a lot of uncertainty hanging over them. Phil McNulty looks at what lies ahead.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvy0rp14xz7lo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-11T05:27:03+00:00"
+    },
+    {
+      "title": "Carrick must share burden of Man Utd's failings with his players",
       "description": "\"We couldn't find a way to get ourselves into the game. With the ball, without the ball, we were off it.\" A fair assessment from Michael Carrick, if not a wholly explanatory one.",
       "link": "https://www.skysports.com/football/news/11095/13597374/man-utd-1-1-spurs-michael-carrick-entering-a-defining-period-and-must-correct-underperformance-quickly",
       "source": "Sky Sports",
@@ -31,24 +67,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-10T22:58:38+00:00"
-    },
-    {
-      "title": "Highlights and analysis on Match of the Day",
-      "description": "With Man Utd v Spurs, Arsenal v Leeds and Chelsea v Bournemouth as the top flight returns",
-      "link": "https://www.bbc.co.uk/iplayer/episode/m0032wxj",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-10T22:50:45+00:00"
-    },
-    {
-      "title": "Vinicius Jr sent off in Real win as Gordon scores first Barcelona goal",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-10T22:30:00+00:00"
     },
     {
       "title": "AC Milan keen on Scott - Sunday's gossip",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-10T20:51:03+00:00"
-    },
-    {
-      "title": "Spurs latest: De Zerbi 'kissed' Bentancur despite red card",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-10T20:45:00+00:00"
-    },
-    {
-      "title": "Man Utd latest: Carrick says boos 'hurt a lot' after Spurs draw",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-10T20:24:00+00:00"
     }
   ]
 }
