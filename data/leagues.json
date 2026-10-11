@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T19:50:43.158689+00:00",
+  "generatedAt": "2026-10-11T23:21:40.996271+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -639,8 +639,8 @@
         },
         {
           "rank": 15,
-          "team": "Osasuna",
-          "shortTeam": "Osasuna",
+          "team": "Racing Santander",
+          "shortTeam": "Racing",
           "played": 8,
           "wins": 2,
           "draws": 2,
@@ -649,13 +649,13 @@
         },
         {
           "rank": 16,
-          "team": "Racing Santander",
-          "shortTeam": "Racing",
-          "played": 7,
+          "team": "Osasuna",
+          "shortTeam": "Osasuna",
+          "played": 8,
           "wins": 2,
-          "draws": 1,
+          "draws": 2,
           "losses": 4,
-          "points": 7
+          "points": 8
         },
         {
           "rank": 17,
@@ -681,11 +681,11 @@
           "rank": 19,
           "team": "Valencia",
           "shortTeam": "Valencia",
-          "played": 7,
+          "played": 8,
           "wins": 1,
-          "draws": 1,
+          "draws": 2,
           "losses": 5,
-          "points": 4
+          "points": 5
         },
         {
           "rank": 20,
@@ -959,12 +959,12 @@
           "name": "Getafe"
         },
         {
-          "id": "97",
-          "name": "Osasuna"
-        },
-        {
           "id": "87",
           "name": "Racing Santander"
+        },
+        {
+          "id": "97",
+          "name": "Osasuna"
         },
         {
           "id": "3751",
@@ -1022,11 +1022,11 @@
           "rank": 4,
           "team": "Cagliari",
           "shortTeam": "Cagliari",
-          "played": 5,
+          "played": 6,
           "wins": 4,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "points": 12
+          "points": 13
         },
         {
           "rank": 5,
@@ -1040,8 +1040,8 @@
         },
         {
           "rank": 6,
-          "team": "Como",
-          "shortTeam": "Como",
+          "team": "Juventus",
+          "shortTeam": "Juventus",
           "played": 6,
           "wins": 3,
           "draws": 2,
@@ -1050,13 +1050,13 @@
         },
         {
           "rank": 7,
-          "team": "Juventus",
-          "shortTeam": "Juventus",
-          "played": 5,
+          "team": "Como",
+          "shortTeam": "Como",
+          "played": 6,
           "wins": 3,
-          "draws": 1,
+          "draws": 2,
           "losses": 1,
-          "points": 10
+          "points": 11
         },
         {
           "rank": 8,
@@ -1414,12 +1414,12 @@
           "name": "AC Milan"
         },
         {
-          "id": "2572",
-          "name": "Como"
-        },
-        {
           "id": "111",
           "name": "Juventus"
+        },
+        {
+          "id": "2572",
+          "name": "Como"
         },
         {
           "id": "114",
@@ -2044,6 +2044,16 @@
         },
         {
           "rank": 13,
+          "team": "Marseille",
+          "shortTeam": "Marseille",
+          "played": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 4,
+          "points": 6
+        },
+        {
+          "rank": 14,
           "team": "Le Mans",
           "shortTeam": "Le Mans",
           "played": 6,
@@ -2053,7 +2063,7 @@
           "points": 6
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": "Toulouse",
           "shortTeam": "Toulouse",
           "played": 6,
@@ -2063,7 +2073,7 @@
           "points": 6
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "AJ Auxerre",
           "shortTeam": "Auxerre",
           "played": 6,
@@ -2073,24 +2083,14 @@
           "points": 6
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "Troyes",
           "shortTeam": "Troyes",
-          "played": 5,
+          "played": 6,
           "wins": 1,
           "draws": 1,
-          "losses": 3,
-          "points": 4
-        },
-        {
-          "rank": 17,
-          "team": "Marseille",
-          "shortTeam": "Marseille",
-          "played": 5,
-          "wins": 1,
-          "draws": 0,
           "losses": 4,
-          "points": 3
+          "points": 4
         },
         {
           "rank": 18,
@@ -2336,6 +2336,10 @@
           "name": "Angers"
         },
         {
+          "id": "176",
+          "name": "Marseille"
+        },
+        {
           "id": "2697",
           "name": "Le Mans"
         },
@@ -2350,10 +2354,6 @@
         {
           "id": "170",
           "name": "Troyes"
-        },
-        {
-          "id": "176",
-          "name": "Marseille"
         },
         {
           "id": "3236",
