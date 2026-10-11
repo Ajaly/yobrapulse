@@ -1,18 +1,45 @@
 {
-  "generatedAt": "2026-10-10T22:08:30.415652+00:00",
+  "generatedAt": "2026-10-11T01:27:58.617876+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Watch: Match of the Day",
-      "description": "With Man Utd v Spurs, Arsenal v Leeds and Chelsea v Bournemouth as the top flight returns",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "title": "Carrick must share burden of Man Utd's underperformance with his players",
+      "description": "\"We couldn't find a way to get ourselves into the game. With the ball, without the ball, we were off it.\" A fair assessment from Michael Carrick, if not a wholly explanatory one.",
+      "link": "https://www.skysports.com/football/news/11095/13597374/man-utd-1-1-spurs-michael-carrick-entering-a-defining-period-and-must-correct-underperformance-quickly",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-10T23:30:00+00:00"
+    },
+    {
+      "title": "'Absolutely superb' - How Caicedo proved pivotal in Chelsea win",
+      "description": "Speaking on Match of the Day, Alan Shearer explains why the performance of Moises Caicedo was pivotal in Chelsea's 5-1 win against Bournemouth in the Premier League.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmx2dp7xgew6o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-11T08:00:00+00:00"
+      "pubDateISO": "2026-10-10T23:00:14+00:00"
+    },
+    {
+      "title": "Man Utd midfield can't control games - Murphy",
+      "description": "Match of the Day pundit Danny Murphy looks at Manchester United's problems in midfield in their 1-1 draw against 10-man Tottenham.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c6lye9kmnvpzo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-10T22:58:38+00:00"
+    },
+    {
+      "title": "Highlights and analysis on Match of the Day",
+      "description": "With Man Utd v Spurs, Arsenal v Leeds and Chelsea v Bournemouth as the top flight returns",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0032wxj",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-10T22:50:45+00:00"
     },
     {
       "title": "Vinicius Jr sent off in Real win as Gordon scores first Barcelona goal",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-10T20:24:00+00:00"
-    },
-    {
-      "title": "Neville's Man Utd warning: 'Get a grip or face worrying few weeks'",
-      "description": "Gary Neville warned Manchester United could be in for a \"worrying few weeks\" if their players don't \"get a grip\" on their season after they were booed in their draw with Tottenham.",
-      "link": "https://www.skysports.com/football/news/11095/13597587/gary-neville-warns-man-utd-players-to-get-a-grip-or-face-a-worrying-few-weeks-after-draw-with-10-man-spurs",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-10T20:21:00+00:00"
-    },
-    {
-      "title": "'Reminds me of Muller' - Naderi proving worth in Rangers revival",
-      "description": "After a slow start to his Rangers career, striker Ryan Naderi is playing an integral role in the club's title challenge and proving his doubters wrong.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqzjx3z4ljr0o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-10T20:03:56+00:00"
-    },
-    {
-      "title": "'Reminds me of Muller' - Naderi proving worth in Rangers revival",
-      "description": "After a slow start to his Rangers career, striker Ryan Naderi is playing an integral role in the club's title challenge and proving his doubters wrong.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqzjx3z4ljr0o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-10T20:03:56+00:00"
     }
   ]
 }
