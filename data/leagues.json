@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T11:32:32.861460+00:00",
+  "generatedAt": "2026-10-12T20:43:11.439620+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -1080,6 +1080,16 @@
         },
         {
           "rank": 10,
+          "team": "Atalanta",
+          "shortTeam": "Atalanta",
+          "played": 6,
+          "wins": 3,
+          "draws": 0,
+          "losses": 3,
+          "points": 9
+        },
+        {
+          "rank": 11,
           "team": "Sassuolo",
           "shortTeam": "Sassuolo",
           "played": 6,
@@ -1089,17 +1099,17 @@
           "points": 8
         },
         {
-          "rank": 11,
-          "team": "Atalanta",
-          "shortTeam": "Atalanta",
-          "played": 5,
+          "rank": 12,
+          "team": "Torino",
+          "shortTeam": "Torino",
+          "played": 6,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 3,
-          "points": 6
+          "points": 7
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": "Lecce",
           "shortTeam": "Lecce",
           "played": 6,
@@ -1109,7 +1119,7 @@
           "points": 6
         },
         {
-          "rank": 13,
+          "rank": 14,
           "team": "Bologna",
           "shortTeam": "Bologna",
           "played": 6,
@@ -1119,23 +1129,13 @@
           "points": 5
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": "Udinese",
           "shortTeam": "Udinese",
-          "played": 5,
+          "played": 6,
           "wins": 1,
           "draws": 1,
-          "losses": 3,
-          "points": 4
-        },
-        {
-          "rank": 15,
-          "team": "Torino",
-          "shortTeam": "Torino",
-          "played": 5,
-          "wins": 1,
-          "draws": 1,
-          "losses": 3,
+          "losses": 4,
           "points": 4
         },
         {
@@ -1182,10 +1182,10 @@
           "rank": 20,
           "team": "Venezia",
           "shortTeam": "Venezia",
-          "played": 5,
+          "played": 6,
           "wins": 0,
           "draws": 0,
-          "losses": 5,
+          "losses": 6,
           "points": 0
         }
       ],
@@ -1430,12 +1430,16 @@
           "name": "Frosinone"
         },
         {
+          "id": "105",
+          "name": "Atalanta"
+        },
+        {
           "id": "3997",
           "name": "Sassuolo"
         },
         {
-          "id": "105",
-          "name": "Atalanta"
+          "id": "239",
+          "name": "Torino"
         },
         {
           "id": "113",
@@ -1448,10 +1452,6 @@
         {
           "id": "118",
           "name": "Udinese"
-        },
-        {
-          "id": "239",
-          "name": "Torino"
         },
         {
           "id": "4007",
