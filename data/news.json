@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-10-11T23:21:39.224907+00:00",
+  "generatedAt": "2026-10-12T03:44:09.087189+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Call it a day with VAR' - Rooney on Palace's controversial goal",
+      "description": "Speaking on Match of the Day, Wayne Rooney says VAR made the wrong decision in awarding Crystal Palace their second goal, which saw the home side take the lead as they went on to beat Nottingham Forest 3-1 in the Premier League.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqlyendmk7wyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-11T23:31:42+00:00"
+    },
+    {
+      "title": "'It's a bad situation' - Why Man City win creates uncertainty",
+      "description": "Speaking on Match of the Day, Toby Alderweireld and Wayne Rooney discuss why Manchester City's 3-0 victory against Liverpool leaves the Premier League in limbo as the club awaits a potential punishment, which could include a points deduction, after they were found guilty of financial breaches.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cw073z5j55y9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-11T23:23:03+00:00"
+    },
     {
       "title": "'Big star' - How Doku delivered for Man City in win against Liverpool",
       "description": "Speaking on Match of the Day, Wayne Rooney and Toby Alderweireld analyse how Jeremy Doku changed the game in Manchester City's favour, after coming on as a substitute in his side's 3-0 win against Liverpool at Anfield.",
@@ -15,7 +33,7 @@
       "pubDateISO": "2026-10-11T23:00:57+00:00"
     },
     {
-      "title": "'It's a bit naive and stupid' - Rooney on Gravenberch sending off",
+      "title": "Rooney gives verdict on Gravenberch red card",
       "description": "Speaking on Match of the Day, Wayne Rooney and Toby Alderweireld discuss whether Ryan Gravenberch should have been sent off, after he received two yellow cards in Liverpool 3-0 defeat to Manchester City in the Premier League.",
       "link": "https://www.bbc.co.uk/sport/football/videos/c6ly0jdndez9o",
       "source": "BBC Sport",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-11T19:41:17+00:00"
-    },
-    {
-      "title": "'Barely a foul' - Carra criticises 'shocking' Gravenberch red card decision",
-      "description": "Ryan Gravenberch's sending off in Liverpool's 3-0 home defeat to Manchester City was a \"shocking decision\" by referee Chris Kavanagh, according to <em>Sky Sports </em>pundit Jamie Carragher.",
-      "link": "https://www.skysports.com/football/news/11095/13597935/liverpool-0-3-man-city-ryan-gravenberchs-sending-off-in-premier-league-defeat-criticised-by-jamie-carragher",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-11T19:40:00+00:00"
-    },
-    {
-      "title": "Football Daily",
-      "description": "Rick Edwards, Luke Edwards and Clinton Morrison discuss the latest Premier League action.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pg61sx",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-11T19:39:00+00:00"
     }
   ]
 }
