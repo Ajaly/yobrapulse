@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-15T00:14:02.252426+00:00",
+  "generatedAt": "2026-10-15T05:27:26.909899+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Burnham had two hospitality dinners with Man City chairman, deleted records show",
+      "description": "The prime minister has been under growing pressure since the club was found guilty of Premier League rule breaches.",
+      "link": "https://www.bbc.co.uk/news/articles/c83vq9vpwwr1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-15T01:07:59+00:00"
+    },
     {
       "title": "'Players won't like it' - Martinez apologises, but is the damage done?",
       "description": "Champions League Match of the Day pundits Nedum Onuoha, Stephen Warnock, and Rory Smith analyse Lisandro Martinez's comments following Manchester United's 2-0 loss to Atletico Madrid and the impact they'll have on the club.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-14T21:55:37+00:00"
-    },
-    {
-      "title": "Isco snatches late Betis win as they edge past Porto",
-      "description": "Isco scores an 84th minute penalty to help Real Betis snatch a late 3-2 win against Porto, giving them back to back wins at the start of this season's Champions League.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmn4e91e4dk7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-14T21:51:42+00:00"
     }
   ]
 }
