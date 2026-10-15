@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T21:10:54.086148+00:00",
+  "generatedAt": "2026-10-15T00:14:00.458952+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -50,11 +50,11 @@
     },
     {
       "id": "397",
-      "score": 14.72,
+      "score": 14.33,
       "factors": {
         "epNext": 10.0,
         "ownForm": 10.0,
-        "teamForm": 1.0,
+        "teamForm": 0.74,
         "opponentForm": 0.43,
         "venueForm": 1.0,
         "venueFormSource": "current season",
@@ -431,13 +431,13 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 37,
+      "homeWinPct": 36,
       "drawPct": 27,
-      "awayWinPct": 36,
-      "predictedScore": "1.5 \u2014 1.1",
+      "awayWinPct": 37,
+      "predictedScore": "1.4 \u2014 1.1",
       "factors": {
         "homeForm": 0.62,
-        "awayForm": 0.63,
+        "awayForm": 0.68,
         "h2h": {
           "homeWins": 1,
           "draws": 1,
@@ -534,9 +534,9 @@
       "homeWinPct": 78,
       "drawPct": 16,
       "awayWinPct": 6,
-      "predictedScore": "2.3 \u2014 0.5",
+      "predictedScore": "2.2 \u2014 0.6",
       "factors": {
-        "homeForm": 1.0,
+        "homeForm": 0.74,
         "awayForm": 0.43,
         "h2h": {
           "homeWins": 3,
@@ -588,13 +588,13 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 47,
-      "drawPct": 24,
-      "awayWinPct": 29,
-      "predictedScore": "1.4 \u2014 1.1",
+      "homeWinPct": 45,
+      "drawPct": 25,
+      "awayWinPct": 30,
+      "predictedScore": "1.4 \u2014 1.2",
       "factors": {
         "homeForm": 0.45,
-        "awayForm": 0.69,
+        "awayForm": 0.85,
         "h2h": {
           "homeWins": 2,
           "draws": 1,
@@ -651,7 +651,7 @@
           "awayWins": 2,
           "meetings": 5
         },
-        "homeAvailability": 0.81,
+        "homeAvailability": 0.82,
         "awayAvailability": 0.76,
         "homeTransferImpactM": 0,
         "awayTransferImpactM": 5.0
@@ -1369,6 +1369,61 @@
         "homeWinPct": 37,
         "drawPct": 26,
         "awayWinPct": 37
+      },
+      {
+        "id": "401874993",
+        "home": "AC Milan",
+        "away": "Bologna",
+        "kickoffISO": "2026-10-28T17:30Z",
+        "kickoffLabel": "Wed 28 Oct \u00b7 17:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 49,
+        "drawPct": 24,
+        "awayWinPct": 27
+      },
+      {
+        "id": "401874965",
+        "home": "Parma",
+        "away": "Udinese",
+        "kickoffISO": "2026-10-28T17:30Z",
+        "kickoffLabel": "Wed 28 Oct \u00b7 17:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 43,
+        "drawPct": 25,
+        "awayWinPct": 32
+      },
+      {
+        "id": "401874773",
+        "home": "Venezia",
+        "away": "Internazionale",
+        "kickoffISO": "2026-10-28T17:30Z",
+        "kickoffLabel": "Wed 28 Oct \u00b7 17:30 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
+      },
+      {
+        "id": "401874988",
+        "home": "Genoa",
+        "away": "Juventus",
+        "kickoffISO": "2026-10-28T19:45Z",
+        "kickoffLabel": "Wed 28 Oct \u00b7 19:45 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 36,
+        "drawPct": 26,
+        "awayWinPct": 38
+      },
+      {
+        "id": "401874799",
+        "home": "Monza",
+        "away": "Napoli",
+        "kickoffISO": "2026-10-28T19:45Z",
+        "kickoffLabel": "Wed 28 Oct \u00b7 19:45 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
       }
     ],
     "Bundesliga": [
@@ -2139,7 +2194,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.69,
+      "form": 0.85,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -2471,7 +2526,7 @@
         }
       ],
       "squadRating": 4.91,
-      "squadValue": "\u00a3146.3m",
+      "squadValue": "\u00a3146.2m",
       "leagueRank": 5,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -4444,7 +4499,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.63,
+      "form": 0.68,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -4634,7 +4689,7 @@
       "nextIsHome": true,
       "nextFdr": 2,
       "nextFdrClass": "easy",
-      "form": 1.0,
+      "form": 0.74,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -4821,7 +4876,7 @@
         }
       ],
       "squadRating": 3.8,
-      "squadValue": "\u00a3180.8m",
+      "squadValue": "\u00a3180.7m",
       "leagueRank": 12,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -5198,7 +5253,7 @@
         }
       ],
       "squadRating": 3.46,
-      "squadValue": "\u00a3152.8m",
+      "squadValue": "\u00a3152.7m",
       "leagueRank": 17,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -5423,7 +5478,7 @@
         }
       ],
       "squadRating": 3.64,
-      "squadValue": "\u00a3203.4m",
+      "squadValue": "\u00a3203.2m",
       "leagueRank": 13,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -5750,7 +5805,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.8m",
-      "owned": "69.8%",
+      "owned": "69.9%",
       "points": 45,
       "epNext": 6.0,
       "form": 6.0,
@@ -6401,7 +6456,7 @@
       "avatar": "EM",
       "avatarClass": "",
       "price": "\u00a35.0m",
-      "owned": "4.7%",
+      "owned": "4.6%",
       "points": 12,
       "epNext": 2.5,
       "form": 2.5,
@@ -6897,7 +6952,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "3.6%",
+      "owned": "3.5%",
       "points": 30,
       "epNext": 0.0,
       "form": 1.0,
@@ -8106,7 +8161,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a36.9m",
-      "owned": "27.7%",
+      "owned": "27.6%",
       "points": 20,
       "epNext": 0.8,
       "form": 1.0,
@@ -8974,7 +9029,7 @@
       "avatar": "BB",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "2.0%",
+      "owned": "2.1%",
       "points": 9,
       "epNext": 2.5,
       "form": 2.5,
@@ -9035,7 +9090,7 @@
       "team": "Spurs",
       "avatar": "PP",
       "avatarClass": "pink-avatar",
-      "price": "\u00a35.4m",
+      "price": "\u00a35.3m",
       "owned": "5.7%",
       "points": 9,
       "epNext": 0.0,
@@ -9128,7 +9183,7 @@
       "team": "Nott'm Forest",
       "avatar": "DM",
       "avatarClass": "blue-avatar",
-      "price": "\u00a35.4m",
+      "price": "\u00a35.3m",
       "owned": "5.2%",
       "points": 6,
       "epNext": 1.5,
@@ -9159,7 +9214,7 @@
       "team": "Spurs",
       "avatar": "MS",
       "avatarClass": "orange-avatar",
-      "price": "\u00a35.8m",
+      "price": "\u00a35.7m",
       "owned": "3.3%",
       "points": 5,
       "epNext": 1.0,
@@ -9524,7 +9579,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11087646,
+  "totalManagers": 11088194,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [
@@ -9809,45 +9864,45 @@
     "rising": [
       {
         "id": "115",
-        "netTransfersEvent": 445018
+        "netTransfersEvent": 449539
       },
       {
         "id": "124",
-        "netTransfersEvent": 401225
+        "netTransfersEvent": 405680
       },
       {
         "id": "165",
-        "netTransfersEvent": 389565
+        "netTransfersEvent": 392803
       },
       {
         "id": "399",
-        "netTransfersEvent": 360599
+        "netTransfersEvent": 365621
       },
       {
         "id": "40",
-        "netTransfersEvent": 258725
+        "netTransfersEvent": 261120
       }
     ],
     "falling": [
       {
         "id": "426",
-        "netTransfersEvent": -291697
+        "netTransfersEvent": -295958
       },
       {
         "id": "379",
-        "netTransfersEvent": -284850
+        "netTransfersEvent": -288534
       },
       {
         "id": "368",
-        "netTransfersEvent": -260495
+        "netTransfersEvent": -265351
       },
       {
         "id": "367",
-        "netTransfersEvent": -202967
+        "netTransfersEvent": -204944
       },
       {
         "id": "557",
-        "netTransfersEvent": -135494
+        "netTransfersEvent": -137046
       }
     ]
   }
