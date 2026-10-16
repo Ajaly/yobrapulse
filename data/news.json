@@ -1,18 +1,27 @@
 {
-  "generatedAt": "2026-10-15T22:49:49.226339+00:00",
+  "generatedAt": "2026-10-16T00:56:16.825740+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Sunderland latest: Late win a symbol for the fans and club, says Le Bris",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "title": "Papers: Conte tells Man Utd he's ready to take over if Carrick sacked",
+      "description": "The top stories and transfer rumours from Friday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13599794/manchester-united-latest-antonio-conte-tells-man-utd-hes-ready-to-take-over-if-michael-carrick-is-sacked-paper-talk",
       "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-15T22:50:00+00:00"
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-15T23:53:00+00:00"
+    },
+    {
+      "title": "O'Neill defiant in defeat but Celtic's 'flat-track bullies' fail another big test",
+      "description": "Celtic have now lost two Europa League group games, as well as two derbies - but Martin O'Neill is adamant he can see positive signs.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwm243rxn1pxo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-15T23:04:37+00:00"
     },
     {
       "title": "Smith after Sturm Graz win: 'That was a Bournemouth performance'",
@@ -42,18 +51,18 @@
       "pubDateISO": "2026-10-15T22:05:00+00:00"
     },
     {
-      "title": "Rutter scores twice as Brighton win big and go top in Conference League",
-      "description": "Georginio Rutter scored twice and set up one as Brighton thrashed Kauno Zalgris 4-0 to get their Conference League campaign off to a winning start.",
-      "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-kauno-zalgiris/report/577887",
+      "title": "O'Neill 'delighted' with second half despite heavy Celtic loss at Benfica",
+      "description": "Celtic showed second-half fight but were ultimately outclassed away to Benfica as they were beaten 4-1 in the Europa League.",
+      "link": "https://www.skysports.com/football/benfica-vs-celtic/report/577760",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-15T21:45:00+00:00"
     },
     {
-      "title": "O'Neill 'delighted' with second half despite heavy Celtic loss at Benfica",
-      "description": "Celtic showed second-half fight but were ultimately outclassed away to Benfica as they were beaten 4-1 in the Europa League.",
-      "link": "https://www.skysports.com/football/benfica-vs-celtic/report/577760",
+      "title": "Rutter scores twice as Brighton win big and go top in Conference League",
+      "description": "Georginio Rutter scored twice and set up one as Brighton thrashed Kauno Zalgris 4-0 to get their Conference League campaign off to a winning start.",
+      "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-kauno-zalgiris/report/577887",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-15T19:30:00+00:00"
-    },
-    {
-      "title": "Sutton's predictions v boxer & Ipswich fan Fabio Wardley",
-      "description": "BBC Sport football expert Chris Sutton takes on boxer and Ipswich fan Fabio Wardley, plus the BBC readers and AI with his predictions for this weekend's Premier League fixtures.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crgqwvnnyv30o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-15T19:26:51+00:00"
     }
   ]
 }
