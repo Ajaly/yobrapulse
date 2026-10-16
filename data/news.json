@@ -1,10 +1,91 @@
 {
-  "generatedAt": "2026-10-16T15:06:12.825239+00:00",
+  "generatedAt": "2026-10-16T19:11:20.261677+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Burnley vs Wolves LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/burnley-vs-wolverhampton-wanderers/live/560620",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-16T18:30:00+00:00"
+    },
+    {
+      "title": "Scot Prem latest: McInnes hoping for 'calm' winter window after summer rebuild",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-16T18:14:00+00:00"
+    },
+    {
+      "title": "Transfer Centre LIVE! 'Bellingham agrees new five-year deal at Real Madrid'",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/12476234/transfer-centre-live-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-16T16:20:00+00:00"
+    },
+    {
+      "title": "Do Manchester City have any grounds to win their appeal?",
+      "description": "Manchester City face \"substantial hurdles\" to overcome if they are to have any chance of winning their appeal after being found guilty of breaking the Premier League's financial rules, a leading lawyer has told BBC Sport.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6je5lwxk5l0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-16T16:17:01+00:00"
+    },
+    {
+      "title": "Feel-good Koumas story something for Liverpool to smile about",
+      "description": "Lewis Koumas on breaking Steven Gerrard's record, seizing his opportunity under Andoni Iraola, and why he couldn't sleep after playing Manchester City.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwy7l5e4376no",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-16T16:06:37+00:00"
+    },
+    {
+      "title": "'Our roots are Man Utd' - but FC United ethos 'more important than ever'",
+      "description": "FC United are hoping for FA Cup success, 21 years after being formed as a supporter-owned club following the Glazer family takeover of Manchester United.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmr4yn3qyw2go",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-16T16:01:49+00:00"
+    },
+    {
+      "title": "Does Scott's Disney+ exit unmask wider issue in coverage of women's game?",
+      "description": "Alex Scott's sudden departure from her Disney+ presenter role reveals a pressing challenge for broadcasters of women's football.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm3wv4ej7lv2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-16T15:49:55+00:00"
+    },
+    {
+      "title": "Does Scott's Disney+ exit unmask wider issue in coverage of women's game?",
+      "description": "Alex Scott's sudden departure from her Disney+ presenter role reveals a pressing challenge for broadcasters of women's football.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm3wv4ej7lv2o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-16T15:49:55+00:00"
+    },
+    {
+      "title": "Real demand Tebas resign over Goebbels comparison",
+      "description": "Real Madrid have called for the \"immediate resignation\" of La Liga president Javier Tebas after he compared the club's management to Joseph Goebbels.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr5yngpgejw0o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-16T15:43:32+00:00"
+    },
     {
       "title": "Palace latest: 'Brighton rivalry education started on day one' - Sage",
       "description": "",
@@ -15,103 +96,22 @@
       "pubDateISO": "2026-10-16T15:40:00+00:00"
     },
     {
-      "title": "Forest latest: Gibbs-White a doubt to face Arsenal",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279316/nottingham-forest-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-16T15:00:00+00:00"
-    },
-    {
-      "title": "Arteta: Arsenal will take new team photo including Saliba",
-      "description": "Mikel Arteta says Arsenal will take a new team photograph including William Saliba after the defender's surprise absence from the one published this week.",
-      "link": "https://www.skysports.com/football/news/11095/13599972/mikel-arteta-says-arsenal-plan-to-take-another-team-photo-including-william-saliba-after-defenders-omission",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T14:30:00+00:00"
-    },
-    {
-      "title": "Police investigating antisemitic Nazi chants from Hajduk Split fans",
-      "description": "Footage shows Hajduk supporters chanting outside the stadium about Auschwitz and Adolf Hitler before their Conference League match against Ajax.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwj0lmr8gne5o",
+      "title": "'A bit early' for Rangers to put pressure on Celtic & Hearts - McInnes",
+      "description": "Derek McInnes dismissed the idea that Rangers could put pressure on Celtic and Hearts with a win against Dundee on Saturday evening.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqev30d0dngno",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T14:22:19+00:00"
+      "pubDateISO": "2026-10-16T15:32:27+00:00"
     },
     {
-      "title": "Why Henderson-Caicedo axis is the midfield solution for Chelsea after James blow",
-      "description": "\"They give presence.\" Xabi Alonso sat up a little more in his press conference seat and pointed to his chest. \"They give stability.\"",
-      "link": "https://www.skysports.com/football/news/11095/13599918/chelsea-jordan-henderson-and-moises-caicedo-starred-in-midfield-against-bournemouth-and-will-be-key-after-reece-james-injury-blow",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T14:20:00+00:00"
-    },
-    {
-      "title": "Everton latest: Moyes confirms 'lull' in new contract talks",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T14:19:00+00:00"
-    },
-    {
-      "title": "'I am telling you the truth' - Carrick on Martinez fallout",
-      "description": "Manchester United boss Michael Carrick says he is telling the truth about the club moving on from Lisandro Martinez's explosive post-match interview.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm4g189leelno",
+      "title": "'A bit early' for Rangers to put pressure on Celtic & Hearts - McInnes",
+      "description": "Derek McInnes dismissed the idea that Rangers could put pressure on Celtic and Hearts with a win against Dundee on Saturday evening.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqev30d0dngno",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T13:59:12+00:00"
-    },
-    {
-      "title": "Celtic-Hearts showdown tops weekend's Premiership bill",
-      "description": "Celtic face Heart of Midlothian in the big game of the Scottish Premiership weekend on Sunday, but there is plenty of interest in Saturday's five games too.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6jrwn993y0lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T13:52:39+00:00"
-    },
-    {
-      "title": "Celtic-Hearts showdown tops weekend's Premiership bill",
-      "description": "Celtic face Heart of Midlothian in the big game of the Scottish Premiership weekend on Sunday, but there is plenty of interest in Saturday's five games too.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6jrwn993y0lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T13:52:39+00:00"
-    },
-    {
-      "title": "Chelsea's James out for three months after knee surgery",
-      "description": "Chelsea captain Reece James is set to miss three months of action after undergoing knee surgery.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq073d9l0ly9o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-16T13:36:09+00:00"
-    },
-    {
-      "title": "'We've moved on' - Martinez in Man Utd squad to face Leeds",
-      "description": "Lisandro Martinez is set to be in Manchester United&#8217;s squad for Sunday's trip to Leeds United after his incendiary post-match outburst earlier this week.",
-      "link": "https://www.skysports.com/football/news/11095/13599948/lisandro-martinez-man-utd-defender-in-squad-for-leeds-trip-and-situation-resolved-after-criticism-of-hierarchy-insists-michael-carrick",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T13:33:00+00:00"
-    },
-    {
-      "title": "Chelsea latest: 'James injury doesn't affect January plans' - Alonso",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-16T13:31:00+00:00"
+      "pubDateISO": "2026-10-16T15:32:27+00:00"
     }
   ]
 }
