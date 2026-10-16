@@ -1,27 +1,54 @@
 {
-  "generatedAt": "2026-10-16T19:11:20.261677+00:00",
+  "generatedAt": "2026-10-16T22:23:26.941654+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Burnley vs Wolves LIVE!",
+      "title": "Arsenal latest: Gunners must adapt to whatever the game demands - Arteta",
       "description": "",
-      "link": "https://www.skysports.com/football/burnley-vs-wolverhampton-wanderers/live/560620",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T18:30:00+00:00"
+      "pubDateISO": "2026-10-16T22:55:00+00:00"
     },
     {
-      "title": "Scot Prem latest: McInnes hoping for 'calm' winter window after summer rebuild",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
+      "title": "Bellingham agrees new Real deal - Saturday's gossip",
+      "description": "Real Madrid midfielder Jude Bellingham ready to commit his future to La Liga club, Arsenal and Liverpool told price for Brentford's Kevin Schade, Man Utd and Chelsea among clubs monitoring Jules Kounde's future at Barcelona, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck7vprzqmr56o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-16T21:57:37+00:00"
+    },
+    {
+      "title": "Burnley\u2019s winless run at home to pass one-year mark after Wolves fightback",
+      "description": "Burnley's run without a home league win will continue beyond the one-year mark after the Clarets were beaten 2-1 by Wolves at Turf Moor.",
+      "link": "https://www.skysports.com/football/burnley-vs-wolverhampton-wanderers/report/560620",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T18:14:00+00:00"
+      "pubDateISO": "2026-10-16T21:55:00+00:00"
+    },
+    {
+      "title": "Papers: Liverpool set to raid Aston Villa for Manzambi",
+      "description": "The top stories and transfer rumours from Saturday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13600072/liverpool-set-to-raid-aston-villa-for-johan-manzambi-as-arsenal-eye-move-for-bayern-munich-defender-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-16T21:40:00+00:00"
+    },
+    {
+      "title": "Ranking the Premier League's all-time greatest super subs",
+      "description": "Some players are destined to make their biggest impact off the bench, but who are the top 10 Premier League super subs of all time?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqn73xe5eelgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-16T21:15:47+00:00"
     },
     {
       "title": "Transfer Centre LIVE! 'Bellingham agrees new five-year deal at Real Madrid'",
@@ -85,33 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-10-16T15:43:32+00:00"
-    },
-    {
-      "title": "Palace latest: 'Brighton rivalry education started on day one' - Sage",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T15:40:00+00:00"
-    },
-    {
-      "title": "'A bit early' for Rangers to put pressure on Celtic & Hearts - McInnes",
-      "description": "Derek McInnes dismissed the idea that Rangers could put pressure on Celtic and Hearts with a win against Dundee on Saturday evening.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqev30d0dngno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T15:32:27+00:00"
-    },
-    {
-      "title": "'A bit early' for Rangers to put pressure on Celtic & Hearts - McInnes",
-      "description": "Derek McInnes dismissed the idea that Rangers could put pressure on Celtic and Hearts with a win against Dundee on Saturday evening.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqev30d0dngno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-16T15:32:27+00:00"
     }
   ]
 }
