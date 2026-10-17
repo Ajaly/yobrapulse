@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T18:58:46.725929+00:00",
+  "generatedAt": "2026-10-17T21:19:27.053752+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -9,23 +9,6 @@
   },
   "fixturesGameweekName": "Gameweek 7",
   "captainPicks": [
-    {
-      "id": "53",
-      "score": 12.61,
-      "factors": {
-        "epNext": 9.7,
-        "ownForm": 9.7,
-        "teamForm": null,
-        "opponentForm": null,
-        "venueForm": null,
-        "venueFormSource": null,
-        "opponentVenueForm": null,
-        "fixtureLoad": 1,
-        "opponent": null,
-        "isHome": null,
-        "trackRecordVsOpponent": null
-      }
-    },
     {
       "id": "124",
       "score": 11.12,
@@ -62,6 +45,23 @@
         "fixtureLoad": 1,
         "opponent": null,
         "isHome": null,
+        "trackRecordVsOpponent": null
+      }
+    },
+    {
+      "id": "115",
+      "score": 10.51,
+      "factors": {
+        "epNext": 7.0,
+        "ownForm": 7.0,
+        "teamForm": 1.0,
+        "opponentForm": 0.43,
+        "venueForm": 0.78,
+        "venueFormSource": "current season",
+        "opponentVenueForm": 0.44,
+        "fixtureLoad": 2,
+        "opponent": "Crystal Palace",
+        "isHome": true,
         "trackRecordVsOpponent": null
       }
     }
@@ -108,7 +108,7 @@
       "98",
       "286",
       "565",
-      "362"
+      "127"
     ],
     "saves": [
       "572",
@@ -276,7 +276,7 @@
         "id": "53",
         "reason": "Aston Villa's fixtures ease up over the next 6 gameweeks",
         "factors": {
-          "epNext": 9.7,
+          "epNext": 7.3,
           "ownForm": 9.7,
           "teamForm": null,
           "opponentForm": null,
@@ -336,7 +336,7 @@
       "adjustedSwing": 0.96,
       "nearFdr": 3.33,
       "laterFdr": 2.67,
-      "squadAvailability": 0.9,
+      "squadAvailability": 0.81,
       "fixtures": [
         "vs Man City",
         "vs Fulham",
@@ -443,9 +443,9 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 62,
-        "drawPct": 21,
-        "awayWinPct": 17
+        "homeWinPct": 64,
+        "drawPct": 20,
+        "awayWinPct": 16
       }
     },
     {
@@ -543,9 +543,9 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 16,
+        "homeWinPct": 17,
         "drawPct": 25,
-        "awayWinPct": 59
+        "awayWinPct": 58
       }
     },
     {
@@ -5429,34 +5429,6 @@
     }
   ],
   "players": {
-    "53": {
-      "id": 53,
-      "name": "Johan Manzambi",
-      "shortName": "Manzambi",
-      "position": "MID",
-      "team": "Aston Villa",
-      "avatar": "JM",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a35.9m",
-      "owned": "2.3%",
-      "points": 30,
-      "epNext": 9.7,
-      "form": 9.7,
-      "minutes": 254,
-      "goals": 2,
-      "assists": 2,
-      "xg": 1.42,
-      "xa": 0.44,
-      "valueScore": 5.1,
-      "tackles": 2,
-      "clearancesBlocksInterceptions": 3,
-      "recoveries": 11,
-      "saves": 0,
-      "cleanSheets": 2,
-      "positionPercentile": null,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3
-    },
     "124": {
       "id": 124,
       "name": "Pascal Gro\u00df",
@@ -5466,7 +5438,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a36.1m",
-      "owned": "44.1%",
+      "owned": "44.2%",
       "points": 53,
       "epNext": 6.7,
       "form": 6.7,
@@ -5793,7 +5765,7 @@
       "minutes": 491,
       "goals": 5,
       "assists": 0,
-      "xg": 3.83,
+      "xg": 3.87,
       "xa": 0.1,
       "valueScore": 4.7,
       "tackles": 1,
@@ -5821,7 +5793,7 @@
       "minutes": 622,
       "goals": 1,
       "assists": 2,
-      "xg": 3.65,
+      "xg": 3.69,
       "xa": 0.48,
       "valueScore": 2.3,
       "tackles": 4,
@@ -6004,7 +5976,7 @@
       "xg": 0.53,
       "xa": 0.61,
       "valueScore": 6.0,
-      "tackles": 20,
+      "tackles": 21,
       "clearancesBlocksInterceptions": 39,
       "recoveries": 29,
       "saves": 0,
@@ -6069,33 +6041,36 @@
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
-    "362": {
-      "id": 362,
-      "name": "Jeremy Jacquet",
-      "shortName": "Jacquet",
-      "position": "DEF",
-      "team": "Liverpool",
-      "avatar": "JJ",
-      "avatarClass": "orange-avatar",
+    "127": {
+      "id": 127,
+      "name": "Diego G\u00f3mez Amarilla",
+      "shortName": "Gomez",
+      "position": "MID",
+      "team": "Brighton",
+      "avatar": "DG",
+      "avatarClass": "pink-avatar",
       "price": "\u00a35.0m",
-      "owned": "4.0%",
-      "points": 30,
-      "epNext": 4.0,
-      "form": 4.0,
-      "minutes": 592,
+      "owned": "3.6%",
+      "points": 29,
+      "epNext": 4.3,
+      "form": 4.3,
+      "minutes": 520,
       "goals": 0,
-      "assists": 0,
-      "xg": 0.29,
-      "xa": 0.15,
-      "valueScore": 6.0,
-      "tackles": 19,
-      "clearancesBlocksInterceptions": 43,
-      "recoveries": 23,
+      "assists": 3,
+      "xg": 1.02,
+      "xa": 0.79,
+      "valueScore": 5.8,
+      "tackles": 18,
+      "clearancesBlocksInterceptions": 12,
+      "recoveries": 25,
       "saves": 0,
-      "cleanSheets": 3,
-      "positionPercentile": 61,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 4
+      "cleanSheets": 4,
+      "positionPercentile": 57,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 4,
+      "fixture": "vs Crystal Palace (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
     },
     "82": {
       "id": 82,
@@ -6134,7 +6109,7 @@
       "avatar": "EM",
       "avatarClass": "",
       "price": "\u00a35.0m",
-      "owned": "4.6%",
+      "owned": "4.5%",
       "points": 20,
       "epNext": 1.1,
       "form": 4.3,
@@ -6231,7 +6206,7 @@
       "xg": 1.93,
       "xa": 0.34,
       "valueScore": 6.5,
-      "tackles": 11,
+      "tackles": 10,
       "clearancesBlocksInterceptions": 8,
       "recoveries": 25,
       "saves": 0,
@@ -6249,7 +6224,7 @@
       "avatar": "MR",
       "avatarClass": "",
       "price": "\u00a37.9m",
-      "owned": "47.2%",
+      "owned": "47.3%",
       "points": 40,
       "epNext": 4.3,
       "form": 4.3,
@@ -6771,6 +6746,34 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
+    "53": {
+      "id": 53,
+      "name": "Johan Manzambi",
+      "shortName": "Manzambi",
+      "position": "MID",
+      "team": "Aston Villa",
+      "avatar": "JM",
+      "avatarClass": "blue-avatar",
+      "price": "\u00a35.9m",
+      "owned": "2.3%",
+      "points": 30,
+      "epNext": 7.3,
+      "form": 9.7,
+      "minutes": 254,
+      "goals": 2,
+      "assists": 2,
+      "xg": 1.42,
+      "xa": 0.44,
+      "valueScore": 5.1,
+      "tackles": 2,
+      "clearancesBlocksInterceptions": 3,
+      "recoveries": 11,
+      "saves": 0,
+      "cleanSheets": 2,
+      "positionPercentile": null,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3
+    },
     "69": {
       "id": 69,
       "name": "Alex Scott",
@@ -6914,6 +6917,34 @@
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
+    "362": {
+      "id": 362,
+      "name": "Jeremy Jacquet",
+      "shortName": "Jacquet",
+      "position": "DEF",
+      "team": "Liverpool",
+      "avatar": "JJ",
+      "avatarClass": "orange-avatar",
+      "price": "\u00a35.0m",
+      "owned": "4.0%",
+      "points": 30,
+      "epNext": 4.0,
+      "form": 4.0,
+      "minutes": 592,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.3,
+      "xa": 0.15,
+      "valueScore": 6.0,
+      "tackles": 18,
+      "clearancesBlocksInterceptions": 43,
+      "recoveries": 23,
+      "saves": 0,
+      "cleanSheets": 3,
+      "positionPercentile": 61,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4
+    },
     "480": {
       "id": 480,
       "name": "Morgan Gibbs-White",
@@ -6944,37 +6975,6 @@
       "fixture": "vs Arsenal (H)",
       "fdr": 4,
       "fdrClass": "hard"
-    },
-    "127": {
-      "id": 127,
-      "name": "Diego G\u00f3mez Amarilla",
-      "shortName": "Gomez",
-      "position": "MID",
-      "team": "Brighton",
-      "avatar": "DG",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a35.0m",
-      "owned": "3.6%",
-      "points": 29,
-      "epNext": 4.3,
-      "form": 4.3,
-      "minutes": 520,
-      "goals": 0,
-      "assists": 3,
-      "xg": 1.02,
-      "xa": 0.79,
-      "valueScore": 5.8,
-      "tackles": 18,
-      "clearancesBlocksInterceptions": 12,
-      "recoveries": 25,
-      "saves": 0,
-      "cleanSheets": 4,
-      "positionPercentile": 57,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 4,
-      "fixture": "vs Crystal Palace (H)",
-      "fdr": 2,
-      "fdrClass": "easy"
     },
     "138": {
       "id": 138,
@@ -7106,7 +7106,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a35.5m",
-      "owned": "7.7%",
+      "owned": "7.8%",
       "points": 29,
       "epNext": 4.0,
       "form": 4.0,
@@ -7367,7 +7367,7 @@
       "avatar": "RG",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.0m",
-      "owned": "3.0%",
+      "owned": "2.9%",
       "points": 27,
       "epNext": 1.0,
       "form": 1.0,
@@ -7579,7 +7579,7 @@
       "minutes": 474,
       "goals": 1,
       "assists": 0,
-      "xg": 0.58,
+      "xg": 0.59,
       "xa": 0.55,
       "valueScore": 5.2,
       "tackles": 5,
@@ -7923,14 +7923,14 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a36.8m",
-      "owned": "21.5%",
+      "owned": "21.4%",
       "points": 21,
       "epNext": 0.0,
       "form": 1.0,
       "minutes": 471,
       "goals": 1,
       "assists": 0,
-      "xg": 1.51,
+      "xg": 1.52,
       "xa": 1.06,
       "valueScore": 3.1,
       "tackles": 7,
@@ -9197,7 +9197,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11112626,
+  "totalManagers": 11113796,
   "totalPlayers": 667,
   "priceMovement": {
     "risers": [],
@@ -9261,10 +9261,6 @@
     ],
     "defensive": [
       {
-        "id": "362",
-        "value": 14
-      },
-      {
         "id": "87",
         "value": 13
       },
@@ -9274,6 +9270,10 @@
       },
       {
         "id": "356",
+        "value": 13
+      },
+      {
+        "id": "362",
         "value": 13
       },
       {
@@ -9332,6 +9332,14 @@
       "improving": false
     },
     {
+      "id": "53",
+      "status": "d",
+      "news": "Calf injury - 75% chance of playing",
+      "chanceThisRound": 100,
+      "chanceNextRound": 75,
+      "improving": false
+    },
+    {
       "id": "69",
       "status": "i",
       "news": "Thigh injury - Unknown return date",
@@ -9378,14 +9386,6 @@
       "chanceThisRound": 25,
       "chanceNextRound": 0,
       "improving": false
-    },
-    {
-      "id": "397",
-      "status": "d",
-      "news": "Knee injury - 75% chance of playing",
-      "chanceThisRound": 100,
-      "chanceNextRound": 75,
-      "improving": false
     }
   ],
   "rotationWatch": [
@@ -9423,46 +9423,46 @@
   "ownershipWatch": {
     "rising": [
       {
+        "id": "53",
+        "netTransfersEvent": 30039
+      },
+      {
         "id": "124",
-        "netTransfersEvent": 24104
+        "netTransfersEvent": 27981
       },
       {
         "id": "115",
-        "netTransfersEvent": 23342
-      },
-      {
-        "id": "53",
-        "netTransfersEvent": 22821
+        "netTransfersEvent": 26642
       },
       {
         "id": "379",
-        "netTransfersEvent": 15773
+        "netTransfersEvent": 20584
       },
       {
-        "id": "411",
-        "netTransfersEvent": 14597
+        "id": "40",
+        "netTransfersEvent": 16833
       }
     ],
     "falling": [
       {
         "id": "368",
-        "netTransfersEvent": -39892
-      },
-      {
-        "id": "426",
-        "netTransfersEvent": -20280
+        "netTransfersEvent": -50146
       },
       {
         "id": "464",
-        "netTransfersEvent": -18575
+        "netTransfersEvent": -24368
+      },
+      {
+        "id": "426",
+        "netTransfersEvent": -23136
       },
       {
         "id": "480",
-        "netTransfersEvent": -13605
+        "netTransfersEvent": -15432
       },
       {
-        "id": "557",
-        "netTransfersEvent": -10338
+        "id": "397",
+        "netTransfersEvent": -13332
       }
     ]
   }

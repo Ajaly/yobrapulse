@@ -1,10 +1,64 @@
 {
-  "generatedAt": "2026-10-17T18:58:48.057791+00:00",
+  "generatedAt": "2026-10-17T21:19:27.900733+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Rangers miss chance to go top as Jones earns Dundee a point",
+      "description": "Callum Jones scored a second-half equaliser as Rangers were held to a 2-2 draw by Dundee and missed the chance to go top of the Scottish Premiership.",
+      "link": "https://www.skysports.com/football/dundee-vs-rangers/report/558383",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-17T22:00:00+00:00"
+    },
+    {
+      "title": "Diaz hat-trick fires Bayern to win in Kane's 100th Bundesliga game",
+      "description": "Harry Kane scored on his 100th Bundesliga appearance while Luis Diaz netted a hat-trick as Bayern Munich thrashed RB Leipzig 6-1 to go top of the table.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmj47e479xg5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-17T20:55:25+00:00"
+    },
+    {
+      "title": "Lamine Yamal opens the scoring as Barcelona beat Real Betis",
+      "description": "Lamine Yamal, Rodri, Gabriel Jesus, Eric Garcia and Dani Olmo all scored for Barcelona as they swept aside Real Betis in a seven-goal thriller to stay five points clear at the top of La Liga.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmewe0wq0wj1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-17T20:49:36+00:00"
+    },
+    {
+      "title": "Gyokeres pushing for Arsenal exit - Sunday's gossip",
+      "description": "Viktor Gyokeres wants to leave Arsenal, Xabi Alonso eyes Barcelona duo and Liverpool target Dortmund's Felix Nmecha.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9gkv34kezdko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-17T20:37:25+00:00"
+    },
+    {
+      "title": "Wirtz delivers but remains Liverpool's conundrum",
+      "description": "Florian Wirtz is instrumental as Liverpool return to winning ways in the Premier League, but does he remain boss Andoni Iraola's great conundrum?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9j34rke27zjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-17T20:07:40+00:00"
+    },
+    {
+      "title": "Newcastle latest: 'We were dominating' - Jaissle praises reaction despite Villa loss",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-17T20:00:00+00:00"
+    },
     {
       "title": "Aston Villa latest: Jackson claims Botman 'nearly broke my leg' after avoiding red card",
       "description": "",
@@ -13,6 +67,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-17T19:45:00+00:00"
+    },
+    {
+      "title": "West Ham unstoppable, Norwich in trouble - Aaron McLean's EFL takeaways",
+      "description": "BBC Final Score pundit Aaron McLean looks at the weekend's talking points in the EFL, including West Ham win over in-form Swansea City and Norwich City's woes.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckgelq3gxx49o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-17T19:43:05+00:00"
     },
     {
       "title": "Manzambi header sees Villa ease past Newcastle",
@@ -25,7 +88,7 @@
     },
     {
       "title": "Manzambi haunts Newcastle with winner for Aston Villa",
-      "description": "Johan Manzambi came back to haunt Newcastle as his first-half goal was enough for Aston Villa to win 1-0 at St James' Park on <em>Saturday Night Football.</em>",
+      "description": "Johan Manzambi came back to haunt Newcastle as his first-half goal was enough for Aston Villa to win 1-0 at St James' Park on <em>Saturday Night Football</em>",
       "link": "https://www.skysports.com/football/newcastle-united-vs-aston-villa/report/559511",
       "source": "Sky Sports",
       "category": "club",
@@ -33,85 +96,22 @@
       "pubDateISO": "2026-10-17T19:30:00+00:00"
     },
     {
-      "title": "Hits & Misses: Liverpool clicking and Chelsea get serious",
-      "description": "",
-      "link": "https://www.skysports.com/football/news/11095/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T19:00:00+00:00"
-    },
-    {
-      "title": "Jacquet was 'cute and clever' for his part in Yarmoliuk red - Andrews",
-      "description": "Brentford head coach Keith Andrews felt Jeremy Jacquet was \"cute and clever\" for his role in Yehor Yarmoliuk's red card in the 2-1 defeat to Liverpool.",
-      "link": "https://www.skysports.com/football/news/11095/13600414/brentford-liverpool-were-cute-and-clever-says-keith-andrews-after-his-side-ended-defeat-with-nine-men",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T18:45:00+00:00"
-    },
-    {
-      "title": "Wrexham had to block outside noise - Parkinson",
-      "description": "Wrexham had to \"block everything out\" says Phil Parkinson as they responded to recent criticism with a victory over Preston North End.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c38xzv091v5go",
+      "title": "Emery praises Manzambi's 'skills and intelligence'",
+      "description": "Aston Villa manager Unai Emery reacts to his 100th Premier League win after victory against Newcastle at St James Park.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cw80zpzx3vxjo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T18:41:33+00:00"
+      "pubDateISO": "2026-10-17T19:29:21+00:00"
     },
     {
-      "title": "Can Hearts prove credentials at scene of title heartbreak?",
-      "description": "Hearts' last trip to Parkhead ended with their title dream being crushed in the space of 11 minutes. They return to face Celtic on Sunday refreshed and reshaped.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6y93xw91dv3o",
+      "title": "Manzambi heads Villa to victory at Newcastle",
+      "description": "Johan Manzambi heads the winner for Aston Villa against Newcastle, marking manager Unai Emery's 100th Premier League victory.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwdd897vvl8vo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T18:37:01+00:00"
-    },
-    {
-      "title": "Can Hearts prove credentials at scene of title heartbreak?",
-      "description": "Hearts' last trip to Parkhead ended with their title dream being crushed in the space of 11 minutes. They return to face Celtic on Sunday refreshed and reshaped.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6y93xw91dv3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T18:37:01+00:00"
-    },
-    {
-      "title": "Man City latest: Maresca issues Haaland and Semenyo injury updates",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-17T18:37:00+00:00"
-    },
-    {
-      "title": "Boos and bananas on day of defiance at Man City",
-      "description": "Manchester City fans boo the Premier League anthem before watching their side move six points clear at the top of the table.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T18:02:39+00:00"
-    },
-    {
-      "title": "PL Predictions: Leeds to pile more misery on Man Utd",
-      "description": "Our top tipster Lewis Jones, aka Jones Knows, provides his analysis and betting insight for a busy weekend of Premier League action.",
-      "link": "https://www.skysports.com/football/news/11095/13598732/premier-league-predictions-jones-knows-best-bets-leeds-vs-manchester-united-and-more",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T17:55:00+00:00"
-    },
-    {
-      "title": "Swansea must use West Ham defeat as fuel - Matos",
-      "description": "Vitor Matos tells Swansea City to use the frustration of defeat to West Ham United as fuel in their bid to keep pace in the Championship promotion race.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr5ynge8jnnyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T17:47:22+00:00"
+      "pubDateISO": "2026-10-17T19:12:02+00:00"
     }
   ]
 }
