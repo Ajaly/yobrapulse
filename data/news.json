@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-17T00:56:54.896776+00:00",
+  "generatedAt": "2026-10-17T05:19:01.879676+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your football knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw1l3dz2ppe0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-17T05:15:17+00:00"
+    },
     {
       "title": "Arsenal latest: Gunners must adapt to whatever the game demands - Arteta",
       "description": "",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-16T15:49:55+00:00"
-    },
-    {
-      "title": "Real demand Tebas resign over Goebbels comparison",
-      "description": "Real Madrid have called for the \"immediate resignation\" of La Liga president Javier Tebas after he compared the club's management to Joseph Goebbels.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr5yngpgejw0o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-16T15:43:32+00:00"
     }
   ]
 }
