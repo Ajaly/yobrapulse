@@ -1,18 +1,63 @@
 {
-  "generatedAt": "2026-10-18T07:39:47.500322+00:00",
+  "generatedAt": "2026-10-18T12:22:05.751433+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Martinez 'back in a few weeks' after operation",
-      "description": "Chelsea goalkeeper Emiliano Martinez says he will be fit in a few weeks after being injured in the win at Everton.",
+      "title": "Off the Ball take petty & ill-informed look at Scottish football",
+      "description": "The most petty and ill-informed football show on radio.",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T13:00:00+00:00"
+    },
+    {
+      "title": "Dunk starts for Brighton vs Crystal Palace LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-crystal-palace/live/559506",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T11:00:00+00:00"
+    },
+    {
+      "title": "WSL LIVE! James double has Chelsea ahead  vs Spurs | West Ham leading Palace",
+      "description": "",
+      "link": "https://www.skysports.com/football/chelsea-women-vs-tottenham-hotspur-women/live/575793",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T10:59:00+00:00"
+    },
+    {
+      "title": "Martinez breaks jaw in Chelsea win at Everton",
+      "description": "Chelsea goalkeeper Emiliano Martinez says he will be back \"in a few weeks\" after breaking his jaw in a collision with Jarrad Branthwaite.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cked3vl198eyo",
       "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-18T07:25:23+00:00"
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T09:42:10+00:00"
+    },
+    {
+      "title": "Watch: Saturday Premiership highlights on Sportscene",
+      "description": "Watch highlights and analysis of Saturday's five games in the Scottish Premiership.",
+      "link": "https://www.bbc.co.uk/sport/videos/cmed3vy75pe4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T09:09:34+00:00"
+    },
+    {
+      "title": "Film star Law to play Shankly in TV series - gossip",
+      "description": "Film star Jude Law is to play Bill Shankly in a television series about the Scottish football legend, while Rangers edge out Celtic in the list of most valuable British squads.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckz7x1v7rqv1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T08:27:41+00:00"
     },
     {
       "title": "Do Manchester City have any grounds to win their appeal?",
@@ -67,51 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-18T05:46:16+00:00"
-    },
-    {
-      "title": "How 'dangerous' Man City maintained 100 per cent record",
-      "description": "Match of the Day's Joe Hart and Danny Murphy analyse how Manchester City made it seven wins from seven in the Premier League with a 3-2 victory against Ipswich.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cx7vpl5qd008o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T23:00:53+00:00"
-    },
-    {
-      "title": "Why Liverpool are still 'too easy' to play against",
-      "description": "Match of the Day's Danny Murphy analyses how Liverpool are still to \"easy\" to play against despite their 2-1 victory over Brentford.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c65ynpkjydemo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T23:00:48+00:00"
-    },
-    {
-      "title": "Papers: Gyokeres keen to leave Arsenal",
-      "description": "The top stories and transfer rumours from Sunday's newspapers...",
-      "link": "https://www.skysports.com/football/news/11095/13600491/viktor-gyokeres-keen-to-leave-arsenal-due-to-lack-of-first-team-opportunites-paper-talk",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-17T22:50:00+00:00"
-    },
-    {
-      "title": "Rangers 'pop balloon' as Neil gift wastes chance to go top",
-      "description": "Rangers were full of positive energy as they made the trip to Dundee on the back of seven straight wins. However, a Dan Neil error felt \"like a balloon popping\", says Derek McInnes.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm1j3nl91gg2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T22:29:15+00:00"
-    },
-    {
-      "title": "Rangers miss chance to go top as Jones earns Dundee a point",
-      "description": "Callum Jones scored a second-half equaliser as Rangers were held to a 2-2 draw by Dundee and missed the chance to go top of the Scottish Premiership.",
-      "link": "https://www.skysports.com/football/dundee-vs-rangers/report/558383",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-17T22:00:00+00:00"
     }
   ]
 }
