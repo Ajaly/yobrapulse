@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T19:09:49.681006+00:00",
+  "generatedAt": "2026-10-18T22:09:27.708798+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -519,6 +519,16 @@
         },
         {
           "rank": 3,
+          "team": "Real Madrid",
+          "shortTeam": "Real Madrid",
+          "played": 9,
+          "wins": 7,
+          "draws": 0,
+          "losses": 2,
+          "points": 21
+        },
+        {
+          "rank": 4,
           "team": "Real Betis",
           "shortTeam": "Betis",
           "played": 9,
@@ -526,16 +536,6 @@
           "draws": 1,
           "losses": 2,
           "points": 19
-        },
-        {
-          "rank": 4,
-          "team": "Real Madrid",
-          "shortTeam": "Real Madrid",
-          "played": 8,
-          "wins": 6,
-          "draws": 0,
-          "losses": 2,
-          "points": 18
         },
         {
           "rank": 5,
@@ -551,10 +551,10 @@
           "rank": 6,
           "team": "Sevilla",
           "shortTeam": "Sevilla",
-          "played": 8,
+          "played": 9,
           "wins": 4,
           "draws": 2,
-          "losses": 2,
+          "losses": 3,
           "points": 14
         },
         {
@@ -911,12 +911,12 @@
           "name": "Atl\u00e9tico Madrid"
         },
         {
-          "id": "244",
-          "name": "Real Betis"
-        },
-        {
           "id": "86",
           "name": "Real Madrid"
+        },
+        {
+          "id": "244",
+          "name": "Real Betis"
         },
         {
           "id": "89",
@@ -1000,6 +1000,16 @@
         },
         {
           "rank": 2,
+          "team": "Lazio",
+          "shortTeam": "Lazio",
+          "played": 7,
+          "wins": 6,
+          "draws": 1,
+          "losses": 0,
+          "points": 19
+        },
+        {
+          "rank": 3,
           "team": "AS Roma",
           "shortTeam": "AS Roma",
           "played": 7,
@@ -1007,16 +1017,6 @@
           "draws": 2,
           "losses": 0,
           "points": 17
-        },
-        {
-          "rank": 3,
-          "team": "Lazio",
-          "shortTeam": "Lazio",
-          "played": 6,
-          "wins": 5,
-          "draws": 1,
-          "losses": 0,
-          "points": 16
         },
         {
           "rank": 4,
@@ -1062,10 +1062,10 @@
           "rank": 8,
           "team": "Juventus",
           "shortTeam": "Juventus",
-          "played": 6,
+          "played": 7,
           "wins": 3,
           "draws": 2,
-          "losses": 1,
+          "losses": 2,
           "points": 11
         },
         {
@@ -1398,12 +1398,12 @@
           "name": "Internazionale"
         },
         {
-          "id": "104",
-          "name": "AS Roma"
-        },
-        {
           "id": "112",
           "name": "Lazio"
+        },
+        {
+          "id": "104",
+          "name": "AS Roma"
         },
         {
           "id": "103",
@@ -1924,6 +1924,16 @@
       "current": [
         {
           "rank": 1,
+          "team": "Lyon",
+          "shortTeam": "Lyon",
+          "played": 7,
+          "wins": 4,
+          "draws": 2,
+          "losses": 1,
+          "points": 14
+        },
+        {
+          "rank": 2,
           "team": "Paris Saint-Germain",
           "shortTeam": "PSG",
           "played": 7,
@@ -1933,7 +1943,7 @@
           "points": 14
         },
         {
-          "rank": 2,
+          "rank": 3,
           "team": "Paris FC",
           "shortTeam": "Paris FC",
           "played": 7,
@@ -1943,7 +1953,7 @@
           "points": 14
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "Lille",
           "shortTeam": "Lille",
           "played": 7,
@@ -1953,7 +1963,7 @@
           "points": 14
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "AS Monaco",
           "shortTeam": "Monaco",
           "played": 7,
@@ -1963,7 +1973,7 @@
           "points": 14
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team": "Stade Rennais",
           "shortTeam": "Rennes",
           "played": 7,
@@ -1971,16 +1981,6 @@
           "draws": 1,
           "losses": 2,
           "points": 13
-        },
-        {
-          "rank": 6,
-          "team": "Lyon",
-          "shortTeam": "Lyon",
-          "played": 6,
-          "wins": 3,
-          "draws": 2,
-          "losses": 1,
-          "points": 11
         },
         {
           "rank": 7,
@@ -2046,10 +2046,10 @@
           "rank": 13,
           "team": "Nice",
           "shortTeam": "Nice",
-          "played": 6,
+          "played": 7,
           "wins": 2,
           "draws": 2,
-          "losses": 2,
+          "losses": 3,
           "points": 8
         },
         {
@@ -2288,6 +2288,10 @@
       ],
       "teams": [
         {
+          "id": "167",
+          "name": "Lyon"
+        },
+        {
           "id": "160",
           "name": "Paris Saint-Germain"
         },
@@ -2306,10 +2310,6 @@
         {
           "id": "169",
           "name": "Stade Rennais"
-        },
-        {
-          "id": "167",
-          "name": "Lyon"
         },
         {
           "id": "273",

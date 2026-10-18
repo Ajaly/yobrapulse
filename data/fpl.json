@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T19:09:47.993981+00:00",
+  "generatedAt": "2026-10-18T22:09:25.990771+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -9,6 +9,23 @@
   },
   "fixturesGameweekName": "Gameweek 7",
   "captainPicks": [
+    {
+      "id": "156",
+      "score": 13.0,
+      "factors": {
+        "epNext": 10.0,
+        "ownForm": 10.0,
+        "teamForm": null,
+        "opponentForm": null,
+        "venueForm": null,
+        "venueFormSource": null,
+        "opponentVenueForm": null,
+        "fixtureLoad": 1,
+        "opponent": null,
+        "isHome": null,
+        "trackRecordVsOpponent": null
+      }
+    },
     {
       "id": "115",
       "score": 11.7,
@@ -32,23 +49,6 @@
       "factors": {
         "epNext": 9.0,
         "ownForm": 9.0,
-        "teamForm": null,
-        "opponentForm": null,
-        "venueForm": null,
-        "venueFormSource": null,
-        "opponentVenueForm": null,
-        "fixtureLoad": 1,
-        "opponent": null,
-        "isHome": null,
-        "trackRecordVsOpponent": null
-      }
-    },
-    {
-      "id": "124",
-      "score": 10.79,
-      "factors": {
-        "epNext": 8.3,
-        "ownForm": 8.3,
         "teamForm": null,
         "opponentForm": null,
         "venueForm": null,
@@ -145,6 +145,7 @@
     "236",
     "449",
     "13",
+    "156",
     "332",
     "334",
     "15",
@@ -2293,7 +2294,7 @@
           "position": "MID"
         }
       ],
-      "squadRating": 6.72,
+      "squadRating": 6.71,
       "squadValue": "\u00a3185.5m",
       "leagueRank": 1,
       "strengthHome": 3,
@@ -5235,6 +5236,34 @@
     }
   ],
   "players": {
+    "156": {
+      "id": 156,
+      "name": "Pedro Lomba Neto",
+      "shortName": "Neto",
+      "position": "MID",
+      "team": "Chelsea",
+      "avatar": "PL",
+      "avatarClass": "",
+      "price": "\u00a36.5m",
+      "owned": "2.0%",
+      "points": 34,
+      "epNext": 10.0,
+      "form": 10.0,
+      "minutes": 504,
+      "goals": 3,
+      "assists": 1,
+      "xg": 1.21,
+      "xa": 0.88,
+      "valueScore": 5.2,
+      "tackles": 11,
+      "clearancesBlocksInterceptions": 10,
+      "recoveries": 22,
+      "saves": 0,
+      "cleanSheets": 1,
+      "positionPercentile": 83,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 4
+    },
     "115": {
       "id": 115,
       "name": "Maxim De Cuyper",
@@ -5252,7 +5281,7 @@
       "goals": 2,
       "assists": 3,
       "xg": 1.8,
-      "xa": 0.81,
+      "xa": 0.8,
       "valueScore": 11.3,
       "tackles": 12,
       "clearancesBlocksInterceptions": 11,
@@ -5272,15 +5301,15 @@
       "avatar": "LV",
       "avatarClass": "",
       "price": "\u00a35.1m",
-      "owned": "5.2%",
+      "owned": "5.3%",
       "points": 51,
       "epNext": 9.0,
       "form": 9.0,
       "minutes": 617,
       "goals": 1,
       "assists": 1,
-      "xg": 1.03,
-      "xa": 0.18,
+      "xg": 1.1,
+      "xa": 0.17,
       "valueScore": 10.0,
       "tackles": 8,
       "clearancesBlocksInterceptions": 62,
@@ -5427,7 +5456,7 @@
       "recoveries": 26,
       "saves": 0,
       "cleanSheets": 4,
-      "positionPercentile": 57,
+      "positionPercentile": 55,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -5468,7 +5497,7 @@
       "avatar": "CK",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.7m",
-      "owned": "9.3%",
+      "owned": "9.4%",
       "points": 41,
       "epNext": 7.7,
       "form": 7.7,
@@ -5496,7 +5525,7 @@
       "avatar": "CP",
       "avatarClass": "orange-avatar",
       "price": "\u00a39.7m",
-      "owned": "26.1%",
+      "owned": "26.2%",
       "points": 38,
       "epNext": 5.0,
       "form": 5.0,
@@ -5511,7 +5540,7 @@
       "recoveries": 28,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 68,
+      "positionPercentile": 66,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -5567,7 +5596,7 @@
       "recoveries": 16,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 75,
+      "positionPercentile": 72,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -5608,7 +5637,7 @@
       "avatar": "IT",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.8m",
-      "owned": "8.9%",
+      "owned": "8.8%",
       "points": 18,
       "epNext": 4.0,
       "form": 4.0,
@@ -5720,7 +5749,7 @@
       "avatar": "VJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.0m",
-      "owned": "2.4%",
+      "owned": "2.3%",
       "points": 30,
       "epNext": 0.0,
       "form": 1.0,
@@ -5735,7 +5764,7 @@
       "recoveries": 29,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 25,
+      "positionPercentile": 24,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -5776,7 +5805,7 @@
       "avatar": "MB",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.2m",
-      "owned": "9.0%",
+      "owned": "9.1%",
       "points": 39,
       "epNext": 4.0,
       "form": 4.0,
@@ -5791,7 +5820,7 @@
       "recoveries": 16,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 96,
+      "positionPercentile": 97,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
     },
@@ -5944,7 +5973,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "53.4%",
+      "owned": "53.5%",
       "points": 44,
       "epNext": 5.3,
       "form": 5.3,
@@ -5972,7 +6001,7 @@
       "avatar": "RC",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "37.1%",
+      "owned": "37.2%",
       "points": 44,
       "epNext": 6.0,
       "form": 6.0,
@@ -6028,7 +6057,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.1m",
-      "owned": "8.2%",
+      "owned": "8.4%",
       "points": 42,
       "epNext": 4.3,
       "form": 4.3,
@@ -6112,7 +6141,7 @@
       "avatar": "MR",
       "avatarClass": "",
       "price": "\u00a37.9m",
-      "owned": "47.5%",
+      "owned": "47.6%",
       "points": 40,
       "epNext": 5.5,
       "form": 5.5,
@@ -6127,7 +6156,7 @@
       "recoveries": 35,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 79,
+      "positionPercentile": 76,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -6183,7 +6212,7 @@
       "recoveries": 23,
       "saves": 0,
       "cleanSheets": 4,
-      "positionPercentile": 71,
+      "positionPercentile": 69,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -6211,7 +6240,7 @@
       "recoveries": 31,
       "saves": 0,
       "cleanSheets": 5,
-      "positionPercentile": 64,
+      "positionPercentile": 62,
       "teamStrengthHome": 3,
       "teamStrengthAway": 4
     },
@@ -6267,7 +6296,7 @@
       "recoveries": 17,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 82,
+      "positionPercentile": 79,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -6295,7 +6324,7 @@
       "recoveries": 18,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 89,
+      "positionPercentile": 90,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -6351,7 +6380,7 @@
       "recoveries": 38,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 50,
+      "positionPercentile": 48,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -6463,7 +6492,7 @@
       "recoveries": 19,
       "saves": 0,
       "cleanSheets": 4,
-      "positionPercentile": 61,
+      "positionPercentile": 59,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -6504,7 +6533,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a311.8m",
-      "owned": "30.1%",
+      "owned": "30.0%",
       "points": 33,
       "epNext": 1.3,
       "form": 1.3,
@@ -6519,7 +6548,7 @@
       "recoveries": 29,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 43,
+      "positionPercentile": 41,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -6603,7 +6632,7 @@
       "recoveries": 23,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 39,
+      "positionPercentile": 38,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -6616,7 +6645,7 @@
       "avatar": "JB",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "2.5%",
+      "owned": "2.4%",
       "points": 31,
       "epNext": 4.0,
       "form": 4.0,
@@ -6687,7 +6716,7 @@
       "recoveries": 26,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 36,
+      "positionPercentile": 34,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -6756,7 +6785,7 @@
       "avatar": "KA",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.5m",
-      "owned": "3.9%",
+      "owned": "4.0%",
       "points": 30,
       "epNext": 4.5,
       "form": 4.5,
@@ -6840,7 +6869,7 @@
       "avatar": "AB",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "4.3%",
+      "owned": "4.2%",
       "points": 30,
       "epNext": 3.7,
       "form": 3.7,
@@ -6911,7 +6940,7 @@
       "recoveries": 20,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 54,
+      "positionPercentile": 52,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -6995,7 +7024,7 @@
       "recoveries": 27,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 32,
+      "positionPercentile": 31,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -7082,7 +7111,7 @@
       "recoveries": 21,
       "saves": 0,
       "cleanSheets": 4,
-      "positionPercentile": 29,
+      "positionPercentile": 28,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3
     },
@@ -7095,7 +7124,7 @@
       "avatar": "NM",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.1m",
-      "owned": "5.7%",
+      "owned": "5.6%",
       "points": 28,
       "epNext": 0.0,
       "form": 1.0,
@@ -7138,7 +7167,7 @@
       "recoveries": 30,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 46,
+      "positionPercentile": 45,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -7294,7 +7323,7 @@
       "avatar": "EK",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.6m",
-      "owned": "17.5%",
+      "owned": "17.6%",
       "points": 25,
       "epNext": 4.7,
       "form": 4.7,
@@ -7365,7 +7394,7 @@
       "recoveries": 41,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 11,
+      "positionPercentile": 10,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -7518,7 +7547,7 @@
       "avatar": "KH",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.5m",
-      "owned": "6.4%",
+      "owned": "6.3%",
       "points": 23,
       "epNext": 2.0,
       "form": 2.0,
@@ -7742,7 +7771,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a36.8m",
-      "owned": "20.5%",
+      "owned": "20.3%",
       "points": 21,
       "epNext": 0.0,
       "form": 1.0,
@@ -7757,7 +7786,7 @@
       "recoveries": 26,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 18,
+      "positionPercentile": 17,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -7801,7 +7830,7 @@
       "avatar": "JD",
       "avatarClass": "",
       "price": "\u00a37.4m",
-      "owned": "2.0%",
+      "owned": "2.1%",
       "points": 19,
       "epNext": 6.3,
       "form": 6.3,
@@ -7829,7 +7858,7 @@
       "avatar": "GG",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.1m",
-      "owned": "7.1%",
+      "owned": "7.0%",
       "points": 18,
       "epNext": 2.0,
       "form": 2.0,
@@ -7872,7 +7901,7 @@
       "recoveries": 18,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 4,
+      "positionPercentile": 3,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
     },
@@ -7913,7 +7942,7 @@
       "avatar": "YW",
       "avatarClass": "",
       "price": "\u00a36.2m",
-      "owned": "14.7%",
+      "owned": "14.6%",
       "points": 18,
       "epNext": 1.0,
       "form": 1.0,
@@ -8059,7 +8088,7 @@
       "avatar": "CT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.2m",
-      "owned": "5.0%",
+      "owned": "4.9%",
       "points": 16,
       "epNext": 0.0,
       "form": 0.7,
@@ -8850,7 +8879,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11122802,
+  "totalManagers": 11124425,
   "totalPlayers": 668,
   "priceMovement": {
     "risers": [
@@ -8878,6 +8907,10 @@
     "eventName": "Gameweek 7",
     "points": [
       {
+        "id": "156",
+        "value": 15
+      },
+      {
         "id": "411",
         "value": 13
       },
@@ -8892,13 +8925,13 @@
       {
         "id": "53",
         "value": 11
-      },
-      {
-        "id": "504",
-        "value": 11
       }
     ],
     "goals": [
+      {
+        "id": "156",
+        "value": 2
+      },
       {
         "id": "411",
         "value": 2
@@ -8913,10 +8946,6 @@
       },
       {
         "id": "79",
-        "value": 1
-      },
-      {
-        "id": "127",
         "value": 1
       }
     ],
@@ -9111,45 +9140,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 80578
+        "netTransfersEvent": 90803
       },
       {
         "id": "115",
-        "netTransfersEvent": 72173
+        "netTransfersEvent": 80569
       },
       {
-        "id": "53",
-        "netTransfersEvent": 55744
+        "id": "68",
+        "netTransfersEvent": 60421
       },
       {
         "id": "379",
-        "netTransfersEvent": 55657
+        "netTransfersEvent": 60359
       },
       {
-        "id": "40",
-        "netTransfersEvent": 47036
+        "id": "53",
+        "netTransfersEvent": 59329
       }
     ],
     "falling": [
       {
         "id": "368",
-        "netTransfersEvent": -143999
+        "netTransfersEvent": -160613
       },
       {
         "id": "426",
-        "netTransfersEvent": -94259
+        "netTransfersEvent": -108236
       },
       {
         "id": "464",
-        "netTransfersEvent": -91363
+        "netTransfersEvent": -105097
       },
       {
         "id": "397",
-        "netTransfersEvent": -52197
+        "netTransfersEvent": -59402
       },
       {
         "id": "480",
-        "netTransfersEvent": -46192
+        "netTransfersEvent": -53960
       }
     ]
   }

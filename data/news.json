@@ -1,10 +1,91 @@
 {
-  "generatedAt": "2026-10-18T19:09:48.795940+00:00",
+  "generatedAt": "2026-10-18T22:09:26.489644+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Mbappe scores twice as Real Madrid beat Sevilla",
+      "description": "Kylian Mbappe scores twice as Real Madrid beat Sevilla 4-1 in La Liga to close the gap on Barcelona to six points ahead of next weekend's El Clasico.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/crp3g7z9x215o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T21:39:04+00:00"
+    },
+    {
+      "title": "Papers: Man Utd weigh up move for Ireland striker Parrott",
+      "description": "The top stories and transfer rumours from Monday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13600790/manchester-united-weigh-up-stunning-move-for-real-betis-and-ex-tottenham-forward-troy-parrott-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-18T21:39:00+00:00"
+    },
+    {
+      "title": "'Four points is nothing' - O'Neill stays cool after statement win",
+      "description": "Amid supporter discontent, a recent protest against the major shareholder and a veteran manager deciding now is not the time to \"wrap things up\", as Martin O'Neill put it, you'd be forgiven for scratching your head when examining Celtic's current domestic situation.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw0k0zn0lkjgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T20:50:09+00:00"
+    },
+    {
+      "title": "'Four points is nothing' - O'Neill stays cool after statement win",
+      "description": "Amid supporter discontent, a recent protest against the major shareholder and a veteran manager deciding now is not the time to \"wrap things up\", as Martin O'Neill put it, you'd be forgiven for scratching your head when examining Celtic's current domestic situation.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw0k0zn0lkjgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T20:50:09+00:00"
+    },
+    {
+      "title": "Ramos could make La Liga return - Monday's gossip",
+      "description": "Sergio Ramos could make a surprise return to football in Madrid, Bournemouth put a high price on Alex Scott, and Florian Wirtz is staying at Liverpool.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckjrw11dv5xjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T20:21:54+00:00"
+    },
+    {
+      "title": "Arsenal latest: Arteta salutes \u2018special\u2019 Madueke after late winner",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T20:00:00+00:00"
+    },
+    {
+      "title": "Madueke's 'anger and conviction' shows he's more than a 'finisher'",
+      "description": "Noni Madueke may not have the role he wants at Arsenal but his winning goal against Nottingham Forest showed why he is one of Mikel Arteta's valued players.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3qjnyw8qe4do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T19:55:41+00:00"
+    },
+    {
+      "title": "Sage feels 'shame' at Palace thrashing with future in doubt",
+      "description": "Crystal Palace manage Pierre Sage says he feels \"shame\" at the Eagles' performance during their 5-0 thrashing by Brighton and does not know if he will be given time to save his job.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq1kdzp093jwo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-10-18T19:51:22+00:00"
+    },
+    {
+      "title": "'A goal Brighton fans will never forget!' | Gomez goal from ALL ANGLES",
+      "description": "Diego Gomez with an 'absolute piece of fotballing magic!' - enjoy it again and again from all angles!",
+      "link": "https://www.skysports.com/watch/video/13600762/a-goal-brighton-fans-will-never-forget-diego-gomez-goal-from-all-angles",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-18T19:30:00+00:00"
+    },
     {
       "title": "Bournemouth pick up first league victory with win over Sunderland",
       "description": "Bournemouth beat Sunderland 2-0 at the Vitality Stadium to pick up their first league victory of the season and move out of the relegation zone.",
@@ -31,87 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-18T18:59:06+00:00"
-    },
-    {
-      "title": "Gomez scores extraordinary goal as Brighton put five past Palace",
-      "description": "Diego Gomez scores a sensational goal from the halfway line as Brighton hammer rivals Crystal Palace.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/ckm23z2qem45o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-18T18:59:02+00:00"
-    },
-    {
-      "title": "'Maybe we became arrogant' - Sunderland struggles continue",
-      "description": "Sunderland defender Nordi Mukiele suggested the Black Cats may have become \"arrogant\" as last season's surprise package stutter in the Premier League this term.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6073pmddk0ko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-18T18:49:00+00:00"
-    },
-    {
-      "title": "Madueke scores late winner as Arsenal edge past Forest",
-      "description": "Highlights from the Premier League match between Nottingham Forest and Arsenal.",
-      "link": "https://www.skysports.com/watch/video/13600742/nottingham-forest-0-1-arsenal-premier-league-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-18T18:41:00+00:00"
-    },
-    {
-      "title": "Shades of Barca and Beckham - Brighton aim to maintain superb start",
-      "description": "With 23 goals in seven Premier League matches, including some stunning strikes, Brighton continue to delight their fans and get them dreaming of what might be.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmwyd05wj00do",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-18T18:33:29+00:00"
-    },
-    {
-      "title": "Arsenal substitutes change game - Arteta",
-      "description": "Arsenal manager Mikel Arteta says their substitutes changed the game as they beat Nottingham Forest 1-0 in the Premier League.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cqwyrkyyglzjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-18T18:31:09+00:00"
-    },
-    {
-      "title": "Arsenal win with one shot on target as Forest sink into bottom three",
-      "description": "Arsenal's only shot on target proved enough to snatch victory at Nottingham Forest through Noni Madueke's deflected strike, keeping the champions within touching distance of Premier League leaders Manchester City and condemning Forest to the relegation zone.",
-      "link": "https://www.skysports.com/football/nottingham-forest-vs-arsenal/report/559512",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-18T18:30:00+00:00"
-    },
-    {
-      "title": "Hearts roll out red carpet ... and Celtic walk all over it",
-      "description": "Hearts thought attack was the best form of defence at Celtic Park. They were badly wrong, writes Tom English.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62kezneyq8vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-18T18:22:50+00:00"
-    },
-    {
-      "title": "Hearts roll out red carpet ... and Celtic walk all over it",
-      "description": "Hearts thought attack was the best form of defence at Celtic Park. They were badly wrong, writes Tom English.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c62kezneyq8vo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-18T18:22:50+00:00"
-    },
-    {
-      "title": "Long-range goals from further and further out",
-      "description": "After Diego Gomez's halfway-line stunner for Brighton on Sunday, BBC Sport looks at the previous longest-range Premier League goals as recorded by Opta in the last 20 seasons.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c6jdmy04ryjgo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-18T18:09:13+00:00"
     }
   ]
 }
