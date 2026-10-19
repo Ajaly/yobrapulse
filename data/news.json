@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-19T00:40:44.885902+00:00",
+  "generatedAt": "2026-10-19T05:34:28.196171+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Euro Leagues",
+      "description": "Mikey Moore is on loan at Cologne from Spurs - and loving life in the Bundesliga.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0ph7nfj",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-19T05:00:00+00:00"
+    },
     {
       "title": "'Why not?' - are 'breathtaking' Brighton in title race?",
       "description": "Match of the Day pundits Shay Given and Dion Dublin analyse Brighton's emphatic 5-0 victory over Crystal Palace, with Dublin saying the Seagulls could be in the title race.",
@@ -15,7 +24,7 @@
       "pubDateISO": "2026-10-18T22:59:46+00:00"
     },
     {
-      "title": "Football Daily",
+      "title": "Free-scoring Brighton & Man Utd settle for a point",
       "description": "Paul Robinson joins to discuss Brighton and Lloyd making history, and Leeds v Man United.",
       "link": "https://www.bbc.co.uk/sounds/play/p0phbswc",
       "source": "BBC Sport",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-18T19:30:00+00:00"
-    },
-    {
-      "title": "Bournemouth pick up first league victory with win over Sunderland",
-      "description": "Bournemouth beat Sunderland 2-0 at the Vitality Stadium to pick up their first league victory of the season and move out of the relegation zone.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cme8rz8x6pw8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-18T18:59:15+00:00"
     }
   ]
 }

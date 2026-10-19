@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T00:40:44.346012+00:00",
+  "generatedAt": "2026-10-19T05:34:27.727121+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -220,7 +220,6 @@
     "418",
     "57",
     "61",
-    "445",
     "32",
     "529",
     "534",
@@ -5486,7 +5485,7 @@
       "avatar": "CK",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.7m",
-      "owned": "9.4%",
+      "owned": "9.5%",
       "points": 41,
       "epNext": 7.7,
       "form": 7.7,
@@ -5577,7 +5576,7 @@
       "minutes": 630,
       "goals": 4,
       "assists": 1,
-      "xg": 3.94,
+      "xg": 3.96,
       "xa": 0.9,
       "valueScore": 5.3,
       "tackles": 6,
@@ -5598,7 +5597,7 @@
       "avatar": "AI",
       "avatarClass": "pink-avatar",
       "price": "\u00a39.0m",
-      "owned": "12.6%",
+      "owned": "12.7%",
       "points": 42,
       "epNext": 5.7,
       "form": 5.7,
@@ -5666,10 +5665,10 @@
       "valueScore": 9.6,
       "tackles": 7,
       "clearancesBlocksInterceptions": 13,
-      "recoveries": 23,
+      "recoveries": 24,
       "saves": 0,
       "cleanSheets": 4,
-      "positionPercentile": 95,
+      "positionPercentile": 94,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -5725,7 +5724,7 @@
       "recoveries": 34,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 5,
+      "positionPercentile": 3,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -5766,7 +5765,7 @@
       "avatar": "TM",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "5.8%",
+      "owned": "5.7%",
       "points": 28,
       "epNext": 3.7,
       "form": 3.7,
@@ -5781,7 +5780,7 @@
       "recoveries": 31,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 41,
+      "positionPercentile": 39,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3
     },
@@ -5906,7 +5905,7 @@
       "avatar": "EM",
       "avatarClass": "",
       "price": "\u00a35.0m",
-      "owned": "4.4%",
+      "owned": "4.3%",
       "points": 20,
       "epNext": 0.0,
       "form": 5.5,
@@ -6046,7 +6045,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.2m",
-      "owned": "8.4%",
+      "owned": "8.5%",
       "points": 42,
       "epNext": 4.3,
       "form": 4.3,
@@ -6186,7 +6185,7 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.6m",
-      "owned": "16.9%",
+      "owned": "16.8%",
       "points": 37,
       "epNext": 2.3,
       "form": 2.3,
@@ -6257,7 +6256,7 @@
       "recoveries": 25,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 84,
+      "positionPercentile": 83,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -6305,7 +6304,7 @@
       "minutes": 503,
       "goals": 1,
       "assists": 3,
-      "xg": 0.82,
+      "xg": 0.83,
       "xa": 0.94,
       "valueScore": 4.7,
       "tackles": 7,
@@ -6421,11 +6420,11 @@
       "xa": 0.51,
       "valueScore": 7.6,
       "tackles": 19,
-      "clearancesBlocksInterceptions": 36,
+      "clearancesBlocksInterceptions": 37,
       "recoveries": 25,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 76,
+      "positionPercentile": 75,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -6453,7 +6452,7 @@
       "recoveries": 20,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 70,
+      "positionPercentile": 69,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -6466,7 +6465,7 @@
       "avatar": "M\u00d8",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.8m",
-      "owned": "18.9%",
+      "owned": "18.8%",
       "points": 33,
       "epNext": 2.0,
       "form": 2.0,
@@ -6494,7 +6493,7 @@
       "avatar": "DC",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.0m",
-      "owned": "22.9%",
+      "owned": "23.0%",
       "points": 33,
       "epNext": 4.3,
       "form": 4.3,
@@ -6505,7 +6504,7 @@
       "xa": 0.13,
       "valueScore": 5.5,
       "tackles": 1,
-      "clearancesBlocksInterceptions": 13,
+      "clearancesBlocksInterceptions": 12,
       "recoveries": 16,
       "saves": 0,
       "cleanSheets": 3,
@@ -6529,7 +6528,7 @@
       "minutes": 630,
       "goals": 3,
       "assists": 1,
-      "xg": 2.65,
+      "xg": 2.66,
       "xa": 1.5,
       "valueScore": 2.8,
       "tackles": 7,
@@ -6649,7 +6648,7 @@
       "recoveries": 21,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 46,
+      "positionPercentile": 44,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -6677,7 +6676,7 @@
       "recoveries": 17,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 54,
+      "positionPercentile": 53,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
     },
@@ -6697,7 +6696,7 @@
       "minutes": 627,
       "goals": 1,
       "assists": 0,
-      "xg": 1.4,
+      "xg": 1.37,
       "xa": 0.52,
       "valueScore": 5.2,
       "tackles": 16,
@@ -6789,7 +6788,7 @@
       "recoveries": 22,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 43,
+      "positionPercentile": 42,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -6817,7 +6816,7 @@
       "recoveries": 22,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 49,
+      "positionPercentile": 47,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
     },
@@ -6901,7 +6900,7 @@
       "recoveries": 23,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 59,
+      "positionPercentile": 58,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -6957,7 +6956,7 @@
       "recoveries": 26,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 38,
+      "positionPercentile": 36,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -7041,7 +7040,7 @@
       "recoveries": 20,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 68,
+      "positionPercentile": 67,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2,
       "fixture": "vs Spurs (A)",
@@ -7072,7 +7071,7 @@
       "recoveries": 34,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 65,
+      "positionPercentile": 64,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -7184,7 +7183,7 @@
       "recoveries": 18,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 62,
+      "positionPercentile": 61,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
     },
@@ -7212,7 +7211,7 @@
       "recoveries": 29,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 35,
+      "positionPercentile": 33,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -7240,7 +7239,7 @@
       "recoveries": 23,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 51,
+      "positionPercentile": 50,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3,
       "fixture": "vs Coventry City (H)",
@@ -7299,7 +7298,7 @@
       "recoveries": 14,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 32,
+      "positionPercentile": 31,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
     },
@@ -7327,7 +7326,7 @@
       "recoveries": 20,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 73,
+      "positionPercentile": 72,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -7411,7 +7410,7 @@
       "recoveries": 24,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 57,
+      "positionPercentile": 56,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -7439,7 +7438,7 @@
       "recoveries": 28,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 24,
+      "positionPercentile": 22,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
     },
@@ -7467,7 +7466,7 @@
       "recoveries": 22,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 27,
+      "positionPercentile": 25,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -7607,7 +7606,7 @@
       "recoveries": 37,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 22,
+      "positionPercentile": 19,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -7747,7 +7746,7 @@
       "recoveries": 13,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 30,
+      "positionPercentile": 28,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -7760,7 +7759,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a36.8m",
-      "owned": "20.3%",
+      "owned": "20.2%",
       "points": 21,
       "epNext": 0.0,
       "form": 1.0,
@@ -7931,7 +7930,7 @@
       "avatar": "YW",
       "avatarClass": "",
       "price": "\u00a36.1m",
-      "owned": "14.6%",
+      "owned": "14.5%",
       "points": 18,
       "epNext": 1.0,
       "form": 1.0,
@@ -7974,7 +7973,7 @@
       "recoveries": 33,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 14,
+      "positionPercentile": 11,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2
     },
@@ -8120,7 +8119,7 @@
       "recoveries": 18,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 16,
+      "positionPercentile": 14,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -8176,7 +8175,7 @@
       "recoveries": 31,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 8,
+      "positionPercentile": 6,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4
     },
@@ -8208,34 +8207,6 @@
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
-    "445": {
-      "id": 445,
-      "name": "Malick Thiaw",
-      "shortName": "Thiaw",
-      "position": "DEF",
-      "team": "Newcastle",
-      "avatar": "MT",
-      "avatarClass": "blue-avatar",
-      "price": "\u00a35.0m",
-      "owned": "2.0%",
-      "points": 15,
-      "epNext": 1.7,
-      "form": 1.7,
-      "minutes": 630,
-      "goals": 0,
-      "assists": 0,
-      "xg": 0.0,
-      "xa": 0.16,
-      "valueScore": 3.0,
-      "tackles": 0,
-      "clearancesBlocksInterceptions": 62,
-      "recoveries": 19,
-      "saves": 0,
-      "cleanSheets": 1,
-      "positionPercentile": 3,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3
-    },
     "32": {
       "id": 32,
       "name": "Matty Cash",
@@ -8260,7 +8231,7 @@
       "recoveries": 7,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 19,
+      "positionPercentile": 17,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3
     },
@@ -8400,7 +8371,7 @@
       "recoveries": 14,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 11,
+      "positionPercentile": 8,
       "teamStrengthHome": 2,
       "teamStrengthAway": 2,
       "fixture": "vs Spurs (A)",
@@ -8868,7 +8839,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11124907,
+  "totalManagers": 11125519,
   "totalPlayers": 668,
   "priceMovement": {
     "risers": [
@@ -9149,45 +9120,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 94511
+        "netTransfersEvent": 98640
       },
       {
         "id": "115",
-        "netTransfersEvent": 83682
+        "netTransfersEvent": 87241
       },
       {
         "id": "68",
-        "netTransfersEvent": 66512
+        "netTransfersEvent": 72508
       },
       {
         "id": "379",
-        "netTransfersEvent": 62036
+        "netTransfersEvent": 63873
       },
       {
         "id": "53",
-        "netTransfersEvent": 60520
+        "netTransfersEvent": 61597
       }
     ],
     "falling": [
       {
         "id": "368",
-        "netTransfersEvent": -166689
+        "netTransfersEvent": -173116
       },
       {
         "id": "426",
-        "netTransfersEvent": -113414
+        "netTransfersEvent": -119205
       },
       {
         "id": "464",
-        "netTransfersEvent": -110063
+        "netTransfersEvent": -114157
       },
       {
         "id": "397",
-        "netTransfersEvent": -61975
+        "netTransfersEvent": -64865
       },
       {
         "id": "480",
-        "netTransfersEvent": -56684
+        "netTransfersEvent": -59154
       }
     ]
   }
