@@ -1,12 +1,84 @@
 {
-  "generatedAt": "2026-10-20T17:42:16.506891+00:00",
+  "generatedAt": "2026-10-20T21:06:49.425558+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Liverpool vs Villarreal team news LIVE!",
+      "title": "Ngumoha stars as Liverpool come back to win seven-goal thriller",
+      "description": "Liverpool came from two goals down to defeat Villarreal 4-3 at Anfield and make it three wins from three in this season&#8217;s Champions League.",
+      "link": "https://www.skysports.com/football/liverpool-vs-villarreal/report/577635",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T22:00:00+00:00"
+    },
+    {
+      "title": "Hat-trick hero Foden stars as Man City thrash AEK Athens",
+      "description": "Phil Foden bagged a hat-trick as dominant Manchester City cruised to a 5-1 win over AEK Athens to claim their second Champions League victory of the campaign.",
+      "link": "https://www.skysports.com/football/manchester-city-vs-aek-athens/report/577636",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T22:00:00+00:00"
+    },
+    {
+      "title": "Portsmouth strike late to frustrate Wolves",
+      "description": "Terry Devlin denied Wolves victory just as the hosts' inspired substitutions again looked to prove decisive as Portsmouth drew 1-1 at Molineux in the Championship.",
+      "link": "https://www.skysports.com/football/wolverhampton-wanderers-vs-portsmouth/report/560565",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T21:30:00+00:00"
+    },
+    {
+      "title": "Arsenal criticism comes from very small minority - Arteta",
+      "description": "David Raya says he does not know what to say when people call Arsenal's style of play \"boring or irritating\", as Mikel Arteta brushes off criticism.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm8xzrwv5zpko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T20:33:27+00:00"
+    },
+    {
+      "title": "Man Utd revisit deal for Hall - Wednesday gossip",
+      "description": "Manchester United targeting Lewis Hall and Adrien Truffert, Real Madrid remain interested in Riccardo Calafiori, Liverpool and Arsenal both keen on Xavi Espart, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck62yq0rd0vvo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-20T20:17:15+00:00"
+    },
+    {
+      "title": "PSG beat Barcelona in epic clash LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/paris-saint-germain-vs-barcelona/live/577638",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T19:15:00+00:00"
+    },
+    {
+      "title": "Liverpool latest: Iraola explains why he benched Isak, Wirtz and Barcola",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T19:09:00+00:00"
+    },
+    {
+      "title": "Turkish FA bans 147 officials for breaching betting rules",
+      "description": "Trabzonspor president Ertugrul Dogan is among 147 club officials given a 45-day ban by the Turkish Football Federation (TFF) for breaching betting rules.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqdr86m4r36po",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T18:39:43+00:00"
+    },
+    {
+      "title": "Wirtz in on the act as Liverpool turn it around against Villarreal LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/liverpool-vs-villarreal/live/577635",
       "source": "Sky Sports",
@@ -15,103 +87,31 @@
       "pubDateISO": "2026-10-20T18:30:00+00:00"
     },
     {
-      "title": "Doubts over Haaland's fitness as Man City host AEK Athens LIVE!",
+      "title": "Man City thrash AEK Athens as Foden scores hat-trick LIVE!",
       "description": "",
       "link": "https://www.skysports.com/football/manchester-city-vs-aek-athens/live/577636",
       "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
+      "category": "club",
+      "categoryLabel": "Club news",
       "pubDateISO": "2026-10-20T18:30:00+00:00"
     },
     {
-      "title": "'Respect' - Fabregas refuses to comment on Man Utd job",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T18:12:00+00:00"
-    },
-    {
-      "title": "Palace latest: Brighton thrashing must be a wake-up call, says Timber",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T17:30:00+00:00"
-    },
-    {
-      "title": "Webb backs Botman decision despite pundits' calls for red card",
-      "description": "Referees' chief Howard Webb believes there was nothing \"clearly wrong\" with the decision not to send off Newcastle defender Sven Botman for his tackle on Aston Villa striker Nicolas Jackson.",
-      "link": "https://www.skysports.com/football/news/11095/13601311/sven-botman-tackle-howard-webb-says-nothing-clearly-wrong-with-var-decision-to-not-send-newcastle-defender-off",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T17:00:00+00:00"
-    },
-    {
-      "title": "Spurs latest: Webb gives verdict on Bentancur red and Shaw yellow",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T17:00:00+00:00"
-    },
-    {
-      "title": "Webb backs VAR over Botman challenge on Jackson",
-      "description": "Premier League referees' chief Howard Webb says Sven Botman's challenge on Nicolas Jackson was a \"high-end reckless challenge\" but backed the video assistant referee's decision not to intervene for a red card.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm3vqz1de9lro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T16:56:53+00:00"
-    },
-    {
-      "title": "What is the longest a team has gone without winning a league game at home?",
-      "description": "Burnley are on the brink of unwanted football history, should they fail to beat Portsmouth later this month.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjkgeqxgz5d5o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T15:49:56+00:00"
-    },
-    {
-      "title": "Aston Villa latest: Manzambi misses Viking tie, Wan Bissaka, Ruggeri out for longer",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-20T14:51:00+00:00"
-    },
-    {
-      "title": "Former Norwich and Celtic striker Pukki to retire",
-      "description": "Former Norwich City and Finland striker Teemu Pukki announces his retirement from football at the age of 36.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqvg0vjde20mo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T14:37:41+00:00"
-    },
-    {
-      "title": "What are the yellow card suspension rules in Champions League?",
-      "description": "BBC Sport's Ask Me Anything team explains what the rules are regarding yellow card suspensions in this season's Champions League",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c54g1vpypgw3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T13:57:53+00:00"
-    },
-    {
-      "title": "Man Utd latest: Your views and reaction to Ten Hag's comments...",
+      "title": "Man Utd latest: 'Erik\u2019s opinion' - Carrick responds to Ten Hag and backs board relationship",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T13:38:00+00:00"
+      "pubDateISO": "2026-10-20T18:30:00+00:00"
+    },
+    {
+      "title": "How Man Utd have NINE first-team players unavailable for Como Champions League trip",
+      "description": "",
+      "link": "https://www.skysports.com/football/como-vs-manchester-united/live/577645",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T18:30:00+00:00"
     }
   ]
 }
