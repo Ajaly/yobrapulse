@@ -1086,10 +1086,11 @@
         "awayWinPct": 44
       },
       "loggedAt": "2026-10-12T20:43:03.672334+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": true,
+      "actualScore": "0 \u2014 2"
     },
     {
       "id": 62,
@@ -1107,10 +1108,11 @@
         "awayWinPct": 35
       },
       "loggedAt": "2026-10-12T20:43:03.672342+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "1 \u2014 2"
     },
     {
       "id": 65,
@@ -1128,10 +1130,11 @@
         "awayWinPct": 20
       },
       "loggedAt": "2026-10-12T20:43:03.672346+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "1 \u2014 0"
     },
     {
       "id": 67,
@@ -1149,10 +1152,11 @@
         "awayWinPct": 9
       },
       "loggedAt": "2026-10-12T20:43:03.672349+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "3 \u2014 2"
     },
     {
       "id": 68,
@@ -1170,10 +1174,11 @@
         "awayWinPct": 30
       },
       "loggedAt": "2026-10-12T20:43:03.672351+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "0 \u2014 1"
     },
     {
       "id": 61,
@@ -1191,10 +1196,11 @@
         "awayWinPct": 27
       },
       "loggedAt": "2026-10-12T20:43:03.672354+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 63,
@@ -1212,10 +1218,11 @@
         "awayWinPct": 19
       },
       "loggedAt": "2026-10-12T20:43:03.672357+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "5 \u2014 0"
     },
     {
       "id": 66,
@@ -1233,10 +1240,11 @@
         "awayWinPct": 36
       },
       "loggedAt": "2026-10-12T20:43:03.672362+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "1 \u2014 1"
     },
     {
       "id": 69,
@@ -1254,10 +1262,11 @@
         "awayWinPct": 60
       },
       "loggedAt": "2026-10-12T20:43:03.672365+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "0 \u2014 1"
     },
     {
       "id": 70,
@@ -1275,10 +1284,11 @@
         "awayWinPct": 16
       },
       "loggedAt": "2026-10-12T20:43:03.672368+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "3 \u2014 1"
     },
     {
       "id": 77,
