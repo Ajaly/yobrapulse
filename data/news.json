@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-19T22:44:18.051431+00:00",
+  "generatedAt": "2026-10-20T01:26:12.364509+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Who has made Troy's Premier League team of the week?",
+      "description": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqgm0zy4d23po",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-19T23:22:24+00:00"
+    },
     {
       "title": "Spurs latest: 'I did it for the fans,' says De Zerbi on Kulusevski sub",
       "description": "",
@@ -13,6 +22,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-19T22:58:00+00:00"
+    },
+    {
+      "title": "Maddison's magic moment for Spurs - 18 months in the making",
+      "description": "On his first start since May 2025, James Maddison provided the moment of magic Tottenham were waiting for in their 3-1 victory against Coventry, writes Phil McNulty.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwz0v8le7y3eo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-19T22:35:55+00:00"
     },
     {
       "title": "Coventry latest: Lampard thought VAR would disallow Marmoush goal",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-19T21:05:28+00:00"
-    },
-    {
-      "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
-      "description": "England head coach Sarina Wiegman has changed women's football in the country, so what does she face after signing a contract extension?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-19T20:15:48+00:00"
-    },
-    {
-      "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
-      "description": "England head coach Sarina Wiegman has changed women's football in the country, so what does she face after signing a contract extension?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-19T20:15:48+00:00"
     }
   ]
 }
