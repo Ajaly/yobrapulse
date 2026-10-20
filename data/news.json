@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-10-20T01:26:12.364509+00:00",
+  "generatedAt": "2026-10-20T06:58:41.472886+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Moyes insider doubts potential Celtic move - gossip",
+      "description": "Former striker Louis Saha, who played under David Moyes at Everton, doubts whether Celtic would be able to lure away the Premier League boss in their hunt to land a successor to Martin O'Neill.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq74p0d8wm4ro",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-10-20T06:52:44+00:00"
+    },
+    {
+      "title": "'He still has magic in his boots' - Maddison shows Spurs what they were missing",
+      "description": "James Maddison says he has \"so much more to give\" Tottenham after he marked his first start in nearly 18 months with a stunning goal that helped Spurs to their first Premier League win of the season.&#160;",
+      "link": "https://www.skysports.com/football/news/11095/13601183/james-maddison-marks-first-tottenham-start-in-nearly-18-months-with-stunning-goal-in-first-premier-league-win-of-season",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T06:01:00+00:00"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your football knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm4g1er9vdvyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T05:32:59+00:00"
+    },
     {
       "title": "Who has made Troy's Premier League team of the week?",
       "description": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
@@ -33,13 +60,22 @@
       "pubDateISO": "2026-10-19T22:35:55+00:00"
     },
     {
-      "title": "Coventry latest: Lampard thought VAR would disallow Marmoush goal",
+      "title": "Coventry latest: Lampard thought VAR would disallow Marmoush goal - have your say!",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13541482/coventry-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-19T22:27:00+00:00"
+    },
+    {
+      "title": "Maddison and Marmoush score as Spurs get their first PL win of season",
+      "description": "FREE TO WATCH: Highlights from Tottenham Hotspurs' match against Coventry in the Premier League.",
+      "link": "https://www.skysports.com/watch/video/13601159/spurs-3-1-coventry-premier-league-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-19T22:14:00+00:00"
     },
     {
       "title": "Liverpool and Man Utd eye Nmecha - Tuesday's gossip",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-19T21:41:21+00:00"
-    },
-    {
-      "title": "Ronaldo given 30-day suspension and \u00a3215 fine by Portuguese FA",
-      "description": "Cristiano Ronaldo is given a 30-day suspension by the Portuguese Football Federation after leaving his country's international camp last month.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck9qznlywy8no",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-19T21:34:06+00:00"
-    },
-    {
-      "title": "Spurs beat Coventry to earn first league win of the season",
-      "description": "Tottenham Hotspur record their first Premier League win of the season and move off the bottom of the table with a home victory over Coventry City.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-19T21:33:07+00:00"
-    },
-    {
-      "title": "MNC: Palace thrashed 5-0 & trouble in the North East",
-      "description": "Is Sage to blame for Palace's thrashing? Why can't Forest score? And North-East troubles!",
-      "link": "https://www.bbc.co.uk/sounds/play/p0phk7vv",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-19T21:14:00+00:00"
-    },
-    {
-      "title": "Maddison shines on return - Tottenham v Coventry ratings",
-      "description": "How Spurs and Coventry City's players rated following their Premier League match.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crx23ndd337wo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-19T21:05:28+00:00"
     }
   ]
 }
