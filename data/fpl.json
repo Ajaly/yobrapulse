@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:06:48.533152+00:00",
+  "generatedAt": "2026-10-21T00:18:34.100304+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -11,12 +11,12 @@
   "captainPicks": [
     {
       "id": "115",
-      "score": 14.68,
+      "score": 14.65,
       "factors": {
         "epNext": 10.5,
         "ownForm": 10.5,
         "teamForm": 1.0,
-        "opponentForm": 0.8,
+        "opponentForm": 0.83,
         "venueForm": 0.67,
         "venueFormSource": "current season",
         "opponentVenueForm": 0.22,
@@ -44,20 +44,25 @@
       }
     },
     {
-      "id": "504",
-      "score": 13.38,
+      "id": "411",
+      "score": 13.42,
       "factors": {
         "epNext": 9.5,
         "ownForm": 9.5,
-        "teamForm": 1.0,
-        "opponentForm": 0.8,
-        "venueForm": 0.67,
+        "teamForm": 0.8,
+        "opponentForm": 0.87,
+        "venueForm": 1.0,
         "venueFormSource": "current season",
-        "opponentVenueForm": 0.22,
+        "opponentVenueForm": 0.11,
         "fixtureLoad": 1,
-        "opponent": "Liverpool",
+        "opponent": "Aston Villa",
         "isHome": false,
-        "trackRecordVsOpponent": null
+        "trackRecordVsOpponent": {
+          "meetings": 4,
+          "goals": 0,
+          "assists": 0,
+          "involvementsPerMatch": 0.0
+        }
       }
     }
   ],
@@ -253,7 +258,7 @@
           "epNext": 10.5,
           "ownForm": 10.5,
           "teamForm": 1.0,
-          "opponentForm": 0.8,
+          "opponentForm": 0.83,
           "venueForm": 0.67,
           "venueFormSource": "current season",
           "opponentVenueForm": 0.22,
@@ -270,7 +275,7 @@
           "epNext": 6.0,
           "ownForm": 8.0,
           "teamForm": 0.87,
-          "opponentForm": 0.77,
+          "opponentForm": 0.8,
           "venueForm": 0.11,
           "venueFormSource": "current season",
           "opponentVenueForm": 1.0,
@@ -414,13 +419,13 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 23,
+      "homeWinPct": 22,
       "drawPct": 29,
-      "awayWinPct": 48,
+      "awayWinPct": 49,
       "predictedScore": "1.0 \u2014 1.5",
       "factors": {
         "homeForm": 0.87,
-        "awayForm": 0.77,
+        "awayForm": 0.8,
         "h2h": {
           "homeWins": 3,
           "draws": 0,
@@ -726,7 +731,7 @@
       "awayWinPct": 41,
       "predictedScore": "1.1 \u2014 1.4",
       "factors": {
-        "homeForm": 0.8,
+        "homeForm": 0.83,
         "awayForm": 1.0,
         "h2h": {
           "homeWins": 3,
@@ -1986,7 +1991,7 @@
         }
       ],
       "squadRating": 5.25,
-      "squadValue": "\u00a3176.4m",
+      "squadValue": "\u00a3176.3m",
       "leagueRank": 3,
       "strengthHome": 4,
       "strengthAway": 5,
@@ -2191,7 +2196,7 @@
         }
       ],
       "squadRating": 3.86,
-      "squadValue": "\u00a3179.9m",
+      "squadValue": "\u00a3179.8m",
       "leagueRank": 11,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -3351,7 +3356,7 @@
         }
       ],
       "squadRating": 3.55,
-      "squadValue": "\u00a3176.9m",
+      "squadValue": "\u00a3176.8m",
       "leagueRank": 17,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -3666,7 +3671,7 @@
         }
       ],
       "squadRating": 3.85,
-      "squadValue": "\u00a3134.5m",
+      "squadValue": "\u00a3134.4m",
       "leagueRank": 12,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -4291,7 +4296,7 @@
         }
       ],
       "squadRating": 4.66,
-      "squadValue": "\u00a3151.6m",
+      "squadValue": "\u00a3151.5m",
       "leagueRank": 4,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -4504,7 +4509,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.8,
+      "form": 0.83,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -4694,7 +4699,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.77,
+      "form": 0.8,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -5258,7 +5263,7 @@
         }
       ],
       "squadRating": 3.37,
-      "squadValue": "\u00a3151.9m",
+      "squadValue": "\u00a3151.8m",
       "leagueRank": 19,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -5722,7 +5727,7 @@
       "avatar": "PL",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "2.4%",
+      "owned": "2.5%",
       "points": 34,
       "epNext": 10.0,
       "form": 10.0,
@@ -5744,36 +5749,36 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
-    "504": {
-      "id": 504,
-      "name": "Luka Vu\u0161kovi\u0107",
-      "shortName": "Vuskovic",
-      "position": "DEF",
-      "team": "Brighton",
-      "avatar": "LV",
-      "avatarClass": "",
-      "price": "\u00a35.1m",
-      "owned": "5.6%",
-      "points": 51,
+    "411": {
+      "id": 411,
+      "name": "Erling Haaland",
+      "shortName": "Haaland",
+      "position": "FWD",
+      "team": "Man City",
+      "avatar": "EH",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a315.7m",
+      "owned": "76.8%",
+      "points": 58,
       "epNext": 9.5,
       "form": 9.5,
-      "minutes": 617,
-      "goals": 1,
-      "assists": 1,
-      "xg": 1.1,
-      "xa": 0.17,
-      "valueScore": 10.0,
-      "tackles": 8,
-      "clearancesBlocksInterceptions": 62,
-      "recoveries": 27,
+      "minutes": 619,
+      "goals": 8,
+      "assists": 0,
+      "xg": 5.69,
+      "xa": 0.77,
+      "valueScore": 3.7,
+      "tackles": 1,
+      "clearancesBlocksInterceptions": 12,
+      "recoveries": 14,
       "saves": 0,
-      "cleanSheets": 5,
-      "positionPercentile": 92,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 4,
-      "fixture": "vs Liverpool (A)",
-      "fdr": 4,
-      "fdrClass": "hard"
+      "cleanSheets": 3,
+      "positionPercentile": 100,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Aston Villa (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
     },
     "124": {
       "id": 124,
@@ -5806,36 +5811,36 @@
       "fdr": 4,
       "fdrClass": "hard"
     },
-    "411": {
-      "id": 411,
-      "name": "Erling Haaland",
-      "shortName": "Haaland",
-      "position": "FWD",
-      "team": "Man City",
-      "avatar": "EH",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a315.7m",
-      "owned": "76.7%",
-      "points": 58,
+    "504": {
+      "id": 504,
+      "name": "Luka Vu\u0161kovi\u0107",
+      "shortName": "Vuskovic",
+      "position": "DEF",
+      "team": "Brighton",
+      "avatar": "LV",
+      "avatarClass": "",
+      "price": "\u00a35.1m",
+      "owned": "5.6%",
+      "points": 51,
       "epNext": 9.5,
       "form": 9.5,
-      "minutes": 619,
-      "goals": 8,
-      "assists": 0,
-      "xg": 5.69,
-      "xa": 0.77,
-      "valueScore": 3.7,
-      "tackles": 1,
-      "clearancesBlocksInterceptions": 12,
-      "recoveries": 14,
+      "minutes": 617,
+      "goals": 1,
+      "assists": 1,
+      "xg": 1.1,
+      "xa": 0.17,
+      "valueScore": 10.0,
+      "tackles": 8,
+      "clearancesBlocksInterceptions": 62,
+      "recoveries": 27,
       "saves": 0,
-      "cleanSheets": 3,
-      "positionPercentile": 100,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 5,
-      "fixture": "vs Aston Villa (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
+      "cleanSheets": 5,
+      "positionPercentile": 92,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 4,
+      "fixture": "vs Liverpool (A)",
+      "fdr": 4,
+      "fdrClass": "hard"
     },
     "165": {
       "id": 165,
@@ -5908,7 +5913,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.3m",
-      "owned": "11.1%",
+      "owned": "11.2%",
       "points": 36,
       "epNext": 8.0,
       "form": 8.0,
@@ -5939,7 +5944,7 @@
       "avatar": "FE",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.1m",
-      "owned": "4.4%",
+      "owned": "4.5%",
       "points": 37,
       "epNext": 9.5,
       "form": 9.5,
@@ -6838,7 +6843,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.3m",
-      "owned": "12.4%",
+      "owned": "12.3%",
       "points": 37,
       "epNext": 0.0,
       "form": 2.0,
@@ -7581,7 +7586,7 @@
       "team": "Liverpool",
       "avatar": "JJ",
       "avatarClass": "orange-avatar",
-      "price": "\u00a35.0m",
+      "price": "\u00a35.1m",
       "owned": "4.1%",
       "points": 30,
       "epNext": 3.0,
@@ -7591,7 +7596,7 @@
       "assists": 0,
       "xg": 0.3,
       "xa": 0.15,
-      "valueScore": 6.0,
+      "valueScore": 5.9,
       "tackles": 18,
       "clearancesBlocksInterceptions": 43,
       "recoveries": 23,
@@ -8078,7 +8083,7 @@
       "avatar": "GX",
       "avatarClass": "",
       "price": "\u00a35.4m",
-      "owned": "3.2%",
+      "owned": "3.1%",
       "points": 25,
       "epNext": 2.0,
       "form": 2.0,
@@ -8605,7 +8610,7 @@
       "avatar": "JD",
       "avatarClass": "",
       "price": "\u00a37.5m",
-      "owned": "2.4%",
+      "owned": "2.5%",
       "points": 19,
       "epNext": 9.0,
       "form": 9.0,
@@ -8760,7 +8765,7 @@
       "avatar": "YW",
       "avatarClass": "",
       "price": "\u00a36.1m",
-      "owned": "14.1%",
+      "owned": "14.0%",
       "points": 18,
       "epNext": 1.5,
       "form": 1.5,
@@ -9348,8 +9353,8 @@
       "team": "Arsenal",
       "avatar": "VG",
       "avatarClass": "blue-avatar",
-      "price": "\u00a37.1m",
-      "owned": "3.3%",
+      "price": "\u00a37.0m",
+      "owned": "3.2%",
       "points": 4,
       "epNext": 1.0,
       "form": 1.0,
@@ -9410,7 +9415,7 @@
       "team": "Crystal Palace",
       "avatar": "WH",
       "avatarClass": "",
-      "price": "\u00a34.4m",
+      "price": "\u00a34.3m",
       "owned": "6.1%",
       "points": 3,
       "epNext": 0.5,
@@ -9682,7 +9687,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 11138014,
+  "totalManagers": 11138610,
   "totalPlayers": 668,
   "priceMovement": {
     "risers": [
@@ -9709,6 +9714,14 @@
     ],
     "fallers": [
       {
+        "id": "25",
+        "changeEvent": -0.1
+      },
+      {
+        "id": "212",
+        "changeEvent": -0.1
+      },
+      {
         "id": "259",
         "changeEvent": -0.1
       },
@@ -9718,10 +9731,6 @@
       },
       {
         "id": "464",
-        "changeEvent": -0.1
-      },
-      {
-        "id": "480",
         "changeEvent": -0.1
       }
     ]
@@ -9963,45 +9972,45 @@
     "rising": [
       {
         "id": "124",
-        "netTransfersEvent": 158439
+        "netTransfersEvent": 160173
       },
       {
         "id": "68",
-        "netTransfersEvent": 154607
+        "netTransfersEvent": 157825
       },
       {
         "id": "115",
-        "netTransfersEvent": 142497
+        "netTransfersEvent": 144597
       },
       {
         "id": "40",
-        "netTransfersEvent": 104421
+        "netTransfersEvent": 105768
       },
       {
         "id": "399",
-        "netTransfersEvent": 103776
+        "netTransfersEvent": 105668
       }
     ],
     "falling": [
       {
         "id": "368",
-        "netTransfersEvent": -276916
+        "netTransfersEvent": -281016
       },
       {
         "id": "397",
-        "netTransfersEvent": -244187
+        "netTransfersEvent": -250517
       },
       {
         "id": "426",
-        "netTransfersEvent": -188159
+        "netTransfersEvent": -190934
       },
       {
         "id": "464",
-        "netTransfersEvent": -163622
+        "netTransfersEvent": -165495
       },
       {
         "id": "480",
-        "netTransfersEvent": -92568
+        "netTransfersEvent": -94056
       }
     ]
   }

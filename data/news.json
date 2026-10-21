@@ -1,12 +1,84 @@
 {
-  "generatedAt": "2026-10-20T21:06:49.425558+00:00",
+  "generatedAt": "2026-10-21T00:18:35.273652+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Ngumoha stars as Liverpool come back to win seven-goal thriller",
+      "title": "Spurs latest: How magic man Markanday made Tottenham Hotspur history",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T23:45:00+00:00"
+    },
+    {
+      "title": "McTominay scores twice as Napoli win thriller against Bodo Glimt",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T23:07:00+00:00"
+    },
+    {
+      "title": "No jeopardy but loads of fun - Champions League sets new goals record",
+      "description": "It was goals galore again in the Champions League on Tuesday, with the competition setting a new record this season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T23:03:11+00:00"
+    },
+    {
+      "title": "The night 'ruthless' Ngumoha came of age for Liverpool",
+      "description": "Rio Ngumoha produces a coming-of-age performance in Liverpool's comeback win over Villarreal, writes Aadam Patel.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck0e0zydv33go",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T22:56:55+00:00"
+    },
+    {
+      "title": "No Haaland, no problem - can Foden be Man City's alternative goalscorer?",
+      "description": "Phil Foden's magnificent man-of-the-match display in Manchester City's Champions League win against AEK Athens serves as a reminder of his talent and ability to influence games.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqx2vjdnwkyyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T22:35:32+00:00"
+    },
+    {
+      "title": "Man City latest: Haaland fit to play Aston Villa, says Maresca",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-20T22:30:00+00:00"
+    },
+    {
+      "title": "Papers: Man Utd target two left-backs as Martinez faces axe in planned overhaul",
+      "description": "The top stories and transfer rumours from Wednesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13601643/man-utd-eye-moves-for-lewis-hall-and-adrien-truffert-while-lisandro-martinez-faces-axe-in-summer-defensive-overhaul-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-20T22:30:00+00:00"
+    },
+    {
+      "title": "Liverpool, Man City & PSG win on record-breaking night",
+      "description": "Kelly Cates is joined by Stephen Warnock, Ashley Young, Tom Allnutt and Statman Dave.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0phqcz5",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-20T22:14:00+00:00"
+    },
+    {
+      "title": "Ngumoha stars as Liverpool come back to win thriller against Villarreal",
       "description": "Liverpool came from two goals down to defeat Villarreal 4-3 at Anfield and make it three wins from three in this season&#8217;s Champions League.",
       "link": "https://www.skysports.com/football/liverpool-vs-villarreal/report/577635",
       "source": "Sky Sports",
@@ -15,7 +87,7 @@
       "pubDateISO": "2026-10-20T22:00:00+00:00"
     },
     {
-      "title": "Hat-trick hero Foden stars as Man City thrash AEK Athens",
+      "title": "Hat-trick hero Foden shines as Man City thrash AEK Athens",
       "description": "Phil Foden bagged a hat-trick as dominant Manchester City cruised to a 5-1 win over AEK Athens to claim their second Champions League victory of the campaign.",
       "link": "https://www.skysports.com/football/manchester-city-vs-aek-athens/report/577636",
       "source": "Sky Sports",
@@ -24,94 +96,22 @@
       "pubDateISO": "2026-10-20T22:00:00+00:00"
     },
     {
-      "title": "Portsmouth strike late to frustrate Wolves",
-      "description": "Terry Devlin denied Wolves victory just as the hosts' inspired substitutions again looked to prove decisive as Portsmouth drew 1-1 at Molineux in the Championship.",
-      "link": "https://www.skysports.com/football/wolverhampton-wanderers-vs-portsmouth/report/560565",
+      "title": "Barcelona handed first defeat of season by PSG in classic",
+      "description": "Barcelona were handed their first defeat of the season as they lost 4-2 to Paris Saint-Germain in a Champions League classic.",
+      "link": "https://www.skysports.com/football/paris-saint-germain-vs-barcelona/report/577638",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T21:30:00+00:00"
+      "pubDateISO": "2026-10-20T22:00:00+00:00"
     },
     {
-      "title": "Arsenal criticism comes from very small minority - Arteta",
-      "description": "David Raya says he does not know what to say when people call Arsenal's style of play \"boring or irritating\", as Mikel Arteta brushes off criticism.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm8xzrwv5zpko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T20:33:27+00:00"
-    },
-    {
-      "title": "Man Utd revisit deal for Hall - Wednesday gossip",
-      "description": "Manchester United targeting Lewis Hall and Adrien Truffert, Real Madrid remain interested in Riccardo Calafiori, Liverpool and Arsenal both keen on Xavi Espart, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck62yq0rd0vvo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-20T20:17:15+00:00"
-    },
-    {
-      "title": "PSG beat Barcelona in epic clash LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/paris-saint-germain-vs-barcelona/live/577638",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T19:15:00+00:00"
-    },
-    {
-      "title": "Liverpool latest: Iraola explains why he benched Isak, Wirtz and Barcola",
+      "title": "Liverpool latest: How Ngumoha lit up Anfield",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T19:09:00+00:00"
-    },
-    {
-      "title": "Turkish FA bans 147 officials for breaching betting rules",
-      "description": "Trabzonspor president Ertugrul Dogan is among 147 club officials given a 45-day ban by the Turkish Football Federation (TFF) for breaching betting rules.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqdr86m4r36po",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T18:39:43+00:00"
-    },
-    {
-      "title": "Wirtz in on the act as Liverpool turn it around against Villarreal LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/liverpool-vs-villarreal/live/577635",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T18:30:00+00:00"
-    },
-    {
-      "title": "Man City thrash AEK Athens as Foden scores hat-trick LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/manchester-city-vs-aek-athens/live/577636",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T18:30:00+00:00"
-    },
-    {
-      "title": "Man Utd latest: 'Erik\u2019s opinion' - Carrick responds to Ten Hag and backs board relationship",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T18:30:00+00:00"
-    },
-    {
-      "title": "How Man Utd have NINE first-team players unavailable for Como Champions League trip",
-      "description": "",
-      "link": "https://www.skysports.com/football/como-vs-manchester-united/live/577645",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-20T18:30:00+00:00"
+      "pubDateISO": "2026-10-20T22:00:00+00:00"
     }
   ]
 }
