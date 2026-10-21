@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T19:51:38.537603+00:00",
+  "generatedAt": "2026-10-21T22:57:32.232026+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -599,13 +599,13 @@
         },
         {
           "rank": 11,
-          "team": "Athletic Club",
-          "shortTeam": "Athletic",
-          "played": 7,
+          "team": "Levante",
+          "shortTeam": "Levante",
+          "played": 9,
           "wins": 2,
-          "draws": 3,
-          "losses": 2,
-          "points": 9
+          "draws": 4,
+          "losses": 3,
+          "points": 10
         },
         {
           "rank": 12,
@@ -619,6 +619,16 @@
         },
         {
           "rank": 13,
+          "team": "Athletic Club",
+          "shortTeam": "Athletic",
+          "played": 8,
+          "wins": 2,
+          "draws": 3,
+          "losses": 3,
+          "points": 9
+        },
+        {
+          "rank": 14,
           "team": "Rayo Vallecano",
           "shortTeam": "Rayo",
           "played": 8,
@@ -628,7 +638,7 @@
           "points": 9
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": "Getafe",
           "shortTeam": "Getafe",
           "played": 9,
@@ -638,7 +648,7 @@
           "points": 9
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "Espanyol",
           "shortTeam": "Espanyol",
           "played": 9,
@@ -648,7 +658,7 @@
           "points": 8
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "Racing Santander",
           "shortTeam": "Racing",
           "played": 9,
@@ -656,16 +666,6 @@
           "draws": 2,
           "losses": 5,
           "points": 8
-        },
-        {
-          "rank": 17,
-          "team": "Levante",
-          "shortTeam": "Levante",
-          "played": 8,
-          "wins": 1,
-          "draws": 4,
-          "losses": 3,
-          "points": 7
         },
         {
           "rank": 18,
@@ -943,12 +943,16 @@
           "name": "Osasuna"
         },
         {
-          "id": "93",
-          "name": "Athletic Club"
+          "id": "1538",
+          "name": "Levante"
         },
         {
           "id": "102",
           "name": "Villarreal"
+        },
+        {
+          "id": "93",
+          "name": "Athletic Club"
         },
         {
           "id": "101",
@@ -965,10 +969,6 @@
         {
           "id": "87",
           "name": "Racing Santander"
-        },
-        {
-          "id": "1538",
-          "name": "Levante"
         },
         {
           "id": "3751",
