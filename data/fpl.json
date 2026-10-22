@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:57:30.579113+00:00",
+  "generatedAt": "2026-10-22T01:15:20.196910+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -45,12 +45,12 @@
     },
     {
       "id": "411",
-      "score": 13.42,
+      "score": 13.39,
       "factors": {
         "epNext": 9.5,
         "ownForm": 9.5,
         "teamForm": 0.8,
-        "opponentForm": 0.87,
+        "opponentForm": 0.89,
         "venueForm": 1.0,
         "venueFormSource": "current season",
         "opponentVenueForm": 0.11,
@@ -273,7 +273,7 @@
         "factors": {
           "epNext": 6.0,
           "ownForm": 8.0,
-          "teamForm": 0.87,
+          "teamForm": 0.89,
           "opponentForm": 0.8,
           "venueForm": 0.11,
           "venueFormSource": "current season",
@@ -421,9 +421,9 @@
       "homeWinPct": 23,
       "drawPct": 29,
       "awayWinPct": 48,
-      "predictedScore": "1.1 \u2014 1.5",
+      "predictedScore": "1.1 \u2014 1.4",
       "factors": {
-        "homeForm": 0.87,
+        "homeForm": 0.89,
         "awayForm": 0.8,
         "h2h": {
           "homeWins": 3,
@@ -468,12 +468,12 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 65,
+      "homeWinPct": 64,
       "drawPct": 21,
-      "awayWinPct": 14,
-      "predictedScore": "1.9 \u2014 0.8",
+      "awayWinPct": 15,
+      "predictedScore": "1.8 \u2014 0.9",
       "factors": {
-        "homeForm": 0.83,
+        "homeForm": 0.69,
         "awayForm": 0.5,
         "h2h": {
           "homeWins": 3,
@@ -775,12 +775,12 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 49,
+      "homeWinPct": 48,
       "drawPct": 24,
-      "awayWinPct": 27,
+      "awayWinPct": 28,
       "predictedScore": "1.4 \u2014 1.2",
       "factors": {
-        "homeForm": 0.21,
+        "homeForm": 0.18,
         "awayForm": 0.63,
         "h2h": {
           "homeWins": 1,
@@ -871,17 +871,6 @@
   },
   "otherLeaguePredictions": {
     "La Liga": [
-      {
-        "id": "401882870",
-        "home": "Levante",
-        "away": "Athletic Club",
-        "kickoffISO": "2026-10-21T18:00Z",
-        "kickoffLabel": "Wed 21 Oct \u00b7 18:00 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 44,
-        "drawPct": 25,
-        "awayWinPct": 31
-      },
       {
         "id": "401882836",
         "home": "Alav\u00e9s",
@@ -1998,7 +1987,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.83,
+      "form": 0.69,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2203,7 +2192,7 @@
       "nextIsHome": true,
       "nextFdr": 4,
       "nextFdrClass": "hard",
-      "form": 0.87,
+      "form": 0.89,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -3670,7 +3659,7 @@
         }
       ],
       "squadRating": 3.85,
-      "squadValue": "\u00a3134.4m",
+      "squadValue": "\u00a3134.3m",
       "leagueRank": 12,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -4295,7 +4284,7 @@
         }
       ],
       "squadRating": 4.66,
-      "squadValue": "\u00a3151.5m",
+      "squadValue": "\u00a3151.6m",
       "leagueRank": 4,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -4893,7 +4882,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.21,
+      "form": 0.18,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -5974,7 +5963,7 @@
       "avatar": "CK",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.7m",
-      "owned": "9.8%",
+      "owned": "9.9%",
       "points": 41,
       "epNext": 6.5,
       "form": 6.5,
@@ -6067,7 +6056,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.8m",
-      "owned": "20.5%",
+      "owned": "20.6%",
       "points": 41,
       "epNext": 8.0,
       "form": 8.0,
@@ -6501,7 +6490,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "53.9%",
+      "owned": "54.0%",
       "points": 44,
       "epNext": 7.5,
       "form": 7.5,
@@ -6749,7 +6738,7 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.6m",
-      "owned": "16.5%",
+      "owned": "16.4%",
       "points": 37,
       "epNext": 1.2,
       "form": 2.5,
@@ -6842,7 +6831,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.3m",
-      "owned": "11.9%",
+      "owned": "11.8%",
       "points": 37,
       "epNext": 0.0,
       "form": 2.0,
@@ -7089,8 +7078,8 @@
       "team": "Leeds",
       "avatar": "DC",
       "avatarClass": "orange-avatar",
-      "price": "\u00a36.0m",
-      "owned": "23.4%",
+      "price": "\u00a36.1m",
+      "owned": "23.5%",
       "points": 33,
       "epNext": 5.5,
       "form": 5.5,
@@ -7099,7 +7088,7 @@
       "assists": 1,
       "xg": 3.6,
       "xa": 0.13,
-      "valueScore": 5.5,
+      "valueScore": 5.4,
       "tackles": 1,
       "clearancesBlocksInterceptions": 12,
       "recoveries": 16,
@@ -9384,7 +9373,7 @@
       "avatar": "WH",
       "avatarClass": "",
       "price": "\u00a34.3m",
-      "owned": "6.2%",
+      "owned": "6.1%",
       "points": 3,
       "epNext": 0.5,
       "form": 0.5,
@@ -9655,7 +9644,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 11143993,
+  "totalManagers": 11144256,
   "totalPlayers": 668,
   "priceMovement": {
     "risers": [
@@ -9940,45 +9929,45 @@
     "rising": [
       {
         "id": "68",
-        "netTransfersEvent": 189284
+        "netTransfersEvent": 191830
       },
       {
         "id": "124",
-        "netTransfersEvent": 175929
+        "netTransfersEvent": 176677
       },
       {
         "id": "115",
-        "netTransfersEvent": 161589
+        "netTransfersEvent": 162383
       },
       {
         "id": "399",
-        "netTransfersEvent": 126578
+        "netTransfersEvent": 127974
       },
       {
         "id": "40",
-        "netTransfersEvent": 121357
+        "netTransfersEvent": 122668
       }
     ],
     "falling": [
       {
         "id": "368",
-        "netTransfersEvent": -316046
+        "netTransfersEvent": -317877
       },
       {
         "id": "397",
-        "netTransfersEvent": -297026
+        "netTransfersEvent": -299244
       },
       {
         "id": "426",
-        "netTransfersEvent": -221051
+        "netTransfersEvent": -223123
       },
       {
         "id": "464",
-        "netTransfersEvent": -183301
+        "netTransfersEvent": -184300
       },
       {
         "id": "480",
-        "netTransfersEvent": -99091
+        "netTransfersEvent": -98714
       }
     ]
   }

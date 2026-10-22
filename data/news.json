@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:57:31.290607+00:00",
+  "generatedAt": "2026-10-22T01:15:21.054347+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -22,6 +22,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-10-21T23:23:00+00:00"
+    },
+    {
+      "title": "Goal, assist... goal-kick - Kane underlines Ballon d'Or credentials",
+      "description": "Why Declan Rice backs his England team-mate Harry Kane to win the Ballon d'Or after Arsenal's draw with Bayern Munich in the Champions League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck79p7qq1q9ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-21T23:11:06+00:00"
     },
     {
       "title": "Saka injury 'does not look good' - how will Arsenal cope?",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-21T21:23:47+00:00"
-    },
-    {
-      "title": "Villa maintain perfect Champions League start with Viking victory",
-      "description": "Aston Villa win their third game from three in the Champions League by defeating Norwegian side Viking - the dominant display taking them up to second in the league phase.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmj47yxry4k9o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-21T21:19:00+00:00"
     }
   ]
 }
