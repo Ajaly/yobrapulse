@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-10-22T01:15:21.054347+00:00",
+  "generatedAt": "2026-10-22T06:56:52.196898+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Blues buoyant & Hammers make statement - Championship Catch-up",
+      "description": "",
+      "link": "https://www.skysports.com/football/news/11095/13601919/birmingham-flying-under-chris-davies-west-ham-make-statement-preston-looked-doomed-championship-catch-up",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-22T07:00:00+00:00"
+    },
+    {
+      "title": "Maloney undecided on being a manager - gossip",
+      "description": "Celtic assistant unsure about return to management as Spanish club monitor Rangers midfielder.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqr7ymjr1dyno",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-22T06:39:18+00:00"
+    },
+    {
+      "title": "Is Leicester boss Martin turning the Foxes' fortunes?",
+      "description": "Leicester are 10th in League One, 10 years after winning the Premier League. After hitting their lowest ebb, are there now grounds for optimism?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq073zrgv8vvo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-22T06:01:48+00:00"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq80zk12krmlo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-22T05:45:30+00:00"
+    },
+    {
+      "title": "From Bury to AC Milan: Bournemouth's journey to 'dreamland'",
+      "description": "Fifteen years to the day after they lost at home to Bury in League One, Bournemouth host seven-time champions of Europe AC Milan in the Europa League.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6x2v8x7ry17o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-22T05:37:17+00:00"
+    },
     {
       "title": "Diomande scores against former club as Real Madrid beat RB Leipzig",
       "description": "",
@@ -13,6 +58,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-21T23:41:00+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "Reaction as Manchester United lose 4-1 at Como in the Champions League",
+      "link": "https://www.bbc.co.uk/sounds/play/p0phxkv1",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-21T23:25:00+00:00"
     },
     {
       "title": "Papers: Brighton boss Hurzeler would be Shearer's pick to replace Carrick",
@@ -58,60 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-21T22:41:53+00:00"
-    },
-    {
-      "title": "'Simply not good enough - Warnock on Man Utd's Como display",
-      "description": "Match of the Day pundits Nedum Onuoha and Stephen Warnock analyse Manchester United's performance after their 4-1 Champions League defeat to Como, and discuss midfielder Bruno Fernandes' criticism of team tactics.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c8040gdrdlwwo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-21T22:36:23+00:00"
-    },
-    {
-      "title": "Club Brugge ease to comfortable win over Lens",
-      "description": "Club Brugge pick up their second straight win in the Champions League with an impressive 3-0 victory over Lens.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c50me40n871zo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-21T22:03:46+00:00"
-    },
-    {
-      "title": "Arsenal fight back to draw against Bayern Munich",
-      "description": "Declan Rice scored a superb 82nd-minute equaliser as Arsenal fought back to draw 2-2 with Bayern Munich in a thrilling Champions League encounter at the Allianz Arena.",
-      "link": "https://www.skysports.com/football/bayern-munich-vs-arsenal/report/577643",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-21T22:00:00+00:00"
-    },
-    {
-      "title": "Alysson stars as Villa beat Viking to make it three wins from three in Europe",
-      "description": "Aston Villa made it three wins from three in the Champions League with a 3-1 win over Viking at Villa Park.",
-      "link": "https://www.skysports.com/football/aston-villa-vs-viking/report/577642",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-21T22:00:00+00:00"
-    },
-    {
-      "title": "Real Madrid dominate Leipzig for third straight win",
-      "description": "Real Madrid maintain their 100 per cent start in the Champions League as they comfortably beat Leipzig 4-1, with Bernardo Silva scoring his first goal for Madrid since moving from Manchester City in the summer.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c3qjnerzngkqo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-21T21:38:23+00:00"
-    },
-    {
-      "title": "Isco the difference as Betis continue winning start against Feyenoord",
-      "description": "Real Betis secure their third win on the bounce in the Champions League as Isco converts a penalty in the 59th minute against Feyenoord.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/ckp8gjl3epr7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-21T21:23:47+00:00"
     }
   ]
 }
