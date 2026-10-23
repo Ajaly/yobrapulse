@@ -1,10 +1,100 @@
 {
-  "generatedAt": "2026-10-23T15:35:33.520414+00:00",
+  "generatedAt": "2026-10-23T19:42:14.526000+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Williams volleys Forest in front at Ipswich!",
+      "description": "Neco Williams volleys Nottingham Forest in front at Ipswich Town.",
+      "link": "https://www.skysports.com/watch/video/13602847/goal-n-williams-13-ipswich-0-0-nottm-forest",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T20:20:00+00:00"
+    },
+    {
+      "title": "When Carra met Chelsea boss Alonso",
+      "description": "<em>Sky Sports'</em> Jamie Carragher sat down for a wide-ranging interview with Chelsea manager Xabi Alonso in which the pair discussed his appointment at Stamford Bridge and his aims for the season, as well as looking back at their time playing together at Liverpool.",
+      "link": "https://www.skysports.com/football/news/11095/13602758/xabi-alonso-chelsea-manager-sits-down-with-former-liverpool-team-mate-jamie-carragher-for-new-boss-youtube-series",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T18:50:00+00:00"
+    },
+    {
+      "title": "Lankshear doubles Boro's lead at Bolton LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/bolton-wanderers-vs-middlesbrough/live/560631",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T18:28:00+00:00"
+    },
+    {
+      "title": "FNF: Forest close to doubling lead at Ipswich LIVE! & highlights",
+      "description": "",
+      "link": "https://www.skysports.com/football/ipswich-town-vs-nottingham-forest/live/559520",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T18:00:00+00:00"
+    },
+    {
+      "title": "Spygate put me in difficult position - Southampton technical director",
+      "description": "Southampton group technical director Johannes Spors says that the Spygate scandal put him in a \"difficult position\" over the summer.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmjrwjl1j27do",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-10-23T17:23:21+00:00"
+    },
+    {
+      "title": "Kompany taken to hospital after collapsing at Bayern's training ground",
+      "description": "Vincent Kompany was taken to hospital after collapsing at Bayern Munich's training ground on Friday.",
+      "link": "https://www.skysports.com/football/news/11095/13602757/vincent-kompany-bayern-munich-boss-taken-to-hospital-after-collapsing-at-training-ground",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T16:57:00+00:00"
+    },
+    {
+      "title": "Kompany taken to hospital after collapsing at training",
+      "description": "Bayern Munich manager Vincent Kompany is taken to hospital after collapsing as he watched the club's second team train on Friday.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck3r5792en7go",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T16:39:03+00:00"
+    },
+    {
+      "title": "AFC Wimbledon's Skiverton diagnosed with cancer",
+      "description": "AFC Wimbledon assistant manager Terry Skiverton is scheduled to begin treatment in the coming weeks after being diagnosed with throat cancer.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cve8r6z631lyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T15:45:07+00:00"
+    },
+    {
+      "title": "Premiership preview: Form strikers in focus and will Rangers respond?",
+      "description": "An analysis of the key Scottish Premiership questions before Saturday and Sunday's fixtures.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqn06r9pje93o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T15:39:58+00:00"
+    },
+    {
+      "title": "Premiership preview: Form strikers in focus and will Rangers respond?",
+      "description": "An analysis of the key Scottish Premiership questions before Saturday and Sunday's fixtures.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqn06r9pje93o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T15:39:58+00:00"
+    },
     {
       "title": "Derby day - when Chelsea and Spurs meet, is chaos guaranteed?",
       "description": "Chelsea face Tottenham Hotspur in the Premier League this weekend - and BBC Sport looks back at five memorable matches between the London rivals.",
@@ -22,96 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-23T14:18:41+00:00"
-    },
-    {
-      "title": "Raskin happy at Rangers but unsure about January",
-      "description": "Belgium midfielder Nicolas Raskin is \"really happy\" at Rangers but is unsure what might happen in January.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6n8dezr0345o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-23T14:11:42+00:00"
-    },
-    {
-      "title": "Raskin 'very happy' at Rangers but unsure about January",
-      "description": "Belgium midfielder Nicolas Raskin is \"really happy\" at Rangers but is unsure what might happen in January.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6n8dezr0345o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-23T14:11:42+00:00"
-    },
-    {
-      "title": "Arsenal fear Saka could be out for two months",
-      "description": "Arsenal forward Bukayo Saka could be sidelined for up to eight weeks with the quadriceps injury he suffered against Bayern Munich.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmwyql6v5q82o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-23T14:09:36+00:00"
-    },
-    {
-      "title": "Spurs latest: Porro back for Chelsea trip but Maddison a doubt",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-23T14:05:00+00:00"
-    },
-    {
-      "title": "Carrick refuses to rule out dropping Fernandes in emotional address",
-      "description": "Michael Carrick speaks for five uninterrupted minutes at media briefing to outline what Manchester United means to him, then refuses to rule out dropping Bruno Fernandes.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq78pv0073dlo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-23T13:55:37+00:00"
-    },
-    {
-      "title": "\u2018I am a fighter\u2019 - how Jakirovic is taking on the Premier League",
-      "description": "No visitor can escape the fact that Hull City are back. Lampposts are adorned with the simple but telling declaration in amber that &#8216;We are Premier League.&#8217; There are flags in windows with messages such as &#8216;Dare to Dream.&#8217; Sergej Jakirovic made it happen.",
-      "link": "https://www.skysports.com/football/news/11095/13598103/sergej-jakirovic-interview-hull-city-head-coach-on-making-people-proud-and-taking-on-the-premier-league-in-their-own-way",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-23T13:30:00+00:00"
-    },
-    {
-      "title": "Football Daily",
-      "description": "John Murray, Ian Dennis & Ali Bruce-Ball lift the lid on life as 5 Live commentators.",
-      "link": "https://www.bbc.co.uk/sounds/play/m003322l",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-23T13:29:00+00:00"
-    },
-    {
-      "title": "Liverpool latest: Barcola, Munoz, Szoboszlai updates ahead of Brighton clash",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-23T13:15:00+00:00"
-    },
-    {
-      "title": "Newcastle latest: This project will take time, says Jaissle",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025496/newcastle-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-23T13:00:00+00:00"
-    },
-    {
-      "title": "Transfer Centre LIVE! Conte releases statement amid Man Utd links",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12476234/transfer-centre-live-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-23T12:50:00+00:00"
     }
   ]
 }
