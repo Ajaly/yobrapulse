@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T19:42:16.781479+00:00",
+  "generatedAt": "2026-10-23T22:49:12.516439+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -88,22 +88,22 @@
         },
         {
           "rank": 9,
+          "team": "Ipswich Town",
+          "shortTeam": "Ipswich",
+          "played": 8,
+          "wins": 3,
+          "draws": 1,
+          "losses": 4,
+          "points": 10
+        },
+        {
+          "rank": 10,
           "team": "Hull City",
           "shortTeam": "Hull",
           "played": 7,
           "wins": 2,
           "draws": 3,
           "losses": 2,
-          "points": 9
-        },
-        {
-          "rank": 10,
-          "team": "Ipswich Town",
-          "shortTeam": "Ipswich",
-          "played": 7,
-          "wins": 3,
-          "draws": 0,
-          "losses": 4,
           "points": 9
         },
         {
@@ -158,6 +158,16 @@
         },
         {
           "rank": 16,
+          "team": "Nottingham Forest",
+          "shortTeam": "Nottm Forest",
+          "played": 8,
+          "wins": 1,
+          "draws": 3,
+          "losses": 4,
+          "points": 6
+        },
+        {
+          "rank": 17,
           "team": "Tottenham Hotspur",
           "shortTeam": "Spurs",
           "played": 7,
@@ -167,7 +177,7 @@
           "points": 6
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "Coventry City",
           "shortTeam": "Coventry",
           "played": 7,
@@ -177,19 +187,9 @@
           "points": 6
         },
         {
-          "rank": 18,
+          "rank": 19,
           "team": "Fulham",
           "shortTeam": "Fulham",
-          "played": 7,
-          "wins": 1,
-          "draws": 2,
-          "losses": 4,
-          "points": 5
-        },
-        {
-          "rank": 19,
-          "team": "Nottingham Forest",
-          "shortTeam": "Nottm Forest",
           "played": 7,
           "wins": 1,
           "draws": 2,
@@ -444,12 +444,12 @@
           "name": "Everton"
         },
         {
-          "id": "306",
-          "name": "Hull City"
-        },
-        {
           "id": "373",
           "name": "Ipswich Town"
+        },
+        {
+          "id": "306",
+          "name": "Hull City"
         },
         {
           "id": "361",
@@ -472,6 +472,10 @@
           "name": "AFC Bournemouth"
         },
         {
+          "id": "393",
+          "name": "Nottingham Forest"
+        },
+        {
           "id": "367",
           "name": "Tottenham Hotspur"
         },
@@ -482,10 +486,6 @@
         {
           "id": "370",
           "name": "Fulham"
-        },
-        {
-          "id": "393",
-          "name": "Nottingham Forest"
         },
         {
           "id": "366",
@@ -561,11 +561,11 @@
           "rank": 7,
           "team": "Alav\u00e9s",
           "shortTeam": "Alav\u00e9s",
-          "played": 9,
+          "played": 10,
           "wins": 3,
-          "draws": 2,
+          "draws": 3,
           "losses": 4,
-          "points": 11
+          "points": 12
         },
         {
           "rank": 8,
@@ -691,11 +691,11 @@
           "rank": 20,
           "team": "M\u00e1laga",
           "shortTeam": "M\u00e1laga",
-          "played": 9,
+          "played": 10,
           "wins": 0,
-          "draws": 4,
+          "draws": 5,
           "losses": 5,
-          "points": 4
+          "points": 5
         }
       ],
       "lastSeasonYear": "2025/26",
@@ -1060,6 +1060,16 @@
         },
         {
           "rank": 8,
+          "team": "Torino",
+          "shortTeam": "Torino",
+          "played": 8,
+          "wins": 4,
+          "draws": 1,
+          "losses": 3,
+          "points": 13
+        },
+        {
+          "rank": 9,
           "team": "Juventus",
           "shortTeam": "Juventus",
           "played": 7,
@@ -1069,19 +1079,9 @@
           "points": 11
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": "Napoli",
           "shortTeam": "Napoli",
-          "played": 7,
-          "wins": 3,
-          "draws": 1,
-          "losses": 3,
-          "points": 10
-        },
-        {
-          "rank": 10,
-          "team": "Torino",
-          "shortTeam": "Torino",
           "played": 7,
           "wins": 3,
           "draws": 1,
@@ -1122,10 +1122,10 @@
           "rank": 14,
           "team": "Monza",
           "shortTeam": "Monza",
-          "played": 7,
+          "played": 8,
           "wins": 2,
           "draws": 1,
-          "losses": 4,
+          "losses": 5,
           "points": 7
         },
         {
@@ -1422,16 +1422,16 @@
           "name": "Cagliari"
         },
         {
+          "id": "239",
+          "name": "Torino"
+        },
+        {
           "id": "111",
           "name": "Juventus"
         },
         {
           "id": "114",
           "name": "Napoli"
-        },
-        {
-          "id": "239",
-          "name": "Torino"
         },
         {
           "id": "105",
@@ -1601,8 +1601,8 @@
         },
         {
           "rank": 13,
-          "team": "VfB Stuttgart",
-          "shortTeam": "Stuttgart",
+          "team": "TSG Hoffenheim",
+          "shortTeam": "Hoffenheim",
           "played": 6,
           "wins": 2,
           "draws": 0,
@@ -1611,12 +1611,12 @@
         },
         {
           "rank": 14,
-          "team": "TSG Hoffenheim",
-          "shortTeam": "Hoffenheim",
-          "played": 6,
+          "team": "VfB Stuttgart",
+          "shortTeam": "Stuttgart",
+          "played": 7,
           "wins": 2,
           "draws": 0,
-          "losses": 4,
+          "losses": 5,
           "points": 6
         },
         {
@@ -1653,11 +1653,11 @@
           "rank": 18,
           "team": "Borussia M\u00f6nchengladbach",
           "shortTeam": "Gladbach",
-          "played": 6,
-          "wins": 0,
+          "played": 7,
+          "wins": 1,
           "draws": 0,
           "losses": 6,
-          "points": 0
+          "points": 3
         }
       ],
       "lastSeasonYear": "2025/26",
@@ -1893,12 +1893,12 @@
           "name": "FC Cologne"
         },
         {
-          "id": "134",
-          "name": "VfB Stuttgart"
-        },
-        {
           "id": "7911",
           "name": "TSG Hoffenheim"
+        },
+        {
+          "id": "134",
+          "name": "VfB Stuttgart"
         },
         {
           "id": "133",
@@ -1994,6 +1994,16 @@
         },
         {
           "rank": 8,
+          "team": "Nice",
+          "shortTeam": "Nice",
+          "played": 8,
+          "wins": 3,
+          "draws": 2,
+          "losses": 3,
+          "points": 11
+        },
+        {
+          "rank": 9,
           "team": "Lens",
           "shortTeam": "Lens",
           "played": 7,
@@ -2003,7 +2013,7 @@
           "points": 10
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": "Marseille",
           "shortTeam": "Marseille",
           "played": 7,
@@ -2013,17 +2023,17 @@
           "points": 9
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team": "Brest",
           "shortTeam": "Brest",
-          "played": 7,
+          "played": 8,
           "wins": 2,
           "draws": 3,
-          "losses": 2,
+          "losses": 3,
           "points": 9
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": "Toulouse",
           "shortTeam": "Toulouse",
           "played": 7,
@@ -2033,7 +2043,7 @@
           "points": 9
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": "AJ Auxerre",
           "shortTeam": "Auxerre",
           "played": 7,
@@ -2041,16 +2051,6 @@
           "draws": 0,
           "losses": 4,
           "points": 9
-        },
-        {
-          "rank": 13,
-          "team": "Nice",
-          "shortTeam": "Nice",
-          "played": 7,
-          "wins": 2,
-          "draws": 2,
-          "losses": 3,
-          "points": 8
         },
         {
           "rank": 14,
@@ -2316,6 +2316,10 @@
           "name": "Lorient"
         },
         {
+          "id": "2502",
+          "name": "Nice"
+        },
+        {
           "id": "175",
           "name": "Lens"
         },
@@ -2334,10 +2338,6 @@
         {
           "id": "172",
           "name": "AJ Auxerre"
-        },
-        {
-          "id": "2502",
-          "name": "Nice"
         },
         {
           "id": "180",
