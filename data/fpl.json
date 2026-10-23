@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T21:04:43.708462+00:00",
+  "generatedAt": "2026-10-23T00:19:47.175450+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -11,11 +11,11 @@
   "captainPicks": [
     {
       "id": "115",
-      "score": 14.65,
+      "score": 14.39,
       "factors": {
         "epNext": 10.5,
         "ownForm": 10.5,
-        "teamForm": 1.0,
+        "teamForm": 0.83,
         "opponentForm": 0.83,
         "venueForm": 0.67,
         "venueFormSource": "current season",
@@ -44,24 +44,24 @@
       }
     },
     {
-      "id": "411",
-      "score": 13.39,
+      "id": "79",
+      "score": 13.43,
       "factors": {
         "epNext": 9.5,
         "ownForm": 9.5,
-        "teamForm": 0.8,
-        "opponentForm": 0.89,
-        "venueForm": 1.0,
+        "teamForm": 0.69,
+        "opponentForm": 0.18,
+        "venueForm": 0.11,
         "venueFormSource": "current season",
-        "opponentVenueForm": 0.11,
+        "opponentVenueForm": 0.44,
         "fixtureLoad": 2,
-        "opponent": "Aston Villa",
+        "opponent": "Man Utd",
         "isHome": false,
         "trackRecordVsOpponent": {
           "meetings": 4,
-          "goals": 0,
-          "assists": 0,
-          "involvementsPerMatch": 0.0
+          "goals": 1,
+          "assists": 1,
+          "involvementsPerMatch": 0.5
         }
       }
     }
@@ -257,7 +257,7 @@
         "factors": {
           "epNext": 10.5,
           "ownForm": 10.5,
-          "teamForm": 1.0,
+          "teamForm": 0.83,
           "opponentForm": 0.83,
           "venueForm": 0.67,
           "venueFormSource": "current season",
@@ -482,7 +482,7 @@
           "awayWins": 0,
           "meetings": 5
         },
-        "homeAvailability": 0.89,
+        "homeAvailability": 0.9,
         "awayAvailability": 1.0,
         "homeTransferImpactM": 10.0,
         "awayTransferImpactM": -5.5
@@ -631,7 +631,7 @@
       "awayWinPct": 38,
       "predictedScore": "1.3 \u2014 1.3",
       "factors": {
-        "homeForm": 0.25,
+        "homeForm": 0.26,
         "awayForm": 0.34,
         "h2h": {
           "homeWins": 2,
@@ -726,20 +726,20 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 32,
+      "homeWinPct": 34,
       "drawPct": 27,
-      "awayWinPct": 41,
-      "predictedScore": "1.1 \u2014 1.4",
+      "awayWinPct": 39,
+      "predictedScore": "1.2 \u2014 1.3",
       "factors": {
         "homeForm": 0.83,
-        "awayForm": 1.0,
+        "awayForm": 0.83,
         "h2h": {
           "homeWins": 3,
           "draws": 0,
           "awayWins": 2,
           "meetings": 5
         },
-        "homeAvailability": 0.75,
+        "homeAvailability": 0.76,
         "awayAvailability": 0.95,
         "homeTransferImpactM": 5.5,
         "awayTransferImpactM": -6.0
@@ -777,12 +777,12 @@
         }
       },
       "homeWinPct": 48,
-      "drawPct": 24,
-      "awayWinPct": 28,
+      "drawPct": 25,
+      "awayWinPct": 27,
       "predictedScore": "1.4 \u2014 1.2",
       "factors": {
         "homeForm": 0.18,
-        "awayForm": 0.63,
+        "awayForm": 0.69,
         "h2h": {
           "homeWins": 1,
           "draws": 3,
@@ -826,12 +826,12 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 35,
+      "homeWinPct": 34,
       "drawPct": 27,
-      "awayWinPct": 38,
-      "predictedScore": "1.3 \u2014 1.3",
+      "awayWinPct": 39,
+      "predictedScore": "1.2 \u2014 1.3",
       "factors": {
-        "homeForm": 0.37,
+        "homeForm": 0.29,
         "awayForm": 0.32,
         "h2h": {
           "homeWins": 1,
@@ -2363,7 +2363,7 @@
       "nextIsHome": false,
       "nextFdr": 4,
       "nextFdrClass": "hard",
-      "form": 0.63,
+      "form": 0.69,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -2743,7 +2743,7 @@
       "nextIsHome": false,
       "nextFdr": 4,
       "nextFdrClass": "hard",
-      "form": 1.0,
+      "form": 0.83,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -2930,7 +2930,7 @@
         }
       ],
       "squadRating": 4.38,
-      "squadValue": "\u00a3182.7m",
+      "squadValue": "\u00a3182.8m",
       "leagueRank": 8,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -3353,7 +3353,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.25,
+      "form": 0.26,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -4285,7 +4285,7 @@
         }
       ],
       "squadRating": 4.66,
-      "squadValue": "\u00a3151.6m",
+      "squadValue": "\u00a3151.5m",
       "leagueRank": 4,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -5665,7 +5665,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.37,
+      "form": 0.29,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -5716,7 +5716,7 @@
       "avatar": "PL",
       "avatarClass": "",
       "price": "\u00a36.5m",
-      "owned": "2.8%",
+      "owned": "2.9%",
       "points": 34,
       "epNext": 10.0,
       "form": 10.0,
@@ -5738,36 +5738,36 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
-    "411": {
-      "id": 411,
-      "name": "Erling Haaland",
-      "shortName": "Haaland",
+    "79": {
+      "id": 79,
+      "name": "Francisco Evanilson de Lima Barbosa",
+      "shortName": "Evanilson",
       "position": "FWD",
-      "team": "Man City",
-      "avatar": "EH",
+      "team": "Bournemouth",
+      "avatar": "FE",
       "avatarClass": "pink-avatar",
-      "price": "\u00a315.7m",
-      "owned": "77.0%",
-      "points": 58,
+      "price": "\u00a36.1m",
+      "owned": "4.8%",
+      "points": 37,
       "epNext": 9.5,
       "form": 9.5,
-      "minutes": 619,
-      "goals": 8,
-      "assists": 0,
-      "xg": 5.69,
-      "xa": 0.77,
-      "valueScore": 3.7,
-      "tackles": 1,
-      "clearancesBlocksInterceptions": 12,
-      "recoveries": 14,
+      "minutes": 592,
+      "goals": 2,
+      "assists": 4,
+      "xg": 2.59,
+      "xa": 0.97,
+      "valueScore": 6.1,
+      "tackles": 6,
+      "clearancesBlocksInterceptions": 14,
+      "recoveries": 21,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 100,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 5,
-      "fixture": "vs Aston Villa (A)",
-      "fdr": 3,
-      "fdrClass": "mid"
+      "positionPercentile": 62,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Man Utd (A)",
+      "fdr": 4,
+      "fdrClass": "hard"
     },
     "124": {
       "id": 124,
@@ -5799,6 +5799,37 @@
       "fixture": "vs Liverpool (A)",
       "fdr": 4,
       "fdrClass": "hard"
+    },
+    "411": {
+      "id": 411,
+      "name": "Erling Haaland",
+      "shortName": "Haaland",
+      "position": "FWD",
+      "team": "Man City",
+      "avatar": "EH",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a315.7m",
+      "owned": "77.0%",
+      "points": 58,
+      "epNext": 9.5,
+      "form": 9.5,
+      "minutes": 619,
+      "goals": 8,
+      "assists": 0,
+      "xg": 5.69,
+      "xa": 0.77,
+      "valueScore": 3.7,
+      "tackles": 1,
+      "clearancesBlocksInterceptions": 12,
+      "recoveries": 14,
+      "saves": 0,
+      "cleanSheets": 3,
+      "positionPercentile": 100,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Aston Villa (A)",
+      "fdr": 3,
+      "fdrClass": "mid"
     },
     "504": {
       "id": 504,
@@ -5924,37 +5955,6 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
-    "79": {
-      "id": 79,
-      "name": "Francisco Evanilson de Lima Barbosa",
-      "shortName": "Evanilson",
-      "position": "FWD",
-      "team": "Bournemouth",
-      "avatar": "FE",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a36.1m",
-      "owned": "4.8%",
-      "points": 37,
-      "epNext": 9.5,
-      "form": 9.5,
-      "minutes": 592,
-      "goals": 2,
-      "assists": 4,
-      "xg": 2.59,
-      "xa": 0.97,
-      "valueScore": 6.1,
-      "tackles": 6,
-      "clearancesBlocksInterceptions": 14,
-      "recoveries": 21,
-      "saves": 0,
-      "cleanSheets": 3,
-      "positionPercentile": 62,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Man Utd (A)",
-      "fdr": 4,
-      "fdrClass": "hard"
-    },
     "138": {
       "id": 138,
       "name": "Charalampos Kostoulas",
@@ -5994,8 +5994,8 @@
       "team": "Chelsea",
       "avatar": "CP",
       "avatarClass": "orange-avatar",
-      "price": "\u00a39.7m",
-      "owned": "27.0%",
+      "price": "\u00a39.8m",
+      "owned": "27.1%",
       "points": 38,
       "epNext": 5.0,
       "form": 5.0,
@@ -6026,7 +6026,7 @@
       "avatar": "TB",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.7m",
-      "owned": "8.2%",
+      "owned": "8.1%",
       "points": 28,
       "epNext": 4.0,
       "form": 4.0,
@@ -6056,8 +6056,8 @@
       "team": "Man Utd",
       "avatar": "BM",
       "avatarClass": "pink-avatar",
-      "price": "\u00a37.8m",
-      "owned": "20.8%",
+      "price": "\u00a37.9m",
+      "owned": "20.9%",
       "points": 41,
       "epNext": 8.0,
       "form": 8.0,
@@ -6066,7 +6066,7 @@
       "assists": 1,
       "xg": 3.96,
       "xa": 0.9,
-      "valueScore": 5.3,
+      "valueScore": 5.2,
       "tackles": 6,
       "clearancesBlocksInterceptions": 8,
       "recoveries": 16,
@@ -6491,7 +6491,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "54.1%",
+      "owned": "54.2%",
       "points": 44,
       "epNext": 7.5,
       "form": 7.5,
@@ -6522,7 +6522,7 @@
       "avatar": "RC",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "38.3%",
+      "owned": "38.4%",
       "points": 44,
       "epNext": 5.0,
       "form": 5.0,
@@ -6553,7 +6553,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.1m",
-      "owned": "44.6%",
+      "owned": "44.7%",
       "points": 42,
       "epNext": 6.0,
       "form": 6.0,
@@ -6584,7 +6584,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.2m",
-      "owned": "10.3%",
+      "owned": "10.5%",
       "points": 42,
       "epNext": 5.5,
       "form": 5.5,
@@ -6646,7 +6646,7 @@
       "avatar": "KS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.2m",
-      "owned": "14.2%",
+      "owned": "14.3%",
       "points": 40,
       "epNext": 0.5,
       "form": 0.5,
@@ -6739,7 +6739,7 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.6m",
-      "owned": "15.1%",
+      "owned": "14.8%",
       "points": 37,
       "epNext": 1.2,
       "form": 2.5,
@@ -6832,7 +6832,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.3m",
-      "owned": "11.2%",
+      "owned": "11.0%",
       "points": 37,
       "epNext": 0.0,
       "form": 2.0,
@@ -6925,7 +6925,7 @@
       "avatar": "KD",
       "avatarClass": "",
       "price": "\u00a36.6m",
-      "owned": "6.1%",
+      "owned": "6.0%",
       "points": 35,
       "epNext": 7.5,
       "form": 7.5,
@@ -7018,7 +7018,7 @@
       "avatar": "TM",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.0m",
-      "owned": "5.0%",
+      "owned": "5.1%",
       "points": 34,
       "epNext": 3.5,
       "form": 3.5,
@@ -7080,7 +7080,7 @@
       "avatar": "DC",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.1m",
-      "owned": "23.6%",
+      "owned": "23.7%",
       "points": 33,
       "epNext": 5.5,
       "form": 5.5,
@@ -7111,7 +7111,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a311.8m",
-      "owned": "28.3%",
+      "owned": "28.2%",
       "points": 33,
       "epNext": 1.0,
       "form": 1.0,
@@ -7204,7 +7204,7 @@
       "avatar": "HB",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.1m",
-      "owned": "7.7%",
+      "owned": "7.6%",
       "points": 32,
       "epNext": 2.0,
       "form": 2.0,
@@ -8010,7 +8010,7 @@
       "avatar": "EK",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.6m",
-      "owned": "18.0%",
+      "owned": "18.1%",
       "points": 25,
       "epNext": 6.5,
       "form": 6.5,
@@ -8351,7 +8351,7 @@
       "avatar": "AK",
       "avatarClass": "",
       "price": "\u00a34.5m",
-      "owned": "15.2%",
+      "owned": "15.1%",
       "points": 23,
       "epNext": 2.5,
       "form": 2.5,
@@ -8568,7 +8568,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a36.8m",
-      "owned": "18.4%",
+      "owned": "18.2%",
       "points": 21,
       "epNext": 0.0,
       "form": 0.5,
@@ -8661,7 +8661,7 @@
       "avatar": "GG",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.1m",
-      "owned": "6.8%",
+      "owned": "6.7%",
       "points": 18,
       "epNext": 2.0,
       "form": 2.0,
@@ -8785,7 +8785,7 @@
       "avatar": "YW",
       "avatarClass": "",
       "price": "\u00a36.1m",
-      "owned": "13.6%",
+      "owned": "13.5%",
       "points": 18,
       "epNext": 1.5,
       "form": 1.5,
@@ -8970,7 +8970,7 @@
       "team": "Man Utd",
       "avatar": "HM",
       "avatarClass": "orange-avatar",
-      "price": "\u00a34.8m",
+      "price": "\u00a34.7m",
       "owned": "6.6%",
       "points": 16,
       "epNext": 3.0,
@@ -8980,7 +8980,7 @@
       "assists": 1,
       "xg": 0.32,
       "xa": 0.47,
-      "valueScore": 3.3,
+      "valueScore": 3.4,
       "tackles": 7,
       "clearancesBlocksInterceptions": 44,
       "recoveries": 31,
@@ -9188,7 +9188,7 @@
       "avatar": "NO",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.3m",
-      "owned": "9.1%",
+      "owned": "9.0%",
       "points": 13,
       "epNext": 2.6,
       "form": 3.5,
@@ -9676,7 +9676,7 @@
       "fdrClass": "hard"
     }
   },
-  "totalManagers": 11149135,
+  "totalManagers": 11149734,
   "totalPlayers": 668,
   "priceMovement": {
     "risers": [
@@ -9719,7 +9719,7 @@
         "changeEvent": -0.1
       },
       {
-        "id": "464",
+        "id": "418",
         "changeEvent": -0.1
       }
     ]
@@ -9961,45 +9961,45 @@
     "rising": [
       {
         "id": "68",
-        "netTransfersEvent": 263222
+        "netTransfersEvent": 284172
       },
       {
         "id": "124",
-        "netTransfersEvent": 198400
+        "netTransfersEvent": 202266
       },
       {
         "id": "115",
-        "netTransfersEvent": 185762
+        "netTransfersEvent": 190569
       },
       {
         "id": "399",
-        "netTransfersEvent": 163289
+        "netTransfersEvent": 168861
       },
       {
         "id": "40",
-        "netTransfersEvent": 156347
+        "netTransfersEvent": 163964
       }
     ],
     "falling": [
       {
-        "id": "368",
-        "netTransfersEvent": -372286
+        "id": "397",
+        "netTransfersEvent": -385753
       },
       {
-        "id": "397",
-        "netTransfersEvent": -368943
+        "id": "368",
+        "netTransfersEvent": -384821
       },
       {
         "id": "426",
-        "netTransfersEvent": -280966
-      },
-      {
-        "id": "464",
-        "netTransfersEvent": -213266
+        "netTransfersEvent": -293931
       },
       {
         "id": "12",
-        "netTransfersEvent": -199211
+        "netTransfersEvent": -235538
+      },
+      {
+        "id": "464",
+        "netTransfersEvent": -220305
       }
     ]
   }
