@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-23T00:19:47.542451+00:00",
+  "generatedAt": "2026-10-23T05:38:44.189886+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cre3x9e7gyq7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T05:32:12+00:00"
+    },
     {
       "title": "PL Predictions: Delap's Ipswich reunion to get feisty",
       "description": "Our top tipster Lewis Jones, aka Jones Knows, provides his analysis and betting insight for a busy weekend of Premier League action.",
@@ -103,15 +112,6 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-10-22T21:30:31+00:00"
-    },
-    {
-      "title": "Sunderland latest: Poznan draw \u2018good experience\u2019, says Le Bris",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13375102/sunderland-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-22T21:00:00+00:00"
     }
   ]
 }
