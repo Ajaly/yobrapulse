@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T21:21:49.276525+00:00",
+  "generatedAt": "2026-10-24T23:55:07.027120+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -10,11 +10,28 @@
   "fixturesGameweekName": "Gameweek 8",
   "captainPicks": [
     {
-      "id": "31",
-      "score": 12.09,
+      "id": "4",
+      "score": 11.7,
       "factors": {
-        "epNext": 9.3,
-        "ownForm": 9.3,
+        "epNext": 9.0,
+        "ownForm": 9.0,
+        "teamForm": null,
+        "opponentForm": null,
+        "venueForm": null,
+        "venueFormSource": null,
+        "opponentVenueForm": null,
+        "fixtureLoad": 1,
+        "opponent": null,
+        "isHome": null,
+        "trackRecordVsOpponent": null
+      }
+    },
+    {
+      "id": "31",
+      "score": 11.7,
+      "factors": {
+        "epNext": 9.0,
+        "ownForm": 9.0,
         "teamForm": null,
         "opponentForm": null,
         "venueForm": null,
@@ -32,23 +49,6 @@
       "factors": {
         "epNext": 9.0,
         "ownForm": 9.0,
-        "teamForm": null,
-        "opponentForm": null,
-        "venueForm": null,
-        "venueFormSource": null,
-        "opponentVenueForm": null,
-        "fixtureLoad": 1,
-        "opponent": null,
-        "isHome": null,
-        "trackRecordVsOpponent": null
-      }
-    },
-    {
-      "id": "4",
-      "score": 11.31,
-      "factors": {
-        "epNext": 8.7,
-        "ownForm": 8.7,
         "teamForm": null,
         "opponentForm": null,
         "venueForm": null,
@@ -132,9 +132,9 @@
     "138",
     "40",
     "427",
-    "31",
     "94",
     "13",
+    "31",
     "286",
     "572",
     "109",
@@ -444,9 +444,9 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 21,
-        "drawPct": 24,
-        "awayWinPct": 55
+        "homeWinPct": 20,
+        "drawPct": 23,
+        "awayWinPct": 57
       }
     },
     {
@@ -1728,7 +1728,7 @@
         }
       ],
       "squadRating": 5.45,
-      "squadValue": "\u00a3176.3m",
+      "squadValue": "\u00a3176.4m",
       "leagueRank": 2,
       "strengthHome": 4,
       "strengthAway": 5,
@@ -1933,7 +1933,7 @@
         }
       ],
       "squadRating": 3.91,
-      "squadValue": "\u00a3179.7m",
+      "squadValue": "\u00a3179.8m",
       "leagueRank": 12,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -3248,7 +3248,7 @@
         }
       ],
       "squadRating": 4.15,
-      "squadValue": "\u00a3130.0m",
+      "squadValue": "\u00a3129.9m",
       "leagueRank": 8,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -3413,7 +3413,7 @@
         }
       ],
       "squadRating": 4.14,
-      "squadValue": "\u00a3134.3m",
+      "squadValue": "\u00a3134.2m",
       "leagueRank": 9,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -4038,7 +4038,7 @@
         }
       ],
       "squadRating": 4.66,
-      "squadValue": "\u00a3151.5m",
+      "squadValue": "\u00a3151.4m",
       "leagueRank": 4,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -4243,7 +4243,7 @@
         }
       ],
       "squadRating": 4.39,
-      "squadValue": "\u00a3193.9m",
+      "squadValue": "\u00a3193.8m",
       "leagueRank": 6,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -5005,7 +5005,7 @@
         }
       ],
       "squadRating": 3.41,
-      "squadValue": "\u00a3151.8m",
+      "squadValue": "\u00a3151.7m",
       "leagueRank": 18,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -5410,7 +5410,7 @@
         }
       ],
       "squadRating": 3.04,
-      "squadValue": "\u00a3148.8m",
+      "squadValue": "\u00a3148.7m",
       "leagueRank": 20,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -5429,6 +5429,34 @@
     }
   ],
   "players": {
+    "4": {
+      "id": 4,
+      "name": "Gabriel dos Santos Magalh\u00e3es",
+      "shortName": "Gabriel",
+      "position": "DEF",
+      "team": "Arsenal",
+      "avatar": "GD",
+      "avatarClass": "",
+      "price": "\u00a37.9m",
+      "owned": "21.3%",
+      "points": 52,
+      "epNext": 9.0,
+      "form": 9.0,
+      "minutes": 720,
+      "goals": 1,
+      "assists": 0,
+      "xg": 1.47,
+      "xa": 0.25,
+      "valueScore": 6.6,
+      "tackles": 11,
+      "clearancesBlocksInterceptions": 61,
+      "recoveries": 24,
+      "saves": 0,
+      "cleanSheets": 5,
+      "positionPercentile": 85,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5
+    },
     "31": {
       "id": 31,
       "name": "Ezri Konsa Ngoyo",
@@ -5438,22 +5466,22 @@
       "avatar": "EK",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.6m",
-      "owned": "19.0%",
-      "points": 40,
-      "epNext": 9.3,
-      "form": 9.3,
+      "owned": "19.1%",
+      "points": 39,
+      "epNext": 9.0,
+      "form": 9.0,
       "minutes": 551,
       "goals": 1,
       "assists": 0,
-      "xg": 0.59,
+      "xg": 0.61,
       "xa": 0.03,
-      "valueScore": 8.7,
+      "valueScore": 8.5,
       "tackles": 10,
       "clearancesBlocksInterceptions": 30,
       "recoveries": 21,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 85,
+      "positionPercentile": 82,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -5482,34 +5510,6 @@
       "saves": 0,
       "cleanSheets": 3,
       "positionPercentile": 100,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 5
-    },
-    "4": {
-      "id": 4,
-      "name": "Gabriel dos Santos Magalh\u00e3es",
-      "shortName": "Gabriel",
-      "position": "DEF",
-      "team": "Arsenal",
-      "avatar": "GD",
-      "avatarClass": "",
-      "price": "\u00a37.9m",
-      "owned": "21.3%",
-      "points": 51,
-      "epNext": 8.7,
-      "form": 8.7,
-      "minutes": 720,
-      "goals": 1,
-      "assists": 0,
-      "xg": 1.45,
-      "xa": 0.25,
-      "valueScore": 6.5,
-      "tackles": 10,
-      "clearancesBlocksInterceptions": 60,
-      "recoveries": 24,
-      "saves": 0,
-      "cleanSheets": 5,
-      "positionPercentile": 82,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5
     },
@@ -5584,7 +5584,7 @@
       "avatar": "LV",
       "avatarClass": "",
       "price": "\u00a35.1m",
-      "owned": "6.3%",
+      "owned": "6.4%",
       "points": 51,
       "epNext": 6.3,
       "form": 6.3,
@@ -5642,8 +5642,8 @@
       "team": "Arsenal",
       "avatar": "DR",
       "avatarClass": "blue-avatar",
-      "price": "\u00a37.3m",
-      "owned": "12.2%",
+      "price": "\u00a37.4m",
+      "owned": "12.3%",
       "points": 39,
       "epNext": 6.3,
       "form": 6.3,
@@ -5651,7 +5651,7 @@
       "goals": 0,
       "assists": 4,
       "xg": 0.32,
-      "xa": 1.6,
+      "xa": 1.65,
       "valueScore": 5.3,
       "tackles": 10,
       "clearancesBlocksInterceptions": 28,
@@ -5761,14 +5761,14 @@
       "avatar": "TB",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.7m",
-      "owned": "7.7%",
+      "owned": "7.6%",
       "points": 30,
       "epNext": 3.3,
       "form": 3.3,
       "minutes": 682,
       "goals": 3,
       "assists": 0,
-      "xg": 4.96,
+      "xg": 5.08,
       "xa": 0.17,
       "valueScore": 5.3,
       "tackles": 2,
@@ -5820,7 +5820,7 @@
       "avatar": "AI",
       "avatarClass": "pink-avatar",
       "price": "\u00a39.0m",
-      "owned": "14.0%",
+      "owned": "14.1%",
       "points": 42,
       "epNext": 3.0,
       "form": 3.0,
@@ -6214,7 +6214,7 @@
       "avatar": "JT",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.2m",
-      "owned": "18.2%",
+      "owned": "18.3%",
       "points": 48,
       "epNext": 1.7,
       "form": 1.7,
@@ -6242,7 +6242,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.9m",
-      "owned": "73.4%",
+      "owned": "73.3%",
       "points": 47,
       "epNext": 3.5,
       "form": 4.7,
@@ -6334,7 +6334,7 @@
       "goals": 0,
       "assists": 3,
       "xg": 0.18,
-      "xa": 0.84,
+      "xa": 0.83,
       "valueScore": 7.8,
       "tackles": 10,
       "clearancesBlocksInterceptions": 18,
@@ -6354,7 +6354,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.3m",
-      "owned": "14.2%",
+      "owned": "14.3%",
       "points": 42,
       "epNext": 3.7,
       "form": 3.7,
@@ -6741,7 +6741,7 @@
       "goals": 2,
       "assists": 0,
       "xg": 2.16,
-      "xa": 1.81,
+      "xa": 2.02,
       "valueScore": 5.3,
       "tackles": 6,
       "clearancesBlocksInterceptions": 6,
@@ -6819,8 +6819,8 @@
       "team": "Aston Villa",
       "avatar": "NJ",
       "avatarClass": "orange-avatar",
-      "price": "\u00a36.6m",
-      "owned": "5.8%",
+      "price": "\u00a36.7m",
+      "owned": "6.0%",
       "points": 34,
       "epNext": 8.0,
       "form": 8.0,
@@ -6829,7 +6829,7 @@
       "assists": 0,
       "xg": 1.83,
       "xa": 0.87,
-      "valueScore": 5.2,
+      "valueScore": 5.1,
       "tackles": 3,
       "clearancesBlocksInterceptions": 3,
       "recoveries": 15,
@@ -7146,7 +7146,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a37.9m",
-      "owned": "12.3%",
+      "owned": "12.2%",
       "points": 32,
       "epNext": 1.3,
       "form": 1.3,
@@ -7918,7 +7918,7 @@
       "goals": 2,
       "assists": 0,
       "xg": 2.14,
-      "xa": 0.43,
+      "xa": 0.42,
       "valueScore": 3.2,
       "tackles": 1,
       "clearancesBlocksInterceptions": 7,
@@ -8204,7 +8204,7 @@
       "team": "Liverpool",
       "avatar": "DS",
       "avatarClass": "",
-      "price": "\u00a36.8m",
+      "price": "\u00a36.7m",
       "owned": "15.9%",
       "points": 21,
       "epNext": 0.0,
@@ -8263,8 +8263,8 @@
       "team": "Fulham",
       "avatar": "GG",
       "avatarClass": "blue-avatar",
-      "price": "\u00a36.1m",
-      "owned": "6.2%",
+      "price": "\u00a36.0m",
+      "owned": "6.1%",
       "points": 20,
       "epNext": 2.0,
       "form": 2.0,
@@ -8438,7 +8438,7 @@
       "avatar": "YW",
       "avatarClass": "",
       "price": "\u00a36.1m",
-      "owned": "12.4%",
+      "owned": "12.3%",
       "points": 18,
       "epNext": 1.0,
       "form": 1.0,
@@ -8676,7 +8676,7 @@
       "team": "Sunderland",
       "avatar": "TH",
       "avatarClass": "orange-avatar",
-      "price": "\u00a34.3m",
+      "price": "\u00a34.2m",
       "owned": "2.0%",
       "points": 14,
       "epNext": 1.3,
@@ -9166,7 +9166,7 @@
       "teamStrengthAway": 3
     }
   },
-  "totalManagers": 11167992,
+  "totalManagers": 11168692,
   "totalPlayers": 669,
   "priceMovement": {
     "risers": [
@@ -9175,19 +9175,19 @@
         "changeEvent": 0.1
       },
       {
+        "id": "13",
+        "changeEvent": 0.1
+      },
+      {
+        "id": "166",
+        "changeEvent": 0.1
+      },
+      {
         "id": "68",
         "changeEvent": 0.1
       },
       {
         "id": "79",
-        "changeEvent": 0.1
-      },
-      {
-        "id": "138",
-        "changeEvent": 0.1
-      },
-      {
-        "id": "156",
         "changeEvent": 0.1
       }
     ],
@@ -9205,11 +9205,11 @@
         "changeEvent": -0.1
       },
       {
-        "id": "316",
+        "id": "569",
         "changeEvent": -0.1
       },
       {
-        "id": "397",
+        "id": "316",
         "changeEvent": -0.1
       }
     ]
@@ -9219,11 +9219,11 @@
     "points": [
       {
         "id": "4",
-        "value": 16
+        "value": 17
       },
       {
         "id": "31",
-        "value": 15
+        "value": 14
       },
       {
         "id": "166",
@@ -9284,12 +9284,12 @@
     ],
     "defensive": [
       {
-        "id": "32",
-        "value": 13
+        "id": "4",
+        "value": 14
       },
       {
-        "id": "4",
-        "value": 12
+        "id": "32",
+        "value": 13
       },
       {
         "id": "156",
@@ -9306,7 +9306,7 @@
     ],
     "bonus": [
       {
-        "id": "31",
+        "id": "4",
         "value": 3
       },
       {
@@ -9314,7 +9314,7 @@
         "value": 3
       },
       {
-        "id": "4",
+        "id": "31",
         "value": 2
       },
       {
@@ -9451,45 +9451,45 @@
     "rising": [
       {
         "id": "166",
-        "netTransfersEvent": 171978
+        "netTransfersEvent": 192840
       },
       {
         "id": "68",
-        "netTransfersEvent": 95900
+        "netTransfersEvent": 102065
       },
       {
         "id": "31",
-        "netTransfersEvent": 41231
+        "netTransfersEvent": 47720
       },
       {
         "id": "53",
-        "netTransfersEvent": 35559
+        "netTransfersEvent": 38437
       },
       {
         "id": "124",
-        "netTransfersEvent": 30543
+        "netTransfersEvent": 32415
       }
     ],
     "falling": [
       {
         "id": "12",
-        "netTransfersEvent": -83468
+        "netTransfersEvent": -87528
       },
       {
         "id": "346",
-        "netTransfersEvent": -66790
+        "netTransfersEvent": -71511
       },
       {
         "id": "368",
-        "netTransfersEvent": -49016
+        "netTransfersEvent": -52325
       },
       {
         "id": "397",
-        "netTransfersEvent": -48282
+        "netTransfersEvent": -50775
       },
       {
         "id": "569",
-        "netTransfersEvent": -38089
+        "netTransfersEvent": -43560
       }
     ]
   }
