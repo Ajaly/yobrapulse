@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T11:47:09.122678+00:00",
+  "generatedAt": "2026-10-24T15:12:13.364056+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -10,10 +10,10 @@
           "rank": 1,
           "team": "Manchester City",
           "shortTeam": "Man City",
-          "played": 7,
+          "played": 8,
           "wins": 7,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "points": 21
         },
         {
@@ -58,6 +58,16 @@
         },
         {
           "rank": 6,
+          "team": "Aston Villa",
+          "shortTeam": "Aston Villa",
+          "played": 8,
+          "wins": 3,
+          "draws": 2,
+          "losses": 3,
+          "points": 11
+        },
+        {
+          "rank": 7,
           "team": "Brentford",
           "shortTeam": "Brentford",
           "played": 7,
@@ -67,7 +77,7 @@
           "points": 10
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": "Leeds United",
           "shortTeam": "Leeds",
           "played": 7,
@@ -77,7 +87,7 @@
           "points": 10
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team": "Everton",
           "shortTeam": "Everton",
           "played": 7,
@@ -87,7 +97,7 @@
           "points": 10
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": "Ipswich Town",
           "shortTeam": "Ipswich",
           "played": 8,
@@ -97,7 +107,7 @@
           "points": 10
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team": "Hull City",
           "shortTeam": "Hull",
           "played": 7,
@@ -107,19 +117,9 @@
           "points": 9
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": "Newcastle United",
           "shortTeam": "Newcastle",
-          "played": 7,
-          "wins": 2,
-          "draws": 2,
-          "losses": 3,
-          "points": 8
-        },
-        {
-          "rank": 12,
-          "team": "Aston Villa",
-          "shortTeam": "Aston Villa",
           "played": 7,
           "wins": 2,
           "draws": 2,
@@ -432,6 +432,10 @@
           "name": "Liverpool"
         },
         {
+          "id": "362",
+          "name": "Aston Villa"
+        },
+        {
           "id": "337",
           "name": "Brentford"
         },
@@ -454,10 +458,6 @@
         {
           "id": "361",
           "name": "Newcastle United"
-        },
-        {
-          "id": "362",
-          "name": "Aston Villa"
         },
         {
           "id": "360",
@@ -609,6 +609,16 @@
         },
         {
           "rank": 12,
+          "team": "Elche",
+          "shortTeam": "Elche",
+          "played": 10,
+          "wins": 2,
+          "draws": 4,
+          "losses": 4,
+          "points": 10
+        },
+        {
+          "rank": 13,
           "team": "Villarreal",
           "shortTeam": "Villarreal",
           "played": 9,
@@ -618,19 +628,9 @@
           "points": 9
         },
         {
-          "rank": 13,
+          "rank": 14,
           "team": "Athletic Club",
           "shortTeam": "Athletic",
-          "played": 8,
-          "wins": 2,
-          "draws": 3,
-          "losses": 3,
-          "points": 9
-        },
-        {
-          "rank": 14,
-          "team": "Rayo Vallecano",
-          "shortTeam": "Rayo",
           "played": 8,
           "wins": 2,
           "draws": 3,
@@ -649,6 +649,16 @@
         },
         {
           "rank": 16,
+          "team": "Rayo Vallecano",
+          "shortTeam": "Rayo",
+          "played": 9,
+          "wins": 2,
+          "draws": 3,
+          "losses": 4,
+          "points": 9
+        },
+        {
+          "rank": 17,
           "team": "Espanyol",
           "shortTeam": "Espanyol",
           "played": 9,
@@ -658,7 +668,7 @@
           "points": 8
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "Racing Santander",
           "shortTeam": "Racing",
           "played": 9,
@@ -666,16 +676,6 @@
           "draws": 2,
           "losses": 5,
           "points": 8
-        },
-        {
-          "rank": 18,
-          "team": "Elche",
-          "shortTeam": "Elche",
-          "played": 9,
-          "wins": 1,
-          "draws": 4,
-          "losses": 4,
-          "points": 7
         },
         {
           "rank": 19,
@@ -947,6 +947,10 @@
           "name": "Levante"
         },
         {
+          "id": "3751",
+          "name": "Elche"
+        },
+        {
           "id": "102",
           "name": "Villarreal"
         },
@@ -955,12 +959,12 @@
           "name": "Athletic Club"
         },
         {
-          "id": "101",
-          "name": "Rayo Vallecano"
-        },
-        {
           "id": "2922",
           "name": "Getafe"
+        },
+        {
+          "id": "101",
+          "name": "Rayo Vallecano"
         },
         {
           "id": "88",
@@ -969,10 +973,6 @@
         {
           "id": "87",
           "name": "Racing Santander"
-        },
-        {
-          "id": "3751",
-          "name": "Elche"
         },
         {
           "id": "94",
@@ -1020,6 +1020,16 @@
         },
         {
           "rank": 4,
+          "team": "Como",
+          "shortTeam": "Como",
+          "played": 8,
+          "wins": 5,
+          "draws": 2,
+          "losses": 1,
+          "points": 17
+        },
+        {
+          "rank": 5,
           "team": "AC Milan",
           "shortTeam": "Milan",
           "played": 7,
@@ -1027,16 +1037,6 @@
           "draws": 3,
           "losses": 0,
           "points": 15
-        },
-        {
-          "rank": 5,
-          "team": "Como",
-          "shortTeam": "Como",
-          "played": 7,
-          "wins": 4,
-          "draws": 2,
-          "losses": 1,
-          "points": 14
         },
         {
           "rank": 6,
@@ -1050,18 +1050,18 @@
         },
         {
           "rank": 7,
-          "team": "Cagliari",
-          "shortTeam": "Cagliari",
-          "played": 7,
+          "team": "Torino",
+          "shortTeam": "Torino",
+          "played": 8,
           "wins": 4,
           "draws": 1,
-          "losses": 2,
+          "losses": 3,
           "points": 13
         },
         {
           "rank": 8,
-          "team": "Torino",
-          "shortTeam": "Torino",
+          "team": "Cagliari",
+          "shortTeam": "Cagliari",
           "played": 8,
           "wins": 4,
           "draws": 1,
@@ -1110,16 +1110,26 @@
         },
         {
           "rank": 13,
-          "team": "Sassuolo",
-          "shortTeam": "Sassuolo",
-          "played": 7,
+          "team": "Bologna",
+          "shortTeam": "Bologna",
+          "played": 8,
           "wins": 2,
           "draws": 2,
-          "losses": 3,
+          "losses": 4,
           "points": 8
         },
         {
           "rank": 14,
+          "team": "Sassuolo",
+          "shortTeam": "Sassuolo",
+          "played": 8,
+          "wins": 2,
+          "draws": 2,
+          "losses": 4,
+          "points": 8
+        },
+        {
+          "rank": 15,
           "team": "Monza",
           "shortTeam": "Monza",
           "played": 8,
@@ -1127,16 +1137,6 @@
           "draws": 1,
           "losses": 5,
           "points": 7
-        },
-        {
-          "rank": 15,
-          "team": "Bologna",
-          "shortTeam": "Bologna",
-          "played": 7,
-          "wins": 1,
-          "draws": 2,
-          "losses": 4,
-          "points": 5
         },
         {
           "rank": 16,
@@ -1406,24 +1406,24 @@
           "name": "AS Roma"
         },
         {
-          "id": "103",
-          "name": "AC Milan"
-        },
-        {
           "id": "2572",
           "name": "Como"
+        },
+        {
+          "id": "103",
+          "name": "AC Milan"
         },
         {
           "id": "4057",
           "name": "Frosinone"
         },
         {
-          "id": "2925",
-          "name": "Cagliari"
-        },
-        {
           "id": "239",
           "name": "Torino"
+        },
+        {
+          "id": "2925",
+          "name": "Cagliari"
         },
         {
           "id": "111",
@@ -1442,16 +1442,16 @@
           "name": "Lecce"
         },
         {
+          "id": "107",
+          "name": "Bologna"
+        },
+        {
           "id": "3997",
           "name": "Sassuolo"
         },
         {
           "id": "4007",
           "name": "Monza"
-        },
-        {
-          "id": "107",
-          "name": "Bologna"
         },
         {
           "id": "118",
