@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T22:49:10.950422+00:00",
+  "generatedAt": "2026-10-24T01:18:25.468554+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
@@ -13,6 +13,15 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-23T22:56:00+00:00"
+    },
+    {
+      "title": "'A clear red' - Should Ipswich's Diop have been sent off?",
+      "description": "Issa Diop escaped what Oliver Glasner called \"a clear red card\" during Ipswich's 1-1 draw with Nottingham Forest - but the incident split opinion, so was it the right call or not?",
+      "link": "https://www.skysports.com/football/news/11095/13602915/ipswichs-issa-diop-escaped-a-red-card-for-a-foul-on-nottingham-forests-james-mcatee-but-was-it-the-right-call",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-23T22:52:00+00:00"
     },
     {
       "title": "'We had to scrap' - O'Neil praises Ipswich resilience after Forest draw",
@@ -103,15 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-10-23T21:32:04+00:00"
-    },
-    {
-      "title": "When Carra met Chelsea boss Alonso",
-      "description": "<em>Sky Sports'</em> Jamie Carragher sat down for a wide-ranging interview with Chelsea manager Xabi Alonso in which the pair discussed his appointment at Stamford Bridge and his aims for the season, as well as looking back at their time playing together at Liverpool.",
-      "link": "https://www.skysports.com/football/news/11095/13602758/xabi-alonso-chelsea-manager-sits-down-with-former-liverpool-team-mate-jamie-carragher-for-new-boss-youtube-series",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-23T18:50:00+00:00"
     }
   ]
 }
