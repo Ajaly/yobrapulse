@@ -1,10 +1,73 @@
 {
-  "generatedAt": "2026-10-25T02:42:51.908783+00:00",
+  "generatedAt": "2026-10-25T08:00:00.012931+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "What have Man Utd changed to turn around WSL form?",
+      "description": "It's a different picture at Manchester United now than it was last month - so what have they changed to turn around their WSL form?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T07:58:04+00:00"
+    },
+    {
+      "title": "How Mourinho's Real Madrid can ruin Barcelona's record chase",
+      "description": "Barcelona aim to make La Liga history against Real Madrid, with Jose Mourinho looking to end their winning run.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crgqwzqz8zgwo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T07:55:05+00:00"
+    },
+    {
+      "title": "Who am I? Guess WSL star No 9",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm3wjyq4gyg7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T07:24:39+00:00"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c933x18044epo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T07:21:42+00:00"
+    },
+    {
+      "title": "What Man Utd need now is stability, not more changes - Pulis",
+      "description": "BBC Sport columnist Tony Pulis explains why Bruno Fernandes' comments after Manchester United's defeat by Como showed how hard it must be to run the club at the moment.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck78p37y5508o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T06:34:07+00:00"
+    },
+    {
+      "title": "Why are Liverpool struggling for Premier League goals?",
+      "description": "Liverpool have scored 15 goals in four cup games this season, but have managed only nine goals in seven Premier League matches.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c94g1p32gyrro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T06:26:00+00:00"
+    },
+    {
+      "title": "When is Premier League 'sacking season' - and who should be worried?",
+      "description": "As pressure builds on Manchester United manager Michael Carrick, BBC Sport looks at when the Premier League 'sacking season' begins.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmy83vg66zngo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T06:17:46+00:00"
+    },
     {
       "title": "Should Palmer have been sent off earlier than he was?",
       "description": "Match of the Day pundit Martin Keown looks at the red card shown to Cole Palmer during Chelsea's 2-0 defeat to Tottenham, with the former Arsenal defender agreeing with the decision and suggesting Palmer was lucky not to receive a straight red for an early incident.",
@@ -26,7 +89,7 @@
     {
       "title": "Watch Match of the Day on iPlayer",
       "description": "With Chelsea v Spurs, Arsenal v Everton, Villa v Man City and Coventry v Fulham",
-      "link": "https://www.bbc.co.uk/iplayer/episode/m0033jlx",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
@@ -49,69 +112,6 @@
       "category": "injury",
       "categoryLabel": "Injury",
       "pubDateISO": "2026-10-24T22:23:00+00:00"
-    },
-    {
-      "title": "Papers: Sancho could land in Spain as Getafe offer winger shock deal",
-      "description": "The top stories and transfer rumours from Sunday's newspapers...",
-      "link": "https://www.skysports.com/football/news/11095/13603391/jadon-sancho-offered-shock-deal-by-la-liga-side-getafe-riccardo-calafiori-adds-to-arsenal-injury-woes-paper-talk",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-10-24T22:04:00+00:00"
-    },
-    {
-      "title": "Chelsea latest: Why Palmer will be able to play vs Man Utd after red card",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-24T21:45:00+00:00"
-    },
-    {
-      "title": "Man Utd not an unmanageable club - Carrick",
-      "description": "Michael Carrick says it is possible to manage Manchester United effectively as he clings on to his job with Bournemouth visiting Old Trafford on Sunday.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9ly0dxxgp7lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-24T21:34:19+00:00"
-    },
-    {
-      "title": "The candid meeting that 'changed' Spurs - are they finally on way back?",
-      "description": "Tottenham end Saturday's Premier League action in 12th place, their highest league position since 2 January. Are they finally on their way back?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqev38dz34vxo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-24T21:14:42+00:00"
-    },
-    {
-      "title": "Alonso 'out-coached', 'petulant' Palmer and Penders howler: Chelsea's horror night",
-      "description": "They say bad things come in threes. That was certainly the case for Chelsea on a miserable evening at Stamford Bridge as they lost 2-0 to Tottenham and were described as \"awful\" by Gary Neville.",
-      "link": "https://www.skysports.com/football/news/11095/13603342/chelsea-cole-palmer-red-card-mike-penders-howler-and-out-coached-by-roberto-de-zerbi-on-horror-night-for-xabi-alonso",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-24T21:14:00+00:00"
-    },
-    {
-      "title": "Arteta collating evidence of other managers stepping out of technical area",
-      "description": "Arsenal boss Mikel Arteta says he is compiling footage of rival Premier League managers repeatedly leaving their technical areas after receiving his second yellow card of the season in his side&#8217;s 2-0 win over Everton.",
-      "link": "https://www.skysports.com/football/news/11095/13603372/arsenal-boss-mikel-arteta-reveals-he-clips-up-premier-league-managers-stepping-out-of-technical-area",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-24T20:45:00+00:00"
-    },
-    {
-      "title": "Liverpool among clubs keen on Vuskovic - Sunday's gossip",
-      "description": "Brighton defender Luka Vuskovic is being looked at by high-profile clubs, Liverpool do not intend to bring Trent Alexander-Arnold back, AC Milan are targeting Manchester United's Leny Yoro, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqvgr87py7zvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-24T20:20:30+00:00"
     }
   ]
 }
