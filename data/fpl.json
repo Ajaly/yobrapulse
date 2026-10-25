@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T23:55:07.027120+00:00",
+  "generatedAt": "2026-10-25T02:42:50.961414+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -487,7 +487,7 @@
           "awayWins": 2,
           "meetings": 5
         },
-        "homeAvailability": 0.77,
+        "homeAvailability": 0.78,
         "awayAvailability": 0.95,
         "homeTransferImpactM": 5.5,
         "awayTransferImpactM": -6.0
@@ -620,50 +620,6 @@
   },
   "otherLeaguePredictions": {
     "La Liga": [
-      {
-        "id": "401882830",
-        "home": "Rayo Vallecano",
-        "away": "Elche",
-        "kickoffISO": "2026-10-24T12:00Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 12:00 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 47,
-        "drawPct": 25,
-        "awayWinPct": 28
-      },
-      {
-        "id": "401882831",
-        "home": "Racing Santander",
-        "away": "Espanyol",
-        "kickoffISO": "2026-10-24T14:15Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 14:15 UTC",
-        "hasRealStrengthData": false,
-        "homeWinPct": 45,
-        "drawPct": 25,
-        "awayWinPct": 30
-      },
-      {
-        "id": "401882827",
-        "home": "Valencia",
-        "away": "Villarreal",
-        "kickoffISO": "2026-10-24T16:30Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 16:30 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 38,
-        "drawPct": 26,
-        "awayWinPct": 36
-      },
-      {
-        "id": "401882834",
-        "home": "Atl\u00e9tico Madrid",
-        "away": "Deportivo",
-        "kickoffISO": "2026-10-24T19:00Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 19:00 UTC",
-        "hasRealStrengthData": false,
-        "homeWinPct": 45,
-        "drawPct": 25,
-        "awayWinPct": 30
-      },
       {
         "id": "401882835",
         "home": "Athletic Club",
@@ -839,53 +795,53 @@
         "homeWinPct": 45,
         "drawPct": 25,
         "awayWinPct": 30
+      },
+      {
+        "id": "401882812",
+        "home": "M\u00e1laga",
+        "away": "Racing Santander",
+        "kickoffISO": "2026-11-07T13:00Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 13:00 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
+      },
+      {
+        "id": "401882813",
+        "home": "Espanyol",
+        "away": "Deportivo",
+        "kickoffISO": "2026-11-07T15:15Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 15:15 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
+      },
+      {
+        "id": "401882811",
+        "home": "Osasuna",
+        "away": "Athletic Club",
+        "kickoffISO": "2026-11-07T17:30Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 17:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 44,
+        "drawPct": 25,
+        "awayWinPct": 31
+      },
+      {
+        "id": "401882808",
+        "home": "Valencia",
+        "away": "Real Madrid",
+        "kickoffISO": "2026-11-07T20:00Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 20:00 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 33,
+        "drawPct": 27,
+        "awayWinPct": 40
       }
     ],
     "Serie A": [
-      {
-        "id": "401874958",
-        "home": "Cagliari",
-        "away": "Bologna",
-        "kickoffISO": "2026-10-24T13:00Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 13:00 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 41,
-        "drawPct": 26,
-        "awayWinPct": 33
-      },
-      {
-        "id": "401874961",
-        "home": "Como",
-        "away": "Sassuolo",
-        "kickoffISO": "2026-10-24T13:00Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 13:00 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 52,
-        "drawPct": 24,
-        "awayWinPct": 24
-      },
-      {
-        "id": "401874948",
-        "home": "Napoli",
-        "away": "AS Roma",
-        "kickoffISO": "2026-10-24T16:00Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 16:00 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 46,
-        "drawPct": 25,
-        "awayWinPct": 29
-      },
-      {
-        "id": "401874955",
-        "home": "Lazio",
-        "away": "Parma",
-        "kickoffISO": "2026-10-24T18:45Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 18:45 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 48,
-        "drawPct": 25,
-        "awayWinPct": 27
-      },
       {
         "id": "401875036",
         "home": "Internazionale",
@@ -1171,75 +1127,53 @@
         "homeWinPct": 45,
         "drawPct": 25,
         "awayWinPct": 30
+      },
+      {
+        "id": "401874791",
+        "home": "Cagliari",
+        "away": "Frosinone",
+        "kickoffISO": "2026-11-07T14:00Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 14:00 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
+      },
+      {
+        "id": "401874811",
+        "home": "Torino",
+        "away": "Lecce",
+        "kickoffISO": "2026-11-07T14:00Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 14:00 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 47,
+        "drawPct": 25,
+        "awayWinPct": 28
+      },
+      {
+        "id": "401874974",
+        "home": "Parma",
+        "away": "Bologna",
+        "kickoffISO": "2026-11-07T17:00Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 17:00 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 42,
+        "drawPct": 26,
+        "awayWinPct": 32
+      },
+      {
+        "id": "401874803",
+        "home": "AS Roma",
+        "away": "Sassuolo",
+        "kickoffISO": "2026-11-07T19:45Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 19:45 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 53,
+        "drawPct": 24,
+        "awayWinPct": 23
       }
     ],
     "Bundesliga": [
-      {
-        "id": "401884758",
-        "home": "FC Augsburg",
-        "away": "1. FC Union Berlin",
-        "kickoffISO": "2026-10-24T13:30Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 13:30 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 46,
-        "drawPct": 25,
-        "awayWinPct": 29
-      },
-      {
-        "id": "401884756",
-        "home": "FC Cologne",
-        "away": "Schalke 04",
-        "kickoffISO": "2026-10-24T13:30Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 13:30 UTC",
-        "hasRealStrengthData": false,
-        "homeWinPct": 45,
-        "drawPct": 25,
-        "awayWinPct": 30
-      },
-      {
-        "id": "401884757",
-        "home": "Mainz",
-        "away": "Werder Bremen",
-        "kickoffISO": "2026-10-24T13:30Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 13:30 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 48,
-        "drawPct": 25,
-        "awayWinPct": 27
-      },
-      {
-        "id": "401884762",
-        "home": "RB Leipzig",
-        "away": "SV Elversberg",
-        "kickoffISO": "2026-10-24T13:30Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 13:30 UTC",
-        "hasRealStrengthData": false,
-        "homeWinPct": 45,
-        "drawPct": 25,
-        "awayWinPct": 30
-      },
-      {
-        "id": "401884755",
-        "home": "SC Paderborn 07",
-        "away": "Hamburg SV",
-        "kickoffISO": "2026-10-24T13:30Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 13:30 UTC",
-        "hasRealStrengthData": false,
-        "homeWinPct": 45,
-        "drawPct": 25,
-        "awayWinPct": 30
-      },
-      {
-        "id": "401884763",
-        "home": "Borussia Dortmund",
-        "away": "Eintracht Frankfurt",
-        "kickoffISO": "2026-10-24T16:30Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 16:30 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 55,
-        "drawPct": 23,
-        "awayWinPct": 22
-      },
       {
         "id": "401884760",
         "home": "TSG Hoffenheim",
@@ -1371,20 +1305,64 @@
         "homeWinPct": 45,
         "drawPct": 25,
         "awayWinPct": 30
+      },
+      {
+        "id": "401884745",
+        "home": "Borussia Dortmund",
+        "away": "SV Elversberg",
+        "kickoffISO": "2026-11-07T14:30Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 14:30 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
+      },
+      {
+        "id": "401884740",
+        "home": "Mainz",
+        "away": "Bayern Munich",
+        "kickoffISO": "2026-11-07T14:30Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 14:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 28,
+        "drawPct": 28,
+        "awayWinPct": 44
+      },
+      {
+        "id": "401884744",
+        "home": "RB Leipzig",
+        "away": "FC Augsburg",
+        "kickoffISO": "2026-11-07T14:30Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 14:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 53,
+        "drawPct": 24,
+        "awayWinPct": 23
+      },
+      {
+        "id": "401884737",
+        "home": "SC Paderborn 07",
+        "away": "Eintracht Frankfurt",
+        "kickoffISO": "2026-11-07T14:30Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 14:30 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
+      },
+      {
+        "id": "401884743",
+        "home": "VfB Stuttgart",
+        "away": "Werder Bremen",
+        "kickoffISO": "2026-11-07T17:30Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 17:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 56,
+        "drawPct": 23,
+        "awayWinPct": 21
       }
     ],
     "Ligue 1": [
-      {
-        "id": "401876427",
-        "home": "Lens",
-        "away": "Paris FC",
-        "kickoffISO": "2026-10-24T18:45Z",
-        "kickoffLabel": "Sat 24 Oct \u00b7 18:45 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 54,
-        "drawPct": 23,
-        "awayWinPct": 23
-      },
       {
         "id": "401876425",
         "home": "AS Monaco",
@@ -1571,6 +1549,28 @@
         "homeWinPct": 42,
         "drawPct": 25,
         "awayWinPct": 33
+      },
+      {
+        "id": "401876411",
+        "home": "AJ Auxerre",
+        "away": "Paris FC",
+        "kickoffISO": "2026-11-07T16:15Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 16:15 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 41,
+        "drawPct": 26,
+        "awayWinPct": 33
+      },
+      {
+        "id": "401876407",
+        "home": "Paris Saint-Germain",
+        "away": "Troyes",
+        "kickoffISO": "2026-11-07T19:45Z",
+        "kickoffLabel": "Sat 07 Nov \u00b7 19:45 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
       }
     ]
   },
@@ -5553,7 +5553,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a36.2m",
-      "owned": "46.5%",
+      "owned": "46.6%",
       "points": 58,
       "epNext": 3.7,
       "form": 3.7,
@@ -6270,7 +6270,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "54.5%",
+      "owned": "54.4%",
       "points": 45,
       "epNext": 4.0,
       "form": 5.3,
@@ -6326,7 +6326,7 @@
       "avatar": "BW",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.4m",
-      "owned": "4.3%",
+      "owned": "4.4%",
       "points": 42,
       "epNext": 7.0,
       "form": 7.0,
@@ -6966,7 +6966,7 @@
       "avatar": "DC",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.1m",
-      "owned": "22.2%",
+      "owned": "22.1%",
       "points": 33,
       "epNext": 1.9,
       "form": 3.7,
@@ -7202,7 +7202,7 @@
       "avatar": "JM",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "3.3%",
+      "owned": "3.4%",
       "points": 31,
       "epNext": 5.7,
       "form": 5.7,
@@ -8205,7 +8205,7 @@
       "avatar": "DS",
       "avatarClass": "",
       "price": "\u00a36.7m",
-      "owned": "15.9%",
+      "owned": "15.8%",
       "points": 21,
       "epNext": 0.0,
       "form": 0.3,
@@ -8236,7 +8236,7 @@
       "avatar": "JD",
       "avatarClass": "",
       "price": "\u00a37.5m",
-      "owned": "3.6%",
+      "owned": "3.7%",
       "points": 21,
       "epNext": 6.7,
       "form": 6.7,
@@ -9166,7 +9166,7 @@
       "teamStrengthAway": 3
     }
   },
-  "totalManagers": 11168692,
+  "totalManagers": 11169089,
   "totalPlayers": 669,
   "priceMovement": {
     "risers": [
@@ -9451,45 +9451,45 @@
     "rising": [
       {
         "id": "166",
-        "netTransfersEvent": 192840
+        "netTransfersEvent": 198772
       },
       {
         "id": "68",
-        "netTransfersEvent": 102065
+        "netTransfersEvent": 105107
       },
       {
         "id": "31",
-        "netTransfersEvent": 47720
+        "netTransfersEvent": 50198
       },
       {
         "id": "53",
-        "netTransfersEvent": 38437
+        "netTransfersEvent": 39570
       },
       {
         "id": "124",
-        "netTransfersEvent": 32415
+        "netTransfersEvent": 33382
       }
     ],
     "falling": [
       {
         "id": "12",
-        "netTransfersEvent": -87528
+        "netTransfersEvent": -89526
       },
       {
         "id": "346",
-        "netTransfersEvent": -71511
+        "netTransfersEvent": -73366
       },
       {
         "id": "368",
-        "netTransfersEvent": -52325
+        "netTransfersEvent": -53679
       },
       {
         "id": "397",
-        "netTransfersEvent": -50775
+        "netTransfersEvent": -51927
       },
       {
         "id": "569",
-        "netTransfersEvent": -43560
+        "netTransfersEvent": -44405
       }
     ]
   }
