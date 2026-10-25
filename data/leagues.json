@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T20:15:18.239842+00:00",
+  "generatedAt": "2026-10-25T22:59:02.758440+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -501,10 +501,10 @@
           "rank": 1,
           "team": "Barcelona",
           "shortTeam": "Barcelona",
-          "played": 9,
+          "played": 10,
           "wins": 9,
           "draws": 0,
-          "losses": 0,
+          "losses": 1,
           "points": 27
         },
         {
@@ -521,11 +521,11 @@
           "rank": 3,
           "team": "Real Madrid",
           "shortTeam": "Real Madrid",
-          "played": 9,
-          "wins": 7,
+          "played": 10,
+          "wins": 8,
           "draws": 0,
           "losses": 2,
-          "points": 21
+          "points": 24
         },
         {
           "rank": 4,
@@ -1020,6 +1020,16 @@
         },
         {
           "rank": 4,
+          "team": "AC Milan",
+          "shortTeam": "Milan",
+          "played": 8,
+          "wins": 5,
+          "draws": 3,
+          "losses": 0,
+          "points": 18
+        },
+        {
+          "rank": 5,
           "team": "Como",
           "shortTeam": "Como",
           "played": 8,
@@ -1027,16 +1037,6 @@
           "draws": 2,
           "losses": 1,
           "points": 17
-        },
-        {
-          "rank": 5,
-          "team": "AC Milan",
-          "shortTeam": "Milan",
-          "played": 7,
-          "wins": 4,
-          "draws": 3,
-          "losses": 0,
-          "points": 15
         },
         {
           "rank": 6,
@@ -1152,10 +1152,10 @@
           "rank": 17,
           "team": "Udinese",
           "shortTeam": "Udinese",
-          "played": 7,
+          "played": 8,
           "wins": 1,
           "draws": 1,
-          "losses": 5,
+          "losses": 6,
           "points": 4
         },
         {
@@ -1406,12 +1406,12 @@
           "name": "AS Roma"
         },
         {
-          "id": "2572",
-          "name": "Como"
-        },
-        {
           "id": "103",
           "name": "AC Milan"
+        },
+        {
+          "id": "2572",
+          "name": "Como"
         },
         {
           "id": "4057",

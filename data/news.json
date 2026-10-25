@@ -1,13 +1,85 @@
 {
-  "generatedAt": "2026-10-25T20:15:17.156174+00:00",
+  "generatedAt": "2026-10-25T22:59:00.292220+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
+      "title": "Watch: Match of the Day",
+      "description": "A busy Premier League Sunday, with five matches, including Liverpool against Brighton.",
+      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T23:46:55+00:00"
+    },
+    {
+      "title": "Who has made Troy's Premier League team of the week?",
+      "description": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c804013klnn0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T22:16:14+00:00"
+    },
+    {
+      "title": "Mbappe's late strike earns Mourinho and Real Clasico glory at Barca",
+      "description": "Kylian Mbappe's double took Real Madrid to a famous 2-1 Clasico win, which had Jose Mourinho sliding on his knees in celebration in Barcelona.",
+      "link": "https://www.skysports.com/football/barcelona-vs-real-madrid/report/563017",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T22:00:00+00:00"
+    },
+    {
+      "title": "What have Man Utd changed to turn around WSL form?",
+      "description": "It is a different picture at Manchester United now than it was last month - and they proved it to fight back and earn a point against rivals Manchester City.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T21:38:59+00:00"
+    },
+    {
+      "title": "What have Man Utd changed to turn around WSL form?",
+      "description": "It is a different picture at Manchester United now than it was last month - and they proved it to fight back and earn a point against rivals Manchester City.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T21:38:59+00:00"
+    },
+    {
+      "title": "Papers: Dyche emerges as frontrunner for Palace job if Sage departs",
+      "description": "The top stories and transfer rumours from Monday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13603802/crystal-palace-sean-dyche-emerges-as-frontrunner-for-eagles-job-if-pierre-sage-leaves-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-25T21:30:00+00:00"
+    },
+    {
+      "title": "End approaching for Carrick but Man Utd fans make clear who they blame",
+      "description": "Manchester United's fans sang their support for Michael Carrick during the 3-0 home defeat by Bournemouth, but voiced their opposition to virtually everything else.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwm24jk9743yo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T21:24:21+00:00"
+    },
+    {
+      "title": "Howe open to Man Utd talks - Monday's gossip",
+      "description": "Eddie Howe is open to holding talks with Manchester United if they part ways with manager Michael Carrick, three Premier League clubs are monitoring Bayern Munich's Lennart Karl, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq1j3e889rg8o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T21:09:37+00:00"
+    },
+    {
       "title": "Pressure intensifies on Carrick as Man Utd lose to Bournemouth",
-      "description": "Manchester United's winless run stretches to eight matches in all competitions as they're beaten 3-0 by Bournemouth at Old Trafford - a defeat that leaves United's manager Michael Carrick under severe pressure.",
+      "description": "Manchester United's winless run stretches to eight matches in all competitions as they are beaten 3-0 by Bournemouth at Old Trafford - a defeat that leaves United's manager Michael Carrick under severe pressure.",
       "link": "https://www.bbc.co.uk/sport/football/videos/cq0mepm1d774o",
       "source": "BBC Sport",
       "category": "club",
@@ -24,94 +96,22 @@
       "pubDateISO": "2026-10-25T20:00:09+00:00"
     },
     {
+      "title": "Watch: Sportscene - Sunday's Scottish Premiership highlights",
+      "description": "With Hibs v Celtic and Motherwell v Hearts, plus action and reaction from Saturday",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0033m7c",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T20:00:04+00:00"
+    },
+    {
       "title": "Sage continues to struggle as Palace lose at home to Newcastle",
-      "description": "Crystal Palace's winless run stretches to four matches as they're beaten 2-0 at home by Newcastle, leaving the club just a point outside the relegation zone with the pressure mounting on manager Pierre Sage.",
+      "description": "Crystal Palace's winless run stretches to four matches as they are beaten 2-0 at home by Newcastle, leaving the club just a point outside the relegation zone with the pressure mounting on manager Pierre Sage.",
       "link": "https://www.bbc.co.uk/sport/football/videos/c9gkvellmxg1o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-25T19:59:46+00:00"
-    },
-    {
-      "title": "Hull draw third consecutive home game after being held by Brentford",
-      "description": "Hull draw a third consecutive home game after Dango Ouattara's equaliser helps Brentford grab a point in a 1-1 draw at the MKM Stadium in the Premier League.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmlylkydwl78o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T19:59:29+00:00"
-    },
-    {
-      "title": "Sunderland stay bottom after goalless draw with Leeds",
-      "description": "Sunderland remain bottom of the Premier League after a goalless draw with Leeds in difficult conditions at the Stadium of Light.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cj75pv5zp95po",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T19:59:07+00:00"
-    },
-    {
-      "title": "Birmingham get first win of the season after edging past Charlton",
-      "description": "Wilda Leidhammar scores as Birmingham secure their first WSL win this season, beating bottom club Charlton 1-0 at St Andrew's, as the away side's wait for a first point goes on.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cqy8lj00k1m7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T19:55:12+00:00"
-    },
-    {
-      "title": "Late own goal gives Liverpool point against London City Lionesses",
-      "description": "A stoppage time own goal from Jana Fernandez sees Liverpool snatch a point against London City Lionesses, as the two sides draw 2-2 in the Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmp3g9ee4e1lo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T19:54:45+00:00"
-    },
-    {
-      "title": "Vangsgaard scores twice as Villa hang on to beat Everton",
-      "description": "Amalie Vangsgaard scores twice for Aston Villa as the away side survive a late fightback from Everton to win 3-2 at Goodison Park in the Women's Super League.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/ckvgd122njp0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T19:54:10+00:00"
-    },
-    {
-      "title": "Weir would swap Ballon d'Or nominations for World Cup",
-      "description": "Caroline Weir reflects on her Ballon d'Or nomination while eyeing a World Cup spot with Scotland.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T19:34:15+00:00"
-    },
-    {
-      "title": "Weir would swap Ballon d'Or nods for World Cup",
-      "description": "Caroline Weir reflects on her Ballon d'Or nomination while eyeing a World Cup spot with Scotland.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T19:34:15+00:00"
-    },
-    {
-      "title": "Weir would swap Ballon d'Or nominations for World Cup",
-      "description": "Caroline Weir reflects on her Ballon d'Or nomination while eyeing a World Cup spot with Scotland.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T19:34:15+00:00"
-    },
-    {
-      "title": "Dunfermline meet Queen of the South in Scottish Cup",
-      "description": "Last season's finalists Dunfermline Athletic will visit Queen of the South in the third round of the Scottish Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr5ynv4pyw95o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T19:24:20+00:00"
     }
   ]
 }
