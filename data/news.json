@@ -1,117 +1,117 @@
 {
-  "generatedAt": "2026-10-26T14:44:33.171042+00:00",
+  "generatedAt": "2026-10-26T20:15:23.073718+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man Utd latest: Carrick arrives at Carrington as Wilcox and Berrada hold talks",
+      "title": "5 Live Sport",
+      "description": "Mark Chapman and guests debate the weekend's football.",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_five_live",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-26T21:00:00+00:00"
+    },
+    {
+      "title": "Man Utd players set to return to training with Carrick's future still uncertain",
+      "description": "Manchester United's players are set to return to training at Carrington on Tuesday - but it is still uncertain whether Michael Carrick will be in charge.",
+      "link": "https://www.skysports.com/football/news/11095/13602156/manchester-united-players-to-return-to-training-on-tuesday-but-uncertain-if-michael-carrick-will-be-in-charge",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-26T19:30:00+00:00"
+    },
+    {
+      "title": "Ballon d'Or winner? Kane's best Bundesliga goals",
+      "description": "With the 2026 Ballon d'Or just around the corner, BBC Sport looks back at some of Harry Kane's best goals in a Bayern Munich shirt.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cmd93gqn8119o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-26T19:29:35+00:00"
+    },
+    {
+      "title": "Donovan backed for big future on signing new Celtic deal",
+      "description": "Manager Martin O'Neill is sure Colby Donovan is destined for \"very big future\" as the Celtic full-back extends his contract until 2031.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm93zjlywe20o",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-26T18:37:36+00:00"
+    },
+    {
+      "title": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
+      "description": "The Under-15 World Cup Group C match between England and Republic of Ireland is abandoned after England allege an opposition player made a racist comment.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-26T18:17:25+00:00"
+    },
+    {
+      "title": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
+      "description": "Harry Kane's dream of winning the Ballon d'Or seemed as if it had come true on Monday when the organisers released an article claiming he had won the award.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-26T18:10:26+00:00"
+    },
+    {
+      "title": "Arsenal latest: Ballon d'Or rankings for Gunners trio revealed...",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T14:18:00+00:00"
+      "pubDateISO": "2026-10-26T18:05:00+00:00"
     },
     {
-      "title": "Which game will Chelsea's Palmer miss after red card?",
-      "description": "BBC Sport's Ask Me Anything team explains why Cole Palmer's red card suspension will not rule him out of Chelsea's Premier League match against Manchester United.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm4g1q54pj20o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T14:12:43+00:00"
-    },
-    {
-      "title": "Fans assist Penicuik clear-up for Clyde cup tie",
-      "description": "Penicuik Athletic are sure Tuesday's Scottish Cup tie with Clyde will go ahead in as the community rallies to clear storm debris from the pitch at Montgomery Park.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crq8ngxp5e88o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T14:09:24+00:00"
-    },
-    {
-      "title": "Jude MAGIC, overhead kicks and backheel assists! Best goals from across Europe!",
-      "description": "Check out some of the best goals from LaLiga, Serie A, Ligue 1 and Bundesliga from over the previous weekend.",
-      "link": "https://www.skysports.com/watch/video/13604023/jude-bellingham-magic-overhead-kicks-and-backheel-assists-best-goals-from-across-europe",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T13:41:00+00:00"
-    },
-    {
-      "title": "Bournemouth latest: We're in 'good spot' ahead of Villa cup tie, says Rose",
+      "title": "England U15 match abandoned after allegation of racism",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "link": "https://www.skysports.com/football/live-blog/11095/12507208/football-latest-news-gossip",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T12:32:00+00:00"
+      "pubDateISO": "2026-10-26T18:00:00+00:00"
     },
     {
-      "title": "All the goals from the Women's Super League - matchweek seven",
-      "description": "Watch every goal from matchweek seven of the Women's Super League 2026-27 season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c6073jevmk3go",
+      "title": "BBC Women's Football Weekly",
+      "description": "Arsenal have relieved the pressure with a north London derby win - can they kick on now?",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pjq3nz",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T12:02:22+00:00"
+      "pubDateISO": "2026-10-26T17:18:00+00:00"
     },
     {
-      "title": "Bayern continue unbeaten start in Kompany's absence",
-      "description": "Bayern Munich beat Freiburg to return to the top of the Bundesliga, as the German champions paid tribute to absent manager Vincent Kompany who is recovering in hospital after he collapsed while watching Bayern's second team train.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cqx284yk4mk0o",
+      "title": "Celtic & Rangers wait for stadium closures ruling",
+      "description": "Rangers and Celtic submit appeals against a ruling that they must play their next home Scottish Cup ties behind closed doors following scenes of disorder in last season's competition.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c9y7ljknj2p5o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T11:35:11+00:00"
+      "pubDateISO": "2026-10-26T17:16:14+00:00"
     },
     {
-      "title": "Ref Watch: 'Petulant' Palmer deserved red and Arteta's yellow analysed",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13576553/ref-watch-premier-league-weekend-reaction-live-dermot-gallagher-assesses-the-big-refereeing-decisions",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T10:30:00+00:00"
-    },
-    {
-      "title": "Late Mbappe goal earns Real win at Barca in dramatic Clasico",
-      "description": "Kylian Mbappe scores twice for Real Madrid as they beat Barcelona 2-1 at the Camp Nou in the first El Clasico of the season.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/crje5zewk52no",
+      "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
+      "description": "Caroline Weir is ranked the 25th best women footballer in the world on the day she also joined fellow Scotland midfielder Erin Cuthbert and Manchester United head coach Eva Olid on the shortlist for the Scottish Women's Football Awards 2026.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go",
       "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T09:41:25+00:00"
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-26T16:59:33+00:00"
     },
     {
-      "title": "Watch: Best of Scottish Championship & League 1 action",
-      "description": "Watch the best of the action from the weekend's action in the Scottish Championship and League 1.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cqgm04mjkgzwo",
+      "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
+      "description": "Caroline Weir is ranked the 25th best women footballer in the world on the day she also joined fellow Scotland midfielder Erin Cuthbert and Manchester United head coach Eva Olid on the shortlist for the Scottish Women's Football Awards 2026.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go",
       "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T09:26:06+00:00"
-    },
-    {
-      "title": "Will anyone end Spain's domination of women's Ballon d'Or?",
-      "description": "Spanish players have dominated the Women's Ballon d'Or for the past five years, so will they be celebrating again on Monday?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq5ynp680jm1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T09:21:17+00:00"
-    },
-    {
-      "title": "Will anyone end Spain's domination of women's Ballon d'Or?",
-      "description": "Spanish players have dominated the Women's Ballon d'Or for the past five years, so will they be celebrating again on Monday?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq5ynp680jm1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-26T09:21:17+00:00"
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-26T16:59:33+00:00"
     }
   ]
 }
