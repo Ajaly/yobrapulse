@@ -1306,10 +1306,11 @@
         "awayWinPct": 42
       },
       "loggedAt": "2026-10-19T22:44:08.402541+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "1 \u2014 1"
     },
     {
       "id": 72,
@@ -1327,10 +1328,11 @@
         "awayWinPct": 55
       },
       "loggedAt": "2026-10-19T22:44:08.402547+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "2 \u2014 1"
     },
     {
       "id": 71,
@@ -1348,10 +1350,11 @@
         "awayWinPct": 12
       },
       "loggedAt": "2026-10-19T22:44:08.402549+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 74,
@@ -1369,10 +1372,11 @@
         "awayWinPct": 41
       },
       "loggedAt": "2026-10-19T22:44:08.402551+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": true,
+      "actualScore": "0 \u2014 1"
     },
     {
       "id": 73,
@@ -1390,10 +1394,11 @@
         "awayWinPct": 22
       },
       "loggedAt": "2026-10-19T22:44:08.402553+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "0 \u2014 2"
     },
     {
       "id": 75,
@@ -1411,10 +1416,11 @@
         "awayWinPct": 40
       },
       "loggedAt": "2026-10-19T22:44:08.402555+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "0 \u2014 2"
     },
     {
       "id": 76,
@@ -1432,10 +1438,11 @@
         "awayWinPct": 55
       },
       "loggedAt": "2026-10-19T22:44:08.402556+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "1 \u2014 1"
     },
     {
       "id": 78,
@@ -1453,10 +1460,11 @@
         "awayWinPct": 30
       },
       "loggedAt": "2026-10-19T22:44:08.402560+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": false,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 79,
@@ -1474,10 +1482,11 @@
         "awayWinPct": 25
       },
       "loggedAt": "2026-10-19T22:44:08.402563+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "0 \u2014 3"
     },
     {
       "id": 80,
@@ -1495,10 +1504,11 @@
         "awayWinPct": 37
       },
       "loggedAt": "2026-10-19T22:44:08.402572+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "0 \u2014 0"
     },
     {
       "id": 84,
