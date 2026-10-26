@@ -1,18 +1,54 @@
 {
-  "generatedAt": "2026-10-25T22:59:00.292220+00:00",
+  "generatedAt": "2026-10-26T01:02:14.929151+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Watch: Match of the Day",
-      "description": "A busy Premier League Sunday, with five matches, including Liverpool against Brighton.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "title": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
+      "description": "Kylian Mbappe's two goals at Barcelona have opened up La Liga, as Jose Mourinho's Real Madrid leave Camp Nou with a victory.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T23:46:55+00:00"
+      "pubDateISO": "2026-10-26T00:07:16+00:00"
+    },
+    {
+      "title": "Man City's perfect start over after draw at rivals Man Utd",
+      "description": "Manchester City's perfect record in the Women's Super League is ended by rivals Manchester United after Elisabeth Terland scores a late equaliser to snatch a 1-1 draw.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cj3vq1ggw247o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T23:52:55+00:00"
+    },
+    {
+      "title": "Man Utd lacked intensity & fight - Alderweireld",
+      "description": "Match of the Day pundits Toby Alderweireld and Ashley Williams analyse Manchester United's 3-0 defeat by Bournemouth, with Alderweireld suggesting there is no \"togetherness\" amongst the United squad.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c6wyrg2vwjmgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T23:51:22+00:00"
+    },
+    {
+      "title": "How Liverpool's attack impressed against Brighton",
+      "description": "Match of the Day pundits Toby Alderweireld and Ashley Williams analyse Liverpool's impressive attacking display in their 2-0 win against Brighton at Anfield.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/ckq6nvp2ldz5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T23:49:41+00:00"
+    },
+    {
+      "title": "Mbappe double STUNS Barca as Real close gap in title race!",
+      "description": "Highlights of the LaLiga match between Barcelona and Real Madrid.",
+      "link": "https://www.skysports.com/watch/video/13603841/barcelona-vs-real-madrid-laliga-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-25T22:59:00+00:00"
     },
     {
       "title": "Who has made Troy's Premier League team of the week?",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-25T21:09:37+00:00"
-    },
-    {
-      "title": "Pressure intensifies on Carrick as Man Utd lose to Bournemouth",
-      "description": "Manchester United's winless run stretches to eight matches in all competitions as they are beaten 3-0 by Bournemouth at Old Trafford - a defeat that leaves United's manager Michael Carrick under severe pressure.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cq0mepm1d774o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T20:00:19+00:00"
-    },
-    {
-      "title": "Liverpool earn first league win at Anfield with victory over Brighton",
-      "description": "An own goal from Brighton's Pascal Gross swiftly followed by a goal from Alexander Isak, sees Liverpool beat the Seagulls 2-0 at Anfield to move into the Premier League top four.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cm3vq1vpv6zno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T20:00:09+00:00"
-    },
-    {
-      "title": "Watch: Sportscene - Sunday's Scottish Premiership highlights",
-      "description": "With Hibs v Celtic and Motherwell v Hearts, plus action and reaction from Saturday",
-      "link": "https://www.bbc.co.uk/iplayer/episode/m0033m7c",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T20:00:04+00:00"
-    },
-    {
-      "title": "Sage continues to struggle as Palace lose at home to Newcastle",
-      "description": "Crystal Palace's winless run stretches to four matches as they are beaten 2-0 at home by Newcastle, leaving the club just a point outside the relegation zone with the pressure mounting on manager Pierre Sage.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c9gkvellmxg1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-25T19:59:46+00:00"
     }
   ]
 }
