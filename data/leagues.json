@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T17:12:04.357437+00:00",
+  "generatedAt": "2026-10-27T21:41:37.437454+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -990,18 +990,18 @@
       "current": [
         {
           "rank": 1,
-          "team": "Internazionale",
-          "shortTeam": "Inter Milan",
-          "played": 8,
-          "wins": 7,
+          "team": "Lazio",
+          "shortTeam": "Lazio",
+          "played": 9,
+          "wins": 8,
           "draws": 1,
           "losses": 0,
-          "points": 22
+          "points": 25
         },
         {
           "rank": 2,
-          "team": "Lazio",
-          "shortTeam": "Lazio",
+          "team": "Internazionale",
+          "shortTeam": "Inter Milan",
           "played": 8,
           "wins": 7,
           "draws": 1,
@@ -1012,11 +1012,11 @@
           "rank": 3,
           "team": "AS Roma",
           "shortTeam": "AS Roma",
-          "played": 8,
-          "wins": 5,
+          "played": 9,
+          "wins": 6,
           "draws": 3,
           "losses": 0,
-          "points": 18
+          "points": 21
         },
         {
           "rank": 4,
@@ -1072,10 +1072,10 @@
           "rank": 9,
           "team": "Cagliari",
           "shortTeam": "Cagliari",
-          "played": 8,
+          "played": 9,
           "wins": 4,
           "draws": 1,
-          "losses": 3,
+          "losses": 4,
           "points": 13
         },
         {
@@ -1122,10 +1122,10 @@
           "rank": 14,
           "team": "Sassuolo",
           "shortTeam": "Sassuolo",
-          "played": 8,
+          "played": 9,
           "wins": 2,
           "draws": 2,
-          "losses": 4,
+          "losses": 5,
           "points": 8
         },
         {
@@ -1394,12 +1394,12 @@
       ],
       "teams": [
         {
-          "id": "110",
-          "name": "Internazionale"
-        },
-        {
           "id": "112",
           "name": "Lazio"
+        },
+        {
+          "id": "110",
+          "name": "Internazionale"
         },
         {
           "id": "104",
