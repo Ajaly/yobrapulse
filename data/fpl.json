@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T05:51:25.097221+00:00",
+  "generatedAt": "2026-10-27T11:23:12.268673+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -452,9 +452,9 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 44,
-        "drawPct": 28,
-        "awayWinPct": 28
+        "homeWinPct": 46,
+        "drawPct": 27,
+        "awayWinPct": 27
       }
     },
     {
@@ -696,7 +696,7 @@
           "meetings": 5
         },
         "homeAvailability": 0.9,
-        "awayAvailability": 0.86,
+        "awayAvailability": 0.83,
         "homeTransferImpactM": 28.9,
         "awayTransferImpactM": -7.4
       },
@@ -1651,6 +1651,17 @@
         "awayWinPct": 42
       },
       {
+        "id": "401876416",
+        "home": "Nice",
+        "away": "Stade Rennais",
+        "kickoffISO": "2026-10-30T18:00Z",
+        "kickoffLabel": "Fri 30 Oct \u00b7 18:00 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 35,
+        "drawPct": 27,
+        "awayWinPct": 38
+      },
+      {
         "id": "401876420",
         "home": "Lille",
         "away": "Lens",
@@ -1660,28 +1671,6 @@
         "homeWinPct": 42,
         "drawPct": 26,
         "awayWinPct": 32
-      },
-      {
-        "id": "401876416",
-        "home": "Nice",
-        "away": "Stade Rennais",
-        "kickoffISO": "2026-10-31T16:15Z",
-        "kickoffLabel": "Sat 31 Oct \u00b7 16:15 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 35,
-        "drawPct": 27,
-        "awayWinPct": 38
-      },
-      {
-        "id": "401876419",
-        "home": "Lorient",
-        "away": "Brest",
-        "kickoffISO": "2026-10-31T19:45Z",
-        "kickoffLabel": "Sat 31 Oct \u00b7 19:45 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 47,
-        "drawPct": 25,
-        "awayWinPct": 28
       },
       {
         "id": "401876418",
@@ -1737,6 +1726,17 @@
         "homeWinPct": 50,
         "drawPct": 24,
         "awayWinPct": 26
+      },
+      {
+        "id": "401876419",
+        "home": "Lorient",
+        "away": "Brest",
+        "kickoffISO": "2026-11-02T19:45Z",
+        "kickoffLabel": "Mon 02 Nov \u00b7 19:45 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 47,
+        "drawPct": 25,
+        "awayWinPct": 28
       },
       {
         "id": "401876405",
@@ -5734,7 +5734,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a37.9m",
-      "owned": "22.3%",
+      "owned": "22.4%",
       "points": 52,
       "epNext": 9.0,
       "form": 9.0,
@@ -5858,7 +5858,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.4m",
-      "owned": "17.8%",
+      "owned": "18.0%",
       "points": 52,
       "epNext": 7.0,
       "form": 7.0,
@@ -5889,7 +5889,7 @@
       "avatar": "LV",
       "avatarClass": "",
       "price": "\u00a35.1m",
-      "owned": "6.5%",
+      "owned": "6.6%",
       "points": 52,
       "epNext": 6.7,
       "form": 6.7,
@@ -5951,7 +5951,7 @@
       "avatar": "FE",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.2m",
-      "owned": "7.3%",
+      "owned": "7.4%",
       "points": 43,
       "epNext": 8.3,
       "form": 8.3,
@@ -6075,7 +6075,7 @@
       "avatar": "AI",
       "avatarClass": "pink-avatar",
       "price": "\u00a39.0m",
-      "owned": "15.4%",
+      "owned": "15.5%",
       "points": 51,
       "epNext": 6.0,
       "form": 6.0,
@@ -6571,7 +6571,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.9m",
-      "owned": "70.9%",
+      "owned": "70.7%",
       "points": 47,
       "epNext": 3.5,
       "form": 4.7,
@@ -6602,7 +6602,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "52.5%",
+      "owned": "52.4%",
       "points": 45,
       "epNext": 4.0,
       "form": 5.3,
@@ -6726,7 +6726,7 @@
       "avatar": "KS",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.2m",
-      "owned": "15.1%",
+      "owned": "15.0%",
       "points": 42,
       "epNext": 1.0,
       "form": 1.0,
@@ -6788,7 +6788,7 @@
       "avatar": "MR",
       "avatarClass": "",
       "price": "\u00a38.0m",
-      "owned": "50.0%",
+      "owned": "50.1%",
       "points": 41,
       "epNext": 4.0,
       "form": 4.0,
@@ -7408,7 +7408,7 @@
       "avatar": "NJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.7m",
-      "owned": "8.6%",
+      "owned": "8.7%",
       "points": 34,
       "epNext": 8.0,
       "form": 8.0,
@@ -7594,7 +7594,7 @@
       "avatar": "BB",
       "avatarClass": "orange-avatar",
       "price": "\u00a311.7m",
-      "owned": "24.7%",
+      "owned": "24.6%",
       "points": 33,
       "epNext": 0.7,
       "form": 0.7,
@@ -7780,7 +7780,7 @@
       "avatar": "JM",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "4.1%",
+      "owned": "4.2%",
       "points": 31,
       "epNext": 5.7,
       "form": 5.7,
@@ -8183,7 +8183,7 @@
       "avatar": "LD",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "7.3%",
+      "owned": "7.2%",
       "points": 28,
       "epNext": 1.0,
       "form": 1.0,
@@ -8741,7 +8741,7 @@
       "avatar": "GG",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.0m",
-      "owned": "5.8%",
+      "owned": "5.7%",
       "points": 20,
       "epNext": 2.0,
       "form": 2.0,
@@ -9632,7 +9632,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11185964,
+  "totalManagers": 11186970,
   "totalPlayers": 669,
   "priceMovement": {
     "risers": [
@@ -9917,45 +9917,45 @@
     "rising": [
       {
         "id": "68",
-        "netTransfersEvent": 464098
+        "netTransfersEvent": 482138
       },
       {
         "id": "166",
-        "netTransfersEvent": 447382
+        "netTransfersEvent": 461104
       },
       {
         "id": "379",
-        "netTransfersEvent": 158962
+        "netTransfersEvent": 165522
       },
       {
         "id": "31",
-        "netTransfersEvent": 147422
+        "netTransfersEvent": 151687
       },
       {
         "id": "79",
-        "netTransfersEvent": 134807
+        "netTransfersEvent": 140774
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -269349
+        "netTransfersEvent": -282602
       },
       {
         "id": "8",
-        "netTransfersEvent": -199691
+        "netTransfersEvent": -209010
       },
       {
         "id": "12",
-        "netTransfersEvent": -187377
+        "netTransfersEvent": -192574
       },
       {
         "id": "426",
-        "netTransfersEvent": -167333
+        "netTransfersEvent": -173409
       },
       {
         "id": "346",
-        "netTransfersEvent": -141230
+        "netTransfersEvent": -143568
       }
     ]
   }
