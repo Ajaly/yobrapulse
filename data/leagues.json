@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T20:15:25.516689+00:00",
+  "generatedAt": "2026-10-27T00:09:39.567882+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -551,11 +551,11 @@
           "rank": 6,
           "team": "Sevilla",
           "shortTeam": "Sevilla",
-          "played": 9,
-          "wins": 4,
+          "played": 10,
+          "wins": 5,
           "draws": 2,
           "losses": 3,
-          "points": 14
+          "points": 17
         },
         {
           "rank": 7,
@@ -611,10 +611,10 @@
           "rank": 12,
           "team": "Osasuna",
           "shortTeam": "Osasuna",
-          "played": 9,
+          "played": 10,
           "wins": 3,
           "draws": 2,
-          "losses": 4,
+          "losses": 5,
           "points": 11
         },
         {
@@ -1924,6 +1924,16 @@
       "current": [
         {
           "rank": 1,
+          "team": "Paris Saint-Germain",
+          "shortTeam": "PSG",
+          "played": 8,
+          "wins": 5,
+          "draws": 2,
+          "losses": 1,
+          "points": 17
+        },
+        {
+          "rank": 2,
           "team": "Stade Rennais",
           "shortTeam": "Rennes",
           "played": 8,
@@ -1933,7 +1943,7 @@
           "points": 16
         },
         {
-          "rank": 2,
+          "rank": 3,
           "team": "Lille",
           "shortTeam": "Lille",
           "played": 8,
@@ -1943,7 +1953,7 @@
           "points": 15
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "AS Monaco",
           "shortTeam": "Monaco",
           "played": 8,
@@ -1953,23 +1963,13 @@
           "points": 15
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "Lyon",
           "shortTeam": "Lyon",
-          "played": 7,
+          "played": 8,
           "wins": 4,
           "draws": 2,
-          "losses": 1,
-          "points": 14
-        },
-        {
-          "rank": 5,
-          "team": "Paris Saint-Germain",
-          "shortTeam": "PSG",
-          "played": 7,
-          "wins": 4,
-          "draws": 2,
-          "losses": 1,
+          "losses": 2,
           "points": 14
         },
         {
@@ -2288,6 +2288,10 @@
       ],
       "teams": [
         {
+          "id": "160",
+          "name": "Paris Saint-Germain"
+        },
+        {
           "id": "169",
           "name": "Stade Rennais"
         },
@@ -2302,10 +2306,6 @@
         {
           "id": "167",
           "name": "Lyon"
-        },
-        {
-          "id": "160",
-          "name": "Paris Saint-Germain"
         },
         {
           "id": "6851",
