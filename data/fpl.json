@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T00:52:23.855961+00:00",
+  "generatedAt": "2026-10-28T06:30:20.188148+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -803,9 +803,9 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 31,
+        "homeWinPct": 32,
         "drawPct": 27,
-        "awayWinPct": 42
+        "awayWinPct": 41
       }
     },
     {
@@ -5702,7 +5702,7 @@
       "avatar": "GD",
       "avatarClass": "",
       "price": "\u00a37.9m",
-      "owned": "22.6%",
+      "owned": "22.7%",
       "points": 52,
       "epNext": 9.0,
       "form": 9.0,
@@ -5826,7 +5826,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.4m",
-      "owned": "18.9%",
+      "owned": "19.0%",
       "points": 52,
       "epNext": 7.0,
       "form": 7.0,
@@ -5919,7 +5919,7 @@
       "avatar": "FE",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.2m",
-      "owned": "8.3%",
+      "owned": "8.4%",
       "points": 43,
       "epNext": 8.3,
       "form": 8.3,
@@ -6043,7 +6043,7 @@
       "avatar": "AI",
       "avatarClass": "pink-avatar",
       "price": "\u00a39.1m",
-      "owned": "16.5%",
+      "owned": "16.6%",
       "points": 51,
       "epNext": 6.0,
       "form": 6.0,
@@ -6136,7 +6136,7 @@
       "avatar": "JB",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.8m",
-      "owned": "11.1%",
+      "owned": "11.2%",
       "points": 50,
       "epNext": 2.7,
       "form": 2.7,
@@ -6539,7 +6539,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.8m",
-      "owned": "66.2%",
+      "owned": "65.8%",
       "points": 47,
       "epNext": 0.0,
       "form": 4.7,
@@ -6570,7 +6570,7 @@
       "avatar": "RC",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "51.8%",
+      "owned": "51.7%",
       "points": 45,
       "epNext": 4.0,
       "form": 5.3,
@@ -7221,7 +7221,7 @@
       "avatar": "AB",
       "avatarClass": "orange-avatar",
       "price": "\u00a35.5m",
-      "owned": "4.2%",
+      "owned": "4.1%",
       "points": 36,
       "epNext": 3.0,
       "form": 3.0,
@@ -7407,7 +7407,7 @@
       "avatar": "NJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.8m",
-      "owned": "11.5%",
+      "owned": "11.7%",
       "points": 34,
       "epNext": 8.0,
       "form": 8.0,
@@ -8368,7 +8368,7 @@
       "avatar": "BB",
       "avatarClass": "",
       "price": "\u00a35.7m",
-      "owned": "5.0%",
+      "owned": "5.1%",
       "points": 26,
       "epNext": 0.7,
       "form": 0.7,
@@ -9631,7 +9631,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11190452,
+  "totalManagers": 11190937,
   "totalPlayers": 669,
   "priceMovement": {
     "risers": [
@@ -9916,45 +9916,45 @@
     "rising": [
       {
         "id": "166",
-        "netTransfersEvent": 755026
+        "netTransfersEvent": 776543
       },
       {
         "id": "68",
-        "netTransfersEvent": 568818
+        "netTransfersEvent": 578740
       },
       {
         "id": "379",
-        "netTransfersEvent": 275740
+        "netTransfersEvent": 284160
       },
       {
         "id": "79",
-        "netTransfersEvent": 238529
+        "netTransfersEvent": 249753
       },
       {
         "id": "31",
-        "netTransfersEvent": 171498
+        "netTransfersEvent": 173642
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -766414
+        "netTransfersEvent": -806518
       },
       {
         "id": "8",
-        "netTransfersEvent": -258393
+        "netTransfersEvent": -264055
       },
       {
         "id": "12",
-        "netTransfersEvent": -214416
+        "netTransfersEvent": -217129
       },
       {
         "id": "426",
-        "netTransfersEvent": -200631
+        "netTransfersEvent": -203386
       },
       {
         "id": "368",
-        "netTransfersEvent": -152352
+        "netTransfersEvent": -154376
       }
     ]
   }
