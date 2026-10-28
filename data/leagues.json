@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T21:41:37.437454+00:00",
+  "generatedAt": "2026-10-28T00:52:26.637570+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -1020,6 +1020,16 @@
         },
         {
           "rank": 4,
+          "team": "Como",
+          "shortTeam": "Como",
+          "played": 9,
+          "wins": 6,
+          "draws": 2,
+          "losses": 1,
+          "points": 20
+        },
+        {
+          "rank": 5,
           "team": "AC Milan",
           "shortTeam": "Milan",
           "played": 8,
@@ -1027,16 +1037,6 @@
           "draws": 3,
           "losses": 0,
           "points": 18
-        },
-        {
-          "rank": 5,
-          "team": "Como",
-          "shortTeam": "Como",
-          "played": 8,
-          "wins": 5,
-          "draws": 2,
-          "losses": 1,
-          "points": 17
         },
         {
           "rank": 6,
@@ -1062,10 +1062,10 @@
           "rank": 8,
           "team": "Torino",
           "shortTeam": "Torino",
-          "played": 8,
+          "played": 9,
           "wins": 4,
           "draws": 1,
-          "losses": 3,
+          "losses": 4,
           "points": 13
         },
         {
@@ -1406,12 +1406,12 @@
           "name": "AS Roma"
         },
         {
-          "id": "103",
-          "name": "AC Milan"
-        },
-        {
           "id": "2572",
           "name": "Como"
+        },
+        {
+          "id": "103",
+          "name": "AC Milan"
         },
         {
           "id": "4057",
