@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:46:51.374942+00:00",
+  "generatedAt": "2026-10-29T03:51:54.351530+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -11,12 +11,12 @@
   "captainPicks": [
     {
       "id": "411",
-      "score": 13.45,
+      "score": 13.79,
       "factors": {
         "epNext": 9.0,
         "ownForm": 9.0,
-        "teamForm": 0.57,
-        "opponentForm": 0.59,
+        "teamForm": 0.63,
+        "opponentForm": 0.38,
         "venueForm": 1.0,
         "venueFormSource": "current season",
         "opponentVenueForm": 0.5,
@@ -33,12 +33,12 @@
     },
     {
       "id": "4",
-      "score": 12.2,
+      "score": 12.03,
       "factors": {
         "epNext": 9.0,
         "ownForm": 9.0,
         "teamForm": 0.61,
-        "opponentForm": 0.86,
+        "opponentForm": 1.0,
         "venueForm": 0.75,
         "venueFormSource": "current season",
         "opponentVenueForm": 0.42,
@@ -54,21 +54,21 @@
       }
     },
     {
-      "id": "31",
-      "score": 12.0,
+      "id": "79",
+      "score": 11.94,
       "factors": {
-        "epNext": 9.0,
-        "ownForm": 9.0,
-        "teamForm": 0.61,
-        "opponentForm": 0.86,
-        "venueForm": 0.75,
+        "epNext": 8.3,
+        "ownForm": 8.3,
+        "teamForm": 1.0,
+        "opponentForm": 0.36,
+        "venueForm": 0.42,
         "venueFormSource": "current season",
         "opponentVenueForm": 0.42,
-        "fixtureLoad": 2,
-        "opponent": "Liverpool",
-        "isHome": false,
+        "fixtureLoad": 1,
+        "opponent": "Leeds",
+        "isHome": true,
         "trackRecordVsOpponent": {
-          "meetings": 5,
+          "meetings": 2,
           "goals": 0,
           "assists": 0,
           "involvementsPerMatch": 0.0
@@ -267,7 +267,7 @@
           "epNext": 6.0,
           "ownForm": 6.0,
           "teamForm": 0.11,
-          "opponentForm": 0.48,
+          "opponentForm": 0.37,
           "venueForm": 0.25,
           "venueFormSource": "current season",
           "opponentVenueForm": 0.58,
@@ -288,8 +288,8 @@
         "factors": {
           "epNext": 8.0,
           "ownForm": 8.0,
-          "teamForm": 0.9,
-          "opponentForm": 0.69,
+          "teamForm": 0.74,
+          "opponentForm": 0.48,
           "venueForm": 0.33,
           "venueFormSource": "current season",
           "opponentVenueForm": 0.33,
@@ -383,12 +383,12 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 47,
-      "drawPct": 24,
+      "homeWinPct": 46,
+      "drawPct": 25,
       "awayWinPct": 29,
       "predictedScore": "1.6 \u2014 1.0",
       "factors": {
-        "homeForm": 0.48,
+        "homeForm": 0.37,
         "awayForm": 0.11,
         "h2h": {
           "homeWins": 2,
@@ -403,9 +403,9 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 53,
+        "homeWinPct": 52,
         "drawPct": 24,
-        "awayWinPct": 23
+        "awayWinPct": 24
       }
     },
     {
@@ -433,12 +433,12 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 47,
+      "homeWinPct": 49,
       "drawPct": 25,
-      "awayWinPct": 28,
-      "predictedScore": "1.7 \u2014 1.0",
+      "awayWinPct": 26,
+      "predictedScore": "1.7 \u2014 0.9",
       "factors": {
-        "homeForm": 0.86,
+        "homeForm": 1.0,
         "awayForm": 0.36,
         "h2h": {
           "homeWins": 1,
@@ -483,12 +483,12 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 51,
+      "homeWinPct": 49,
       "drawPct": 24,
-      "awayWinPct": 25,
-      "predictedScore": "1.8 \u2014 0.9",
+      "awayWinPct": 27,
+      "predictedScore": "1.7 \u2014 1.0",
       "factors": {
-        "homeForm": 0.47,
+        "homeForm": 0.28,
         "awayForm": 0.23,
         "h2h": {
           "homeWins": 2,
@@ -533,13 +533,13 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 40,
-      "drawPct": 25,
-      "awayWinPct": 35,
-      "predictedScore": "1.3 \u2014 1.3",
+      "homeWinPct": 37,
+      "drawPct": 26,
+      "awayWinPct": 37,
+      "predictedScore": "1.2 \u2014 1.3",
       "factors": {
         "homeForm": 0.37,
-        "awayForm": 0.33,
+        "awayForm": 0.54,
         "h2h": {
           "homeWins": 2,
           "draws": 2,
@@ -633,13 +633,13 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 37,
-      "drawPct": 27,
-      "awayWinPct": 36,
-      "predictedScore": "1.4 \u2014 1.2",
+      "homeWinPct": 41,
+      "drawPct": 26,
+      "awayWinPct": 33,
+      "predictedScore": "1.5 \u2014 1.1",
       "factors": {
-        "homeForm": 0.57,
-        "awayForm": 0.59,
+        "homeForm": 0.63,
+        "awayForm": 0.38,
         "h2h": {
           "homeWins": 0,
           "draws": 3,
@@ -683,13 +683,13 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 48,
+      "homeWinPct": 47,
       "drawPct": 24,
-      "awayWinPct": 28,
-      "predictedScore": "1.6 \u2014 1.0",
+      "awayWinPct": 29,
+      "predictedScore": "1.6 \u2014 1.1",
       "factors": {
         "homeForm": 0.55,
-        "awayForm": 0.22,
+        "awayForm": 0.32,
         "h2h": {
           "homeWins": 2,
           "draws": 0,
@@ -738,8 +738,8 @@
       "awayWinPct": 25,
       "predictedScore": "1.6 \u2014 1.0",
       "factors": {
-        "homeForm": 0.9,
-        "awayForm": 0.69,
+        "homeForm": 0.74,
+        "awayForm": 0.48,
         "h2h": {
           "homeWins": 4,
           "draws": 0,
@@ -783,12 +783,12 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 41,
+      "homeWinPct": 43,
       "drawPct": 25,
-      "awayWinPct": 34,
+      "awayWinPct": 32,
       "predictedScore": "1.5 \u2014 1.1",
       "factors": {
-        "homeForm": 0.86,
+        "homeForm": 1.0,
         "awayForm": 0.61,
         "h2h": {
           "homeWins": 2,
@@ -803,9 +803,9 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 32,
+        "homeWinPct": 33,
         "drawPct": 27,
-        "awayWinPct": 41
+        "awayWinPct": 40
       }
     },
     {
@@ -1108,61 +1108,6 @@
       }
     ],
     "Serie A": [
-      {
-        "id": "401874993",
-        "home": "AC Milan",
-        "away": "Bologna",
-        "kickoffISO": "2026-10-28T17:30Z",
-        "kickoffLabel": "Wed 28 Oct \u00b7 17:30 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 49,
-        "drawPct": 24,
-        "awayWinPct": 27
-      },
-      {
-        "id": "401874965",
-        "home": "Parma",
-        "away": "Udinese",
-        "kickoffISO": "2026-10-28T17:30Z",
-        "kickoffLabel": "Wed 28 Oct \u00b7 17:30 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 43,
-        "drawPct": 25,
-        "awayWinPct": 32
-      },
-      {
-        "id": "401874773",
-        "home": "Venezia",
-        "away": "Internazionale",
-        "kickoffISO": "2026-10-28T17:30Z",
-        "kickoffLabel": "Wed 28 Oct \u00b7 17:30 UTC",
-        "hasRealStrengthData": false,
-        "homeWinPct": 45,
-        "drawPct": 25,
-        "awayWinPct": 30
-      },
-      {
-        "id": "401874988",
-        "home": "Genoa",
-        "away": "Juventus",
-        "kickoffISO": "2026-10-28T19:45Z",
-        "kickoffLabel": "Wed 28 Oct \u00b7 19:45 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 36,
-        "drawPct": 26,
-        "awayWinPct": 38
-      },
-      {
-        "id": "401874799",
-        "home": "Monza",
-        "away": "Napoli",
-        "kickoffISO": "2026-10-28T19:45Z",
-        "kickoffLabel": "Wed 28 Oct \u00b7 19:45 UTC",
-        "hasRealStrengthData": false,
-        "homeWinPct": 45,
-        "drawPct": 25,
-        "awayWinPct": 30
-      },
       {
         "id": "401874976",
         "home": "Frosinone",
@@ -2166,7 +2111,7 @@
         }
       ],
       "squadRating": 3.91,
-      "squadValue": "\u00a3179.9m",
+      "squadValue": "\u00a3180.0m",
       "leagueRank": 14,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -2174,7 +2119,7 @@
       "nextIsHome": true,
       "nextFdr": 2,
       "nextFdrClass": "easy",
-      "form": 0.9,
+      "form": 0.74,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2344,7 +2289,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.86,
+      "form": 1.0,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2506,7 +2451,7 @@
         }
       ],
       "squadRating": 4.45,
-      "squadValue": "\u00a3145.9m",
+      "squadValue": "\u00a3145.8m",
       "leagueRank": 6,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -2514,7 +2459,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.47,
+      "form": 0.28,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2724,7 +2669,7 @@
       "nextIsHome": false,
       "nextFdr": 5,
       "nextFdrClass": "hard",
-      "form": 0.59,
+      "form": 0.38,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -2924,7 +2869,7 @@
       "nextIsHome": true,
       "nextFdr": 4,
       "nextFdrClass": "hard",
-      "form": 0.48,
+      "form": 0.37,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -3339,7 +3284,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.22,
+      "form": 0.32,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -3654,7 +3599,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.69,
+      "form": 0.48,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -4484,7 +4429,7 @@
       "nextIsHome": true,
       "nextFdr": 4,
       "nextFdrClass": "hard",
-      "form": 0.86,
+      "form": 1.0,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -4674,7 +4619,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.57,
+      "form": 0.63,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -5651,7 +5596,7 @@
       "nextIsHome": false,
       "nextFdr": 2,
       "nextFdrClass": "easy",
-      "form": 0.33,
+      "form": 0.54,
       "fixtureLoad": 1,
       "recentTransfers": {
         "in": 0,
@@ -5724,36 +5669,36 @@
       "fdr": 4,
       "fdrClass": "hard"
     },
-    "31": {
-      "id": 31,
-      "name": "Ezri Konsa Ngoyo",
-      "shortName": "Konsa",
-      "position": "DEF",
-      "team": "Arsenal",
-      "avatar": "EK",
+    "79": {
+      "id": 79,
+      "name": "Francisco Evanilson de Lima Barbosa",
+      "shortName": "Evanilson",
+      "position": "FWD",
+      "team": "Bournemouth",
+      "avatar": "FE",
       "avatarClass": "pink-avatar",
-      "price": "\u00a34.7m",
-      "owned": "20.3%",
-      "points": 39,
-      "epNext": 9.0,
-      "form": 9.0,
-      "minutes": 551,
-      "goals": 1,
-      "assists": 0,
-      "xg": 0.61,
-      "xa": 0.03,
-      "valueScore": 8.3,
-      "tackles": 10,
-      "clearancesBlocksInterceptions": 30,
-      "recoveries": 21,
+      "price": "\u00a36.2m",
+      "owned": "9.2%",
+      "points": 43,
+      "epNext": 8.3,
+      "form": 8.3,
+      "minutes": 678,
+      "goals": 3,
+      "assists": 4,
+      "xg": 3.11,
+      "xa": 0.98,
+      "valueScore": 6.9,
+      "tackles": 8,
+      "clearancesBlocksInterceptions": 16,
+      "recoveries": 26,
       "saves": 0,
-      "cleanSheets": 3,
-      "positionPercentile": 82,
-      "teamStrengthHome": 4,
-      "teamStrengthAway": 5,
-      "fixture": "vs Liverpool (A)",
-      "fdr": 4,
-      "fdrClass": "hard"
+      "cleanSheets": 4,
+      "positionPercentile": 73,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Leeds (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
     },
     "115": {
       "id": 115,
@@ -5826,7 +5771,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.4m",
-      "owned": "19.7%",
+      "owned": "19.8%",
       "points": 52,
       "epNext": 7.0,
       "form": 7.0,
@@ -5888,7 +5833,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.4m",
-      "owned": "12.5%",
+      "owned": "12.4%",
       "points": 39,
       "epNext": 4.7,
       "form": 6.3,
@@ -5909,37 +5854,6 @@
       "fixture": "vs Liverpool (A)",
       "fdr": 4,
       "fdrClass": "hard"
-    },
-    "79": {
-      "id": 79,
-      "name": "Francisco Evanilson de Lima Barbosa",
-      "shortName": "Evanilson",
-      "position": "FWD",
-      "team": "Bournemouth",
-      "avatar": "FE",
-      "avatarClass": "pink-avatar",
-      "price": "\u00a36.2m",
-      "owned": "9.2%",
-      "points": 43,
-      "epNext": 8.3,
-      "form": 8.3,
-      "minutes": 678,
-      "goals": 3,
-      "assists": 4,
-      "xg": 3.11,
-      "xa": 0.98,
-      "valueScore": 6.9,
-      "tackles": 8,
-      "clearancesBlocksInterceptions": 16,
-      "recoveries": 26,
-      "saves": 0,
-      "cleanSheets": 4,
-      "positionPercentile": 73,
-      "teamStrengthHome": 3,
-      "teamStrengthAway": 3,
-      "fixture": "vs Leeds (H)",
-      "fdr": 3,
-      "fdrClass": "mid"
     },
     "138": {
       "id": 138,
@@ -6074,7 +5988,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.9m",
-      "owned": "21.5%",
+      "owned": "21.4%",
       "points": 43,
       "epNext": 6.0,
       "form": 6.0,
@@ -6197,7 +6111,7 @@
       "team": "Brentford",
       "avatar": "MS",
       "avatarClass": "blue-avatar",
-      "price": "\u00a35.5m",
+      "price": "\u00a35.4m",
       "owned": "6.6%",
       "points": 28,
       "epNext": 2.0,
@@ -6207,7 +6121,7 @@
       "assists": 2,
       "xg": 0.41,
       "xa": 0.77,
-      "valueScore": 5.1,
+      "valueScore": 5.2,
       "tackles": 25,
       "clearancesBlocksInterceptions": 22,
       "recoveries": 43,
@@ -6260,7 +6174,7 @@
       "avatar": "AT",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.4m",
-      "owned": "2.9%",
+      "owned": "3.0%",
       "points": 25,
       "epNext": 5.0,
       "form": 5.0,
@@ -6415,7 +6329,7 @@
       "avatar": "ZS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.0m",
-      "owned": "2.8%",
+      "owned": "2.9%",
       "points": 30,
       "epNext": 4.7,
       "form": 4.7,
@@ -6539,7 +6453,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.8m",
-      "owned": "63.3%",
+      "owned": "63.1%",
       "points": 47,
       "epNext": 0.0,
       "form": 4.7,
@@ -6871,6 +6785,37 @@
       "fdr": 3,
       "fdrClass": "mid"
     },
+    "31": {
+      "id": 31,
+      "name": "Ezri Konsa Ngoyo",
+      "shortName": "Konsa",
+      "position": "DEF",
+      "team": "Arsenal",
+      "avatar": "EK",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a34.7m",
+      "owned": "20.4%",
+      "points": 39,
+      "epNext": 9.0,
+      "form": 9.0,
+      "minutes": 551,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.61,
+      "xa": 0.03,
+      "valueScore": 8.3,
+      "tackles": 10,
+      "clearancesBlocksInterceptions": 30,
+      "recoveries": 21,
+      "saves": 0,
+      "cleanSheets": 3,
+      "positionPercentile": 82,
+      "teamStrengthHome": 4,
+      "teamStrengthAway": 5,
+      "fixture": "vs Liverpool (A)",
+      "fdr": 4,
+      "fdrClass": "hard"
+    },
     "127": {
       "id": 127,
       "name": "Diego G\u00f3mez Amarilla",
@@ -7004,7 +6949,7 @@
       "avatar": "JP",
       "avatarClass": "",
       "price": "\u00a34.9m",
-      "owned": "7.9%",
+      "owned": "8.0%",
       "points": 38,
       "epNext": 4.7,
       "form": 4.7,
@@ -7035,7 +6980,7 @@
       "avatar": "BS",
       "avatarClass": "",
       "price": "\u00a39.5m",
-      "owned": "8.3%",
+      "owned": "8.2%",
       "points": 37,
       "epNext": 0.0,
       "form": 1.7,
@@ -7128,7 +7073,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "17.0%",
+      "owned": "16.9%",
       "points": 37,
       "epNext": 2.3,
       "form": 2.3,
@@ -7407,7 +7352,7 @@
       "avatar": "NJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.8m",
-      "owned": "13.1%",
+      "owned": "13.2%",
       "points": 34,
       "epNext": 8.0,
       "form": 8.0,
@@ -7778,7 +7723,7 @@
       "team": "Aston Villa",
       "avatar": "JM",
       "avatarClass": "blue-avatar",
-      "price": "\u00a36.0m",
+      "price": "\u00a36.1m",
       "owned": "4.8%",
       "points": 31,
       "epNext": 5.7,
@@ -7788,7 +7733,7 @@
       "assists": 2,
       "xg": 1.5,
       "xa": 0.57,
-      "valueScore": 5.2,
+      "valueScore": 5.1,
       "tackles": 5,
       "clearancesBlocksInterceptions": 5,
       "recoveries": 12,
@@ -9631,7 +9576,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11194964,
+  "totalManagers": 11195336,
   "totalPlayers": 669,
   "priceMovement": {
     "risers": [
@@ -9674,7 +9619,7 @@
         "changeEvent": -0.1
       },
       {
-        "id": "142",
+        "id": "565",
         "changeEvent": -0.1
       }
     ]
@@ -9916,45 +9861,45 @@
     "rising": [
       {
         "id": "166",
-        "netTransfersEvent": 915551
+        "netTransfersEvent": 926614
       },
       {
         "id": "68",
-        "netTransfersEvent": 650387
+        "netTransfersEvent": 657349
       },
       {
         "id": "379",
-        "netTransfersEvent": 338919
+        "netTransfersEvent": 343177
       },
       {
         "id": "79",
-        "netTransfersEvent": 321203
+        "netTransfersEvent": 328219
       },
       {
         "id": "31",
-        "netTransfersEvent": 190218
+        "netTransfersEvent": 191543
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -1061225
+        "netTransfersEvent": -1082293
       },
       {
         "id": "8",
-        "netTransfersEvent": -307618
+        "netTransfersEvent": -311747
       },
       {
         "id": "12",
-        "netTransfersEvent": -236653
+        "netTransfersEvent": -238622
       },
       {
         "id": "426",
-        "netTransfersEvent": -224383
+        "netTransfersEvent": -226081
       },
       {
         "id": "368",
-        "netTransfersEvent": -171125
+        "netTransfersEvent": -172559
       }
     ]
   }

@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-10-28T23:46:52.078344+00:00",
+  "generatedAt": "2026-10-29T03:51:55.913503+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Stutter' penalty back in the spotlight after Barco miss costs Chelsea",
+      "description": "The stuttering run-up for penalties has been called 'naive' as players continue to try to deceive goalkeepers with a stop-start approach - but why?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmp3g8vxd258o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-29T00:17:48+00:00"
+    },
+    {
+      "title": "'He could be happier' - why is Estevao becoming Chelsea's forgotten man?",
+      "description": "Estevao faces limited opportunities at Chelsea as Pedro Neto\u2019s form and competition for places in attack leave him struggling for game time under Xabi Alonso.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cv5ynwkndw61o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-29T00:05:21+00:00"
+    },
     {
       "title": "Papers: Liverpool make contact with Monaco midfielder Camara",
       "description": "The top stories and transfer rumours from Thursday's newspapers...",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-28T21:50:00+00:00"
-    },
-    {
-      "title": "Rangers score late to snatch draw on McInnes' Hearts return",
-      "description": "Rangers snatched a point on Derek McInnes' Tynecastle return as Hearts held onto their formidable unbeaten home record.",
-      "link": "https://www.skysports.com/football/hearts-vs-rangers/report/558396",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-28T21:50:00+00:00"
-    },
-    {
-      "title": "Kompany discharged from hospital following collapse",
-      "description": "Bayern Munich head coach Vincent Kompany is discharged from hospital and \"doing well\" following his collapse at the club's training ground, according to a club board member.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c678prmye8xvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-28T21:37:08+00:00"
     }
   ]
 }
