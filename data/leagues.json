@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:14:36.276591+00:00",
+  "generatedAt": "2026-10-29T22:17:47.142567+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -1042,11 +1042,11 @@
           "rank": 6,
           "team": "Frosinone",
           "shortTeam": "Frosinone",
-          "played": 8,
-          "wins": 4,
+          "played": 9,
+          "wins": 5,
           "draws": 2,
           "losses": 2,
-          "points": 14
+          "points": 17
         },
         {
           "rank": 7,
@@ -1102,11 +1102,11 @@
           "rank": 12,
           "team": "Atalanta",
           "shortTeam": "Atalanta",
-          "played": 8,
+          "played": 9,
           "wins": 3,
-          "draws": 1,
+          "draws": 2,
           "losses": 4,
-          "points": 10
+          "points": 11
         },
         {
           "rank": 13,
@@ -1122,10 +1122,10 @@
           "rank": 14,
           "team": "Lecce",
           "shortTeam": "Lecce",
-          "played": 8,
+          "played": 9,
           "wins": 3,
           "draws": 0,
-          "losses": 5,
+          "losses": 6,
           "points": 9
         },
         {
@@ -1160,8 +1160,8 @@
         },
         {
           "rank": 18,
-          "team": "Parma",
-          "shortTeam": "Parma",
+          "team": "Fiorentina",
+          "shortTeam": "Fiorentina",
           "played": 9,
           "wins": 1,
           "draws": 2,
@@ -1170,13 +1170,13 @@
         },
         {
           "rank": 19,
-          "team": "Fiorentina",
-          "shortTeam": "Fiorentina",
-          "played": 8,
+          "team": "Parma",
+          "shortTeam": "Parma",
+          "played": 9,
           "wins": 1,
-          "draws": 1,
+          "draws": 2,
           "losses": 6,
-          "points": 4
+          "points": 5
         },
         {
           "rank": 20,
@@ -1462,12 +1462,12 @@
           "name": "Udinese"
         },
         {
-          "id": "115",
-          "name": "Parma"
-        },
-        {
           "id": "109",
           "name": "Fiorentina"
+        },
+        {
+          "id": "115",
+          "name": "Parma"
         },
         {
           "id": "17530",
