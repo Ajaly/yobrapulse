@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T16:25:39.278421+00:00",
+  "generatedAt": "2026-10-30T21:17:57.674159+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -1926,20 +1926,20 @@
           "rank": 1,
           "team": "Paris Saint-Germain",
           "shortTeam": "PSG",
-          "played": 8,
-          "wins": 5,
+          "played": 9,
+          "wins": 6,
           "draws": 2,
           "losses": 1,
-          "points": 17
+          "points": 20
         },
         {
           "rank": 2,
           "team": "Stade Rennais",
           "shortTeam": "Rennes",
-          "played": 8,
+          "played": 9,
           "wins": 5,
           "draws": 1,
-          "losses": 2,
+          "losses": 3,
           "points": 16
         },
         {
@@ -1984,6 +1984,16 @@
         },
         {
           "rank": 7,
+          "team": "Nice",
+          "shortTeam": "Nice",
+          "played": 9,
+          "wins": 4,
+          "draws": 2,
+          "losses": 3,
+          "points": 14
+        },
+        {
+          "rank": 8,
           "team": "Lens",
           "shortTeam": "Lens",
           "played": 8,
@@ -1993,7 +2003,7 @@
           "points": 13
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team": "Marseille",
           "shortTeam": "Marseille",
           "played": 8,
@@ -2003,7 +2013,7 @@
           "points": 12
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": "Lorient",
           "shortTeam": "Lorient",
           "played": 8,
@@ -2011,16 +2021,6 @@
           "draws": 3,
           "losses": 2,
           "points": 12
-        },
-        {
-          "rank": 10,
-          "team": "Nice",
-          "shortTeam": "Nice",
-          "played": 8,
-          "wins": 3,
-          "draws": 2,
-          "losses": 3,
-          "points": 11
         },
         {
           "rank": 11,
@@ -2096,10 +2096,10 @@
           "rank": 18,
           "team": "Le Havre AC",
           "shortTeam": "Le Havre AC",
-          "played": 8,
+          "played": 9,
           "wins": 0,
           "draws": 2,
-          "losses": 6,
+          "losses": 7,
           "points": 2
         }
       ],
@@ -2312,6 +2312,10 @@
           "name": "Paris FC"
         },
         {
+          "id": "2502",
+          "name": "Nice"
+        },
+        {
           "id": "175",
           "name": "Lens"
         },
@@ -2322,10 +2326,6 @@
         {
           "id": "273",
           "name": "Lorient"
-        },
-        {
-          "id": "2502",
-          "name": "Nice"
         },
         {
           "id": "179",
