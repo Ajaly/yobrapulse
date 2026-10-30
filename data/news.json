@@ -1,10 +1,55 @@
 {
-  "generatedAt": "2026-10-29T22:17:44.929915+00:00",
+  "generatedAt": "2026-10-30T02:19:10.661696+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Everton latest: Moyes praises squad's values after Grealish absence",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-29T23:00:00+00:00"
+    },
+    {
+      "title": "PSG score late to hold struggling Man City",
+      "description": "Manchester City concede late to a draw 1-1 with Paris St-Germain, as their wait for a win in the Women's Champions League this season continues.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-29T22:40:17+00:00"
+    },
+    {
+      "title": "PSG score late to hold struggling Man City",
+      "description": "Manchester City concede late to a draw 1-1 with Paris St-Germain, as their wait for a win in the Women's Champions League this season continues.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-29T22:40:17+00:00"
+    },
+    {
+      "title": "Papers: Chelsea, Arsenal and Man Utd eye Como defender",
+      "description": "The top stories and transfer rumours from Friday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13605595/chelsea-arsenal-and-man-utd-eye-como-defender-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-29T22:30:00+00:00"
+    },
+    {
+      "title": "Everton beat Newcastle to book place in Carabao Cup quarter-finals",
+      "description": "Highlights of the fourth-round Carabao Cup match between Everton and Newcastle United.",
+      "link": "https://www.skysports.com/watch/video/13605603/everton-3-1-newcastle-united-carabao-cup-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-29T22:13:00+00:00"
+    },
     {
       "title": "Fleetwood to face Everton in EFL Cup quarters",
       "description": "League Two Fleetwood Town will face Everton at Highbury in the quarter-finals of the EFL Cup.",
@@ -51,7 +96,7 @@
       "pubDateISO": "2026-10-29T19:55:24+00:00"
     },
     {
-      "title": "Everton see off Newcastle to reach Carabao Cup quarter-final",
+      "title": "Everton see off Newcastle to reach Carabao Cup quarter-finals",
       "description": "Everton are through to the quarter-finals of the Carabao Cup after seeing off Newcastle 3-1.",
       "link": "https://www.skysports.com/football/everton-vs-newcastle-united/report/578609",
       "source": "Sky Sports",
@@ -60,58 +105,13 @@
       "pubDateISO": "2026-10-29T19:34:00+00:00"
     },
     {
-      "title": "Grealish dropped by Everton after 'breach of club discipline'",
-      "description": "Jack Grealish is left out of Everton's Carabao Cup tie with Newcastle United on Thursday \"due to a breach of club discipline\".",
+      "title": "Grealish dropped over 'breach of club discipline' - what now?",
+      "description": "Jack Grealish is left out of Everton's EFL Cup win over Newcastle United on Thursday because of \"a breach of club discipline\".",
       "link": "https://www.bbc.co.uk/sport/football/articles/cmwy4vyl9nplo",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-29T19:31:36+00:00"
-    },
-    {
-      "title": "Grealish dropped by Everton after breaching club discipline",
-      "description": "Everton said Jack Grealish was unavailable for their Carabao Cup fourth-round tie against Newcastle 'due to a breach of club discipline'.",
-      "link": "https://www.skysports.com/football/news/11095/13605512/jack-grealish-dropped-by-everton-after-breaching-club-discipline-ahead-of-newcastle-carabao-cup-tie",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-29T18:45:00+00:00"
-    },
-    {
-      "title": "Everton latest: Branthwaite misses Newcastle cup visit due to concussion",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-29T18:45:00+00:00"
-    },
-    {
-      "title": "PSG hit back late on to deny Man City first WCL win LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/manchester-city-women-vs-paris-saint-germain-women/live/578257",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-29T18:07:00+00:00"
-    },
-    {
-      "title": "Arsenal latest: Arteta sweating on fitness of duo after Dowman appeal rejected",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-29T18:00:00+00:00"
-    },
-    {
-      "title": "Scottish football could pave way for 3pm TV blackout to end",
-      "description": "The first tentative steps to end the 3pm television blackout in the UK have been taken by Scottish football as it seeks offers for the next broadcast cycle.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmgr8l87edyjo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-29T17:43:53+00:00"
     }
   ]
 }

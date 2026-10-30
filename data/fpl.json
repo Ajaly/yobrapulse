@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T22:17:43.968805+00:00",
+  "generatedAt": "2026-10-30T02:19:09.781100+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -198,6 +198,7 @@
     "69",
     "249",
     "384",
+    "455",
     "204",
     "226",
     "282",
@@ -214,6 +215,7 @@
     "304",
     "552",
     "61",
+    "67",
     "390",
     "26",
     "200",
@@ -840,20 +842,20 @@
           "managerChange": null
         }
       },
-      "homeWinPct": 41,
+      "homeWinPct": 39,
       "drawPct": 26,
-      "awayWinPct": 33,
-      "predictedScore": "1.5 \u2014 1.1",
+      "awayWinPct": 35,
+      "predictedScore": "1.4 \u2014 1.2",
       "factors": {
-        "homeForm": 0.43,
-        "awayForm": 0.38,
+        "homeForm": 0.37,
+        "awayForm": 0.46,
         "h2h": {
           "homeWins": 1,
           "draws": 0,
           "awayWins": 4,
           "meetings": 5
         },
-        "homeAvailability": 0.95,
+        "homeAvailability": 0.93,
         "awayAvailability": 1.0,
         "homeTransferImpactM": 0,
         "awayTransferImpactM": -5.5
@@ -1108,28 +1110,6 @@
       }
     ],
     "Serie A": [
-      {
-        "id": "401874976",
-        "home": "Frosinone",
-        "away": "Lecce",
-        "kickoffISO": "2026-10-29T17:30Z",
-        "kickoffLabel": "Thu 29 Oct \u00b7 17:30 UTC",
-        "hasRealStrengthData": false,
-        "homeWinPct": 45,
-        "drawPct": 25,
-        "awayWinPct": 30
-      },
-      {
-        "id": "401874969",
-        "home": "Fiorentina",
-        "away": "Atalanta",
-        "kickoffISO": "2026-10-29T19:45Z",
-        "kickoffLabel": "Thu 29 Oct \u00b7 19:45 UTC",
-        "hasRealStrengthData": true,
-        "homeWinPct": 40,
-        "drawPct": 26,
-        "awayWinPct": 34
-      },
       {
         "id": "401874798",
         "home": "Bologna",
@@ -1906,7 +1886,7 @@
         }
       ],
       "squadRating": 5.45,
-      "squadValue": "\u00a3176.4m",
+      "squadValue": "\u00a3176.1m",
       "leagueRank": 2,
       "strengthHome": 4,
       "strengthAway": 5,
@@ -2281,7 +2261,7 @@
         }
       ],
       "squadRating": 4.23,
-      "squadValue": "\u00a3149.0m",
+      "squadValue": "\u00a3149.1m",
       "leagueRank": 8,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -3276,7 +3256,7 @@
         }
       ],
       "squadRating": 3.32,
-      "squadValue": "\u00a3176.8m",
+      "squadValue": "\u00a3176.7m",
       "leagueRank": 19,
       "strengthHome": 2,
       "strengthAway": 3,
@@ -3434,7 +3414,7 @@
       "nextIsHome": false,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.38,
+      "form": 0.46,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -5009,7 +4989,7 @@
       "nextIsHome": true,
       "nextFdr": 3,
       "nextFdrClass": "mid",
-      "form": 0.43,
+      "form": 0.37,
       "fixtureLoad": 2,
       "recentTransfers": {
         "in": 0,
@@ -5677,8 +5657,8 @@
       "team": "Bournemouth",
       "avatar": "FE",
       "avatarClass": "pink-avatar",
-      "price": "\u00a36.2m",
-      "owned": "10.2%",
+      "price": "\u00a36.3m",
+      "owned": "10.3%",
       "points": 43,
       "epNext": 8.3,
       "form": 8.3,
@@ -5687,7 +5667,7 @@
       "assists": 4,
       "xg": 3.11,
       "xa": 0.98,
-      "valueScore": 6.9,
+      "valueScore": 6.8,
       "tackles": 8,
       "clearancesBlocksInterceptions": 16,
       "recoveries": 26,
@@ -5740,7 +5720,7 @@
       "avatar": "PG",
       "avatarClass": "",
       "price": "\u00a36.2m",
-      "owned": "46.1%",
+      "owned": "46.0%",
       "points": 58,
       "epNext": 3.7,
       "form": 3.7,
@@ -5771,7 +5751,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.4m",
-      "owned": "20.8%",
+      "owned": "21.0%",
       "points": 52,
       "epNext": 7.0,
       "form": 7.0,
@@ -5848,7 +5828,7 @@
       "recoveries": 27,
       "saves": 0,
       "cleanSheets": 5,
-      "positionPercentile": 66,
+      "positionPercentile": 68,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Liverpool (A)",
@@ -5910,7 +5890,7 @@
       "recoveries": 31,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 41,
+      "positionPercentile": 44,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Man Utd (H)",
@@ -5957,7 +5937,7 @@
       "avatar": "AI",
       "avatarClass": "pink-avatar",
       "price": "\u00a39.1m",
-      "owned": "17.6%",
+      "owned": "17.7%",
       "points": 51,
       "epNext": 6.0,
       "form": 6.0,
@@ -5988,7 +5968,7 @@
       "avatar": "BM",
       "avatarClass": "pink-avatar",
       "price": "\u00a37.9m",
-      "owned": "21.4%",
+      "owned": "21.3%",
       "points": 43,
       "epNext": 6.0,
       "form": 6.0,
@@ -6003,7 +5983,7 @@
       "recoveries": 19,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 72,
+      "positionPercentile": 74,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Chelsea (A)",
@@ -6127,7 +6107,7 @@
       "recoveries": 43,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 62,
+      "positionPercentile": 65,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Nott'm Forest (H)",
@@ -6329,7 +6309,7 @@
       "avatar": "ZS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.0m",
-      "owned": "3.0%",
+      "owned": "3.1%",
       "points": 30,
       "epNext": 4.7,
       "form": 4.7,
@@ -6453,7 +6433,7 @@
       "avatar": "JP",
       "avatarClass": "blue-avatar",
       "price": "\u00a37.8m",
-      "owned": "60.2%",
+      "owned": "59.7%",
       "points": 47,
       "epNext": 0.0,
       "form": 4.7,
@@ -6483,8 +6463,8 @@
       "team": "Arsenal",
       "avatar": "RC",
       "avatarClass": "",
-      "price": "\u00a36.0m",
-      "owned": "50.3%",
+      "price": "\u00a35.9m",
+      "owned": "50.1%",
       "points": 45,
       "epNext": 4.0,
       "form": 5.3,
@@ -6493,7 +6473,7 @@
       "assists": 2,
       "xg": 1.22,
       "xa": 0.98,
-      "valueScore": 7.5,
+      "valueScore": 7.6,
       "tackles": 10,
       "clearancesBlocksInterceptions": 17,
       "recoveries": 16,
@@ -6515,7 +6495,7 @@
       "avatar": "RC",
       "avatarClass": "pink-avatar",
       "price": "\u00a38.0m",
-      "owned": "38.0%",
+      "owned": "37.9%",
       "points": 44,
       "epNext": 3.3,
       "form": 3.3,
@@ -6685,7 +6665,7 @@
       "recoveries": 40,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 69,
+      "positionPercentile": 71,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Man Utd (H)",
@@ -6778,7 +6758,7 @@
       "recoveries": 28,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 59,
+      "positionPercentile": 62,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Everton (H)",
@@ -6840,7 +6820,7 @@
       "recoveries": 35,
       "saves": 0,
       "cleanSheets": 5,
-      "positionPercentile": 50,
+      "positionPercentile": 53,
       "teamStrengthHome": 3,
       "teamStrengthAway": 4,
       "fixture": "vs Man City (A)",
@@ -6933,7 +6913,7 @@
       "recoveries": 21,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 84,
+      "positionPercentile": 85,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Chelsea (A)",
@@ -6995,7 +6975,7 @@
       "recoveries": 23,
       "saves": 0,
       "cleanSheets": 4,
-      "positionPercentile": 75,
+      "positionPercentile": 76,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Liverpool (A)",
@@ -7026,7 +7006,7 @@
       "recoveries": 29,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 78,
+      "positionPercentile": 79,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Man Utd (H)",
@@ -7057,7 +7037,7 @@
       "recoveries": 38,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 31,
+      "positionPercentile": 35,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Newcastle (A)",
@@ -7104,7 +7084,7 @@
       "avatar": "AS",
       "avatarClass": "blue-avatar",
       "price": "\u00a38.2m",
-      "owned": "7.4%",
+      "owned": "7.3%",
       "points": 37,
       "epNext": 0.0,
       "form": 1.3,
@@ -7119,7 +7099,7 @@
       "recoveries": 17,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 81,
+      "positionPercentile": 82,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Brighton (H)",
@@ -7150,7 +7130,7 @@
       "recoveries": 22,
       "saves": 0,
       "cleanSheets": 5,
-      "positionPercentile": 53,
+      "positionPercentile": 56,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Liverpool (A)",
@@ -7212,7 +7192,7 @@
       "recoveries": 26,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 56,
+      "positionPercentile": 59,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Nott'm Forest (H)",
@@ -7336,7 +7316,7 @@
       "recoveries": 30,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 44,
+      "positionPercentile": 47,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Fulham (H)",
@@ -7352,7 +7332,7 @@
       "avatar": "NJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a36.8m",
-      "owned": "15.0%",
+      "owned": "15.3%",
       "points": 34,
       "epNext": 8.0,
       "form": 8.0,
@@ -7414,7 +7394,7 @@
       "avatar": "JK",
       "avatarClass": "",
       "price": "\u00a35.6m",
-      "owned": "4.2%",
+      "owned": "4.1%",
       "points": 34,
       "epNext": 3.3,
       "form": 3.3,
@@ -7429,7 +7409,7 @@
       "recoveries": 24,
       "saves": 0,
       "cleanSheets": 5,
-      "positionPercentile": 34,
+      "positionPercentile": 38,
       "teamStrengthHome": 2,
       "teamStrengthAway": 3,
       "fixture": "vs Aston Villa (A)",
@@ -7522,7 +7502,7 @@
       "recoveries": 35,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 47,
+      "positionPercentile": 50,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Brighton (H)",
@@ -7553,7 +7533,7 @@
       "recoveries": 29,
       "saves": 0,
       "cleanSheets": 0,
-      "positionPercentile": 38,
+      "positionPercentile": 41,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Chelsea (A)",
@@ -7646,7 +7626,7 @@
       "recoveries": 26,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 22,
+      "positionPercentile": 26,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Bournemouth (A)",
@@ -7677,7 +7657,7 @@
       "recoveries": 25,
       "saves": 0,
       "cleanSheets": 1,
-      "positionPercentile": 28,
+      "positionPercentile": 32,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Brentford (A)",
@@ -7832,7 +7812,7 @@
       "recoveries": 33,
       "saves": 0,
       "cleanSheets": 4,
-      "positionPercentile": 25,
+      "positionPercentile": 29,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Arsenal (H)",
@@ -7931,6 +7911,37 @@
       "fixture": "vs Brighton (H)",
       "fdr": 3,
       "fdrClass": "mid"
+    },
+    "455": {
+      "id": 455,
+      "name": "Sandro Tonali",
+      "shortName": "Tonali",
+      "position": "MID",
+      "team": "Spurs",
+      "avatar": "ST",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a35.3m",
+      "owned": "2.0%",
+      "points": 30,
+      "epNext": 5.3,
+      "form": 5.3,
+      "minutes": 697,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.37,
+      "xa": 1.22,
+      "valueScore": 5.7,
+      "tackles": 19,
+      "clearancesBlocksInterceptions": 19,
+      "recoveries": 40,
+      "saves": 0,
+      "cleanSheets": 3,
+      "positionPercentile": 21,
+      "teamStrengthHome": 2,
+      "teamStrengthAway": 3,
+      "fixture": "vs Crystal Palace (H)",
+      "fdr": 2,
+      "fdrClass": "easy"
     },
     "204": {
       "id": 204,
@@ -8096,7 +8107,7 @@
       "avatar": "NM",
       "avatarClass": "orange-avatar",
       "price": "\u00a34.1m",
-      "owned": "4.8%",
+      "owned": "4.7%",
       "points": 28,
       "epNext": 1.0,
       "form": 1.0,
@@ -8235,7 +8246,7 @@
       "recoveries": 46,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 9,
+      "positionPercentile": 12,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Coventry City (A)",
@@ -8266,7 +8277,7 @@
       "recoveries": 24,
       "saves": 0,
       "cleanSheets": 2,
-      "positionPercentile": 12,
+      "positionPercentile": 15,
       "teamStrengthHome": 3,
       "teamStrengthAway": 3,
       "fixture": "vs Coventry City (A)",
@@ -8335,6 +8346,37 @@
       "fdr": 2,
       "fdrClass": "easy"
     },
+    "67": {
+      "id": 67,
+      "name": "Rayan Vitor Simpl\u00edcio Rocha",
+      "shortName": "Rayan",
+      "position": "MID",
+      "team": "Bournemouth",
+      "avatar": "RV",
+      "avatarClass": "pink-avatar",
+      "price": "\u00a36.3m",
+      "owned": "2.0%",
+      "points": 25,
+      "epNext": 5.0,
+      "form": 5.0,
+      "minutes": 702,
+      "goals": 1,
+      "assists": 0,
+      "xg": 2.44,
+      "xa": 0.61,
+      "valueScore": 4.0,
+      "tackles": 9,
+      "clearancesBlocksInterceptions": 16,
+      "recoveries": 15,
+      "saves": 0,
+      "cleanSheets": 2,
+      "positionPercentile": 6,
+      "teamStrengthHome": 3,
+      "teamStrengthAway": 3,
+      "fixture": "vs Leeds (H)",
+      "fdr": 3,
+      "fdrClass": "mid"
+    },
     "390": {
       "id": 390,
       "name": "R\u00faben dos Santos Gato Alves Dias",
@@ -8374,7 +8416,7 @@
       "team": "Arsenal",
       "avatar": "KH",
       "avatarClass": "orange-avatar",
-      "price": "\u00a37.5m",
+      "price": "\u00a37.4m",
       "owned": "5.6%",
       "points": 24,
       "epNext": 1.7,
@@ -8514,7 +8556,7 @@
       "recoveries": 40,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 6,
+      "positionPercentile": 9,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Brighton (H)",
@@ -8638,7 +8680,7 @@
       "recoveries": 26,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 19,
+      "positionPercentile": 24,
       "teamStrengthHome": 4,
       "teamStrengthAway": 4,
       "fixture": "vs Arsenal (H)",
@@ -8824,7 +8866,7 @@
       "recoveries": 19,
       "saves": 0,
       "cleanSheets": 3,
-      "positionPercentile": 16,
+      "positionPercentile": 18,
       "teamStrengthHome": 4,
       "teamStrengthAway": 5,
       "fixture": "vs Brighton (H)",
@@ -8994,7 +9036,7 @@
       "team": "Arsenal",
       "avatar": "CT",
       "avatarClass": "blue-avatar",
-      "price": "\u00a36.2m",
+      "price": "\u00a36.1m",
       "owned": "4.0%",
       "points": 16,
       "epNext": 0.0,
@@ -9576,7 +9618,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11199005,
+  "totalManagers": 11199510,
   "totalPlayers": 669,
   "priceMovement": {
     "risers": [
@@ -9589,19 +9631,23 @@
         "changeEvent": 0.2
       },
       {
+        "id": "79",
+        "changeEvent": 0.2
+      },
+      {
         "id": "1",
         "changeEvent": 0.1
       },
       {
         "id": "13",
         "changeEvent": 0.1
-      },
-      {
-        "id": "31",
-        "changeEvent": 0.1
       }
     ],
     "fallers": [
+      {
+        "id": "8",
+        "changeEvent": -0.1
+      },
       {
         "id": "12",
         "changeEvent": -0.1
@@ -9611,15 +9657,11 @@
         "changeEvent": -0.1
       },
       {
-        "id": "32",
+        "id": "26",
         "changeEvent": -0.1
       },
       {
-        "id": "69",
-        "changeEvent": -0.1
-      },
-      {
-        "id": "565",
+        "id": "557",
         "changeEvent": -0.1
       }
     ]
@@ -9662,11 +9704,11 @@
         "value": 1
       },
       {
-        "id": "68",
+        "id": "67",
         "value": 1
       },
       {
-        "id": "79",
+        "id": "68",
         "value": 1
       }
     ],
@@ -9698,6 +9740,10 @@
         "value": 23
       },
       {
+        "id": "67",
+        "value": 17
+      },
+      {
         "id": "539",
         "value": 17
       },
@@ -9708,10 +9754,6 @@
       {
         "id": "286",
         "value": 14
-      },
-      {
-        "id": "32",
-        "value": 13
       }
     ],
     "bonus": [
@@ -9861,45 +9903,45 @@
     "rising": [
       {
         "id": "166",
-        "netTransfersEvent": 1098556
+        "netTransfersEvent": 1129070
       },
       {
         "id": "68",
-        "netTransfersEvent": 751292
+        "netTransfersEvent": 768569
       },
       {
         "id": "79",
-        "netTransfersEvent": 421191
+        "netTransfersEvent": 438545
       },
       {
         "id": "379",
-        "netTransfersEvent": 400659
+        "netTransfersEvent": 409845
       },
       {
         "id": "31",
-        "netTransfersEvent": 212636
+        "netTransfersEvent": 216158
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -1379669
+        "netTransfersEvent": -1431563
       },
       {
         "id": "8",
-        "netTransfersEvent": -375646
+        "netTransfersEvent": -387253
       },
       {
         "id": "12",
-        "netTransfersEvent": -263891
+        "netTransfersEvent": -268447
       },
       {
         "id": "426",
-        "netTransfersEvent": -250453
+        "netTransfersEvent": -254533
       },
       {
         "id": "368",
-        "netTransfersEvent": -192354
+        "netTransfersEvent": -195753
       }
     ]
   }
