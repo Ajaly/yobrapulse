@@ -1,27 +1,90 @@
 {
-  "generatedAt": "2026-10-30T21:17:56.413884+00:00",
+  "generatedAt": "2026-10-31T01:19:49.390303+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Hakimi hat-trick helps PSG overpower Le Havre",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-      "source": "Sky Sports",
+      "title": "Man Utd target Barcelona's Lopez - Saturday's gossip",
+      "description": "Manchester United target Barcelona's Fermin Lopez, Lisandro Martinez is attracting interest from the La Liga side, Arsenal eye Club Brugge striker Nicolo Tresoldi, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck3r52vn758xo",
+      "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-30T20:45:00+00:00"
+      "pubDateISO": "2026-10-30T23:08:16+00:00"
     },
     {
-      "title": "Sheff Utd still leading Wrexham LIVE!",
+      "title": "Villa to sue Carragher over 'unacceptable insults'",
+      "description": "Aston Villa say they will initiate legal action against Jamie Carragher over what the club branded as \"unacceptable insults\".",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqd09p3kppyvo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-30T23:05:45+00:00"
+    },
+    {
+      "title": "From WiFi to 'relief' - how was Ferguson's Irish League debut?",
+      "description": "After a 1-1 draw in his first match as Glentoran manager, Duncan Ferguson speaks of his \"relief\" in a week filled with WiFi and homework.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj5ynr23rg4ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-30T22:52:32+00:00"
+    },
+    {
+      "title": "Man Utd latest: Carrick admits to 'hard truths' in conversation with board",
       "description": "",
-      "link": "https://www.skysports.com/football/sheffield-united-vs-wrexham/live/560648",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-30T19:00:00+00:00"
+      "pubDateISO": "2026-10-30T22:30:00+00:00"
+    },
+    {
+      "title": "Papers: Martinez seeking summer Man Utd departure",
+      "description": "The top stories and transfer rumours from Saturday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13605928/lisandro-martinez-wants-to-leave-man-utd-in-the-summer-with-atletico-madrid-interested-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-10-30T22:17:00+00:00"
+    },
+    {
+      "title": "Brereton Diaz the match-winner as Blades edge past Wrexham",
+      "description": "Highlights of Sheffield United against Wrexham in the Sky Bet Championship.",
+      "link": "https://www.skysports.com/watch/video/13605970/sheffield-united-1-0-wrexham-championship-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-30T22:05:00+00:00"
+    },
+    {
+      "title": "Sheff Utd win first league game against Wrexham in 44 years",
+      "description": "Sheffield United shook off a 44-year hoodoo by beating Wrexham 1-0 in the Championship, winning against the Welsh side in the league for the first time since October 1982.",
+      "link": "https://www.skysports.com/football/sheffield-united-vs-wrexham/report/560648",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-30T22:00:00+00:00"
+    },
+    {
+      "title": "Can Robinson work Hampden magic against McInnes' Rangers?",
+      "description": "Under-pressure Aberdeen manager Stephen Robinson has an excellent record in Hampden semi-finals. But is Saturday's meeting with Rangers a bridge too far?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwx281x2p28do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-30T21:26:10+00:00"
+    },
+    {
+      "title": "Can Robinson work Hampden magic against McInnes' Rangers?",
+      "description": "Under-pressure Aberdeen manager Stephen Robinson has an excellent record in Hampden semi-finals. But is Saturday's meeting with Rangers a bridge too far?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwx281x2p28do",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-30T21:26:10+00:00"
     },
     {
       "title": "How Maestre and LCL are succeeding ahead of 'biggest' Man City test",
@@ -49,69 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-30T17:33:02+00:00"
-    },
-    {
-      "title": "Carrick's last chance? The fixes Man Utd may need at Chelsea",
-      "description": "You would be forgiven for wondering how much longer Michael Carrick will remain in the Manchester United dugout.",
-      "link": "https://www.skysports.com/football/news/11095/13605448/michael-carrick-what-man-utd-boss-could-change-for-saturdays-premier-league-game-at-chelsea",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-30T17:00:00+00:00"
-    },
-    {
-      "title": "Liverpool latest: The more we win, the better we'll become, says Iraola",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025501/liverpool-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-30T17:00:00+00:00"
-    },
-    {
-      "title": "What Howe could bring to Man Utd - and what are the challenges?",
-      "description": "Eddie Howe is being linked with the Manchester United job, but what are some of the considerations for him and the club?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr74pd99vwq3o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-30T16:27:13+00:00"
-    },
-    {
-      "title": "Fears Chelsea's Lacroix could be out until January",
-      "description": "Chelsea fear Maxence Lacroix will have a lengthy lay-off having suffered a serious hamstring injury.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmkgkpexjzneo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-30T16:21:10+00:00"
-    },
-    {
-      "title": "Spurs' Maddison fit to face Palace - De Zerbi",
-      "description": "Tottenham midfielder James Maddison is available to face Crystal Palace on Saturday says manager Roberto De Zerbi, despite an injury scare last week.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cke8rp00m87lo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-10-30T15:49:28+00:00"
-    },
-    {
-      "title": "Arteta warns Dowman 'we are not in Disneyland' after red card",
-      "description": "Mikel Arteta says \"we are not in Disneyland\" and that he will hold Max Dowman to the same standards as other first-team players after the teenager's red card against Fleetwood.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c875p940g5v2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-30T15:41:43+00:00"
-    },
-    {
-      "title": "Items stolen from Man Utd Munich air disaster memorial",
-      "description": "The foundation has urged the return of stolen items, saying they mean so much to bereaved families.",
-      "link": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-30T15:03:12+00:00"
     }
   ]
 }

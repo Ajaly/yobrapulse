@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T21:17:57.674159+00:00",
+  "generatedAt": "2026-10-31T01:19:51.080663+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -591,10 +591,10 @@
           "rank": 10,
           "team": "Villarreal",
           "shortTeam": "Villarreal",
-          "played": 10,
+          "played": 11,
           "wins": 3,
           "draws": 3,
-          "losses": 4,
+          "losses": 5,
           "points": 12
         },
         {
@@ -609,6 +609,16 @@
         },
         {
           "rank": 12,
+          "team": "Espanyol",
+          "shortTeam": "Espanyol",
+          "played": 11,
+          "wins": 3,
+          "draws": 2,
+          "losses": 6,
+          "points": 11
+        },
+        {
+          "rank": 13,
           "team": "Osasuna",
           "shortTeam": "Osasuna",
           "played": 10,
@@ -618,7 +628,7 @@
           "points": 11
         },
         {
-          "rank": 13,
+          "rank": 14,
           "team": "Racing Santander",
           "shortTeam": "Racing",
           "played": 10,
@@ -628,7 +638,7 @@
           "points": 11
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": "Levante",
           "shortTeam": "Levante",
           "played": 10,
@@ -638,7 +648,7 @@
           "points": 10
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "Elche",
           "shortTeam": "Elche",
           "played": 10,
@@ -648,7 +658,7 @@
           "points": 10
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "Rayo Vallecano",
           "shortTeam": "Rayo",
           "played": 9,
@@ -658,7 +668,7 @@
           "points": 9
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "Getafe",
           "shortTeam": "Getafe",
           "played": 10,
@@ -666,16 +676,6 @@
           "draws": 3,
           "losses": 5,
           "points": 9
-        },
-        {
-          "rank": 18,
-          "team": "Espanyol",
-          "shortTeam": "Espanyol",
-          "played": 10,
-          "wins": 2,
-          "draws": 2,
-          "losses": 6,
-          "points": 8
         },
         {
           "rank": 19,
@@ -947,6 +947,10 @@
           "name": "Deportivo"
         },
         {
+          "id": "88",
+          "name": "Espanyol"
+        },
+        {
           "id": "97",
           "name": "Osasuna"
         },
@@ -969,10 +973,6 @@
         {
           "id": "2922",
           "name": "Getafe"
-        },
-        {
-          "id": "88",
-          "name": "Espanyol"
         },
         {
           "id": "94",
@@ -1521,6 +1521,16 @@
         },
         {
           "rank": 5,
+          "team": "SV Elversberg",
+          "shortTeam": "Elversberg",
+          "played": 8,
+          "wins": 4,
+          "draws": 1,
+          "losses": 3,
+          "points": 13
+        },
+        {
+          "rank": 6,
           "team": "RB Leipzig",
           "shortTeam": "RB Leipzig",
           "played": 7,
@@ -1530,7 +1540,7 @@
           "points": 12
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "Werder Bremen",
           "shortTeam": "Bremen",
           "played": 7,
@@ -1540,23 +1550,13 @@
           "points": 12
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": "Mainz",
           "shortTeam": "Mainz",
-          "played": 7,
+          "played": 8,
           "wins": 3,
           "draws": 1,
-          "losses": 3,
-          "points": 10
-        },
-        {
-          "rank": 8,
-          "team": "SV Elversberg",
-          "shortTeam": "Elversberg",
-          "played": 7,
-          "wins": 3,
-          "draws": 1,
-          "losses": 3,
+          "losses": 4,
           "points": 10
         },
         {
@@ -1861,6 +1861,10 @@
           "name": "Bayer Leverkusen"
         },
         {
+          "id": "10388",
+          "name": "SV Elversberg"
+        },
+        {
           "id": "11420",
           "name": "RB Leipzig"
         },
@@ -1871,10 +1875,6 @@
         {
           "id": "2950",
           "name": "Mainz"
-        },
-        {
-          "id": "10388",
-          "name": "SV Elversberg"
         },
         {
           "id": "3841",
@@ -1934,6 +1934,16 @@
         },
         {
           "rank": 2,
+          "team": "Lille",
+          "shortTeam": "Lille",
+          "played": 9,
+          "wins": 5,
+          "draws": 3,
+          "losses": 1,
+          "points": 18
+        },
+        {
+          "rank": 3,
           "team": "Stade Rennais",
           "shortTeam": "Rennes",
           "played": 9,
@@ -1941,16 +1951,6 @@
           "draws": 1,
           "losses": 3,
           "points": 16
-        },
-        {
-          "rank": 3,
-          "team": "Lille",
-          "shortTeam": "Lille",
-          "played": 8,
-          "wins": 4,
-          "draws": 3,
-          "losses": 1,
-          "points": 15
         },
         {
           "rank": 4,
@@ -1996,10 +1996,10 @@
           "rank": 8,
           "team": "Lens",
           "shortTeam": "Lens",
-          "played": 8,
+          "played": 9,
           "wins": 4,
           "draws": 1,
-          "losses": 3,
+          "losses": 4,
           "points": 13
         },
         {
@@ -2292,12 +2292,12 @@
           "name": "Paris Saint-Germain"
         },
         {
-          "id": "169",
-          "name": "Stade Rennais"
-        },
-        {
           "id": "166",
           "name": "Lille"
+        },
+        {
+          "id": "169",
+          "name": "Stade Rennais"
         },
         {
           "id": "174",
