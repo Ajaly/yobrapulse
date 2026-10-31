@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-10-31T01:19:49.390303+00:00",
+  "generatedAt": "2026-10-31T07:51:44.788272+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6x2qr8dj81vo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-31T06:54:52+00:00"
+    },
+    {
+      "title": "AC Milan v Inter and the tale of an iconic image",
+      "description": "AC Milan versus Inter will be shown live on the BBC on Saturday - this is the story of the fixture's most iconic image.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq99zlpzm87ro",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-31T06:44:38+00:00"
+    },
+    {
+      "title": "Shearer discusses scoring record, MOTD & a brush with Cardiff",
+      "description": "Alan Shearer discusses his love of Newcastle, almost continuing his managerial career and swapping the pitch for the commentary box in The Football Interview.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwkg5l822k3no",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-10-31T06:23:58+00:00"
+    },
     {
       "title": "Man Utd target Barcelona's Lopez - Saturday's gossip",
       "description": "Manchester United target Barcelona's Fermin Lopez, Lisandro Martinez is attracting interest from the La Liga side, Arsenal eye Club Brugge striker Nicolo Tresoldi, plus more.",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-10-30T21:26:10+00:00"
-    },
-    {
-      "title": "How Maestre and LCL are succeeding ahead of 'biggest' Man City test",
-      "description": "The sight of superstars rolling into London City Lionesses this summer was exciting for many, but there was one man who was tasked with making them a team - head coach Eder Maestre.",
-      "link": "https://www.skysports.com/football/news/11095/13605812/london-city-lionesses-eder-maestre-explains-how-his-team-are-succeeding-in-the-wsl-ahead-of-big-man-city-test",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-30T18:55:00+00:00"
-    },
-    {
-      "title": "Hearts & Hibs brace for 'all or nothing' semi-final",
-      "description": "Hearts and Hibernian are braced for a winner-takes-all League Cup semi-final. But the Edinburgh rivals arrive at Hampden in very different moods.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6reypq3vjdvo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-30T18:26:20+00:00"
-    },
-    {
-      "title": "Why has Caf abandoned plans to hold Afcon every four years?",
-      "description": "The Africa Cup of Nations will remain on a two-year cycle after the Confederation of African Football performed a U-turn on a decision taken last December.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm3el25ez88yo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-10-30T17:33:02+00:00"
     }
   ]
 }
