@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T08:32:22.791614+00:00",
+  "generatedAt": "2026-11-01T15:40:07.170692+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -551,10 +551,10 @@
           "rank": 6,
           "team": "Sevilla",
           "shortTeam": "Sevilla",
-          "played": 10,
+          "played": 11,
           "wins": 5,
           "draws": 2,
-          "losses": 3,
+          "losses": 4,
           "points": 17
         },
         {
@@ -609,6 +609,16 @@
         },
         {
           "rank": 12,
+          "team": "Getafe",
+          "shortTeam": "Getafe",
+          "played": 11,
+          "wins": 3,
+          "draws": 3,
+          "losses": 5,
+          "points": 12
+        },
+        {
+          "rank": 13,
           "team": "Deportivo",
           "shortTeam": "Deportivo",
           "played": 10,
@@ -618,7 +628,7 @@
           "points": 11
         },
         {
-          "rank": 13,
+          "rank": 14,
           "team": "Espanyol",
           "shortTeam": "Espanyol",
           "played": 11,
@@ -628,7 +638,7 @@
           "points": 11
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": "Osasuna",
           "shortTeam": "Osasuna",
           "played": 10,
@@ -638,7 +648,7 @@
           "points": 11
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "Racing Santander",
           "shortTeam": "Racing",
           "played": 10,
@@ -648,7 +658,7 @@
           "points": 11
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "Elche",
           "shortTeam": "Elche",
           "played": 10,
@@ -658,7 +668,7 @@
           "points": 10
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "Levante",
           "shortTeam": "Levante",
           "played": 11,
@@ -666,16 +676,6 @@
           "draws": 4,
           "losses": 5,
           "points": 10
-        },
-        {
-          "rank": 18,
-          "team": "Getafe",
-          "shortTeam": "Getafe",
-          "played": 10,
-          "wins": 2,
-          "draws": 3,
-          "losses": 5,
-          "points": 9
         },
         {
           "rank": 19,
@@ -947,6 +947,10 @@
           "name": "Rayo Vallecano"
         },
         {
+          "id": "2922",
+          "name": "Getafe"
+        },
+        {
           "id": "90",
           "name": "Deportivo"
         },
@@ -969,10 +973,6 @@
         {
           "id": "1538",
           "name": "Levante"
-        },
-        {
-          "id": "2922",
-          "name": "Getafe"
         },
         {
           "id": "94",
@@ -1020,6 +1020,16 @@
         },
         {
           "rank": 4,
+          "team": "Como",
+          "shortTeam": "Como",
+          "played": 10,
+          "wins": 7,
+          "draws": 2,
+          "losses": 1,
+          "points": 23
+        },
+        {
+          "rank": 5,
           "team": "AC Milan",
           "shortTeam": "Milan",
           "played": 10,
@@ -1027,16 +1037,6 @@
           "draws": 3,
           "losses": 1,
           "points": 21
-        },
-        {
-          "rank": 5,
-          "team": "Como",
-          "shortTeam": "Como",
-          "played": 9,
-          "wins": 6,
-          "draws": 2,
-          "losses": 1,
-          "points": 20
         },
         {
           "rank": 6,
@@ -1182,10 +1182,10 @@
           "rank": 20,
           "team": "Venezia",
           "shortTeam": "Venezia",
-          "played": 9,
+          "played": 10,
           "wins": 1,
           "draws": 0,
-          "losses": 8,
+          "losses": 9,
           "points": 3
         }
       ],
@@ -1406,12 +1406,12 @@
           "name": "AS Roma"
         },
         {
-          "id": "103",
-          "name": "AC Milan"
-        },
-        {
           "id": "2572",
           "name": "Como"
+        },
+        {
+          "id": "103",
+          "name": "AC Milan"
         },
         {
           "id": "4057",
