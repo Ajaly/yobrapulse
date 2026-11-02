@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T20:02:22.663246+00:00",
+  "generatedAt": "2026-11-02T00:07:00.340107+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -541,10 +541,10 @@
           "rank": 5,
           "team": "Real Sociedad",
           "shortTeam": "Real Sociedad",
-          "played": 10,
+          "played": 11,
           "wins": 6,
           "draws": 1,
-          "losses": 3,
+          "losses": 4,
           "points": 19
         },
         {
@@ -561,11 +561,11 @@
           "rank": 7,
           "team": "Athletic Club",
           "shortTeam": "Athletic",
-          "played": 9,
-          "wins": 3,
+          "played": 10,
+          "wins": 4,
           "draws": 3,
           "losses": 3,
-          "points": 12
+          "points": 15
         },
         {
           "rank": 8,
@@ -1050,22 +1050,22 @@
         },
         {
           "rank": 7,
-          "team": "Napoli",
-          "shortTeam": "Napoli",
-          "played": 9,
-          "wins": 4,
+          "team": "Juventus",
+          "shortTeam": "Juventus",
+          "played": 10,
+          "wins": 5,
           "draws": 2,
           "losses": 3,
-          "points": 14
+          "points": 17
         },
         {
           "rank": 8,
-          "team": "Juventus",
-          "shortTeam": "Juventus",
-          "played": 9,
+          "team": "Napoli",
+          "shortTeam": "Napoli",
+          "played": 10,
           "wins": 4,
           "draws": 2,
-          "losses": 3,
+          "losses": 4,
           "points": 14
         },
         {
@@ -1418,12 +1418,12 @@
           "name": "Frosinone"
         },
         {
-          "id": "114",
-          "name": "Napoli"
-        },
-        {
           "id": "111",
           "name": "Juventus"
+        },
+        {
+          "id": "114",
+          "name": "Napoli"
         },
         {
           "id": "107",
@@ -1974,6 +1974,16 @@
         },
         {
           "rank": 6,
+          "team": "Marseille",
+          "shortTeam": "Marseille",
+          "played": 9,
+          "wins": 5,
+          "draws": 0,
+          "losses": 4,
+          "points": 15
+        },
+        {
+          "rank": 7,
           "team": "AS Monaco",
           "shortTeam": "Monaco",
           "played": 9,
@@ -1983,7 +1993,7 @@
           "points": 15
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": "Nice",
           "shortTeam": "Nice",
           "played": 9,
@@ -1993,7 +2003,7 @@
           "points": 14
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team": "Lens",
           "shortTeam": "Lens",
           "played": 9,
@@ -2001,16 +2011,6 @@
           "draws": 1,
           "losses": 4,
           "points": 13
-        },
-        {
-          "rank": 9,
-          "team": "Marseille",
-          "shortTeam": "Marseille",
-          "played": 8,
-          "wins": 4,
-          "draws": 0,
-          "losses": 4,
-          "points": 12
         },
         {
           "rank": 10,
@@ -2026,10 +2026,10 @@
           "rank": 11,
           "team": "Toulouse",
           "shortTeam": "Toulouse",
-          "played": 8,
+          "played": 9,
           "wins": 2,
           "draws": 4,
-          "losses": 2,
+          "losses": 3,
           "points": 10
         },
         {
@@ -2308,6 +2308,10 @@
           "name": "Stade Rennais"
         },
         {
+          "id": "176",
+          "name": "Marseille"
+        },
+        {
           "id": "174",
           "name": "AS Monaco"
         },
@@ -2318,10 +2322,6 @@
         {
           "id": "175",
           "name": "Lens"
-        },
-        {
-          "id": "176",
-          "name": "Marseille"
         },
         {
           "id": "273",
