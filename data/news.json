@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-11-02T00:06:58.272911+00:00",
+  "generatedAt": "2026-11-02T07:02:32.874022+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx30erg1d2rjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-02T06:24:40+00:00"
+    },
     {
       "title": "Rice is a rounded midfielder, but could be more selfish - Murphy",
       "description": "BBC Sport's Kelly Cates and Micah Richards discuss how rounded Declan Rice has become in Arsenal's midfield, while Danny Murphy argues that if he was more selfish he would score more goals.",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-01T20:05:00+00:00"
-    },
-    {
-      "title": "Arsenal move clear at the top with a rare win at Liverpool",
-      "description": "Arsenal win at Anfield for the first time since 2012 to earn a three-point lead at the top of the Premier League table following an end-to-end match that leaves Liverpool frustrated to have taken nothing.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-01T20:00:18+00:00"
     }
   ]
 }
