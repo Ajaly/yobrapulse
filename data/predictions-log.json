@@ -1526,10 +1526,11 @@
         "awayWinPct": 26
       },
       "loggedAt": "2026-10-25T17:20:45.508035+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 82,
@@ -1547,10 +1548,11 @@
         "awayWinPct": 28
       },
       "loggedAt": "2026-10-25T17:20:45.508053+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 83,
@@ -1568,10 +1570,11 @@
         "awayWinPct": 27
       },
       "loggedAt": "2026-10-25T17:20:45.508058+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 85,
@@ -1589,10 +1592,11 @@
         "awayWinPct": 38
       },
       "loggedAt": "2026-10-25T17:20:45.508062+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": false,
+      "actualScore": "3 \u2014 1"
     },
     {
       "id": 86,
@@ -1610,10 +1614,11 @@
         "awayWinPct": 36
       },
       "loggedAt": "2026-10-25T17:20:45.508066+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "2 \u2014 2"
     },
     {
       "id": 88,
@@ -1631,10 +1636,11 @@
         "awayWinPct": 21
       },
       "loggedAt": "2026-10-25T17:20:45.508070+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": true,
+      "marketCorrect": false,
+      "actualScore": "0 \u2014 1"
     },
     {
       "id": 90,
@@ -1652,10 +1658,11 @@
         "awayWinPct": 18
       },
       "loggedAt": "2026-10-25T17:20:45.508074+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 81,
@@ -1673,10 +1680,11 @@
         "awayWinPct": 26
       },
       "loggedAt": "2026-10-25T17:20:45.508081+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "1 \u2014 1"
     },
     {
       "id": 87,
@@ -1694,10 +1702,11 @@
         "awayWinPct": 43
       },
       "loggedAt": "2026-10-25T17:20:45.508085+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": true,
+      "actualScore": "0 \u2014 1"
     },
     {
       "id": 89,
@@ -1715,10 +1724,11 @@
         "awayWinPct": 32
       },
       "loggedAt": "2026-10-25T17:20:45.508092+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "0 \u2014 1"
     },
     {
       "id": 94,
