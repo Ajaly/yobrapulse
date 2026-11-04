@@ -1,10 +1,73 @@
 {
-  "generatedAt": "2026-11-03T21:25:12.577725+00:00",
+  "generatedAt": "2026-11-04T01:48:14.325621+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Fernandes critical of media 'lies' about Carrick relationship",
+      "description": "Bruno Fernandes says \"a lot of lies\" have been reported about his relationship with Manchester United head coach Michael Carrick.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqkg5dgvygr1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-04T00:45:33+00:00"
+    },
+    {
+      "title": "A half-time speech, a retaken penalty - and a win to save Carrick's job?",
+      "description": "At 2-0 down Michael Carrick's position as Manchester United head coach looked terminal - but will the win over Roma prove a turning point?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6q8n98y4023o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-04T00:27:37+00:00"
+    },
+    {
+      "title": "Emery takes positives, but Villa 'have work to do' to reach Barca level",
+      "description": "Aston Villa boss Unai Emery says his team have \"work to do\" to reach Barcelona's level after a 3-0 Champions League defeat at the Nou Camp.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjwy9496qe7ko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-03T23:58:22+00:00"
+    },
+    {
+      "title": "Football world mourns Tenerife striker De Miguel",
+      "description": "Tributes were paid across Tuesday's Champions League fixtures to Tenerife striker Jesus de Miguel, who died following collision on the pitch.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6djv011mzlyo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-03T23:37:12+00:00"
+    },
+    {
+      "title": "Man Utd latest: Carrick refusing to get carried away after 'important' win",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-03T23:33:00+00:00"
+    },
+    {
+      "title": "Man Utd beat Roma - the other great Champions League comebacks",
+      "description": "Manchester United come from two goals down to beat Roma 3-2 - but what are the other best fightbacks in Champions League history?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c64g1dg0d84ko",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-03T23:25:20+00:00"
+    },
+    {
+      "title": "Papers: Man Utd keen on signing Man City defender Ait-Nouri",
+      "description": "The top stories and transfer rumours from Wednesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13607697/manchester-united-keen-on-signing-manchester-city-defender-rayan-ait-nouri-who-is-open-to-crossing-divide-in-january-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-11-03T23:10:00+00:00"
+    },
     {
       "title": "Man Utd eye Man City's Ait-Nouri - Wednesday's gossip",
       "description": "Manchester City defender Rayan Ait-Nouri a surprise target for Manchester United, Crystal Palace could turn to England assistant boss Anthony Barry if they sack Pierre Sage, Barcelona keen on Arsenal centre-back Piero Hincapie, plus more.",
@@ -12,106 +75,43 @@
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T21:20:43+00:00"
+      "pubDateISO": "2026-11-03T22:55:00+00:00"
     },
     {
-      "title": "Man Utd latest: Fans protest as United fall apart vs Roma",
+      "title": "Aston Villa latest: 'Be ruthless and avoid mistakes,' says Emery after Barca",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T20:55:00+00:00"
+      "pubDateISO": "2026-11-03T22:54:00+00:00"
     },
     {
-      "title": "Arteta dismisses Isak penalty furore: I have massive library we can talk about!",
+      "title": "Fernandes claims players don't need to save Carrick's job, but did they?",
+      "description": "Manchester United captain Bruno Fernandes has come out in support of head coach Michael Carrick, but reiterated that the players didn't need to save his job in their 3-2 comeback win against Roma.",
+      "link": "https://www.skysports.com/football/news/11095/13607700/manchester-united-3-2-roma-bruno-fernandes-claims-players-dont-need-to-save-michael-carricks-job-after-first-win-in-10-games",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-03T22:28:00+00:00"
+    },
+    {
+      "title": "Cunha completes wild Man Utd comeback win over Roma from two down",
+      "description": "Manchester United produced an extraordinary comeback from two down to beat Roma 3-2 at Old Trafford and pick up their first win in 10 games.",
+      "link": "https://www.skysports.com/football/manchester-united-vs-roma/report/577657",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-03T22:00:00+00:00"
+    },
+    {
+      "title": "PSG hit Villarreal for six as Kane misses out on equalling record",
       "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T20:47:00+00:00"
-    },
-    {
-      "title": "EFL latest: Robinson set for Bromley job - with Defoe and Short to assist",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T20:07:00+00:00"
-    },
-    {
-      "title": "Southampton hit back to level at West Brom LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/west-bromwich-albion-vs-southampton/live/560661",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T19:20:00+00:00"
-    },
-    {
-      "title": "Man City latest: Foden - I'm getting back to my best and targeting England recall",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T19:20:00+00:00"
-    },
-    {
-      "title": "Chelsea latest: Martinez receives Argentina call up as injury return ramps up",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-11-03T19:05:00+00:00"
-    },
-    {
-      "title": "Esteve hoping for Champions League debut \u2013 and Haaland reunion",
-      "description": "A reunion with Manchester City brings bad memories for the RB Leipzig defender Maxime Esteve. He scored two own goals at the Etihad Stadium last year. Not that he has advertised this to his new teammates. \"Maybe they don't even know,\" he jokes.",
-      "link": "https://www.skysports.com/football/news/11095/13605575/maxime-esteve-interview-rb-leipzig-defender-on-his-erling-haaland-reunion-after-two-own-goals-against-man-city",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T19:00:00+00:00"
-    },
-    {
-      "title": "Fernandes penalty gives Man Utd hope against Roma LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/manchester-united-vs-roma/live/577657",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T18:30:00+00:00"
-    },
-    {
-      "title": "Raphinha doubles Barca lead vs Aston Villa LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/barcelona-vs-aston-villa/live/577652",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T18:30:00+00:00"
-    },
-    {
-      "title": "Parkinson eyes Wrexham response after honest talks",
-      "description": "Wrexham manager Phil Parkinson has held \"honest\" discussions with his players they look to respond to defeat at Sheffield United.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwkg5delydy7o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T18:28:41+00:00"
-    },
-    {
-      "title": "Kenny's background 'not that important' to O'Neill",
-      "description": "Northern Ireland manager Michael O'Neill says new call-up Eoin Kenny's family connection to the Republic of Ireland is not something he considered before bringing him into the senior squad for this month's Nations League fixtures against Ukraine and Hungary.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckqxn7pzrxyro",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T18:26:55+00:00"
+      "pubDateISO": "2026-11-03T22:00:00+00:00"
     }
   ]
 }
