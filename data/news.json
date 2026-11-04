@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-11-04T01:48:14.325621+00:00",
+  "generatedAt": "2026-11-04T08:25:41.513051+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Recovering Murray hopes to earn Dundee deal - gossip",
+      "description": "Veteran Scottish Premiership striker targets new contract on long road back to fitness as former Celtic player has advice on how to get the best out of record signing...",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwj0l628dvmeo",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-11-04T08:14:53+00:00"
+    },
+    {
+      "title": "Fernandes hits back at 'lies' and claims players don't need to save Carrick's job",
+      "description": "Manchester United captain Bruno Fernandes has come out in support of head coach Michael Carrick, but reiterated that the players didn't need to save his job in their 3-2 comeback win against Roma.",
+      "link": "https://www.skysports.com/football/news/11095/13607700/manchester-united-3-2-roma-bruno-fernandes-claims-players-dont-need-to-save-michael-carricks-job-after-first-win-in-10-games",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-04T07:20:00+00:00"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6jdmg9mkg8mo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-04T07:06:19+00:00"
+    },
+    {
+      "title": "New strategy launched to transform Scottish women's football over 10 years",
+      "description": "The strategy aims to double the number of registered female players in Scotland, while also quadrupling attendances and audiences for matches.",
+      "link": "https://www.bbc.co.uk/news/articles/c6ly05y2jwzdo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-04T07:03:05+00:00"
+    },
     {
       "title": "Fernandes critical of media 'lies' about Carrick relationship",
       "description": "Bruno Fernandes says \"a lot of lies\" have been reported about his relationship with Manchester United head coach Michael Carrick.",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-03T22:55:00+00:00"
-    },
-    {
-      "title": "Aston Villa latest: 'Be ruthless and avoid mistakes,' says Emery after Barca",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T22:54:00+00:00"
-    },
-    {
-      "title": "Fernandes claims players don't need to save Carrick's job, but did they?",
-      "description": "Manchester United captain Bruno Fernandes has come out in support of head coach Michael Carrick, but reiterated that the players didn't need to save his job in their 3-2 comeback win against Roma.",
-      "link": "https://www.skysports.com/football/news/11095/13607700/manchester-united-3-2-roma-bruno-fernandes-claims-players-dont-need-to-save-michael-carricks-job-after-first-win-in-10-games",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T22:28:00+00:00"
-    },
-    {
-      "title": "Cunha completes wild Man Utd comeback win over Roma from two down",
-      "description": "Manchester United produced an extraordinary comeback from two down to beat Roma 3-2 at Old Trafford and pick up their first win in 10 games.",
-      "link": "https://www.skysports.com/football/manchester-united-vs-roma/report/577657",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T22:00:00+00:00"
-    },
-    {
-      "title": "PSG hit Villarreal for six as Kane misses out on equalling record",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-03T22:00:00+00:00"
     }
   ]
 }
