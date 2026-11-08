@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T07:04:06.792403+00:00",
+  "generatedAt": "2026-11-08T14:41:19.126145+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -992,11 +992,11 @@
           "rank": 1,
           "team": "Lazio",
           "shortTeam": "Lazio",
-          "played": 10,
+          "played": 11,
           "wins": 9,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
-          "points": 28
+          "points": 29
         },
         {
           "rank": 2,
@@ -1082,11 +1082,11 @@
           "rank": 10,
           "team": "Napoli",
           "shortTeam": "Napoli",
-          "played": 10,
+          "played": 11,
           "wins": 4,
-          "draws": 2,
+          "draws": 3,
           "losses": 4,
-          "points": 14
+          "points": 15
         },
         {
           "rank": 11,
