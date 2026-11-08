@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-11-08T01:00:37.614040+00:00",
+  "generatedAt": "2026-11-08T07:04:05.475131+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Who am I? Guess WSL star No 11",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgqdv8lexl1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-08T06:51:06+00:00"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr20wvgx2q27o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-08T06:47:58+00:00"
+    },
+    {
+      "title": "Why unique Brighton defence is so tricky to unpick",
+      "description": "Brighton's unique defensive shape has provided the platform for the Seagulls' superb start to the Premier League season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm0j033lnp5po",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-08T06:41:37+00:00"
+    },
+    {
+      "title": "The oldest club in London making FA Cup history",
+      "description": "Cray Wanderers host Stockport County in the FA Cup first round, with 112 league places separating the two sides.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cv8ez3pe5x41o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-08T06:28:56+00:00"
+    },
     {
       "title": "'The worst conditions in my 35-year career' - commentating in the FA Cup fog",
       "description": "BBC Sport commentator Steve Bower gives an insight into trying to commentate when thick fog engulfs a stadium and you can barely see the action.",
@@ -51,15 +87,6 @@
       "pubDateISO": "2026-11-08T00:04:00+00:00"
     },
     {
-      "title": "Match of the Day",
-      "description": "With Arsenal v Hull, Forest v Man City, Leeds v Spurs and Fulham v Newcastle",
-      "link": "https://www.bbc.co.uk/iplayer/episode/m00343ty",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-08T00:00:56+00:00"
-    },
-    {
       "title": "Was Leeds' Bogle lucky to escape red card?",
       "description": "Match of the Day's Steph Houghton and Danny Murphy assess whether a challenge from Leeds United's Jayden Bogle on Tottenham's Mathys Tel was worthy of a red card.",
       "link": "https://www.bbc.co.uk/sport/football/videos/c6lyl7qvq8ejo",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-08T00:00:09+00:00"
-    },
-    {
-      "title": "York score after 10 seconds against Northampton following unique kick-off",
-      "description": "Ollie Pearce scores after 10 seconds as York City see off Northampton Town in a 4-0 win to reach the second round of the FA Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c893zrl4p7npo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-07T23:38:38+00:00"
-    },
-    {
-      "title": "Listen: Premiership reaction as pressure mounts on Robinson",
-      "description": "Big wins for Rangers, St Johnstone and Hibs as Robinson's Aberdeen ship 4 goals at home.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0plvx32",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-07T23:15:00+00:00"
-    },
-    {
-      "title": "Highlights: Exeter shock League One leaders Huddersfield",
-      "description": "League Two Exeter City pull off an upset 2-1 win away to League One leaders Huddersfield Town to progress into the second round of the FA Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cq8rz7lyl5g8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-07T23:08:32+00:00"
     }
   ]
 }
