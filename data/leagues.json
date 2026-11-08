@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T21:18:19.504046+00:00",
+  "generatedAt": "2026-11-08T01:00:38.694888+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -509,6 +509,16 @@
         },
         {
           "rank": 2,
+          "team": "Real Madrid",
+          "shortTeam": "Real Madrid",
+          "played": 12,
+          "wins": 10,
+          "draws": 0,
+          "losses": 2,
+          "points": 30
+        },
+        {
+          "rank": 3,
           "team": "Atl\u00e9tico Madrid",
           "shortTeam": "Atl\u00e9tico",
           "played": 11,
@@ -516,16 +526,6 @@
           "draws": 1,
           "losses": 1,
           "points": 28
-        },
-        {
-          "rank": 3,
-          "team": "Real Madrid",
-          "shortTeam": "Real Madrid",
-          "played": 11,
-          "wins": 9,
-          "draws": 0,
-          "losses": 2,
-          "points": 27
         },
         {
           "rank": 4,
@@ -681,10 +681,10 @@
           "rank": 19,
           "team": "Valencia",
           "shortTeam": "Valencia",
-          "played": 11,
+          "played": 12,
           "wins": 2,
           "draws": 3,
-          "losses": 6,
+          "losses": 7,
           "points": 9
         },
         {
@@ -907,12 +907,12 @@
           "name": "Barcelona"
         },
         {
-          "id": "1068",
-          "name": "Atl\u00e9tico Madrid"
-        },
-        {
           "id": "86",
           "name": "Real Madrid"
+        },
+        {
+          "id": "1068",
+          "name": "Atl\u00e9tico Madrid"
         },
         {
           "id": "244",
@@ -1000,6 +1000,16 @@
         },
         {
           "rank": 2,
+          "team": "AS Roma",
+          "shortTeam": "AS Roma",
+          "played": 11,
+          "wins": 8,
+          "draws": 3,
+          "losses": 0,
+          "points": 27
+        },
+        {
+          "rank": 3,
           "team": "Internazionale",
           "shortTeam": "Inter Milan",
           "played": 10,
@@ -1007,16 +1017,6 @@
           "draws": 1,
           "losses": 1,
           "points": 25
-        },
-        {
-          "rank": 3,
-          "team": "AS Roma",
-          "shortTeam": "AS Roma",
-          "played": 10,
-          "wins": 7,
-          "draws": 3,
-          "losses": 0,
-          "points": 24
         },
         {
           "rank": 4,
@@ -1140,18 +1140,18 @@
         },
         {
           "rank": 16,
-          "team": "Sassuolo",
-          "shortTeam": "Sassuolo",
-          "played": 10,
+          "team": "Parma",
+          "shortTeam": "Parma",
+          "played": 11,
           "wins": 2,
           "draws": 2,
-          "losses": 6,
+          "losses": 7,
           "points": 8
         },
         {
           "rank": 17,
-          "team": "Parma",
-          "shortTeam": "Parma",
+          "team": "Sassuolo",
+          "shortTeam": "Sassuolo",
           "played": 11,
           "wins": 2,
           "draws": 2,
@@ -1398,12 +1398,12 @@
           "name": "Lazio"
         },
         {
-          "id": "110",
-          "name": "Internazionale"
-        },
-        {
           "id": "104",
           "name": "AS Roma"
+        },
+        {
+          "id": "110",
+          "name": "Internazionale"
         },
         {
           "id": "2572",
@@ -1454,12 +1454,12 @@
           "name": "Fiorentina"
         },
         {
-          "id": "3997",
-          "name": "Sassuolo"
-        },
-        {
           "id": "115",
           "name": "Parma"
+        },
+        {
+          "id": "3997",
+          "name": "Sassuolo"
         },
         {
           "id": "4007",
@@ -1926,11 +1926,11 @@
           "rank": 1,
           "team": "Paris Saint-Germain",
           "shortTeam": "PSG",
-          "played": 9,
-          "wins": 6,
+          "played": 10,
+          "wins": 7,
           "draws": 2,
           "losses": 1,
-          "points": 20
+          "points": 23
         },
         {
           "rank": 2,
@@ -2076,10 +2076,10 @@
           "rank": 16,
           "team": "Troyes",
           "shortTeam": "Troyes",
-          "played": 9,
+          "played": 10,
           "wins": 2,
           "draws": 2,
-          "losses": 5,
+          "losses": 6,
           "points": 8
         },
         {
