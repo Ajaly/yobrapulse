@@ -1939,6 +1939,216 @@
       "actualResult": null,
       "modelCorrect": null,
       "marketCorrect": null
+    },
+    {
+      "id": 108,
+      "home": "Man City",
+      "away": "Fulham",
+      "kickoffISO": "2026-11-21T12:30:00Z",
+      "homeWinPct": 62,
+      "drawPct": 21,
+      "awayWinPct": 17,
+      "predictedScore": "1.6 \u2014 1.0",
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 64,
+        "drawPct": 20,
+        "awayWinPct": 16
+      },
+      "loggedAt": "2026-11-08T19:16:37.054749+00:00",
+      "resolved": false,
+      "actualResult": null,
+      "modelCorrect": null,
+      "marketCorrect": null
+    },
+    {
+      "id": 101,
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "kickoffISO": "2026-11-21T15:00:00Z",
+      "homeWinPct": 50,
+      "drawPct": 24,
+      "awayWinPct": 26,
+      "predictedScore": "1.6 \u2014 1.0",
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 55,
+        "drawPct": 25,
+        "awayWinPct": 20
+      },
+      "loggedAt": "2026-11-08T19:16:37.054757+00:00",
+      "resolved": false,
+      "actualResult": null,
+      "modelCorrect": null,
+      "marketCorrect": null
+    },
+    {
+      "id": 102,
+      "home": "Bournemouth",
+      "away": "Nott'm Forest",
+      "kickoffISO": "2026-11-21T15:00:00Z",
+      "homeWinPct": 69,
+      "drawPct": 21,
+      "awayWinPct": 10,
+      "predictedScore": "2.1 \u2014 0.6",
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 47,
+        "drawPct": 27,
+        "awayWinPct": 26
+      },
+      "loggedAt": "2026-11-08T19:16:37.054760+00:00",
+      "resolved": false,
+      "actualResult": null,
+      "modelCorrect": null,
+      "marketCorrect": null
+    },
+    {
+      "id": 104,
+      "home": "Chelsea",
+      "away": "Leeds",
+      "kickoffISO": "2026-11-21T15:00:00Z",
+      "homeWinPct": 53,
+      "drawPct": 23,
+      "awayWinPct": 24,
+      "predictedScore": "1.6 \u2014 1.0",
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 52,
+        "drawPct": 25,
+        "awayWinPct": 23
+      },
+      "loggedAt": "2026-11-08T19:16:37.054762+00:00",
+      "resolved": false,
+      "actualResult": null,
+      "modelCorrect": null,
+      "marketCorrect": null
+    },
+    {
+      "id": 105,
+      "home": "Coventry City",
+      "away": "Crystal Palace",
+      "kickoffISO": "2026-11-21T15:00:00Z",
+      "homeWinPct": 47,
+      "drawPct": 24,
+      "awayWinPct": 29,
+      "predictedScore": "1.5 \u2014 1.1",
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 40,
+        "drawPct": 27,
+        "awayWinPct": 33
+      },
+      "loggedAt": "2026-11-08T19:16:37.054764+00:00",
+      "resolved": false,
+      "actualResult": null,
+      "modelCorrect": null,
+      "marketCorrect": null
+    },
+    {
+      "id": 110,
+      "home": "Spurs",
+      "away": "Ipswich Town",
+      "kickoffISO": "2026-11-21T15:00:00Z",
+      "homeWinPct": 59,
+      "drawPct": 23,
+      "awayWinPct": 18,
+      "predictedScore": "1.9 \u2014 0.8",
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 61,
+        "drawPct": 22,
+        "awayWinPct": 17
+      },
+      "loggedAt": "2026-11-08T19:16:37.054766+00:00",
+      "resolved": false,
+      "actualResult": null,
+      "modelCorrect": null,
+      "marketCorrect": null
+    },
+    {
+      "id": 109,
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "kickoffISO": "2026-11-21T17:30:00Z",
+      "homeWinPct": 10,
+      "drawPct": 31,
+      "awayWinPct": 59,
+      "predictedScore": "0.7 \u2014 1.7",
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 18,
+        "drawPct": 23,
+        "awayWinPct": 59
+      },
+      "loggedAt": "2026-11-08T19:16:37.054768+00:00",
+      "resolved": false,
+      "actualResult": null,
+      "modelCorrect": null,
+      "marketCorrect": null
+    },
+    {
+      "id": 106,
+      "home": "Hull City",
+      "away": "Brighton",
+      "kickoffISO": "2026-11-22T14:00:00Z",
+      "homeWinPct": 19,
+      "drawPct": 29,
+      "awayWinPct": 52,
+      "predictedScore": "0.8 \u2014 1.6",
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 16,
+        "drawPct": 22,
+        "awayWinPct": 62
+      },
+      "loggedAt": "2026-11-08T19:16:37.054772+00:00",
+      "resolved": false,
+      "actualResult": null,
+      "modelCorrect": null,
+      "marketCorrect": null
+    },
+    {
+      "id": 107,
+      "home": "Liverpool",
+      "away": "Man Utd",
+      "kickoffISO": "2026-11-22T16:30:00Z",
+      "homeWinPct": 60,
+      "drawPct": 23,
+      "awayWinPct": 17,
+      "predictedScore": "1.9 \u2014 0.8",
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 55,
+        "drawPct": 23,
+        "awayWinPct": 22
+      },
+      "loggedAt": "2026-11-08T19:16:37.054774+00:00",
+      "resolved": false,
+      "actualResult": null,
+      "modelCorrect": null,
+      "marketCorrect": null
+    },
+    {
+      "id": 103,
+      "home": "Brentford",
+      "away": "Everton",
+      "kickoffISO": "2026-11-23T20:00:00Z",
+      "homeWinPct": 38,
+      "drawPct": 26,
+      "awayWinPct": 36,
+      "predictedScore": "1.3 \u2014 1.3",
+      "marketOdds": {
+        "provider": "DraftKings",
+        "homeWinPct": 47,
+        "drawPct": 26,
+        "awayWinPct": 27
+      },
+      "loggedAt": "2026-11-08T19:16:37.054777+00:00",
+      "resolved": false,
+      "actualResult": null,
+      "modelCorrect": null,
+      "marketCorrect": null
     }
   ]
 }
