@@ -1746,10 +1746,11 @@
         "awayWinPct": 21
       },
       "loggedAt": "2026-11-03T00:18:39.311753+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "3 \u2014 1"
     },
     {
       "id": 97,
@@ -1767,10 +1768,11 @@
         "awayWinPct": 35
       },
       "loggedAt": "2026-11-03T00:18:39.311763+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": false,
+      "marketCorrect": true,
+      "actualScore": "1 \u2014 0"
     },
     {
       "id": 91,
@@ -1788,10 +1790,11 @@
         "awayWinPct": 6
       },
       "loggedAt": "2026-11-03T00:18:39.311767+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "1 \u2014 0"
     },
     {
       "id": 95,
@@ -1809,10 +1812,11 @@
         "awayWinPct": 28
       },
       "loggedAt": "2026-11-03T00:18:39.311770+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "1 \u2014 1"
     },
     {
       "id": 99,
@@ -1830,10 +1834,11 @@
         "awayWinPct": 56
       },
       "loggedAt": "2026-11-03T00:18:39.311774+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "3 \u2014 1"
     },
     {
       "id": 92,
@@ -1851,10 +1856,11 @@
         "awayWinPct": 26
       },
       "loggedAt": "2026-11-03T00:18:39.311776+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 93,
@@ -1872,10 +1878,11 @@
         "awayWinPct": 59
       },
       "loggedAt": "2026-11-03T00:18:39.311779+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "1 \u2014 3"
     },
     {
       "id": 96,
@@ -1893,10 +1900,11 @@
         "awayWinPct": 48
       },
       "loggedAt": "2026-11-03T00:18:39.311784+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "1 \u2014 2"
     },
     {
       "id": 100,
@@ -1914,10 +1922,11 @@
         "awayWinPct": 47
       },
       "loggedAt": "2026-11-03T00:18:39.311788+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "1 \u2014 0"
     },
     {
       "id": 98,
@@ -1935,10 +1944,11 @@
         "awayWinPct": 33
       },
       "loggedAt": "2026-11-03T00:18:39.311791+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "4 \u2014 4"
     },
     {
       "id": 108,
