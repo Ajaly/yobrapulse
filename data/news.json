@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-11-09T23:14:47.183050+00:00",
+  "generatedAt": "2026-11-10T05:34:50.213384+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Plymouth Parkway beat Berkhamsted to reach FA Cup second round",
+      "description": "Two Andrew Neal penalties sew Plymouth Parkway earn a first-ever trip to the second round of the FA Cup after a coming from a goal down to beat Berkhamsted 2-1 in extra time.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cqm24237y5z5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-10T00:13:13+00:00"
+    },
     {
       "title": "Man Utd expected to sack head coach Carrick",
       "description": "Michael Carrick's Manchester United reign appears close to an end following the club's worst start to a domestic campaign in 40 years.",
@@ -15,13 +24,31 @@
       "pubDateISO": "2026-11-09T23:13:31+00:00"
     },
     {
-      "title": "Man Utd latest: Carrick's future looking increasingly doubtful",
+      "title": "Man Utd latest: 'It doesn't matter who is in charge at Old Trafford'",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-09T23:06:00+00:00"
+    },
+    {
+      "title": "Carrick position increasingly in doubt as hierarchy mulls over his future",
+      "description": "Michael Carrick's position as Manchester United head coach is looking increasingly in doubt, but <em>Sky Sports News</em> has been told as yet, no final decision has been taken about his future.",
+      "link": "https://www.skysports.com/football/news/11095/13610412/michael-carrick-future-man-utd-head-coach-position-increasingly-in-doubt-but-no-final-decision-made",
+      "source": "Sky Sports",
       "category": "injury",
       "categoryLabel": "Injury",
-      "pubDateISO": "2026-11-09T23:06:00+00:00"
+      "pubDateISO": "2026-11-09T23:04:00+00:00"
+    },
+    {
+      "title": "Papers: Poch would consider PL return to join Man Utd",
+      "description": "The top stories and transfer rumours from Tuesday's newspapers...",
+      "link": "https://www.skysports.com/football/news/11095/13610409/mauricio-pochettino-would-consider-manchester-united-job-if-michael-carrick-is-sacked-paper-talk",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-11-09T23:00:00+00:00"
     },
     {
       "title": "Brady ends association with Birmingham City",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-09T21:33:00+00:00"
-    },
-    {
-      "title": "Birmingham announce shock Brady departure",
-      "description": "Birmingham have announced the shock departure of NFL legend&#160;Tom Brady as minority owner with the Bluenoses sitting top of the Championship table.",
-      "link": "https://www.skysports.com/football/news/11095/13610387/tom-brady-leaves-birmingham-nfl-legend-and-minority-owner-makes-shock-departure-after-three-years",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-09T21:26:00+00:00"
-    },
-    {
-      "title": "Atletico target Zubimendi move - Tuesday's gossip",
-      "description": "Arsenal midfielder Martin Zubimendi is a target for Atletico Madrid, Leeds United plan to step up contract talks with striker Dominic Calvert-Lewin, Barcelona are keen on Bayern Munich defender Jonathan Tah, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjn5v5xypez2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-09T21:13:37+00:00"
-    },
-    {
-      "title": "People don't know full story behind England exile - White",
-      "description": "Arsenal defender Ben White says people don't know the \"full story\" behind his decision to previously make himself unavailable for England selection - but says he would make the same decision again.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-09T19:00:10+00:00"
     }
   ]
 }

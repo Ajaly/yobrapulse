@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T23:14:46.427765+00:00",
+  "generatedAt": "2026-11-10T05:34:49.366941+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -396,9 +396,9 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 65,
+        "homeWinPct": 66,
         "drawPct": 19,
-        "awayWinPct": 16
+        "awayWinPct": 15
       }
     },
     {
@@ -546,8 +546,8 @@
       },
       "marketOdds": {
         "provider": "DraftKings",
-        "homeWinPct": 51,
-        "drawPct": 25,
+        "homeWinPct": 50,
+        "drawPct": 26,
         "awayWinPct": 24
       }
     },
@@ -977,6 +977,17 @@
         "homeWinPct": 39,
         "drawPct": 26,
         "awayWinPct": 35
+      },
+      {
+        "id": "401882802",
+        "home": "Levante",
+        "away": "Elche",
+        "kickoffISO": "2026-11-23T20:00Z",
+        "kickoffLabel": "Mon 23 Nov \u00b7 20:00 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
       }
     ],
     "Serie A": [
@@ -1078,6 +1089,17 @@
         "homeWinPct": 36,
         "drawPct": 26,
         "awayWinPct": 38
+      },
+      {
+        "id": "401875009",
+        "home": "Monza",
+        "away": "Fiorentina",
+        "kickoffISO": "2026-11-23T19:45Z",
+        "kickoffLabel": "Mon 23 Nov \u00b7 19:45 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
       }
     ],
     "Bundesliga": [
@@ -1647,7 +1669,7 @@
         }
       ],
       "squadRating": 3.98,
-      "squadValue": "\u00a3184.8m",
+      "squadValue": "\u00a3184.7m",
       "leagueRank": 13,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -2817,7 +2839,7 @@
         }
       ],
       "squadRating": 3.2,
-      "squadValue": "\u00a3176.5m",
+      "squadValue": "\u00a3176.3m",
       "leagueRank": 20,
       "strengthHome": 2,
       "strengthAway": 2,
@@ -3757,7 +3779,7 @@
         }
       ],
       "squadRating": 4.7,
-      "squadValue": "\u00a3151.1m",
+      "squadValue": "\u00a3151.0m",
       "leagueRank": 3,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -4152,7 +4174,7 @@
         }
       ],
       "squadRating": 4.62,
-      "squadValue": "\u00a3194.5m",
+      "squadValue": "\u00a3194.4m",
       "leagueRank": 4,
       "strengthHome": 4,
       "strengthAway": 5,
@@ -5162,7 +5184,7 @@
       "avatar": "EK",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.8m",
-      "owned": "24.3%",
+      "owned": "24.4%",
       "points": 57,
       "epNext": 10.2,
       "form": 10.2,
@@ -5627,7 +5649,7 @@
       "avatar": "MS",
       "avatarClass": "blue-avatar",
       "price": "\u00a35.4m",
-      "owned": "5.9%",
+      "owned": "5.8%",
       "points": 32,
       "epNext": 2.2,
       "form": 2.2,
@@ -5937,7 +5959,7 @@
       "avatar": "DR",
       "avatarClass": "blue-avatar",
       "price": "\u00a36.2m",
-      "owned": "47.4%",
+      "owned": "47.5%",
       "points": 60,
       "epNext": 6.8,
       "form": 6.8,
@@ -5968,7 +5990,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.7m",
-      "owned": "31.1%",
+      "owned": "31.2%",
       "points": 58,
       "epNext": 6.5,
       "form": 6.5,
@@ -6123,7 +6145,7 @@
       "avatar": "NJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.1m",
-      "owned": "30.5%",
+      "owned": "30.6%",
       "points": 54,
       "epNext": 8.8,
       "form": 8.8,
@@ -6650,7 +6672,7 @@
       "avatar": "RA",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.5m",
-      "owned": "4.3%",
+      "owned": "4.4%",
       "points": 44,
       "epNext": 4.4,
       "form": 4.4,
@@ -6836,7 +6858,7 @@
       "avatar": "JH",
       "avatarClass": "",
       "price": "\u00a35.6m",
-      "owned": "2.9%",
+      "owned": "3.0%",
       "points": 42,
       "epNext": 7.0,
       "form": 7.0,
@@ -8075,7 +8097,7 @@
       "team": "Man City",
       "avatar": "EA",
       "avatarClass": "blue-avatar",
-      "price": "\u00a36.3m",
+      "price": "\u00a36.2m",
       "owned": "3.6%",
       "points": 29,
       "epNext": 2.8,
@@ -8085,7 +8107,7 @@
       "assists": 1,
       "xg": 0.3,
       "xa": 1.45,
-      "valueScore": 4.6,
+      "valueScore": 4.7,
       "tackles": 21,
       "clearancesBlocksInterceptions": 26,
       "recoveries": 55,
@@ -9215,7 +9237,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11275089,
+  "totalManagers": 11275835,
   "totalPlayers": 672,
   "priceMovement": {
     "risers": [
@@ -9500,45 +9522,45 @@
     "rising": [
       {
         "id": "166",
-        "netTransfersEvent": 238634
+        "netTransfersEvent": 243550
       },
       {
         "id": "249",
-        "netTransfersEvent": 177144
+        "netTransfersEvent": 178742
       },
       {
         "id": "79",
-        "netTransfersEvent": 155350
+        "netTransfersEvent": 158835
       },
       {
         "id": "112",
-        "netTransfersEvent": 143015
+        "netTransfersEvent": 145143
       },
       {
         "id": "115",
-        "netTransfersEvent": 115882
+        "netTransfersEvent": 117970
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -258019
+        "netTransfersEvent": -262233
       },
       {
         "id": "391",
-        "netTransfersEvent": -240493
+        "netTransfersEvent": -244213
       },
       {
         "id": "388",
-        "netTransfersEvent": -112333
+        "netTransfersEvent": -114616
       },
       {
         "id": "346",
-        "netTransfersEvent": -89480
+        "netTransfersEvent": -90901
       },
       {
         "id": "106",
-        "netTransfersEvent": -74251
+        "netTransfersEvent": -75929
       }
     ]
   }
