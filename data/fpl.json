@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T21:08:12.738489+00:00",
+  "generatedAt": "2026-11-11T01:39:03.186415+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -797,7 +797,7 @@
           "meetings": 5
         },
         "homeAvailability": 0.8,
-        "awayAvailability": 0.9,
+        "awayAvailability": 0.84,
         "homeTransferImpactM": 5.5,
         "awayTransferImpactM": 15.5
       },
@@ -2219,7 +2219,7 @@
         }
       ],
       "squadRating": 6.09,
-      "squadValue": "\u00a3186.0m",
+      "squadValue": "\u00a3186.1m",
       "leagueRank": 1,
       "strengthHome": 4,
       "strengthAway": 4,
@@ -2989,7 +2989,7 @@
         }
       ],
       "squadRating": 4.41,
-      "squadValue": "\u00a3129.8m",
+      "squadValue": "\u00a3129.9m",
       "leagueRank": 7,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -4369,7 +4369,7 @@
         }
       ],
       "squadRating": 3.48,
-      "squadValue": "\u00a3179.3m",
+      "squadValue": "\u00a3179.2m",
       "leagueRank": 17,
       "strengthHome": 3,
       "strengthAway": 3,
@@ -5184,7 +5184,7 @@
       "avatar": "EK",
       "avatarClass": "pink-avatar",
       "price": "\u00a34.8m",
-      "owned": "24.4%",
+      "owned": "24.5%",
       "points": 57,
       "epNext": 10.2,
       "form": 10.2,
@@ -5246,7 +5246,7 @@
       "avatar": "FE",
       "avatarClass": "pink-avatar",
       "price": "\u00a36.5m",
-      "owned": "23.5%",
+      "owned": "23.6%",
       "points": 61,
       "epNext": 9.0,
       "form": 9.0,
@@ -5586,7 +5586,7 @@
       "team": "Brighton",
       "avatar": "BV",
       "avatarClass": "blue-avatar",
-      "price": "\u00a34.6m",
+      "price": "\u00a34.7m",
       "owned": "23.9%",
       "points": 57,
       "epNext": 6.2,
@@ -5596,7 +5596,7 @@
       "assists": 0,
       "xg": 0.0,
       "xa": 0.21,
-      "valueScore": 12.4,
+      "valueScore": 12.1,
       "tackles": 0,
       "clearancesBlocksInterceptions": 8,
       "recoveries": 77,
@@ -5990,7 +5990,7 @@
       "avatar": "MT",
       "avatarClass": "",
       "price": "\u00a36.7m",
-      "owned": "31.2%",
+      "owned": "31.3%",
       "points": 58,
       "epNext": 6.5,
       "form": 6.5,
@@ -6330,7 +6330,7 @@
       "team": "Everton",
       "avatar": "KD",
       "avatarClass": "",
-      "price": "\u00a36.6m",
+      "price": "\u00a36.7m",
       "owned": "7.2%",
       "points": 50,
       "epNext": 4.2,
@@ -6340,7 +6340,7 @@
       "assists": 1,
       "xg": 1.78,
       "xa": 1.39,
-      "valueScore": 7.6,
+      "valueScore": 7.5,
       "tackles": 20,
       "clearancesBlocksInterceptions": 14,
       "recoveries": 45,
@@ -7447,7 +7447,7 @@
       "avatar": "MG",
       "avatarClass": "",
       "price": "\u00a36.0m",
-      "owned": "14.3%",
+      "owned": "14.2%",
       "points": 37,
       "epNext": 0.2,
       "form": 0.2,
@@ -7819,7 +7819,7 @@
       "avatar": "BT",
       "avatarClass": "blue-avatar",
       "price": "\u00a34.0m",
-      "owned": "7.4%",
+      "owned": "7.3%",
       "points": 32,
       "epNext": 0.8,
       "form": 1.6,
@@ -8782,7 +8782,7 @@
       "price": "\u00a34.6m",
       "owned": "5.1%",
       "points": 16,
-      "epNext": 1.0,
+      "epNext": 0.8,
       "form": 1.0,
       "minutes": 855,
       "goals": 0,
@@ -9237,7 +9237,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11280046,
+  "totalManagers": 11280781,
   "totalPlayers": 672,
   "priceMovement": {
     "risers": [
@@ -9522,45 +9522,45 @@
     "rising": [
       {
         "id": "166",
-        "netTransfersEvent": 264226
+        "netTransfersEvent": 267424
       },
       {
         "id": "249",
-        "netTransfersEvent": 186114
+        "netTransfersEvent": 187252
       },
       {
         "id": "79",
-        "netTransfersEvent": 172711
+        "netTransfersEvent": 175024
       },
       {
         "id": "112",
-        "netTransfersEvent": 153927
+        "netTransfersEvent": 155475
       },
       {
         "id": "504",
-        "netTransfersEvent": 129524
+        "netTransfersEvent": 131643
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -279908
+        "netTransfersEvent": -282768
       },
       {
         "id": "391",
-        "netTransfersEvent": -259754
+        "netTransfersEvent": -262244
       },
       {
         "id": "388",
-        "netTransfersEvent": -124420
+        "netTransfersEvent": -125959
       },
       {
         "id": "346",
-        "netTransfersEvent": -96573
+        "netTransfersEvent": -97506
       },
       {
         "id": "106",
-        "netTransfersEvent": -83528
+        "netTransfersEvent": -84668
       }
     ]
   }
