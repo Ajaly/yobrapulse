@@ -1,63 +1,99 @@
 {
-  "generatedAt": "2026-11-12T14:27:30.210189+00:00",
+  "generatedAt": "2026-11-12T21:40:44.914570+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Man Utd latest: Agreement reached with Pochettino - plus your views LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
+      "title": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
+      "description": "Ghana kick-start their Afcon 2027 qualifying campaign despite Jordan Ayew having a penalty saved, while Cameroon, Ivory Coast and Senegal register wins.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo",
+      "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-12T14:00:00+00:00"
+      "pubDateISO": "2026-11-12T21:28:06+00:00"
     },
     {
-      "title": "Police investigation into Vigar's death ongoing",
-      "description": "The police investigation into Billy Vigar's death from a \"significant brain injury\" is unlikely to conclude for at least another two months.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o",
+      "title": "SFA in talks with Boston officials over biennial friendly match",
+      "description": "Discussions take place between Scottish football governing's body and a delegation of state senators to build on bonds forged during the World Cup.",
+      "link": "https://www.bbc.co.uk/news/articles/cqdr1jd5mpp5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-12T21:16:56+00:00"
+    },
+    {
+      "title": "SFA in talks with Boston officials over biennial friendly match",
+      "description": "Discussions take place between Scottish football governing's body and a delegation of state senators to build on bonds forged during the World Cup.",
+      "link": "https://www.bbc.co.uk/news/articles/cqdr1jd5mpp5o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-12T21:16:56+00:00"
+    },
+    {
+      "title": "Man Utd & Man City in Gusto battle - Friday's gossip",
+      "description": "Manchester United and Manchester City are going head-to-head for Chelsea defender Malo Gusto and Leeds United pursue Will Lankshear, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmp86enlly13o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-12T21:13:59+00:00"
+    },
+    {
+      "title": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
+      "description": "Arsenal extend their unbeaten start to four matches in the Uefa Women's Champions League, as they produce a dogged display to hold Barcelona to a 1-1 draw at the Camp Nou. The point moves Renee Slegers' side into the top four, putting them in a great position to automatically qualify for the knockout stages.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo",
       "source": "BBC Sport",
       "category": "injury",
       "categoryLabel": "Injury",
-      "pubDateISO": "2026-11-12T13:11:49+00:00"
+      "pubDateISO": "2026-11-12T20:09:07+00:00"
     },
     {
-      "title": "England latest: Spence, Konsa, Lewis-Skelly to miss Croatia tie with Q&A to come",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+      "title": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
+      "description": "Arsenal extend their unbeaten start to four matches in the Uefa Women's Champions League, as they produce a dogged display to hold Barcelona to a 1-1 draw at the Camp Nou. The point moves Renee Slegers' side into the top four, putting them in a great position to automatically qualify for the knockout stages.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-11-12T20:09:07+00:00"
+    },
+    {
+      "title": "Leader, role model, extraordinary - how Kane's 'fairytale' came true",
+      "description": "From the 21-year-old who scored 79 seconds into his debut to breaking his nation's appearance record, BBC Sport looks at Harry Kane's England career.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c60qkdj4lp34o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-12T19:53:40+00:00"
+    },
+    {
+      "title": "Quiz: Name England men's all-time leading appearance makers",
+      "description": "Can you name every England men's player who has at least 60 caps?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmlylv1xl9qgo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-12T19:47:16+00:00"
+    },
+    {
+      "title": "Arsenal survive dominant Barca to earn precious WCL point",
+      "description": "Arsenal managed to withstand Barcelona's dominance to claim an impressive 1-1 draw against the European champions.",
+      "link": "https://www.skysports.com/football/news/11095/13610422/barcelona-1-1-arsenal-renee-slegers-side-withstand-onslaught-from-european-champions-to-snatch-point-in-wcl",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-12T12:55:00+00:00"
+      "pubDateISO": "2026-11-12T19:40:00+00:00"
     },
     {
-      "title": "Where did it go wrong for Sage at Palace?",
-      "description": "As Pierre Sage waited to receive the Coupe de France trophy as the victorious manager of RC Lens last May, he turned to his staff and said: \"Do you realise where we are?\"",
-      "link": "https://www.skysports.com/football/news/11095/13607192/pierre-sage-under-pressure-how-crystal-palace-and-last-seasons-ligue-1-manager-of-the-year-are-both-suffering",
-      "source": "Sky Sports",
+      "title": "Goodwillie prosecutors 'wrong' not to put footballer on trial for rape, court hears",
+      "description": "Denise Clair has brought a case for a private criminal prosecution against the footballer, who was ruled to have raped her by a civil court.",
+      "link": "https://www.bbc.co.uk/news/articles/c6z9dppxxyxpo",
+      "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-12T12:44:00+00:00"
-    },
-    {
-      "title": "Palace sack Sage - reaction and send in your thoughts LIVE!",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-12T12:35:00+00:00"
-    },
-    {
-      "title": "Crystal Palace sack Sage",
-      "description": "Crystal Palace have sacked manager Pierre Sage after just 16 matches.",
-      "link": "https://www.skysports.com/football/news/11095/13606476/pierre-sage-crystal-palace-sack-manager-with-club-bottom-of-premier-league-table-after-10-matches",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-12T12:30:00+00:00"
+      "pubDateISO": "2026-11-12T17:31:02+00:00"
     },
     {
       "title": "Crystal Palace sack boss Sage after 16 games",
@@ -66,52 +102,16 @@
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-12T12:23:47+00:00"
+      "pubDateISO": "2026-11-12T17:15:20+00:00"
     },
     {
-      "title": "Spain boss denies Lamine Yamal gets 'special privileges'",
-      "description": "Spain head coach Luis de la Fuente denies claims Lamine Yamal received \"special privileges\" after being allowed to join the national team later than the rest of the squad.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm0qjekqzwp0o",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-11-12T11:31:54+00:00"
-    },
-    {
-      "title": "Six matches that defined Carrick's Man Utd tenure",
-      "description": "BBC Sport looks back at the six Premier League matches that defined the highs and lows of Michael Carrick's 10-month spell in charge of Manchester United.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c5ev37egv97mo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-12T11:25:46+00:00"
-    },
-    {
-      "title": "Transfer Centre LIVE! 'The four players Carrick wanted Man Utd to sign'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/12476234/transfer-centre-live-football-transfer-news-updates-and-rumours",
-      "source": "Sky Sports",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-11-12T11:19:00+00:00"
-    },
-    {
-      "title": "How Carrick's reign unravelled",
-      "description": "<a href='https://www.skysports.com/football/news/13606106/man-utd-sack-michael-carrick-with-mauricio-pochettino-set-to-be-appointed-after-worst-start-to-premier-league-season'>Michael Carrick has been sacked as Manchester United head coach</a>, so how did his Old Trafford reign go so wrong, so quickly?",
-      "link": "https://www.skysports.com/football/news/11095/13602738/michael-carrick-sacked-by-man-utd-how-his-old-trafford-reign-unravelled-in-worst-start-to-a-season-in-40-years",
+      "title": "UEFA Nations League: All you need to know",
+      "description": "The UEFA Nations League is back for its fifth edition, with 54 European countries competing for silverware, promotion and a potentially crucial route to Euro 2028.",
+      "link": "https://www.skysports.com/football/news/11095/13611545/uefa-nations-league-format-rules-promotion-and-relegation-explained-and-how-it-affects-euro-2028-qualifying",
       "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-12T10:50:00+00:00"
-    },
-    {
-      "title": "Carrick sacked by Man Utd",
-      "description": "Michael Carrick has been sacked as Manchester United head coach with Mauricio Pochettino lined up to replace him.",
-      "link": "https://www.skysports.com/football/news/11095/13606106/man-utd-sack-michael-carrick-with-mauricio-pochettino-set-to-be-appointed-after-worst-start-to-premier-league-season",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-12T10:27:00+00:00"
+      "pubDateISO": "2026-11-12T17:09:00+00:00"
     }
   ]
 }
