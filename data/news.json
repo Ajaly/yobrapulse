@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-11-11T23:15:16.591203+00:00",
+  "generatedAt": "2026-11-12T05:17:53.927930+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Euro Leagues",
+      "description": "John Bennett is joined by Rafa Honigstein and Julien Laurens",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pmj6yk",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-11-11T23:08:00+00:00"
+    },
     {
       "title": "Papers: Arsenal, Chelsea and Liverpool chase Bournemouth star Scott",
       "description": "The top stories and transfer rumours from Thursday's newspapers...",
@@ -103,15 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-11T17:22:00+00:00"
-    },
-    {
-      "title": "Man Utd strike Pochettino agreement with Carrick set to depart",
-      "description": "Manchester United have reached a verbal agreement in principle with Mauricio Pochettino to take over as head coach.",
-      "link": "https://www.skysports.com/football/news/11095/13610949/mauricio-pochettino-man-utd-strike-agreement-with-michael-carricks-potential-successor",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-11T17:00:00+00:00"
     }
   ]
 }
