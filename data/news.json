@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-11-14T00:04:26.857445+00:00",
+  "generatedAt": "2026-11-14T07:16:44.748521+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "What does a Pochettino team look like?",
+      "description": "<a href='https://www.skysports.com/football/news/13610882/mauricio-pochettino-appointed-as-manchester-united-head-coach-after-michael-carricks-sacking-at-old-trafford'>Mauricio Pochettino has been named Manchester United's new manager</a> following the sacking of Michael Carrick, so what can supporters actually expect on the pitch?",
+      "link": "https://www.skysports.com/football/news/11095/13611443/mauricio-pochettino-to-man-utd-what-does-a-pochettino-team-look-like-and-how-will-he-set-up-struggling-red-devils",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-14T07:00:00+00:00"
+    },
+    {
+      "title": "How a reunion with scout Bompastor solved Chelsea's striker issue",
+      "description": "Chelsea striker Melvine Malard and manager Sonia Bompastor tell the story of their 12-year footballing relationship.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5lyey8p8yv4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-14T06:37:49+00:00"
+    },
+    {
+      "title": "How a reunion with scout Bompastor solved Chelsea's striker issue",
+      "description": "Chelsea striker Melvine Malard and manager Sonia Bompastor tell the story of their 12-year footballing relationship.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5lyey8p8yv4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-14T06:37:49+00:00"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your football knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6n83ld3le95o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-14T06:27:36+00:00"
+    },
     {
       "title": "Ferguson 'made up' with first win as Glentoran boss",
       "description": "Glentoran manager Duncan Ferguson said he is \"made up\" with his first three points on his home debut, after a 2-1 win over Bangor.",
@@ -76,42 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-13T22:11:27+00:00"
-    },
-    {
-      "title": "Man Utd want Paz, Chelsea target Kounde - Saturday's gossip",
-      "description": "Manchester United are targeting Como midfielder Nico Paz as new manager Mauricio Pochettino prepares to receive backing in the transfer market at Old Trafford.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-11-13T22:05:14+00:00"
-    },
-    {
-      "title": "Dowman breaks record after making England U21s debut in loss to Portugal",
-      "description": "Max Dowman broke Jude Bellingham's record to become the youngest player to represent England at U21 level but could not stop Lee Carsley's side from falling to a 1-0 loss against Portugal.",
-      "link": "https://www.skysports.com/football/england-u21-vs-portugal-u21/report/578797",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-13T22:00:00+00:00"
-    },
-    {
-      "title": "McGinn double seals win for ragged Scotland",
-      "description": "John McGinn's double rescued Scotland as they toiled to a 2-1 win over North Macedonia to keep their Nations League promotion hopes alive.",
-      "link": "https://www.skysports.com/football/scotland-vs-north-macedonia/report/554098",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-13T21:35:00+00:00"
-    },
-    {
-      "title": "'It's a shootout' - Wales out to derail stuttering Norway",
-      "description": "Norway's golden generation host Wales in a crunch Nations League clash on Saturday, aiming to end a rare losing streak for Erling Haaland and company.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck9871qr76gmo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-13T19:59:40+00:00"
     }
   ]
 }
