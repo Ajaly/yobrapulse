@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T23:40:36.832328+00:00",
+  "generatedAt": "2026-11-16T04:14:45.835389+00:00",
   "source": "Fantasy Premier League API (fantasy.premierleague.com)",
   "currentSeason": "2026/27",
   "gameweek": {
@@ -1048,6 +1048,50 @@
         "homeWinPct": 59,
         "drawPct": 23,
         "awayWinPct": 18
+      },
+      {
+        "id": "401882787",
+        "home": "Valencia",
+        "away": "Osasuna",
+        "kickoffISO": "2026-11-29T13:00Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 13:00 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 47,
+        "drawPct": 25,
+        "awayWinPct": 28
+      },
+      {
+        "id": "401882794",
+        "home": "Deportivo",
+        "away": "Barcelona",
+        "kickoffISO": "2026-11-29T15:15Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 15:15 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
+      },
+      {
+        "id": "401882795",
+        "home": "Celta Vigo",
+        "away": "Villarreal",
+        "kickoffISO": "2026-11-29T17:30Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 17:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 39,
+        "drawPct": 26,
+        "awayWinPct": 35
+      },
+      {
+        "id": "401882788",
+        "home": "Real Sociedad",
+        "away": "Sevilla",
+        "kickoffISO": "2026-11-29T20:00Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 20:00 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 46,
+        "drawPct": 25,
+        "awayWinPct": 29
       }
     ],
     "Serie A": [
@@ -1204,6 +1248,50 @@
         "homeWinPct": 60,
         "drawPct": 23,
         "awayWinPct": 17
+      },
+      {
+        "id": "401875031",
+        "home": "Udinese",
+        "away": "Fiorentina",
+        "kickoffISO": "2026-11-29T11:30Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 11:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 48,
+        "drawPct": 25,
+        "awayWinPct": 27
+      },
+      {
+        "id": "401874992",
+        "home": "Sassuolo",
+        "away": "Napoli",
+        "kickoffISO": "2026-11-29T14:00Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 14:00 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 36,
+        "drawPct": 26,
+        "awayWinPct": 38
+      },
+      {
+        "id": "401874769",
+        "home": "AS Roma",
+        "away": "Monza",
+        "kickoffISO": "2026-11-29T17:00Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 17:00 UTC",
+        "hasRealStrengthData": false,
+        "homeWinPct": 45,
+        "drawPct": 25,
+        "awayWinPct": 30
+      },
+      {
+        "id": "401874994",
+        "home": "Como",
+        "away": "Juventus",
+        "kickoffISO": "2026-11-29T19:45Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 19:45 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 46,
+        "drawPct": 25,
+        "awayWinPct": 29
       }
     ],
     "Bundesliga": [
@@ -1371,6 +1459,39 @@
         "homeWinPct": 51,
         "drawPct": 24,
         "awayWinPct": 25
+      },
+      {
+        "id": "401884724",
+        "home": "SC Freiburg",
+        "away": "RB Leipzig",
+        "kickoffISO": "2026-11-29T14:30Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 14:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 39,
+        "drawPct": 26,
+        "awayWinPct": 35
+      },
+      {
+        "id": "401884725",
+        "home": "TSG Hoffenheim",
+        "away": "FC Augsburg",
+        "kickoffISO": "2026-11-29T16:30Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 16:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 51,
+        "drawPct": 24,
+        "awayWinPct": 25
+      },
+      {
+        "id": "401884727",
+        "home": "Borussia Dortmund",
+        "away": "Bayer Leverkusen",
+        "kickoffISO": "2026-11-29T18:30Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 18:30 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 50,
+        "drawPct": 24,
+        "awayWinPct": 26
       }
     ],
     "Ligue 1": [
@@ -1538,6 +1659,39 @@
         "homeWinPct": 56,
         "drawPct": 23,
         "awayWinPct": 21
+      },
+      {
+        "id": "401876393",
+        "home": "AJ Auxerre",
+        "away": "Marseille",
+        "kickoffISO": "2026-11-29T14:00Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 14:00 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 36,
+        "drawPct": 26,
+        "awayWinPct": 38
+      },
+      {
+        "id": "401876386",
+        "home": "Toulouse",
+        "away": "Stade Rennais",
+        "kickoffISO": "2026-11-29T16:15Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 16:15 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 40,
+        "drawPct": 26,
+        "awayWinPct": 34
+      },
+      {
+        "id": "401876389",
+        "home": "Lyon",
+        "away": "AS Monaco",
+        "kickoffISO": "2026-11-29T19:45Z",
+        "kickoffLabel": "Sun 29 Nov \u00b7 19:45 UTC",
+        "hasRealStrengthData": true,
+        "homeWinPct": 47,
+        "drawPct": 25,
+        "awayWinPct": 28
       }
     ]
   },
@@ -2870,7 +3024,7 @@
         }
       ],
       "squadRating": 3.44,
-      "squadValue": "\u00a3169.0m",
+      "squadValue": "\u00a3168.9m",
       "leagueRank": 18,
       "strengthHome": 2,
       "strengthAway": 2,
@@ -6381,7 +6535,7 @@
       "avatar": "NJ",
       "avatarClass": "orange-avatar",
       "price": "\u00a37.1m",
-      "owned": "31.4%",
+      "owned": "31.5%",
       "points": 54,
       "epNext": 8.8,
       "form": 8.8,
@@ -6939,7 +7093,7 @@
       "avatar": "JG",
       "avatarClass": "pink-avatar",
       "price": "\u00a35.6m",
-      "owned": "22.5%",
+      "owned": "22.4%",
       "points": 44,
       "epNext": 0.6,
       "form": 0.8,
@@ -9473,7 +9627,7 @@
       "fdrClass": "easy"
     }
   },
-  "totalManagers": 11295565,
+  "totalManagers": 11295753,
   "totalPlayers": 672,
   "priceMovement": {
     "risers": [
@@ -9758,45 +9912,45 @@
     "rising": [
       {
         "id": "166",
-        "netTransfersEvent": 330153
+        "netTransfersEvent": 331053
       },
       {
         "id": "79",
-        "netTransfersEvent": 217163
+        "netTransfersEvent": 217681
       },
       {
         "id": "249",
-        "netTransfersEvent": 206349
+        "netTransfersEvent": 206543
       },
       {
         "id": "112",
-        "netTransfersEvent": 184651
+        "netTransfersEvent": 185030
       },
       {
         "id": "504",
-        "netTransfersEvent": 166505
+        "netTransfersEvent": 166914
       }
     ],
     "falling": [
       {
         "id": "165",
-        "netTransfersEvent": -337865
+        "netTransfersEvent": -338520
       },
       {
         "id": "391",
-        "netTransfersEvent": -308032
+        "netTransfersEvent": -308623
       },
       {
         "id": "388",
-        "netTransfersEvent": -155483
+        "netTransfersEvent": -155828
       },
       {
         "id": "346",
-        "netTransfersEvent": -113617
+        "netTransfersEvent": -113828
       },
       {
         "id": "106",
-        "netTransfersEvent": -107786
+        "netTransfersEvent": -108048
       }
     ]
   }
