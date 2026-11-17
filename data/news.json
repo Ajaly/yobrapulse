@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-11-16T23:09:09.024356+00:00",
+  "generatedAt": "2026-11-17T06:00:00.043446+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "What's the story with Scotland boss Pocognoli - is it time to go?",
+      "description": "The sense of drift in this Scotland team can't go on much longer. Is it too late for Sebastien Pocognoli to win back players and fans?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crgqx1zz94d4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-17T00:19:58+00:00"
+    },
+    {
+      "title": "What's the story with Pocognoli, is it now time to go?",
+      "description": "The sense of drift in this Scotland team can't go on much longer. Is it too late for Sebastien Pocognoli to win back players and fans?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crgqx1zz94d4o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-17T00:19:58+00:00"
+    },
     {
       "title": "Pocognoli wants patience but Scotland 'don't have time' says Robertson",
       "description": "Angry captain Andy Robertson says Scotland do not have time to turn things around after a brutal 4-0 defeat by Switzerland consigns them to a third-place finish in their Nations League group.",
@@ -22,6 +40,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-11-16T22:36:26+00:00"
+    },
+    {
+      "title": "Robertson makes history with record 103rd Scotland cap",
+      "description": "Andy Robertson has broken the record for the most senior Scotland men's team caps, surpassing the feat held by Sir Kenny Dalglish for 40 years.",
+      "link": "https://www.skysports.com/football/news/11095/13612913/andy-robertson-scotland-captain-breaks-national-appearance-record-by-winning-103rd-senior-cap-vs-switzerland",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-16T22:30:00+00:00"
     },
     {
       "title": "Watch as Scotland slump to 4-0 defeat in Switzerland",
@@ -51,8 +78,8 @@
       "pubDateISO": "2026-11-16T22:06:32+00:00"
     },
     {
-      "title": "Robertson breaks caps record and speaks out after Scotland's bruising loss to Switzerland",
-      "description": "Andy Robertson created Scotland history then delievered a scathing assessment of their Nations League collapse against Switzerland.",
+      "title": "Record-breaker Robertson speaks out after Scotland's bad loss to Switzerland",
+      "description": "Andy Robertson created Scotland history, then delivered a scathing assessment of their Nations League collapse against Switzerland.",
       "link": "https://www.skysports.com/football/switzerland-vs-scotland/report/554127",
       "source": "Sky Sports",
       "category": "club",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-16T21:08:06+00:00"
-    },
-    {
-      "title": "Swansea in fight to keep Matos amid Strasbourg interest",
-      "description": "Vitor Matos has emerged as a target for French top-flight club Strasbourg who could soon part ways with Hugo Oliveira.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqly47zn8xlgo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-16T21:01:50+00:00"
-    },
-    {
-      "title": "BBC Women's Football Weekly",
-      "description": "Manchester City star Vivianne Miedema joins Ellen and Ben to discuss her WSL comeback.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pnb81q",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-11-16T19:58:00+00:00"
-    },
-    {
-      "title": "Robertson makes history with record 103rd Scotland cap",
-      "description": "Andy Robertson has broken the record for the most senior Scotland men's team caps, surpassing the feat held by Sir Kenny Dalglish for 40 years.",
-      "link": "https://www.skysports.com/football/news/11095/13612913/andy-robertson-scotland-captain-breaks-national-appearance-record-by-winning-103rd-senior-cap-vs-switzerland",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-16T19:47:00+00:00"
     }
   ]
 }
