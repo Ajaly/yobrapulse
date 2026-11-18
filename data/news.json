@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-11-17T23:16:21.652294+00:00",
+  "generatedAt": "2026-11-18T05:29:35.203476+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Belief and bench steer Northern Ireland into Nations League top tier",
+      "description": "Manager Michael O'Neill hails the belief shown by his side after they come from behind against Hungary to earn the draw required for promotion to Nations League A.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwp9dxr80p3po",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-17T23:49:31+00:00"
+    },
+    {
+      "title": "Bellamy convinced of Wales credentials despite defeat by Portugal",
+      "description": "Wales finished bottom of their Nations League group, but boss Craig Bellamy believes his team showed they belong in the top flight.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmn507wn6gg3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-17T23:37:45+00:00"
+    },
+    {
+      "title": "Republic of Ireland talisman Parrott caps dream year with two more goals",
+      "description": "Republic of Ireland striker Troy Parrott reflects on a transformative 12 months for both club and country after scoring a double in the win against Kosovo.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cqzjr3yr2z0eo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-17T23:10:33+00:00"
+    },
     {
       "title": "Papers: Poch to appoint Man Utd's first-ever female coach",
       "description": "The top stories and transfer rumours from Wednesday's newspapers...",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-17T21:02:57+00:00"
-    },
-    {
-      "title": "'A great of the club' - Rangers legend Brand dies aged 89",
-      "description": "Rangers have paid tribute to Ralph Brand, one of the most prolific goalscorers in the club's history, who has died aged 89.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c933g4eegmp8o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-17T21:02:57+00:00"
-    },
-    {
-      "title": "Millwall open disciplinary proceedings against Baker",
-      "description": "Millwall are undertaking disciplinary proceedings against forward Benicio Baker, BBC Sport understands.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6m2lelll4n1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-17T20:00:52+00:00"
-    },
-    {
-      "title": "Madrid-bound Gabriel posts farewell Man Utd message",
-      "description": "TeenagerJJ Gabriel posts a farewell message saying Manchester United will always be part of his story, as he prepares for a likely move to Real Madrid.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-11-17T19:35:06+00:00"
     }
   ]
 }
