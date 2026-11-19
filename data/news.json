@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-11-18T22:26:34.513108+00:00",
+  "generatedAt": "2026-11-19T03:55:59.971656+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Man Utd pursuing Como's Paz - Thursday's gossip",
+      "description": "Manchester United pursuing Nico Paz, Besiktas plot move for Amad Diallo, Barcelona to rebuff offers for Alejandro Balde, plus more.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxnv4q2qnvjvo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-18T22:34:05+00:00"
+    },
     {
       "title": "Buurman rescues late Chelsea win against PSG",
       "description": "Veerle Buurman scores an 87th-minute winner for Chelsea as they edge past Paris St-Germain 1-0 in the Women's Champions League to move top of the table.",
@@ -13,6 +22,15 @@
       "category": "transfer",
       "categoryLabel": "Transfer",
       "pubDateISO": "2026-11-18T22:13:49+00:00"
+    },
+    {
+      "title": "Euro Leagues",
+      "description": "Who makes the list of the Top 10 European Strikers of the Century so far?",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pnqxmx",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-18T22:06:00+00:00"
     },
     {
       "title": "Chelsea snatch late winner vs PSG to move top of WCL table",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-18T19:10:21+00:00"
-    },
-    {
-      "title": "From kit boy to manager at 28 - Dumbarton appoint Fellowes",
-      "description": "Martin Fellowes becomes the youngest manager in SPFL history, taking on the Dumbarton job at the age of 28.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c61k9mz9vvkyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-18T19:09:00+00:00"
-    },
-    {
-      "title": "From kit boy to manager at 28 - Dumbarton appoint Fellowes",
-      "description": "Martin Fellowes becomes the youngest manager in SPFL history, taking on the Dumbarton job at the age of 28.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c61k9mz9vvkyo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-18T19:09:00+00:00"
     }
   ]
 }
