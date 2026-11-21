@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-11-21T00:33:50.822784+00:00",
+  "generatedAt": "2026-11-21T07:55:04.691554+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjwy5d3lxvkzo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-21T06:50:31+00:00"
+    },
+    {
+      "title": "Jeers, injuries and doubters - White's journey back to the top",
+      "description": "When Ben White wheeled away after scoring England's third goal against world champions Spain, it was more than just a strike which ended up being the winner in a special win.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cv7028xeler2o",
+      "source": "BBC Sport",
+      "category": "injury",
+      "categoryLabel": "Injury",
+      "pubDateISO": "2026-11-21T06:17:32+00:00"
+    },
     {
       "title": "Papers: Osimhen ready to listen to Man Utd offers",
       "description": "The top stories and transfer rumours from Saturday's newspapers...",
@@ -94,24 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-20T20:15:00+00:00"
-    },
-    {
-      "title": "Osimhen keen on Man Utd move - Saturday's gossip",
-      "description": "Victor Osimhen is keen on a move to Manchester United, Aston Villa are interested in Amad Diallo and Ivan Toney is a target for Crystal Palace, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c60qj1924wyeo",
-      "source": "BBC Sport",
-      "category": "transfer",
-      "categoryLabel": "Transfer",
-      "pubDateISO": "2026-11-20T20:06:51+00:00"
-    },
-    {
-      "title": "Drones, data and Bruno - Pochettino on his early Man Utd challenges",
-      "description": "Mauricio Pochettino has questioned what could have been gained from the drone footage of a Manchester United training session ahead of his first game in charge against Liverpool.",
-      "link": "https://www.skysports.com/football/news/11095/13614363/mauricio-pochettino-manchester-united-head-coach-discusses-drone-footage-his-approach-to-data-and-bruno-fernandes-ahead-of-first-game",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-20T20:00:00+00:00"
     }
   ]
 }
