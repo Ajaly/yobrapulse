@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T07:55:06.098552+00:00",
+  "generatedAt": "2026-11-21T15:50:53.071746+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -30,11 +30,11 @@
           "rank": 3,
           "team": "Manchester City",
           "shortTeam": "Man City",
-          "played": 10,
+          "played": 11,
           "wins": 7,
-          "draws": 0,
+          "draws": 1,
           "losses": 3,
-          "points": 21
+          "points": 22
         },
         {
           "rank": 4,
@@ -138,6 +138,16 @@
         },
         {
           "rank": 14,
+          "team": "Fulham",
+          "shortTeam": "Fulham",
+          "played": 11,
+          "wins": 2,
+          "draws": 5,
+          "losses": 4,
+          "points": 11
+        },
+        {
+          "rank": 15,
           "team": "Ipswich Town",
           "shortTeam": "Ipswich",
           "played": 10,
@@ -145,16 +155,6 @@
           "draws": 2,
           "losses": 5,
           "points": 11
-        },
-        {
-          "rank": 15,
-          "team": "Fulham",
-          "shortTeam": "Fulham",
-          "played": 10,
-          "wins": 2,
-          "draws": 4,
-          "losses": 4,
-          "points": 10
         },
         {
           "rank": 16,
@@ -464,12 +464,12 @@
           "name": "Hull City"
         },
         {
-          "id": "373",
-          "name": "Ipswich Town"
-        },
-        {
           "id": "370",
           "name": "Fulham"
+        },
+        {
+          "id": "373",
+          "name": "Ipswich Town"
         },
         {
           "id": "393",
@@ -569,22 +569,22 @@
         },
         {
           "rank": 8,
+          "team": "Alav\u00e9s",
+          "shortTeam": "Alav\u00e9s",
+          "played": 13,
+          "wins": 4,
+          "draws": 4,
+          "losses": 5,
+          "points": 16
+        },
+        {
+          "rank": 9,
           "team": "Villarreal",
           "shortTeam": "Villarreal",
           "played": 12,
           "wins": 4,
           "draws": 3,
           "losses": 5,
-          "points": 15
-        },
-        {
-          "rank": 9,
-          "team": "Deportivo",
-          "shortTeam": "Deportivo",
-          "played": 12,
-          "wins": 3,
-          "draws": 6,
-          "losses": 3,
           "points": 15
         },
         {
@@ -599,6 +599,16 @@
         },
         {
           "rank": 11,
+          "team": "Deportivo",
+          "shortTeam": "Deportivo",
+          "played": 13,
+          "wins": 3,
+          "draws": 6,
+          "losses": 4,
+          "points": 15
+        },
+        {
+          "rank": 12,
           "team": "Racing Santander",
           "shortTeam": "Racing",
           "played": 12,
@@ -608,23 +618,13 @@
           "points": 14
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": "Celta Vigo",
           "shortTeam": "Celta Vigo",
           "played": 12,
           "wins": 2,
           "draws": 7,
           "losses": 3,
-          "points": 13
-        },
-        {
-          "rank": 13,
-          "team": "Alav\u00e9s",
-          "shortTeam": "Alav\u00e9s",
-          "played": 12,
-          "wins": 3,
-          "draws": 4,
-          "losses": 5,
           "points": 13
         },
         {
@@ -931,16 +931,20 @@
           "name": "Athletic Club"
         },
         {
+          "id": "96",
+          "name": "Alav\u00e9s"
+        },
+        {
           "id": "102",
           "name": "Villarreal"
         },
         {
-          "id": "90",
-          "name": "Deportivo"
-        },
-        {
           "id": "88",
           "name": "Espanyol"
+        },
+        {
+          "id": "90",
+          "name": "Deportivo"
         },
         {
           "id": "87",
@@ -949,10 +953,6 @@
         {
           "id": "85",
           "name": "Celta Vigo"
-        },
-        {
-          "id": "96",
-          "name": "Alav\u00e9s"
         },
         {
           "id": "101",
