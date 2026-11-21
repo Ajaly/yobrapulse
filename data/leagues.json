@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T18:56:16.250399+00:00",
+  "generatedAt": "2026-11-21T00:33:52.853920+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -561,10 +561,10 @@
           "rank": 7,
           "team": "Athletic Club",
           "shortTeam": "Athletic",
-          "played": 11,
+          "played": 12,
           "wins": 4,
           "draws": 4,
-          "losses": 3,
+          "losses": 4,
           "points": 16
         },
         {
@@ -589,6 +589,16 @@
         },
         {
           "rank": 10,
+          "team": "Espanyol",
+          "shortTeam": "Espanyol",
+          "played": 13,
+          "wins": 4,
+          "draws": 3,
+          "losses": 6,
+          "points": 15
+        },
+        {
+          "rank": 11,
           "team": "Racing Santander",
           "shortTeam": "Racing",
           "played": 12,
@@ -598,7 +608,7 @@
           "points": 14
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": "Celta Vigo",
           "shortTeam": "Celta Vigo",
           "played": 12,
@@ -608,7 +618,7 @@
           "points": 13
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": "Alav\u00e9s",
           "shortTeam": "Alav\u00e9s",
           "played": 12,
@@ -616,16 +626,6 @@
           "draws": 4,
           "losses": 5,
           "points": 13
-        },
-        {
-          "rank": 13,
-          "team": "Espanyol",
-          "shortTeam": "Espanyol",
-          "played": 12,
-          "wins": 3,
-          "draws": 3,
-          "losses": 6,
-          "points": 12
         },
         {
           "rank": 14,
@@ -939,6 +939,10 @@
           "name": "Deportivo"
         },
         {
+          "id": "88",
+          "name": "Espanyol"
+        },
+        {
           "id": "87",
           "name": "Racing Santander"
         },
@@ -949,10 +953,6 @@
         {
           "id": "96",
           "name": "Alav\u00e9s"
-        },
-        {
-          "id": "88",
-          "name": "Espanyol"
         },
         {
           "id": "101",
@@ -1483,11 +1483,11 @@
           "rank": 1,
           "team": "Bayern Munich",
           "shortTeam": "Bayern",
-          "played": 9,
+          "played": 10,
           "wins": 6,
-          "draws": 3,
+          "draws": 4,
           "losses": 0,
-          "points": 21
+          "points": 22
         },
         {
           "rank": 2,
@@ -1611,18 +1611,18 @@
         },
         {
           "rank": 14,
-          "team": "FC Augsburg",
-          "shortTeam": "Augsburg",
-          "played": 9,
+          "team": "FC Cologne",
+          "shortTeam": "Cologne",
+          "played": 10,
           "wins": 2,
-          "draws": 3,
+          "draws": 4,
           "losses": 4,
-          "points": 9
+          "points": 10
         },
         {
           "rank": 15,
-          "team": "FC Cologne",
-          "shortTeam": "Cologne",
+          "team": "FC Augsburg",
+          "shortTeam": "Augsburg",
           "played": 9,
           "wins": 2,
           "draws": 3,
@@ -1897,12 +1897,12 @@
           "name": "SC Paderborn 07"
         },
         {
-          "id": "3841",
-          "name": "FC Augsburg"
-        },
-        {
           "id": "122",
           "name": "FC Cologne"
+        },
+        {
+          "id": "3841",
+          "name": "FC Augsburg"
         },
         {
           "id": "598",
@@ -2044,6 +2044,16 @@
         },
         {
           "rank": 13,
+          "team": "Troyes",
+          "shortTeam": "Troyes",
+          "played": 11,
+          "wins": 3,
+          "draws": 2,
+          "losses": 6,
+          "points": 11
+        },
+        {
+          "rank": 14,
           "team": "Strasbourg",
           "shortTeam": "Strasbourg",
           "played": 10,
@@ -2053,7 +2063,7 @@
           "points": 10
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team": "AJ Auxerre",
           "shortTeam": "Auxerre",
           "played": 10,
@@ -2063,7 +2073,7 @@
           "points": 10
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "Le Mans",
           "shortTeam": "Le Mans",
           "played": 10,
@@ -2073,19 +2083,9 @@
           "points": 8
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "Angers",
           "shortTeam": "Angers",
-          "played": 10,
-          "wins": 2,
-          "draws": 2,
-          "losses": 6,
-          "points": 8
-        },
-        {
-          "rank": 17,
-          "team": "Troyes",
-          "shortTeam": "Troyes",
           "played": 10,
           "wins": 2,
           "draws": 2,
@@ -2096,10 +2096,10 @@
           "rank": 18,
           "team": "Le Havre AC",
           "shortTeam": "Le Havre AC",
-          "played": 10,
+          "played": 11,
           "wins": 0,
           "draws": 2,
-          "losses": 8,
+          "losses": 9,
           "points": 2
         }
       ],
@@ -2336,6 +2336,10 @@
           "name": "Toulouse"
         },
         {
+          "id": "170",
+          "name": "Troyes"
+        },
+        {
           "id": "180",
           "name": "Strasbourg"
         },
@@ -2350,10 +2354,6 @@
         {
           "id": "7868",
           "name": "Angers"
-        },
-        {
-          "id": "170",
-          "name": "Troyes"
         },
         {
           "id": "3236",
