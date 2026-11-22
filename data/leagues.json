@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T21:24:05.753467+00:00",
+  "generatedAt": "2026-11-22T01:50:53.682673+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -511,11 +511,11 @@
           "rank": 2,
           "team": "Real Madrid",
           "shortTeam": "Real Madrid",
-          "played": 12,
-          "wins": 10,
+          "played": 13,
+          "wins": 11,
           "draws": 0,
           "losses": 2,
-          "points": 30
+          "points": 33
         },
         {
           "rank": 3,
@@ -621,10 +621,10 @@
           "rank": 13,
           "team": "Celta Vigo",
           "shortTeam": "Celta Vigo",
-          "played": 12,
+          "played": 13,
           "wins": 2,
           "draws": 7,
-          "losses": 3,
+          "losses": 4,
           "points": 13
         },
         {
@@ -1060,6 +1060,16 @@
         },
         {
           "rank": 8,
+          "team": "Napoli",
+          "shortTeam": "Napoli",
+          "played": 12,
+          "wins": 5,
+          "draws": 3,
+          "losses": 4,
+          "points": 18
+        },
+        {
+          "rank": 9,
           "team": "Bologna",
           "shortTeam": "Bologna",
           "played": 11,
@@ -1069,7 +1079,7 @@
           "points": 17
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team": "Cagliari",
           "shortTeam": "Cagliari",
           "played": 12,
@@ -1079,19 +1089,9 @@
           "points": 16
         },
         {
-          "rank": 10,
-          "team": "Napoli",
-          "shortTeam": "Napoli",
-          "played": 11,
-          "wins": 4,
-          "draws": 3,
-          "losses": 4,
-          "points": 15
-        },
-        {
           "rank": 11,
-          "team": "Torino",
-          "shortTeam": "Torino",
+          "team": "Atalanta",
+          "shortTeam": "Atalanta",
           "played": 11,
           "wins": 4,
           "draws": 2,
@@ -1100,12 +1100,12 @@
         },
         {
           "rank": 12,
-          "team": "Atalanta",
-          "shortTeam": "Atalanta",
-          "played": 11,
+          "team": "Torino",
+          "shortTeam": "Torino",
+          "played": 12,
           "wins": 4,
           "draws": 2,
-          "losses": 5,
+          "losses": 6,
           "points": 14
         },
         {
@@ -1422,6 +1422,10 @@
           "name": "Juventus"
         },
         {
+          "id": "114",
+          "name": "Napoli"
+        },
+        {
           "id": "107",
           "name": "Bologna"
         },
@@ -1430,16 +1434,12 @@
           "name": "Cagliari"
         },
         {
-          "id": "114",
-          "name": "Napoli"
+          "id": "105",
+          "name": "Atalanta"
         },
         {
           "id": "239",
           "name": "Torino"
-        },
-        {
-          "id": "105",
-          "name": "Atalanta"
         },
         {
           "id": "3263",
@@ -1936,10 +1936,10 @@
           "rank": 2,
           "team": "Lille",
           "shortTeam": "Lille",
-          "played": 10,
+          "played": 11,
           "wins": 6,
           "draws": 3,
-          "losses": 1,
+          "losses": 2,
           "points": 21
         },
         {
@@ -1954,6 +1954,16 @@
         },
         {
           "rank": 4,
+          "team": "Lyon",
+          "shortTeam": "Lyon",
+          "played": 11,
+          "wins": 6,
+          "draws": 2,
+          "losses": 3,
+          "points": 20
+        },
+        {
+          "rank": 5,
           "team": "Marseille",
           "shortTeam": "Marseille",
           "played": 10,
@@ -1963,17 +1973,17 @@
           "points": 18
         },
         {
-          "rank": 5,
-          "team": "Lyon",
-          "shortTeam": "Lyon",
-          "played": 10,
+          "rank": 6,
+          "team": "Brest",
+          "shortTeam": "Brest",
+          "played": 11,
           "wins": 5,
-          "draws": 2,
+          "draws": 3,
           "losses": 3,
-          "points": 17
+          "points": 18
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team": "Nice",
           "shortTeam": "Nice",
           "played": 11,
@@ -1983,17 +1993,17 @@
           "points": 17
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team": "AS Monaco",
           "shortTeam": "Monaco",
-          "played": 10,
+          "played": 11,
           "wins": 4,
-          "draws": 4,
+          "draws": 5,
           "losses": 2,
-          "points": 16
+          "points": 17
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team": "Stade Rennais",
           "shortTeam": "Rennes",
           "played": 10,
@@ -2001,16 +2011,6 @@
           "draws": 1,
           "losses": 4,
           "points": 16
-        },
-        {
-          "rank": 9,
-          "team": "Brest",
-          "shortTeam": "Brest",
-          "played": 10,
-          "wins": 4,
-          "draws": 3,
-          "losses": 3,
-          "points": 15
         },
         {
           "rank": 10,
@@ -2026,21 +2026,21 @@
           "rank": 11,
           "team": "Lens",
           "shortTeam": "Lens",
-          "played": 10,
+          "played": 11,
           "wins": 4,
-          "draws": 1,
+          "draws": 2,
           "losses": 5,
-          "points": 13
+          "points": 14
         },
         {
           "rank": 12,
           "team": "Toulouse",
           "shortTeam": "Toulouse",
-          "played": 10,
+          "played": 11,
           "wins": 3,
-          "draws": 4,
+          "draws": 5,
           "losses": 3,
-          "points": 13
+          "points": 14
         },
         {
           "rank": 13,
@@ -2054,22 +2054,22 @@
         },
         {
           "rank": 14,
-          "team": "Strasbourg",
-          "shortTeam": "Strasbourg",
-          "played": 10,
+          "team": "AJ Auxerre",
+          "shortTeam": "Auxerre",
+          "played": 11,
           "wins": 3,
-          "draws": 1,
+          "draws": 2,
           "losses": 6,
-          "points": 10
+          "points": 11
         },
         {
           "rank": 15,
-          "team": "AJ Auxerre",
-          "shortTeam": "Auxerre",
-          "played": 10,
+          "team": "Strasbourg",
+          "shortTeam": "Strasbourg",
+          "played": 11,
           "wins": 3,
           "draws": 1,
-          "losses": 6,
+          "losses": 7,
           "points": 10
         },
         {
@@ -2300,12 +2300,16 @@
           "name": "Paris FC"
         },
         {
+          "id": "167",
+          "name": "Lyon"
+        },
+        {
           "id": "176",
           "name": "Marseille"
         },
         {
-          "id": "167",
-          "name": "Lyon"
+          "id": "6997",
+          "name": "Brest"
         },
         {
           "id": "2502",
@@ -2318,10 +2322,6 @@
         {
           "id": "169",
           "name": "Stade Rennais"
-        },
-        {
-          "id": "6997",
-          "name": "Brest"
         },
         {
           "id": "273",
@@ -2340,12 +2340,12 @@
           "name": "Troyes"
         },
         {
-          "id": "180",
-          "name": "Strasbourg"
-        },
-        {
           "id": "172",
           "name": "AJ Auxerre"
+        },
+        {
+          "id": "180",
+          "name": "Strasbourg"
         },
         {
           "id": "2697",
