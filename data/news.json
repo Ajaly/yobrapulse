@@ -1,10 +1,109 @@
 {
-  "generatedAt": "2026-11-22T01:50:52.837822+00:00",
+  "generatedAt": "2026-11-22T09:11:46.425966+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "'Not the right time' - Fernandes pauses Man Utd contract talks",
+      "description": "Manchester United captain Bruno Fernandes says he has been offered a new contract by the club but feels it \"is not the right time\" for discussions about his future.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T08:41:20+00:00"
+    },
+    {
+      "title": "Scottish Football Podcast",
+      "description": "Scotland head coach Mel Andreatta on Scotland, Sweden and chasing her World Cup dream.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0pp1j7j",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T08:00:00+00:00"
+    },
+    {
+      "title": "Bellingham stars as Real Madrid produce DRAMATIC late comeback against Celta Vigo!",
+      "description": "Highlights of the La Liga match between Real Madrid and Celta Vigo.",
+      "link": "https://www.skysports.com/watch/video/13615140/real-madrid-2-1-celta-vigo-la-liga-highlights",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T07:20:00+00:00"
+    },
+    {
+      "title": "Who am I? Guess WSL star No 13",
+      "description": "Work out the identity of today's player in as few attempts as possible.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq770yn580j3o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T07:19:58+00:00"
+    },
+    {
+      "title": "Why Arsenal are behind in race for Champions League spots",
+      "description": "Arsenal were open about their aim to win the WSL this season but they find themselves well adrift - where have things gone wrong?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8752llr1ed1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T07:17:10+00:00"
+    },
+    {
+      "title": "Why Arsenal are behind in race for Champions League spots",
+      "description": "Arsenal were open about their aim to win the WSL this season but they find themselves well adrift - where have things gone wrong?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c8752llr1ed1o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T07:17:10+00:00"
+    },
+    {
+      "title": "Argentina midfielder Paredes collapses during TV interview",
+      "description": "World Cup winning midfielder Leandro Paredes collapses while giving a post-match interview minutes after winning a trophy with Boca Juniors.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwnv45818z59o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T07:13:34+00:00"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "description": "Test your football knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq0l31gw1809o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T07:12:55+00:00"
+    },
+    {
+      "title": "Fernandes: Man Utd have offered new deal but now is not time for talks",
+      "description": "Bruno Fernandes exclusively told <em>Sky Sports </em>that Manchester United have offered him a new contract but he has put discussions on hold as he insists the club's priority must be returning to winning ways.",
+      "link": "https://www.skysports.com/football/news/11095/13614990/bruno-fernandes-man-utd-captain-confirms-contract-offer-but-says-negotiations-are-on-hold",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T07:00:00+00:00"
+    },
+    {
+      "title": "'He will see what Man Utd are made of' - Pulis on Pochettino's first game",
+      "description": "BBC Sport columnist Tony Pulis explains how new Manchester United boss Mauricio Pochettino will prepare for Sunday's game against Liverpool after only a few days with his squad.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckqx5w58dgv7o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T06:21:55+00:00"
+    },
+    {
+      "title": "Wales boss Wilkinson rules out Fishlock return",
+      "description": "Rhian Wilkinson has not considered asking Jess Fishlock to come out of retirement for the Women's World Cup play-off final against Norway.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckzd9n5j9mj9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T05:12:04+00:00"
+    },
     {
       "title": "'Unbelievable' - how Spurs teenager Williams-Barnett impressed on first start",
       "description": "Match of the Day pundit Joe Hart explains how teenager Luca Williams-Barnett caused problems for Ipswich Town on his first Premier League start for Tottenham in their 2-0 home win.",
@@ -13,105 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-22T00:13:01+00:00"
-    },
-    {
-      "title": "I wish referee had opportunity to see 'handball' again - Hart",
-      "description": "Match of the Day pundits Joe Hart and Alan Shearer disagree with Morgan Rogers being penalised for handball, as the Chelsea forward \"didn't make himself bigger\" with the use of his arms in his side's 4-1 defeat to Leeds United in the Premier League.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cme3dvk1kzgqo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-22T00:08:13+00:00"
-    },
-    {
-      "title": "Naderi's 'lucky punch' keeps Rangers in touch",
-      "description": "On a Saturday laden with Scottish Premiership goals, Ryan Naderi's was far from the most impressive - but vital for Rangers all the same.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckzd930mjp1po",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-22T00:01:31+00:00"
-    },
-    {
-      "title": "London City keep up title hunt with emphatic win over Crystal Palace",
-      "description": "London City Lionesses stay in the hunt for the Women's Super League title, with a statement second-half performance to give them a 6-2 win over Crystal Palace.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c6n83rrknrj2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-21T23:14:10+00:00"
-    },
-    {
-      "title": "'They looked like a team again' - Hearts  roar back with Dundee demolition",
-      "description": "After a worrying week before the international break, Hearts respond is style by thrashing Dundee 8-0 at Dens Park.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm9w98y28djno",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-21T22:45:05+00:00"
-    },
-    {
-      "title": "Spurs latest: 'Williams-Barnett has to be given assist for my goal!' says Solanke",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-21T22:37:00+00:00"
-    },
-    {
-      "title": "De Zerbi compares Williams-Barnett to Lamine Yamal - who is Spurs teen?",
-      "description": "Tottenham boss Roberto De Zerbi was not surprised by a dazzling full-debut display from &#8220;special&#8221; talent Luca Williams-Barnett and compared the 18-year-old to Barcelona&#8217;s Lamine Yamal after Saturday&#8217;s 2-0 win over Ipswich.",
-      "link": "https://www.skysports.com/football/news/11095/13615058/luca-williams-barnett-tottenham-boss-roberto-de-zerbi-compares-teenager-to-lamine-yamal-after-ipswich-heroics",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-21T22:15:00+00:00"
-    },
-    {
-      "title": "Raya set to have scan on injury - how much would Arsenal miss him?",
-      "description": "Arsenal goalkeeper David Raya is set to have a scan on his shoulder after going off injured during Saturday's 2-2 draw with Newcastle.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckx28w9ree9vo",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-11-21T21:14:08+00:00"
-    },
-    {
-      "title": "Euro latest: PSG's Doue suffers serious knee injury",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-11-21T21:00:00+00:00"
-    },
-    {
-      "title": "Hirst key for Stoke, injuries derail Millwall - Sam Parkin's EFL takeaways",
-      "description": "After the last international break of the year, Final score pundit and former Swindon Town, Luton Town and Northampton Town striker selects his takeaways from the Championship, League One and League Two.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6r7g8253e3yo",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-21T20:36:43+00:00"
-    },
-    {
-      "title": "AC Milan monitoring Man Utd's Fernandes - Sunday's gossip",
-      "description": "AC Milan monitoring Manchester United midfielder Bruno Fernandes, Arsenal pair yet to start talks on new deals and Trabzonspor renew interest in Tottenham forward Richarlison, plus more.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cq8j4e8nlvm1o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-21T20:35:12+00:00"
-    },
-    {
-      "title": "Arsenal latest: Arteta gives update on Raya injury",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-11-21T20:33:00+00:00"
     }
   ]
 }
