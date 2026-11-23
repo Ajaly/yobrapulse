@@ -1,18 +1,45 @@
 {
-  "generatedAt": "2026-11-22T23:04:19.950417+00:00",
+  "generatedAt": "2026-11-23T05:08:45.494631+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "Match of the Day",
-      "description": "Highlights of Liverpool v Manchester United and Hull City v Brighton.",
-      "link": "https://www.bbc.co.uk/iplayer/live/bbcone",
+      "title": "Did Liverpool 'get lucky' with red card decision?",
+      "description": "Match of the Day pundits Danny Murphy and Ashley Young believe that Liverpool were perhaps \"lucky\" when Manchester United's Leny Yoro was sent off in the 8th-minute at Anfield.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cq23jmklrj33o",
       "source": "BBC Sport",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-22T23:22:56+00:00"
+      "pubDateISO": "2026-11-22T23:59:59+00:00"
+    },
+    {
+      "title": "How 'outstanding' Tzolakis kept Brighton at bay",
+      "description": "Match of the Day pundit Danny Murphy looks at how Hull goalkeeper Konstantinos Tzolakis was able to thwart high-flying Brighton in their 2-0 win over the Seagulls at the MKM Stadium.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cm702nzyl8pzo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T23:59:57+00:00"
+    },
+    {
+      "title": "A 'wow' player - why Ngumoha is already a Liverpool game-changer",
+      "description": "Match of the Day pundit Danny Murphy explains how Rio Ngumoha showed everyone what he is capable of in Liverpool's 4-0 win over Manchester United.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmn80y5w84qqo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-22T23:20:16+00:00"
+    },
+    {
+      "title": "Football Daily",
+      "description": "Dale Johnson & Umir Irfan join Rick & Lloyd after Man Utd\u2019s 4-0 defeat at Liverpool.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0ppcw2v",
+      "source": "BBC Sport",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-11-22T23:14:00+00:00"
     },
     {
       "title": "Ref Watch: Send in your questions for Dermot!",
@@ -85,33 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-22T20:25:00+00:00"
-    },
-    {
-      "title": "Slegers takes responsibility as Arsenal boss faces more questions on future",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-22T20:20:00+00:00"
-    },
-    {
-      "title": "McBurnie stoppage-time double earns Hull win over 10-man Brighton",
-      "description": "Oli McBurnie's stoppage-time double earns victory for Hull City against second-placed Brighton in the Premier League.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/ck62pzzezqz2o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-22T19:59:38+00:00"
-    },
-    {
-      "title": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
-      "description": "Mauricio Pochettino's reign as Manchester United head coach begins in desperate fashion as his team are thrashed by rivals Liverpool to remain in the Premier League relegation zone.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/c933g77knz00o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-22T19:59:35+00:00"
     }
   ]
 }
