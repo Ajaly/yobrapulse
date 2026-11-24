@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T17:02:57.811767+00:00",
+  "generatedAt": "2026-11-24T03:42:11.045243+00:00",
   "source": "ESPN (site.api.espn.com)",
   "leagues": [
     {
@@ -58,8 +58,8 @@
         },
         {
           "rank": 6,
-          "team": "Leeds United",
-          "shortTeam": "Leeds",
+          "team": "Brentford",
+          "shortTeam": "Brentford",
           "played": 11,
           "wins": 4,
           "draws": 5,
@@ -68,13 +68,13 @@
         },
         {
           "rank": 7,
-          "team": "Everton",
-          "shortTeam": "Everton",
-          "played": 10,
+          "team": "Leeds United",
+          "shortTeam": "Leeds",
+          "played": 11,
           "wins": 4,
-          "draws": 4,
+          "draws": 5,
           "losses": 2,
-          "points": 16
+          "points": 17
         },
         {
           "rank": 8,
@@ -88,6 +88,16 @@
         },
         {
           "rank": 9,
+          "team": "Everton",
+          "shortTeam": "Everton",
+          "played": 11,
+          "wins": 4,
+          "draws": 4,
+          "losses": 3,
+          "points": 16
+        },
+        {
+          "rank": 10,
           "team": "Tottenham Hotspur",
           "shortTeam": "Spurs",
           "played": 11,
@@ -95,16 +105,6 @@
           "draws": 3,
           "losses": 4,
           "points": 15
-        },
-        {
-          "rank": 10,
-          "team": "Brentford",
-          "shortTeam": "Brentford",
-          "played": 10,
-          "wins": 3,
-          "draws": 5,
-          "losses": 2,
-          "points": 14
         },
         {
           "rank": 11,
@@ -432,24 +432,24 @@
           "name": "AFC Bournemouth"
         },
         {
-          "id": "357",
-          "name": "Leeds United"
+          "id": "337",
+          "name": "Brentford"
         },
         {
-          "id": "368",
-          "name": "Everton"
+          "id": "357",
+          "name": "Leeds United"
         },
         {
           "id": "363",
           "name": "Chelsea"
         },
         {
-          "id": "367",
-          "name": "Tottenham Hotspur"
+          "id": "368",
+          "name": "Everton"
         },
         {
-          "id": "337",
-          "name": "Brentford"
+          "id": "367",
+          "name": "Tottenham Hotspur"
         },
         {
           "id": "306",
@@ -639,6 +639,16 @@
         },
         {
           "rank": 15,
+          "team": "Levante",
+          "shortTeam": "Levante",
+          "played": 13,
+          "wins": 2,
+          "draws": 6,
+          "losses": 5,
+          "points": 12
+        },
+        {
+          "rank": 16,
           "team": "Rayo Vallecano",
           "shortTeam": "Rayo",
           "played": 12,
@@ -648,7 +658,7 @@
           "points": 12
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "Valencia",
           "shortTeam": "Valencia",
           "played": 13,
@@ -658,7 +668,7 @@
           "points": 12
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "Getafe",
           "shortTeam": "Getafe",
           "played": 13,
@@ -668,24 +678,14 @@
           "points": 12
         },
         {
-          "rank": 18,
-          "team": "Levante",
-          "shortTeam": "Levante",
-          "played": 12,
-          "wins": 2,
-          "draws": 5,
-          "losses": 5,
-          "points": 11
-        },
-        {
           "rank": 19,
           "team": "Elche",
           "shortTeam": "Elche",
-          "played": 12,
+          "played": 13,
           "wins": 2,
-          "draws": 4,
+          "draws": 5,
           "losses": 6,
-          "points": 10
+          "points": 11
         },
         {
           "rank": 20,
@@ -959,6 +959,10 @@
           "name": "Celta Vigo"
         },
         {
+          "id": "1538",
+          "name": "Levante"
+        },
+        {
           "id": "101",
           "name": "Rayo Vallecano"
         },
@@ -969,10 +973,6 @@
         {
           "id": "2922",
           "name": "Getafe"
-        },
-        {
-          "id": "1538",
-          "name": "Levante"
         },
         {
           "id": "3751",
@@ -1120,6 +1120,16 @@
         },
         {
           "rank": 14,
+          "team": "Monza",
+          "shortTeam": "Monza",
+          "played": 12,
+          "wins": 3,
+          "draws": 1,
+          "losses": 8,
+          "points": 10
+        },
+        {
+          "rank": 15,
           "team": "Lecce",
           "shortTeam": "Lecce",
           "played": 12,
@@ -1129,17 +1139,17 @@
           "points": 10
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "Fiorentina",
           "shortTeam": "Fiorentina",
-          "played": 11,
+          "played": 12,
           "wins": 2,
           "draws": 3,
-          "losses": 6,
+          "losses": 7,
           "points": 9
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "Parma",
           "shortTeam": "Parma",
           "played": 12,
@@ -1149,7 +1159,7 @@
           "points": 8
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "Sassuolo",
           "shortTeam": "Sassuolo",
           "played": 12,
@@ -1157,16 +1167,6 @@
           "draws": 2,
           "losses": 8,
           "points": 8
-        },
-        {
-          "rank": 18,
-          "team": "Monza",
-          "shortTeam": "Monza",
-          "played": 11,
-          "wins": 2,
-          "draws": 1,
-          "losses": 8,
-          "points": 7
         },
         {
           "rank": 19,
@@ -1446,6 +1446,10 @@
           "name": "Torino"
         },
         {
+          "id": "4007",
+          "name": "Monza"
+        },
+        {
           "id": "113",
           "name": "Lecce"
         },
@@ -1460,10 +1464,6 @@
         {
           "id": "3997",
           "name": "Sassuolo"
-        },
-        {
-          "id": "4007",
-          "name": "Monza"
         },
         {
           "id": "118",
