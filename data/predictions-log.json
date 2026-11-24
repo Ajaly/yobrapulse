@@ -1966,10 +1966,11 @@
         "awayWinPct": 16
       },
       "loggedAt": "2026-11-08T19:16:37.054749+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "1 \u2014 1"
     },
     {
       "id": 101,
@@ -1987,10 +1988,11 @@
         "awayWinPct": 20
       },
       "loggedAt": "2026-11-08T19:16:37.054757+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "0 \u2014 0"
     },
     {
       "id": 102,
@@ -2008,10 +2010,11 @@
         "awayWinPct": 26
       },
       "loggedAt": "2026-11-08T19:16:37.054760+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 104,
@@ -2029,10 +2032,11 @@
         "awayWinPct": 23
       },
       "loggedAt": "2026-11-08T19:16:37.054762+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "away",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "1 \u2014 4"
     },
     {
       "id": 105,
@@ -2050,10 +2054,11 @@
         "awayWinPct": 33
       },
       "loggedAt": "2026-11-08T19:16:37.054764+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "3 \u2014 2"
     },
     {
       "id": 110,
@@ -2071,10 +2076,11 @@
         "awayWinPct": 17
       },
       "loggedAt": "2026-11-08T19:16:37.054766+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 109,
@@ -2092,10 +2098,11 @@
         "awayWinPct": 59
       },
       "loggedAt": "2026-11-08T19:16:37.054768+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "draw",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "2 \u2014 2"
     },
     {
       "id": 106,
@@ -2113,10 +2120,11 @@
         "awayWinPct": 62
       },
       "loggedAt": "2026-11-08T19:16:37.054772+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": false,
+      "marketCorrect": false,
+      "actualScore": "2 \u2014 0"
     },
     {
       "id": 107,
@@ -2134,10 +2142,11 @@
         "awayWinPct": 22
       },
       "loggedAt": "2026-11-08T19:16:37.054774+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "4 \u2014 0"
     },
     {
       "id": 103,
@@ -2155,10 +2164,11 @@
         "awayWinPct": 27
       },
       "loggedAt": "2026-11-08T19:16:37.054777+00:00",
-      "resolved": false,
-      "actualResult": null,
-      "modelCorrect": null,
-      "marketCorrect": null
+      "resolved": true,
+      "actualResult": "home",
+      "modelCorrect": true,
+      "marketCorrect": true,
+      "actualScore": "4 \u2014 0"
     },
     {
       "id": 119,
