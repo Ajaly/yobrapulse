@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-11-24T23:42:39.499895+00:00",
+  "generatedAt": "2026-11-25T06:28:24.520723+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
+    {
+      "title": "Are Manchester United this season's Tottenham?",
+      "description": "Tottenham escaped an unthinkable Premier League relegation last season on the final day, but are Man Utd in danger of being the new Spurs?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj4gndepk312o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-25T06:22:36+00:00"
+    },
+    {
+      "title": "Rangers 'dug it out' despite naivety & complacency - McInnes",
+      "description": "Rangers manager Derek McInnes says his team's naivety and complacency made their task more difficult in their thrilling 3-2 win over Aberdeen, but hails their ability to get the job done.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw808pyyxgzjo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-25T01:20:53+00:00"
+    },
+    {
+      "title": "Bellingham plays down Zidane comparison after wonder goal",
+      "description": "Jose Mourinho says Jude Bellingham is the best midfielder in the world, but the Real Madrid star played down comparisons to Zinedine Zidane.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c893r9kdwl91o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-24T23:54:10+00:00"
+    },
+    {
+      "title": "Arteta says Arsenal need more luck to kill off games",
+      "description": "Arsenal need more luck to kill off games says manager Mikel Arteta after they are held to a draw by Borussia Dortmund.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3ewv0kdjlp9o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-24T23:44:04+00:00"
+    },
     {
       "title": "Sportsound reaction to thriller at Ibrox",
       "description": "Reaction to big wins for Rangers and Hibs",
@@ -33,6 +69,24 @@
       "pubDateISO": "2026-11-24T23:02:00+00:00"
     },
     {
+      "title": "Arsenal punished for bluntless in attack - but Man City also have problems",
+      "description": "Arsenal face Manchester City in a blockbuster Premier League contest this weekend, but in recent days and months, both teams have issues to overcome.",
+      "link": "https://www.skysports.com/football/news/11095/13616234/arsenal-and-manchester-citys-problems-analysed-as-both-set-to-meet-in-bumper-premier-league-clash-this-weekend",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-24T22:54:00+00:00"
+    },
+    {
+      "title": "'You question everything' - Haaland lays City's frustrations bare",
+      "description": "Erling Haaland has admitted Manchester City's poor form is affecting the players, admitting \"when you don't win, you question everything\" after they were held 2-2 at home by Napoli in the Champions League.",
+      "link": "https://www.skysports.com/football/news/11095/13616226/erling-haaland-frustrated-with-manchester-city-form-when-you-dont-win-you-question-everything",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-24T22:51:00+00:00"
+    },
+    {
       "title": "Real Madrid top CL table as Bellingham scores stunner in thumping PSV win",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
@@ -58,60 +112,6 @@
       "category": "club",
       "categoryLabel": "Club news",
       "pubDateISO": "2026-11-24T22:05:31+00:00"
-    },
-    {
-      "title": "Wasteful Arsenal held by Borussia Dortmund",
-      "description": "Arsenal were punished for failing to take their chances for the second game in a row as Maximilian Beier clinched a 1-1 draw for Borussia Dortmund in the Champions League.",
-      "link": "https://www.skysports.com/football/arsenal-vs-borussia-dortmund/report/577669",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-24T21:56:00+00:00"
-    },
-    {
-      "title": "Poch fumes at Yoro red and thinks Szoboszlai goal shouldn't have stood",
-      "description": "Mauricio Pochettino has heavily criticised VAR in Manchester United's loss at Liverpool after Leny Yoro's red card was overturned, while the Argentine believes Dominik Szoboszlai&#8217;s opener should not have stood.",
-      "link": "https://www.skysports.com/football/news/11095/13616134/mauricio-pochettino-man-utd-boss-fumes-at-var-in-liverpool-loss-over-leny-yoro-and-dominik-szoboszlai-calls",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-24T21:50:00+00:00"
-    },
-    {
-      "title": "Parker still winless as Portsmouth beat West Ham",
-      "description": "Scott Parker's winless start to life as West Ham boss continued as Odin Bailey netted his first Portsmouth goal in a 1-0 victory at Fratton Park.",
-      "link": "https://www.skysports.com/football/portsmouth-vs-west-ham-united/report/560695",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-24T21:35:00+00:00"
-    },
-    {
-      "title": "Lankshear steers Boro back to the top of the Championship",
-      "description": "Will Lankshear was back among the goals as Middlesbrough cemented their position at the top of the Championship with a 2-1 win over Swansea City.",
-      "link": "https://www.skysports.com/football/middlesbrough-vs-swansea-city/report/560693",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-24T21:35:00+00:00"
-    },
-    {
-      "title": "Oxford beat Spurs U21s to seal EFL Trophy progress",
-      "description": "Aaron Ramsey's Oxford United beat Tottenham Under-21s to secure one of the final two Jersey Mike's Trophy knockout spots.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cmx20qn1dqv2o",
-      "source": "BBC Sport",
-      "category": "injury",
-      "categoryLabel": "Injury",
-      "pubDateISO": "2026-11-24T21:08:09+00:00"
-    },
-    {
-      "title": "Man Utd target Collins - Wednesday's gossip",
-      "description": "Manchester United target Brentford defender Nathan Collins, Bournemouth price forward Eli Junior Kroupi at \u00a3100m and Liverpool close in on new Rio Ngumoha contract.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm15en5je9eko",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-24T20:51:44+00:00"
     }
   ]
 }
