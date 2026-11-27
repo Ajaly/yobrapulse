@@ -1,117 +1,117 @@
 {
-  "generatedAt": "2026-11-27T11:39:57.656896+00:00",
+  "generatedAt": "2026-11-27T20:32:48.244565+00:00",
   "sources": [
     "BBC Sport",
     "Sky Sports"
   ],
   "items": [
     {
-      "title": "EFL preview: Happy Potters and the deathly Hammers",
-      "description": "BBC Sport explores five things to capture your attention this EFL weekend.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cry49dpy9zdyo",
-      "source": "BBC Sport",
+      "title": "'It's a WORLDIE!' - Igor Jesus shocks Chelsea with stunning volley",
+      "description": "Igor Jesus volleys home a stunning opener to give Nottingham Forest the lead against Chelsea.",
+      "link": "https://www.skysports.com/watch/video/13617329/goal-i-jesus-5-nottm-forest-1-0-chelsea",
+      "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T11:03:43+00:00"
+      "pubDateISO": "2026-11-27T20:10:00+00:00"
     },
     {
-      "title": "Botman banned from driving for using phone at wheel",
-      "description": "The Newcastle United defender was given a six-month ban at Newcastle Magistrates' Court.",
-      "link": "https://www.bbc.co.uk/news/articles/c6wy43d3ry12o",
-      "source": "BBC Sport",
+      "title": "Transfer Centre LIVE! Bowen to discuss West Ham future if promotion bid fails",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/12476234/transfer-centre-live-football-transfer-news-updates-and-rumours",
+      "source": "Sky Sports",
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-11-27T18:54:00+00:00"
+    },
+    {
+      "title": "Stunning Igor Jesus volley gives Forest early lead vs Chelsea LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/nottingham-forest-vs-chelsea/live/559562",
+      "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T10:34:09+00:00"
+      "pubDateISO": "2026-11-27T18:30:00+00:00"
     },
     {
-      "title": "Clashes mar European games as Macron condemns violence",
-      "description": "Violent clashes mar a number of European football matches on Thursday night, with French president Emmanuel Macron condemning trouble at Marseille's home game against Levski Sofia.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo",
-      "source": "BBC Sport",
+      "title": "Saints hit bar after Lankshear misses chance for Middlesbrough LIVE!",
+      "description": "",
+      "link": "https://www.skysports.com/football/southampton-vs-middlesbrough/live/560709",
+      "source": "Sky Sports",
       "category": "club",
       "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T10:24:24+00:00"
+      "pubDateISO": "2026-11-27T18:30:00+00:00"
     },
     {
-      "title": "Aston Villa latest: 'Club open to letting Garnacho leave in January'",
+      "title": "Man City latest: 'We must go through these bumps to be a better team,' says Maresca",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-27T18:00:00+00:00"
+    },
+    {
+      "title": "Aston Villa latest: Club open to terminating Garnacho loan",
       "description": "",
       "link": "https://www.skysports.com/football/live-blog/11095/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T10:23:00+00:00"
+      "category": "transfer",
+      "categoryLabel": "Transfer",
+      "pubDateISO": "2026-11-27T18:00:00+00:00"
     },
     {
-      "title": "'Massive for both' - Saints and Boro revisit Spygate rivalry",
-      "description": "Southampton and Middlesbrough prepare to re-ignite their rivalry as they meet for the first time since the Spygate scandal unfolded.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckp809ledgpdo",
+      "title": "Emery praises Garnacho attitude after Villa selection snub",
+      "description": "Aston Villa boss Unai Emery praises Alejandro Garnacho's \"fantastic attitude\" but suggests other players rank ahead of him for selection.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cwp9d4eg4n2xo",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-27T17:42:00+00:00"
+    },
+    {
+      "title": "Arsenal latest: Arteta gives Raya update with Odegaard confident on new deal",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-27T17:41:00+00:00"
+    },
+    {
+      "title": "VOTE: Were Arsenal right to sack Slegers?",
+      "description": "",
+      "link": "https://www.skysports.com/football/live-blog/11095/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
+      "source": "Sky Sports",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-27T16:35:00+00:00"
+    },
+    {
+      "title": "Head coach Slegers leaves Arsenal 18 months after Champions League win",
+      "description": "Arsenal part company with head coach Renee Slegers by mutual consent after a disappointing start to the season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmy49d5kpw78o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-27T16:14:34+00:00"
+    },
+    {
+      "title": "Head coach Slegers leaves Arsenal 18 months after Champions League win",
+      "description": "Arsenal part company with head coach Renee Slegers by mutual consent after a disappointing start to the season.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cmy49d5kpw78o",
+      "source": "BBC Sport",
+      "category": "club",
+      "categoryLabel": "Club news",
+      "pubDateISO": "2026-11-27T16:14:34+00:00"
+    },
+    {
+      "title": "Spurs' Savio to miss festive fixtures after injury setback",
+      "description": "Tottenham winger Savio will miss the club's Christmas fixtures with injury and could be out for up to 80 days, manager Roberto de Zerbi confirms.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw4gnm4p3zxlo",
       "source": "BBC Sport",
       "category": "injury",
       "categoryLabel": "Injury",
-      "pubDateISO": "2026-11-27T10:11:58+00:00"
-    },
-    {
-      "title": "The English Lamine Yamal? Why Williams-Barnett is getting Spurs fans excited",
-      "description": "To earn comparisons to Lamine Yamal after just three Premier League appearances might seem a little far-fetched, but Roberto De Zerbi showed no hesitation.",
-      "link": "https://www.skysports.com/football/news/11095/13616313/why-sky-is-the-limit-for-luca-williams-barnett-as-roberto-de-zerbi-makes-lamine-yamal-comparisons",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T10:00:00+00:00"
-    },
-    {
-      "title": "Brighton's perfect blend: The duo key to Seagulls' rise",
-      "description": "It was a painful Sunday afternoon at Hull, but by the time Brighton pair Luka Vuskovic&#160;and Pascal Gross arrived at the beachside restaurant on Tuesday, you got the impression they didn't need too much of the bracing near-frozen sea air to boost the mood.",
-      "link": "https://www.skysports.com/football/news/11095/13616787/pascal-gross-and-luka-vuskovic-helping-drive-fabian-hurzelers-brighton-and-their-stunning-premier-league-start",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T10:00:00+00:00"
-    },
-    {
-      "title": "'Man Utd being relegated would be biggest shock in history... but it won't happen'",
-      "description": "In his latest <em>Sky Sports </em>column, Paul Merson previews a big weekend for Manchester United, before Arsenal take on Manchester City in a huge game live this Sunday.",
-      "link": "https://www.skysports.com/football/news/11095/13616882/man-utd-being-relegated-would-be-the-biggest-shock-in-history-but-it-wont-happen-says-paul-merson",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T09:00:00+00:00"
-    },
-    {
-      "title": "Man Utd latest: 'Como star Paz on list of replacements for Fernandes'",
-      "description": "",
-      "link": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T08:46:00+00:00"
-    },
-    {
-      "title": "Why Cambridgeshire derby could be season-defining",
-      "description": "Peterborough United and Cambridge United are set for a potentially season-defining local derby at London Road.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cxlyl3v8p5e0o",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T08:25:44+00:00"
-    },
-    {
-      "title": "Podcast: Tynecastle showdown & Rangers face flying Falkirk - weekend preview",
-      "description": "Another criticial weekend of SPFL action with a huge grudge match at Tynecastle.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0pq69mt",
-      "source": "BBC Sport",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T08:00:00+00:00"
-    },
-    {
-      "title": "Hull should be in League One, says xG - so how do they keep winning?",
-      "description": "Hull aren't doing much wrong as a newly promoted club so far. A great start to the campaign has them middle of the Premier League table, clear of the relegation zone and unbeaten at home all season.",
-      "link": "https://www.skysports.com/football/news/11095/13616834/hull-city-should-be-in-league-one-this-season-according-to-expected-goals-so-how-do-the-tigers-keep-winning-in-the-premier-league",
-      "source": "Sky Sports",
-      "category": "club",
-      "categoryLabel": "Club news",
-      "pubDateISO": "2026-11-27T08:00:00+00:00"
+      "pubDateISO": "2026-11-27T16:05:30+00:00"
     }
   ]
 }
